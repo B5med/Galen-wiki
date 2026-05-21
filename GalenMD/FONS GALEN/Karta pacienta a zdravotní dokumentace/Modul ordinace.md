@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/35684353
 
 V tomto modulu probíhá 90% práce lékaře s programem. Pracuje se zde se zdravotnickou dokumentací pacientů. Zde se zapisují dekurzy, anamnézy, vyšetření, očkování, vystavují recepty, neschopenky, vyplňují formuláře, vykazují výkony pro pojišťovnu, …
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/att_6_for_35684353.png]]
+![](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/att_6_for_35684353.png>)
 Modul se spouští kliknutím na ikonu v základním menu, popř. stisknutím klávesy Enter hned po přihlášení. Po otevření modulu se zobrazí kartotéka s ikonami nejdůležitějších funkcí:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-QhpCUYRt-xi2WZuaqc2W-swJWHf75H-Vhk0avL8EjcvYgaMvL6n4oAW9DXqszsyR2VnZBD1dJSBFzb6Xn3Gu_05rEfRlFTEoR-S6S_IE_0lTfSWOdY9YXoq0IrZEyX5F6KBcPQ?key=B72kwxRIztKWx5UrSHvB6w)
@@ -63,6 +63,6 @@ Ikona uživatele slouží k individuálnímu nastavení programu přihlášenéh
 
 V menu Zabezpečení lze měnit uživatelské heslo. Systémové informace jsou údaje určené pro technickou podporu. Menu Přístroje umožňuje nastavit komunikaci s externími aplikacemi a přístroji. V záložce Certifikáty uživatel vkládá své certifikáty, případně hesla.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/image-20250811-091043.png]]
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/image-20250709-134554.png]]
+![image-20250811-091043.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/image-20250811-091043.png>)
+![image-20250709-134554.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/image-20250709-134554.png>)
 Ikona Echo a Upozornění informuje uživatele o příchozích zprávách systému IS Galen. Zde může uživatel pravidelně vidět popisy k pravidelně vyvíjeným Novinkám systému IS Galen, urgentní důležitá upozornění apod. Červené číslo v pravém dolním rohu ikony informuje uživatele o počtu nových nepřečtených zpráv. V tomto okně najde uživatel také modul Upozornění, který je nadstandardní funkcionalitou a umožňuje uživatelům zakládat si navzájem (dle uživatelských oprávnění) upozornění, měnit stav splnění zadaných úkolů apod.

@@ -12,14 +12,14 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/193396737
 
 Info panel pacienta zobrazíme téměř ve všech oknech FONS Galen. Slouží k nahlížení či kopírování informací o pacientovi. V případě, že je nastaveno nahlížení na informace z jiného pracoviště, budou se zde zobrazovat i informace z jiného pracoviště.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/image-20251211-084800.png]]
+![image-20251211-084800.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/image-20251211-084800.png>)
 **(1) Sbalit**
 
 Volba *Sbalit* se zobrazuje v každé sekci. Pokud je checkbox zaškrtnut, bude sekce ve výchozím zobrazení info panelu sbalena. Uživatel ji klikem může rozbalit.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/11260bb1-35e9-45d7-a232-78b53b4e737b.png]]
+![11260bb1-35e9-45d7-a232-78b53b4e737b.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/11260bb1-35e9-45d7-a232-78b53b4e737b.png>)
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/c0219b9b-8997-4a9b-91ba-5e08856db623.png]]
+![c0219b9b-8997-4a9b-91ba-5e08856db623.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/assets/c0219b9b-8997-4a9b-91ba-5e08856db623.png>)
 
 **(2)**Obsah některých sekcí je možné pouze zobrazit.
 

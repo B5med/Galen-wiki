@@ -9,13 +9,13 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53149737
 
 Modul očkování se standardně zobrazuje na pracovištích odbornosti s odborností praktický lékař, pediatr, gynekolog. V případě jiných specialistů je možné tento modul zaktivnit ve Správci - Správa organizace – na vybraném pracovišti v UI konfiguraci.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102829.png]]
+![image-20250623-102829.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102829.png>)
 Na kartě očkování zadáme očkování kliknutím na tlačítko vlevo nahoře “+ Očkovat” (očkování v rámci kurativy), příp. “+ PLS” (očkování v rámci PLS). Přes tato tlačítka můžeme zadat očkování včetně vykázání výkonu a látky na pojišťovnu, nebo zadat očkování bez vykázání výkonu.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102857.png]]
+![image-20250623-102857.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102857.png>)
 Po stisku tlačítka Očkovat se zobrazí okno s nabídkou očkovacích látek.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102912.png]]
+![image-20250623-102912.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102912.png>)
 **Oblíbené** – OL, které uživatel na pracovišti označil hvězdičkou.
 
 Tato záložka může být zaměněna za záložku
@@ -26,12 +26,12 @@ Tato záložka může být zaměněna za záložku
 
 **Všechny**– aktivní (modré tlačítko) i neaktivní (šedé tlačítko) OL. Pokud uživatel využívá skladů, tak nenaskladněné OL jsou označeny symbolem.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102946.png]]
+![image-20250623-102946.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102946.png>)
 Vybereme očkovací látku a necháme se provést celým očkovacích procesem. V AIS Galen jsou přednastaveny očkovací schémata a očkovací varianty.
 
 V případě, že chceme do systému zadat pouze očkování bez vykázání výkonu a očkovací látky na pojišťovnu - označíte pole “Doplnit bez vykázání výkonu”. slouží ke zjednodušenému zápisu očkování, kdy se zadává pouze datum, očkovací látka, pořadí očkování a datum příštího očkování. Slouží víceméně pouze k evidenci termínů očkování a používá se především k zapsání již minulých očkován.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103004.png]]
+![image-20250623-103004.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103004.png>)
 Očkovací schéma vychází ze SPC dané OL nebo z metodiky očkování, které definují v kolika dávkách a v jakém rozmezí má být OL podána.
 
 Možnost „Bez schématu“ slouží k zadání očkování, u kterého nebude sledována další možná návaznost.
@@ -56,11 +56,11 @@ Lékař vybere požadovanou očkovací variantu – ve spodní části se mu zob
 
 V části “Výběr položek ceníku” jsou uvedeny položky, které si lékař nadefinoval sám k danému očkování v modulu nadstandardní péče.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103057.png]]
+![image-20250623-103057.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103057.png>)
 Varianta očkování specifikuje, jakým způsobem je aplikace a OL hrazena.
 
 Ve spodní části okna může uživatel definovat sortiment, který chce účtovat přímo pacientovi.
 
 Přes tl. “Dále” se dostane lékař do záložky, kde uvádí šarži a expiraci dané očkovací látky. V případě, že dané pracoviště využívá **nadstandardní placený modul “sklady”** zobrazí se látky, které jsou na skladě dle požadovaného očkovacího schématu a očkovací varianty.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103113.png]]
+![image-20250623-103113.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-103113.png>)

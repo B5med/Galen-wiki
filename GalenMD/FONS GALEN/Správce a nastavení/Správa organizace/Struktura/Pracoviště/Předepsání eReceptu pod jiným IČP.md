@@ -11,7 +11,7 @@ V konfiguraci pracoviště je možné nastavit, aby se eRecepty předepisovaly p
 
 Správce ->  Správa organizace -> výběr konkrétního pracoviště ve struktuře organizace
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Předepsání eReceptu pod jiným IČP/assets/image-20250917-074833.png]]
+![image-20250917-074833.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Předepsání eReceptu pod jiným IČP/assets/image-20250917-074833.png>)
 (A)    Je IČP, pod kterým se eRecept standardně předepisuje
 
 (B)    Je IČP, pod kterým se mají eRecepty předepisovat. Pokud je nevyplněno, předepisuje se pod IČP (A)

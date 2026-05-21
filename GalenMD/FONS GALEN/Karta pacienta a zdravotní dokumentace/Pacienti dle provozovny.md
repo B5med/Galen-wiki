@@ -30,9 +30,9 @@ Funkcionalitu lze zapnout v konfiguraci společnosti. Následně se v konfigur
 2. Uživatel vyplní údaje provozovny.
 3. Údaje potvrdí tlačítkem OK.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-074820.png]]
+![image-20250901-074820.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-074820.png>)
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-074848.png]]
+![image-20250901-074848.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-074848.png>)
 
 #### Editace provozovny
 
@@ -66,7 +66,7 @@ V uživatelském nastavení lze nastavit výchozí provozovnu.
 
 3. Uživatel výběr potvrdí tlačítkem OK.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075125.png]]
+![image-20250901-075125.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075125.png>)
 
 ## Kartotéka
 
@@ -76,7 +76,7 @@ V kartotéce je položka „Zobrazit jen provozovnu“ a výběr ze seznamu pr
 
 V seznamu je dostupná také volba „Nepřiřazení“. Po jejím zvolení se zobrazí pacienti, kteří nejsou přiřazeni k žádné provozovně.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075149.png]]
+![image-20250901-075149.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075149.png>)
 V kartotéce je možné přiřazovat/vyřazovat pacienty k provozovně a to následujícím způsobem:
 
 **Přiřazení**
@@ -89,7 +89,7 @@ V kartotéce je možné přiřazovat/vyřazovat pacienty k provozovně a to 
 
 4. Údaje uživatel potvrdí tlačítkem OK.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075207.png]]
+![image-20250901-075207.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075207.png>)
 **Vyřazení**
 
 1. Vybrat pacienta a stisknout pravé tlačítko myši.
@@ -100,7 +100,7 @@ V kartotéce je možné přiřazovat/vyřazovat pacienty k provozovně a to 
 
 4. Uživatel je vyřazen.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075219.png]]
+![image-20250901-075219.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075219.png>)
 
 ## Upozornění k pacientovi
 
@@ -114,14 +114,14 @@ Po kliknutí na tlačítko je uživatel přesměrován do karty pacienta, kde m�
 
 Na kartě pacienta je vidět aktuálně přiřazená provozovna. Provozovny lze na kartě pacienta přiřazovat nebo vyřazovat.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075238.png]]
+![image-20250901-075238.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075238.png>)
 Přiřazení pacienta je za pomocí tlačítka Přiřadit k provozovně a vyřazení tlačítkem Vyřadit z provozovny. Postup pro přiřazení/vyřazení je stejný, jako je v kartotéce.
 
 ## Dashboard
 
 V dashbordu lze zobrazovat data dle provozovny. Jako výchozí je zobrazena provozovna definovaná v uživatelském nastavení. Provozovny lze přepínat výběrem ze seznamu provozoven v položce „Zobrazit jen provozovnu“.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075304.png]]
+![image-20250901-075304.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075304.png>)
 
 ## Recepce
 
@@ -129,7 +129,7 @@ V dashbordu lze zobrazovat data dle provozovny. Jako výchozí je zobrazena pr
 
 V recepci v informacích o pacientovi je vidět položka „Přiřazen k provozovně:“ včetně názvu provozovny. Pokud pacient není přidělen k žádné provozovně, položka se nezobrazuje.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075327.png]]
+![image-20250901-075327.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075327.png>)
 
 ## Nastavení kalendáře pro provozovnu
 
@@ -145,7 +145,7 @@ V nastavení kalendáře lze definovat, které provozovně vybraný kalendář
 
 4. Nové údaje potvrdit tlačítkem OK.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075351.png]]
+![image-20250901-075351.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075351.png>)
 ***Poznámka:**Na záložce Notifikace lze definovat výchozí notifikace. V nastavení šablon lze definovat údaje pro provozovnu.*
 
 ## Rozdělení notifikací na provozovnu (nároky)

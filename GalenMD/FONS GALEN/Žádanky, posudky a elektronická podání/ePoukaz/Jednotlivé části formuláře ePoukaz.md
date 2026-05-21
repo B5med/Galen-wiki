@@ -27,7 +27,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690999
 
 ## EPoukaz - Základní údaje
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100335.png]]
+![image-20250623-100335.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100335.png>)
 ·        položka **Datum vystavení**: Aktuální datum, kdy byl ePoukaz uložen do centrálního úložiště elektronických poukazů.
 
 ·        položka **Primární stav**: Uživatel AIS Galen, který bude v procesu systému ePoukaz vždy vystupovat v roli předepisujícího, může definovat dva primární stavy:
@@ -44,7 +44,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690999
 
 ## Předpis
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100409.png]]
+![image-20250623-100409.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100409.png>)
 **Skupina -**výběrem z číselníku (šipečka vpravo) doplníme kód skupiny ZP.
 
 **Název skupiny** - doplní se automaticky po výběru kódu skupiny ZP.
@@ -91,7 +91,7 @@ kódu uvedeného v Seznamu SÚKL.
 
 ### Přílohy
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100430.png]]
+![image-20250623-100430.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100430.png>)
 K příslušnému ePoukazu má uživatel možnost připojit přílohu. Příloha se může nacházet
 
 v následujících stavech:
@@ -108,7 +108,7 @@ Jestliže uživatel předepisuje zdravotnický prostředek, u kterého je nutné
 
 pojišťovnou, zobrazí se ve AIS Galen následující formulář:
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100452.png]]
+![image-20250623-100452.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100452.png>)
 Položky
 
 *Stanovisko revizního lékaře, Poznámka pojišťovny pro předepisujícího, Číslo*
@@ -129,7 +129,7 @@ následovně:
 
 2. Na základě výsledku vyrozumění od zdravotní pojišťovny uživatel vybere, zda se daný ePoukaz schvaluje či zamítá.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100510.png]]
+![image-20250623-100510.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100510.png>)
 3. Následně je nutné vyplnit příslušné položky a výsledek stiskem tlačítka Odeslat odeslat na SÚKL.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100528.png]]
+![image-20250623-100528.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100528.png>)

@@ -25,7 +25,7 @@ Každému bankovnímu spojení lze přiřadit příznaky:
 | **Faktura pro pacienta** | Zobrazuje se při vytváření faktury v ordinaci (okno *Stav účtu*) | Lze označit více spojení |
 | **Faktura PLS** | Používá se v modulu *Design* a při generování záhlaví tisku v *Nástrojích* | Lze použít pouze **jedno** bankovní spojení |
 
-![[pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-083939.png]]
+![image-20250901-083939.png](<../../../pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-083939.png>)
 
 ## 🖊️
 
@@ -60,4 +60,4 @@ Zde lze upravovat nebo vytvářet hlavičky pro tisk dokumentů (např. PLS fakt
 8. **Uložení změn:**
    Úpravy se ukládají automaticky po opuštění obrazovky.
 
-![[pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-084507.png]]
+![image-20250901-084507.png](<../../../pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-084507.png>)

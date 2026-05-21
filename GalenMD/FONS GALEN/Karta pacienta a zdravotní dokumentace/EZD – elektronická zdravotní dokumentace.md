@@ -17,7 +17,7 @@ Uživatelé, kteří jsou oprávněni k podpisu dokumentů, odesílají podepsan
 
 Správce -> Správa organizace -> záložka Uživatelé, rozkliknout daného uživatele
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083140.png]]
+![image-20250618-083140.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083140.png>)
 Pokud je na společnosti zapnuta úroveň EZD s archivem, zobrazí se aktivaci modulu EZD.
 
 Zároveň uživatel zvolí způsob odeslání dokumentu do archivu:
@@ -38,7 +38,7 @@ Na úrovni společnosti je možné definovat složku, do které se ukládají do
 
 Zároveň lze EZD aktivovat samostatně pro jednotlivá pracoviště. Tuto možnost je nutné před spuštěním funkcionality předem projednat se STAPRO.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083227.png]]
+![image-20250618-083227.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083227.png>)
 
 ## **Vytvoření podepsaného pdf dokumentu**
 
@@ -48,24 +48,24 @@ Do el. archivu jsou odeslány podepsané pdf dokumenty. V rámci aplikace AIS Ga
 
 1. Zdravotní dokumentace je v dekurzu rozdělená na dokumentaci Kurativa a dokumentaci PLS. V rámci dekurzu je možné vygenerovat, uzamknout a podepsat tyto části zdravotní dokumentace.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-115457.png]]
+![image-20260216-115457.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-115457.png>)
 Pozn. pokud se uživateli toto konfigurační okno po stisku tlačítka nezobrazí, je možné tuto konfiguraci zobrazit po stisku tlačítka busty -> záložka Nastavení → tlačítko Konfigurace zamykání dekurzu.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083431.png]]
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083614.png]]
+![image-20250618-083431.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083431.png>)
+![image-20250618-083614.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083614.png>)
 V případě vytvoření více dekurzů v daný den (Kurativa, PLS) se podepisuje zdravotní dokumentace za každý typ dekurzu samostatně.
 
 V případě potřeby je možné vyšetření a žádanky vygenerovat do oddělených dokumentů a ty podepsat. Ostatní položky je možné vygenerovat do pdf a podepsat pouze v rámci dekurzu. V případě zapnuté funkcionality auditní stopy se podepsání a stornování podepsaného dokumentu zobrazí v historii změn.
 
 Tlačítko pro vygenerování pdf. (vpravo)
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/1ba2ea0d-0d87-45b2-8b69-3d9d7a804d37.png]]
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083638.png]]
+![1ba2ea0d-0d87-45b2-8b69-3d9d7a804d37.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/1ba2ea0d-0d87-45b2-8b69-3d9d7a804d37.png>)
+![image-20250618-083638.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-083638.png>)
 **A. Anamnéza**
 
 Anamnézu je možné podepsat pouze v okně Anamnéza, ve kterém se anamnéza vytváří. Pomocí tlačítka pečetě nebo EZD  je možné zprávu podepsat.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-115002.png]]
+![image-20260216-115002.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-115002.png>)
 **B. Lékařská zpráva**
 
 Lékařskou zprávu je možné podepsat pouze v okně Lékařské zpráva, ve kterém se zprávy vytváří. Pomocí tlačítka EZD  je možné zprávu podepsat.
@@ -74,10 +74,10 @@ Lékařskou zprávu je možné podepsat pouze v okně Lékařské zpráva, ve kt
 
 Všechny přílohy (ve formátu .docx, .xlsx, .rtf, .txt, .mp3, .mp4) lze odeslat do EZD pouze společně s dekurzem. V dekurzu se po kliknutí na tlačítko pečetě zobrazí okno ”Konfigurace obsahu EZD”, kde uživatel zvolí, které přílohy chce odeslat do EZD (viz obrázek níže).
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-084330.png]]
+![image-20250618-084330.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-084330.png>)
 Samotné přílohy se nepodepisují, s výjimkou dokumentace převáděné z listinné do elektronické podoby. K tomuto účelu slouží tlačítko Převod listinné ZD. V tomto případě je k nahrávané či skenované příloze automaticky přidána další strana s tzv. doložkou, která obsahuje informace, kdo a kdy daný dokument naskenoval, rozsah dokumentu a další náležitosti. Tento dokument uživatel podepíše kliknutím na tlačítko ”Opatřit podpisem” v okně ”Náhled dokumentu k opatření podpisem“. Dokumentaci převáděnou z listinné podoby není možné z okna konfigurace obsahu EZD odebrat, aby mohl být proces převodu řádně dokončen. O tomto faktu je uživatel informován po najetí myši na ikonu “i” (info).
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-084437.png]]
+![image-20250618-084437.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-084437.png>)
 **D. RDG žádanky**
 
 RDG žádanky je možné podepsat v okně RDG žádanky na pracovišti žádajícím i provádějícím radiodiagnostiku, ve kterém se žádanky vytváří. Pomocí tlačítka EZD je možné žádanku podepsat.
@@ -90,7 +90,7 @@ FT poukazy je možné podepsat v okně FT poukazy na pracovišti žádajícím
 
 Informace o vytvoření nové lékové žádanky se automaticky propíše do dekurzu.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090752.png]]
+![image-20250618-090752.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090752.png>)
 Při vytvoření nové lékové žádanky po kliknutí na tlačítko "Odeslat" nebo "Odeslat a vytisknout" se propíše informace do dekurzu v následujícím formátu: **Odeslána nová léková žádanka č. {číslo_lékové_žádanky}** lék: {lék}, datum indikace: {datum_indikace}, pracoviště: {pracoviště}, pracovník: {pracovník}
 
 **G. Zaměstnání**
@@ -99,25 +99,25 @@ Při ukončení zaměstnání dochází po zadání datumu "Do" u pacienta k př
 
 1. Vybereme požadované zaměstnání + potvrdíme tlačítkem "Ok":
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090923.png]]
+![image-20250618-090923.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090923.png>)
 2. Zobrazí se informace, zda si přejeme informaci o ukončení zaměstnání přenést do dekurzu. Pro provedení zvolíme v dialogovém okně volbu "Ano":
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090947.png]]
+![image-20250618-090947.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090947.png>)
 3. Následně dochází k náhledu dokumentu k podepsání. K podpisu dokumentu a k přenesení informace dochází kliknutím na tlačítko "Podepsat":
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091013.png]]
+![image-20250618-091013.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091013.png>)
 4. V dekurzu následně dochází k zápisu informace o ukončení zaměstnání. Zde je možné také dokument později zobrazit.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091033.png]]
+![image-20250618-091033.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091033.png>)
 
 ## **Převod podepsaného dokumentu na papírovou autorizovanou konverzi**
 
 Každý dokument, který byl podepsaný a uložený do archivu EZD, lze převést na papírovou autorizovanou konverzi dat. Možnost uložit podepsaný dokument je dostupná na všech místech, kde je možné dokument zobrazit, např. v přílohách vybraného pacienta, v modulu EZD, u lékařských zpráv, dekurzů a dalších dokumentů odeslaných do archivu EZD.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-092909.png]]
+![image-20250618-092909.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-092909.png>)
 Po kliknutí na Zobrazit se otevře náhled podepsaného dokumentu s tlačítkem uložit.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-092937.png]]
+![image-20250618-092937.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-092937.png>)
 Po kliknutí na Uložit si uživatel může zvolit, kam daný soubor z archivu uloží ve svém počítači, případně na flash disk apod. Po kliknutí jen na Odejít se dokument neuloží.
 
 ## **Stornování podepsaného dokumentu**
@@ -127,14 +127,14 @@ V případě, že je potřebné dokumentaci po podepsání ještě upravit, mus�
 1. Přes pravé tlačítko myši nad lištou se stavem vygenerovaného dokumentu EZD
 2. Kliknutím levým tlačítkem myši na modrou ikonu otevřeného zámečku příslušné návštěvy
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093023.png]]
+![image-20250618-093023.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093023.png>)
 Pozn.: Stornovat dokument může pouze uživatel, který daný záznam podepsal (uzamknul). V případě, že bylo společně uzamknuto více návštěv dohromady v daný den, dojde při stornování k odemčení všech těchto spolu uzamknutých návštěv.
 
 ## **Nepodepsané dokumenty v Dashboardu**
 
 Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Z jednotlivých záznamů je možné se prokliknou přímo do dokumentů a následně je podepsat.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093108.png]]
+![image-20250618-093108.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093108.png>)
 
 ## **Odeslání podepsaného dokumentu do archivu**
 
@@ -142,7 +142,7 @@ V závislosti na konfiguraci uživatele jsou dokumenty odeslány do archivu okam
 
 Ruční odeslání dokumentu probíhá v modulu EZD – záložka *Dokumenty k odeslání* nebo záložka *Správa dokumentů EZD* – dokumenty ve stavu *Čeká na schválení odeslání do archivu*.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093143.png]]
+![image-20250618-093143.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093143.png>)
 Dokumenty, které je potřeba odeslat do archivu, je potřeba označit (je možný i multiselect) a stisknout tlačítko Odeslat.
 
 **Po odeslání dokumentů do archivu dokument nabývá těchto stavů**:
@@ -160,7 +160,7 @@ V modulu EZD může uživatel dokument podepsat a odeslat jej do archivu. Násle
 
 Záložka zobrazuje dokumenty ve všech stavech, kterých může dokument EZD nabýt. Záložka pracuje pouze nad dokumenty v rámci EZD, tzn. podepsanými pdf dokumenty. Dokumenty, které ještě nebyly podepsány, nezobrazuje.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-121702.png]]
+![image-20260216-121702.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-121702.png>)
 
 #### **Filtrace**
 
@@ -193,7 +193,7 @@ Záložka zobrazuje dokumenty ve všech stavech, kterých může dokument EZD na
 
 ### **Dokumenty k odeslání**
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123406.png]]
+![image-20260216-123406.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123406.png>)
 Tato záložka zobrazuje pouze dokumenty, které
 
 - čekají na ruční odeslání uživatelem do archivu (stav Čeká na schválení odeslání do archivu)
@@ -202,12 +202,12 @@ Tato záložka zobrazuje pouze dokumenty, které
 
 ### **Odeslané dokumenty**
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123441.png]]
+![image-20260216-123441.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123441.png>)
 Zobrazuje pouze dokumenty, které byly do archivu odeslány. Pokud byl dokument do archivu odeslán a následně v aplikaci stornován, v této záložce se již neobjeví.
 
 ### **Nepodepsané dokumenty**
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123521.png]]
+![image-20260216-123521.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123521.png>)
 Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerovaná do podepsaného pdf dokumentu.
 
 V modulu EZD lze dokument po výběru pracoviště zobrazit a podepsat dvojklikem nebo pomocí tlačítka **Podepsat**. Hromadné podepisování dokumentů není z legislativních důvodů povoleno, je však možné označit více dokumentů najednou a tím postupně spustit proces jejich zobrazení a podepisování.
@@ -222,7 +222,7 @@ Kapitola popisuje proces skartace, kdy je dokument navržen elektronickým archi
 
 Všechny přehledy, resp. seznamy dokumentů archivu je možné exportovat pomocí tlačítka, viz. níže.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/abff32ae-c791-4828-9c0c-527873eb0b39.png]]
+![abff32ae-c791-4828-9c0c-527873eb0b39.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/abff32ae-c791-4828-9c0c-527873eb0b39.png>)
 Exportovat tedy lze např. seznam dokumentů navržených ke skartaci, ale i seznam skartovaných dokumentů. Vždy se však jedná pouze o popis dokumentů, není přiložen přehled jejich popisných dat (např. jméno pacienta, číslo pojištěnce, atd.)
 
 2. **Skartační třída**
@@ -243,7 +243,7 @@ Poznámka: V rámci novelizací byl skartační znak (písmeno) zrušen. Jedná 
 
 Archiv automaticky kontroluje dobu skartace každého dokumentu. Jakmile uplyne doba, po kterou musí být dokument uchován, je zařazen archivem do dokumentů ke skartaci. *Záložka Dokumenty  - Dokumenty ke skartaci.*Zde jsou zobrazeny všechny dokumenty, které byly archivem automaticky vyhodnoceny jako vhodné ke skartaci.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093738.png]]
+![image-20250618-093738.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093738.png>)
 Uživatel každý dokument posoudí (kliknutím na ikonu nastavení může zobrazit popisná data každého dokumentu) a rozhodne, zda jej zařadí do skartačního návrhu. Dokument může zařadit do stávajícího skartačního návrhu, nebo vytvořit nový skartační návrh.
 
 4. **Návrh skartačního řízení**
@@ -254,7 +254,7 @@ Následně uživatel zobrazí jednotlivé návrhy skartačního řízení (můž
 
 Zde jsou v jednotlivých návrzích zařazené dokumenty navržené ke skartaci. Pokud má dokument nastaven skartační znak S, je možné jej ihned skartovat. Pokud má dokument skartační znak V, je nutné posoudit, zda se má skartovat. Pokud tomu tak skutečně je, je potřeba změnit jeho skartační znak na S. Pro změnu skartačního znaku z V na S je nutné dokument označit zaškrtnutím checkboxu a v možnostech vybrat *Změnit skartační znak V na S*.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093826.png]]
+![image-20250618-093826.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093826.png>)
 Pokud dokument bez ohledu na jeho skartační typ ještě nemá být skartován, je možné jej ve stejném okně za odebrat ze skartačního návrhu. Tím se dokument dostane zpět do Dokumentů ke skartaci.
 
 5. **Skartační řízení**

@@ -47,7 +47,7 @@ to podmínka na věk pacienta a podmínka splnění rozestupu nároků (podmínk
 
 Po splnění podmínek se nárok vždy vytváří jako aktivní, s platností, která je rovna datu registrace pacienta.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123014.png]]
+![image-20250710-123014.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123014.png>)
 
 ### Vznik nároku hromadným generováním
 
@@ -57,11 +57,11 @@ Tímto způsobem lze definovat rozsah generování nároků na společnost nebo 
 
 Nárok vzniká vždy aktivní, k aktuálnímu datu.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123035.png]]
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123040.png]]
+![image-20250710-123035.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123035.png>)
+![image-20250710-123040.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123040.png>)
 
 ### Vznik nároku noční úlohou
 
 Po zvolení této možnosti (zatrhnutí na úrovni intervalu definice, viz obrázek), systém bude dle dané definice prohledávat všechny pacienty, kteří splňují podmínky. Po splnění podmínek bude pacientovi vytvořen aktivní nárok s platností od aktuálního dne.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123106.png]]
+![image-20250710-123106.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku/assets/image-20250710-123106.png>)

@@ -7,14 +7,14 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48922625
 
 # Smlouvy
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124256.png]]
+![image-20250618-124256.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124256.png>)
 V sekci Smlouvy lze provádět hromadné změny týkající se nasmlouvaných výkonů a parametrů smlouvy. Nejčastěji uživatelé potřebují přidat výkon do více pojišťoven či na více pracovišť současně.
 
 ## **Hromadné přidání nasmlouvaného výkonu, parametru smlouvy a jejich aktualizace**
 
 Správce -> Správa organizace -> Smlouvy
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124325.png]]
+![image-20250618-124325.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124325.png>)
 V levém sloupci je nutné označit pojišťovny, do kterých lze přidat výkon ve středním sloupci označíme všechna pracoviště, u kterých je výkon nasmlouván. Poté stiskem Přidat výkon otevřeme v pravé části okno pro přidání výkonu. Označení všech položek v jednom sloupci po označení jednoho řádku provedeme stiskem kláves CTRL+A.
 
 ### **V sekci Smlouvy lze**:
@@ -31,8 +31,8 @@ V levém sloupci je nutné označit pojišťovny, do kterých lze přidat výkon
 
 Správce -> Správa organizace -> Smlouvy
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124416.png]]
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124430.png]]
+![image-20250618-124416.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124416.png>)
+![image-20250618-124430.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124430.png>)
 Do položky **Typ výkonu** napíšeme kód výkonu (např. 09543) a poté se stiskem tlačítka Provést výkon přiřadí do všech zvolených pojišťoven a pracovišť. Ostatní položky není nutné vyplňovat, ty budou načteny z číselníku výkonů. ` `
 Pokud má uživatel s pojišťovnou smluvené jiné než „číselníkové“ parametry smluvy, je možné tato nastavení také definovat v okně Přidat výkon.
 
@@ -60,11 +60,11 @@ Slouží k možnosti hromadného přidání parametrů smlouvy. Stejně jako u
 
 Zvolení pojištoven a pracovišt pro provedení změn:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124523.png]]
+![image-20250618-124523.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124523.png>)
 Volba operace, kterou chceme na označených pracovištích a pojišťovnách provést:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124535.png]]
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124546.png]]
+![image-20250618-124535.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124535.png>)
+![image-20250618-124546.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124546.png>)
 **Od období** – stanovení začátku období platnosti uvedených parametrů smlouvy
 
 **Hodnota bodu** – stanoví hodnotu bodu bez ohledu na údaj z číselníku výkonů
@@ -97,21 +97,21 @@ Správce -> Správa organizace -> Smlouvy
 
 Slouží k možnosti hromadné aktualizace parametrů výkonu pro více pracovišt i pojišťoven. Stejně jako u možnosti „Přidat výkon“ je nejdříve nutný výběr alespoň jedné pojišťovny a alespoň jednoho pracoviště. Po otevření tabulky „Aktualizovat parametr výkonu“ je možné hromadně aktualizovat zobrazené položky.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124625.png]]
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124635.png]]
+![image-20250618-124625.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124625.png>)
+![image-20250618-124635.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124635.png>)
 Postup aktualizace jednotlivých položek je stejný jako v případě přidání výkonu a jeho parametrů.
 
 Novinkou je zde možnost **Vynulovat**stávající parametr výkonu. Je-li např. stanovena hodnota bodu NP (pro označené/á pracoviště a označenou/é pojišťovnu/y) např. 2,5, po zaškrtnutí pole Vynulovat dojde na zvolených pracovištích u zvolených pojišťoven ke smazání nastavené hodnoty, která nadále zůstane nevyplněna. Viz příklad dále.
 
 Původní hodnota nastavení Hodnoty bodu NP výkonu 21225:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124720.png]]
+![image-20250618-124720.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124720.png>)
 Provedení hromadného vynulování nastavené Hodnoty bodu NP výkonu 21225:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124737.png]]
+![image-20250618-124737.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124737.png>)
 Vynulovaná Hodnota bodu NP výkonu 21225 po provedení Aktualizace parametru výkonu:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124802.png]]
+![image-20250618-124802.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124802.png>)
 Smazání výkonu se neprovádí, lze provést ukončení platnosti výkonu.Veškeré úpravy výkonu do minulosti se poté budou vázat k nastavení parametrů k datu vykázání výkonu.
 
 #### **Aktualizovat parametr smlouvy**
@@ -120,7 +120,7 @@ Správce -> Správa organizace -> Smlouvy
 
 Slouží k možnosti hromadné aktualizace parametrů smlouvy pro více pracovišt i pojišťoven. Stejně jako u možnosti „Přidat parametr smlouvy“ je nejdříve nutný výběr alespoň jedné pojišťovny a alespoň jednoho pracoviště. Po otevření tabulky „Aktualizovat parametr smlouvy“ je možné hromadně aktualizovat zobrazené položky.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124840.png]]
+![image-20250618-124840.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124840.png>)
 Postup aktualizace jednotlivých položek je stejný jako v případě přidání parametrů smlouvy.
 
 Novinkou je zde možnost **Vynulovat**stávající parametr smlouvy. Je-li např. stanovena hodnota pole „Max. počet km“(pro označené/á pracoviště a označenou/é pojišťovnu/y) např. 10, po zaškrtnutí pole Vynulovat dojde na zvolených pracovištích u zvolených pojišťoven ke smazání nastavené hodnoty, která nadále zůstane nevyplněna. Nastavení se takto změní u všech zvolených pracovišť a pojišťoven.
@@ -133,19 +133,19 @@ Možnost kopírovat smluvní výkony se nachází ve správě organizace, ve str
 
 Při výběru konkrétní pojišťovny klikneme na tlačítko Kopírovat smluvní výkony.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124906.png]]
+![image-20250618-124906.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124906.png>)
 
 #### **Kopírovat smluvní výkony na pracovišti:**
 
 Vybereme cílové smlouvy s pojišťovnami, kam chci smluvní výkony nakopírovat.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124930.png]]
+![image-20250618-124930.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124930.png>)
 Po Potvrzení se nám zobrazí výsledek kopírování smluvních výkonů. Info okno obsahuje počet přidaných výkonů, počet přeskočených výkonů, které již na pracovišti existují případně výkony, které již nejsou v platném číselníku.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124949.png]]
+![image-20250618-124949.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124949.png>)
 
 #### **Kopírovat smluvní výkony mezi pracovišti:**
 
 Při možnosti kopírovat smluvně výkony mezi pracovišti bude uživateli nabídnut číselník všech smluv s pojišťovnami na všech pracovištích společnosti.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-125019.png]]
+![image-20250618-125019.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-125019.png>)

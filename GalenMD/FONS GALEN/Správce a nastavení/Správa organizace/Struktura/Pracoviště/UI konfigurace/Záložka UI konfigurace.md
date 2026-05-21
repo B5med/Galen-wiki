@@ -13,30 +13,30 @@ V části *Skartační lhůta*uživatel nastaví výchozí skartační lhůty 
 
 ## Upozorňovací okno
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150755.png]]
+![image-20251210-150755.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150755.png>)
 
 ## Povinné údaje
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150829.png]]
+![image-20251210-150829.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150829.png>)
 
 ## Laboratorní výsledky
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150859.png]]
+![image-20251210-150859.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150859.png>)
 
 ## Dialog měření
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150946.png]]
+![image-20251210-150946.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-150946.png>)
 Ve výchozím nastavení jsou všechna pole pro zadání měření v dekurzu viditelná. V závislosti na odbornosti pracoviště však nejsou pro všechna pracoviště neužitelná, a proto je zde možné vybraná pole měření skrýt.
 
 Měření, která uživatel v tomto okně vybere, budou skryta. V konkrétním případě níže tak budou skryta všechna pole určená pro pediatra.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-151217.png]]
+![image-20251210-151217.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20251210-151217.png>)
 > [!abstract]
 > Nově mají praktičtí lékaři pro dospělé sledovat mj. obvod pasu pacienta. Proto je nutné, aby si  pracoviště s odborností 001 skryla všechna měření v sekci pediatr kromě obvodu pasu.
 
 ## ePoukaz
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20260126-134335.png]]
+![image-20260126-134335.png](<../../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace/assets/image-20260126-134335.png>)
 **(1)** Zjišťování stavu ePoukazu aktualizuje stav ePoukazu poté, co jiné pracoviště (pojišťovna, výdejna) změní jeho stav. Tato služba aktualizuje stavy přes noc. To znamená, že pokud bude pomůcka na ePoukazu vydána 22. 1., tak se tento stav ve FONS Galen zobrazí až 23. 1.
 
 **(2)**Na ePoukazu nebude při jeho předpisu zvolena notifikace pacientovi i přesto, že má pacient kontakt označen příznakem pro notifikace SÚKL. Uživatel bude mít možnost kontakt vyplnit ručně.

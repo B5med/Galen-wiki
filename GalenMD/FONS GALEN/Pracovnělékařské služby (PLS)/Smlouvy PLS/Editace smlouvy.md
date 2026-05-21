@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376772
 
 # Editace smlouvy
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Editace smlouvy/assets/image-20250626-133009.png]]
+![image-20250626-133009.png](<../../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Editace smlouvy/assets/image-20250626-133009.png>)
 **Nefakturovat**
 
 Pokud je zatržen tento příznak, na dané smlouvě se negenerují faktury (ani výkonové ani paušální).

@@ -28,7 +28,7 @@ Exportní tlačítka se nachází v následujících modulech:
    - Vybrané = budou exportované označené doklady
    - Zobrazení = budou exportované doklady zobrazené na stránce
 
-![[pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-080912.png]]
+![image-20251003-080912.png](<../../../pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-080912.png>)
 4. Vyberte umístění a název souboru v dialogovém okně „**Uložit jako**“.
 5. Potvrďte a soubor se uloží ve formátu XML.
 
@@ -37,7 +37,7 @@ Exportní tlačítka se nachází v následujících modulech:
 1. Otevřete **modul Sklad** a vyberte konkrétní sklad.
 2. Klikněte na tlačítko **„Stavy skladu“** nebo **„Pohyby“** v sekci **Exportovat**.
 
-![[pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-081016.png]]
+![image-20251003-081016.png](<../../../pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-081016.png>)
 3. V dialogovém okně „Uložit jako“ zadejte název a umístění souboru.
 4. Potvrďte – doklady se uloží jako XML.
 

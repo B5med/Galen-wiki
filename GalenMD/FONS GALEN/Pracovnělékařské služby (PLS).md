@@ -11,7 +11,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/150339588
 > Modul **Nadstandardní péče** slouží k evidenci a správě pracovnělékařských prohlídek, očkování a služeb poskytovaných zaměstnancům firemních klientů.
 > Umožňuje kompletní zpracování agendy pracovnělékařské péče — od správy firem a smluv až po fakturaci a sledování lhůtníku prohlídek.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132147.png]]
+![image-20250626-132147.png](<../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132147.png>)
 
 ---
 
@@ -69,7 +69,7 @@ Každá firma může mít více poboček. Ty se zakládají v detailu firmy.
 - **Pracoviště** – přidáním pracoviště umožníte jeho uživatelům (s povoleným modulem Nadstandardní péče) zobrazit informace o firmě a jejích smlouvách,
 - **Hodnosti** – doplňkový informativní údaj, zobrazovaný na kartě pacienta při zadávání zaměstnavatele.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132627.png]]
+![image-20250626-132627.png](<../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132627.png>)
 > 💡 **Doporučení:**
 > Nastavte pro každou pobočku jasné období vedení lhůtníku. Prohlídky založené mimo toto období se do výpočtu lhůt nezahrnují.
 
@@ -88,7 +88,7 @@ Každá skupina je přiřazena konkrétní firmě a může mít definována tři
 2. **Faktory prostředí**,
 3. **Ohrožení zdraví**.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132754.png]]
+![image-20250626-132754.png](<../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/assets/image-20250626-132754.png>)
 **Princip výpočtu intervalu:**
 
 Interval mezi prohlídkami se určuje jako **nejkratší (MIN)** z intervalů všech zvolených rizik.

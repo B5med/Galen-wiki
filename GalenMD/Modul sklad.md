@@ -13,17 +13,17 @@ Modul Sklad je určen pro evidenci vakcín. Při očkování automaticky odepisu
 
 Nejdříve je však nutné vyplnit skladovou kartu této očkovací látky.
 
-![[pages/Modul sklad/assets/image-20250618-105509.png]]
+![image-20250618-105509.png](<../pages/Modul sklad/assets/image-20250618-105509.png>)
 Pro přidání nové očkovací látky je třeba kliknout na zelené plus. Objeví se formulář pro zadání očkovací látky:
 
-![[pages/Modul sklad/assets/image-20250618-105527.png]]
-![[pages/Modul sklad/assets/image-20250618-105612.png]]
+![image-20250618-105527.png](<../pages/Modul sklad/assets/image-20250618-105527.png>)
+![image-20250618-105612.png](<../pages/Modul sklad/assets/image-20250618-105612.png>)
 
 Očkovací látku lze vybrat ze seznamu, který se otevře po kliknutí do žlutého políčka. Ještě je nutné zadat počet dávek v balení a min. počet dávek. Tento počet udává, kdy má začít program upozorňovat, že je na skladě málo očkovací látky.
 
 Poté, co je založená karta očkovací látky, je možné zadávat její jednotlivá balení kliknutím na tlačítko „Naskladnit – nová šarže“. Objeví se okno pro zadávání nového balení očkovací látky. Je nutné vyplnit kód SÚKL, šarži očkovací látky, typ, datum expirace (popř. upravit datum naskladnění) a počet balení.
 
-![[pages/Modul sklad/assets/image-20250618-105630.png]]
+![image-20250618-105630.png](<../pages/Modul sklad/assets/image-20250618-105630.png>)
 > [!info]
 > Typ
 >
@@ -45,10 +45,10 @@ V případě, že není naskladňován celý balíček očkovací látky, je mo�
 
 - jako látku na volný prodej
 
-![[pages/Modul sklad/assets/image-20250618-105717.png]]
-![[pages/Modul sklad/assets/image-20250618-105822.png]]
-![[pages/Modul sklad/assets/image-20250618-105911.png]]
+![image-20250618-105717.png](<../pages/Modul sklad/assets/image-20250618-105717.png>)
+![image-20250618-105822.png](<../pages/Modul sklad/assets/image-20250618-105822.png>)
+![image-20250618-105911.png](<../pages/Modul sklad/assets/image-20250618-105911.png>)
 
 Máme-li naskladněnou očkovací látku na skladové kartě, lze s použitím této očkovací látky očkovat pacienty v kartotéce ve funkcionalitě Očkování na dolní modré liště. Během zadávání konkrétního očkování do záznamu pacienta se nabízí očkovací látka s označením počtu dávek naskladněné očkovací látky. Po dokončení evidence očkování pacienta v IS Galen se použitá dávka očkovací látky automaticky ze skladové karty odečte. Pokud lékař očkování u pacienta z nějakého důvodu smaže, očkovací látka se opět na skladovou kartu vrátí.
 
-![[pages/Modul sklad/assets/image-20250618-105959.png]]
+![image-20250618-105959.png](<../pages/Modul sklad/assets/image-20250618-105959.png>)

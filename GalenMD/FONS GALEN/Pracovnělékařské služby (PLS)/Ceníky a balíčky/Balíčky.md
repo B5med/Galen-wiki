@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180187
 
 Balíček = několik položek ceníku spojených v jednu entitu.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Balíčky/assets/image-20250626-133712.png]]
+![image-20250626-133712.png](<../../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Balíčky/assets/image-20250626-133712.png>)
 **Typ sortimentu** – aktuálně pouze informativní charakter
 
 o Prohlídka

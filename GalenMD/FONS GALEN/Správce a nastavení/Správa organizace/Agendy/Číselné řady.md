@@ -15,4 +15,4 @@ Příklad:
 
 Vybere-li Správce po označení Faktury kritérium IČZ, ve vyúčtování se objeví rozšířená možnost zadat konkrétní číselné řady faktur vznikajících při vyúčtování zdravotních výkonů. Na každém IČZ je v tomto případě oddělená číselná řada faktur, kterou si účtující uživatel může nastavit v Modulu vyúčtování.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Číselné řady/assets/image-20250618-113433.png]]
+![image-20250618-113433.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Číselné řady/assets/image-20250618-113433.png>)

@@ -13,13 +13,13 @@ V modulu Finance lze z pozice Správce vést celkovou správu pokladen a finanč
 
 Je možné provádět pokladní uzávěrku k určenému datu, tisk pokladní knihy, zadat nový příjem či výdej z pokladny.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul finance/assets/image-20250619-073004.png]]
+![image-20250619-073004.png](<../../../pages/FONS GALEN/Finance a účetnictví/Modul finance/assets/image-20250619-073004.png>)
 
 ### **Pokladní doklady**
 
 V sekci Pokladní doklady lze filtrovat a tisknout zavedené pokladní doklady. Horní část okna zobrazuje jednotlivé doklady a po označení požadovaného řádku s pokladním dokladem se v dolní části okna zobrazuje obsah dokladu, tedy položky na dokladu uvedené.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul finance/assets/image-20250619-073032.png]]
+![image-20250619-073032.png](<../../../pages/FONS GALEN/Finance a účetnictví/Modul finance/assets/image-20250619-073032.png>)
 
 ### **Faktury**
 

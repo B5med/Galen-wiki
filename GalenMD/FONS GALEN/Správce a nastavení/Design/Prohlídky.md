@@ -7,10 +7,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315
 
 # Prohlídky
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062338.png]]
+![image-20250619-062338.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062338.png>)
 Nástroj pro definování prohlídek a vyšetření, které se nabízí u konkrétního pacienta na liště v dolní části obrazovky Prohlídky a vyšetření.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062355.png]]
+![image-20250619-062355.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062355.png>)
 Změna spočívá mj. v tom, že uživatel nyní vidí prohlídky definované ze strany Stapro, které může
 
 - pro uživatele své společnosti zakázat
@@ -25,7 +25,7 @@ Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena 
 - Zveřejnit
 
    - slouží ke zveřejnění prohlídky uživatelům dané společnosti
-   - Prohlídky pracují stejně jako formuláře s testovacími definicemi. Ve chvíli, kdy uživatel vytváří vyšetření, které ještě nemá být dostupné uživatelům, prohlídku nezveřejňuje. Prohlídka je dostupná pouze po zaškrtnutí checkboxu „Načítat testovací definice“ po kliku na ikonu ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062547.png]]
+   - Prohlídky pracují stejně jako formuláře s testovacími definicemi. Ve chvíli, kdy uživatel vytváří vyšetření, které ještě nemá být dostupné uživatelům, prohlídku nezveřejňuje. Prohlídka je dostupná pouze po zaškrtnutí checkboxu „Načítat testovací definice“ po kliku na ikonu ![image-20250619-062547.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062547.png>)
       v záložce Design.
 - Historie
 
@@ -33,7 +33,7 @@ Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena 
 
 ## Položky definice prohlídky
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062706.png]]
+![image-20250619-062706.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062706.png>)
 - Aktivní
 
    - pokud se prohlídka nemá uživatelům zobrazovat, je potřeba ji označit jako neaktivní
@@ -70,7 +70,7 @@ Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena 
 
    - pokud je zapnuta, není náhled na prohlídku zobrazován v dekurzu
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063051.png]]
+![image-20250619-063051.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063051.png>)
 - Datum bez času
 
    - do tisku prohlídky se generuje datum a čas návštěvy, který je uveden v horní části prohlídky
@@ -83,7 +83,7 @@ Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena 
    - uživatel vybere prohlídku, která na právě definovanou prohlídku navazuje (např. na preventivní prohlídku ve věku 6 měsíců navazuje preventivní prohlídka ve věku 8 měsíců)
 - Přebírat vyšetření
 
-   - v samotném vyšetření se zobrazuje tlačítko Převzít ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063204.png]]
+   - v samotném vyšetření se zobrazuje tlačítko Převzít ![image-20250619-063204.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063204.png>)
        ,které dovoluje převzít údaje z předchozího vyšetření
    - pokud je daná kolonka nevyplněna, přebírají se údaje ze stejného vyšetření
 - Počet pro přebrání
@@ -92,13 +92,13 @@ Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena 
    - pokud je počet větší než jedna, má uživatel na výběr, ze kterého vyšetření chce údaje přebrat
 - Navazující formuláře
 
-   - pokud je definován alespoň jeden navazující formulář, zobrazuje se ve vyšetření tlačítko ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063302.png]]
+   - pokud je definován alespoň jeden navazující formulář, zobrazuje se ve vyšetření tlačítko ![image-20250619-063302.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063302.png>)
       , po jehož stisku se uživateli otevře formulář, kam jsou přeneseny informace zadané do vyšetření (formulář, co kterého se údaje přenáší, uživatel vybírá ze seznamu již existujících formulářů)
 
       - položky vyšetření a formuláře jsou propojeny na základě uživatelem definované xsl transformace, která je blíže popsána v kapitole XSL transformace
 - Šablona fyz. nález
 
-   - vedle tlačítka Převzít může být ve vyšetření tlačítko ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063435.png]]
+   - vedle tlačítka Převzít může být ve vyšetření tlačítko ![image-20250619-063435.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063435.png>)
    - stisknutím tohoto tlačítka se do vyšetření doplní hodnoty, které jsou předdefinované jako fyziologické
    - tyto hodnoty se definují v modulu Design po stisknutí tlačítka Upravit
    - následně je potřeba vybrat libovolného pacienta (fyziologický nález je definován pro všechny pacienty stejně, vyšetření u tohoto pacienta nebude vytvořené) do vyšetření zadat údaje, které definují fyziologický nález – definice pracuje s kódy položek bloků a jejich hodnotami
@@ -110,15 +110,15 @@ V dolní části okna se definují samotné položky vyšetření.
 
 Každé vyšetření se skládá z tzv. bloků. Každý blok obsahuje alespoň jednu položku. Každé vyšetření obsahuje alespoň jeden blok (a proto nelze smazat blok v případě, že je zadefinován pouze jeden).
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063616.png]]
+![image-20250619-063616.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063616.png>)
 Název bloku se v daném vyšetření zobrazuje zvýrazněný modře.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063639.png]]
+![image-20250619-063639.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063639.png>)
 Do definice vyšetření je možné přidat prázdný blok s jednou položkou pomocí tlačítka „Přidat položku“. Pomocí tlačítka Přidat blok je možné přidat celý již dříve definovaný blok.
 
 Po výběru konkrétního bloku má uživatel dvě možnosti jeho vložení.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063658.png]]
+![image-20250619-063658.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063658.png>)
 Pokud je blok přidán jako odkaz na původní blok, pak přidaný blok není možné měnit. Pokud uživatel přidá blok jako editovatelnou kopii, může blok do vyšetření vložit a následně jej upravovat.
 
 Na úrovni bloku je také možné definovat měření, které je potřeba do vyšetření zadat.
@@ -141,7 +141,7 @@ V definici bloku je možné určit jeho
 
 Položky vyšetření lze přidávat pomocí tlačítka plus
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063848.png]]
+![image-20250619-063848.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063848.png>)
 U samotné položky lze definovat:
 
 - Název – pod jakým názvem se položka zobrazí ve vyšetření
@@ -156,16 +156,16 @@ U samotné položky lze definovat:
 
    - Pokud je v definici prohlídky definován Věk od (dny), pak se tento údaj považuje za věk pacienta bez ohledu na jeho aktuální věk. Např. preventivní prohlídka v 15 letech má vyplněn Věk od (dny) 5479. Pokud je pacientovi vystavena tato prohlídka, bere se tento věk jako aktuální věk pacienta pro zobrazení bloků omezených věkem. Není tak nutné pro každou preventivní prohlídku definovat speciální blok. Je možné vytvořit pouze jeden a až jednotlivé položky omezit věkem. Např. blok „Řeč“ je možné vložit do vložit do všech preventivních prohlídek a až na jednotlivých položkách definovat podmínku pro věk, kdy se mají zobrazovat
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063929.png]]
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063946.png]]
+![image-20250619-063929.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063929.png>)
+![image-20250619-063946.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-063946.png>)
 - Hodnoty – zda se má jednat o varianty, textové pole, checkbox nebo datum
 
 ## Výkony
 
-V záložce Výkony je možné definovat výkony, které může uživatel vykázat přímo z dané prohlídky po stisku tlačítka ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083536.png]]
+V záložce Výkony je možné definovat výkony, které může uživatel vykázat přímo z dané prohlídky po stisku tlačítka ![image-20250627-083536.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083536.png>)
 .
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083555.png]]
+![image-20250627-083555.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083555.png>)
 Zadané výkony mohu mít tři různé podmínky, za kterých jsou vykazovány
 
 - Hlavní výkony
@@ -190,14 +190,14 @@ Např. pro preventivní prohlídku může být jako volitelný výkon definován
 
 Po kliku na tlačítko Navazující formuláře se otevře okno pro definici transformace.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083835.png]]
+![image-20250627-083835.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083835.png>)
 Zeleným tlačítkem Plus je možné přidat formulář, do kterého mají být přeneseny údaje zadané do vyšetření. K jednomu vyšetření může být zadáno více formulářů.
 
 V levé části uživatel vybere předlohu tisku (formulář) a jeho konkrétní variantu.
 
 Na konkrétním příkladu budou demonstrovány způsoby definice xsl transformace. Jedná se o toto vyšetření:
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083958.png]]
+![image-20250627-083958.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083958.png>)
 Transformace:
 
 `<?xml version="1.0" encoding="UTF-8"?>`
@@ -220,7 +220,7 @@ Transformace:
 
 *<!--V  následující části je definovaná transformace této položky vyšetření. Položka má kód „posuzovaný“ a jedná se o položku typu varianty se třemi hodnotami. V konkrétním formuláři se jedná po položku propertyname „posouzeny“. V případě, že uživatel ve vyšetření vybere třetí variantu, tak se do formuláře dotáhne také text u této varianty lékařem zadaný.-->*
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084225.png]]
+![image-20250627-084225.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084225.png>)
 `<xsl:template match="Galen.Vysetreni">`
 
 `<!-- Část A) Posuzované dítě k účasti na zotavovací akci -->`
@@ -255,7 +255,7 @@ Transformace:
 
 *<!-- V následující části je definovaná transformace této položky.Opět se jedná o položku typu varianty s kódem „podr“. Položka formuláře má propertyname „ocko“.-->*
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084808.png]]
+![image-20250627-084808.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084808.png>)
 `<!-- a)   se podrobilo stanoveným pravidelným očkováním-->`
 
 `<xsl:choose>`
@@ -282,7 +282,7 @@ Transformace:
 
 *<!--Dalšími položkami je položka typu text. V prohlídce má položka kód „*nak*“, ve formuláři se jedná o položku propertyname „*imun*“.-->*
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084951.png]]
+![image-20250627-084951.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-084951.png>)
 `<!--b)    je proti nákaze imunní  -->`
 
 `<xsl:if test="DataProhlidky/nak">`
@@ -327,7 +327,7 @@ Transformace:
 
 Informace z vyplněného očkování
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-085223.png]]
+![image-20250627-085223.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-085223.png>)
 se přenesou do formuláře
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-085234.png]]
+![image-20250627-085234.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-085234.png>)

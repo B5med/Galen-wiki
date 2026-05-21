@@ -55,7 +55,7 @@ V případě ztráty mobilního zařízení může správce deaktivovat 2FA dan�
 
 Po deaktivaci bude uživatel při dalším přihlášení vyzván k novému nastavení autentizační aplikace.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100054.png]]
+![image-20250825-100054.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100054.png>)
 
 ---
 
@@ -71,19 +71,19 @@ Pokud autentizační aplikace není nastavena, klikněte na **Nastavit** a spus�
 1. Stáhněte **Microsoft Authenticator** z Google Play nebo App Store.
 2. Spusťte aplikaci a připravte ji k naskenování QR kódu.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100131.png]]
+![image-20250825-100131.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100131.png>)
 
 ### 🔹
 
 V průvodci nastavením v Galenovi naskenujte QR kód zobrazený na obrazovce pomocí aplikace **Microsoft Authenticator**.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100152.png]]
+![image-20250825-100152.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100152.png>)
 
 ### 🔹
 
 Aplikace vygeneruje šestimístný kód. Tento kód zadejte a potvrďte.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100213.png]]
+![image-20250825-100213.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100213.png>)
 **Chybné ověření:**
 Pokud je kód neplatný, zobrazí se hlášení:
 
@@ -96,19 +96,19 @@ Zadejte nový kód z aplikace.
 Po úspěšném ověření klikněte na **Uložit**.
 Nastavení je tím dokončeno.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100314.png]]
+![image-20250825-100314.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100314.png>)
 
 ### 🔹
 
 Doporučujeme aktivovat **zálohování účtu** v aplikaci Microsoft Authenticator, abyste mohli 2FA snadno obnovit v případě ztráty nebo výměny telefonu.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100342.png]]
+![image-20250825-100342.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100342.png>)
 
 ### 🔹
 
 Pro opětovní nastavení autentizační aplikace je možné proces znovu vyvolat a to za pomocí tlačítka **Změnit**. Za pomocí tlačítka **Smazat** lze nastavení smazat.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100412.png]]
+![image-20250825-100412.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100412.png>)
 
 ## 🔑
 
@@ -134,5 +134,5 @@ Pokud má uživatel aktivní **dva způsoby ověření** (např. SMS a autentiza
 
 a zvolit preferovanou metodu.
 
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100505.png]]
-![[pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100513.png]]
+![image-20250825-100505.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100505.png>)
+![image-20250825-100513.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100513.png>)

@@ -7,7 +7,7 @@ Features
 --------
 - Obsidian callouts  > [!info] / [!tip] / [!warning] / [!danger] / [!abstract]
 - Obsidian wikilinks [[Page Title]] for internal Confluence links
-- Vault-absolute image paths  ![[pages/.../assets/filename.png]]
+- Relative image paths  ![alt](<../../pages/.../assets/filename.png>)
 - GFM tables, fenced code blocks, nested lists
 - YAML frontmatter from meta.json
 - Incremental: skips pages where version in frontmatter matches meta.json
@@ -59,13 +59,30 @@ def load_link_map(out_root: Path) -> dict:
     return json.loads(idx.read_text(encoding="utf-8")).get("pages", {})
 
 
-def vault_asset_path(src: str, ctx: ConvCtx) -> str:
-    """Convert './assets/X' → vault-absolute 'pages/.../assets/X'."""
+def relative_asset_path(src: str, ctx: ConvCtx) -> str:
+    """Convert './assets/X' → relative path from the MD file to the asset.
+
+    The MD file lives at  GalenMD/<rel>.md
+    The image lives at    pages/<rel>/assets/<filename>
+
+    From the MD file's directory (GalenMD/<rel.parent>/) we need
+    len(rel.parts) levels of "../" to reach the GalenMD sibling folder,
+    then descend into pages/<rel>/assets/.
+
+    Example: page_dir = pages/FONS GALEN/PLS
+      rel   = FONS GALEN/PLS  (2 parts)
+      MD dir = GalenMD/FONS GALEN/
+      result = ../../pages/FONS GALEN/PLS/assets/<filename>
+    """
     if not src.startswith("./assets/"):
         return src
     filename = src[len("./assets/"):]
-    rel = ctx.page_dir.relative_to(ctx.out_root)
-    return str(rel / "assets" / filename).replace("\\", "/")
+    pages_root = ctx.out_root / "pages"
+    rel = ctx.page_dir.relative_to(pages_root)   # e.g. FONS GALEN/PLS
+    n = len(rel.parts)
+    ups = "../" * n
+    fwd = "/".join(rel.parts)
+    return f"{ups}pages/{fwd}/assets/{filename}"
 
 
 def resolve_internal_link(href: str, resource_id: str, ctx: ConvCtx) -> str | None:
@@ -223,7 +240,8 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
         src = node.get("src", "")
         alt = node.get("alt", "")
         if src.startswith("./assets/"):
-            return f"![[{vault_asset_path(src, ctx)}]]\n"
+            rel = relative_asset_path(src, ctx)
+            return f"![{alt}](<{rel}>)\n"
         if src.startswith("http"):
             return f"![{alt}]({src})\n"
         return ""

@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57016366
 
 Moduly slouží jako přehled pacientů a PLS prohlídek.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135851.png]]
+![image-20250626-135851.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135851.png>)
 Pod údaji o firmě jsou zobrazena rizika, která jsou pacientovi přidělena
 
 **Barevné rozlišení**
@@ -88,12 +88,12 @@ o Po zvolení prohlídky se otevře okno, viz obrázek, s možností přidat dal
 
 o Zobrazení kalendáře je defaultně na začátku aktuálního týdne
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135916.png]]
+![image-20250626-135916.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135916.png>)
 Po vytvoření objednávky v kalendáři se do interní poznámky pro lékaře přepíše název prohlídky a dodatečné položky přiřazené prohlídce. U typu objednávky PLS prohlídka se automaticky nabídne combo-box s výběrem PLS prohlídky, kterou označíme tuto objednávku.  Je-li jiný typ objednávky než PLS, objednávka se nezobrazí.
 
 Aktuálně má pouze informativní charakter, objednávka se přiřadí prohlídce z prvotního výběru. V seznamu v combo-boxu jsou všechny položky na všech smlouvách na dané pobočce, mohou být rozličné PLS skupiny
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135926.png]]
+![image-20250626-135926.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135926.png>)
 **Nastavení základních parametrů PLS prohlídek a eŽádanek na základě pracovního zařazení pacienta (nákladového střediska)**
 
 Tato funkcionalita slouží k nastavení základních parametrů vyšetření i odběrů u PLS prohlídek na základě pracovního zařazení pacienta. Předejde se tím chybám lidského faktoru, kdy jsou provedeny odběry a vyšetření, které nejsou v dané kategorii pracovního zařazení pacienta potřeba. Jedná se o základní kategorie, které by mohl lékař vždy rozšířit o další parametry, ale bude systémem upozorněn, že zadává parametry navíc.
@@ -106,28 +106,28 @@ Nastavení parametrů může provádět uživatel s oprávněním Správce. K fu
 2. Následně vybrat firmu, pro kterou chcete dané parametry nastavit.
 3. V pravé horní sekci se přepnout na záložku Nákladová střediska.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135937.png]]
+![image-20250626-135937.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135937.png>)
 Následně je nutné označit nákladové středisko, pro které chcete parametry nastavit. Po označení se zaktivní tlačítka **Konfigurace prohlídky** a **Konfigurace eŽádanky**.
 
 ### Konfigurace prohlídky
 
 Po kliknutí na tlačítko Konfigurace prohlídky se uživateli zobrazí okno, kde nejprve v položce **Sortiment prohlídky** vybere prohlídku, pro kterou chce nadefinovat parametry. V položce se nabízí všechny PLS prohlídky, které jsou nadefinované v modulu Ceníky.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135948.png]]
+![image-20250626-135948.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135948.png>)
 Uživatel má v okně následně možnost zvolit ty položky, které budou při vyplnění dané PLS prohlídky povinné.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135959.png]]
+![image-20250626-135959.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135959.png>)
 Jelikož se ale jedná pouze o měkkou kontrolu, tak se při ukládání příslušné prohlídky v případě, že uživatel nevyplnil některou z „povinných“ položek, zobrazí následující hláška:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140011.png]]
+![image-20250626-140011.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140011.png>)
 Hláška má ovšem pouze informativní charakter, tudíž uživatel může po kliknutí na tlačítko **Ano**pokračovat v plánovaných krocích, aniž by musel v prohlídce cokoliv změnit.
 
 ### Konfigurace eŽádanky
 
 Po kliknutí na tlačítko Konfigurace eŽádanky se uživateli zobrazí okno, kde nejprve v položce **eŽádanka**vybere žádanku, pro kterou chce nadefinovat parametry. Dále v okně zvolí ty položky, které budou při otevření nové eŽádanky automaticky předvyplněné (zaškrtlé).
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140218.png]]
+![image-20250626-140218.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140218.png>)
 Jestliže následně uživatel při vyplňování eŽádanky odškrtne položku vyplněnou automatickým předvýběrem či naopak zaškrtne položku, která je oproti doporučenému výběru navíc, zobrazí se uživateli obdobná hláška:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140233.png]]
+![image-20250626-140233.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-140233.png>)
 Hláška má ovšem pouze opět informativní charakter, tudíž uživatel může po kliknutí na tlačítko **Ano**pokračovat v plánovaných krocích, aniž by musel v žádance cokoliv měnit.

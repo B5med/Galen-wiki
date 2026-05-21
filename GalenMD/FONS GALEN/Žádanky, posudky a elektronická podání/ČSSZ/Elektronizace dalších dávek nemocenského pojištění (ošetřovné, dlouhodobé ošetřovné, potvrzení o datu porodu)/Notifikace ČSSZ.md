@@ -11,8 +11,8 @@ Nově ČSSZ ke všem dávkám (eDPN, OČR a další) umožňuje zvolit způsob, 
 
 Aby se elektronický způsob předání identifikátoru v nově vystaveném podání přednastavil, je nutné k právě jednomu kontaktu v kartě pacienta nastavit příznak *SÚKL, ČSSZ.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Notifikace ČSSZ/assets/image-20250721-124330.png]]
+![image-20250721-124330.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Notifikace ČSSZ/assets/image-20250721-124330.png>)
 Kontakt bude přednastaven i ve chvíli, kdy je dávka přebírána. Kanál pro předání notifikace i samotný kontakt je před odesláním možné ručně editovat.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Notifikace ČSSZ/assets/image-20250721-124352.png]]
+![image-20250721-124352.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Notifikace ČSSZ/assets/image-20250721-124352.png>)
 Notifikace bude pacientovi ze strany ČSSZ odeslána ve chvíli vytvoření nové dávky, v případě vystavení lístku na peníze a v momentě, kdy je dávka ze strany lékaře ukončena.

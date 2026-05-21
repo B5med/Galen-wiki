@@ -9,10 +9,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75235441
 
 Správce -> Správa organizace -> Agendy -> záložka Operační sály
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113635.png]]
+![image-20250618-113635.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113635.png>)
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113646.png]]
+![image-20250618-113646.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113646.png>)
 
 Správce nastaví uživatelům Operační sály, z kterých pak uživatelé volí v Kalendáři.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113713.png]]
+![image-20250618-113713.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113713.png>)

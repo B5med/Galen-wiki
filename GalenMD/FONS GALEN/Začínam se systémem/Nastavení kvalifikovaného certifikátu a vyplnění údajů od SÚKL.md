@@ -29,7 +29,7 @@ Nastavení probíhá přímo v modulu **Správa organizace**.
 > **Správce → Správa organizace → Rozbalit strukturu → vybrat IČP**
 > → v pravé části se zobrazí informace o pracovišti.
 
-![[pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-085123.png]]
+![image-20250901-085123.png](<../../../pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-085123.png>)
 1. **Vyplňte pole „Kód SÚKL“**.
 2. Klikněte na tlačítko **„Nastavit“**.
 3. Klikněte na **„Vybrat soubor“** → vyhledejte certifikát vydaný SÚKLem → potvrďte tlačítkem **„Otevřít“**.
@@ -44,7 +44,7 @@ Nastavení probíhá přímo v modulu **Správa organizace**.
 
 ### 🧩 **Možnost 1 – nastavení v modulu Ordinace**
 
-![[pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-084659.png]]
+![image-20250901-084659.png](<../../../pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-084659.png>)
 
 **Cesta:**
 Ordinace → Konfigurace a nastavení → záložka Certifikát
@@ -61,7 +61,7 @@ Ordinace → Konfigurace a nastavení → záložka Certifikát
 4. Potvrďte změny tlačítkem **„OK“**.
 5. **Restartujte Galen** – vypněte a znovu zapněte aplikaci, aby se změny projevily.
 
-![[pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-084722.png]]
+![image-20250901-084722.png](<../../../pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-084722.png>)
 
 ### 🧩 **Možnost 2 – nastavení ve Správě organizace (uživatel)**
 
@@ -81,7 +81,7 @@ Ordinace → Konfigurace a nastavení → záložka Certifikát
    - **Heslo**
 4. Potvrďte tlačítkem **„OK“**.
 
-![[pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-085337.png]]
+![image-20250901-085337.png](<../../../pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/assets/image-20250901-085337.png>)
 
 ---
 

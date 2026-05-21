@@ -19,8 +19,8 @@ Tlačítko Platba - výběr umožňuje zadat platbu vybraných položek sortimen
 
 **Sortiment** má již nadefinované prohlídky, očkování, výkony atd. Nadefinovat položky lze v roli správce viz popis modulu Nadstandardní péče.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082850.png]]
+![image-20250618-082850.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082850.png>)
 Pro názornost zde vidíte ukázku Příjmového pokladního dokladu a Faktury.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082915.png]]
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082943.png]]
+![image-20250618-082915.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082915.png>)
+![image-20250618-082943.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu/assets/image-20250618-082943.png>)

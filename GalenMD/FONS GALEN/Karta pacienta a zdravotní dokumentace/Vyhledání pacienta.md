@@ -14,12 +14,12 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76972053
 
 **Podrobný filtr**
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Vyhledání pacienta/assets/image-20250722-081507.png]]
+![image-20250722-081507.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Vyhledání pacienta/assets/image-20250722-081507.png>)
 Je-li potřeba detailnější hledání pacienta, klikne se na ikonu Podrobný filtr, kde lze ve formuláři v několika záložkách zvolit kritéria vyhledávání. Vyhledávání se spustí tlačítkem *Aplikovat*.
 
 V podrobném filtru lze ve 4 záložkách zadávat podrobnější parametry vyhledávání, přičemž vyplní-li uživatel parametry ve více záložkách, které nelze vidět všechny najednou, filtr drží všechny zadané údaje a výsledek vyhledávání zohledňuje parametry zadané ve všech záložkách podrobného filtru. Vyhledávání se spustí tlačítkem *Aplikovat*.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Vyhledání pacienta/assets/image-20250722-083149.png]]
+![image-20250722-083149.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Vyhledání pacienta/assets/image-20250722-083149.png>)
 **Podrobný filtr v kartotéce a ve Správě kartoték**
 
 Podrobný filtr byl ze základní verze rozšířen o položky:

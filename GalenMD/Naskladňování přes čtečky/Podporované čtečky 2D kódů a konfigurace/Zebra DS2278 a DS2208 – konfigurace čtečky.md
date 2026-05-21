@@ -14,10 +14,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366608389
 
 Pomocí níže přiloženého kódu nastavíme čtečku do továrního nastavení.
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS2278 a DS2208 – konfigurace čtečky/assets/image-20260423-125002.png]]
+![image-20260423-125002.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS2278 a DS2208 – konfigurace čtečky/assets/image-20260423-125002.png>)
 **Pozor:**u bezdrátové verze čtečky po uvedení do továrního nastavení je nutné ji vložit do kolébky a počkat na zvukový signál.
 
 Dále pak již stačí pouze načíst konfigurační QR kód, ve kterém je uloženo celé potřebné nastavení
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS2278 a DS2208 – konfigurace čtečky/assets/image-20260423-125056.png]]
+![image-20260423-125056.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS2278 a DS2208 – konfigurace čtečky/assets/image-20260423-125056.png>)
 **Pozor:** Je třeba počkat až čtečka potvrdí dokončení nakonfigurování zvukovým signálem.

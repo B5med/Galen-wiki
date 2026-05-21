@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/56918054
 
 Modulu Designér lze vytvářet uživatelské PLS prohlídky. Cesta: Design -> okno Prohlídky -> záložka PLS -> Tlačítko +
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140330.png]]
+![image-20250626-140330.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140330.png>)
 **Ovlivňuje lhůtu**
 
 Má vliv na výpočet lhůty, a tedy tato hodnota přímo ovlivňuje datum následující prohlídky (přesný popis je v kapitole 7 – Výpočet lhůty) může získat 5 stavů
@@ -32,7 +32,7 @@ Uživatelé s rolí *Správce* mají možnost přidávat položky do číselník
 
 Uživatel s rolí Správce má v modulu Číselníky dostupnou záložku Uživatelské číselníky
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140355.png]]
+![image-20250626-140355.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140355.png>)
 Zde jsou zpřístupněny oficiální číselníky, do kterých je možné uživatelsky přidávat záznam. V tuto chvíli se jedná o číselníky Výkony a Žadatelé VZP. Číselníky, do kterých je možné vložit záznam uživatelem, jsou zpřístupňovány ze strany správců AIS Galen.
 
 ### Přidání nového číselníku
@@ -41,29 +41,29 @@ Pokud uživatel potřebuje do zpřístupněných číselníků přidat záznam, 
 
 Přidání nového číselníku:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140408.png]]
+![image-20250626-140408.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140408.png>)
 Z nabídky vybere číselník, do kterého chce přidávat položky.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140419.png]]
+![image-20250626-140419.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140419.png>)
 Po přidání číselníku se zobrazí okno přehledu, kam je možné jednotlivé položky přidat.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140448.png]]
+![image-20250626-140448.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140448.png>)
 
 ### Přidání položek do číselníku
 
 V detailu číselníku uživatel vyplní jednotlivé řádky – co jedna položka v číselníku, to jeden řádek v přehledu. Toto platí pouze v případě, kdy se hodnoty např. jednoho výkonu v čase nemění. Pokud se v čase mění např. cena výkonu, je nutné přidat nový řádek tak, jak je popsáno v další kapitole.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140510.png]]
+![image-20250626-140510.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140510.png>)
 Význam jednotlivých sloupců číselníku je popsán v pravé části obrazovky. Je zde uvedeno, jaký je obsah daného sloupce, zda je povinné jeho vyplnění, maximální délka obsahu a formát obsahu (text/číslo).
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140521.png]]
+![image-20250626-140521.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140521.png>)
 Veškeré změny (vytvoření, editace, smazání, deaktivace) se ostatním uživatelům v aplikaci projeví do 15 minut. Konkrétně: Pokud uživatel vytvoří nový řádek v číselníku Výkony, tak tento výkon bude možné v parametrech smluv na pracovišti přidat do 15 minut.
 
 **Důležité: Změna hodnoty položky v číselníku v čase**
 
 Pokud se hodnoty jedné položky číselníku mění v čase, je nutné zadat nový řádek se stejným kódem a jinými hodnotami. Příkladem takové změny může být změna bodové hodnoty výkonu nebo ceny výkonu. V takovém případě je nutné u první položky zadat datum platnosti, přidat nový řádek a u toho vyplnit datum platnosti od:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140954.png]]
+![image-20250626-140954.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-140954.png>)
 Není možné původní záznam deaktivovat, nebo přepsat: při přepočtu nevyúčtovaných výkonů by byly změněny hodnoty i tam, kdy platily ty původní.
 
 ## Zobrazení položky v číselníku přidané uživatelem
@@ -72,7 +72,7 @@ Položka v číselníku přidaná uživatelem má vždy přednost před položko
 
 Položky přidané uživatelem mají v číselníku v posledním sloupci Zdroj ikonu informující o uživatelském záznamu:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141011.png]]
+![image-20250626-141011.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141011.png>)
 **Automatické doplnění nákladového střediska na žádance**
 
 Pokud je na společnosti aktivní nadstandardní modul „Nákladová střediska“, je možné na jednotlivých firmách nákladová střediska definovat a ty následně přednastavovat ve formuláři žádanky.
@@ -81,7 +81,7 @@ Pokud je na společnosti aktivní nadstandardní modul „Nákladová střediska
 
 Uživatel s rolí Správce v modulu Nadstandardní péče -> detail konkrétní firmy -> záložka Nákladová střediska přiřazuje k firmě nákladová střediska.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141024.png]]
+![image-20250626-141024.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141024.png>)
 Nákladová střediska jsou třech typů:
 
 1. PLS – indikuje vyšetření v rámci PLS
@@ -94,13 +94,13 @@ Ke každé firmě je možné přiřadit více nákladových středisek stejného
 
 V detailu firmy uživatel zároveň definuje počet dní před nástupem a po nástupu do zaměstnání, kdy se ještě vystavuje vstupní prohlídka.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141036.png]]
+![image-20250626-141036.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141036.png>)
 
 ## Přiřazení alternativního nákladového střediska
 
 Nákladové středisko se v žádance vyplňuje podle pravidel uvedených v následující kapitole. Uživatel má však možnost přednastavit jiné nákladové středisko v kartě zaměstnání pacienta.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141053.png]]
+![image-20250626-141053.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky/assets/image-20250626-141053.png>)
 
 ## Vyplnění nákladového střediska v žádance
 

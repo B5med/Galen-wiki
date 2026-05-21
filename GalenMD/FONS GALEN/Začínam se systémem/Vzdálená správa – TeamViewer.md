@@ -21,12 +21,12 @@ Zákazník má k dispozici **tři způsoby**, jak TeamViewer spustit:
 
 V hlavním okně aplikace FONS Galen klikne zákazník v **levém dolním rohu** na tlačítko **„Potřebuji pomoc"**. Zobrazí se nabídka, kde vybere možnost **„Vzdálená správa TeamViewer"**.
 
-![[pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-091732.png]]
+![image-20260513-091732.png](<../../../pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-091732.png>)
 Po kliknutí se zobrazí systémová výzva Windows, zda má aplikace povolit změny v počítači — zákazník klikne na **Ano**.
 
 Poté se zobrazí okno TeamVieweru s **kódem relace** a polem pro jméno. Zákazník případně klikne na **„Připojit k relaci"** — a pracovník podpory se automaticky připojí.
 
-![[pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-092120.png]]
+![image-20260513-092120.png](<../../../pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-092120.png>)
 
 ---
 
@@ -47,7 +47,7 @@ Pokud má zákazník **TeamViewer nainstalovaný přímo v počítači**, spust�
 - **Vaše ID** — číselný identifikátor zařízení
 - **Heslo** — jednorázové heslo, které se při každém spuštění mění
 
-![[pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-092602.png]]
+![image-20260513-092602.png](<../../../pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer/assets/image-20260513-092602.png>)
 Zákazník toto **ID a heslo sdělí** pracovníkovi podpory, který se připojí.
 
 ---

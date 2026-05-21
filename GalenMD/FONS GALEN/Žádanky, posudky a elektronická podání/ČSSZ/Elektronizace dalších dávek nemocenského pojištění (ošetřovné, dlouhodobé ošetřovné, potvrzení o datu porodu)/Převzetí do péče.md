@@ -13,26 +13,26 @@ Převzetí dávky do péče je možné dvěma způsoby v závislosti na tom, zda
 
 Pokud je mezi dvěma pracovišti nastaveno nahlížení, uživatel dávku, kterou chce převzít vidí ve sloupci vedené v IS Galen. Tuto dávku označí a pomocí tlačítka *Převzít do péče*ji převezme.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123611.png]]
+![image-20250721-123611.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123611.png>)
 
 Po kliku na tlačítko *Převzít do péče* se v pravé části obrazovky zobrazí detail dávky. Uživatel zkontroluje, že je zaškrtnut checkbox *Převzít do péče* a že je vyplněno datum převzetí aktuálním datem. Tlačítkem *Odeslat* odesílá Hlášení ošetřujícího lékaře o převzetí do péče.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123637.png]]
+![image-20250721-123637.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123637.png>)
 
 V části komunikace s ČSSZ uživatel zkontroluje, že hlášení ošetřujícího lékaře bylo formálně přijato ze strany ČSSZ zobrazením slovem slova OK. Hlášení je v tuto chvíli ve zpracování, jakmile bude finálně přijato, bude ze strany ČSSZ zaslána notifikace a dávka bude automaticky převedena do stavu *Otevřená*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123715.png]]
+![image-20250721-123715.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123715.png>)
 
 ## Převzetí do péče dávky z jiné společnosti nebo z pracoviště, na které není nastaveno nahlížení
 
 Uživatel označí dávku, kterou chce převzít, v záložce *Vedené mimo IS* Galen a převezme tlačítkem *Převzít do péče.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123743.png]]
+![image-20250721-123743.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123743.png>)
 
 Po kliku na tlačítko *Převzít do péče* se v pravé části obrazovky zobrazí detail dávky. Uživatel zkontroluje, že je zaškrtnut checkbox *Převzít do péče* a že je vyplněno datum převzetí aktuálním datem. Tlačítkem *Odeslat* odesílá Hlášení ošetřujícího lékaře o převzetí do péče.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123817.png]]
+![image-20250721-123817.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123817.png>)
 
 V části komunikace s ČSSZ uživatel zkontroluje, že hlášení ošetřujícího lékaře bylo formálně přijato ze strany ČSSZ zobrazením slovem slova OK. Hlášení je v tuto chvíli ve zpracování, jakmile bude finálně přijato, bude ze strany ČSSZ zaslána notifikace a dávka bude automaticky převedena do stavu *Otevřená*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123849.png]]
+![image-20250721-123849.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče/assets/image-20250721-123849.png>)

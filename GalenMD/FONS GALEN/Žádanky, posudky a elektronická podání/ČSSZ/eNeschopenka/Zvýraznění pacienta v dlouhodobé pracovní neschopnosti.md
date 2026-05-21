@@ -11,18 +11,18 @@ Uživatel má možnost ovlivnit zvýraznění zadáním počtu dnů dle potřeb 
 
 ## **Konfigurace:**
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081341.png]]
+![image-20250618-081341.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081341.png>)
 
 ## **Zvýraznění pacienta v dlaždicovém zobrazení kartotéky:**
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081446.png]]
+![image-20250618-081446.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081446.png>)
 U pacienta, jehož pracovní neschopnost překročila stanovený počet dnů, se zobrazuje ikona v levém dolním rohu dlaždice.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081546.png]]
+![image-20250618-081546.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081546.png>)
 
 ## **Zvýraznění pacienta v řádkovém zobrazení kartotéky:**
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081446.png]]
+![image-20250618-081446.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081446.png>)
 U pacienta, jehož pracovní neschopnost překročila stanovený počet dnů, se zobrazuje ikona ve sloupci DPN.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081708.png]]
+![image-20250618-081708.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti/assets/image-20250618-081708.png>)

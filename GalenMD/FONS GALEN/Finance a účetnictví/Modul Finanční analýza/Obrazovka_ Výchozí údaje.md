@@ -13,7 +13,7 @@ Slouží k zadávání klíčových vstupních údajů, které mají přímý vl
 
 Záložka Úhradové parametry slouží k zadávání vstupních údajů pro výpočet. Klíčovým polem je **Vstupní úhrada**, bez jehož vyplnění není možné provést kompletní výpočet. Ostatní hodnoty lze zadat ručně, nebo je systém v případě prázdných polí automaticky dopočítá.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20260512-060429.png]]
+![image-20260512-060429.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20260512-060429.png>)
 Editace údajů:
 
 1. V seznamu úhradových parametrů vyberte požadovaný řádek.
@@ -27,7 +27,7 @@ b.      tlačítkem **Otevřít nový záznam** (ikona tužky).
 4. Vyplňte nebo upravte potřebné údaje (např. Vstupní úhrada).
 5. Potvrďte změny tlačítkem **OK**.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20260512-060503.png]]
+![image-20260512-060503.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20260512-060503.png>)
 
 | **Položka** | **Povinná** | **Poznámka** |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ b.      tlačítkem **Otevřít nový záznam** (ikona tužky).
 
 Tato záložka slouží k nastavení či kontrole hodnoty bodu pro jednotlivé segmenty a podsegmenty, případně konkrétní pojišťovny a IČZ.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065341.png]]
+![image-20250905-065341.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065341.png>)
 Editace údajů:
 
 1. V seznamu vyberte požadovaný řádek.
@@ -63,7 +63,7 @@ b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (i
 
 5. Potvrďte změny tlačítkem **OK**.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065359.png]]
+![image-20250905-065359.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065359.png>)
 Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:
 
 - Musí být vyplněna minimálně pojišťovna nebo IČZ.
@@ -74,7 +74,7 @@ Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravid
 
 Zde se nastavují nebo kontrolují koeficienty, které ovlivňují celkové ocenění výkonů.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065424.png]]
+![image-20250905-065424.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065424.png>)
 Editace údajů:
 
 1. V seznamu vyberte požadovaný řádek.
@@ -93,7 +93,7 @@ b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (i
 
 5. Potvrďte změny tlačítkem **OK**.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065456.png]]
+![image-20250905-065456.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065456.png>)
 Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:
 
 - Musí být vyplněna minimálně pojišťovna nebo IČZ.

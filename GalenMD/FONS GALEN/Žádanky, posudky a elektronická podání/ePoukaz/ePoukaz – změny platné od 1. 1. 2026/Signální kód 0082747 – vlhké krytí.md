@@ -27,4 +27,4 @@ Ve „Údaje pro schválení zdravotní pojišťovnou“ se nově vyplňuje:
 - Popis rány a okrajů
 - Velikost rány (3 pole): délka, šířka, hloubka (cm, přesnost 0,1 cm)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Signální kód 0082747 – vlhké krytí/assets/image-20251128-112042.png]]
+![image-20251128-112042.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Signální kód 0082747 – vlhké krytí/assets/image-20251128-112042.png>)

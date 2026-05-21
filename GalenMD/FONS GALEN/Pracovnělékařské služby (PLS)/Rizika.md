@@ -19,7 +19,7 @@ Okno pro správu práci rizik a intervalů prohlídek. Tato rizika se následně
 
 Lze je smazat, jedině pokud nemají vytvořenou referenci (nebyly použity) Při vytváření nebo editaci uživatel pracuje se stejnou obrazovkou ve všech třech skupinách:
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Rizika/assets/image-20250626-135127.png]]
+![image-20250626-135127.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Rizika/assets/image-20250626-135127.png>)
 **Mimořádná prohlídka** – aktuálně pouze informativní charakter, nepoužívá se v žádné jiné logice
 
 **Následná prohlídka** – aktuálně pouze informativní charakter, nepoužívá se v žádné jiné logice

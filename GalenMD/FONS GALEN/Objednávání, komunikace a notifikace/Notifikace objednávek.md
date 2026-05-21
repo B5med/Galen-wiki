@@ -13,10 +13,10 @@ Pacienta je možné notifikovat o vytvoření a smazání objednávky, také je 
 
 1. Objednávku v kalendáři – jedná se o objednávku, která má vazbu na konkrétního pacienta v kartotéce
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114540.png]]
+![image-20250624-114540.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114540.png>)
 2. Záznam v kalendáři – jedná se o objednávku, která nemá vazbu na konkrétního pacienta v kartotéce
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114608.png]]
+![image-20250624-114608.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114608.png>)
 Na objednávku nebo na záznam v kalendáři je možné nastavit tři typy notifikací:
 
 1. Upozornění – zpráva přijde pacientovi ihned po vytvoření objednávky/záznamu v kalendáři, nebo po změně objednávky/ záznamu v kalendáři
@@ -33,14 +33,14 @@ Aby bylo možné odeslat notifikaci, je nutné na objednávku nebo na záznam v 
 
 V šabloně je možné definovat text a zároveň proměnné položky
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114649.png]]
+![image-20250624-114649.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114649.png>)
 Šablonu je možné definovat obecně pro všechny pacienty, nebo rozlišovat dle pohlaví pacienta. V tom případě je nutné nastavit šablonu pro muže, ženy a pro pacienty, kteří neuvedli pohlaví.
 
 ## **Použití šablony v nastavení kalendáře**
 
 V nastavení kalendáře (Správce -> Správa organizace -> Agendy -> Kalendáře -> Nastavení -> Notifikace a připomínání) je možné u každého kalendáře nastavit, aby se určitý druh notifikace odesílal.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114744.png]]
+![image-20250624-114744.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114744.png>)
 V horní polovině okna (A) se nastavují notifikace týkající se objednávky (tj. záznam v kalendáři s vazbou na konkrétního pacienta v kartotéce).
 
 Ve spodní polovině okna (B) se nastavují notifikace týkající se záznamu v kalendáři (tj. záznam v kalendáři bez vazby na pacienta v kartotéce).
@@ -65,7 +65,7 @@ SMS zrušená objednávka není aktivní, protože je nastaveno na „neodesíla
 
 SMS připomenutí objednávky je aktivní, protože je nastaveno „odesílat“.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114800.png]]
+![image-20250624-114800.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114800.png>)
 
 ## **Použití šablony v nastavení ordinačních hodin**
 

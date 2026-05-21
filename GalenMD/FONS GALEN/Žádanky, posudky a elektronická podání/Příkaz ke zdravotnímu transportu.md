@@ -15,11 +15,11 @@ V případě zakoupení příslušné licence jsou ze strany Stapro označena 
 
 Následně je možné ze strany zákazníka v modulu Správa organizace definovat, která pracoviště mohou na pracoviště dopravy zasílat elektronické žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105148.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105206.png]]
+![image-20250701-105148.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105148.png>)
+![image-20250701-105206.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105206.png>)
 Pro pracoviště dopravy se definují výkony přes smlouvu s pojišťovnou. Po otevření smlouvy uživatel vybere záložku *Dopravy*, kde za pomocí funkčních tlačítek přidává/odebírá výkony dopravy.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105229.png]]
+![image-20250701-105229.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105229.png>)
 Chování aplikace se pak liší v závislosti na tom, zda je uživatel přihlášen na pracovišti dopravy, nebo na pracovišti, které o dopravu žádá.
 
 **Příkaz ke zdravotnímu transportu**
@@ -42,13 +42,13 @@ Na pracovišti, které má možnost zadávat žádanky dopravy, se v horní li
 
 Pozn.: Pokud je pracoviště oprávněné vystavovat také *Poukazy FT* nebo *RDG žádanky* – hledejte *Transport*pod ikonou *Žádanky*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105317.png]]
+![image-20250701-105317.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105317.png>)
 Pomocí této ikony se zobrazuje seznam žádanek, které byly pro daného pacienta vytvořeny. V tomto seznamu jsou zobrazeny žádanky, které byly vytvořeny na daném pracovišti, nebo které byly vytvořena na pracovišti, na které je definováno nahlížení. Žádanky z ostatních pracovišť jsou zobrazovány šedým písmem.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105338.png]]
+![image-20250701-105338.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105338.png>)
 Novou žádanku pro daného pacienta je možné vytvořit pomocí ikony (+) nad seznamem žádanek.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105403.png]]
+![image-20250701-105403.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105403.png>)
 Hlavička žádanky obsahuje:
 
 - Č. žádanky – nelze editovat, bude přiřazeno žádance automaticky
@@ -76,7 +76,7 @@ Pracoviště provádějící dopravu má dvě možnosti, jak s žádankami pra
 1. Pracovat se žádankami konkrétního vybraného pacienta
 2. Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané pracoviště dopravy, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105505.png]]
+![image-20250701-105505.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105505.png>)
 V obou případech je možné využít filtr, který je možné předdefinovat a uložit. V seznamu se zobrazují i žádanky pacientů, které dané pracoviště nemusí mít v kartotéce (pokud organizace nemá sdílenou kartotéku).  Tito pacienti jsou do kartotéky zařazeni automaticky.
 
 Pracoviště dopravy má rovněž možnost vytvořit žádanku, která přišla v listinné formě. V takovém případě musí nejprve založit kartu pacienta a následně vstoupit do seznamu žádanek tohoto pacienta (nelze přes seznam žádanek nad celým pracovištěm). Zde se zpřístupní tlačítko (+) pro založení nové žádanky.
@@ -87,12 +87,12 @@ Dialog pro vytváření žádanky na pracovišti dopravy je obdobný. Rozdíl je
 
 Pracovník dopravy převezme žádanku a začne s ní pracovat. Doplní údaje o dopravě, jako jsou *Odjezd, Příjezd, Vozidlo a Řidič*. Zároveň vykáže výkony vztahující se k dopravě. Případně má možnost vykázat i výkony žadatele.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105537.png]]
+![image-20250701-105537.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105537.png>)
 Výkony zadané přes žádanku jsou vykázané úplně stejně, jako by byly zadány v editoru výkonů (přes tlačítko Výkon v horní liště ordinace). Po vyúčtování jsou tyto výkony přeneseny na záložku *Vyúčtované výkony žadatele*.
 
 Po zatržení K vyúčtování lze výkony přes modul *Vyúčtování* vyúčtovat na pojišťovnu. Po vyúčtování lze cesty dopravy sledovat v záložce *Transport*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105600.png]]
+![image-20250701-105600.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105600.png>)
 **Formuláře**
 
 Přes tlačítko *Formuláře*se uživateli zobrazí seznam Příkaz ke zdravotnímu transportu, ze kterého lze vybrat jeden konkrétní. Tisková podoba formuláře obsahuje přenesená data z příkazu.
@@ -109,4 +109,4 @@ V modulu *Nástroje*(-> *Číselník* -> záložka *Doprava*) lze definovat čí
 
 Nové položky číselníků se přidávají/editují/mažou za pomocí funkčních tlačítek.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105626.png]]
+![image-20250701-105626.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu/assets/image-20250701-105626.png>)

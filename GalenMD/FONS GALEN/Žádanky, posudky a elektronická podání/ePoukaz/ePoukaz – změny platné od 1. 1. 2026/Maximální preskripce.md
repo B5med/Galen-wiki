@@ -19,7 +19,7 @@ Pouze pro ně lze dohledat dříve přidělené číslo schválení.
 
 U položky **Číslo povolení přidělení ZP** je nově tlačítko: **Doplnit číslo schválení.**Uživatel jej využije, pokud chce zjistit, zda existuje předchozí platné schválení.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Maximální preskripce/assets/image-20251128-111725.png]]
+![image-20251128-111725.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Maximální preskripce/assets/image-20251128-111725.png>)
 
 ---
 

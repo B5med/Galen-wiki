@@ -60,7 +60,7 @@ Chování tlačítka **Přegenerovat**: Tlačítko je viditelné pouze pro pří
 2. V systémovém dialogu Windows zvolte certifikát určený pro klientskou autentizaci (Client Authentication, mTLS).
 3. Potvrďte výběr. Systém nahraje certifikát a zobrazí jeho identifikaci a datum platnosti.
 
-![[pages/Zabezpečení API/assets/image-20260402-070835.png]]
+![image-20260402-070835.png](<../pages/Zabezpečení API/assets/image-20260402-070835.png>)
 > [!abstract]
 > Doporučení: Pro zabezpečení API doporučujeme použít certifikát DigiCert X9 PKI TLS splňující požadavky na bezpečnost a kompatibilitu se systémem.
 

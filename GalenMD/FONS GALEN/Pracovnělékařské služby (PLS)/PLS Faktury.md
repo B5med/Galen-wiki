@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57507855
 
 # PLS Faktury
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Faktury/assets/image-20250626-135046.png]]
+![image-20250626-135046.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Faktury/assets/image-20250626-135046.png>)
 **Seznam PLS faktur lze filtrovat dle zadaných parametrů**
 
 Období je ve formátu RRMM. Tlačítko Nové vytváří nové faktury. Vyplněné datum vystavení nám určuje, od jakého data mají být faktury vystaveny (nejsou vystaveny pro PLS akce vytvořené po tomto datu). Tlačítko Smazat odstraňuje stávající faktury. Vyplněný období určuje, které faktury budou smazány, na základě data jejich vytvoření.

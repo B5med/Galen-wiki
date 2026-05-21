@@ -18,37 +18,37 @@ Pro odeslání informací o očkování do ISIN je nutné
 - Mít na společnosti aktivní nadstandardní modul Odesílání očkování do ISIN
 - Mít na pracovišti nastavený platný certifikát SÚKL (stejný, který se využívá pro odeslání eReceptu a eNeschopenky).
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101400.png]]
+![image-20250619-101400.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101400.png>)
 - Mít na pracovišti vyplněné PČZ (pořadové číslo zařízení). Tento údaj je možné získat na stránkách UZIS (Detailní záznamy ÚZIS ČR)
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101433.png]]
+![image-20250619-101433.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101433.png>)
 - Mít na uživateli vyplněné pole „NRZP“
 
 Číselník Národního registru zdravotnických pracovníků lze stáhnout v modulu Nástroje -> ISIN -> Registr zdravotnických pracovníků. Přesný popis v kategorii níže - Očkování Covid. Po stažení certifikátu uživatel s rolí Správce přiřadí položku z číselníku v detailu uživatele Správa organizace -> Uživatelé
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101523.png]]
+![image-20250619-101523.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101523.png>)
 **Poznámka**: pro odeslání očkování není nutné vyplňovat podpisový certifikát. Očkování do ISINv2 tedy odesílá z FONS Galen každý zdravotnický pracovník, který očkování ukládá.
 
 #### **VARIANTA 1: Nahlížení do výpisu provedeného očkování lékařem**
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101842.png]]
+![image-20250619-101842.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101842.png>)
 Přístup k informacím se nachází v modulu Ordinace pod ikonou eOčkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101907.png]]
+![image-20250619-101907.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101907.png>)
 Uživatel dle potřeby vyplní filtr (onemocnění, datum od, datum do) a stiskne tlačítko Aplikovat (Poznámka: tlačítko Aplikovat je nutné stisknout vždy, i bez vyplněného filtru).
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101924.png]]
+![image-20250619-101924.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101924.png>)
 Po stisknutí tlačítka aplikovat se zobrazí všechna zadaná očkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-101942.png]]
+![image-20250619-101942.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-101942.png>)
 V případě potřeby je možné kliknout na jednotlivé řádky v přehledu a zobrazit tak podrobnosti dané vakcinace.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102001.png]]
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102011.png]]
+![image-20250619-102001.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102001.png>)
+![image-20250619-102011.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102011.png>)
 
 #### **Výpis provedeného očkování**
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102031.png]]
+![image-20250619-102031.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102031.png>)
 Po kliku na tlačítko Export se nabídne export výpisu očkování, který je právě uživatelem zobrazen. Např. pokud uživatel filtruje pouze očkování proti tetanu, budou ve výpisu provedených očkování uvedena pouze tato očkování. Pokud mají být ve výpisu všechna očkování, je nutné zrušit všechny filtry.
 
 #### **VARIANTA 2: Pro uživatele, kteří očkování aktivně aplikují**
@@ -61,18 +61,18 @@ Nahlížení do výpisu provedeného očkování lékařem
 
 Generování PDF o záznamu o očkování a generování PDF výpisu záznamu o očková
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102146.png]]
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102202.png]]
+![image-20250619-102146.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102146.png>)
+![image-20250619-102202.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102202.png>)
 
 #### **Skladová evidence očkovacích látek**
 
 - **platí pro uživatele, kteří využívají nadstandardní modul “sklad”.**Stávající proces naskladnění očkovacích látek je rozšířen o položku **kód SÚKL** dané očkovací látky, protože tento kód je pro odeslání do ISIN povinný. Doporučujeme tak kód SÚKL při naskladnění očkovací látky uvést, uživateli to ušetří další práci při zadávání vlastního očkování. Pokud při naskladnění SÚKL kód očkovací látky nebyl vyplněn, musí uživatel kód zadat při každém očkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102326.png]]
+![image-20250619-102326.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102326.png>)
 
 Uživatel vybere kód SÚKL z číselníku. Je nutné zvolit správný kód, který rozlišuje velikost balení nebo sílu léčivého přípravku. Při odeslání do ISIN je uvedený kód SÚKL porovnáván s uvedenou šarží – **tyto údaje musí souhlasit s číselníkem.**
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102510.png]]
+![image-20250619-102510.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102510.png>)
 
 #### **Odeslání záznamu očkování do ISIN**
 
@@ -80,12 +80,12 @@ Uživatel vybere kód SÚKL z číselníku. Je nutné zvolit správný kód, kte
 
 Pokud uživatel v okně pro výběr schématu zaškrtne checkbox „Bez schématu“ nebo „Doplnit bez vykázání výkonu“, tak nebude možné toto očkování do ISIN odeslat, protože v něm nebudou vyplněné údaje povinné pro očkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102543.png]]
+![image-20250619-102543.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102543.png>)
 - Výběr varianty
 
 V okně pro výběr varianty se nic nemění.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102606.png]]
+![image-20250619-102606.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102606.png>)
 
 #### **Výběr šarže**
 
@@ -93,20 +93,20 @@ V okně pro výběr šarže probíhá kontrola, zda zadaná šarže odpovídá k
 
 - Výběr šarže **pro naskladněné očkovací látky** (pro uživatele využívající nadstandardní modul “sklad”)
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102710.png]]
+![image-20250619-102710.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102710.png>)
 Šarže na prvním řádku obrázku **nemá zadaný kód SÚKL při naskladnění**(obr. níže)
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102728.png]]
+![image-20250619-102728.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102728.png>)
 Šarže na druhém řádku **má zadaný správný kód SÚKL** při naskladnění, a tak **není potřeba nic ověřovat** a je možné pokračovat na další okno. (obr. níže)
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102744.png]]
+![image-20250619-102744.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102744.png>)
 Pokud při naskladnění SÚKL kód očkovací látky nebyl vyplněn, musí uživatel kód zadat při každém očkování.
 
 - Výběr šarže pro očkovací látky **bez skladové evidence**
 
 SÚKL kód očkovací látky uživatel vybere při zadávání očkování. Vybraný kód se předvyplní při dalším očkování stejně jako šarže a exspirace.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102856.png]]
+![image-20250619-102856.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102856.png>)
 
 #### **Důležité - Tlačítko Očkovat/Dále**
 
@@ -116,7 +116,7 @@ V případě, že se šarže a kód SÚKL neověří, zobrazí se uživateli tla
 
 **Informace k odeslání do ISIN**
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-102949.png]]
+![image-20250619-102949.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-102949.png>)
 **Očkovací látka** – název se dotahuje z číselníku Léčivé přípravky na základě zadaného kódu SÚKL očkovací látky
 
 **Typ vakcinace**– automaticky se doplňuje dle vybraného pořadí dávky v okně výběru očkovacího schematu. Nabývá hodnot Primovakcinace nebo Přeočkování.
@@ -129,18 +129,18 @@ V případě, že se šarže a kód SÚKL neověří, zobrazí se uživateli tla
 
 V posledním okně jsou zobrazené informace o naskladněné OL. Nyní lze odeslat do ISIN.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103012.png]]
+![image-20250619-103012.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103012.png>)
 
 #### **Stav odeslání ISIN**
 
 Po stisku tlačítka Očkovat se záznam uloží a zároveň odešle do ISIN.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103039.png]]
+![image-20250619-103039.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103039.png>)
 Úspěšně odeslané očkování bude potvrzeno hláškou. Očkování může být přijato, ale zároveň se uživateli zobrazí informace upozorňující na nějakou nesrovnalost, která je v příslušném okně popsána.
 
 Očkování, které bylo přijato, se v Přehledu očkování zobrazuje ve stavu Přijato.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103055.png]]
+![image-20250619-103055.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103055.png>)
 V případě, že je ve sloupci Stav ISIN uvedeno Chyba nebo není stav uveden, je nutné očkování zaslat do ISIN znovu.
 
 Pokud uživatel odesílá očkování s jiným datem, než je ten dnešní, vrátí se chyba, ve které je popis problému.
@@ -149,7 +149,7 @@ Pokud uživatel odesílá očkování s jiným datem, než je ten dnešní, vrá
 
 Přehled očkování byla rozšířen o sloupec „Stav ISIN“.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103129.png]]
+![image-20250619-103129.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103129.png>)
 Pokud je očkování ve stavu Přijato, bylo takové očkování akceptováno.
 
 Pokud je očkování ve stavu Chyba – je nutné upravit údaje podle pokynů a odeslat znovu.
@@ -158,10 +158,10 @@ Pokud je očkování ve stavu Chyba – je nutné upravit údaje podle pokynů a
 
 Detail provedeného očkování získáme rozkliknutím příslušného řádku očkování dvojklikem.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103159.png]]
+![image-20250619-103159.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103159.png>)
 Očkování zadané po zapnutí funkcionality eOčkování obsahuje údaje potřebné pro odeslání do ISIN. Očkování zadaná před zapnutím funkcionality není možné zpětně odeslat.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103213.png]]
+![image-20250619-103213.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103213.png>)
 V případě potřeby editace údajů, které nejsou editovatelné, je nutné celé očkování smazat a zadat znovu.
 
 Pro zprovoznění funkcionality eOčkování v AIS Galen je potřeba mít stávající nezbytnosti pro odeslání eReceptu, tzn.
@@ -177,7 +177,7 @@ Uživatelé, kteří již z AIS Galen odesílají eRecept, nebudou potřebovat n
 
 V případě potřeba editace již odeslaného očkování je možné zobrazit detail očkování. Zde je ale možné editovat pouze pole Poznámka, ostatní položky jsou vyplněny na základě výběru výše uvedených položek.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103240.png]]
+![image-20250619-103240.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103240.png>)
 Pokud je nutné změnit pole „očkovací látka“, „typ vakcinace“ nebo „pojišťovna“, pak je nutné celé očkování smazat a zadat znovu.
 
 #### **Smazání očkování**
@@ -190,16 +190,16 @@ Modul Dashboard poskytuje přehled očkování, která byl měla být od ISIN od
 
 Z dashboardu se uživatel dostane na detail konkrétního neodeslaného očkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103351.png]]
+![image-20250619-103351.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103351.png>)
 
 #### **Poznámka k modulu eOčkování**
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103413.png]]
+![image-20250619-103413.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103413.png>)
 Modul eOčkování (k dispozici v horní liště nebo v záložce modulu Očkování) zobrazuje informace, které jsou poskytovány ze strany SÚKL. Tam se původně záznamy o očkování odesílaly. Po změně legislativy se záznamy odesílají do ISIN, ale správcem poskytující informace o provedených očkování je stále SÚKL. Propojení mezi SÚKL a ISIN není v tuto chvíli realizované, a proto očkování odeslaná z FONS Galen do ISIN, nebudou v tuto chvíli v modulu eOčkování viditelná.
 
 Poznámka: *Pediatři mají zadávání očkování obdobné, systém je však doplněn o očkovací kalendář.*
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103445.png]]
+![image-20250619-103445.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103445.png>)
 
 #### **Očkování COVID**
 
@@ -214,7 +214,7 @@ Informace o očkování pacienta do ISIN probíhá v rámci zadání očkování
 
 Uživatel s rolí Správce zadá ID zdravotnického pracovníka k uživateli v modulu Správa organizace –Uživatelé, viz Obrázek
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103600.png]]
+![image-20250619-103600.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103600.png>)
 Tento postup předpokládá, že Správce číslo NRZP uživatele zná. Pokud číslo NRZP nezná, číslo NRZP může vybrat z číselníku. Číselník je nutné nejprve načíst z NRZP,viz další kapitoly.
 
 **Nutné předpoklady pro získání ID zdravotnického pracovníka**
@@ -229,12 +229,12 @@ Pokud Správce ID zdravotnického pracovníka nezná, může si za pomocí certi
 
 Uživatel s rolí Správce může stáhnout seznam zdravotnických pracovníků dané společnosti. Modul Nástroje – Číselníky – ISIN - záložka Registr zdr. Prac.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103647.png]]
+![image-20250619-103647.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103647.png>)
 Po kliku na tlačítko Načíst z NRZP bude zavolána služba ÚZIS, která zašle seznam zdravotnických pracovníků společnosti. Upozornění: Volání této služby je časově náročné, získání seznamu může trvat až 10 minut.
 
 Uživatel je vyzván pro výběr certifikátu, který se má k volání seznamu použít.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103702.png]]
+![image-20250619-103702.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103702.png>)
 **Společnost**– pro volání se použije certifikát ÚZIS, který je přiřazen na společnosti.
 
 **Podřízená společnost** – uživatel zvolí, který z certifikátů ÚZIS přiřazených na podřízených společnostech, se pro volání má použít.
@@ -247,7 +247,7 @@ Následně bude stažen seznam zdravotnických pracovníků. Do tohoto číseln�
 
 Společnost, která chce odesílat informace o očkování do ISIN, si musí vytvořit uživatelskou očkovací variantu, kterou se budou informace do ISIN odesílat. Uživatelskou očkovací variantu vytvoří uživatel AIS Galen s rolí Správce v modulu Správa organizace – Agendy – Varianty očkování
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103732.png]]
+![image-20250619-103732.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103732.png>)
 V tomto okně uživatel vidí v levé části varianty očkování vytvořené Správci AIS Galen na základě platné metodiky. V pravé části okna jsou vidět varianty očkování, které vytvořil uživatel s rolí Správce dané společnosti.
 
 **Vytvoření uživatelské varianty je možné dvěma způsoby:**
@@ -257,9 +257,9 @@ V tomto okně uživatel vidí v levé části varianty očkování vytvořené S
 
 #### **Vytvoření uživatelské varianty kopií ze základní očkovací varianty**
 
-Uživatel z levého sloupce přehledu očkovacích variant s názvem Varianty očkování základní vybere variantu, kterou chce kopírovat a stiskne tlačítko Kopírovat ![[pages/Nadstandardní modul eOčkování/assets/image-20250619-104432.png]]
+Uživatel z levého sloupce přehledu očkovacích variant s názvem Varianty očkování základní vybere variantu, kterou chce kopírovat a stiskne tlačítko Kopírovat ![image-20250619-104432.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-104432.png>)
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-103822.png]]
+![image-20250619-103822.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-103822.png>)
 Otevře se okno pro editaci očkovací varianty. Položky, které byly vyplněny v základní očkovací variantě jsou přeneseny, ale zároveň je možné je změnit.
 
 #### **Vytvoření nové uživatelské varianty**
@@ -270,7 +270,7 @@ Novou uživatelskou variantu je možné vytvořit stisknutím zeleného tlačít
 
 V případě, že je potřeba, aby se informace z této očkovací varianty odesílaly do ISIN, zaškrtne uživatel checkbox Odesílat do ISIN (1.).
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-104642.png]]
+![image-20250619-104642.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-104642.png>)
 
 V první části okna se vyplňují položky, které jsou společné pro všechny očkovací varianty, ať už se odesílají do ISIN, či nikoliv. Specifikují, jakým způsobem se bude dané očkování vykazovat pojišťovně.
 
@@ -296,10 +296,10 @@ V tomto kroku je možné zaškrtnout další možnosti:
 
 **Ve třetím kroku** – výběr varianty zvolí uživatelsky vytvořenou variantu, která má příznak „Odesílat do ISIN“. Uživateli se přednastaví položky, které vyplnil při vytváření varianty. Položky Indikace, Jiná indikace, Poznámka, Aplikační cesta, Místo aplikace je možné změnit nebo doplnit. Hodnota pole Typ výkonu se přednastavuje na základě toho, zda byla v předchozím kroku vybrána první nebo druhá dávka očkování.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-104921.png]]
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105025.png]]
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105052.png]]
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105118.png]]
+![image-20250619-104921.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-104921.png>)
+![image-20250619-105025.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105025.png>)
+![image-20250619-105052.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105052.png>)
+![image-20250619-105118.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105118.png>)
 
 **Ve čtvrtém kroku** uživatel buď vybere šarží ze skladu, nebo v případě, že sklady nepoužívá, zadá šarži a expiraci ručně. Po stisknutí tlačítka očkovat se očkování uloží a zároveň odešle do ISIN.
 
@@ -327,11 +327,11 @@ Jedná se o sloupce
 
 - Poznámka ISIN
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105215.png]]
+![image-20250619-105215.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105215.png>)
 
 **Poznámka**: Pro přehlednější zobrazení informaci v jednotlivých sloupcích lze celé okno posunout. Po najetí myší na středovou vertikální čáru, která odděluje pravou a levou část okna, se zobrazí dvojitá šipka, pomocí které je možné toto rozdělení posunout.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105232.png]]
+![image-20250619-105232.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105232.png>)
 
 #### **Záložka Seznam očkování ISIN**
 
@@ -341,12 +341,12 @@ V záložce Seznam očkování ISIN jsou k dispozici tlačítka pro zařazení, 
 
 Údaje zaslané do ISIN je možné upravit a zaslat znovu do ISIN. V přehledu očkování je potřeba rozkliknut řádek s dávkou, kterou je potřeba upravit.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105531.png]]
+![image-20250619-105531.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105531.png>)
 Po editaci příslušného pole se spolu se stisknutím tlačítka OK odešlou informace do ISIN. **Důležité**: Pole Typ výkonu nelze editovat. Pokud uživatel zadal špatné pořadí dávky vakcinace, je nutné řádek očkování smazat a zadat znovu.
 
 #### **Stažení certifikátu o provedeném očkování**
 
 V případě, že je očkování ukončeno, tzn. jsou do ISIN odeslány všechny dávky dle očkovacího schématu, tak je možné z ISIN stáhnout certifikát pro pacienta o provedeném očkování. Je potřeba označit řádek, ve kterém je uvedená vakcinace ve stavu „ukončená“. Následně se v Přehledu očkování zobrazí tlačítko pro stažení certifikátu.
 
-![[pages/Nadstandardní modul eOčkování/assets/image-20250619-105605.png]]
+![image-20250619-105605.png](<../pages/Nadstandardní modul eOčkování/assets/image-20250619-105605.png>)
 Následně se zobrazí okno, ve kterém si uživatel vybere způsob exportu certifikátu.

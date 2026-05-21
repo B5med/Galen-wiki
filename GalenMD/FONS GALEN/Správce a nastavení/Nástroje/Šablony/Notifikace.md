@@ -17,4 +17,4 @@ Jestliže v případě nastavení Připomenutí záznamu v kalendáři v je kale
 
 Okno vytváření nové notifikace:
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Notifikace/assets/image-20250618-104748.png]]
+![image-20250618-104748.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Notifikace/assets/image-20250618-104748.png>)

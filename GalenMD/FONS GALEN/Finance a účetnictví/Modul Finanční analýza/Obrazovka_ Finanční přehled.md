@@ -15,7 +15,7 @@ Tato záložka zobrazuje **výkony, jejichž úhrada je omezena stanoveným limi
 
 **Poznámka:** Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074343.png]]
+![image-20250905-074343.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074343.png>)
 
 ### Plně hrazená péče
 
@@ -23,7 +23,7 @@ Obsahuje přehled **výkonů hrazených v plné výši bez limitů**. Uživatel 
 
 **Poznámka:** Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074405.png]]
+![image-20250905-074405.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074405.png>)
 
 ### Péče cizincům
 
@@ -32,4 +32,4 @@ Na konci tabulky je vždy k dispozici **součtový řádek**, který shrnuje cel
 
 **Poznámka:** Záložka slouží pouze k prohlížení.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074420.png]]
+![image-20250905-074420.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled/assets/image-20250905-074420.png>)

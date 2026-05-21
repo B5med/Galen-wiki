@@ -17,7 +17,7 @@ Příklad: Správce si nastaví, že nároky z očkování se budou vytvářet j
 
 V rámci generování nároků lze taky na úrovni onemocnění nastavit, aby se nárok generoval jenom po zočkovaní.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z očkování/Konfigurace a vznik nároků/assets/image-20250710-124601.png]]
+![image-20250710-124601.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z očkování/Konfigurace a vznik nároků/assets/image-20250710-124601.png>)
 - Jakmile jsou na onemocnění vytvořené nároky, definici onemocnění nelze smazat, lze pouze zneaktivnit.
 
 o Při zneaktivnění definice onemocnění se všechny aktívní nebo budoucí nároky převedou do stavu pozastavený, kde při opětovném zaktivnění onemocnění se tyhle nároky znovu zaktivní, v případě že budou stále spadat do věkových intervalů na onemocnění.

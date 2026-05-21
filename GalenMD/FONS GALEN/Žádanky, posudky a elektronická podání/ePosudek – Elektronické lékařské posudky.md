@@ -35,7 +35,7 @@ Každý lékař vystavující posudky musí mít v systému vyplněné číslo K
 
 **Správa → Uživatelé → [detail uživatele] → Číslo KRZP → Ověřit**
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/image-20260424-090251.png]]
+![image-20260424-090251.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/image-20260424-090251.png>)
 
 ## Přístup k modulu
 
@@ -54,7 +54,7 @@ Každý lékař vystavující posudky musí mít v systému vyplněné číslo K
 | **Export** | Exportuje PDF posudku – nabízí možnosti odeslání, uložení nebo otevření |
 | **Zpět** | Zavře formulář |
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/image-20260424-090859.png]]
+![image-20260424-090859.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/image-20260424-090859.png>)
 
 ### Záložky přehledu
 
@@ -80,4 +80,4 @@ Platí pro všechny typy posudků:
 > [!warning]
 > PDF posudku lze zobrazit a exportovat pouze pro posudky ve stavu **Platný** s platným datem platnosti.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/obrazek-20260427-063725.png]]
+![obrazek-20260427-063725.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/assets/obrazek-20260427-063725.png>)

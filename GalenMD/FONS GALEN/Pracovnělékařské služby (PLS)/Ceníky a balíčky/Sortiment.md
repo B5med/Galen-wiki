@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57507841
 
 # Sortiment
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Sortiment/assets/image-20250626-133517.png]]
+![image-20250626-133517.png](<../../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Sortiment/assets/image-20250626-133517.png>)
 **Sortiment – jednotlivá pole**
 
 **Aktivní**– může získat tři stavy

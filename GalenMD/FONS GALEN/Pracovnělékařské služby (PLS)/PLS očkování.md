@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376809
 
 V okně očkování lze prostřednictvím tlačítka “+ PLS” zadat i očkování, vázané na PLS.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování/assets/image-20250626-135532.png]]
+![image-20250626-135532.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování/assets/image-20250626-135532.png>)
 Při vytváření PLS očkování se zobrazují všechny očkovací látky definované na smlouvě (i ty které jsou jen v rozšiřujících položkách, musí však být ve stejné skupině PLS jako je pacient na kartě v zaměstnání zařazen). Pokud je prohlídka na smlouvě vícekrát, zobrazí se tento počet i ve výběru
 
 - Nelze vytvořit PLS očkování do období, kde již existuje vystavená výkonová faktura.
@@ -22,4 +22,4 @@ Při vytváření PLS očkování se zobrazují všechny očkovací látky defin
 
 Jednotlivá očkování spadající pod PLS lze od očkování pod Kurativou odlišit pomocí sloupce *Typ dokumentace*.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování/assets/image-20250626-135548.png]]
+![image-20250626-135548.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování/assets/image-20250626-135548.png>)

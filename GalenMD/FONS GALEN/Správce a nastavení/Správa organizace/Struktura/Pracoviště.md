@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694407
 
 Na této obrazovce uživatel s rolí *Správce* definuje informace týkající se daného pracoviště.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/assets/image-20251210-111844.png]]
+![image-20251210-111844.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/assets/image-20251210-111844.png>)
 **(1) IČP**
 
 Osm číslic, které určují identifikační číslo pracoviště.

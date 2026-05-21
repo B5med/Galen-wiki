@@ -13,7 +13,7 @@ Pro vytvoření formuláře typu eŽádanka, tj. laboratorní žádanka, která 
 
 Soubory pro jednotlivé žádanky jsou vytvořeny ze strany Stapro, jedná se o tzv. neuživatelské soubory. Uživatel je v přehledu vytvořených souborů vidí, ale nemůže editovat.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071646.png]]
+![image-20250826-071646.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071646.png>)
 Pomocí tlačítka Zakázat pro uživatele je může zakázat pro uživatele své společnosti (funkcionalita je stejná jako v ostatních entitách: formuláře atd.)
 
 Uživatel může editovat pouze ty soubory lab. položek, které vytvořil sám, tj. jsou uživatelské.
@@ -22,9 +22,9 @@ Uživatel může editovat pouze ty soubory lab. položek, které vytvořil sám,
 
 Soubor lab. metod, konkrétně názvů položek a jejich NČLP kódů dodá laboratoř. Tento soubor je následně nahrán v modulu Design -> Lab. položky pomocí tlačítka Import z CSV
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071800.png]]
+![image-20250826-071800.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071800.png>)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071748.png]]
+![image-20250826-071748.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-071748.png>)
 
 Soubor ve formátu .csv musí mít tuto strukturu, tj. 6 sloupců.
 
@@ -101,7 +101,7 @@ Po importu dokumentu ve formátu .csv se vytvoří nový soubor lab. metod
 
 Po importu dokumentu ve formátu .csv se vytvoří nový soubor lab. metod
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072218.png]]
+![image-20250826-072218.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072218.png>)
 1. Uživatel doplní název souboru. Protože každý soubor odpovídá jedné žádance jedná laboratoře, doporučujeme použít jmennou konvenci *NÁZEV LABORATOŘE Název žádanky*, např. SYNLAB Mikrobiologie. S ohledem na množství metod v jedné žádance, kde každá laboratoř může pro „stejnou“ metodu použít jiný NČLP kód, nedoporučujeme pro různé žádanky používat stejné soubory lab. metod, i když je to samozřejmě možné.
 2. Uživatel upraví dostupnost. Nastaví, na kterých společnostech má být daný soubor dostupný.
 3. Typ položky se načetl na základě struktury souboru .csv. Uživatel zkontroluje, zda typ položky odpovídá dané metodě.
@@ -115,7 +115,7 @@ Položky do souboru lab. položek se načetly na základě struktury souboru .cs
 
 První sloupec *Parametr* indikuje, že se v rámci žádanky jedná o textovou položku. Druhý sloupec *Parametry* (1.) označuje povinné vyplněný polí v případě požadovaní konkrétní metody.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072336.png]]
+![image-20250826-072336.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072336.png>)
 Pokud lékař požaduje lab. metodu *Kreatinin,*musí v žádance vyplnit pole Výška a Hmotnost (bez jejich vyplnění nebude možné žádanku odeslat). Výška a Hmotnost jsou tedy parametry položky Kreatinin. Výška a hmotnost jsou v uvedeny v žádance jako metody, ale uživatel je také uvede do části Parametry (2.). Kód položky a kód parametru (3.) se musí shodovat.
 
 Následně uživatel přiřadí zadané parametry do řádku konkrétní metody, jak je znázorněno v řádku Kreatinin.
@@ -124,7 +124,7 @@ Následně uživatel přiřadí zadané parametry do řádku konkrétní metody,
 
 U každé metody je možné zadat, v jakém typu odběrového materiálu bude vzorek do laboratoře zaslán.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072405.png]]
+![image-20250826-072405.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072405.png>)
 Uživatel zadá odběrový materiál (1.), kde
 
 - Kód je unikátní značení daného materiálu, může obsahovat číslice
@@ -155,7 +155,7 @@ Soubor lab. metod je samozřejmě možné vytvořit také ručně, bez importu s
 
 Nový soubor je možné vytvořit pomocí zeleného tlačítka plus . V tom případě uživatel neimportuje soubor .csv, ale ručně vyplňuje skupiny a jednotlivé metody. Import je možný pouze pomocí stejnojmenného tlačítka.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072521.png]]
+![image-20250826-072521.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072521.png>)
 
 Editace stávajícího souboru lab. metod je možná po otevření detailu konkrétního souboru. V případě editace je nutné mít na paměti, že všechny změny provedené v souboru lab. metod je následně nutné ze strany uživatele provést také v lab. žádance (formuláři), na kterou je daný soubor lab. metod navázán. Např.
 
@@ -168,13 +168,13 @@ Editace stávajícího souboru lab. metod je možná po otevření detailu konkr
 
 V detailu prázdné varianty formuláře zvolí možnost Lab. položky a vybere soubor, který chce do formuláře nahrát.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072608.png]]
+![image-20250826-072608.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072608.png>)
 Po výběru konkrétního souboru lab. položek se zobrazí okno pro možnou specifikaci konkrétních polí, které se do formuláře nahrají.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072624.png]]
+![image-20250826-072624.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072624.png>)
 Po stisku tl. OK se hlavička a metody přenesou do formuláře
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072653.png]]
+![image-20250826-072653.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-072653.png>)
 
 ### Hlavička
 
@@ -200,9 +200,9 @@ Metody na nahrály z připraveného souboru lab. metod. V případě editace
 
 - Neměnit polohu názvu metody a checkboxu/textového pole. Název metody (položka typu MLabel) a checkbox nebo textové pole pro vyplnění hodnoty metody (MData) spolu nejsou nijak svázané. Jejich vazbu tvoří pouze to, že jsou zobrazeny vedle sebe. Pokud by uživatel polohu těchto dvou checkboxů  změnil bez toho, aby také změnit polohu položek s názvem (Urea, Kreatinin), lékař by při zaškrtnutí checkboxu vedle pole Urea do laboratoře odesílal požadavek na metodu Kreatinin.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073010.png]]
+![image-20250826-073010.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073010.png>)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073019.png]]
+![image-20250826-073019.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073019.png>)
 
 - V případě změny propertyname checkboxu nebo textového pole pro vyplnění metody musí tuto změnu také promítnout do pole Kód u dané metody v souboru lab. položek.
 
@@ -212,7 +212,7 @@ Metody na nahrály z připraveného souboru lab. metod. V případě editace
 
 Pro vytvoření eŽádanky, tj. zobrazení tlačítka Odeslat v žádance, je nutné nastavit eKomunikaci ve stejnojmenné záložce.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073137.png]]
+![image-20250826-073137.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky/assets/image-20250826-073137.png>)
 Typ přenášených dat = laboratorní žádanka, jiná možnost není dostupná
 
 Adresace = Pevná volba, jiná možnost není dostupná

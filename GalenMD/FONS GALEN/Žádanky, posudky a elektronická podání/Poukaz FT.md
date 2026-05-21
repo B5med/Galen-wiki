@@ -21,12 +21,12 @@ Na pracovišti s odborností 902 je možné využívat aparát pro práci s 
 
 Pro konkrétního pacienta je možné zobrazit seznam evidovaných poukazů pomocí tlačítka *Poukazy FT* v horní liště modulu *Ordinace.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084227.png]]
+![image-20250701-084227.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084227.png>)
 Pozn.: Pokud je pracoviště oprávněné vystavovat také Žádanky RDG – hledejte Poukazy FT pod ikonou Žádanky.
 
 Okno s evidovanými poukazy obsahuje základní filtrace (v levé části) a seznam již evidovaných poukazů (v pravé části).
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084312.png]]
+![image-20250701-084312.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084312.png>)
 Do vytvářeného poukazu se nakopírují základní identifikační údaje z kartotéky. Dále je nutné zadat několik povinných informací, které jsou ve formuláři označeny červenou hvězdičkou. Zejména se jedná o:
 
 - Přiřazen na prac. - pracoviště, na které je poukaz FT přiřazen
@@ -45,10 +45,10 @@ Pole Typ dokumentace je přednastaveno na hodnotu Kurativa a lze jej změnit na 
 
 U některých polí (např. adresa, předepisující lékař, …) je možné využít informace z navázaných objektů. K tomu slouží ikona černého trojúhelníku vedle příslušného pole.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084356.png]]
+![image-20250701-084356.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084356.png>)
 Dále je zapotřebí vyplnit seznam požadovaných výkonů. K tomu slouží editovatelná tabulka ve spodní části dialogu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084420.png]]
+![image-20250701-084420.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084420.png>)
 Zde se zadává informace o jednotlivých výkonech a předepsaných počtech těchto výkonů. Ve sloupci *Počet k vykázání* se ve výchozím stavu zrcadlí údaj zadaný jako *Předepsaný počet*. Vůči této hodnotě následně systém kontroluje počty vykázaných výkonů.
 
 Konfiguračně (viz kapitola Konfigurace) lze u určitého výkonu umožnit zadat jinou hodnotu počtu pro vykázání.
@@ -59,7 +59,7 @@ Stav poukazu může editovat pouze pracoviště, na které je FT poukaz přiřaz
 
 ## **Detail pole Stav**
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084516.png]]
+![image-20250701-084516.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084516.png>)
 Stavy, do kterých nemůže být FT poukaz převeden, je zašedlý.
 
 ### **Stavy**
@@ -88,10 +88,10 @@ Tohoto stavu FT poukaz nabývá pouze po ruční změně.
 
 Evidované poukazy FT slouží jako „šablony“ pro zadávání výkonů v okně *Výkony*. Seznam těchto poukazů se zobrazuje v pravé části pod šablonami výkonů.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084644.png]]
+![image-20250701-084644.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084644.png>)
 Kliknutím na příslušné tlačítko se zobrazí dialogové okno pro zadání provedených výkonů.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084706.png]]
+![image-20250701-084706.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084706.png>)
 Zde je ve sloupci *Vykázat* nutné zadat počty výkonů, které mají být vykázány. Výkony, u kterých bude vykázán počet 0, nebudou následně přeneseny do editoru výkonů.
 
 Dále je možné v části *Svázat záznamy* provázat zápisy v dekurzu z daného dne s daným poukazem. Je zde uveden náhled, a o tom, zda má být vazba vytvořena, rozhoduje škrtátko vedle tohoto náhledu.
@@ -104,14 +104,14 @@ Vykázání vybraných výkonů a vytvoření případné vazby mezi zápisem v�
 
 *Obě pracoviště, žádající i pracoviště s odborností 902, mají možnost poukaz FT podepsat a následně archivovat.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084745.png]]
+![image-20250701-084745.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084745.png>)
 *Po kliknutí na ikonu EZD  a následně tlačítko Nová  lze zvolit poukaz, který má být podepsán.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084807.png]]
+![image-20250701-084807.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084807.png>)
 *Po jejím zobrazením je možné žádanku upravit/formátovat a po stisknutí tlačítka EZD, resp. ikony v levé části Přehledů poukazů FT, následně podepsat.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084829.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084843.png]]
+![image-20250701-084829.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084829.png>)
+![image-20250701-084843.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084843.png>)
 Po kliknutí na Podepsat se dokument podepíše a je připraven na odeslání do archívu. Po kliknutí na Odejít dokument nebude podepsán.
 
 ## **Evidence dalších vazeb vůči poukazům FT**
@@ -120,21 +120,21 @@ Po kliknutí na Podepsat se dokument podepíše a je připraven na odeslání do
 
 Vazbu záznamu v dekurzu na poukaz je možné provést také manuálně a to z okna dekurzu. V šedé liště u zápisu je nutné kliknout na odkaz *Zadat vazbu na poukaz FT*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084923.png]]
+![image-20250701-084923.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084923.png>)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084939.png]]
+![image-20250701-084939.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084939.png>)
 
 Po kliknutí na tento odkaz se zobrazí dialog *Výběr poukazu FT*, kde uživatel vybere příslušný poukaz a po potvrzení je zápis v dekurzu s poukazem svázán.
 
 Pokud je zapotřebí naopak vazbu mezi dekurzem a poukazem zrušit, je to možné provést kliknutím pravým tlačítkem na odkaz indikujícím navázaný poukaz.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085002.png]]
+![image-20250701-085002.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085002.png>)
 
 ### **Vyšetření**
 
 Dalším objektem, který je možné vázat na poukaz FT jsou vyšetření. Zde je vazba doplňována vždy ručně pomocí odkazu *Zadat vazbu na poukaz FT* z detailu vyšetření.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085026.png]]
+![image-20250701-085026.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085026.png>)
 Další postup je identický, jako u ručního navázání dekurzu na tento poukaz. Obdobně probíhá i případné odvázání vyšetření z tohoto poukazu.
 
 ### **Tvorba dokumentace**
@@ -143,20 +143,20 @@ Další postup je identický, jako u ručního navázání dekurzu na tento pouk
 
 V modulu *Zpráva* je možné vytvářet zprávy typu *Zdravotní dokumentace FT.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085106.png]]
+![image-20250701-085106.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085106.png>)
 Pomocí ikony *Nová* v horní liště se zobrazí dialog pro tvorbu zprávy.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085122.png]]
+![image-20250701-085122.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085122.png>)
 Zde je nutné zvolit v položce *Typ zprávy* hodnotu *Zdravotní dokumentace FT* a vybrat správný poukaz. Po potvrzení pomocí tlačítka *Ok* je vygenerovaná zpráva z údajů vázaných k tomuto poukazu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085136.png]]
+![image-20250701-085136.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085136.png>)
 Vygenerovanou zprávu je možné dále ručně upravovat.
 
 ### **Prázdná hlavička**
 
 V případě potřeby je možné vytvořit také zprávu typu *Prázdná hlavička*. Zde je vygenerována pouze samotná hlavička s definovanými údaji, samotný obsah musí uživatel dopsat kompletně sám.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085209.png]]
+![image-20250701-085209.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-085209.png>)
 
 ## **Konfigurace**
 

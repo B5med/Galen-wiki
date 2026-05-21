@@ -9,5 +9,5 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595901
 
 Ve všech dávkách je možné posouvat poměr zobrazení pravé a levé části obrazovky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Změna poměrů zobrazených částí obrazovky/assets/image-20250721-124150.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Změna poměrů zobrazených částí obrazovky/assets/image-20250721-124159.png]]
+![image-20250721-124150.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Změna poměrů zobrazených částí obrazovky/assets/image-20250721-124150.png>)
+![image-20250721-124159.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Změna poměrů zobrazených částí obrazovky/assets/image-20250721-124159.png>)

@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/49446938
 
 # Předlohy tisku
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132039.png]]
+![image-20250618-132039.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132039.png>)
 Záložky Předlohy tisku slouží pro vytváření a editaci předloh tisku formulářů.
 Obrazovka je rozdělena na dvé poloviny – Předlohy a Varianty. Logika vychází z předpokladu, že jeden formulář může mít několik variant. Jeden formulář tak má vždy jednu předlohu a alespoň jednu variantu.
 Formulář, který se v ordinaci nabízí k vyplnění, je jednotlivou variantou předloh tisku.
@@ -18,18 +18,18 @@ Uživatelské předlohy i varianty jsou plně ve správě Správce na daném pro
 
 Uživatelé mohou předlohy pouze přidávat. Po stisknutí zeleného tlačítka Plus v části Předlohy se zobrazí okno na přidání nové předlohy.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132109.png]]
+![image-20250618-132109.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132109.png>)
 Zde je potřeba zadat mj. **Druh formuláře**. Jedná se o číselník kategorií formulářů, podle kterých jsou formuláře tříděny v kartě pacienta.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132121.png]]
+![image-20250618-132121.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132121.png>)
 Naopak **Oblast**je textovým polem, tzn. tu si uživatelé dané společnosti na daném prostředí definují sami (pro danou uživatelskou předlohu, nikoli pro všechny předlohy). Formuláře se pod danou oblast zařazují pouze na základě přesného názvu oblasti, a proto by se měl uživatel vyvarovat překlepům. Naopak tak lze pod oblast, která byla vytvořena ze strany FG, zařadit i uživatelskou předlohu. Oblasti uvozují jednotlivé sloupce pro třídění formulářů (LK, OSSZ, Ostatní, Pracovní, apod.).
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132154.png]]
+![image-20250618-132154.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132154.png>)
 Danou předlohu lze omezit pouze pro vybranou **Odbornost**. Takto funkcionalita pracuje tak, že pokud má uživatel přístup na pracoviště s uvedenou odborností, uvidí tento formulář na jakémkoli pracovišti.
 
 ## Varianty
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132217.png]]
+![image-20250618-132217.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132217.png>)
 Varianty lze vytvořit dvěma způsoby (oba způsoby pracují bez omezení, zda je jedná o předlohu uživatelskou či nikoliv):
 
 - stisknutím zeleného tlačítku Plus v části Varianty - vytvoří novou prázdnou variantu
@@ -37,7 +37,7 @@ Varianty lze vytvořit dvěma způsoby (oba způsoby pracují bez omezení, zda 
 
 Po stisku tlačítka kopie se zobrazí okno, ve kterém uživatel definuje, do jaké předlohy tisku se má nově vytvořená kopie varianty zařadit.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132329.png]]
+![image-20250618-132329.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132329.png>)
 1. Do stejné předlohy
    Nově vytvořená kopie bude zařazena do stejné předlohy, do které patří varianty, ze které se kopie vytváří.
 2. Do nové předlohy
@@ -49,7 +49,7 @@ Tlačítko Zakázat pro uživatele slouží k tomu, aby mohla varianta, která n
 
 ### Vytváření obsahu varianty
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132512.png]]
+![image-20250618-132512.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132512.png>)
 V tomto okně se vytváří obsah formuláře
 
 - Zveřejnit
@@ -83,13 +83,13 @@ V tomto okně se vytváří obsah formuláře
 
 #### Položka typu seznam
 
-Pomocí položky Parametr-seznam ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133433.png]]
+Pomocí položky Parametr-seznam ![image-20250618-133433.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133433.png>)
  lze vytvořit seznam položek, ze kterého je možné vybrat vždy právě jednu možnost. Po dotažení položky metodu Drag&Drop do formuláře se zobrazí okno pro zadání PropertyName. V rámci formuláře se jedná o unikátní označení dané položky. Toto označení se nikde nezveřejňuje, slouží pouze pro vnitřní identifikaci položek v rámci formuláře. Při zadání PropertyName se uživatel řídí uvedenými instrukcemi.
 Po zadání PropertyName se do formuláře vloží prázdná položka, kterou je potřeba naplnit možnosti, resp. položkami seznamu. Položky seznamu je potřeba vepsat do kolonky Values v záložce Vlastnosti.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133102.png]]
-Takto zadané položky ve formuláři vypadají takto ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133545.png]]
-. V tisku potom takto ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133606.png]]
+![image-20250618-133102.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133102.png>)
+Takto zadané položky ve formuláři vypadají takto ![image-20250618-133545.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133545.png>)
+. V tisku potom takto ![image-20250618-133606.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-133606.png>)
 .
 
 Pomocí dalších vlastností lze nastavit:
@@ -99,51 +99,51 @@ Pomocí dalších vlastností lze nastavit:
 
 #### Položka typu Combobox
 
-Pomocí položky Parametr-Combobox ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060213.png]]
+Pomocí položky Parametr-Combobox ![image-20250619-060213.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060213.png>)
  lze vytvořit seznam položek, ze kterých uživatel vybírá právě jednu možnost. Metodou Drag&Drop je potřeba položku umístit do formuláře a zadat PropertyName. Hodnoty do takto vytvoření položky fomuláře je potřeba zadat do kolonky Values v záložce Vlastnosti.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060244.png]]
-Ve formuláři pak vytvořená položka vypadá takto![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060309.png]]
+![image-20250619-060244.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060244.png>)
+Ve formuláři pak vytvořená položka vypadá takto![image-20250619-060309.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060309.png>)
  resp. takto
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060334.png]]
-resp. takto ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060434.png]]
- . V tisku pak položka vypadá takto ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060500.png]]
+![image-20250619-060334.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060334.png>)
+resp. takto ![image-20250619-060434.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060434.png>)
+ . V tisku pak položka vypadá takto ![image-20250619-060500.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060500.png>)
 .
 
 #### Položka typu číselník
 
-Pomocí položky Parametr – Číselník ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060535.png]]
+Pomocí položky Parametr – Číselník ![image-20250619-060535.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060535.png>)
  lze ve formuláři vytvořit položku, která bude pracovat s položkami vybraného číselníku. Po dotažení parametru do formuláře se zobrazí okno pro výběr konkrétního číselníku.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060558.png]]
+![image-20250619-060558.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060558.png>)
 Zde uživatel zadá PropertyName (požadavky na něj jsou specifikovány v tooltipu) a vybere číselník, se kterým má položka/položky ve formuláři pracovat. Po výběru konkrétního číselníku se zobrazí nabídka sloupců daného číselníku, jejichž obsah se bude dotahovat do kolonek formuláře (platí 1 sloupec číselníku = 1 kolonka ve formuláři).
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060612.png]]
+![image-20250619-060612.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060612.png>)
 Sloupec (kolonka) Kód je povinný vždy. U této kolonky se ve formuláři zobrazuje šipka pro rozkliknutí a následný výběr položky z číselníku. Tuto kolonku je však možné pro tisk skrýt (tzn. zobrazí se ve formuláři, nikoli však v tisku) ve vlastnostech dané kolonky (HideForPrint = True).
 
 Po výběru sloupců/položek se vybrané položky přidají do formuláře do levého horního roku. Pouze položka kód se zobrazí v místě, kam byl umístěn parametr (ikona).
 
-Po vložení položek z číselníku do formuláře je možné následně přidat další položku ze stejného číselníku. Stačí označit jednu ze stávajících položek ve formuláři, které k danému číselníku, ze kterého chce uživatel přidat další položku, a stisknout zelené tlačítko PLUS ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060650.png]]
+Po vložení položek z číselníku do formuláře je možné následně přidat další položku ze stejného číselníku. Stačí označit jednu ze stávajících položek ve formuláři, které k danému číselníku, ze kterého chce uživatel přidat další položku, a stisknout zelené tlačítko PLUS ![image-20250619-060650.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060650.png>)
  .
 
 #### Vložení obrázku do předlohy tisku
 
-Do předlohy tisku lze vložit obrázek přetažením ikony ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060727.png]]
+Do předlohy tisku lze vložit obrázek přetažením ikony ![image-20250619-060727.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060727.png>)
  do předlohy textu. Po umístění ikony se zobrazí okno s nabídkou nahraných obrázků.
 
-V závislosti na tom, jestli se uživatel pohybuje ve vrstvě pro editaci obsahu ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060756.png]]
- nebo pozadí ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060815.png]]
+V závislosti na tom, jestli se uživatel pohybuje ve vrstvě pro editaci obsahu ![image-20250619-060756.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060756.png>)
+ nebo pozadí ![image-20250619-060815.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060815.png>)
  se nabízí obrázky označené typem Obrázek nebo Pozadí. Typ však lze v okně výběru obrázku změnit a je tak možné nahrát jako pozadí obrázek, který je označen typem Obrázek.
 
 Po umístění obrázku do předlohy tisku lze změnit jeho pozici nebo velikost.
 
 #### Funkce zoom (přiblížení)
 
-Upravovanou předlohu tisku je možné přiblížit posuvníkem, případně kolečkem myši. Zpět na hodnotu 100% je možné se vrátit po kliknutí na ikonu ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060909.png]]
+Upravovanou předlohu tisku je možné přiblížit posuvníkem, případně kolečkem myši. Zpět na hodnotu 100% je možné se vrátit po kliknutí na ikonu ![image-20250619-060909.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060909.png>)
  .
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060930.png]]
+![image-20250619-060930.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-060930.png>)
 
 ### Publikování varianty formuláře
 
@@ -151,7 +151,7 @@ Během procesu vytváření daného formuláře bude uživatel mít potřebu ov�
 
 Pro zobrazení nově vytvořeného formuláře mezi formuláři v nabídce pro uživatele je potřeba zaškrtnout checkbox „Načítat testovací definice“.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061023.png]]
+![image-20250619-061023.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061023.png>)
 Jakmile je daná varianta formuláře připravena k tomu, aby byla používána všemi uživateli, je možné ji publikovat.
 
 - tlačítkem *Zveřejnit*u variant formulářů
@@ -159,7 +159,7 @@ Jakmile je daná varianta formuláře připravena k tomu, aby byla používána 
 
 ## Obrázky
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061345.png]]
+![image-20250619-061345.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061345.png>)
 Záložka Obrázky slouží pro správu obrázků, které slouží jako pozadí formulářů.
 
 ### Popis symbolů ve spodní části panelu
@@ -179,24 +179,24 @@ Záložka Obrázky slouží pro správu obrázků, které slouží jako pozadí 
 
 ### Práce s obrázky, které byly nahrány uživatelem
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061632.png]]
+![image-20250619-061632.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061632.png>)
 Kromě zeleného tlačítka Plus, pomocí kterého je možné nahrát nový obrázek, je možné obrázky
 
 #### **editovat**
 
 Po vybrání obrázku a stisknutí modrého tlačítka editovat se otevře nové okno, ve kterém je možné změnit to:
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061727.png]]
+![image-20250619-061727.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061727.png>)
 - zda je obrázek aktivní
 - název obrázku
 - přidat k obrázku poznámku (tato poznámka slouží jen pro toto okno, nikam jinam se nepřenáší)
 - změnit obrázek kliknutím na Vybrat soubor… Po kliknutí se zobrazí upozornění bez ohledu na to, zda ej obrázek použit jako podklad formuláře, či nikoli.
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061808.png]]
+![image-20250619-061808.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061808.png>)
 
 #### **mazat**
 
 Obrázek je možné mazat stisknutím červeného tlačítka Mínus. Pokud obrázek není použit jako podklad formuláře, bude ihned smazán. Pokud je obrázek použit jako podklad formuláře, tak jej není možné mazat a zobrazí se informace:
 
-![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061833.png]]
+![image-20250619-061833.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250619-061833.png>)
 Obrázek se jako podklad do formuláře nahrává do konkrétní varianty formuláře v záložce Předlohy tisku.

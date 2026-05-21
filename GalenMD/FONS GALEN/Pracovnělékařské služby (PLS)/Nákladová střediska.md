@@ -13,7 +13,7 @@ Pokud je na společnosti aktivní nadstandardní modul „Nákladová střediska
 
 Uživatel s rolí Správce v modulu Nadstandardní péče -> detail konkrétní firmy -> záložka Nákladová střediska přiřazuje k firmě nákladová střediska.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082241.png]]
+![image-20250701-082241.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082241.png>)
 Nákladová střediska jsou třech typů:
 
 1. PLS – indikuje vyšetření v rámci PLS
@@ -26,13 +26,13 @@ Ke každé firmě je možné přiřadit více nákladových středisek stejného
 
 V detailu firmy uživatel zároveň definuje počet dní před nástupem a po nástupu do zaměstnání, kdy se ještě vystavuje vstupní prohlídka.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082308.png]]
+![image-20250701-082308.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082308.png>)
 
 ## **Přiřazení alternativního nákladového střediska**
 
 Nákladové středisko se v žádance vyplňuje podle pravidel uvedených v následující kapitole. Uživatel má však možnost přednastavit jiné nákladové středisko v kartě zaměstnání pacienta.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082335.png]]
+![image-20250701-082335.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska/assets/image-20250701-082335.png>)
 
 ## **Vyplnění nákladového střediska v žádance**
 

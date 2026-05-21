@@ -13,7 +13,7 @@ V pravé části jsou pak zobrazeny vyplňované formuláře. Slouží zároveň
 
 Do dekurzu je možné konfiguračně přidat ikonu „Formátovat text“. Výchozí způsob zapisování do editačního pole bude „prostý text“. V případě, že uživatel bude chtít editovat text dekurzu, klikne na ikonu „Formátovat text“.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu/assets/image-20250623-081804.png]]
+![image-20250623-081804.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu/assets/image-20250623-081804.png>)
 Po kliknutí na ikonu „Formátovat text“ se zobrazí panel ikon pro formátování textu pomocí něhož bude možné v editačním poli upravovat formát textu stejným způsobem jako v lékařské zprávě.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu/assets/image-20250623-081821.png]]
+![image-20250623-081821.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu/assets/image-20250623-081821.png>)

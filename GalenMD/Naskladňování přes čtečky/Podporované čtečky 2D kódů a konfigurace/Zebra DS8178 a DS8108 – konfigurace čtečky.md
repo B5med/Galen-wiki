@@ -14,10 +14,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367853569
 
 Pomocí níže přiloženého kódu nastavíme čtečku do továrního nastavení.
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS8178 a DS8108 – konfigurace čtečky/assets/image-20260423-125313.png]]
+![image-20260423-125313.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS8178 a DS8108 – konfigurace čtečky/assets/image-20260423-125313.png>)
 **Pozor:**u bezdrátové verze čtečky po uvedení do továrního nastavení je nutné ji vložit do kolébky a počkat na zvukový signál.
 
 Dále pak již stačí pouze načíst konfigurační QR kód, ve kterém je uloženo celé potřebné nastavení
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS8178 a DS8108 – konfigurace čtečky/assets/image-20260423-125349.png]]
+![image-20260423-125349.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS8178 a DS8108 – konfigurace čtečky/assets/image-20260423-125349.png>)
 **Pozor:** Je třeba počkat až čtečka potvrdí dokončení nakonfigurování zvukovým signálem.

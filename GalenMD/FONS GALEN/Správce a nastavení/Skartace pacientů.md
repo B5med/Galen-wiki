@@ -69,7 +69,7 @@ Pro potvrzení filtru slouží tlačítko *Aplikovat* a pro zrušení filtru tla
 
 Dokumentace navržená ke skartaci:
 
-![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082652.png]]
+![image-20250701-082652.png](<../../../pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082652.png>)
 **Obrazovka Záznamy o skartaci** slouží k zobrazení údajů o skartované dokumentaci. Obrazovka se skládá z lišty se záložkami Návrhy a Záznamy, filtru a tabulky se záznamy.
 
 **Záložky**
@@ -103,7 +103,7 @@ Pro potvrzení filtru slouží tlačítko *Aplikovat* a pro zrušení filtru tla
 
 Poznámka
 
-![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082727.png]]
+![image-20250701-082727.png](<../../../pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082727.png>)
 
 ## **Zapnutí modulu Skartace**
 
@@ -125,7 +125,7 @@ Postup vypnutí modulu správce je obdobný, jen v bodě 6 je možnost Skartac
 - Stisknout tlačítko *Plus* (Přidat nový záznam).
 - Po stisku tlačítka se zobrazí okno Nový návrh ke skartaci.
 
-![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082817.png]]
+![image-20250701-082817.png](<../../../pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082817.png>)
 - Vyplnit číslo pojištěnce a výběr potvrdit tlačítkem *Vyhledat*.
 - Při správném zadání údajů se doplní Jméno a Příjmení pacienta.
 - Rozkliknout šipku směřující dolů a vybrat, co má být skartováno – Vše nebo Dle lhůty.
@@ -146,7 +146,7 @@ Skartovat pacienty lze z obrazovky Pacienti navržení ke skartaci.
 - Stisknout tlačítko *Skartovat*.
 - Po stisku tlačítka se zobrazí okno Skartovat vybranou dokumentaci.
 
-![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082859.png]]
+![image-20250701-082859.png](<../../../pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-082859.png>)
 - Samotný proces skartace spustit tlačítkem *Skartovat*.
 - Potvrdit tlačítkem *Ano*.
 - Po skončení procesu skartace zavřít okno tlačítkem *Zavřít*.
@@ -199,7 +199,7 @@ Postup:
 
 Po stisku tlačítka se zobrazí okno Generovat návrhy ke skartaci.
 
-![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-083046.png]]
+![image-20250701-083046.png](<../../../pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-083046.png>)
 2. Vybrat typ generování – Pacient bez dokumentace nebo Pacient s posledním zápisem v dekurzu před více než x dny nebo Dle skartačních lhůt
 
 - Pacient bez dokumentace – budou vygenerováni pacienti, kteří nemají žádný záznam v dekurzu a nemají vyplněnou žádnou anamnézu.

@@ -14,4 +14,4 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/247627780
 
 👉 Pokud si heslo nepamatujete, použijte **„Zapomněli jste heslo?“**.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Přihlášení do Signosoftu/assets/image-20260129-133947.png]]
+![image-20260129-133947.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Přihlášení do Signosoftu/assets/image-20260129-133947.png>)

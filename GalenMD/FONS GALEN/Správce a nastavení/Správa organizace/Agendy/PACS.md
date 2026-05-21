@@ -21,7 +21,7 @@ Nastavení parametrů může provádět uživatel s oprávněním Správce. K fu
 
 Pro nastavení integrace s prohlížečem PACS snímků jsou klíčové následující položky:
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105711.png]]
+![image-20250701-105711.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105711.png>)
 1. V položce Aktivační událost je nezbytné zatrhnout checkbox Prohlížeč.
 
 2. **URL prohlížeče:** adresa, na které systém pro prohlížení snímků běží
@@ -44,7 +44,7 @@ Pro nastavení integrace s prohlížečem PACS snímků jsou klíčové následu
 
 Systém na prohlížení snímků je možné provolat pomocí tlačítka **Zobrazit v PACS**, které je přítomné v modulu RDG žádanek.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105820.png]]
+![image-20250701-105820.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105820.png>)
 
 ## **Provolání prohlížeče na úrovni pacienta**
 
@@ -56,4 +56,4 @@ Systém je možné z úrovně pacienta provolat následujícím způsobem:
 
 3. Vybrat položku PACS.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105847.png]]
+![image-20250701-105847.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS/assets/image-20250701-105847.png>)

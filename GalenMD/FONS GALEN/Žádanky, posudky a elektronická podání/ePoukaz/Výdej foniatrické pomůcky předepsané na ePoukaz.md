@@ -22,7 +22,7 @@ Pro zprovoznění výdejů foniatrických pomůcek vydaných na ePoukaz je potř
 - uživatele na pracoviště výdejny, kteří budou mít možnost pomůcky vydávat
 - na IČZ aktivní příznak *Výdejna fon. pom.*
 
-   ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-125332.png]]
+   ![image-20260129-125332.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-125332.png>)
 - na pracovišti výdejny příznak, že se jedná o pracoviště s oprávněním vydávat foniatrické pomůcky předepsané na ePoukaz (příznak zapíná pracovník Stapro)
 
 ### Rozšířené nastavení - doporučujeme
@@ -31,7 +31,7 @@ Aby bylo možné na stejném pracovišti ePoukaz na foniatrickou pomůcku přede
 
 Ve zkratce: Na předepisujícím pracovišti uživatel nastaví využívané pracoviště výdejny:
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-133335.png]]
+![image-20260129-133335.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-133335.png>)
 Pokud pracoviště využívá pouze jednu výdejnu (i přesto, že je na společnosti více výdejen), zaškrtne pouze jednu výdejnu. Pokud na předepisujícím pracovišti probíhá výdej na více výdejnách, uživatel vybere všechny potřebné výdejny.
 
 > [!warning]
@@ -43,13 +43,13 @@ Pokud jste nastavili využívané pracoviště pro výdej foniatrické pomůcky,
 
 Na pracovišti, které má oprávnění pro předpis foniatrické pomůcky, uživatel předepíše ePoukaz tak, jak je zvyklý
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140050.png]]
+![image-20260129-140050.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140050.png>)
 Po úspěšném odeslání, kdy je ePoukaz ve stavu *Předepsaný* a zároveň má ID ePoukazu, se zobrazí záložka *Výdej*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140249.png]]
+![image-20260129-140249.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140249.png>)
 V záložce *Výdej*uživatel vyplní Datum výdeje a v případě, že má nastaveno více výdejen, vybere výdejnu. Pomocí tlačítka Odeslat odesílá výdej.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140420.png]]
+![image-20260129-140420.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140420.png>)
 Úspěšně vydaný ePoukaz
 
 (1) a (2) je automaticky převeden do stavu *Plně vydaný*
@@ -58,7 +58,7 @@ V záložce *Výdej*uživatel vyplní Datum výdeje a v případě, že má nast
 
 (4) v části *Komunikace SÚKL* je založení i výdej uveden
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140822.png]]
+![image-20260129-140822.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-140822.png>)
 
 ## Výdej na pracovišti výdejny
 
@@ -70,7 +70,7 @@ Zrušit výdej je možné jak na předepisujícím pracovišti (pokud má nastav
 
 Výdej je možné zrušit klikem pravým tlačítkem myši na řádek plně vydaného ePoukazu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-143403.png]]
+![image-20260129-143403.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-143403.png>)
 Ve chvíli, kdy je zrušen výdej, je zároveň (automaticky na pozadí) smazán foniatrický záznam k vyúčtování.
 
 Poté, co uživatel zapíše důvod zrušení, je ePoukaz převeden do stavu *Předepsaný*.
@@ -82,7 +82,7 @@ Takový ePoukaz je možné
 - změnit na připravovaný - viz [[Výdej foniatrické pomůcky předepsané na ePoukaz|kapitola]]
 - aktualizovat dle SÚKL
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-143609.png]]
+![image-20260129-143609.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260129-143609.png>)
 
 ### Nevidím možnost Zrušit výdej
 
@@ -91,7 +91,7 @@ Pokud potřebujete zrušit výdej pomůcky, ale tuto možnost nevidíte, může 
 1. Výdej pomůcky provedl jiný uživatel. V takovém případě nemáte práva na editaci daného záznamu a výdej musí zrušit ten uživatel, který výdej zadal.
 2. Vydaná pomůcka je vyúčtovaná. Informaci, zda je pomůcka vyúčtovaná zjistíme v modulu *Vyúčtování* - záložka *Foniatrické záznamy.*Pokud má foniatrický záznam přiřazeno číslo dokladu a zároveň stav *Vykázaný*, jedná se o vyúčtovanou pomůcku. Pokud se jedná o tento případ, můžete změnit stav dokladu podle toho, jak potřebujete s ePoukazem dále nakládat podle [[Vyúčtování foniatrické pomůcky vydané na ePoukaz|tohoto postupu]].
 
-   ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260210-091121.png]]
+   ![image-20260210-091121.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/assets/image-20260210-091121.png>)
 
 ## Změnit na Připravovaný
 

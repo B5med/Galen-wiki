@@ -15,17 +15,17 @@ Podepisovat lze formuláře, na kterých je biometrický podpis definován.
 
 1. Uživatel vybere formulář s možností podepisování
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134708.png]]
+![image-20260129-134708.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134708.png>)
 2. Uživatel vybere možnost Podepsat pac. (vpravo nahoře). Po výběru se zobrazí vygenerovaný PDF dokument.
 
 3. Pokud je na pracovišti více podpisových zařízení, uživatel vybere podpisové zařízení, na které má být dokument odeslán.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134741.png]]
+![image-20260129-134741.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134741.png>)
 4. Uživatel stiskne tlačítko Odeslat k podpisu. Dokument je odeslán na podpisové zařízení.
 
 5. Po odeslání dokumentu se PDF soubor zavře a uživatel u formuláře ve spodní části vidí informace o dokumentu včetně stavu a možnosti dokument zobrazit tlačítkem Zobrazit.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134807.png]]
+![image-20260129-134807.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu/assets/image-20260129-134807.png>)
 PDF soubory jsou ukládány do cloudu, aby nedošlo k jejich ztrátě.
 
 **Informace o PDF dokumentu**

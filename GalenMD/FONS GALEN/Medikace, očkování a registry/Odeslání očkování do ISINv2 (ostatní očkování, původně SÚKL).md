@@ -16,17 +16,17 @@ Pro odeslání informací o očkování do ISIN je nutné
 - Mít na společnosti aktivní nadstandardní modul Odesílání očkování do ISINv2
 - Mít na pracovišti nastavený **platný certifikát SÚKL** (stejný, který se využívá pro odeslání eReceptu a eNeschopenky). Případně na společnosti
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115234.png]]
+![image-20250826-115234.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115234.png>)
 - Mít na pracovišti vyplněné **PČZ (pořadové číslo zařízení).**Tento údaj je možné získat [zde](https://nrpzs.uzis.cz/) (detail v záložce Detailní záznamy ÚZIS ČR)
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115254.png]]
+![image-20250826-115254.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115254.png>)
 - Mít na uživateli vyplněné pole „**NRZP**“
 
 Číselník Národního registru zdravotnických pracovníků lze stáhnout v modulu Nástroje -> ISIN -> Registr zdravotnických pracovníků
 
 Po stažení certifikátu uživatel s rolí Správce přiřadí položku z číselníku v detailu uživatele Správa organizace -> Uživatelé
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115315.png]]
+![image-20250826-115315.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115315.png>)
 Poznámka: pro odeslání očkování není nutné vyplňovat podpisový certifikát. Očkování do ISINv2 tedy odesílá z FONS Galen každý zdravotnický pracovník, který očkování ukládá.
 
 - Mít **stažené potřebné číselníky v modulu Nástroje -> ISIN**. Konkrétně se jedná o číselníky:
@@ -43,7 +43,7 @@ V případě, že uživatel zaškrtne „bez schématu“ nebo „doplnit bez 
 
 Údaje odesílané do ISIN se uživateli zobrazují v okně výběru očk. varianty:
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115417.png]]
+![image-20250826-115417.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115417.png>)
 Údaje se automaticky předvyplní na základě vybrané
 
 - Očkovací látky
@@ -60,13 +60,13 @@ Stiskem tl. Očkovat se očkování zároveň odesílá do ISIN.
 
 Úspěšně odeslané očkování má v přehledu stav Přijato
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115447.png]]
+![image-20250826-115447.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115447.png>)
 
 ## Editace očkování
 
 V případě potřeba editace již odeslaného očkování je možné zobrazit detail očkování. Zde je ale možné editovat pouze pole Poznámka, ostatní položky jsou vyplněny na základě výběru výše uvedených položek.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115512.png]]
+![image-20250826-115512.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115512.png>)
 Pokud je nutné změnit pole „očkovací látka“, „typ vakcinace“ nebo „pojišťovna“, pak je nutné celé očkování smazat a zadat znovu.
 
 ## Smazání očkování
@@ -79,11 +79,11 @@ Modul Dashboard poskytuje přehled očkování, která byl měla být od eOčkov
 
 Z dashboardu se uživatel dostane na detail konkrétního neodeslaného očkování.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115559.png]]
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115611.png]]
+![image-20250826-115559.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115559.png>)
+![image-20250826-115611.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115611.png>)
 
 ## Poznámka k modulu eOčkování
 
 Modul eOčkování (k dispozici v horní liště nebo v záložce modulu Očkování) zobrazuje informace, které jsou poskytovány ze strany SÚKL. Tam se původně záznamy o očkování odesílaly. Po změně legislativy se záznamy odesílají do ISIN, ale správcem poskytující informace o provedených očkování je stále SÚKL. Propojení mezi SÚKL a ISIN není v tuto chvíli realizované, a proto očkování odeslaná z FONS Galen do ISIN, nebudou v tuto chvíli v modulu eOčkování viditelná.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115637.png]]
+![image-20250826-115637.png](<../../../pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)/assets/image-20250826-115637.png>)

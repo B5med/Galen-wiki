@@ -24,7 +24,7 @@ V tomto modulu by měl mít uživatel možnost zobrazit odpovědi na tyto otázk
 
 Po označení alespoň jednoho nároku se zobrazí tlačítka. Tlačítka jsou aktivní v závislosti na stavu označeného nároku.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-123754.png]]
+![image-20250710-123754.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-123754.png>)
 - ***Zelené tlačítko plus*** umožňuje vytvořit nový nárok zkopírováním údajů označeného nároku s možností editace údajů.
 - ***Modré tlačítko*****pro editaci** umožňuje editovat údaje označeného nároku.
 - ***Červené tlačítko mínus*** smaže vybraný/é nárok/y.
@@ -38,7 +38,7 @@ Po označení alespoň jednoho nároku se zobrazí tlačítka. Tlačítka jsou a
 
 ### Funkční tlačítka modulu pro roli *Zdravotník*
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-124100.png]]
+![image-20250710-124100.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-124100.png>)
 Funkčnost tlačítek je shodná s tlačítky v modulu pro roli správce.
 
 ### Vytváření objednávek
@@ -57,4 +57,4 @@ Správa organizace – Agendy – Kalendáře – Objednávky
 
 Po rozkliknutí konkrétního typu objednávky uživatel vytvoří vazbu na nárok(y) zaškrtnutím checkboxu *Nároky*.  Pokud vyšetření pacienta splní nárok na prohlídku, pak uživatel volí typ nároku „Vyšetření“ a jako podtyp vybere název prohlídky.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-124134.png]]
+![image-20250710-124134.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky/assets/image-20250710-124134.png>)

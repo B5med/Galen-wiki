@@ -9,14 +9,14 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75628693
 
 ## Nahlížení
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20250618-113044.png]]
+![image-20250618-113044.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20250618-113044.png>)
 Ikona Oprávnění (Správce -> Správa organizace -> Oprávnění) umožňuje nastavit možnost nahlížení na dokumentaci mezi pracovišti. Nastavení tak umožní, aby uživatel na jednom pracovišti viděl (v režimu pro čtení) záznamy z jiného pracoviště.
 
 Pokud chceme, aby lékař mohl s kartotékou pracovat, musíme v Konfiguraci společnosti zaškrtnout možnost Sdílená kartotéka.
 
 Uživatel zvolí pracoviště, mezi kterými chce nastavit nahlížení na dokumentaci.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20260204-143814.png]]
+![image-20260204-143814.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20260204-143814.png>)
 V tomto konkrétní příkladě pracoviště Gynekologie poskytuje svoje data pracovišti Diabetologie, tzn. Diabetologie uvidí záznamy z pracoviště Gynekologie.
 
 Avšak Gynekologie neuvidí záznamy z pracoviště Diabetologie, protože Diabetologie neposkytuje data.
@@ -55,5 +55,5 @@ Avšak Gynekologie neuvidí záznamy z pracoviště Diabetologie, protože Diabe
 
 Pokud uživatel zaškrtne checkbox *Definovat jednotlivé moduly zvlášť*, může specifikovat která dokumentace bude mezi pracovišti sdílena.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20260204-144210.png]]
+![image-20260204-144210.png](<../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20260204-144210.png>)
 V tomto případě bude pracoviště Gynekologie poskytovat pouze záznamy o vystavených dávkách ČSSZ a ePoukazech. Ostatní záznamy, jako např. dekurz, medikace a další poskytovány nebudou.

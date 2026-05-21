@@ -11,4 +11,4 @@ Modul: Nástroje – Šablony – Styly tisků
 
 Uživatel z pozice Správce může nadefinovat jednotlivé styly tisku s použitím syntaxe
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Styly tisků/assets/image-20250618-104723.png]]
+![image-20250618-104723.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Styly tisků/assets/image-20250618-104723.png>)

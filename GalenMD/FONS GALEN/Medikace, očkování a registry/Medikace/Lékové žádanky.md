@@ -36,7 +36,7 @@ Zobrazí se seznam všech lékových žádanek pacienta. S žádankami lze dá
 
 **Zrušeno**– aktivní žádanka byla zrušena nově vystavenou žádankou
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/léková žádanka.png]]
+![léková žádanka.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/léková žádanka.png>)
 
 ## **Detail lékové žádanky**
 
@@ -44,7 +44,7 @@ Pro roli praktik slouží detail pouze ke čtení a nabízí možnost vytisknut�
 
 Pro roli medikace lze s detailem dále pracovat. Lze definovat konkrétní lék a jeho aplikaci.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/LŽ2.png]]
+![LŽ2.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/LŽ2.png>)
 
 ## **Založení lékové žádanky**
 
@@ -54,7 +54,7 @@ Pro roli praktik lze definovat:
 
 - Datum indikace: předdefinováno aktuální datum
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/Obrázek3.png]]
+![Obrázek3.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/Obrázek3.png>)
 Pro roli medikace lze definovat:
 
 - Lék
@@ -63,7 +63,7 @@ Pro roli medikace lze definovat:
 
 - Aplikovat
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/Obrázek4.png]]
+![Obrázek4.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky/assets/Obrázek4.png>)
 Po stisku tlačítka Přidat nový záznam se může zobrazit informace z UZIS:
 
 - Pacient může mít pouze jednu žádanku ve stavu aktivní. Pokud u pacienta již existuje žádanka ve stavu aktivní, původní žádanku lze založením nové zrušit.

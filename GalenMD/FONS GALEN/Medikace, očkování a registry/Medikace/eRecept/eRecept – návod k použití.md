@@ -59,7 +59,7 @@ Tuto část receptu je možné skrýt nebo zobrazit pomocí šipky směřující
 
 - **IČP** (odbornost) – po kliknutí lze přeřadit recept pod jiné IČP (odbornost)
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept – návod k použití/assets/image-20250721-094159.png]]
+![image-20250721-094159.png](<../../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept – návod k použití/assets/image-20250721-094159.png>)
 **Strukturovaná magistraliter receptura**
 
 **Postup:**

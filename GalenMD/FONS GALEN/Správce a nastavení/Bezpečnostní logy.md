@@ -22,11 +22,11 @@ Okno pro zobrazení bezpečnostních logů mohou otevřít uživatelé s oprávn
 1. Na úrovni Správce otevřít modul **Systémové logy.**
 2. Dále je nutné otevřít submodul **Bezpečnostní logy**.
 
-![[pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-080801.png]]
+![image-20250917-080801.png](<../../../pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-080801.png>)
 
 ## Přehled bezpečnostních logů
 
-![[pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-080905.png]]
+![image-20250917-080905.png](<../../../pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-080905.png>)
 1. **Typ logů**: Rozeznáváme následující typy logů, které se liší zaznamenávanými informacemi (sloupci v přehledu):
 
 - **Autentizace:** Tento typ logů zaznamenává, kdo a kdy se přihlásil do AIS Galen. Dále se zobrazují informace o případném odhlášení. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.
@@ -44,7 +44,7 @@ Okno pro zobrazení bezpečnostních logů mohou otevřít uživatelé s oprávn
 
 Při zapnutí pravidelného exportu dodavatel AIS Galen navolí na základě komunikace se zákazníkem složku, kam budou soubory s logy ukládány. Pravidelný export poté probíhá pravidelně 1x denně v nočních hodinách. Do příslušných souborů jsou vždy uloženy pouze logy, které vznikly od posledního exportu.
 
-![[pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-081147.png]]
+![image-20250917-081147.png](<../../../pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy/assets/image-20250917-081147.png>)
 Každý typ logů se exportuje do vlastního souboru. Název souboru je intuitivně pojmenován dle typu logů a data, ze kterého logy pocházejí (např. AuditZaznamu_2023-02-22). Data jsou exportována ve formátu JSON.
 
 Následuje krátký popis jednotlivých klíčů exportovaného JSON souboru:

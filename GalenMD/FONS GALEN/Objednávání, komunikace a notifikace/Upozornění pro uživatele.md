@@ -26,32 +26,32 @@ K upozorněním je možné se dostat dvěma cestami:
 
 Po jejím stisknutí se uživateli vysune panel s upozorněními, viz. obrázek .
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135324.png]]
+![image-20250709-135324.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135324.png>)
 Popis záložek:
 Pro mě – Všechna upozornění, kde jsem uveden jako adresát.
 Ode mě – Všechna upozornění, jejichž jsem autor.
 Splněné – Všechna splněná nebo stornovaná upozornění.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135407.png]]
+![image-20250709-135407.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135407.png>)
 **b. Po kliku na stávající ikonu oznámení.**
 Na ikoně oznámení je počet nepřečtených echo zpráv a upozornění dohromady. V tooltipu je vidět
 rozdělení nepřečtených informací.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135514.png]]
+![image-20250709-135514.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135514.png>)
 Seznam upozornění po kliku na ikonu oznámení. Po kliku na záznam se otevře okno bočního
 panelu, kde je možné s upozorněním pracovat.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135617.png]]
+![image-20250709-135617.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135617.png>)
 **c. V kontextovém menu nad kartou pacienta.**
 Kontextové menu je vyvolané pravým tlačítkem myši. Upozornění takto vznikne s vazbou na
 Pacienta.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135643.png]]
+![image-20250709-135643.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135643.png>)
 **Jak vytvořím nové upozornění?**
 Upozornění je možné vytvořit po kliku na tlačítko + buď z hlavního bočního panelu, nebo ze
 seznamu upozornění. Následně se uživateli otevře okno, kde je možné vyplnit obsah upozornění.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135808.png]]
+![image-20250709-135808.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-135808.png>)
 **Popis jednotlivých položek**
 
 1. Kategorie
@@ -88,7 +88,7 @@ seznamu upozornění. Následně se uživateli otevře okno, kde je možné vypl
 **Výběr adresátů**
 Výběr adresátů je možný po kliku na modrou ikonu upravit.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-140757.png]]
+![image-20250709-140757.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-140757.png>)
 Možný výběr:
 •Osobní – Automaticky zvolený aktuální uživatel. Není možný výběr adresátů.
 •Pro společnost – Automaticky jsou zvolení všichni uživatelé. Není možný výběr adresátů.
@@ -146,18 +146,18 @@ Odstranit lze pouze upozornění, u kterých nemá ani jeden z adresátů vyšš
 
 Odstranit upozornění lze klikem pravým tlačítkem myši na upozornění a výběrem z kontextového menu.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141342.png]]
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141501.png]]
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142108.png]]
+![image-20250709-141342.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141342.png>)
+![image-20250709-141501.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141501.png>)
+![image-20250709-142108.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142108.png>)
 Ikona Zeměkoule (v pravém horním rohu) signalizuje stav připojení k serveru. Je-li ikona zelená, připojení k serveru je v pořádku. Pokud ikona zčervená, došlo k výpadku připojení. Uživatel při odchodu z rozpracovaného okna bude upozorněn na chybu při síťové komunikaci. Pokud uživatel v tuto chvíli práci ukončí, dojde k ztrátě zapsaných dat.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142153.png]]
+![image-20250709-142153.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142153.png>)
 Ikona je oranžová do chvíle, pokud připojení není opravdu znova navázáno. Pokud je připojení znovu navázáno, ikona Zeměkoule znovu zezelená. Tento proces lze také iniciovat kliknutím na pole Zeměkoule. Otevře se okno, ve kterém uživatel najde v levém dolním rohu tlačítko *Připojit*.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142225.png]]
+![image-20250709-142225.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142225.png>)
 Pod těmito ikonami je zobrazeno jméno přihlášeného uživatele, IČP a odbornost pracoviště a jméno odpovědného lékaře (tj. lékaře, který je vykonavatelem zadávaných výkonů).
 
 Pod hlavním panelem se nachází panel určený pro přidání pacienta do kartotéky, filtrování kartotéky (podrobné nebo základní) a pro přepínání mezi kartotékou a archivem.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142248.png]]
+![image-20250709-142248.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142248.png>)
 Číslo na konci řádku (před ikonou filtru) znamená počet záznamů, zde tedy počet pacientů v kartotéce. Pokud je použit filtr, zobrazuje počet vyfiltrovaných záznamů.

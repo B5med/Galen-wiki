@@ -45,7 +45,7 @@ Pro​​přístup ​​k ​​aktivaci ​​údajů​​ o ​​osobě �
 
 1. Modul Správce -> modul Správa Organizace -> tlačítko Rozbalit strukturu -> vybrat IČP -> v pravé části se zpřístupní informace o pracovišti.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-075514.png]]
+![image-20250721-075514.png](<../../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-075514.png>)
 2. V informacích o pracovišti vyplnit Kód SÚKL.
 
 3. Stisknout tlačítko Nastavit -> tlačítko Vybrat soubor (vybrat certifikát **vydaný SÚKLem**) -> výběr potvrdit tlačítkem Otevřít.
@@ -64,7 +64,7 @@ Nastavení certifikátu lze z pozice správce v modulu Správa organizace nebo z
 
 2. Vyhledat příslušného uživatele a otevřít jeho nastavení dvojklikem.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-094004.png]]
+![image-20250721-094004.png](<../../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-094004.png>)
 3. Stisknout tlačítko Vybrat (tlačítko u eRecept) a vyhledat certifikát -> výběr potvrdit tlačítkem OK -> po výběru se doplní sériové číslo certifikátu.
 
 4. V části eRecept doplnit:

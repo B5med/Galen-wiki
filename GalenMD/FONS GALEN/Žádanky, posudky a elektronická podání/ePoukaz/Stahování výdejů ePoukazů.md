@@ -11,7 +11,7 @@ Předepisující mají volitelnou možnost získávat z centrálního úložišt
 
 1. Ve Správě organizace, v UI konfiguraci vybraného pracoviště zapněte parametr Zjišťování stavu ePoukazu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Stahování výdejů ePoukazů/assets/image-20250623-101705.png]]
+![image-20250623-101705.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Stahování výdejů ePoukazů/assets/image-20250623-101705.png>)
 2. Po stáhnutí výdeje se ve formuláři daného ePoukazu zobrazí sekce Výdeje.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Stahování výdejů ePoukazů/assets/image-20250623-101718.png]]
+![image-20250623-101718.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Stahování výdejů ePoukazů/assets/image-20250623-101718.png>)

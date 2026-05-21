@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57311234
 
 # Kontakty
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Kontakty/assets/image-20250626-132903.png]]
+![image-20250626-132903.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Kontakty/assets/image-20250626-132903.png>)
 **Kontakt** lze přiřadit jednotlivým aktivním uživatelům ze stromové struktury IS Galen, kteří mají příznak PLS
 
 Založeným takového kontaktu, přiřazujeme danou firmu PLS uživateli, který následně tuto firmu uvidí po přihlášení do PLS aplikace.

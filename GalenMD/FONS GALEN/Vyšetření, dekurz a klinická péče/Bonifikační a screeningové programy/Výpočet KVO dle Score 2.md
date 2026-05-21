@@ -33,7 +33,7 @@ Informace týkající se rizika KVO dle score 2 jsou součástí anamnézy pacie
    2. Systém prohledává výsledky od nejnovější po nejstarší a doplní nejnovější hodnotu včetně data výsledku. Uživatel může doplněnou hodnotu přepsat.
 3. Na základě hodnot se dopočítá hodnota Score 2 KVO a vyhodnotí se riziko (položka Hodnocení rizika).
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet KVO dle Score 2/assets/image-20250723-110440.png]]
+![image-20250723-110440.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet KVO dle Score 2/assets/image-20250723-110440.png>)
 
 ### Výpočet rizika v prohlídce
 
@@ -47,7 +47,7 @@ Informace týkající se rizika KVO dle score 2 jsou součástí anamnézy pacie
    1. Pokud není hodnota cholesterolu vyplněna a uživatel stiskne tlačítko Vypočítat, systém automaticky doplní hodnotu z laboratorního vyšetření, pokud položka existuje. Uživatel může doplněnou hodnotu přepsat.
 3. Na základě hodnot se dopočítá hodnota Score 2 KVO a vyhodnotí se riziko (položka Hodnocení rizika).
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet KVO dle Score 2/assets/image-20250723-110544.png]]
+![image-20250723-110544.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet KVO dle Score 2/assets/image-20250723-110544.png>)
 
 ### Informace k výpočtu
 

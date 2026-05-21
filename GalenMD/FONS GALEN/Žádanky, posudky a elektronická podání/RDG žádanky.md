@@ -17,19 +17,19 @@ V případě zakoupení příslušné licence jsou ze strany Stapro označena 
 
 Následně je možné ze strany zákazníka v modulu *Správa organizace* definovat, která pracoviště mohou na pracoviště radiodiagnostiky zasílat elektronické žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085811.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085835.png]]
+![image-20250701-085811.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085811.png>)
+![image-20250701-085835.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085835.png>)
 Chování aplikace se pak liší v závislosti na tom, zda je uživatel přihlášen na pracovišti radiodiagnostiky, nebo na pracovišti, které o radiodiagnostické vyšetření žádá.
 
 ## **Konfigurace komunikace s PACS**
 
 Během procesu zpracovávání *RDG žádanky* může probíhat komunikace s PACS. K tomu je zapotřebí na stanici, která má patřičnou konektivitu, nakonfigurovat přístroj typu *Obecný RTG* nebo *Obecné externí zařízení*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085913.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085928.png]]
+![image-20250701-085913.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085913.png>)
+![image-20250701-085928.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-085928.png>)
 V konfiguraci přístroje je zapotřebí zvolit několik atributů. Zásadním je přiřazení daného přístroje RDG žádankám (šipka 1) a určení spouštěcí události (šipka 2).
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-090002.png]]
+![image-20250701-090002.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-090002.png>)
 Spouštěcí události jsou tři:
 
 1. Žádanka – vyvolává se ve chvíli, kdy je *RDG žádanka* pracovištěm radiodiagnostiky přebrána
@@ -50,10 +50,10 @@ S konfigurací těchto šablon, stejně jako s dalšími atributy, Vám ocho
 
 V sekci *Správa organizace*-> IČP -> *UI konfigurace* je na záložce *Infopanel pacienta* možné zadat počet posledních *RDG žádanek*, které se mají v infopanelu pacienta zobrazovat.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-090051.png]]
+![image-20250701-090051.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-090051.png>)
 V infopanelu pacienta se následně zobrazují nálezy ze zadaného počtu poslední *RDG žádanek*daného pacienta.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102549.png]]
+![image-20250701-102549.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102549.png>)
 Jednotlivé nálezy se zobrazují ve sbalené formě, vždy je možné kliknutím rozbalit jeden z nich (obdobný princip, jako při zobrazování dekurzu v infopanelu).
 
 ## **Žádanka RDG**
@@ -80,13 +80,13 @@ Na pracovišti, které má možnost o provedení radiologického vyšetření po
 
 Pozn.: Pokud je pracoviště oprávněné vystavovat také *Poukazy FT* – hledejte Žádanky RDG pod ikonou *Žádanky.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102702.png]]
+![image-20250701-102702.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102702.png>)
 Pomocí této ikony se zobrazuje seznam žádanek, které byly pro daného pacienta vytvořeny. V tomto seznamu jsou zobrazeny žádanky, které byly vytvořeny na daném pracovišti, nebo které byly vytvořena na pracovišti, na které je definováno nahlížení. Žádanky z ostatních pracovišť jsou zobrazovány šedým písmem.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102723.png]]
+![image-20250701-102723.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102723.png>)
 Novou žádanku pro daného pacienta je možné vytvořit pomocí ikony (+) nad seznamem žádanek.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102743.png]]
+![image-20250701-102743.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102743.png>)
 Dialog pro vytvoření nové žádanky je rozdělen na dvě části: větší levá část slouží k zadávání samotné žádanky, pravá část zobrazuje žádanky, které jsou k danému pacientovi evidované.
 
 Hlavička žádanky obsahuje:
@@ -109,17 +109,17 @@ V případě výběru jedné se pod tabulkou zobrazuje popis. Dvojklikem je mo
 
 2. Seznam nálezů – textový blok vygenerovaný ze všech popisů všech žádanek
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102814.png]]
+![image-20250701-102814.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102814.png>)
 Po potvrzení žádanky tlačítkem *Ok* se žádanka ukládá a od tohoto okamžiku je dostupná určenému pracovišti radiodiagnostiky. Případné opravy jsou možné pouze do chvíle, než si pracoviště radiodiagnostiky žádanku přebere.
 
 Až od okamžiku, kdy je žádanka na pracovišti radiodiagnostiky popsaná, se žádajícímu pracovišti nezobrazují žádné další informace k žádance (s výjimkou změn stavů). Po vytvoření popisu je součástí žádanky i blok *Nálezu.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102853.png]]
+![image-20250701-102853.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102853.png>)
 Pomocí ikony šipky je možné text přenést do dekurzu a zde jej dále upravovat.
 
 V případě RdgDruhu SG (Skiagrafie) a věku pacientky 15 až 50 let, bude povinné zatrhnout možnost Těhotenství viz. obrázek níže.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102916.png]]
+![image-20250701-102916.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102916.png>)
 
 ## **Pracoviště provádějící radiodiagnostiku**
 
@@ -131,15 +131,15 @@ Pracoviště provádějící radiodiagnostiku má dvě možnosti, jak s RDG ž
 
 2. Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané RDG pracoviště, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103006.png]]
+![image-20250701-103006.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103006.png>)
 V obou případech je možné využít filtr, který je možné předdefinovat a uložit. V seznamu se zobrazují i žádanky pacientů, které dané pracoviště nemusí mít v kartotéce (pokud organizace nemá sdílenou kartotéku).
 
 Při rozkliku takové žádanky je uživatel informován, že je zapotřebí pacienta nejprve do kartotéky zařadit.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103029.png]]
+![image-20250701-103029.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103029.png>)
 Pracoviště radiodiagnostiky má rovněž možnost vytvořit žádanku, která přišla v listinné formě. V takovém případě musí nejprve založit kartu pacienta a následně vstoupit do seznamu žádanek tohoto pacienta (nelze přes seznam žádanek nad celým pracovištěm). Zde se zpřístupní tlačítko (+) pro založení nové žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103049.png]]
+![image-20250701-103049.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103049.png>)
 Dialog pro vytváření RDG žádanky na pracovišti radiodiagnostiky je obdobný. Rozdíl je v tom, že na pracovišti radiodiagnostiky je možné vyplnit i identifikaci žadatele a že zároveň s vytvořením žádanky je možné provést klasifikaci žádanky, zadat parametry provedeného vyšetření apod.
 
 ### **Převzetí RDG žádanky**
@@ -156,18 +156,18 @@ Pracoviště radiodiagnostiky v prvním kroku RDG žádanku přijímá. To mů
 
 - Tyhle hodnoty zadané při vytvoření žádanky, může pracoviště RDG zadáním v sekci klasifikace aktualizovat – do formuláře se budou brát tyhle hodnoty
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103140.png]]
+![image-20250701-103140.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103140.png>)
 V rámci převzetí je možné žádanku klasifikovat kódy České radiologické klasifikace.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103203.png]]
+![image-20250701-103203.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103203.png>)
 Zároveň je možné přímo vykázat potřebné výkony.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103225.png]]
+![image-20250701-103225.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103225.png>)
 Výkony zadané přes RDG žádanku jsou vykázané úplně stejně, jako by byly zadány v editoru výkonů (přes tlačítko *Výkon* v horní liště ordinace). Po vyúčtování jsou tyto výkony přeneseny na záložku *Vyúčtované výkony*.
 
 Obdobným způsobem je možné pacientovi zadat pohledávku – platbu v hotovosti, ať již manuálně nebo výběrem z definovaného sortimentu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103246.png]]
+![image-20250701-103246.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103246.png>)
 Samotná platba pohledávky se provádí již v okně pokladny. Po uhrazení se přesouvá ze záložky *Pohledávky* na záložku *Uhrazené pohledávky.*
 
 Ve chvíli, kdy obsluha vyplní klasifikaci, výkon nebo pohledávku, je doplněn *Datum převzetí*automaticky, není-li již zadán.
@@ -182,19 +182,19 @@ Pracoviště radiodiagnostiky v druhém kroku RDG žádanku označuje jako zpr
 
 3. Zadáním expozičních hodnot (šipka 3)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103330.png]]
+![image-20250701-103330.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103330.png>)
 Expoziční hodnoty jsou aktuálně řešeny jako kombinace dvou textových polí *Metoda* a *Hodnota*. Ve chvíli, kdy obsluha vyplní expoziční hodnoty, je doplněn *Datum provedení* automaticky, není-li již zadán.
 
 ### **Popis žádanky**
 
 Žádanka se do stavu *Popsaná* dostává v okamžiku, kdy je k ní uložen *Popis nálezu*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103418.png]]
+![image-20250701-103418.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103418.png>)
 Ve chvíli, kdy je žádanka s popisem uložena, přechází do stavu *Popsaná* a nález se začne zobrazovat i na pracovišti, které vyšetření požadovalo.
 
 Je možné žádanku uložit s rozpracovaným popisem, aniž by se tento zpřístupnil pracovišti, které vyšetření požadovalo. To je možné vypnutím škrtátka *Nález dokončen* (ve výchozím stavu je zapnuté), viz Obr.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103438.png]]
+![image-20250701-103438.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103438.png>)
 
 ### **Podepisování RDG žádanky**
 
@@ -210,44 +210,44 @@ Nad vybranou RDG žádanku lze v modulu *Žádanky RDG* vygenerovat PDF k podpis
 
 ***Podepisování RDG žádanky v okně editace RDG žádanky***
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103514.png]]
+![image-20250701-103514.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103514.png>)
 Po kliknutí na tlačítko *EZD* se zobrazí náhled PDF dokumentu k podepsání s aktuálními daty RDG žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103529.png]]
+![image-20250701-103529.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103529.png>)
 Kliknutím na *Podepsat* se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na *Odejít* dokument nebude podepsán a okno náhledu se uzavře.
 
 V pravém dolním rohu okna editace RDG žádanky je zobrazen seznam všech podepsaných PDF dokumentů, vygenerovaných nad danou RDG žádankou.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103549.png]]
+![image-20250701-103549.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103549.png>)
 Kliknutím pravým tlačítkem myši nad konkrétním podepsaným dokumentem lze vyvolat kontextovou nabídku a dokument stornovat.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103604.png]]
+![image-20250701-103604.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103604.png>)
 ***Podepisování RDG žádanky ve formulářích***
 
 V případě, že uživatel požaduje zobrazit data editované RDG žádanky na podkladu určitého formuláře (tiskopisu), např. Poukaz Z, může tak učinit kliknutím na tlačítko *Formuláře*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104525.png]]
+![image-20250701-104525.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104525.png>)
 V dalším kroku vybere požadovaný formulář, nad kterým chce data RDG žádanky zobrazit. Takto zobrazený formulář lze opět podepsat prostřednictvím tlačítka *EZD*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104541.png]]
+![image-20250701-104541.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104541.png>)
 Po kliknutí na tlačítko *EZD* se zobrazí náhled PDF dokumentu k podepsání s aktuálními daty RDG žádanky na podkladu vybraného formuláře.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104604.png]]
+![image-20250701-104604.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104604.png>)
 Kliknutím na *Podepsat* se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na *Odejít* dokument nebude podepsán a okno náhledu se uzavře.
 
 ***Podepisování RDG žádanky nad seznamem RDG žádanek***
 
 Uživatel má možnost podepsat RDG žádanku nad seznamem RDG žádanek, aniž by vstupoval do editace dané žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104630.png]]
+![image-20250701-104630.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104630.png>)
 Kliknutím označíme žádanku, kterou chceme podepsat a následně klikneme na tlačítko EZD. Zobrazí se náhled dokumentu k podepsání, který obsahuje aktuální data RDG žádanky.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104731.png]]
+![image-20250701-104731.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104731.png>)
 Kliknutím na *Podepsat* se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na *Odejít* dokument nebude podepsán a okno náhledu se uzavře.
 
 K lepšímu přehledu, která žádanka byla na daném pracovišti již podepsána a která ještě ne, slouží v seznamu *Žádanky RDG* sloupec *Podepsáno*.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104749.png]]
+![image-20250701-104749.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104749.png>)
 
 ## **Komunikace s PACS**
 
@@ -259,7 +259,7 @@ Je-li nakonfigurovaná komunikace s PACS (viz kapitola 1.2), probíhá na prac
 
 Stav odeslání indikuje signální bod v záhlaví příslušné sekce.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104917.png]]
+![image-20250701-104917.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104917.png>)
 Odeslání je možné vyvolat i ručně, a to kliknutím pravým tlačítkem myši na signální bod a výběrem volby *Odeslat do PACS* z kontextového menu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104946.png]]
+![image-20250701-104946.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-104946.png>)

@@ -25,11 +25,11 @@ První odpovědný lékař vyplní vyšetření stejně jako obvykle. Z vyšetř
 
 Jiný odpovědný lékař ze stejného pracoviště najde vyšetření a stiskne tlačítko Doplnit záznam.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Editace vyšetření různými odpovědnými lékaři/assets/image-20250903-100634.png]]
+![image-20250903-100634.png](<../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Editace vyšetření různými odpovědnými lékaři/assets/image-20250903-100634.png>)
 
 Po stisknutí tlačítka Doplnit záznam se vytvoří kopie původní prohlídky: Do záznamu se přenesou všechny informace z původní prohlídky a záznam se stane editovatelným. Zároveň se záznam původního odpovědného lékaře stane tzv. podzáznamem. To znamená, že na vyšetření prvního odpovědného lékaře navazuje záznam dalšího odpovědného lékaře. Nejnovější prohlídka je vždy hlavní prohlídkou, podzáznamy (tzn. předcházející prohlídky, ze kterých hlavní nejnovější prohlídka vychází) je možné zobrazit tlačítkem ▼
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Editace vyšetření různými odpovědnými lékaři/assets/image-20250903-100814.png]]
+![image-20250903-100814.png](<../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Editace vyšetření různými odpovědnými lékaři/assets/image-20250903-100814.png>)
 
 ### Editace a mazání
 

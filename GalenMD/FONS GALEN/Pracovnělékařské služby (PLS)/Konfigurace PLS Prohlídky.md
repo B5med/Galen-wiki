@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180176
 
 # Konfigurace PLS Prohlídky
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Prohlídky/assets/image-20250626-133545.png]]
+![image-20250626-133545.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Prohlídky/assets/image-20250626-133545.png>)
 **Prohlídky**
 
 Prohlídka – výběr z aktivních prohlídek z Designéru – uživatelské i systémové Není-li vybráno, tato položka se nebude v modulu Ordinace -> Prohlídky a vyšetření zobrazovat jako hlavní prohlídka.

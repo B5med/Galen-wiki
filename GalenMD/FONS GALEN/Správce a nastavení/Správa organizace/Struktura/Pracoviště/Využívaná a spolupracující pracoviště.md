@@ -22,8 +22,8 @@ Následně pracovník Stapro na základě objednávky zákazníka opatří pří
 
 Příznak je na daném (specializovaném) pracovišti znázorněn checkboxem bez možnosti editace, např.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-131757.png]]
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-131948.png]]
+![image-20260129-131757.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-131757.png>)
+![image-20260129-131948.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-131948.png>)
 
 ### Spolupracující pracoviště
 
@@ -33,8 +33,8 @@ Pokud je na stejné společnosti více pracovišť se stejnou specializací, je 
 
 Pokud je na společnosti alespoň jedno pracoviště opatřené příznakem specializovaného pracoviště, na ostatních pracovištích je zobrazeno tlačítko *Využívaná pracoviště.*
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132521.png]]
+![image-20260129-132521.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132521.png>)
 Znamená to, že toto pracoviště může využívat toto specializované pracoviště, např.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132649.png]]
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132941.png]]
+![image-20260129-132649.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132649.png>)
+![image-20260129-132941.png](<../../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště/assets/image-20260129-132941.png>)

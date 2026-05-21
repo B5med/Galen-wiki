@@ -12,10 +12,10 @@ Pokud má pacient vyplněný resortní identifikátor (RID) probíhá kontrola v
 Tato kontrola probíhá u položek: datum úmrtí, jméno, příjmení, pohlaví, státní příslušnost a kontaktní e-mail.
 V případě zjištění neshody je uživatel upozorněn:
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080637.png]]
+![image-20250722-080637.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080637.png>)
 Pokud je potřeba údaje ověř znovu, je možné tak učinit pomocí tlačítka „Znovu ověřit“.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080924.png]]
+![image-20250722-080924.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080924.png>)
 Kontakty pacienta je možné navolit stisknutím tlačítka plus. Zároveň je možné po kliknutí na tlačítko „Kontakty pacienta v ISIN“, po komunikaci s ÚZIS, je načíst a následně změnit - přepsat údaje zadané v ISIN po stisknutí tlačítka Aktualizovat.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080936.png]]
+![image-20250722-080936.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta/assets/image-20250722-080936.png>)

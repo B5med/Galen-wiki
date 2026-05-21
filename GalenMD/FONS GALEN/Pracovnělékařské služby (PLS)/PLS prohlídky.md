@@ -9,11 +9,11 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/56885286
 
 PLS prohlídku lze založit v okně Prohlídky a vyšetření, po kliku na ikonu
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135401.png]]
+![image-20250626-135401.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135401.png>)
 
 a výběru PLS prohlídky, která je přiřazena firmě.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135436.png]]
+![image-20250626-135436.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135436.png>)
 Při **vytváření PLS prohlídky** se zobrazují všechny prohlídky definované na smlouvě (i ty které jsou jen v rozšiřujících položkách, musí však být ve stejné skupině PLS jako je pacient na kartě zaměstnání zařazen), plus musí být tyto prohlídky zařazeny do sortimentu skupiny Prohlídka
 o Pokud je prohlídka na smlouvě vícekrát, zobrazí se tento počet i ve výběru
 
@@ -25,7 +25,7 @@ o Dotáhne se i reference pracoviště, na které byly položky objednány. Nepl
 
 o Ikona s hodinami zmizí, pokud byla vytvořena prohlídka s touto ikonou, (nesmí existovat jiná objednávka na téže prohlídce u pacienta) nebo je tato objednávka z kalendáře odstraněna.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135455.png]]
+![image-20250626-135455.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135455.png>)
 
 ## PLS prohlídka
 

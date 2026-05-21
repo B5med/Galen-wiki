@@ -11,10 +11,10 @@ Vyúčtování na pojišťovny se provádí na IČZ, a proto se na této úrovni
 
 Novou smlouvu s pojišťovnou je možné přidat pomocí zeleného tlačítka PLUS.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150215.png]]
+![image-20260106-150215.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150215.png>)
 V tomto okně uživatel vyplní údaje, které budou použity pro vyúčtování daného IČZ dané pojišťovně.
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150535.png]]
+![image-20260106-150535.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150535.png>)
 V okně bankovní spojení se nabízí čísla účtu, která jsou zadaná na úrovni společnosti
 
-![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150801.png]]
+![image-20260106-150801.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/assets/image-20260106-150801.png>)

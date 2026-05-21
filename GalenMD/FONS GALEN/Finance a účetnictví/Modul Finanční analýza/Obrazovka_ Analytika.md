@@ -23,7 +23,7 @@ Poskytuje přehled o **počtu vykázaných bodů a počtu unikátních pojiště
 
 Tabulka zobrazuje vývoj bodů a Kč za body. Obsahuje také **součtový řádek**.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074611.png]]
+![image-20250905-074611.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074611.png>)
 Poznámka: Záložka slouží pouze k prohlížení.
 
 ### Nákladní pojištěnci
@@ -32,19 +32,19 @@ Poskytuje přehled pacientů s vysokými náklady. V rozšířené verzi zobrazu
 
 Zaměřuje se na **mimořádně nákladné pojištěnce**. Uživatel zde vidí, kteří pacienti již překročili hranici mimořádné nákladnosti (MNP) a kteří se k ní blíží.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074700.png]]
+![image-20250905-074700.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074700.png>)
 Poznámka: Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné ocenění celkem, PURO 5 (výpočet pětinásobku PURO), výše překročení v Kč a %.
 
 ### Navýšení hodnoty bodu (pouze Rozšířená verze)
 
 Kontroluje, zda zařízení splňuje podmínky pro navýšení hodnoty bodu. Hodnoty jsou barevně označeny dle splnění nebo nesplnění limitů (např. % pacientů s konkrétní diagnózou).
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074721.png]]
+![image-20250905-074721.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074721.png>)
 Poznámka: Záložka slouží pouze k prohlížení. Záložka je dostupná v rozšířené verzi.
 
 ### Navýšení koeficientu navýšení (pouze Rozšířená verze)
 
 Zkoumá, zda zařízení splňuje kritéria pro navýšení koeficientu. Srovnává data za aktuální a referenční období. Obsahuje poměrové ukazatele a jejich barevné zvýraznění.
 
-![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074842.png]]
+![image-20250905-074842.png](<../../../../pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika/assets/image-20250905-074842.png>)
 Poznámka: Záložka slouží pouze k prohlížení. Záložka je dostupná v rozšířené verzi.

@@ -11,8 +11,8 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940449
 
 Vytvořit šablonu lze následujícím způsobem:
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Formuláře a vyšetření/assets/image-20250618-104424.png]]
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Formuláře a vyšetření/assets/image-20250618-104457.png]]
+![image-20250618-104424.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Formuláře a vyšetření/assets/image-20250618-104424.png>)
+![image-20250618-104457.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Formuláře a vyšetření/assets/image-20250618-104457.png>)
 
 Po editaci potřebných dat a uložení formuláře použijeme volbu Uložit šablonu, u které můžeme zvolit, zda bude sloužit pouze danému uživateli, celému pracovišti nebo celé společnosti.
 

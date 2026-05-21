@@ -14,10 +14,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366772226
 
 Pomocí níže přiloženého kódu nastavíme čtečku do továrního nastavení.
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra CS60 – konfigurace čtečky/assets/image-20260423-130448.png]]
+![image-20260423-130448.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra CS60 – konfigurace čtečky/assets/image-20260423-130448.png>)
 **Pozor:**u bezdrátové verze čtečky po uvedení do továrního nastavení je nutné ji vložit do kolébky a počkat na zvukový signál.
 
 Dále pak již stačí pouze načíst konfigurační QR kód, ve kterém je uloženo celé potřebné nastavení
 
-![[pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra CS60 – konfigurace čtečky/assets/image-20260423-130509.png]]
+![image-20260423-130509.png](<../../../pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra CS60 – konfigurace čtečky/assets/image-20260423-130509.png>)
 **Pozor:** Je třeba počkat až čtečka potvrdí dokončení nakonfigurování zvukovým signálem.

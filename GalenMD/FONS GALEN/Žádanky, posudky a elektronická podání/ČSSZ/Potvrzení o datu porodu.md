@@ -17,36 +17,36 @@ Uživatel v modulu ČSSZ zvolí záložku *Potvrzení o datu porodu* (1).
 
 Klikem na tl. *Nová*(2) vystaví nový formulář.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250905-101803.png]]
+![image-20250905-101803.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250905-101803.png>)
 Uživatel zvolí nebo zapíše kontakt pro notifikaci pacienta (SMS, e-mail).
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250905-103834.png]]
+![image-20250905-103834.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250905-103834.png>)
 Uživatel vyplní pravděpodobné datum porodu nebo datu, kdy k porodu došlo.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-064436.png]]
+![image-20250909-064436.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-064436.png>)
 Obě data může uživatel zapsat ručně, nebo za pomocí tlačítka doplnit datum z těhotenské prohlídky.
 
 V případě očekávaného data porodu se dotáhne z těhotenské prohlídka datum porodu dle PM.
 
 V případě, že porod již nastal, dotáhne se datum porodu z těhotenské prohlídka z kolonky *Datum ukončení.*
 
-Uživatel *Potvrzení o datu porodu* odešle stisknutím tl. *Odeslat*![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/3f20126e-e945-4afa-8cc2-6b6c6603030f]]
+Uživatel *Potvrzení o datu porodu* odešle stisknutím tl. *Odeslat*![image-20250724-090747.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/3f20126e-e945-4afa-8cc2-6b6c6603030f>)
  .
 
 Uživatel ověří správnost odeslaného podání v části *Komunikace s ČSSZ* tak, že ČSSZ potvrdila příjem Potvrzení o datu porodu „OK“.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-103903.png]]
+![image-20250909-103903.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-103903.png>)
 
 ### Opravné podání
 
 V případě, kdy uživatel změní předpokládané nebo reálné datum porodu, má možnost odeslat tuto změnu prostřednictvím opravného podání.
 
-Opravné podání uživatel odesílá stiskem tlačítka *Opravit* ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250724-090839.png]]
+Opravné podání uživatel odesílá stiskem tlačítka *Opravit* ![image-20250724-090839.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250724-090839.png>)
  .
 
 Úspěšné odeslání je potvrzeno v části *Komunikace s ČSSZ,*kde je také uveden detail odeslaných změn.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-104320.png]]
+![image-20250909-104320.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-104320.png>)
 
 ### Tisk
 
@@ -64,7 +64,7 @@ Uživatel vystaví tiskopis, který obdržel od příslušné OSSZ. Do FONS Gale
 
 Do formuláře zapíše číslo dávky z papírového tiskopisu a v rámci FONS Galen uloží.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-104826.png]]
+![image-20250909-104826.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu/assets/image-20250909-104826.png>)
 Žádné další údaje do formuláře FONS Galen kromě čísla rozhodnutí nezapisuje.
 
 Po zavedení tiskopisu do elektronického systému na straně ČSSZ se dávka ve FONS Galen automaticky na pozadí zaktualizuje.

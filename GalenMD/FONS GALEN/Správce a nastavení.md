@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75333741
 
 Přístup Správce najdeme ve Výběru pracoviště (pouze uživatelé, kteří mají nastavena práva Administrátora). Pod tímto přístupem nalezneme modul Správce. V modulu Správce najde uživatel přidělené dlaždice, které se mohou lišit od dlaždic běžných uživatelů. Z pozice Správce je přístupných více možností konfigurací, náhledů, kontrol a nastavení než z pozice běžného uživatele bez přidělené role Správce.
 
-![[pages/FONS GALEN/Správce a nastavení/assets/image-20250618-111844.png]]
+![image-20250618-111844.png](<../../pages/FONS GALEN/Správce a nastavení/assets/image-20250618-111844.png>)
 - [[Správa organizace]]- [[Struktura]]- [[Společnost]]
       - [[Zařízení]]
       - [[Pracoviště]]

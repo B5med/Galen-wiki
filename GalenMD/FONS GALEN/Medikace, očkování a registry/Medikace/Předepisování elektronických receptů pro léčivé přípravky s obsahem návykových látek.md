@@ -13,7 +13,7 @@ Při předpisu léčivého přípravku z přílohy 1 a 5 (příloha č. 1 k Nař
 
 Pro předpis vysoce návykové látky na eRecept je nutné v konfiguraci pracoviště vyplnit hodnotu "Kraj" (Správce - Správa organizace - Struktura - Pracoviště).
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek/assets/image-20251202-110020.png]]
+![image-20251202-110020.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek/assets/image-20251202-110020.png>)
 Takový eRecept má následující vlastnosti:
 
 - Na eRecept s označením „Vysoce návyková látka“ bude možné předepsat jen jednu položku (s libovolným množstvím do max. výše povolené systémem eRecept).

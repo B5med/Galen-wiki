@@ -13,7 +13,7 @@ A)     **Zapnutí funkcionality konkrétnímu uživateli**
 
 Uživatel s rolí Správce funkcionalitu zpřístupňuje jednotlivým uživatelům v modulu *Správa organizace -> Uživatelé -> detail konkrétního uživatele -> Zvláštní oprávnění -> checkbox Vytváření lékařské zprávy pro celou společnost*
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení/assets/image-20250623-084408.png]]
+![image-20250623-084408.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení/assets/image-20250623-084408.png>)
 B)     **Vytvoření hlavičky pro zprávu za celou společnost**
 
 Pokud je potřeba, aby zpráva za celou společnost, měla hlavičku, je nutné tuto hlavičku vytvořit. Není možné použít hlavičku standardní lékařské zprávy, protože ta obsahuje údaje týkající se pracoviště.
@@ -38,4 +38,4 @@ a) identifikační údaje poskytovatele, kterými jsou
 
 Hlavičku lékařské zprávy uživatel s rolí Správce předdefinuje v modulu *Nástroje -> Šablony -> Záhlaví tisků*vytvoří novou položku typu „Lékařská zpráva za společnost“.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení/assets/image-20250623-084530.png]]
+![image-20250623-084530.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení/assets/image-20250623-084530.png>)

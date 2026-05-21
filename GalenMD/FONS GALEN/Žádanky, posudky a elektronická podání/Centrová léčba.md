@@ -44,14 +44,14 @@ V klinickém pracovním postupu typicky přistoupíte do modulu po ambulantní n
 
 1. Otevřete modul Centrová léčba z hlavního menu systému FONS Galen.
 
-   ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-080708.png]]
+   ![obrazek-20260224-080708.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-080708.png>)
 2. V modulu uvidíte dvě záložky: Léčby a Podání.
 3. Záložka Léčby zobrazuje seznam všech léčeb (pacient, diagnóza, léčivo, paragraf, stav).
 4. Záložka Podání zobrazuje přehled jednotlivých aplikací léčiva ke každé léčbě.
 5. Použijte filtry v horní části obrazovky pro vyhledání podle pacienta, léčiva, stavu, paragrafu nebo časového období.
 6. Dvojklikem na řádek otevřete detail léčby nebo detail podání.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-081902.png]]
+![obrazek-20260224-081902.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-081902.png>)
 
 ---
 
@@ -63,7 +63,7 @@ V klinickém pracovním postupu typicky přistoupíte do modulu po ambulantní n
 4. Uložte novou léčbu. Systém ověří, zda pro daného pacienta a léčivo již neexistuje aktivní léčba.
 5. Po uložení se nová léčba zobrazí v přehledu.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-082211.png]]
+![obrazek-20260224-082211.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-082211.png>)
 
 ---
 
@@ -78,7 +78,7 @@ V klinickém pracovním postupu typicky přistoupíte do modulu po ambulantní n
 7. Podání, které ještě nebylo odesláno na ÚZIS, lze upravit nebo smazat.
 8. Podání, které již bylo odesláno na ÚZIS, lze upravit nebo stornovat.Odeslání podání na ÚZIS a automatické vykázání výkonu
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-082445.png]]
+![obrazek-20260224-082445.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-082445.png>)
 
 ---
 

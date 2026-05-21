@@ -13,7 +13,7 @@ V kartě pacienta -> Historie je dostupná záložka Přesun dokumentace
 
 Zde je dostupná evidence přesunu a je zde také možnost zadat novou položku zeleným tl. Plus.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Evidence přesunu papírové dokumentace/assets/image-20250917-080006.png]]
+![image-20250917-080006.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Evidence přesunu papírové dokumentace/assets/image-20250917-080006.png>)
 Datum = datum předání
 
 Typ dokumentace = Kurativa nebo PLS

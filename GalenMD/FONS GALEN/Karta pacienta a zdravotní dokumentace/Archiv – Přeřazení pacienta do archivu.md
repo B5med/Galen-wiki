@@ -12,4 +12,4 @@ Pacienta je možné zařadit do archivu tak, že na něj v kartotéce klikneme p
 Více pacientů lze označit buď pomocí tlačítka CTRL, kdy držím toto tlačítko a kliknutím na pacienta přidávám dalšího pacienta mezi označené. Pokud mám souvislou skupinu pacientů, stačí kliknout levým tlačítkem myši na prvního pacienta, držet tlačítko Shift a kliknout na posledního pacienta ve skupině. Tím se označí všichni pacienti mezi těmito dvěma. Pak stačí kliknout na kohokoliv v této skupině pravým tlačítkem myši a dát Archivovat.
 Archiv pacientů je možné si prohlížet kliknutím na ikonu Archiv v horní liště uprostřed stránky vedle ikony Kartotéka.
 
-![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Archiv – Přeřazení pacienta do archivu/assets/image-20250721-134723.png]]
+![image-20250721-134723.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Archiv – Přeřazení pacienta do archivu/assets/image-20250721-134723.png>)

@@ -19,7 +19,7 @@ Seznam podporovaných čteček 2D kódů a jejich konfigurace je uváděn v podk
 
 V seznamu na záložce „Skladový sortiment - očkování“ jsou zobrazeny skladové karty týkající se očkování. V detailu skladové karty se definuje provázanost mezi SÚKL kódem, PC a typem naskladnění (Látka na volný prodej, …).
 
-![[pages/Naskladňování přes čtečky/assets/image-20250729-050910.png]]
+![image-20250729-050910.png](<../pages/Naskladňování přes čtečky/assets/image-20250729-050910.png>)
 V záložce je možné filtrovat dle očkovací látky a zobrazit jen aktivní skladový sortiment za pomocí checkboxu „Jen aktivní“.
 
 ## 2.1       Nový skladový sortiment
@@ -36,7 +36,7 @@ Přidání nového skladového sortimentu týkající se očkování, kde uživa
 
 5. Údaje uloží tlačítkem OK.
 
-![[pages/Naskladňování přes čtečky/assets/image-20250729-050937.png]]
+![image-20250729-050937.png](<../pages/Naskladňování přes čtečky/assets/image-20250729-050937.png>)
 
 ## 2.2       Smazání skladového sortimentu
 
@@ -69,7 +69,7 @@ Za pomocí editace skladového sortimentu lze upravovat (případně mazat) úda
 
 4. Uživatel údaje uloží tlačítkem OK.
 
-![[pages/Naskladňování přes čtečky/assets/image-20250729-051006.png]]
+![image-20250729-051006.png](<../pages/Naskladňování přes čtečky/assets/image-20250729-051006.png>)
 
 # 3          Naskladňování
 
@@ -113,4 +113,4 @@ Pokud uživatel omylem naskladní větší množství sortimentu, může údaje 
 
 3. Uživatel údaje potvrdí tlačítkem OK.
 
-![[pages/Naskladňování přes čtečky/assets/image-20250729-051144.png]]
+![image-20250729-051144.png](<../pages/Naskladňování přes čtečky/assets/image-20250729-051144.png>)

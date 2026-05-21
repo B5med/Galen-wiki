@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180205
 
 V rámci importu PLS lze importovat PLS smlouvy, PLS skupiny a importovat samotné pacienty. Všechny importy se nacházejí v okně s detailem firmy.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Import PLS/assets/image-20250626-135312.png]]
+![image-20250626-135312.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Import PLS/assets/image-20250626-135312.png>)
 
 ### Založení a import dat smlouvy PLS do LS Galen
 

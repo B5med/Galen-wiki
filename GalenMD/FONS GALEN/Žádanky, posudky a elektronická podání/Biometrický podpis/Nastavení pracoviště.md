@@ -15,7 +15,7 @@ Nejprve je potřeba podpisová zařízení nastavit v modulu *Správce* ve *Spr�
 
 1. V nastavení pracoviště (pravá strana) uživatel vybere záložku Podpisová zařízení.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260129-132459.png]]
+![image-20260129-132459.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260129-132459.png>)
 2. Zařízení uživatel přidá tlačítkem Přidat nový záznam (plus).
 
 3. Uživatel zadá název podpisového zařízení, přihlašovací jméno a heslo
@@ -27,11 +27,11 @@ Nejprve je potřeba podpisová zařízení nastavit v modulu *Správce* ve *Spr�
       2. Na tuto adresu bude zaslán e-mail s výzvou k vytvoření hesla.
       3. vytvořené heslo je následně nutné zadat do konfigurace podpisového zařízení ve FONS Galen.
 
-         ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260410-062915.png]]
+         ![image-20260410-062915.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260410-062915.png>)
 
 4. Uživatel potvrdí tlačítkem OK.
 
 Zařízení je dále možné editovat a mazat za pomocí tlačítek:
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260129-133729.png]]
+![image-20260129-133729.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště/assets/image-20260129-133729.png>)
 Počet podpisových zařízení je omezen na celou společnost dle počtu licencí.

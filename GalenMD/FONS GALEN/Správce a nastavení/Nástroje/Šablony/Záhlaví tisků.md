@@ -13,7 +13,7 @@ V záložce Záhlaví tisků je možné nastavit hlavičky řady dokumentů, kte
 
 **Převzít výchozí** předdefinovanou hlavičku tisků, která do tisků dotahuje ze strukturovaně vložených dat základní údaje o pacientovi a o pracovišti.
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Záhlaví tisků/assets/image-20250618-104634.png]]
+![image-20250618-104634.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Záhlaví tisků/assets/image-20250618-104634.png>)
 
 ### **Vytvoření nové hlavičky tisků**
 
@@ -21,4 +21,4 @@ Pokud máme definovaných více hlaviček tisků, zaškrtnutím checkboxu **Impl
 
 V hlavičkách tisků lze nastavit také sekundární strany tisků, tzn. První strana tisku bude mít hlavičku definovanou na **Primární** straně tisku a všechny ostatní strany budou mít hlavičku stanovenou na **Sekundární** straně, kde již většinou bývá velmi stručný údaj o pacientovi, datu a pracovišti.
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Záhlaví tisků/assets/image-20250618-104658.png]]
+![image-20250618-104658.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Záhlaví tisků/assets/image-20250618-104658.png>)

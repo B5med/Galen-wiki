@@ -22,8 +22,8 @@ Po aktivaci nadstandardního modulu je nutné ze strany uživatele s rolí *Spr�
 
 - *Správce → Správa organizace →*na konkrétním pracovišti nastavit *Konfiguraci ČSSZ*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122520.png]]
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122552.png]]
+![image-20250721-122520.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122520.png>)
+![image-20250721-122552.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122552.png>)
 (1)   **IČPE**
 
 Vyplňte osmimístné číslo IČPE, které vaše zdravotnické zařízení získalo na základě registrace na ČSSZ. Po uložení již tuto hodnotu není možné měnit.
@@ -48,7 +48,7 @@ V případě aktivní funkcionality *Správa IČPE* je možné spravovat IČPE v
 
 - Vytvořit IČPE
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122958.png]]
+![image-20250721-122958.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-122958.png>)
 V případě, kdy je na ČSSZ provedena registrace zdravotnického zařízení a je přiřazeno tzv. hlavní IČPE, tak je možno z FONS Galen vytvářet další IČPE pro jednotlivá pracoviště.
 
 (1)   Pokud je pole IČPE prázdné, stane se tl. *Vytvořit IČPE* aktivním (2).
@@ -83,7 +83,7 @@ Tlačítko odešle požadavek na změnu názvu registrace, který je aktuálně 
 
 - Zvýraznit pacienty v kartotéce, pokud DPN trvá déle než X dnů
 
-Pacienti, kteří mají aktivní eDPN, která trvá déle než zadaný počet dnů, budou v kartotéce označeni symbolem ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-123104.png]]
+Pacienti, kteří mají aktivní eDPN, která trvá déle než zadaný počet dnů, budou v kartotéce označeni symbolem ![image-20250721-123104.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-123104.png>)
  . Obvykle se pole využívá pro zadání 380 dní, což je v tuto chvíli maximální podpůrčí doba pro poskytování nemocenského.
 
 - Upozornit na blížící se překročení podpůrčí doby pracovní neschopnosti
@@ -92,4 +92,4 @@ Upozornění je zasláno prostřednictvím echo zprávy s přehledem eDPN, kter�
 
 Zpráva má tuto podobu
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-123144.png]]
+![image-20250721-123144.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení/assets/image-20250721-123144.png>)

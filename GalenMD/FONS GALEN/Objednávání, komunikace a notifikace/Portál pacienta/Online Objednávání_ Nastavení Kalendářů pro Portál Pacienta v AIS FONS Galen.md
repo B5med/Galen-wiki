@@ -69,7 +69,7 @@ V detailu kalendáře nastavte následující položky:
    Pouze veřejné kalendáře se zobrazují v Portálu pacienta.
 - **Aktivní** = zapnuto
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-125505.png]]
+![obrazek-20260119-125505.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-125505.png>)
 
 ### Doporučené nastavení
 
@@ -95,7 +95,7 @@ U každého typu objednávky, který má být dostupný pacientům, je nutné na
 - **Veřejný = zapnuto** ❗
    Pouze veřejné typy objednávek se zobrazují v Portálu pacienta.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-130725.png]]
+![obrazek-20260119-130725.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-130725.png>)
 > ⚠️ Typ objednávky, který není označen jako **veřejný**, se pacientům **nikdy nezobrazí**, ani pokud je přiřazen ke kalendáři.
 
 ---
@@ -117,7 +117,7 @@ U každého bloku zkontrolujte:
 
 > ℹ️ Kalendář může být veřejný, ale pokud ordinační hodiny veřejné nejsou, pacient neuvidí žádné termíny.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-135114.png]]
+![obrazek-20260119-135114.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-135114.png>)
 
 ---
 
@@ -131,7 +131,7 @@ V nastavení Typu objednávky lze konfigurovat
 
 Doporučujeme tato omezení používat, aby se předešlo rušení termínů na poslední chvíli.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-135400.png]]
+![obrazek-20260119-135400.png](<../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen/assets/obrazek-20260119-135400.png>)
 
 ---
 

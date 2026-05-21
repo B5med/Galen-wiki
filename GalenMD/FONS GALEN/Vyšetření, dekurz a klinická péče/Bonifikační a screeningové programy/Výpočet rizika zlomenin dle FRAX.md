@@ -27,19 +27,19 @@ Výpočet rizika lze provádět na dvou místech:
 
 1. V sekci Rizika zlomenin stisknout tlačítko FRAX, které otevře dotazník pro výpočet.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071658.png]]
+![image-20250722-071658.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071658.png>)
 2. Vyplnit dotazník.
 
 Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v měření vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071733.png]]
+![image-20250722-071733.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071733.png>)
 3. Následně stisknout tlačítko Vypočítat.
 
 4. Vypočítané hodnoty se do měření přenesou za pomocí tlačítka Převzít hodnoty.
 
 5. V Měření jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071750.png]]
+![image-20250722-071750.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071750.png>)
 
 ## Výpočet rizika v prohlídce Screening osteoporózy
 
@@ -49,7 +49,7 @@ Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v měření vyp
 
 2. Vyplnit dotazník - Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v prohlídce vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.
 
-![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071821.png]]
+![image-20250722-071821.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071821.png>)
 3. Následně stisknout tlačítko Vypočítat.
 
 4. Vypočítané hodnoty se do prohlídky přenesou za pomocí tlačítka Převzít hodnoty.

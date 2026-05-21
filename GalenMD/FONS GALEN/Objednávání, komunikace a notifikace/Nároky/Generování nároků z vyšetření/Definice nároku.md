@@ -11,10 +11,10 @@ V modulu Nároky je třeba definovat nad kterou prohlídkou budou nároky vznika
 
 Definici zadává uživatel s oprávněním Správce v modulu *Nároky*.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Definice nároku/assets/image-20250710-122731.png]]
+![image-20250710-122731.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Definice nároku/assets/image-20250710-122731.png>)
 Po kliknutí na tlačítko **+**se objeví okno, kde uživatel nadefinuje, jaké podmínky platí pro generovaní nároků na danou prohlídku a jejich splnění.
 
-![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Definice nároku/assets/image-20250710-122747.png]]
+![image-20250710-122747.png](<../../../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Definice nároku/assets/image-20250710-122747.png>)
 Definice nároku se skládá z hlavičky definice a intervalu definice. Počet intervalů může být pod jednou hlavičkou více.
 
 V rámci hlavičky definice je nutné určit:

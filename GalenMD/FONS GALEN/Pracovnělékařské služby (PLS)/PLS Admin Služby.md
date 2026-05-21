@@ -9,7 +9,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57442361
 
 Okno pro správu vytvořených PLS služeb.
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin Služby/assets/image-20250626-134816.png]]
+![image-20250626-134816.png](<../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin Služby/assets/image-20250626-134816.png>)
 PLS služby lze filtrovat, viz. Obrázek výše. Uzavřené služby lze otevřít. U neuzavřených služeb je možné měnit způsob úhrady.
 
 **Stav**může nabýt hodnoty (seznam převzatý z PLS Admin):

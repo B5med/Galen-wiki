@@ -7,7 +7,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57016341
 
 # Hlavní položky smlouvy
 
-![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Hlavní položky smlouvy/assets/image-20250626-133233.png]]
+![image-20250626-133233.png](<../../../../pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Hlavní položky smlouvy/assets/image-20250626-133233.png>)
 **Vazba**
 
 1. **Výkon**– má vliv pouze pokud je na pobočce způsob platby kombinovaně nebo výkon. Položky s touto vazbou dotahují do výkonových faktur

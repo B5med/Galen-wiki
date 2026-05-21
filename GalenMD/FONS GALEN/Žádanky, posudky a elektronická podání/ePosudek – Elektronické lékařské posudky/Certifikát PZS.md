@@ -12,7 +12,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/377421825
 >
 > **Celý postup má 3 fáze:** přihlášení na národní portál → vystavení certifikátu v EZCA → nastavení v FONS Galen.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-123156.png]]
+![obrazek-20260429-123156.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-123156.png>)
 
 ## 1. K čemu Certifikát PZS slouží
 
@@ -35,19 +35,19 @@ Certifikát se vyřizuje přes národní portál eZdraví Ministerstva zdravotni
 1. Přejděte na [https://www.ezdravi.gov.cz/login/role?typ=zdravotnik&returnurl=%2Fprivate](https://www.ezdravi.gov.cz/login/role?typ=zdravotnik&returnurl=%2Fprivate). Zobrazí se stránka **Zdravotnický pracovník**.
 2. Klikněte na **Identita občana** a přihlaste se: mobilní klíč eGov, bankovní identita nebo eObčanka (NIA).
 
-   ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130220.png]]
+   ![obrazek-20260429-130220.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130220.png>)
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130408.png]]
+![obrazek-20260429-130408.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130408.png>)
 3. Po dokončení přihlášení se zobrazí **Pracovní přehled** portálu. V menu zvolte “**Poskytovatel zdravotnických služeb**”.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130933.png]]
+![obrazek-20260429-130933.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-130933.png>)
 4. Vpravo nahoře zkontrolujte, že je vybrána **správná organizace (PZS)**.
 5. Klikněte na dlaždici **Certifikáty**. Budete přesměrováni na portál EZCA.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-131630.png]]
+![obrazek-20260429-131630.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-131630.png>)
 6. Přejděte na přihlášení do Portálu EZCA
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-132406.png]]
+![obrazek-20260429-132406.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-132406.png>)
 
 ## 3. Jak získat certifikát v portálu EZCA
 
@@ -55,18 +55,18 @@ Pokud jste přešli z národního portálu, jste již přihlášeni. Případně
 
 1. Na stránce **Subjekty** v sekci **Systémové certifikáty** klikněte na **Přejít** u vaší organizace.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-134755.png]]
+![obrazek-20260429-134755.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-134755.png>)
 2. Otevře se stránka **Certifikáty** s tabulkou stávajících certifikátů a tlačítky pro vystavení nových.
 3. Klikněte na tlačítko **VYSTAVIT PŘÍSTUPOVÝ CERTIFIKÁT**.
 
-   ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-132900.png]]
+   ![obrazek-20260429-132900.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-132900.png>)
 
 4. Vyplňte formulář *Žádost o nový firemní přístupový certifikát*:
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133146.png]]
+![obrazek-20260429-133146.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133146.png>)
 5. Klikněte na **GENEROVAT**. Zobrazí se potvrzení *Žádost o vydání certifikátu byla odeslána.*
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133536.png]]
+![obrazek-20260429-133536.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133536.png>)
 6. V tabulce certifikátů klikněte na **STÁHNOUT** u nového certifikátu. Uložte soubor `.pfx` na bezpečné místo.
 
 > [!danger]
@@ -92,7 +92,7 @@ Nastavení provádí administrátor (role **Správce**). Certifikát se nastavuj
 >
 > Po restartu klikněte na **Ověřit PZS** v detailu organizace. Zelená ikona = certifikát funguje správně.
 
-![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133850.png]]
+![obrazek-20260429-133850.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-133850.png>)
 
 ## 5. Obnova certifikátu před vypršením
 

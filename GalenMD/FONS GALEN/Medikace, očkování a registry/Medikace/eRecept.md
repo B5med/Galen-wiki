@@ -9,10 +9,10 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75366401
 
 ## Vystavení a vytištění receptu / odeslání eReceptu
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/assets/image-20250721-074833.png]]
+![image-20250721-074833.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/assets/image-20250721-074833.png>)
 Lék předepíšeme kliknutím na ikonu, kterou najdeme v modulu Ordinace buď přímo nad vyznačeným pacientem v kartotéce, nebo při otevřené kartě pacienta nad jakýmkoliv modulem kromě Prohlídek. Poté se otevře formulář pro zadání medikací.
 
-![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/assets/image-20250721-074923.png]]
+![image-20250721-074923.png](<../../../../pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/assets/image-20250721-074923.png>)
 Toto okno je rozděleno do 4 základních oddílů.
 
 1. V levém horním se nacházejí číselníky. Jako první je zobrazena **Historie**. Je vidět, jaké léky byly kdy pacientovi předepsány, a přetažením vybraného léku lze předepsat nový recept. Kromě toho je hned vedle Historie záložka **Číselník**, která obsahuje přehled všech léků. Standardně je nastaven přehled všech léků hrazených pojišťovnou, ale je možné se přepnou do číselníku SÚKLu. Záložka **Trvalé** pacienta obsahuje ekvivalenty vyznačeného léku. **Receptář** umožňuje předepsat magistraliter s vlastním výběrem složek medikace z číselníku. **Výdeje** informují o stavu vydání medikace pacientovi. **SLZ** – sdílený lékový záznam umožňuje nahlédnout do informací SÚKLu o užívaných medikacích daného pacienta.

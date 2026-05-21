@@ -11,7 +11,7 @@ V záložce Fráze lze ulehčit zdravotníkům vytvořením textových frází k
 
 Nástroje -> Šablony -> záložka Fráze
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Fráze/assets/image-20250618-104541.png]]
+![image-20250618-104541.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Fráze/assets/image-20250618-104541.png>)
 Okno vytváření nové fráze:
 
-![[pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Fráze/assets/image-20250618-104557.png]]
+![image-20250618-104557.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Fráze/assets/image-20250618-104557.png>)
