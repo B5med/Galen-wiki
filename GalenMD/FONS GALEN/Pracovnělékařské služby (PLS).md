@@ -40,7 +40,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/150339588
 
 ---
 
-### 🔸
+### 🔸 Založení firmy
 
 Novou firmu přidáte v modulu **Nadstandardní péče** pomocí tlačítka **„+“**.
 V současnosti lze ukládat pouze české firmy z databáze **ARES**.
@@ -79,7 +79,7 @@ Každá firma může mít více poboček. Ty se zakládají v detailu firmy.
 
 ---
 
-### 🔸
+### 🔸 Skupiny PLS
 
 Skupiny PLS slouží k rozdělení zaměstnanců podle pracovních pozic nebo rizikovosti práce.
 Každá skupina je přiřazena konkrétní firmě a může mít definována tři typy rizik:
@@ -99,7 +99,7 @@ Tím je zajištěno, že zaměstnanci s vyšším rizikem mají kratší periodu
 
 ---
 
-### 🔸
+### 🔸 Rizika
 
 Rizika určují frekvenci pracovnělékařských prohlídek podle druhu práce a expozice.
 

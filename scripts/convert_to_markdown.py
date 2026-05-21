@@ -48,6 +48,7 @@ class ConvCtx(NamedTuple):
     page_dir: Path          # pages/<hierarchy>/<Title>
     out_root: Path          # repo root
     link_map: dict          # {page_id: {"title": ..., "path": ...}}
+    anchor_map: dict = {}   # {heading_id → full text} from Confluence TOC macro
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -102,6 +103,26 @@ def resolve_internal_link(href: str, resource_id: str, ctx: ConvCtx) -> str | No
         if m and m.group(1) in ctx.link_map:
             return _stem(ctx.link_map[m.group(1)])
     return None
+
+
+def build_anchor_text_map(soup) -> dict:
+    """Build {heading_id → full link text} from Confluence TOC macros.
+
+    Confluence export_view sometimes strips heading text from the actual <hN>
+    element (leaving only the emoji <span>), but the auto-generated TOC still
+    contains the full text as anchor link text.  We use this map to restore
+    missing heading content during conversion.
+    """
+    result = {}
+    for toc in soup.find_all(class_=lambda c: c and "toc-macro" in c):
+        for a in toc.find_all("a", href=True):
+            href = a.get("href", "")
+            if href.startswith("#"):
+                heading_id = href[1:]   # strip leading '#'
+                text = a.get_text(strip=True)
+                if text and heading_id:
+                    result[heading_id] = text
+    return result
 
 
 def prefix_callout(text: str) -> str:
@@ -166,6 +187,13 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
     if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
         level = int(tag[1])
         text = children(node, ctx).strip()
+        # Confluence export_view sometimes strips heading text, leaving only an
+        # emoji span.  Fall back to the TOC anchor map when no word chars found.
+        if not re.search(r"\w", text, re.UNICODE) and ctx.anchor_map:
+            heading_id = node.get("id", "")
+            fallback = ctx.anchor_map.get(heading_id, "")
+            if fallback:
+                text = fallback
         return f"\n{'#' * level} {text}\n\n"
 
     # ── Block elements ──
@@ -366,6 +394,11 @@ def page_to_markdown(html: str, meta: dict, ctx: ConvCtx) -> str:
     main = soup.find("main")
     if not main:
         return ""
+
+    # Build anchor map from TOC before the TOC nodes get skipped during conversion.
+    anchor_map = build_anchor_text_map(soup)
+    if anchor_map:
+        ctx = ctx._replace(anchor_map=anchor_map)
 
     md = node_to_md(main, ctx)
 

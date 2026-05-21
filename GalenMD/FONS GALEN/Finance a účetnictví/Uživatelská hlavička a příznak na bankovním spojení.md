@@ -27,7 +27,7 @@ Každému bankovnímu spojení lze přiřadit příznaky:
 
 ![image-20250901-083939.png](<../../../pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-083939.png>)
 
-## 🖊️
+## 🖊️ Editace záhlaví tisku
 
 > **Cesta:**
 > **Správce → Nástroje → Šablony → Záhlaví tisku**

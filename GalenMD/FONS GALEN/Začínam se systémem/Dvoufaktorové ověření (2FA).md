@@ -59,7 +59,7 @@ Po deaktivaci bude uživatel při dalším přihlášení vyzván k novému nast
 
 ---
 
-## 👤
+## 👤 Uživatelská konfigurace a nastavení
 
 > **Cesta:**
 > Vybrat pracoviště → Ordinace → **Konfigurace a nastavení** → záložka **Zabezpečení** → část *Autentizační aplikace* → tlačítko **Nastavit**
@@ -73,13 +73,13 @@ Pokud autentizační aplikace není nastavena, klikněte na **Nastavit** a spus�
 
 ![image-20250825-100131.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100131.png>)
 
-### 🔹
+### 🔹 Propojení autentizační aplikace s účtem
 
 V průvodci nastavením v Galenovi naskenujte QR kód zobrazený na obrazovce pomocí aplikace **Microsoft Authenticator**.
 
 ![image-20250825-100152.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100152.png>)
 
-### 🔹
+### 🔹 Ověření propojení aplikace s účtem
 
 Aplikace vygeneruje šestimístný kód. Tento kód zadejte a potvrďte.
 
@@ -91,26 +91,26 @@ Pokud je kód neplatný, zobrazí se hlášení:
 
 Zadejte nový kód z aplikace.
 
-### 🔹
+### 🔹 Uložení
 
 Po úspěšném ověření klikněte na **Uložit**.
 Nastavení je tím dokončeno.
 
 ![image-20250825-100314.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100314.png>)
 
-### 🔹
+### 🔹 Záloha (doporučeno)
 
 Doporučujeme aktivovat **zálohování účtu** v aplikaci Microsoft Authenticator, abyste mohli 2FA snadno obnovit v případě ztráty nebo výměny telefonu.
 
 ![image-20250825-100342.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100342.png>)
 
-### 🔹
+### 🔹 Opětovné nastavení / smazání
 
 Pro opětovní nastavení autentizační aplikace je možné proces znovu vyvolat a to za pomocí tlačítka **Změnit**. Za pomocí tlačítka **Smazat** lze nastavení smazat.
 
 ![image-20250825-100412.png](<../../../pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)/assets/image-20250825-100412.png>)
 
-## 🔑
+## 🔑 Nastavení 2FA po přihlášení
 
 Pokud uživatel dosud 2FA nenastavil, může být po přihlášení k tomuto kroku vyzván.
 

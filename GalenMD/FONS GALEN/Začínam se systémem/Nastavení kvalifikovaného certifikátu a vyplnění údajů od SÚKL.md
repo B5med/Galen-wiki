@@ -40,7 +40,7 @@ Nastavení probíhá přímo v modulu **Správa organizace**.
 
 ---
 
-## 💳
+## 💳 Nastavení kvalifikovaného certifikátu vydaného certifikační autoritou:
 
 ### 🧩 **Možnost 1 – nastavení v modulu Ordinace**
 
