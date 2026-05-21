@@ -5,6 +5,8 @@ updated_at: 2025-06-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/47939696
 ---
 
+# Off-line režim
+
 Při ztrátě konektivity zčervená Zeměkoule vpravo nahoře. Chce-li uživatel vstoupit do jiného okna aplikace (např. Výkony, Anamnéza, Kartotéka atd.), systém zobrazí upozornění o možnosti ztráty dat. Po stisku tlačítka OK zmizí upozorňovací okno a původní okno zůstane nezměněné.
 
 ![[pages/FONS GALEN/Začínam se systémem/Off-line režim/assets/image-20250618-111542.png]]

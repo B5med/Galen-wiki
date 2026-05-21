@@ -5,6 +5,8 @@ updated_at: 2025-11-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/173146115
 ---
 
+# Předpis neregistrovaného prostředku
+
 - Tlačítko má nově text: **+ Kód 99999XX**
 - Po kliknutí se doplní „99999XX“, uživatel musí doplnit číselné XX.
 - Pokud kód není číselný nebo vyplnění → hláška: „Vyplňte prosím pole Kód.“

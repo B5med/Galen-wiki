@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113639430
 ---
 
+# Obrazovka: Finanční přehled
+
 Obrazovka Finanční přehled zajišťuje kompletní přehled o úhradách, jejich limitech a ocenění v rámci poskytnuté péče. Obrazovka je rozdělena do tří záložek. Tyto záložky slouží **pouze k prohlížení dat** – uživatel zde nemůže provádět žádné úpravy ani editace.
 
 ### Limitovaná péče

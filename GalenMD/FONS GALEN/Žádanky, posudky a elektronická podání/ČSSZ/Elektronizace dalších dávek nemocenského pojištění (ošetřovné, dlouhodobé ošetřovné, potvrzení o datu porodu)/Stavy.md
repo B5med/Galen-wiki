@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76120098
 ---
 
+# Stavy
+
 Jednotlivé dávky, např. ošetřovné jsou ze strany lékaře vůči ČSSZ komunikovány prostřednictvím tzv. podání. Např. podání o zahájení potřeby ošetřování, podání o rozhodnutí ukončení potřeby ošetřování, podání HOL nebo podání lístek na peníze.
 
 Každé podání musí být ze strany ČSSZ zpracováno. Zpracování některých podání je automatizováno a jsou zpracována v řádu minut, některá podání jsou zpracována pracovníkem ČSSZ a jejich zpracování trvá v řádku dní.

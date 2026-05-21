@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398983170
 ---
 
+# Začínam se systémem
+
 Tato sekce je určena pro nové uživatele a pro situace, kdy potřebujete znovu nastavit nebo zprovoznit FONS Galen — například po přeinstalaci, změně počítače nebo zapomenutém hesle.
 
 Najdete zde návody na instalaci a první spuštění programu, nastavení přihlašovacích údajů včetně dvoufaktorového ověření (2FA), správu kvalifikovaných certifikátů a přehled klávesových zkratek pro rychlejší práci. Součástí je také návod pro práci v off-line režimu a vzdálená správa přes TeamViewer.

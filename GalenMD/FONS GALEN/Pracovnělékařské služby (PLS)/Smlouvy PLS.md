@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/150110227
 ---
 
+# Smlouvy PLS
+
 > [!info]
 > Smlouvy představují klíčovou část modulu **Nadstandardní péče**.
 > Definují podmínky spolupráce s konkrétní firmou – tedy jaké služby a vyšetření se budou provádět, jak často a jak budou fakturována.

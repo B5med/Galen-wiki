@@ -5,6 +5,8 @@ updated_at: 2025-10-31
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48922625
 ---
 
+# Smlouvy
+
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy/assets/image-20250618-124256.png]]
 V sekci Smlouvy lze provádět hromadné změny týkající se nasmlouvaných výkonů a parametrů smlouvy. Nejčastěji uživatelé potřebují přidat výkon do více pojišťoven či na více pracovišť současně.
 

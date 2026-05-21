@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75563053
 ---
 
+# Podřízené společnosti
+
 Správce -> Správa organizace -> Agendy -> záložka Podřízené společnosti
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Podřízené společnosti/assets/image-20250618-123855.png]]

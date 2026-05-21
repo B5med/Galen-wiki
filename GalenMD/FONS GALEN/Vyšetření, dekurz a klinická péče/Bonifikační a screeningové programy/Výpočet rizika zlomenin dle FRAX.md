@@ -5,6 +5,8 @@ updated_at: 2025-12-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76709889
 ---
 
+# Výpočet rizika zlomenin dle FRAX
+
 Funkcionalita výpočet rizika zlomenin dle FRAX umožňuje vyplnit dotazník, jehož výstup udává pravděpodobnost vzniku zlomeniny kyčle během následujících 10 let a pravděpodobnost, že dojde k hlavní osteoporotické zlomenině, což zahrnuje klinické zlomeniny obratlů, zlomeniny distálního předloktí, zlomeniny v oblasti kyčle a paže, během stejného období.
 
 Funkcionalitu je možné vyvolat v prohlídce a v měření. V prohlídce je dále navázaná na možnost vykázat výkony související s FRAX, tj. 11320 a 11321 Výkony je nutné mít nasmlouvané s pojišťovnou a uvedené ve FONS Galen ve smlouvách s pojišťovnami.
@@ -17,7 +19,7 @@ Výpočet rizika lze provádět na dvou místech:
 
 1. Obrazovka Měření návštěvy – přes dekurz pacienta
 
-1. Prohlídka pacienta – prohlídka, jejíž součástí je výpočet rizika zlomenin dle FRAX
+2. Prohlídka pacienta – prohlídka, jejíž součástí je výpočet rizika zlomenin dle FRAX
 
 ## Výpočet rizika v měření
 
@@ -26,16 +28,16 @@ Výpočet rizika lze provádět na dvou místech:
 1. V sekci Rizika zlomenin stisknout tlačítko FRAX, které otevře dotazník pro výpočet.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071658.png]]
-1. Vyplnit dotazník.
+2. Vyplnit dotazník.
 
 Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v měření vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071733.png]]
-1. Následně stisknout tlačítko Vypočítat.
+3. Následně stisknout tlačítko Vypočítat.
 
-1. Vypočítané hodnoty se do měření přenesou za pomocí tlačítka Převzít hodnoty.
+4. Vypočítané hodnoty se do měření přenesou za pomocí tlačítka Převzít hodnoty.
 
-1. V Měření jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).
+5. V Měření jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071750.png]]
 
@@ -45,22 +47,22 @@ Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v měření vyp
 
 1. V prohlídce stisknout tlačítko FRAX (vpravo nahoře), které otevře dotazník pro výpočet.
 
-1. Vyplnit dotazník - Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v prohlídce vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.
+2. Vyplnit dotazník - Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v prohlídce vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX/assets/image-20250722-071821.png]]
-1. Následně stisknout tlačítko Vypočítat.
+3. Následně stisknout tlačítko Vypočítat.
 
-1. Vypočítané hodnoty se do prohlídky přenesou za pomocí tlačítka Převzít hodnoty.
+4. Vypočítané hodnoty se do prohlídky přenesou za pomocí tlačítka Převzít hodnoty.
 
-1. V prohlídce jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).
+5. V prohlídce jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).
 
-1. Pro vykázání výkonů stisknout v prohlídce tlačítko Vytvořit výkony.
+6. Pro vykázání výkonů stisknout v prohlídce tlačítko Vytvořit výkony.
 
-1. Na obrazovce Vytvořit výkony zvolit hlavní výkon. Následně se zobrazí volitelné výkony související s FRAX. Vždy se nabízí pouze jeden výkon a to na základě vypočítaných hodnot, tj.:
+7. Na obrazovce Vytvořit výkony zvolit hlavní výkon. Následně se zobrazí volitelné výkony související s FRAX. Vždy se nabízí pouze jeden výkon a to na základě vypočítaných hodnot, tj.:
 
    1. Je indikováno DXA – nabízí se výkon 11320
    2. Není indikováno DXA – nabízí se výkon 11321
-2. Uživatel může vybrat jeden z volitelných výkonů souvisejících s FRAX.
+8. Uživatel může vybrat jeden z volitelných výkonů souvisejících s FRAX.
 
    1. Pokud je výkon vybrán, vykáže se.
 

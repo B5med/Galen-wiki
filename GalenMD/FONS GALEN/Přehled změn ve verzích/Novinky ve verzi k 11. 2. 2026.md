@@ -5,6 +5,8 @@ updated_at: 2026-02-09
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/264208385
 ---
 
+# Novinky ve verzi k 11. 2. 2026
+
 ## **Nastavení výchozích hodnot ePoukazu**
 
 Do FONS Galen bylo implementováno několik výchozích možností ePoukazu:

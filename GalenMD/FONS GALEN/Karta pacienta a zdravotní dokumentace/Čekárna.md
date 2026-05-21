@@ -5,6 +5,8 @@ updated_at: 2025-08-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76054599
 ---
 
+# Čekárna
+
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Čekárna/assets/image-20250721-133831.png]]
 Pokud chce lékař vidět pouze pacienty, které má v čekárně, použije funkci Čekárna.
 

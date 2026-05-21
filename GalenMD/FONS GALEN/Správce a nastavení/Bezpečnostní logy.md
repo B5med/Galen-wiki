@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/120487956
 ---
 
+# Bezpečnostní logy
+
 ## Úvod
 
 Tato funkcionalita slouží k shromažďování, zobrazení a případnému exportu událostí, které mají bezpečnostní charakter, v AIS Galen. Exportované logy lze následně využít v SIEM k podrobnějšímu analýzám chování jednotlivých uživatelů. Funkcionalitu lze rozdělit na dvě části:
@@ -33,10 +35,10 @@ Okno pro zobrazení bezpečnostních logů mohou otevřít uživatelé s oprávn
 - **Tisk dokumentace:**Tento typ logů zaznamenává, kdo a kdy tiskl dokumentaci AIS Galen. Dále se zobrazuje název a ID dokumentace, která byla tisknutá. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.
 - **Zástup:**Tento typ logů zaznamenává, kdo a kdy zastupoval a na kterém pracovišti. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.
 
-1. **Datum od:** Uživatel pomocí této položky volí počátek časového intervalu, ze kterého chce zobrazit bezpečnostní logy.
-2. **Datum do:** Uživatel pomocí této položky volí konec časového intervalu, ze kterého chce zobrazit bezpečnostní logy.
-3. **Aplikovat**
-4. **Exportovat:** Pomocí tohoto tlačítka se exportují logy, které definoval pomocí filtrů, do uživatelem určené složky
+2. **Datum od:** Uživatel pomocí této položky volí počátek časového intervalu, ze kterého chce zobrazit bezpečnostní logy.
+3. **Datum do:** Uživatel pomocí této položky volí konec časového intervalu, ze kterého chce zobrazit bezpečnostní logy.
+4. **Aplikovat**
+5. **Exportovat:** Pomocí tohoto tlačítka se exportují logy, které definoval pomocí filtrů, do uživatelem určené složky
 
 ## Pravidelný export bezpečnostních logů
 
@@ -49,8 +51,8 @@ Následuje krátký popis jednotlivých klíčů exportovaného JSON souboru:
 
 1. **Oblast:** V tomto klíči je uložená informace o typu logů v daném souboru.
 
-1. **DatumOd:** V tomto klíči je uložená informace o začátku intervalu, ze kterého příslušné logy pocházejí.
+2. **DatumOd:** V tomto klíči je uložená informace o začátku intervalu, ze kterého příslušné logy pocházejí.
 
-1. **DatumDo:**V tomto klíči je uložená informace o konci intervalu, ze kterého příslušné logy pocházejí.
+3. **DatumDo:**V tomto klíči je uložená informace o konci intervalu, ze kterého příslušné logy pocházejí.
 
-1. **Logy:** V tomto klíči je uložené pole objektů, kdy každý objekt představuje informace o jednom bezpečnostním záznamu.
+4. **Logy:** V tomto klíči je uložené pole objektů, kdy každý objekt představuje informace o jednom bezpečnostním záznamu.

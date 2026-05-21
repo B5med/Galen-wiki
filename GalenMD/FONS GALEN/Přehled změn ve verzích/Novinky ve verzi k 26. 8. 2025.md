@@ -5,6 +5,8 @@ updated_at: 2025-09-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/103219202
 ---
 
+# Novinky ve verzi k 26. 8. 2025
+
 # 💊 Změna preskripčních omezení u léků se symbolem **„L“**
 
 Galen zohledňuje novelu vyhlášky č. 376/2011 Sb. platnou od 1. 7. 2024.

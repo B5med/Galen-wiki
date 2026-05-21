@@ -5,6 +5,8 @@ updated_at: 2026-05-12
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113999874
 ---
 
+# Obrazovka: Výchozí údaje
+
 Slouží k zadávání klíčových vstupních údajů, které mají přímý vliv na výpočty a analýzy. Údaje lze definovat obecně, nebo pro konkrétní pojišťovny a IČZ. Některá pole se vyplňují ručně, jiná jsou automaticky dopočítána systémem a zobrazují se jako neaktivní (šedě).
 
 ### Záložka: Úhradové parametry
@@ -21,9 +23,9 @@ a.      dvojklikem, nebo
 
 b.      tlačítkem **Otevřít nový záznam** (ikona tužky).
 
-1. Zobrazí se obrazovka **Úhradové parametry** – detail.
-2. Vyplňte nebo upravte potřebné údaje (např. Vstupní úhrada).
-3. Potvrďte změny tlačítkem **OK**.
+3. Zobrazí se obrazovka **Úhradové parametry** – detail.
+4. Vyplňte nebo upravte potřebné údaje (např. Vstupní úhrada).
+5. Potvrďte změny tlačítkem **OK**.
 
 ![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20260512-060503.png]]
 
@@ -52,14 +54,14 @@ a.      dvojklikem, nebo
 
 b.      tlačítkem **Otevřít nový záznam** (ikona tužky).
 
-1. Zobrazí se obrazovka **Hodnota bodu** – detail.
-2. Vyplňte nebo upravte potřebné údaje.
+3. Zobrazí se obrazovka **Hodnota bodu** – detail.
+4. Vyplňte nebo upravte potřebné údaje.
 
 a.      Kliknutím na tlačítko Přidat nový záznam (ikona plus) se přidá nový řádek, kde lze zadat hodnoty specifické pro pojišťovny a IČZ.
 
 b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (ikona mínus) se vybraný řádek smaže.
 
-1. Potvrďte změny tlačítkem **OK**.
+5. Potvrďte změny tlačítkem **OK**.
 
 ![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065359.png]]
 Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:
@@ -82,14 +84,14 @@ a.      dvojklikem, nebo
 
 b.      tlačítkem **Otevřít nový záznam** (ikona tužky).
 
-1. Zobrazí se obrazovka **Koeficient navýšení** – detail.
-2. Vyplňte nebo upravte potřebné údaje.
+3. Zobrazí se obrazovka **Koeficient navýšení** – detail.
+4. Vyplňte nebo upravte potřebné údaje.
 
 a.      Kliknutím na tlačítko Přidat nový záznam (ikona plus) se přidá nový řádek, kde lze zadat hodnoty specifické pro pojišťovny a IČZ.
 
 b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (ikona mínus) se vybraný řádek smaže.
 
-1. Potvrďte změny tlačítkem **OK**.
+5. Potvrďte změny tlačítkem **OK**.
 
 ![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje/assets/image-20250905-065456.png]]
 Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:

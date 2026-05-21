@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690969
 ---
 
+# Vložení výpisu z dokumentace
+
 Výpis z dokumentace vložíme do lékařské zprávy a do dekurzu buď po kliknutí na pravé tlačítko myši přes výběr v kontextovém menu nebo klávesou zkratkou CTRL+B.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Vložení výpisu z dokumentace/assets/image-20250623-084923.png]]

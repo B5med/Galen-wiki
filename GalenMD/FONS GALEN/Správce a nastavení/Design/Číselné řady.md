@@ -5,6 +5,8 @@ updated_at: 2025-06-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50135057
 ---
 
+# Číselné řady
+
 Modul Design – Čís. řady
 
 Existují dvě verze číselných řad – uživatelské a ty, které byly vytvořeny Staprem.

@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113737731
 ---
 
+# Obecné informace
+
 - Vysvětlivky: U jednotlivých názvů sloupců a polí jsou dostupné vysvětlivky označené ikonou I. Po najetí myší se zobrazí detailní popis dané položky.
 
 ![[pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obecné informace/assets/image-20250905-064822.png]]

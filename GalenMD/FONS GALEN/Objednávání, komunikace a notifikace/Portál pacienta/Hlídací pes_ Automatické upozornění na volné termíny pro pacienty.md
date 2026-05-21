@@ -5,6 +5,8 @@ updated_at: 2026-01-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/229801986
 ---
 
+# Hlídací pes: Automatické upozornění na volné termíny pro pacienty
+
 > [!info]
 > Hlídací pes umožňuje pacientovi **nechat se automaticky upozornit**, pokud se uvolní termín, který aktuálně není k dispozici.
 

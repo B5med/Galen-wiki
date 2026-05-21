@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53379104
 ---
 
+# Vystavení žádanky, posudku apod.
+
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Vystavení žádanky, posudku apod/assets/image-20250623-095509.png]]
 Žádanky uživatel najde pod ikonou Formuláře. Zde si můžeme vybrat, zda chce psát klasickou žádanku (např. poukaz K, FT, FTDP, Z, …) nebo návrh (např. na lázeňskou péči), popř. vyplnit různé tiskopisy (např. Hlášení ošetřujícího lékaře, Posudek o zdravotní způsobilosti apod.).
 

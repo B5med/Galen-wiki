@@ -5,6 +5,8 @@ updated_at: 2025-08-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/83427332
 ---
 
+# Novinky ve verzi k 29. 7. 2025
+
 # 🧪 Bonifikační program – PSA
 
 ## Funkcionalita

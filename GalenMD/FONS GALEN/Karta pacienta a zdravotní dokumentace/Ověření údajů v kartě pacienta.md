@@ -5,6 +5,8 @@ updated_at: 2025-07-22
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76972043
 ---
 
+# Ověření údajů v kartě pacienta
+
 Při práci s kartou pacienta v rámci upozornění týkající se pacienta probíhá kontrola údajů v kartě s údaji, které jsou u pacienta evidovány v ISIN (ÚZIS).
 Pokud má pacient vyplněný resortní identifikátor (RID) probíhá kontrola v kartě pacienta vůči údajům pacienta v ISIN. Uživatel je upozorněn ve chvíli, kdy je položka v ISIN vyplněná, ale ve FONS Galen je prázdná, nebo v případě, kdy se obsah položek neshoduje.
 Tato kontrola probíhá u položek: datum úmrtí, jméno, příjmení, pohlaví, státní příslušnost a kontaktní e-mail.

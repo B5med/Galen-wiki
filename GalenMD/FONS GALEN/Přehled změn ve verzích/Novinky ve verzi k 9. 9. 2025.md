@@ -5,6 +5,8 @@ updated_at: 2025-09-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/115736577
 ---
 
+# Novinky ve verzi k 9. 9. 2025
+
 ## **Opravy chyb**
 
 - **Sdílený lékový záznam**

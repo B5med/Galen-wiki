@@ -5,6 +5,8 @@ updated_at: 2025-06-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/39583745
 ---
 
+# API PacientDataService PUT
+
 ## Obecné informace
 
 ### pohlavi

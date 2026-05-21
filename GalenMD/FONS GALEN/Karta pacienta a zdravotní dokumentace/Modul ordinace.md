@@ -5,6 +5,8 @@ updated_at: 2025-08-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/35684353
 ---
 
+# Modul ordinace
+
 V tomto modulu probíhá 90% práce lékaře s programem. Pracuje se zde se zdravotnickou dokumentací pacientů. Zde se zapisují dekurzy, anamnézy, vyšetření, očkování, vystavují recepty, neschopenky, vyplňují formuláře, vykazují výkony pro pojišťovnu, …
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace/assets/att_6_for_35684353.png]]

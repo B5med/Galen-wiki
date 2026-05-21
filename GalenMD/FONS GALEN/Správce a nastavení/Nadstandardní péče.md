@@ -5,6 +5,8 @@ updated_at: 2025-06-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50495507
 ---
 
+# Nadstandardní péče
+
 ![[pages/FONS GALEN/Správce a nastavení/Nadstandardní péče/assets/image-20250619-075059.png]]
 Modul Nadstandardní péče slouží k nastavení firem, ceníků, pracovně lékařské služby atd.
 

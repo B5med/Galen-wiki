@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398393355
 ---
 
+# Žádanky, posudky a elektronická podání
+
 - [[RDG žádanky]]
 - [[Poukaz FT]]
 - [[Příkaz ke zdravotnímu transportu]]

@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68190229
 ---
 
+# Vznik nároku
+
 Nárok vzniká způsoby: vykázáním výkonu z prohlídky u registrovaného pacienta, při registraci pacienta, automaticky v noci při dosažení věku, nebo ručním spuštěním generování nad konkrétní definici.
 
 Při vzniku nároku existuje kontrola na duplicitu, která nedovolí, aby měl pacient v 1 okamžik více aktivních nebo budoucích nároků, v rámci stejné definice a v rámci stejné ordinace.

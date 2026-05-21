@@ -5,6 +5,8 @@ updated_at: 2025-09-03
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/111017986
 ---
 
+# Editace vyšetření různými odpovědnými lékaři
+
 Modul Vyšetření byl rozšířen o možnost, aby jedno vyšetření (prohlídku) mohlo doplnit více odpovědných lékařů ze stejného pracoviště. Jedná se tak o jedno vyšetření pacienta, na kterém pracuje více lékařů stejného pracoviště (např. ve chvíli, kdy lékař vyplňuje pouze část prohlídky), většinou během několika dní.
 
 ## Výchozí stav

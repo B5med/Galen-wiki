@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694190
 ---
 
+# AISLP
+
 V modulu Medikace mohou nově uživatelé, kteří mají k dispozici aplikaci AISLP, zobrazit informace o léku prostřednictvím nového tlačítka "Zobrazit v AISLP".
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/AISLP/assets/image-20250721-103035.png]]
@@ -14,7 +16,7 @@ V modulu Medikace mohou nově uživatelé, kteří mají k dispozici aplikaci AI
 1. V konfiguraci společnosti – cesta k instalaci AISLP. Stejná pro všechny stanice.
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/AISLP/assets/image-20250721-103110.png]]
-1. V konfiguraci uživatele – povolit přístup k AISLP.
+2. V konfiguraci uživatele – povolit přístup k AISLP.
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/AISLP/assets/image-20250721-103134.png]]
 Pokud bude oboje nastavené, uživateli se v modulu Medikace zobrazí tlačítko pro otevření AISLP.

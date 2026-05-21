@@ -5,6 +5,8 @@ updated_at: 2026-03-09
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/297140225
 ---
 
+# Novinky ve verzi k 10. 3. 2026
+
 # Novinky a vylepšení
 
 #### Tlačítko Objednat ve vyšetření

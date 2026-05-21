@@ -5,6 +5,8 @@ updated_at: 2025-11-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/162856962
 ---
 
+# ÚZIS žádanka testu COVID-19
+
 > [!info]
 > Pomocí formuláře *ÚZIS žádanka testu COVID-19* lékař odesílá informace do systému ÚZIS ISIN v souvislosti v provedením testu Covid-19 a/nebo vystavením žádanky na test Covid-19.
 

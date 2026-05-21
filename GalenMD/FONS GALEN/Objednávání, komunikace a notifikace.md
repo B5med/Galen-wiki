@@ -5,6 +5,8 @@ updated_at: 2026-05-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/400097284
 ---
 
+# Objednávání, komunikace a notifikace
+
 Tato sekce popisuje vše, co se týká plánování návštěv pacientů, komunikace s nimi a nastavení upozornění.
 
 Najdete zde nastavení kalendářů a skupin kalendářů, modul objednávání včetně notifikací, SMS zprávy pacientům a sjednocení upozornění. Součástí jsou notifikace laboratorních výsledků, správa upozornění pro uživatele a nastavení nároků pacienta na vyšetření a nebo očkování. Sekce zahrnuje také Portál pacienta — online objednávání, nastavení kalendářů pro portál, hlídacího psa pro volné termíny a registraci pacientů.

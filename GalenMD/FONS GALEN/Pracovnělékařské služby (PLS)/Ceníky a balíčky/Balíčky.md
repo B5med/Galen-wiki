@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180187
 ---
 
+# Balíčky
+
 Balíček = několik položek ceníku spojených v jednu entitu.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Balíčky/assets/image-20250626-133712.png]]

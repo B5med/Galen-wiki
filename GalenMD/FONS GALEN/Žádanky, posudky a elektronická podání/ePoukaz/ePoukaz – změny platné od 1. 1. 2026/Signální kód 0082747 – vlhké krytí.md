@@ -5,6 +5,8 @@ updated_at: 2025-11-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/172556291
 ---
 
+# Signální kód 0082747 – vlhké krytí
+
 ### **Množství**
 
 - Systém automaticky nastaví **999** (needitovatelné).

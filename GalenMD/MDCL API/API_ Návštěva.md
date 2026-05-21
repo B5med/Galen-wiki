@@ -5,6 +5,8 @@ updated_at: 2026-03-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/309657607
 ---
 
+# API: Návštěva
+
 > [!info]
 > Toto API umožňuje externímu systému zapsat záznam návštěvy přímo do dekurzu pacienta.
 

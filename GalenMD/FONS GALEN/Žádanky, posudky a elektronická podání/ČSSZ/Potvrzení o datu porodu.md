@@ -5,6 +5,8 @@ updated_at: 2025-09-09
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113705028
 ---
 
+# Potvrzení o datu porodu
+
 Potvrzení o datu porodu je dostupné pouze na pracovištích odbornosti gynekologie (603, 604).
 
 Tato dávka slouží k vystavení potvrzení. To znamená, že nemá období trvání stejně jako další dávky (neschopenka, ošetřovné). Tato dávka se nepředává, nepřebírá, neukončuje.

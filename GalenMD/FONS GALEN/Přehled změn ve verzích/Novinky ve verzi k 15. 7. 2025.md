@@ -5,6 +5,8 @@ updated_at: 2025-07-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/78970915
 ---
 
+# Novinky ve verzi k 15. 7. 2025
+
 ## **Úpravy zpráv Echo**
 
 U zpráv ECHO může odesílatel nastavit nově exspiraci zprávy také v minutách. Ke stávajícímu nastavení exspirace ve dnech přibyla možnost nastavení v minutách.

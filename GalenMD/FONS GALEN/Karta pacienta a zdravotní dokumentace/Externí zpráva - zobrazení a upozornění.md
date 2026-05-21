@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/120487946
 ---
 
+# Externí zpráva - zobrazení a upozornění
+
 Práce s externí zprávou je podobná jako práce s laboratorními výsledky.
 
 Pokud máme nezpracovanou externí zprávu - zobrazí se Oznámení GALEN s textem “*Počet nezpracovaných lab. Výsledků: X “*– v pravém dolním rohu viz. obr.

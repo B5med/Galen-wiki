@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/61145127
 ---
 
+# Příkaz ke zdravotnímu transportu
+
 **Základní konfigurace**
 
 Příkaz ke zdravotnímu transportu jsou nadstavbovou funkcionalitou FONS Galen.

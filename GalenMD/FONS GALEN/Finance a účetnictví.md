@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398491650
 ---
 
+# Finance a účetnictví
+
 Tato sekce pokrývá finanční agendu spojenou s provozem zdravotnického zařízení.
 
 Najdete zde modul Finance pro celkovou správu pokladen a finančních toků, export dokladů do účetního systému POHODA a nastavení uživatelské hlavičky na bankovním spojení.

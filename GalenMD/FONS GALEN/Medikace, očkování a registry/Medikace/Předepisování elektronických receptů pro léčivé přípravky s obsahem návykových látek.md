@@ -5,6 +5,8 @@ updated_at: 2025-12-02
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/179994625
 ---
 
+# Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek
+
 Na základě změny zákona o návykových látkách č. 167/1998 Sb. a změnách některých dalších zákonů (primárně zákona č. 378/2007 Sb., o léčivech), která má účinnost od 1. ledna 2022, bude povinné **od 1. ledna 2022** předepisovat elektronické recepty také pro léčivé přípravky s obsahem návykových látek (dříve předpis na listinný recept s modrým pruhem).
 
 Při předpisu léčivého přípravku z přílohy 1 a 5 (příloha č. 1 k Nařízení vlády č. 463/2013 Sb. a příloha č. 5 k Nařízení vlády č. 463/2013 Sb.) nebo konopí bude eRecept automaticky opatřen příznakem Vysoce návyková látka.

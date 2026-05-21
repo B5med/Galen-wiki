@@ -5,6 +5,8 @@ updated_at: 2025-06-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50298914
 ---
 
+# Nadstandardní modul eOčkování
+
 Nyní mají lékaři povinnost bezodkladně učinit elektronický záznam o očkování, který bude odeslán do ISIN (Informační systém infekčních nemocí).
 
 Lékaři mají možnost **nahlížet na informace** nebo **informace do ISIN odesílat** prostřednictvím webové aplikace nebo je možné očkování odesílat do ISIN prostřednictvím nadstandardního modulu. Obě varianty mají možnost nahlížet na očkování, která má pacient v ISIN zadaná.

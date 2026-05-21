@@ -5,6 +5,8 @@ updated_at: 2025-06-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/18448393
 ---
 
+# Cesta k nastavení používání hesel
+
 Správce -> Správa organizace -> označený (červené orámovaný) název Společnosti -> Konfigurace (ve sloupci na pravé straně)-> v zobrazeném okně Konfigurace společnosti volba záložky Politika hesel.
 
 ![[pages/FONS GALEN/Začínam se systémem/Cesta k nastavení používání hesel/assets/image-20250416-164953.png]]

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792385
 ---
 
+# Vyúčtování
+
 Aby mohl uživatel IS Galen provádět pravidelné vyúčtování zdravotní péče a vzniklé dávky odeslat zdravotním pojišťovnám k proplacení, je nutné mít v tabulce v Uživateli (Správce -> Správa společnosti -> záložka Uživatelé -> rozkliknout dvojklikem příslušného uživatele) zaškrtnuté zpřístupnění modulu Vyúčtování. Takový uživatel za použití několika kliknutí velmi jednoduše vytvoří dávky, které je možno poté přímo z IS Galen odeslat zdravotním pojišťovnám. Pověřený uživatel provádí úkony vyúčtování v modulu Správce -> Vyúčtování
 
 ![[pages/FONS GALEN/Správce a nastavení/Vyúčtování/assets/image-20250618-130607.png]]
@@ -100,9 +102,9 @@ Změna údajů pojišťovny pacienta je nutné provést následujícím postupem
 
 1. Najít odmítnutý doklad/y a stisknout tlačítko „Nově vyúčtovat“ - tím se vytvoří kopie původních výkonů k novému vyúčtování.
 
-1. Změnit zdravotní pojišťovnu v kartě pacienta, nová pojišťovna se přenese do všech otevřených výkonů
+2. Změnit zdravotní pojišťovnu v kartě pacienta, nová pojišťovna se přenese do všech otevřených výkonů
 
-1. Vyúčtovat za daný měsíc běžným způsobem
+3. Vyúčtovat za daný měsíc běžným způsobem
 
 Pozor, pořadí provedených kroků je důležité. Pokud nejdříve změníme pojišťovnu v kartě pacienta a poté opravujeme doklady, změna pojišťovny se do dokladů nenačte. V takovém je nutno vstoupit do karty pacienta a znovu změnit pojišťovnu na již vloženou správnou pojišťovnu (např. u pojištěnce 111 změnit údaj znovu na 111).
 

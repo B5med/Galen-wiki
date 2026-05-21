@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57507855
 ---
 
+# PLS Faktury
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Faktury/assets/image-20250626-135046.png]]
 **Seznam PLS faktur lze filtrovat dle zadaných parametrů**
 

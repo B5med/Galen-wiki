@@ -5,6 +5,8 @@ updated_at: 2026-01-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/247627788
 ---
 
+# Podepsání v Signosoft
+
 1. Uživatel otevře stránky Signosoft - [https://app.signosoft.com/](https://app.signosoft.com/)
 2. Uživatel se přihlásí.
 3. Ze seznamu uživatel vybere dokument, který má být podepsán a stiskne tlačítko Podepsat.
@@ -12,7 +14,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/247627788
    1. Výběr je možný také dvojklikem.
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Podepsání v Signosoft/assets/image-20260129-135702.png]]
-1. Pacient si dokument zkontroluje a podepíše.
+3. Pacient si dokument zkontroluje a podepíše.
 
    1. Podpis se vkládá tak, že uživatel otevře podpisové okno.
 

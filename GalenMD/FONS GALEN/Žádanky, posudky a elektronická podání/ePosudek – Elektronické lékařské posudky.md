@@ -5,6 +5,8 @@ updated_at: 2026-04-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/359006213
 ---
 
+# ePosudek – Elektronické lékařské posudky
+
 Modul **ePosudek** umožňuje vystavovat, odesílat a spravovat elektronické lékařské posudky v souladu s požadavky systému **ELP** (Elektronické lékařské posudky) provozovaného NCEZ / MZ ČR. Odesílání posudků probíhá přes zabezpečené spojení (HTTPS/TLS, OAuth 2.0) s použitím systémového certifikátu PZS.
 
 ## Přehled typů posudků

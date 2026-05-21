@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/98420
 ---
 
+# FONS GALEN
+
 Vítejte v dokumentaci AIS FONS Galen. Tento manuál a nápověda byly vytvořeny pro podporu uživatelů, správců a konzultantů FONS Galen.
 
 > [!info]

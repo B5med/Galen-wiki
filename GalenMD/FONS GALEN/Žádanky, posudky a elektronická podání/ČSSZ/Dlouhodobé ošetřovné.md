@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/79724546
 ---
 
+# Dlouhodobé ošetřovné
+
 ## Vznik potřeby dlouhodobé péče
 
 Uživatel v modulu ČSSZ zvolí záložku *Dlouhodobé ošetřovné* (1).

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75628662
 ---
 
+# Preferovaná preskripce
+
 Správce -> Správa organizace -> Agendy -> záložka Preferovaná preskripce
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Preferovaná preskripce/assets/image-20250618-113517.png]]

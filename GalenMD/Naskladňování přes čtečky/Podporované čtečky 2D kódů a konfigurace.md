@@ -5,6 +5,8 @@ updated_at: 2026-05-12
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367263750
 ---
 
+# Podporované čtečky 2D kódů a konfigurace
+
 > [!info]
 > Následující kapitoly popisují postupy a kódy konfigurace pro jednotlivé modely podporovaných čteček čárových kódů. Konfigurace se provádí načtením kódů příslušnou čtečkou v uvedeném pořadí.
 

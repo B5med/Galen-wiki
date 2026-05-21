@@ -5,6 +5,8 @@ updated_at: 2025-06-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48365582
 ---
 
+# Zvýraznění pacienta v dlouhodobé pracovní neschopnosti
+
 Uživatel má možnost ovlivnit zvýraznění zadáním počtu dnů dle potřeb konkrétního pracoviště.
 
 ## **Konfigurace:**

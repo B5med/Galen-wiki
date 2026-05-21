@@ -5,6 +5,8 @@ updated_at: 2025-07-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/82214913
 ---
 
+# API: Zaměstnání
+
 > [!info]
 > Toto API slouží pro správu zaměstnání evidovaných u konkrétního pacienta. Umožňuje načíst seznam aktuálních zaměstnání, založit nové a upravit stávající záznamy. Záznamy jsou navázány na společnosti (firmy), jejich pobočky a případně na pracovní skupinu PLS.
 

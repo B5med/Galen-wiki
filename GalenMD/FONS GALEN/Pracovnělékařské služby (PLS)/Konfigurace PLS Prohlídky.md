@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180176
 ---
 
+# Konfigurace PLS Prohlídky
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Prohlídky/assets/image-20250626-133545.png]]
 **Prohlídky**
 

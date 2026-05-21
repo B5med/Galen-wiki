@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940518
 ---
 
+# Vykázání výkonu
+
 V případě úspěšného založení *eDPN, Ošetřovného nebo Dlouhodobého ošetřovného* je na pozadí automaticky vykázán výkon 09550 s diagnózou, která je v dávce uvedena. V případě, že výkon není pro danou pojišťovnu nasmlouván, je uživatel o tom, že výkon nebude vykázán, informován.
 
 V případě úspěšného ukončení *eDPN, Ošetřovného nebo Dlouhodobého ošetřovného* je na pozadí automaticky vykázán výkon 09551 s diagnózou, která je v dávce uvedena.

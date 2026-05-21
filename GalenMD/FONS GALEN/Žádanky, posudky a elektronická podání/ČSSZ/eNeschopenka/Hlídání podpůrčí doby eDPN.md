@@ -5,6 +5,8 @@ updated_at: 2025-06-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48431112
 ---
 
+# Hlídání podpůrčí doby eDPN
+
 Podpůrčí dobou eDPN rozumíme dobu výplaty dávek v době pracovní neschopnosti. IS Galen umožňuje nastavení upozornění na blížící se ukončení podpůrčí doby pracovní neschopnosti. Toto upozornění nastavuje Správce společnosti.
 
 Cesta: Správce -> Správa organizace -> označit požadované pracoviště -> v pravém sloupci konfigurace eNeschopenky.

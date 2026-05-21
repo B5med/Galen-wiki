@@ -5,6 +5,8 @@ updated_at: 2026-04-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/360710145
 ---
 
+# ePosudek – Řidičské oprávnění (ŘP)
+
 Tato stránka popisuje specifika posudků **Zdravotní způsobilost k řízení motorových vozidel** v modulu ePosudek. Obecné nastavení (certifikát PZS, číslo KRZP) a popis okna najdete na nadřazené stránce **ePosudek – Elektronické lékařské posudky**.
 
 ## Formulář posudku

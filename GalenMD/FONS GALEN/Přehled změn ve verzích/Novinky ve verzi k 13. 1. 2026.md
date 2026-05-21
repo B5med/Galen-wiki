@@ -5,6 +5,8 @@ updated_at: 2026-01-12
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/224788481
 ---
 
+# Novinky ve verzi k 13. 1. 2026
+
 ## **Rozšíření funkcionality Provozovny**
 
 Provozovny se rozšiřuje o upozornění a filtr pro nepřiřazené pacienty.

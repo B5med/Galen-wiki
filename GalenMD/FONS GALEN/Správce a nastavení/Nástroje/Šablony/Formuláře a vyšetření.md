@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940449
 ---
 
+# Formuláře a vyšetření
+
 Šablony formulářů slouží k editaci uložených šablon formulářů. Uživatel si může vytvořit u jednotlivých formulářů šablonu, kterou poté může vybírat při zadávání daného vyšetření u pacientů. Šablony formulářů si lékař vytváří přímo v ordinaci po vytvoření konkrétního formuláře u pacienta. Takto vytvořené šablony formulářů lze zobrazit a editovat i v modulu Nástroje -> Šablony -> v záložce Formuláře a vyšetření.
 
 Vytvořit šablonu lze následujícím způsobem:

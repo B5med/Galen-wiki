@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75268199
 ---
 
+# Styly tisků
+
 Modul: Nástroje – Šablony – Styly tisků
 
 Uživatel z pozice Správce může nadefinovat jednotlivé styly tisku s použitím syntaxe

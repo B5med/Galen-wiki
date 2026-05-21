@@ -5,6 +5,8 @@ updated_at: 2025-12-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/83361812
 ---
 
+# Screening zraku u dětí
+
 Funkcionalita umožňuje automaticky vyhodnotit, zda pacient spadá do **věkové skupiny** vhodné pro vykázání **výkonu 02036 – screening zraku**.
 
 Je dostupná v rámci **preventivních prohlídek dětí do 3 let**, konkrétně ve věku:

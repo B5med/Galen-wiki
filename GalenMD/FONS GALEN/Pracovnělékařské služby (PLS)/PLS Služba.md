@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57344037
 ---
 
+# PLS Služba
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Služba/assets/image-20250626-134910.png]]
 Pro zobrazení okna je třeba nejprve zvolit firmu, kde chceme službu vytvořit.
 

@@ -5,6 +5,8 @@ updated_at: 2025-07-08
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/65994755
 ---
 
+# API: Pacient
+
 > [!info]
 > Toto API slouží pro správu základních údajů o pacientech. Umožňuje načítat, zakládat a upravovat kartu pacienta na základě čísla pojištěnce nebo ID pacienta.
 

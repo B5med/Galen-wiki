@@ -5,6 +5,8 @@ updated_at: 2025-12-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48136251
 ---
 
+# Modul sklad
+
 ## Sklad
 
 Modul Sklad je určen pro evidenci vakcín. Při očkování automaticky odepisuje vybranou vakcínu, do záznamu o očkování doplňuje šarži a datum expirace.

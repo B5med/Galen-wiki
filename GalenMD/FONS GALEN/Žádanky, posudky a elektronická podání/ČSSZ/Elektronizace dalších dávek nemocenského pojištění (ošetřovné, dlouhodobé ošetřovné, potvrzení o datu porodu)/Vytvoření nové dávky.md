@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940487
 ---
 
+# Vytvoření nové dávky
+
 Záložce příslušné dávky (eDPN, Ošetřovné, Dlouhodobé ošetřovné, Potvrzení o datu porodu) klikneme na tl. *Nová.*
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Vytvoření nové dávky/assets/image-20250721-123222.png]]

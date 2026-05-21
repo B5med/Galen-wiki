@@ -5,6 +5,8 @@ updated_at: 2025-07-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/61308945
 ---
 
+# Foniatrie
+
 Odbornost 702 má speciální modul, přes který vystavuje poukaz na foniatrickou pomůcku. Po vybrání konkrétního pacienta v dekurzu bude ikona “Foniatrie” aktivní.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Foniatrie/assets/image-20250701-085401.png]]

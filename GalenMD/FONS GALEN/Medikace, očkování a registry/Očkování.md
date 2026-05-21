@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53149737
 ---
 
+# Očkování
+
 Modul očkování se standardně zobrazuje na pracovištích odbornosti s odborností praktický lékař, pediatr, gynekolog. V případě jiných specialistů je možné tento modul zaktivnit ve Správci - Správa organizace – na vybraném pracovišti v UI konfiguraci.
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Očkování/assets/image-20250623-102829.png]]

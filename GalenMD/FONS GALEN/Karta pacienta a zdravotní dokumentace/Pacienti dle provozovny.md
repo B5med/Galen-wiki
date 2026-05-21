@@ -5,6 +5,8 @@ updated_at: 2026-03-03
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/108757007
 ---
 
+# Pacienti dle provozovny
+
 Pro každé pracovišti je možné definovat provozovny. Pacienty na pracovišti je pak možné přiřazovat do takto definovaných provozoven. Uživatel může definovat svoji preferovanou provozovnu, kdy pak vidí přednostně pacienty přiřazené na svoji provozovnu. Údaje definované v rámci provozovny vstupují do notifikací (např. mobil, adresa).
 
 ## Konfigurace společnosti
@@ -44,13 +46,13 @@ Funkcionalitu lze zapnout v konfiguraci společnosti. Následně se v konfigur
 
 1. Uživatel vybere provozovnu.
 
-1. Uživatel stiskne tlačítko Otevřít vybraný záznam.
+2. Uživatel stiskne tlačítko Otevřít vybraný záznam.
 
 1. Alternativa je dvojklik na vybraný záznam.
 
-1. Uživatel odtrhne možnost Aktivní.
+3. Uživatel odtrhne možnost Aktivní.
 
-1. Uživatel údaje potvrdí tlačítkem OK.
+4. Uživatel údaje potvrdí tlačítkem OK.
 
 ## Uživatelské nastavení
 
@@ -60,9 +62,9 @@ V uživatelském nastavení lze nastavit výchozí provozovnu.
 
 1. Uživatel zůstane na záložce Nastavení.
 
-1. U položky Výchozí provozovna uživatel vybere provozovnu ze seznamu.
+2. U položky Výchozí provozovna uživatel vybere provozovnu ze seznamu.
 
-1. Uživatel výběr potvrdí tlačítkem OK.
+3. Uživatel výběr potvrdí tlačítkem OK.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075125.png]]
 
@@ -81,22 +83,22 @@ V kartotéce je možné přiřazovat/vyřazovat pacienty k provozovně a to 
 
 1. Vybrat pacienta a stisknout pravé tlačítko myši.
 
-1. Vybrat možnost Zařadit -> K provozovně.
+2. Vybrat možnost Zařadit -> K provozovně.
 
-1. Uživatel vybere provozovnu a případě upraví datum přiřazení.
+3. Uživatel vybere provozovnu a případě upraví datum přiřazení.
 
-1. Údaje uživatel potvrdí tlačítkem OK.
+4. Údaje uživatel potvrdí tlačítkem OK.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075207.png]]
 **Vyřazení**
 
 1. Vybrat pacienta a stisknout pravé tlačítko myši.
 
-1. Vybrat možnost Vyřadit -> Z provozovny.
+2. Vybrat možnost Vyřadit -> Z provozovny.
 
-1. Potvrdit ukončení tlačítkem Ano.
+3. Potvrdit ukončení tlačítkem Ano.
 
-1. Uživatel je vyřazen.
+4. Uživatel je vyřazen.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075219.png]]
 
@@ -137,11 +139,11 @@ V nastavení kalendáře lze definovat, které provozovně vybraný kalendář
 
 1. Otevřít nastavení vybraného kalendáře.
 
-1. Otevřít Nastavení.
+2. Otevřít Nastavení.
 
-1. U položky Provozovna vybrat ze seznamu provozovnu.
+3. U položky Provozovna vybrat ze seznamu provozovnu.
 
-1. Nové údaje potvrdit tlačítkem OK.
+4. Nové údaje potvrdit tlačítkem OK.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny/assets/image-20250901-075351.png]]
 ***Poznámka:**Na záložce Notifikace lze definovat výchozí notifikace. V nastavení šablon lze definovat údaje pro provozovnu.*
@@ -152,28 +154,28 @@ V nastavení kalendáře lze definovat, které provozovně vybraný kalendář
 
 1. Uživatel stiskne tlačítko Notifikace pro zobrazení obrazovky Hromadné notifikace.
 
-1. Uživatel stiskne tlačítko Přidat nový záznam.
+2. Uživatel stiskne tlačítko Přidat nový záznam.
 
-1. Uživatel vyplní potřebné údaje
+3. Uživatel vyplní potřebné údaje
 
 1. Termín
 
-1. Typ
+2. Typ
 
-1. Podtyp
+3. Podtyp
 
-1. Počet notifikací na pracoviště
+4. Počet notifikací na pracoviště
 
-1. Pracoviště
+5. Pracoviště
 
-1. Provozovna – zde uživatel vybere provozovnu, pro kterou mají být notifikace odesílány
+6. Provozovna – zde uživatel vybere provozovnu, pro kterou mají být notifikace odesílány
 
 1. Lze definovat pouze provozovny jednoho pracoviště.
 
-1. Počet notifikací pro jeden nárok
+7. Počet notifikací pro jeden nárok
 
-1. Mimo pojišťovny
+8. Mimo pojišťovny
 
-1. Rozestup notifikací [dny]
+9. Rozestup notifikací [dny]
 
 ***Poznámka:**Pro oslovování pacientů k nárokům se používají šablony notifikací. Do těchto šablon lze nastavit údaje provozoven.*

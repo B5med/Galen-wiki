@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53313560
 ---
 
+# Vytvoření lékařské zprávy za celou společnost
+
 Funkcionalita umožňuje vytvořit lékařskou zprávu za celu společnost, resp. zahrnout do zprávy i texty pracovišť, na které má aktuální pracoviště povolené nahlížení. Funkcionalita je dostupná pouze vybraným uživatelům, kterým modul zapíná správce společnosti. Při vytváření zprávy jsou zohledněny podřízené společnosti z důvodu správných údajů uvedených v hlavičce zprávy.
 
 ## Zapnutí funkcionality

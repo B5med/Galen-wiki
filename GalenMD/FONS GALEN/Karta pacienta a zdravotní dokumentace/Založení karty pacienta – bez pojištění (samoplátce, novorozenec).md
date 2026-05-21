@@ -5,6 +5,8 @@ updated_at: 2025-07-22
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76742669
 ---
 
+# Založení karty pacienta – bez pojištění (samoplátce, novorozenec)
+
 Nového pacienta lze založit kliknutím na ikonu Nová karta, která se nachází nad kartotékou.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – bez pojištění (samoplátce, novorozenec)/assets/image-20250722-080246.png]]

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694398
 ---
 
+# Struktura
+
 Ikona Struktura, kde v pravém sloupci se vyplňují základní údaje o organizaci – IČ, Název ambulance, ulice a město, mail zavedený na portále ZPMV a bankovní spojení, na které pojišťovna zasílá finance.
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/assets/image-20250618-112107.png]]

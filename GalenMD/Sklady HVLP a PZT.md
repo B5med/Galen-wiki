@@ -5,6 +5,8 @@ updated_at: 2025-09-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/108494849
 ---
 
+# Sklady HVLP a PZT
+
 ## Základní popis
 
 FONS Galen v základní verzi umožňuje evidovat skladové zásoby očkovacích látek. Coby nadstavbovou funkcionalitu je možné zapnout rozšíření skladů o další typy evidovaných komodit.
@@ -177,13 +179,13 @@ Uživatel zde má k dispozici několik přepínačů, pomocí kterých může 
 1. **Výběr sortimentu**
    Pokud je u vícero skladového sortimentu uveden daný kód pro vykázání, má uživatel možnost zvolit, ze kterého sortimentu chce vybírat.
 
-1. **Výběr skladu**
+2. **Výběr skladu**
    Je-li daná položka na vícero skladech, má uživatel možnost určit, ze kterého skladu chce vybírat. Je-li skladů více než jeden, zobrazuje se v kulatých závorkách jejich počet.
 
-1. **Výběr šarže**
+3. **Výběr šarže**
    Je-li daná položka na daném skladu ve vícero šaržích, má uživatel možnost určit, kterou šarži chce vydat. Je-li šarží více než jedna, zobrazuje v kulatých závorkách jejich počet.
 
-1. **Počet**
+4. **Počet**
    Jaké množství chce uživatel vyskladnit. Udává se ve výdejových jednotkách, pro vykázání se množství přepočte podle hodnoty *Množství ZUM* uvedené ve skladovém sortimentu.
 
 Po potvrzení dialogu je vedle řádku se ZUM uvedena informace o tom, že položka je připravena pro výdej ze skladu.

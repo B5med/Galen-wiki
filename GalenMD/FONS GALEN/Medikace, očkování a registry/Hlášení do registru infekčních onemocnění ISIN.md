@@ -5,6 +5,8 @@ updated_at: 2025-11-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/16809985
 ---
 
+# Hlášení do registru infekčních onemocnění ISIN
+
 > [!info]
 > Na základě novely vyhlášky č. 306/2012 Sb. o podmínkách předcházení vzniku a šíření infekčních onemocnění a o hygienických požadavcích na provoz zdravotnických zařízení a vybraných zařízení sociálních služeb k 1. 7. 2025, která nařizuje hlášení infekčních chorob odesílat elektronicky (čímž nahrazuje stávající tzv. červenou hlášenku), bylo implementováno toto hlášení do FONS Galen. Hlášení je uživatelům zpřístupněno v rámci placeného modulu. Uživatel, který má vyplněné NRZP na pracovišti, které má přiřazen platný SÚKL certifikát, může u pacienta vystavit toto hlášení a odeslat jej na ÚZIS. Nahlížení na hlášení vystavená jiným pracovištěm (nebo společností) poskytováno není.
 

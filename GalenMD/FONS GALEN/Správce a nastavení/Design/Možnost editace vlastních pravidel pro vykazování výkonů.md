@@ -5,6 +5,8 @@ updated_at: 2026-03-09
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57999370
 ---
 
+# Možnost editace vlastních pravidel pro vykazování výkonů
+
 Rozšíření modulu Design o záložku Pravidla uživatelům umožňuje
 • Vytvářet vlastní pravidla pro vykazování výkonů
 

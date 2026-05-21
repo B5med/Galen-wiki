@@ -5,15 +5,17 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/56918042
 ---
 
+# Rizika
+
 Okno pro správu práci rizik a intervalů prohlídek. Tato rizika se následně zadávají do jednotlivých PLS skupin. Přepočet lhůt pro pacienty s daným rizikem proběhne automaticky po editaci daného rizika.
 
 **Rizika jsou rozdělena do tří skupin:**
 
 1. **Kategorie**
 
-1. **Faktory prostředí**
+2. **Faktory prostředí**
 
-1. **Ohrožení zdraví**
+3. **Ohrožení zdraví**
 
 Lze je smazat, jedině pokud nemají vytvořenou referenci (nebyly použity) Při vytváření nebo editaci uživatel pracuje se stejnou obrazovkou ve všech třech skupinách:
 

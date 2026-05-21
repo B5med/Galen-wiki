@@ -5,6 +5,8 @@ updated_at: 2025-07-22
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76972053
 ---
 
+# Vyhledání pacienta
+
 **Základní vyhledávání**
 
 1. Pro vyhledání pacienta je možné použít několik způsobů. Nejjednodušší je prostě začít psát příjmení nebo rodné číslo. Je-li kurzor v kartotéce, program čeká, co uživatel udělá. Pokud začne psát písmena, automaticky se spustí vyhledávání dle příjmení, popř. po mezeře pokračuje ve vyhledávání i podle jména. Pokud začne psát číslice, program vyhledává dle rodného čísla. V obou případech si otevře vyhledávací okénko a v něm zobrazuje zapisovaný text.

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75235441
 ---
 
+# Operační sály
+
 Správce -> Správa organizace -> Agendy -> záložka Operační sály
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály/assets/image-20250618-113635.png]]

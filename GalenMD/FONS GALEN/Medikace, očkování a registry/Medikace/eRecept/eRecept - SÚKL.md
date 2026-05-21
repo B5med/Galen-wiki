@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75333635
 ---
 
+# eRecept - SÚKL
+
 Možnost odesílat eRecepty přímo do centrálního úložiště SUKLu vyžaduje zprovoznění funkcionality v IS Galen za použití dvou certifikátů – podpisového certifikátu lékaře a SUKL certifikátu daného pracoviště.
 
 ## **Přístupové údaje SUKL:**
@@ -23,9 +25,9 @@ Přístupové údaje do za osobu i za zařízení slouží k:
 
 1. přístupu do portálu [http://identity.sukl.cz](http://identity.sukl.cz)  – slouží ke správě přístupů a změně hesla
 
-1. přístupu na portál [http://pristupy.sukl.cz](http://pristupy.sukl.cz)  – slouží ke generování certifikátu
+2. přístupu na portál [http://pristupy.sukl.cz](http://pristupy.sukl.cz)  – slouží ke generování certifikátu
 
-1. přístupu do samotného centrálního úložiště receptů - slouží vašemu ambulantnímu softwaru k ověření pro komunikaci s centrálním úložištěm receptů.
+3. přístupu do samotného centrálního úložiště receptů - slouží vašemu ambulantnímu softwaru k ověření pro komunikaci s centrálním úložištěm receptů.
 
 Máte tedy celkem 4 přihlašovací údaje.  Centrální úložiště receptů vyžaduje pro svůj přístup dvojí ověření. Prvním je ověření zdravotnického zařízení, druhým je pak ověření samotné osoby.
 
@@ -44,13 +46,13 @@ Pro​​přístup ​​k ​​aktivaci ​​údajů​​ o ​​osobě �
 1. Modul Správce -> modul Správa Organizace -> tlačítko Rozbalit strukturu -> vybrat IČP -> v pravé části se zpřístupní informace o pracovišti.
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-075514.png]]
-1. V informacích o pracovišti vyplnit Kód SÚKL.
+2. V informacích o pracovišti vyplnit Kód SÚKL.
 
-1. Stisknout tlačítko Nastavit -> tlačítko Vybrat soubor (vybrat certifikát **vydaný SÚKLem**) -> výběr potvrdit tlačítkem Otevřít.
+3. Stisknout tlačítko Nastavit -> tlačítko Vybrat soubor (vybrat certifikát **vydaný SÚKLem**) -> výběr potvrdit tlačítkem Otevřít.
 
-1. Vyplnit Heslo a potvrdit změny tlačítkem OK.
+4. Vyplnit Heslo a potvrdit změny tlačítkem OK.
 
-1. Nastavení uložit tlačítkem Uložit (nahoře).
+5. Nastavení uložit tlačítkem Uložit (nahoře).
 
 Pokud nastavení proběhlo v pořádku, po uložení se doplnilo datum u Platnosti.
 
@@ -60,17 +62,17 @@ Nastavení certifikátu lze z pozice správce v modulu Správa organizace nebo z
 
 1. V modulu Správa organizace přejít na záložku Uživatelé.
 
-1. Vyhledat příslušného uživatele a otevřít jeho nastavení dvojklikem.
+2. Vyhledat příslušného uživatele a otevřít jeho nastavení dvojklikem.
 
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL/assets/image-20250721-094004.png]]
-1. Stisknout tlačítko Vybrat (tlačítko u eRecept) a vyhledat certifikát -> výběr potvrdit tlačítkem OK -> po výběru se doplní sériové číslo certifikátu.
+3. Stisknout tlačítko Vybrat (tlačítko u eRecept) a vyhledat certifikát -> výběr potvrdit tlačítkem OK -> po výběru se doplní sériové číslo certifikátu.
 
-1. V části eRecept doplnit:
+4. V části eRecept doplnit:
 
 1. Identifikace SÚKL
 
-1. Heslo
+2. Heslo
 
-1. Změny potvrdit tlačítkem OK
+5. Změny potvrdit tlačítkem OK
 
 Odeslané recepty na SUKL = eRecepty nelze již smazat, ale lze je stornovat obdobným způsobem jako již popsané smazání receptu. Informace o stornování eReceptu je také odesílána na SUKL.

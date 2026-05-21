@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398131202
 ---
 
+# Vzdálená správa – TeamViewer
+
 TeamViewer slouží k tomu, aby se pracovníci podpory FONS Galen mohli vzdáleně připojit k počítači zákazníka a vyřešit problém přímo na místě.
 
 ---

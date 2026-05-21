@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/45842437
 ---
 
+# Objednávání, kalendáře, notifikace
+
 Objednávání pacientů se v IS Galen provádí nejčastěji z kartotéky, recepce či z modulu Objednávání.
 
 ![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Objednávání, kalendáře, notifikace/assets/image-20250616-093850.png]]

@@ -5,6 +5,8 @@ updated_at: 2025-08-25
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/94535682
 ---
 
+# Novinky ve verzi k 12. 8. 2025
+
 **Možnost uživatele odhlásit se z příjmu echo zpráv týkající se odstávky a údržby**
 
 Uživatel, který nemá roli *Správce* se může v uživatelském nastavení odhlásit z příjmu echo zpráv, které jsou odesílány ze strany Stapro a které se týkajíc odstávky a údržby. Uživatel s rolí *Správce* se z příjmu nemá možnost odhlásit.

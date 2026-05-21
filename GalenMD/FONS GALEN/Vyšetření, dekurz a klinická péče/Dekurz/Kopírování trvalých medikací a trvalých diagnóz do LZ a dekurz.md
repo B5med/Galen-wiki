@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52756492
 ---
 
+# Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz
+
 Chceme-li vložit Trvalé diagnózy nebo trvalé medikace do lékařské zprávy, zvolíme období, za které byla diagnóza nebo medikace alespoň 1 den ordinována.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz/assets/image-20250623-081634.png]]

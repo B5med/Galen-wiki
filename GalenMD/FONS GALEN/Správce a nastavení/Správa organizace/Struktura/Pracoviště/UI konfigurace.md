@@ -5,6 +5,8 @@ updated_at: 2025-12-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/191037441
 ---
 
+# UI konfigurace
+
 Pokud se postavíme na IČP (příklad Demo Dětská ordin...) rozbalí se nám pravý sloupec s tlačítkem UI konfigurace.
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/assets/image-20250618-112643.png]]

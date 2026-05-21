@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74907743
 ---
 
+# Záhlaví tisků
+
 Správce -> Nástroje -> v horní liště Šablony -> záložka Záhlaví tisků
 
 V záložce Záhlaví tisků je možné nastavit hlavičky řady dokumentů, které lze v IS Galen tisknout. Hlavičku tisků není bezpodmíněčně nutné definovat. Pro tento případ IS Galen nabízí možnost:

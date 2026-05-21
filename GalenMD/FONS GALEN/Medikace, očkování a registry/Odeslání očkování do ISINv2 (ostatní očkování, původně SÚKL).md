@@ -5,6 +5,8 @@ updated_at: 2025-08-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/104824874
 ---
 
+# Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)
+
 Popis procesu odeslání očkování do ISINv2. Jedná se o všechna očkování kromě očkování proti covid-19, která se původně odesílala do SÚKL.
 
 ## Výchozí nastavení

@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57147399
 ---
 
+# PLS Admin
+
 Okno PLS Admin slouží k celkovému přehledu provedených PLS akcí, a to zadaných prohlídek a očkování, v rámci PLS.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin/assets/image-20250626-134732.png]]

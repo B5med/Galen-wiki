@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398688271
 ---
 
+# Medikace, očkování a registry
+
 Tato sekce pokrývá předepisování léků, evidenci očkování a povinná hlášení do národních registrů.
 
 Najdete zde popis práce s trvalými medikacemi a receptářem, podávání léčiv, eRecept, lékové žádanky a specifika předpisu návykových látek nebo preferované medikace VZP. V části Očkování jsou popsány standardní i nadstandardní moduly eOčkování a odesílání dat do ISIN.  Součástí jsou také modulu Sklady, který slouží k evidenci vakcín, včetně konfigurace čteček 2D kódů. Sekce dále zahrnuje povinná hlášení do registru infekčních onemocnění ISIN a registru akutních respiračních infekcí ÚZIS. Součástí jsou také modulu Sklady, který slouží k evidenci vakcín, včetně konfigurace čteček 2D kódů.

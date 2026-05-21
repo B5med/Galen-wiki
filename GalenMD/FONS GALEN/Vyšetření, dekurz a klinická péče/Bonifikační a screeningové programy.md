@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/78544916
 ---
 
+# Bonifikační a screeningové programy
+
 Bonifikační programy, resp. screeningové programy vychází z [programu VZP plus](https://plus.vzp.cz/) a [screeningových programů](https://www.nzip.cz/kategorie/5-screening). Jedná se o nadstandardní funkcionalitu FONS Galen.
 
 V rámci funkcionality jsou zpřístupněny prohlídky, které odpovídají těmto programům. Výhodou oddělených prohlídek je možnost zadat datum příští prohlídky a mít tak lepší přehled o příštích prohlídkách pacienta.

@@ -5,6 +5,8 @@ updated_at: 2026-02-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/258998273
 ---
 
+# Vystavení eDPN o více než 3 dny zpětně
+
 V případě, že je potřeba vystavit eNeschopenku o více než 3 dny zpětně, je potřeba postupovat tímto způsobem:
 
 1. Vystavit eNeschopenku klasickým způsobem (*neschopen od* bude aktuální datum) a odeslat na ČSSZ.

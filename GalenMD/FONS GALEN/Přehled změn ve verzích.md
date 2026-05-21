@@ -5,6 +5,8 @@ updated_at: 2025-07-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/78675976
 ---
 
+# Přehled změn ve verzích
+
 - [[Novinky ve verzi k 15. 7. 2025]]
 - [[Novinky ve verzi k 29. 7. 2025]]
 - [[Novinky ve verzi k 12. 8. 2025]]

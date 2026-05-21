@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68386822
 ---
 
+# Zobrazení nároků pacienta v záložce Historie
+
 Na spodním panelu karty pacienta – Historie je možné v záložce Nároky pacienta zobrazit. Nároky je možné filtrovat podle stavů:
 
 **Vše**

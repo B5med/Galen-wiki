@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68517948
 ---
 
+# Modul Nároky
+
 Pokud uživatel do modulu přistupuje v rámci pracoviště, vidí pouze aktivní nároky.
 
 Pokud uživatel do modulu vstupuje jako Správce, vidí všechny nároky ve všech stavech.

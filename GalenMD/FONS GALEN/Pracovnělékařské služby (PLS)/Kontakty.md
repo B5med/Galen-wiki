@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57311234
 ---
 
+# Kontakty
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Kontakty/assets/image-20250626-132903.png]]
 **Kontakt** lze přiřadit jednotlivým aktivním uživatelům ze stromové struktury IS Galen, kteří mají příznak PLS
 

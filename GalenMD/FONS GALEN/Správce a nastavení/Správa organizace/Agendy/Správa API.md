@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694093
 ---
 
+# Správa API
+
 API, které využívají uživatelé, se spravuje v agendě Správce - Správa organizace – Agendy
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Správa API/assets/image-20250721-084914.png]]

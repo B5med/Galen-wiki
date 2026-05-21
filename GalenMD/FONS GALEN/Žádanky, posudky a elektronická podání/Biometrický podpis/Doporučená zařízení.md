@@ -5,6 +5,8 @@ updated_at: 2026-01-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/249495553
 ---
 
+# Doporučená zařízení
+
 ### Apple (iPad)
 
 - iPad (modely od roku 2019) + **Apple Pencil**

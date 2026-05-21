@@ -5,6 +5,8 @@ updated_at: 2026-03-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/316211203
 ---
 
+# Novinky ve verzi k 24. 3. 2026
+
 # Novinky a vylepšení
 
 #### **Konfigurace Info panelu pacienta přímo v Nástrojích**

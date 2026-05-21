@@ -5,6 +5,8 @@ updated_at: 2026-04-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/83001345
 ---
 
+# Naskladňování přes čtečky
+
 Připojení čteček schopných číst 2D kódy s FONS Galen pro účely naskladňování očkovacích vakcín. Funkcionalita je zpoplatněna.
 
 # 1          Doporučený HW a jeho konfigurace
@@ -26,13 +28,13 @@ Přidání nového skladového sortimentu týkající se očkování, kde uživa
 
 1. Uživatel stiskne tlačítka Přidat nový záznam (tlačítko „plus“).
 
-1. Uživateli se zobrazí okno Skladový sortiment – očkování.
+2. Uživateli se zobrazí okno Skladový sortiment – očkování.
 
-1. Uživatel vybere Očkovací látku ze seznamu.
+3. Uživatel vybere Očkovací látku ze seznamu.
 
-1. Uživatel stiskne v části Identifikace tlačítko Přidat nový záznam, kde vyplní SÚKL kód, PC a vybere Typ ze seznamu. Podle potřeby přidá další záznamy.
+4. Uživatel stiskne v části Identifikace tlačítko Přidat nový záznam, kde vyplní SÚKL kód, PC a vybere Typ ze seznamu. Podle potřeby přidá další záznamy.
 
-1. Údaje uloží tlačítkem OK.
+5. Údaje uloží tlačítkem OK.
 
 ![[pages/Naskladňování přes čtečky/assets/image-20250729-050937.png]]
 
@@ -42,11 +44,11 @@ Smazání skladového sortimentu týkající se očkování pro případ, kdy ne
 
 1. Uživatel vybere ze seznamu skladový sortiment a stiskne tlačítko Smazat vybraný záznam.
 
-1. Uživateli se zobrazí upozornění „Opravdu smazat vybraný záznam“.
+2. Uživateli se zobrazí upozornění „Opravdu smazat vybraný záznam“.
 
-1. Uživatel potvrdí tlačítkem „Ano“.
+3. Uživatel potvrdí tlačítkem „Ano“.
 
-1. Záznam je smazán.
+4. Záznam je smazán.
 
 ## 2.3       Editace skladového sortimentu
 
@@ -56,16 +58,16 @@ Za pomocí editace skladového sortimentu lze upravovat (případně mazat) úda
 
 - Záznam lze otevřít dvojklikem.
 
-1. Uživateli se zobrazí Skladový sortiment – očkování pro editaci.
+2. Uživateli se zobrazí Skladový sortiment – očkování pro editaci.
 
-1. Uživatel upraví údaje:
+3. Uživatel upraví údaje:
 
 - Přepíš již existující data
 - Přidá další řádek identifikace
 - odebere řádek identifikace
 - Zneaktivní skladový sortiment za pomocí checkboxu „Aktivní“
 
-1. Uživatel údaje uloží tlačítkem OK.
+4. Uživatel údaje uloží tlačítkem OK.
 
 ![[pages/Naskladňování přes čtečky/assets/image-20250729-051006.png]]
 
@@ -81,9 +83,9 @@ Pro naskladňování je nutné mít zapojenou a nakonfigurovanou čtečku kódu.
 
 a. Pokud je definovaný pouze jeden sklad, není třeba nic vybírat.
 
-1. Uživatel začne načítat 2D kódy za pomocí čtečky.
+2. Uživatel začne načítat 2D kódy za pomocí čtečky.
 
-1. Jednotlivý skladový sortiment se zapisuje k příslušným skladovým kartám s načtenými údaji.
+3. Jednotlivý skladový sortiment se zapisuje k příslušným skladovým kartám s načtenými údaji.
 
 **Poznámky:**
 
@@ -107,8 +109,8 @@ Pokud uživatel omylem naskladní větší množství sortimentu, může údaje 
 
 1. Uživatel vybere Důvod vyskladnění „Chyba“
 
-1. Uživatel vyplní Počet vysklad. dávek.
+2. Uživatel vyplní Počet vysklad. dávek.
 
-1. Uživatel údaje potvrdí tlačítkem OK.
+3. Uživatel údaje potvrdí tlačítkem OK.
 
 ![[pages/Naskladňování přes čtečky/assets/image-20250729-051144.png]]

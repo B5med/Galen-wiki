@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52985868
 ---
 
+# Odesílání lékařských zpráv
+
 Lékařskou zprávu (dále LZ) je možné odeslat jinému lékaři přes funkcionalitu Ezpráva. Lze odeslat nově vytvořenou LZ (viz výše - Generování lékařské zprávy) i kteroukoliv dříve vytvořenou LZ.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Odesílání lékařských zpráv/assets/image-20250623-085143.png]]

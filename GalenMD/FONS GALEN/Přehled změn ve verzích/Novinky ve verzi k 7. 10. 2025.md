@@ -5,6 +5,8 @@ updated_at: 2025-12-03
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/132481025
 ---
 
+# Novinky ve verzi k 7. 10. 2025
+
 ## 🩺 Těhotenská prohlídka
 
 ---

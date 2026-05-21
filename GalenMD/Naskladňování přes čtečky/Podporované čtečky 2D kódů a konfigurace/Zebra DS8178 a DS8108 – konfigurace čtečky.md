@@ -5,6 +5,8 @@ updated_at: 2026-04-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367853569
 ---
 
+# Zebra DS8178 a DS8108 – konfigurace čtečky
+
 > [!abstract]
 > :light_bulb_on: Pro nastavení čtečky stačí postupovat dle níže uvedeného postupu.
 

@@ -5,6 +5,8 @@ updated_at: 2025-11-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595845
 ---
 
+# Sklady
+
 Správce -> Správa organizace -> Agendy -> záložka Sklady
 
 Podobně jako v záložce Pokladny Je možné založit jeden sklad nebo více skladů (použití malého zeleného + vlevo nahoře). Při založení či následné editaci konfigurace skladu lze zadání názvu a zkratky přiřadit odpovědné pracoviště, na kterém se bude pokladna používat. Současně lze definovat, ze kterých pracovišť bude sklad zpřístupněn.

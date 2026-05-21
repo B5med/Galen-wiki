@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68616209
 ---
 
+# Notifikace
+
 Notifikace pacientovi je možné zaslat pomocí tlačítka *Oslovit* v rámci individuálních notifikací (viz kapitola Funkční tlačítka modulu pro roli Správce), nebo automaticky pomocí hromadných notifikací.
 
 ### Nastavení času odeslání hromadných notifikací

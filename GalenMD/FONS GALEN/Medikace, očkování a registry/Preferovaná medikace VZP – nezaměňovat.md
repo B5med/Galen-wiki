@@ -5,6 +5,8 @@ updated_at: 2025-07-24
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/79593473
 ---
 
+# Preferovaná medikace VZP – nezaměňovat
+
 Funkcionalita slouží k zajištění toho, aby při předepisování léků, které jsou zařazeny mezi preferovanou medikaci VZP, byl automaticky nastaven příznak „Nezaměňovat“. Tento příznak může lékař dle uvážení ručně zrušit před odesláním eReceptu.
 
 **Uživatelské chování:**

@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57016341
 ---
 
+# Hlavní položky smlouvy
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Hlavní položky smlouvy/assets/image-20250626-133233.png]]
 **Vazba**
 
@@ -22,7 +24,7 @@ V ceníku se na výběr zobrazují všechny položky, které jsou v Nadstandardn
 
 1. Hotově – položky s tímto typem úhrady se nezobrazují ve fakturách
 
-1. Faktura – položky s tímto typem úhrady se zobrazují ve fakturách
+2. Faktura – položky s tímto typem úhrady se zobrazují ve fakturách
 
 **Cena – cena** hlavní položky smlouvy bez DPH. Cena položky (sortimentu) v ceníku se po výběru položky (sortimentu) do hlavní položky nedotahuje.
 

@@ -5,6 +5,8 @@ updated_at: 2025-12-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/177438721
 ---
 
+# Novinky ve verzi k 2. 12. 2025
+
 ---
 
 ### **Změny v ePoukazu od 1. 1. 2026**

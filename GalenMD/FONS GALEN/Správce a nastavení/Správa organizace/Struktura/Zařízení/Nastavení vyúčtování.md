@@ -5,6 +5,8 @@ updated_at: 2026-01-06
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/217579521
 ---
 
+# Nastavení vyúčtování
+
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/Nastavení vyúčtování/assets/image-20250618-112518.png]]
 **Nastavení vyúčtování - maximální úhrady**
 

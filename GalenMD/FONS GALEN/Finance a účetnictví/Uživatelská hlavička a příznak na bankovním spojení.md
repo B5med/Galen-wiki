@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/109051919
 ---
 
+# Uživatelská hlavička a příznak na bankovním spojení
+
 > [!info]
 > Tato funkce umožňuje:
 >

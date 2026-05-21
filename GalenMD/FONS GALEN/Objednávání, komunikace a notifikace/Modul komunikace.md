@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48365658
 ---
 
+# Modul komunikace
+
 ![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Modul komunikace/assets/image-20250618-110454.png]]
 
 V modulu Komunikace najde zdravotní personál mj. informace o laboratorních výsledcích. V tomto modulu lze také provést finanční uzávěrku za minulá období nebo logy zaslaných e-mailů či sms pacientům, logy eReceptů, eNeschopenek a další.

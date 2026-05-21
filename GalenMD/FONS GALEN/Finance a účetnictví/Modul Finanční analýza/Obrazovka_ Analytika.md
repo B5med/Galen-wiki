@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/114032645
 ---
 
+# Obrazovka: Analytika
+
 Obsahuje rozšířenou analytiku zaměřenou na výkonnost, nákladnost a bonifikace. Obrazovka je rozdělena do čtyř tematických záložek:
 
 ### Body a unikátní pojištěnci

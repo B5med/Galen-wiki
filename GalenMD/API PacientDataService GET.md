@@ -5,6 +5,8 @@ updated_at: 2025-06-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/25952258
 ---
 
+# API PacientDataService GET
+
 > [!info]
 > Toto API zasílá informace o vybraných entitách, které byly vytvořeny v rámci zdravotnické dokumentace pacienta. API úzce souvisí s API StrukturaOrganizaceService.
 

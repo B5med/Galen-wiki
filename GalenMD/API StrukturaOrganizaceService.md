@@ -5,6 +5,8 @@ updated_at: 2025-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/30113793
 ---
 
+# API StrukturaOrganizaceService
+
 > [!info]
 > Toto API zasílá přehled pracovníků společnosti, tj. uživatelů přirazených na konkrétní pracoviště. Jeden uživatel může být přiřazen na více pracovištích.
 

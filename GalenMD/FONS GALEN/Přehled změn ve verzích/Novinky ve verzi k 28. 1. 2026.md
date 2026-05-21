@@ -5,6 +5,8 @@ updated_at: 2026-01-27
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/243105793
 ---
 
+# Novinky ve verzi k 28. 1. 2026
+
 ## **Dávky ČSSZ v infopanelu recepce**
 
 Došlo k přejmenování sekce v konfiguraci i v Info panelu Recepce z Neschopenky na ČSSZ, včetně úprav popisků.

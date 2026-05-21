@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75104313
 ---
 
+# Podávání léčiv
+
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Podávání léčiv/assets/image-20250721-103648.png]]
 Podmodul podávání léčiv je součástí modulu medikace. Do podmodulu podávání léčiv se z medikací můžeme dostat klávesovou zkratkou ALT+P. Podávání léčiv slouží pro záznam podaných medikací Vytvoření podepsaného pdfa dokumentu . Lze zde zaznamenat podané léčivo, jeho sílu a cestu podání. S podáním léčiva zaznamenáváme i údaje o odpovědné osobě za podání, denní dobu i čas podání. Podávání léčiv se dělí na dvě základní části, a to trvalé medikace a jednorázové podání.
 

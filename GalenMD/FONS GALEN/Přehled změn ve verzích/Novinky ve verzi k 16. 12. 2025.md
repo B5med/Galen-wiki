@@ -5,6 +5,8 @@ updated_at: 2025-12-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/203554817
 ---
 
+# Novinky ve verzi k 16. 12. 2025
+
 Do konce tohoto roku budou publikovány **aktualizované preventivní prohlídky pro praktické lékaře** s ohledem na novelu vyhlášky. O přesném termínu vás budeme informovat. V příloze zprávy zasíláme přesnější informace.
 
 ## Přehled prohlídek v budoucnosti a upozornění na promeškané prohlídky

@@ -5,6 +5,8 @@ updated_at: 2026-01-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/193363969
 ---
 
+# Záložka UI konfigurace
+
 Záložka UI konfigurace umožňuje definovat práci s kartou pacienta. Upravuje zobrazení, možnosti   tisku, editaci a další. Všechny volby v tomto okně se týkají pracoviště, tedy mohou se u jednotlivých IČP měnit.
 
 V části *Skartační lhůta*uživatel nastaví výchozí skartační lhůty pro kurativu a PLS na daném pracovišti. Tyto lhůty může uživatel na pracovišti změnit, zde přednastavené lhůty slouží pouze jako výchozí.

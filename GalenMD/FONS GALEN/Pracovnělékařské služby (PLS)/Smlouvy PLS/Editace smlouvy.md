@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376772
 ---
 
+# Editace smlouvy
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Editace smlouvy/assets/image-20250626-133009.png]]
 **Nefakturovat**
 
@@ -16,11 +18,11 @@ Pokud je zatržen tento příznak, na dané smlouvě se negenerují faktury (ani
 
 Generují se faktury s vazbou na výkon is paušální faktury
 
-1. **Paušál**
+2. **Paušál**
 
 Generují se pouze pravidelné, paušální faktury Pravidelnost určuje údaj Počet měsíců paušálu, viz níže
 
-1. **Výkony**
+3. **Výkony**
 
 Generují se pouze faktury s vazbou na výkon Tyto faktury se vytvářejí pouze zpětně! Pouze na položky s vazbou na výkon, které byly uzavřeny předchozí měsíc a dříve
 
@@ -32,7 +34,7 @@ Nevztahuje se na faktury s vazbou na výkony
 
 Faktura je vytvořena za aktuální měsíc vůči datu vystavení
 
-1. **Zpětně**
+2. **Zpětně**
 
 Faktura je vytvořena za minulý měsíc vůči datu vystavení
 
@@ -48,7 +50,7 @@ Nevztahuje se na faktury s vazbou na výkony
 
 Faktura obsahuje cenu paušálu 1x
 
-1. **Za 1 pacienta**
+2. **Za 1 pacienta**
 
 Faktura obsahuje cenu paušálu x počet hlavních (uzavřených a nevyfakturovaných) položek, bez ohledu na vazbu hlavní položky.
 

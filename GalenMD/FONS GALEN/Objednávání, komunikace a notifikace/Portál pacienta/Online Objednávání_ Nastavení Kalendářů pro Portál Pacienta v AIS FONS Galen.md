@@ -5,6 +5,8 @@ updated_at: 2026-01-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/233504769
 ---
 
+# Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen
+
 > [!info]
 > Tento text popisuje, jak správně nastavit kalendáře v AIS FONS Galen tak, aby se pacienti mohli **objednávat online prostřednictvím Portálu pacienta**.
 

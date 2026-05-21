@@ -5,6 +5,8 @@ updated_at: 2025-07-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/78348323
 ---
 
+# Výpočet KVO dle Score 2
+
 Tento manuál vysvětluje kroky potřebné pro konfiguraci a použití nové funkce pro výpočet rizika kardiovaskulárních onemocnění (zkratka KVO) na základě skóre 2 v měření a v prohlídce.
 
 Funkcionalita "Výpočet rizika KVO dle Score2" je placenou službu. Pro aktivaci služby prosím kontaktujte naše obchodní oddělení.
@@ -94,6 +96,6 @@ Přes modul Design lze nastavit položky týkající se výpočtu Score 2 do jak
    4. Hodnocení rizika dle score 2 KVO
 5. Položky uživatel uspořádá v rámci prohlídky za pomocí tlačítek Posunout položku nahoru nebo Posunout položku dolů.
 
-1. Následně změny uživatel potvrdí tlačítkem OK a zveřejní tlačítkem Zveřejnit.
+6. Následně změny uživatel potvrdí tlačítkem OK a zveřejní tlačítkem Zveřejnit.
 
-1. Okno s potvrzením zveřejnění potvrdí tlačítkem OK.
+7. Okno s potvrzením zveřejnění potvrdí tlačítkem OK.

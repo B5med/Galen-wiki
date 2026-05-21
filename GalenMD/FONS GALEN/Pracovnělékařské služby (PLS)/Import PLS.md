@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57180205
 ---
 
+# Import PLS
+
 V rámci importu PLS lze importovat PLS smlouvy, PLS skupiny a importovat samotné pacienty. Všechny importy se nacházejí v okně s detailem firmy.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Import PLS/assets/image-20250626-135312.png]]
@@ -29,7 +31,7 @@ Pojmy:
 
 1. založení Skupiny PLS – pozice a hodnosti
 
-1. založení parametrů smlouvy
+2. založení parametrů smlouvy
 
 **Obecné předpoklady**
 

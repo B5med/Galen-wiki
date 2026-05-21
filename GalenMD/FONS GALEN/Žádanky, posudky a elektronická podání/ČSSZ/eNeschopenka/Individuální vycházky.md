@@ -5,6 +5,8 @@ updated_at: 2026-02-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/257916930
 ---
 
+# Individuální vycházky
+
 Postup v případě, kdy je pacientovi potřeba povolit individuální vycházky:
 
 1. Vystavit eNeschopenku klasickým způsobem a odeslat na ČSSZ.

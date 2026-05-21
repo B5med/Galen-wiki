@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/120029189
 ---
 
+# Zástupy
+
 Modul zástupy umožňuje v případě nepřítomnosti lékaře (např. z důvodu dovolené, nemoci atd.) určit a umožnit  jinému (zastupujícímu) lékaři pracovat v ordinaci nepřítomného lékaře. Zastupující lékař musí být uveden v seznamu uživatelů (správa seznamu uživatelů viz Modul Správce), ze kterého administrátor přidělí lékaře k požadovanému pracovišti a přidělí mu roli Zastupující lékař.
 
 ## Určení zastupujícího lékaře

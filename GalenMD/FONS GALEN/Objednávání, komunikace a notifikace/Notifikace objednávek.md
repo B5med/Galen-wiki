@@ -5,6 +5,8 @@ updated_at: 2026-04-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/54427649
 ---
 
+# Notifikace objednávek
+
 Pacienta je možné notifikovat o vytvoření a smazání objednávky, také je možné nastavit x dní před samotnou objednávkou automatické připomenutí. Notifikace je možné zasílat prostřednictvím SMS, e-mailu, nebo oboje.
 
 ## **Objednávky a notifikace**
@@ -12,16 +14,16 @@ Pacienta je možné notifikovat o vytvoření a smazání objednávky, také je 
 1. Objednávku v kalendáři – jedná se o objednávku, která má vazbu na konkrétního pacienta v kartotéce
 
 ![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114540.png]]
-1. Záznam v kalendáři – jedná se o objednávku, která nemá vazbu na konkrétního pacienta v kartotéce
+2. Záznam v kalendáři – jedná se o objednávku, která nemá vazbu na konkrétního pacienta v kartotéce
 
 ![[pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek/assets/image-20250624-114608.png]]
 Na objednávku nebo na záznam v kalendáři je možné nastavit tři typy notifikací:
 
 1. Upozornění – zpráva přijde pacientovi ihned po vytvoření objednávky/záznamu v kalendáři, nebo po změně objednávky/ záznamu v kalendáři
 
-1. Zrušení - zpráva přijde pacientovi ihned po smazání objednávky/záznamu v kalendáři
+2. Zrušení - zpráva přijde pacientovi ihned po smazání objednávky/záznamu v kalendáři
 
-1. Připomenutí – zpráva přijde pacientovi definovaný počet dní před datem objednávky/záznamu v kalendáři. Zprávy se generují a odesílají hromadně jednou denně.
+3. Připomenutí – zpráva přijde pacientovi definovaný počet dní před datem objednávky/záznamu v kalendáři. Zprávy se generují a odesílají hromadně jednou denně.
 
 ## **Nastavení šablony notifikace**
 

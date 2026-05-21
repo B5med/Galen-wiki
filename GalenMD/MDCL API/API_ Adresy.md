@@ -5,6 +5,8 @@ updated_at: 2025-07-08
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/66093057
 ---
 
+# API: Adresy
+
 > [!info]
 > Toto API slouží pro správu adres evidovaných u konkrétního pacienta. Umožňuje načíst seznam adres, upravovat jednotlivé adresy a pracovat s jejich typy (např. trvalý pobyt, korespondenční adresa apod.).
 

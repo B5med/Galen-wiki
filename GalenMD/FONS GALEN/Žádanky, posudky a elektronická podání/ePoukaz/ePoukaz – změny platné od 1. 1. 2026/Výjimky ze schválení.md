@@ -5,6 +5,8 @@ updated_at: 2025-11-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/174522369
 ---
 
+# Výjimky ze schválení
+
 V systému jsou zapracovány výjimky úhradových skupin, které nevyžadují schválení.
 
 ### **Úhradové skupiny – výjimky**

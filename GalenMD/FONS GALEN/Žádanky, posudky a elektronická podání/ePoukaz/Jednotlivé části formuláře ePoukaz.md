@@ -5,6 +5,8 @@ updated_at: 2026-01-27
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690999
 ---
 
+# Jednotlivé části formuláře ePoukaz
+
 **Typ dokumentace** – výběrové pole s možnostmi Kurativa a PLS. Při volbě PLS se zobrazí další pole Zaměstnání, kde je nutné vybrat z číselníku Zaměstnání pacienta.
 
 ### Údaje pacienta
@@ -125,9 +127,9 @@ následovně:
 
 1. V přehledu ePoukazů (levá část modulu) uživatel klikne pravým tlačítkem myši na příslušný ePoukaz.
 
-1. Na základě výsledku vyrozumění od zdravotní pojišťovny uživatel vybere, zda se daný ePoukaz schvaluje či zamítá.
+2. Na základě výsledku vyrozumění od zdravotní pojišťovny uživatel vybere, zda se daný ePoukaz schvaluje či zamítá.
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100510.png]]
-1. Následně je nutné vyplnit příslušné položky a výsledek stiskem tlačítka Odeslat odeslat na SÚKL.
+3. Následně je nutné vyplnit příslušné položky a výsledek stiskem tlačítka Odeslat odeslat na SÚKL.
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz/assets/image-20250623-100528.png]]

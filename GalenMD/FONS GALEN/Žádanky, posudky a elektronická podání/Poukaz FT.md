@@ -5,6 +5,8 @@ updated_at: 2025-12-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/61440018
 ---
 
+# Poukaz FT
+
 Na pracovišti s odborností 902 je možné využívat aparát pro práci s přijatými poukazy FT. Tento aparát umožní:
 
 - Evidovat přijaté poukazy pro konkrétního pacienta.

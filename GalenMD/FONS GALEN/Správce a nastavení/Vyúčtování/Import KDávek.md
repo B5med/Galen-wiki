@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792496
 ---
 
+# Import KDávek
+
 Správce -> Správa organizace -> Vyúčtování ->  Import KDavek
 
 ![[pages/FONS GALEN/Správce a nastavení/Vyúčtování/Import KDávek/assets/image-20250618-131627.png]]

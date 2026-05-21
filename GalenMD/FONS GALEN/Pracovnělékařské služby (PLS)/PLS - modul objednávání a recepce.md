@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57016366
 ---
 
+# PLS - modul objednávání a recepce
+
 Moduly slouží jako přehled pacientů a PLS prohlídek.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce/assets/image-20250626-135851.png]]

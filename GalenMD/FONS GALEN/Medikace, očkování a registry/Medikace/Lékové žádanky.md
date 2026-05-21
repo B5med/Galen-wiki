@@ -5,6 +5,8 @@ updated_at: 2025-06-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48005121
 ---
 
+# Lékové žádanky
+
 Pro vystavování lékových žádanek je nutné disponovat certifikátem umožňující odesílání žádanek. Pro lékové žádanky jsou definovány 2 role:
 
 - Praktik – role umožňující vystavovat lékové žádanky bez definice konkrétního léku
@@ -18,7 +20,7 @@ Zobrazí se seznam všech lékových žádanek pacienta. S žádankami lze dá
 
 1. Zobrazit detail (dvojklik)
 
-1. Založit nový záznam (tlačítko Přidat nový záznam)
+2. Založit nový záznam (tlačítko Přidat nový záznam)
 
 ### Stavy lékových žádanek:
 

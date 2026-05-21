@@ -5,6 +5,8 @@ updated_at: 2025-10-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/130809857
 ---
 
+# Export dokladů do účetního systému POHODA
+
 Export vybraných dokladů (faktury, pokladní doklady, stavy skladů, pohyby) ze systému FONS Galen do účetního systému **POHODA** ve formátu XML. Funkcionalita je zpoplatněna.
 
 Exportní tlačítka se nachází v následujících modulech:
@@ -27,8 +29,8 @@ Exportní tlačítka se nachází v následujících modulech:
    - Zobrazení = budou exportované doklady zobrazené na stránce
 
 ![[pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-080912.png]]
-1. Vyberte umístění a název souboru v dialogovém okně „**Uložit jako**“.
-2. Potvrďte a soubor se uloží ve formátu XML.
+4. Vyberte umístění a název souboru v dialogovém okně „**Uložit jako**“.
+5. Potvrďte a soubor se uloží ve formátu XML.
 
 **Export stavů a pohybů skladu**
 
@@ -36,8 +38,8 @@ Exportní tlačítka se nachází v následujících modulech:
 2. Klikněte na tlačítko **„Stavy skladu“** nebo **„Pohyby“** v sekci **Exportovat**.
 
 ![[pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA/assets/image-20251003-081016.png]]
-1. V dialogovém okně „Uložit jako“ zadejte název a umístění souboru.
-2. Potvrďte – doklady se uloží jako XML.
+3. V dialogovém okně „Uložit jako“ zadejte název a umístění souboru.
+4. Potvrďte – doklady se uloží jako XML.
 
 ## Oprávnění k exportu
 

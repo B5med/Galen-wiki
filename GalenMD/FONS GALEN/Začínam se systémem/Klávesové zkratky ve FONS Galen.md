@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595876
 ---
 
+# Klávesové zkratky ve FONS Galen
+
 1. Obecné klávesové zkratky
 
 | tisk | Ctrl + P |
@@ -13,7 +15,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595876
 | vložení nového záznamu | Insert |
 | smazání záznamu | Ctrl + Del |
 
-1. Klávesové zkratky pro pohyb mezi jednotlivými záložkami karty pacienta:
+2. Klávesové zkratky pro pohyb mezi jednotlivými záložkami karty pacienta:
 
 | identifikace | Ctrl + Alt + I |
 | --- | --- |
@@ -24,7 +26,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595876
 | historie | Ctrl + Alt + H |
 | stav účtu | Ctrl + Alt + U |
 
-1. Klávesové zkratky pro vyvolání nejčastějších akcí nad pacientem:
+3. Klávesové zkratky pro vyvolání nejčastějších akcí nad pacientem:
 
 | výkon | Alt +V |
 | --- | --- |

@@ -5,6 +5,8 @@ updated_at: 2026-03-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/104104015
 ---
 
+# Napojení FONS GALEN na modul eOčkování - nahlížení
+
 ## Prerekvizity
 
 Pro zprovoznění funkcionality eOčkování v AIS Galen je potřeba mít stávající nezbytnosti pro odeslání eReceptu, tzn.

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75104438
 ---
 
+# Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)
+
 Na základě zákona č. 395/2024 Sb. o nemocenském pojištění, jsou poskytovatelé zdravotních služeb povinni od 1. ledna 2025 vystavovat další podklady k nemocenským dávkám elektronicky. Ke stávajícímu *Potvrzení o dočasné pracovní neschopnosti* tak přibylo *Rozhodnutí o potřebě ošetřování/péče, Rozhodnutí o potřebě dlouhodobé péče, Potvrzení o datu porodu a Potvrzení o hospitalizaci dítěte ze zdravotních důvodů na straně dítěte nebo matky dítěte.*
 
 FONS Galen jako ambulantní systém implementoval pouze relevantní dávky, tedy: *Rozhodnutí o potřebě ošetřování/péče, Rozhodnutí o potřebě dlouhodobé péče*a*Potvrzení o datu porodu.*

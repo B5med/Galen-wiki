@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694084
 ---
 
+# Správa organizace
+
 Další modul s názvem Správa organizace nám umožňuje veškeré nastavení struktury organizace, zavést nasmlouvané výkony na pojišťovně, nastavit pokladny, sklady, kalendáře atd.
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/assets/image-20250618-111911.png]]

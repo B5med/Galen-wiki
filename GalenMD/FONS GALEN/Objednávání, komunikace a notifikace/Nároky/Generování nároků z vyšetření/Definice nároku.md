@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68517899
 ---
 
+# Definice nároku
+
 V modulu Nároky je třeba definovat nad kterou prohlídkou budou nároky vznikat.
 
 Definici zadává uživatel s oprávněním Správce v modulu *Nároky*.

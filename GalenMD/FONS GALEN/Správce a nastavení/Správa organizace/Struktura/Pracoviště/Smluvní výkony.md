@@ -5,6 +5,8 @@ updated_at: 2025-12-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75464891
 ---
 
+# Smluvní výkony
+
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Smluvní výkony/assets/image-20250618-112716.png]]
 Jedním kliknutím na IČP se otevře vpravo dole přehled nasmlouvaných pojišťoven, které jsou k jednotlivým ambulancím. Dvojitým kliknutím na číslo pojišťovny otevřeme přehled výkonů, které máme ve smlouvě s pojišťovnou.
 

@@ -222,8 +222,9 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
 
     # ── Lists ──
     if tag in ("ul", "ol"):
+        start = int(node.get("start", 1)) if tag == "ol" else 1
         items = []
-        for i, li in enumerate(node.find_all("li", recursive=False), 1):
+        for i, li in enumerate(node.find_all("li", recursive=False), start):
             inner = children(li, ctx).strip()
             lines = inner.split("\n")
             result_lines: list[str] = []
@@ -360,7 +361,8 @@ def page_to_markdown(html: str, meta: dict, ctx: ConvCtx) -> str:
         f"source: {source}\n"
         f"---\n\n"
     )
-    return frontmatter + md + "\n"
+    heading = f"# {title}\n\n" if title else ""
+    return frontmatter + heading + md + "\n"
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────

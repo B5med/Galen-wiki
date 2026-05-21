@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/399802371
 ---
 
+# Vyšetření, dekurz a klinická péče
+
 Tato sekce popisuje každodenní klinickou práci lékaře v ordinaci — od zápisu dekurzu a vyšetření až po specializované klinické moduly.
 
 Najdete zde návod na práci s dekurzem včetně zkratek a kopírování, zápis vyšetření a prohlídek, zadávání zdravotních výkonů, tvorbu a odesílání lékařské zprávy. Sekce zahrnuje také specializované moduly: bonifikační a screeningové programy (FRAX, BMI, KVO Score 2, screening plic, kolorekta a další), foniatrie.

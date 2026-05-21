@@ -5,6 +5,8 @@ updated_at: 2026-05-14
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/150339588
 ---
 
+# Pracovnělékařské služby (PLS)
+
 > [!info]
 > Modul **Nadstandardní péče** slouží k evidenci a správě pracovnělékařských prohlídek, očkování a služeb poskytovaných zaměstnancům firemních klientů.
 > Umožňuje kompletní zpracování agendy pracovnělékařské péče — od správy firem a smluv až po fakturaci a sledování lhůtníku prohlídek.

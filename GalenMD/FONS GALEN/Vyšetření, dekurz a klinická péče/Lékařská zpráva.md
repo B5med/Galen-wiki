@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52920363
 ---
 
+# Lékařská zpráva
+
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/assets/image-20250623-082546.png]]
 Lékařskou zprávu je možné vygenerovat na základě zapsaných dekurzů kliknutím na ikonu Zprávy a poté na ikonu Nová. Otevře se dialogové okno (viz obrázek níže), kde lze specifikovat jednotlivé parametry lékařské zprávy a data, která mají být do zprávy zahrnuta v určitém časovém období. Standardně je toto období nastaveno na dnešní den.
 

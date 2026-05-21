@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376809
 ---
 
+# PLS očkování
+
 V okně očkování lze prostřednictvím tlačítka “+ PLS” zadat i očkování, vázané na PLS.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování/assets/image-20250626-135532.png]]

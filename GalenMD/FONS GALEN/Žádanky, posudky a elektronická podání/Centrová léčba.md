@@ -5,6 +5,8 @@ updated_at: 2026-02-24
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/281739265
 ---
 
+# Centrová léčba
+
 > [!info]
 > **Modul Centrová léčba slouží k evidenci, správě a povinnému elektronickému hlášení dat o indikacích a podáváních inovativních léčivých přípravků v rámci tzv. centrové léčby.**
 >

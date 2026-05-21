@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/103415835
 ---
 
+# Dvoufaktorové ověření (2FA)
+
 > [!info]
 > Dvoufaktorové ověření (2FA) zvyšuje bezpečnost přihlášení do systému **FONS Galen**.
 > Po aktivaci musí uživatel při přihlášení kromě hesla zadat i ověřovací kód z autentizační aplikace, např. **Microsoft Authenticator**.

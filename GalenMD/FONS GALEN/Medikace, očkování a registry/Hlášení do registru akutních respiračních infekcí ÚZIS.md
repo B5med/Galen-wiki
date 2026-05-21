@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/167641089
 ---
 
+# Hlášení do registru akutních respiračních infekcí ÚZIS
+
 Odesílání hlášení do Registru akutních respiračních infekcí je povinný pro praktické lékaře a pediatry. Více informací poskytuje [stránka ÚZIS](https://www.uzis.cz/index.php?pg=registry-sber-dat--ochrana-verejneho-zdravi--registr-akutnich-respiracnich-infekci).
 
 V rámci FONS Galen se jedná o nadstandardní funkcionalitu.
@@ -15,11 +17,11 @@ Pro zprovoznění funkcionality je potřeba
 
 1. Zpřístupnění nadstandardní funkcionality Registr ARI
 
-1. Šifrovací certifikát na pracovišti (aktuálně vydává SÚKL, od 1. 11. 2024 vydává ÚZIS)
+2. Šifrovací certifikát na pracovišti (aktuálně vydává SÚKL, od 1. 11. 2024 vydává ÚZIS)
 
-1. Vyplněná hodnota pole *PČZ* v konfiguraci pracoviště
+3. Vyplněná hodnota pole *PČZ* v konfiguraci pracoviště
 
-1. **Stažený číselník ÚZIS Diagnózy**: Modul *Nástroje* na pracovišti nebo v modulu *Správce*-> *Registr ÚZIS* -> Diagnózy
+4. **Stažený číselník ÚZIS Diagnózy**: Modul *Nástroje* na pracovišti nebo v modulu *Správce*-> *Registr ÚZIS* -> Diagnózy
 
 Naopak není potřeba žádat o žádnou roli na ÚZIS. Dle informace ÚZIS by tato role měla být všem praktikům přidána k certifikátu automaticky.
 
@@ -31,7 +33,7 @@ Pokud lékař vykáže výkon
 
 1. Odb. 001: **01543** nebo **09557** nebo **01305**
 
-1. Odb. 002: **09555** nebo **09556** nebo **09557** nebo **01543** nebo **01305**
+2. Odb. 002: **09555** nebo **09556** nebo **09557** nebo **01543** nebo **01305**
 
 A tento výkon bude mít jako hlavní diagnózu uvedenou diagnózu, která je uvedená v číselníku ÚZIS Diagnózy, pak se při ukládání výkonů bude na pozadí odesílat hlášení do Registru ARI.
 

@@ -5,6 +5,8 @@ updated_at: 2026-04-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/341704706
 ---
 
+# SMS zprávy ve FONS Galen
+
 > [!info]
 > Napojení na SMS bránu je **nadstandardní placená funkcionalita** – pro její aktivaci kontaktujte tým podpory STAPRO.
 

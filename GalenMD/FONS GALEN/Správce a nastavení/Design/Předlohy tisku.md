@@ -5,6 +5,8 @@ updated_at: 2025-06-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/49446938
 ---
 
+# Předlohy tisku
+
 ![[pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku/assets/image-20250618-132039.png]]
 Záložky Předlohy tisku slouží pro vytváření a editaci předloh tisku formulářů.
 Obrazovka je rozdělena na dvé poloviny – Předlohy a Varianty. Logika vychází z předpokladu, že jeden formulář může mít několik variant. Jeden formulář tak má vždy jednu předlohu a alespoň jednu variantu.

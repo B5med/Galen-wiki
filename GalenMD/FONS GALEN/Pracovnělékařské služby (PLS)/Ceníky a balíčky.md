@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/150372363
 ---
 
+# Ceníky a balíčky
+
 ## Ceníky a balíčky
 
 > [!info]

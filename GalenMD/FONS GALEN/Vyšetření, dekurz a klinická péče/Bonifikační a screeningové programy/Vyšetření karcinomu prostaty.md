@@ -5,6 +5,8 @@ updated_at: 2025-10-27
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/82608130
 ---
 
+# Vyšetření karcinomu prostaty
+
 > [!info]
 > Funkcionalita umožňuje evidovat hodnotu PSA pacienta v měření a ve vyšetření. Lékař má tak  k dispozici přehlednou historii této hodnoty a zároveň může pacienta zvát na další prohlídku v rámci modulu *Plánování.*
 

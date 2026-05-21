@@ -5,6 +5,8 @@ updated_at: 2025-06-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48168963
 ---
 
+# eNeschopenka
+
 ## **Konfigurace eNeschopenky**
 
 S-> Správa organizace -> vlevo nahoře rozbalit strukturu ->

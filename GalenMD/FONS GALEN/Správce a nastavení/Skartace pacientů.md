@@ -5,6 +5,8 @@ updated_at: 2025-07-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/61079557
 ---
 
+# Skartace pacientů
+
 ## **Princip skartace ve FONS Galen**
 
 Skartace ve FONS Galen je řešena formou pseudonymizací osobních údajů pacientů uchovávaných v databázi. Systém zároveň zajišťuje logování provedených pseudonymizací.
@@ -198,15 +200,15 @@ Postup:
 Po stisku tlačítka se zobrazí okno Generovat návrhy ke skartaci.
 
 ![[pages/FONS GALEN/Správce a nastavení/Skartace pacientů/assets/image-20250701-083046.png]]
-1. Vybrat typ generování – Pacient bez dokumentace nebo Pacient s posledním zápisem v dekurzu před více než x dny nebo Dle skartačních lhůt
+2. Vybrat typ generování – Pacient bez dokumentace nebo Pacient s posledním zápisem v dekurzu před více než x dny nebo Dle skartačních lhůt
 
 - Pacient bez dokumentace – budou vygenerováni pacienti, kteří nemají žádný záznam v dekurzu a nemají vyplněnou žádnou anamnézu.
 - Upozornění: V případě, že lékař vytvoří vyšetření (medikaci, formulář,…), ale do dekurzu nenapíše žádný záznam, bude tento pacient také navržen ke skartaci.
 - Pacient s posledním zápisem v dekurzu před více než x dny – budou vygenerování pacienti, u kterých nebyl proveden žádný zápis do dekurzu po více než zadaný počet dnů
 - Dle skartačních lhůt
 
-1. V případě výběru možnosti „Pacient s posledním zápisem v dekurzu před více než x dny“ doplnit počet dnů.
-2. V případě výběru možnosti „Dle skartačních lhůt“ je možné generovat návrhy pro dokumentaci typu kurativa, PLS nebo vše.
+3. V případě výběru možnosti „Pacient s posledním zápisem v dekurzu před více než x dny“ doplnit počet dnů.
+4. V případě výběru možnosti „Dle skartačních lhůt“ je možné generovat návrhy pro dokumentaci typu kurativa, PLS nebo vše.
 
 Rozhodným datem pro vygenerování záznamu ke skartaci jsou různá data, konkrétně:
 
@@ -219,12 +221,12 @@ Rozhodným datem pro vygenerování záznamu ke skartaci jsou různá data, konk
 - S30 - u zaměstnance kategorie A[^14^)](https://www.zakonyprolidi.cz/cs/2012-98#f4599370) do doby, kdy zaměstnanec dosáhl nebo by dosáhl věku 75 let, vždy však nejméně 30 let od ukončení pracovní činnosti v kategorii A - od ukončení posledního zaměstnání
 - V30 - 30 let od vzniku pracovního úrazu spojeného s hospitalizací přesahující 5 kalendářních dnů nebo 10 let po úmrtí osoby, která utrpěla takový úraz - od data dokumentu
 
-1. Rozkliknout šipku směřující dolů a vyhledat pracoviště, pro které má být skartace provedena.
+5. Rozkliknout šipku směřující dolů a vyhledat pracoviště, pro které má být skartace provedena.
 
 - Pokud nevyberete žádnou možnost, bude podmínka aplikována na všechna pracoviště a skartace bude také navržena pro všechna pracoviště.
 
-1. Vyplnit poznámku ke skartaci (není nutná).
-2. Výběr potvrdit tlačítkem *Generovat*.
+6. Vyplnit poznámku ke skartaci (není nutná).
+7. Výběr potvrdit tlačítkem *Generovat*.
 
 ## **Tisk navržených pacientů ke skartaci**
 

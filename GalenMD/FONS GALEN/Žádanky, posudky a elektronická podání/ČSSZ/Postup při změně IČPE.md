@@ -5,6 +5,8 @@ updated_at: 2026-02-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/257622018
 ---
 
+# Postup při změně IČPE
+
 Pokud jste v rámci pracoviště ve FONS Galen vystavili dávky (eNeschopenka, OČR a další), které nejsou ukončené, ale zároveň dané pracoviště změnilo IČPE, postupujte podle tohoto postupu:
 
 1. Všechny dávky, které jste dosud neukončili, označte příznakem “**Předat do péče**” a informaci odešlete na ČSSZ. Při předání nemusíte vybírat lékaře, kterému předáváte. Je však nutné, abyste předání uskutečnili ještě **pod původním IČPE**.

@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50167847
 ---
 
+# Modul finance
+
 V modulu Finance lze z pozice Správce vést celkovou správu pokladen a finančních toků.
 
 ## **Pokladna**

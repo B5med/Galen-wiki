@@ -5,6 +5,8 @@ updated_at: 2026-05-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/383877123
 ---
 
+# Novinky ve verzi k 5. 5. 2026
+
 # Novinky a vylepšení
 
 ---

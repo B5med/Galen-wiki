@@ -5,6 +5,8 @@ updated_at: 2025-07-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/82214922
 ---
 
+# API: PLS Pobočky, Skupiny
+
 > [!info]
 > Toto API vrací seznam poboček a pracovních skupin PLS evidovaných u dané firmy.
 > Slouží jako referenční seznam při zakládání nebo úpravě zaměstnání pacienta – konkrétní pobočka firmy určuje fyzické místo výkonu práce a pracovní skupina PLS definuje specifické rizikové podmínky nebo pracovní zařazení z pohledu pracovně-lékařských služeb.

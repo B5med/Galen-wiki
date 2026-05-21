@@ -5,6 +5,8 @@ updated_at: 2026-01-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/46071809
 ---
 
+# Import seznamu registrovaných pojištenců
+
 **Postup importu:**
 
 - Navigace: **Správce → Správa kartoték  → Kontrola**

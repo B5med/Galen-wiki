@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53379092
 ---
 
+# Generování lékařské zprávy
+
 Při vytváření lékařské zprávy může uživatel zvolit možnost generovat lékařskou zprávu za celou společnost.
 
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Generování lékařské zprávy/assets/image-20250623-084700.png]]

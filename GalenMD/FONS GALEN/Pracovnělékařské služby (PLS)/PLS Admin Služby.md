@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57442361
 ---
 
+# PLS Admin Služby
+
 Okno pro správu vytvořených PLS služeb.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin Služby/assets/image-20250626-134816.png]]

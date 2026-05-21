@@ -5,6 +5,8 @@ updated_at: 2025-07-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/60850197
 ---
 
+# RDG žádanky
+
 ## **Obecný popis**
 
 ### **Základní konfigurace**
@@ -32,9 +34,9 @@ Spouštěcí události jsou tři:
 
 1. Žádanka – vyvolává se ve chvíli, kdy je *RDG žádanka* pracovištěm radiodiagnostiky přebrána
 
-1. Nález – vyvolává se ve chvíli, kdy je k *RDG žádance* doplněn popis nálezu
+2. Nález – vyvolává se ve chvíli, kdy je k *RDG žádance* doplněn popis nálezu
 
-1. Prohlížeč – je-li nastaven, pak se v horní liště *RDG žádanky* zobrazuje tlačítko pro vyvolání prohlížeče snímků
+3. Prohlížeč – je-li nastaven, pak se v horní liště *RDG žádanky* zobrazuje tlačítko pro vyvolání prohlížeče snímků
 
 Pro každou událost je možné nakonfigurovat samostatný „přístroj“, nebo je případně možné nastavit jeden „přístroj“ pro více spouštěcích událostí. Která varianta má být použita se liší v závislosti na konkrétní implementaci PACS.
 
@@ -105,7 +107,7 @@ V pravé části je možný dvojí pohled na ostatní žádanky:
 
 V případě výběru jedné se pod tabulkou zobrazuje popis. Dvojklikem je možné žádanku rozkliknout do náhledu.
 
-1. Seznam nálezů – textový blok vygenerovaný ze všech popisů všech žádanek
+2. Seznam nálezů – textový blok vygenerovaný ze všech popisů všech žádanek
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-102814.png]]
 Po potvrzení žádanky tlačítkem *Ok* se žádanka ukládá a od tohoto okamžiku je dostupná určenému pracovišti radiodiagnostiky. Případné opravy jsou možné pouze do chvíle, než si pracoviště radiodiagnostiky žádanku přebere.
@@ -127,7 +129,7 @@ Pracoviště provádějící radiodiagnostiku má dvě možnosti, jak s RDG ž
 
 1. Pracovat se žádankami konkrétního vybraného pacienta
 
-1. Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané RDG pracoviště, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou.
+2. Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané RDG pracoviště, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou.
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103006.png]]
 V obou případech je možné využít filtr, který je možné předdefinovat a uložit. V seznamu se zobrazují i žádanky pacientů, které dané pracoviště nemusí mít v kartotéce (pokud organizace nemá sdílenou kartotéku).
@@ -176,9 +178,9 @@ Pracoviště radiodiagnostiky v druhém kroku RDG žádanku označuje jako zpr
 
 1. Tlačítkem *Přijatá* v horní liště žádanky (šipka 1)
 
-1. Výběrem data zpracování (šipka 2)
+2. Výběrem data zpracování (šipka 2)
 
-1. Zadáním expozičních hodnot (šipka 3)
+3. Zadáním expozičních hodnot (šipka 3)
 
 ![[pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky/assets/image-20250701-103330.png]]
 Expoziční hodnoty jsou aktuálně řešeny jako kombinace dvou textových polí *Metoda* a *Hodnota*. Ve chvíli, kdy obsluha vyplní expoziční hodnoty, je doplněn *Datum provedení* automaticky, není-li již zadán.
@@ -253,7 +255,7 @@ Je-li nakonfigurovaná komunikace s PACS (viz kapitola 1.2), probíhá na prac
 
 1. Při přijetí žádanky – odchází informace o žádance
 
-1. Při uložení popis – odchází popis nálezu
+2. Při uložení popis – odchází popis nálezu
 
 Stav odeslání indikuje signální bod v záhlaví příslušné sekce.
 

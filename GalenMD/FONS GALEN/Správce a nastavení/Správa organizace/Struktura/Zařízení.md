@@ -5,6 +5,8 @@ updated_at: 2026-01-06
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75202672
 ---
 
+# Zařízení
+
 Vyúčtování na pojišťovny se provádí na IČZ, a proto se na této úrovni nastavuji smlouvy s jednotlivými pojišťovnami.
 
 Novou smlouvu s pojišťovnou je možné přidat pomocí zeleného tlačítka PLUS.

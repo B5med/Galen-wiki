@@ -5,6 +5,8 @@ updated_at: 2026-01-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/229736451
 ---
 
+# Registrace do Portálu pacienta
+
 # Registrace pacienta do Portálu pacienta
 
 > [!info]

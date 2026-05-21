@@ -5,6 +5,8 @@ updated_at: 2025-12-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/201523202
 ---
 
+# T-skóre
+
 Hodnotu měření T-skóre je možné zadat ručně (nedotahuje se z přístroje) v rámci měření nebo prohlídky.
 
 ## Zadání hodnoty v měření

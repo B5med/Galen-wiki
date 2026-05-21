@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/399638530
 ---
 
+# Sloučení karet pacienta
+
 Pokud se v systému FONS Galen vyskytuje pacient evidovaný pod dvěma různými kartami (například z důvodu chybného prvotního zadání), je možné tyto karty sloučit do jedné. Funkce sloučení zajistí převod veškeré dokumentace z rušené karty na kartu výslednou, včetně dekurzu a navázaných záznamů. Položky, které se při sloučení nepřenášejí (zůstávají z výsledné karty): adresa, kontakt, registrace, státní příslušnost, kategorie pojištěnce, anamnéza, etc.
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa kartoték/Sloučení karet pacienta/assets/Snímka obrazovky 2026-04-30 104202.png]]

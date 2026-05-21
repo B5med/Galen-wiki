@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/114262017
 ---
 
+# Doporučení pro práci s modulem
+
 - Po aktivaci modulu je nutné vyčkat do následujícího dne, než bude možné začít editovat vstupní údaje.
 
 - Jakákoliv změna vstupních hodnot se projeví až po noční aktualizaci – tedy následující den.

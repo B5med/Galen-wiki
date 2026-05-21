@@ -5,6 +5,8 @@ updated_at: 2026-03-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/312705025
 ---
 
+# Info panel pacienta v Nástrojích
+
 V modulu **Nástroje** lze upravovat nastavení Info panelu pacienta pro pracoviště.
 
 ## Kde nastavení najdete

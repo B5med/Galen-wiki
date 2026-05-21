@@ -5,6 +5,8 @@ updated_at: 2026-05-15
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398065676
 ---
 
+# Karta pacienta a zdravotní dokumentace
+
 V této sekci najdete návody na založení karty pojištěnce i samoplátce, ověření údajů, vyhledávání pacientů, práci s čekárnou a archivem. Sekce dále zahrnuje práci s anamnézou, historií pacienta, stavem účtu, elektronickou zdravotní dokumentací (EZD), externími zprávami a sdílením dokumentace mezi pracovišti a další.
 
 - [[Modul ordinace]]

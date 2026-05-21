@@ -5,6 +5,8 @@ updated_at: 2026-04-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366608389
 ---
 
+# Zebra DS2278 a DS2208 – konfigurace čtečky
+
 > [!abstract]
 > :light_bulb_on: Pro nastavení čtečky stačí postupovat dle níže uvedeného postupu.
 

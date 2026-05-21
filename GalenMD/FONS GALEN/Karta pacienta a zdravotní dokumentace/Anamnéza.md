@@ -5,6 +5,8 @@ updated_at: 2026-02-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53018691
 ---
 
+# Anamnéza
+
 Formulář pro zápis anamnézy se skládá z pěti částí: vlastního textu anamnézy, CAVE, alergologické anamnézy, seznamu trvalých medikací a trvalých diagnóz.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Anamnéza/assets/image-20250623-102043.png]]

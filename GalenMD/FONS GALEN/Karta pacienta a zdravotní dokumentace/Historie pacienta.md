@@ -5,6 +5,8 @@ updated_at: 2025-06-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48234521
 ---
 
+# Historie pacienta
+
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Historie pacienta/assets/image-20250618-081850.png]]
 Funkcionalitu lze zobrazit na dolní modré liště.
 

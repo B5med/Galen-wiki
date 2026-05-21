@@ -5,6 +5,8 @@ updated_at: 2026-02-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/47546437
 ---
 
+# EZD – elektronická zdravotní dokumentace
+
 Elektronický archiv slouží pro ukládání dokumentů elektronické zdravotní dokumentace. Elektronický dokument se stává platným až po uložení do archivu, kde je ověřen.
 
 Napojení na el. archiv zdravotnické dokumentace je placenou nadstavbou. V případě zájmu o napojení je potřeba kontaktovat Stapro, které v prvním kroku vytvoří úložiště a nakonfiguruje napojení. Další kroky popsané v tomto dokumentu již provádí sám zákazník.
@@ -98,13 +100,13 @@ Při ukončení zaměstnání dochází po zadání datumu "Do" u pacienta k př
 1. Vybereme požadované zaměstnání + potvrdíme tlačítkem "Ok":
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090923.png]]
-1. Zobrazí se informace, zda si přejeme informaci o ukončení zaměstnání přenést do dekurzu. Pro provedení zvolíme v dialogovém okně volbu "Ano":
+2. Zobrazí se informace, zda si přejeme informaci o ukončení zaměstnání přenést do dekurzu. Pro provedení zvolíme v dialogovém okně volbu "Ano":
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-090947.png]]
-1. Následně dochází k náhledu dokumentu k podepsání. K podpisu dokumentu a k přenesení informace dochází kliknutím na tlačítko "Podepsat":
+3. Následně dochází k náhledu dokumentu k podepsání. K podpisu dokumentu a k přenesení informace dochází kliknutím na tlačítko "Podepsat":
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091013.png]]
-1. V dekurzu následně dochází k zápisu informace o ukončení zaměstnání. Zde je možné také dokument později zobrazit.
+4. V dekurzu následně dochází k zápisu informace o ukončení zaměstnání. Zde je možné také dokument později zobrazit.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-091033.png]]
 
@@ -223,7 +225,7 @@ Všechny přehledy, resp. seznamy dokumentů archivu je možné exportovat pomoc
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/abff32ae-c791-4828-9c0c-527873eb0b39.png]]
 Exportovat tedy lze např. seznam dokumentů navržených ke skartaci, ale i seznam skartovaných dokumentů. Vždy se však jedná pouze o popis dokumentů, není přiložen přehled jejich popisných dat (např. jméno pacienta, číslo pojištěnce, atd.)
 
-1. **Skartační třída**
+2. **Skartační třída**
 
 Každý dokument z aplikace AIS Galen (dále jen „aplikace“) zaslán do prostředí elektronického archivu (dále jen „archiv“) zaslán s již zadanou skartační třídou, která je nastavena na základě vyhlášky o zdravotnické dokumentaci.
 
@@ -237,14 +239,14 @@ Jakmile uplyne lhůta definovaná skartační lhůtou, je dokument k 1. 1. násl
 
 Poznámka: V rámci novelizací byl skartační znak (písmeno) zrušen. Jedná se tedy již o historickou záležitost, protože současná legislativa jej nevyžaduje.
 
-1. **Dokumenty ke skartaci**
+3. **Dokumenty ke skartaci**
 
 Archiv automaticky kontroluje dobu skartace každého dokumentu. Jakmile uplyne doba, po kterou musí být dokument uchován, je zařazen archivem do dokumentů ke skartaci. *Záložka Dokumenty  - Dokumenty ke skartaci.*Zde jsou zobrazeny všechny dokumenty, které byly archivem automaticky vyhodnoceny jako vhodné ke skartaci.
 
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093738.png]]
 Uživatel každý dokument posoudí (kliknutím na ikonu nastavení může zobrazit popisná data každého dokumentu) a rozhodne, zda jej zařadí do skartačního návrhu. Dokument může zařadit do stávajícího skartačního návrhu, nebo vytvořit nový skartační návrh.
 
-1. **Návrh skartačního řízení**
+4. **Návrh skartačního řízení**
 
 Následně uživatel zobrazí jednotlivé návrhy skartačního řízení (může existovat jedno, nebo více návrhů skartačního řízení).
 
@@ -255,6 +257,6 @@ Zde jsou v jednotlivých návrzích zařazené dokumenty navržené ke skartaci.
 ![[pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093826.png]]
 Pokud dokument bez ohledu na jeho skartační typ ještě nemá být skartován, je možné jej ve stejném okně za odebrat ze skartačního návrhu. Tím se dokument dostane zpět do Dokumentů ke skartaci.
 
-1. **Skartační řízení**
+5. **Skartační řízení**
 
 Po skartaci je dokument z archivu smazán, zůstává pouze záznam o dokumentu

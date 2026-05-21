@@ -5,6 +5,8 @@ updated_at: 2025-12-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/202735618
 ---
 
+# Screening časného záchytu karcinomu plic
+
 Prohlídka funguje jako jedna z prohlídek pro sledování pacienta ve screeningovém programu. V rámci této prohlídky je možné vykazovat hlavní výkon
 
 - 01196 nebo

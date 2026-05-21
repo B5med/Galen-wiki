@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57081883
 ---
 
+# Kategorie
+
 Okno pro vytváření kategorií. Slouží ke shlukování a lepší filtrování položek ceníku.
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Kategorie/assets/image-20250626-133802.png]]

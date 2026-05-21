@@ -5,6 +5,8 @@ updated_at: 2026-04-02
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/332693505
 ---
 
+# Zabezpečení API
+
 > [!info]
 > Tento manuál popisuje novou možnost zabezpečení API přístupu pomocí klientského certifikátu. Poskytuje podrobný postup nastavení a porovnání se stávajícím tokenovým přístupem.
 

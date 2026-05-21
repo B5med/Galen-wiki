@@ -5,6 +5,8 @@ updated_at: 2026-02-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75628693
 ---
 
+# Oprávnění
+
 ## Nahlížení
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění/assets/image-20250618-113044.png]]

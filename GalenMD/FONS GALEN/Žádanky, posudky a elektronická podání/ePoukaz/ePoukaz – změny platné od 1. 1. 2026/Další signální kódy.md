@@ -5,6 +5,8 @@ updated_at: 2026-05-12
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/174587905
 ---
 
+# Další signální kódy
+
 **Tabulka signálních kódů**
 
 | **Kód** | **Úhradová skupina** | **Signální kód** | **První poukaz** | **Další poukazy** |

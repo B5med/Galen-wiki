@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75563103
 ---
 
+# Sledování defektů  
+
 V modulu: Nástroje – Číselníky – Sledování defektů, je zobrazen seznam uživatelsky vytvořených defektů.
 
 ![[pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky/Sledování defektů/assets/image-20250618-104021.png]]

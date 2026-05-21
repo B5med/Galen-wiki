@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75366514
 ---
 
+# Kategorie upozornění
+
 Modul: Nástroje – Šablony – Kategorie upozornění
 
 V záložce Kategorie upozornění je možné nastavit zasílání upozornění/úkolů s vazbou na pacienta a s možností změny stavu a plnění těchto úkolů. Funkcionalitu může používat každý uživatel bez ohledu na jeho roli. Role má vliv jenom na možnost odesílat upozornění na různé množiny uživatelů, případně její editaci. Uživatel, který nemá roli Správce, může odeslat upozornění maximálně na úroveň pracoviště kde je vedený jako pracovník.

@@ -5,6 +5,8 @@ updated_at: 2026-02-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/247857153
 ---
 
+# Výdej foniatrické pomůcky předepsané na ePoukaz
+
 > [!info]
 > Výdej foniatrických pomůcek je součástí modulu **ePoukaz – předpis**. Abyste mohli tyto pomůcky vydávat, je proto nutné mít modul ePoukaz – předpis aktivní.
 >

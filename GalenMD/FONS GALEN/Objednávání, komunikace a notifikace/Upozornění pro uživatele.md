@@ -5,6 +5,8 @@ updated_at: 2025-07-22
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67305473
 ---
 
+# Upozornění pro uživatele
+
 **K čemu slouží funkcionalita upozornění pro uživatele?**
 
 - Upozornění je možné použít k různím účelům, například:

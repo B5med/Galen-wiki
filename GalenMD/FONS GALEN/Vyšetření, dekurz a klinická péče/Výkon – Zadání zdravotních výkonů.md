@@ -5,6 +5,8 @@ updated_at: 2026-05-13
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75595827
 ---
 
+# Výkon – Zadání zdravotních výkonů
+
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Výkon – Zadání zdravotních výkonů/assets/image-20250721-105517.png]]
 Výkony zadáváme pomocí tlačítka Výkon, které se nachází v horní liště v kartotéce nad označeným pacientem, popř. na kartě pacienta. Po zadání výkonu je nutné zadání potvrdit tlačítkem OK.
 

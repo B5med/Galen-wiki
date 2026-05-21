@@ -5,6 +5,8 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113705011
 ---
 
+# Rozdíly mezi verzemi
+
 | Funkce | Základní verze | Rozšířená verze |
 | --- | --- | --- |
 | Zadávání výchozích údajů | ✅ | ✅ |

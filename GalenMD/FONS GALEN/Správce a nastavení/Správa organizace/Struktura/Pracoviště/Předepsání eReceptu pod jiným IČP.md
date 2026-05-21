@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/120225793
 ---
 
+# Předepsání eReceptu pod jiným IČP
+
 V konfiguraci pracoviště je možné nastavit, aby se eRecepty předepisovaly pod jiným IČP než pod tím, které je nastaven v konfiguraci pracoviště.
 
 Správce ->  Správa organizace -> výběr konkrétního pracoviště ve struktuře organizace

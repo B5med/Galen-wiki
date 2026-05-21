@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75268187
 ---
 
+# Výkony
+
 ## **Vytvoření nové šablony výkonů**
 
 Šablony výkonů je možné vytvořit v roli správce (Správce -> Nástroje -> Šablony -> záložka Výkony), nebo v roli uživatele, který má přiděleno právo přístupu do modulu Nástroje (Nástroje -> Šablony -> záložka Výkony)

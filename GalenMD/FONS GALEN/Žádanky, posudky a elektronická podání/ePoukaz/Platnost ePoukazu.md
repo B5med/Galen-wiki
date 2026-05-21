@@ -5,6 +5,8 @@ updated_at: 2026-01-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52723760
 ---
 
+# Platnost ePoukazu
+
 Dle novely zákona č. 378/2007 Sb., o léčivech, § 28, odst. 4 je stanoveno, že „Elektronický nebo listinný poukaz lze u výdejce uplatnit do 30 dnů od jeho vystavení, neurčí-li předepisující jinak, nejpozději však do 1 roku.“
 
 ## Výchozí platnost ePoukazu

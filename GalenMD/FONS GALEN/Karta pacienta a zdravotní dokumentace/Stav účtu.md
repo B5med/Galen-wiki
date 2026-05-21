@@ -5,6 +5,8 @@ updated_at: 2025-06-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48431127
 ---
 
+# Stav účtu
+
 ## **Pořízení pokladního dokladu / faktury**
 
 AIS Galen umožňuje mj. také vystavení pokladního dokladu či faktury pacientovi. K vystavení těchto dokumentů slouží následující postup:

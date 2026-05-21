@@ -5,6 +5,8 @@ updated_at: 2025-07-22
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/77365253
 ---
 
+# Nastavení kalendáře
+
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Nastavení kalendářů/Nastavení kalendáře/assets/image-20250722-134857.png]]
 **Aktivní** deaktivuje kalendář
 **Odpovědné pracoviště** určuje, na kterém pracovišti je možné do kalendáře objednávat. Další pracoviště je možné přidat/odebrat vpravo v části **Právo přístupu** – u každého pracoviště je možné nastavit, zda do kalendáře nahlíží nebo ho edituje (zaškrtnutím checkboxu „Editace“). Odpovědné pracoviště nemusí být vyplněné, pak bude kalendář dostupný na všech pracovištích.

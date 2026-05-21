@@ -5,6 +5,8 @@ updated_at: 2025-08-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/104759320
 ---
 
+# Notifikace pacientů ohledně zpracování laboratorních výsledků
+
 Cílem funkcionality je omezit volání pacientů do ordinací s dotazy ohledně stavu zpracování jejich laboratorních výsledků. Tohoto cíle bude dosaženo ručním odesíláním notifikací pacientovi o stavu lab. výsledku jednotlivě, nebo hromadně.
 
 ## Konfigurace funkcionality

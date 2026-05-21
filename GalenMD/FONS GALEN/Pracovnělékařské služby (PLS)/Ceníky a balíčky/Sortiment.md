@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57507841
 ---
 
+# Sortiment
+
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Sortiment/assets/image-20250626-133517.png]]
 **Sortiment – jednotlivá pole**
 
@@ -12,9 +14,9 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57507841
 
 1. **Aktivní**– ve stávajícím stavu funkční dle logiky funkcionality
 
-1. **Neaktivní**– nezobrazuje při vytváření položek smlouvy ani v nabídce sortimentu v     okně Stav účtu (modul Ordinace)
+2. **Neaktivní**– nezobrazuje při vytváření položek smlouvy ani v nabídce sortimentu v     okně Stav účtu (modul Ordinace)
 
-1. **Neexistuje** – logika chování identická jako stav Neaktivní (pouze informativní rozdělení)
+3. **Neexistuje** – logika chování identická jako stav Neaktivní (pouze informativní rozdělení)
 
 **Kód** (povinné pole u všech skupin)
 

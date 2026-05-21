@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/60915714
 ---
 
+# Záznamy v číselníku vytvořené uživatelem
+
 Uživatelé s rolí *Správce* mají možnost přidávat položky do číselníků vydávaných oficiálními institucemi (např. VZP). Správcem přidané položky budou dostupné pro všechny uživatele v dané společnosti.
 
 ## **Uživatelské číselníky**

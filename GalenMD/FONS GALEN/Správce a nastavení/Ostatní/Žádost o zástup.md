@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/119996419
 ---
 
+# Žádost o zástup
+
 Nutností pro tuto funkcionalitu je mít na společnosti aktivní modul „Schvalování zástupů“.
 
 Nejdříve je nutné, aby uživatel v roli*Správce* umožnil vybraným uživatelům v modulu *Správa organizace* oprávnění. Jedná-li se o vedoucího, který bude schvalovat žádosti o zástupy, zaškrtne uživatelskou *roli Zdravotník a Schvalovatel zástupů* viz obrázek, případně mu vybere další potřebné moduly.

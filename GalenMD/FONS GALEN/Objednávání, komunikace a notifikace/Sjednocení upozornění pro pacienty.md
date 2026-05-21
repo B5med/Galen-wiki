@@ -5,6 +5,8 @@ updated_at: 2025-09-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/107970584
 ---
 
+# Sjednocení upozornění pro pacienty
+
 Všechna upozornění, která jsou vázaná na pacienta, budou nově zobrazena jednotně, v přehledném okně viz. obrázek 1.
 
 Seznam všech možných upozornění, která se můžou v okně vyskytnout, je na konci popisu.

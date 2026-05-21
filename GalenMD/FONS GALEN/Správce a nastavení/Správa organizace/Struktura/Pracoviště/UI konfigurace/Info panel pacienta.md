@@ -5,6 +5,8 @@ updated_at: 2025-12-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/193396737
 ---
 
+# Info panel pacienta
+
 > [!info]
 > Info panel pacienta umožňuje nastavit, jaké informace je potřeba po zobrazení info panelu pacienta na pracovišti zobrazit.
 

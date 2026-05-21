@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75268126
 ---
 
+# eRecept – návod k použití
+
 ## **Položky na receptu**
 
 **Položky vztahující se k léčivu:**
@@ -64,25 +66,25 @@ Tuto část receptu je možné skrýt nebo zobrazit pomocí šipky směřující
 
 1. Otevřít okno Medikace -> záložka Receptář.
 
-1. Stisknout tlačítko plus (vytvoření nové receptury).
+2. Stisknout tlačítko plus (vytvoření nové receptury).
 
-1. Doplnit údaje nové receptury (název, postup přípravy).
+3. Doplnit údaje nové receptury (název, postup přípravy).
 
-1. Přidat složku tlačítkem plus.
+4. Přidat složku tlačítkem plus.
 
-1. Vyplnit kód složky a název složky.
+5. Vyplnit kód složky a název složky.
 
 1. Složky lze vybírat i z číselníku, který se vyvolá za pomocí šipky.
 
-1. Číselník má 2 záložky: číselník léků a číselník konopí
+2. Číselník má 2 záložky: číselník léků a číselník konopí
 
-1. Vyplnit množství a vybrat ze seznamu jednotku.
+6. Vyplnit množství a vybrat ze seznamu jednotku.
 
-1. Přidat další složky dle potřeby.
+7. Přidat další složky dle potřeby.
 
-1. Pro uložení nové receptury stisknout tlačítko OK.
+8. Pro uložení nové receptury stisknout tlačítko OK.
 
-1. Nová magistraliter receptura se vytvoří, tzn. bude viditelná v seznamu receptur, ze které ji lze předepsat.
+9. Nová magistraliter receptura se vytvoří, tzn. bude viditelná v seznamu receptur, ze které ji lze předepsat.
 
 Magistraliter receptury lze upravovat i po předepsání, tzn. v pravé části obrazovky, kde se vytvořil recept s předepsanou recepturou.
 
@@ -94,11 +96,11 @@ Magistraliter receptury lze upravovat i po předepsání, tzn. v pravé část
 
 1. Vstoupit do okna Medikace a vybrat léčivý přípravek (např. ze záložky Číselník nebo Receptář).
 
-1. Stisknout tlačítko Předepsat nebo dvakrát kliknout na vybraný léčivý přípravek.
+2. Stisknout tlačítko Předepsat nebo dvakrát kliknout na vybraný léčivý přípravek.
 
-1. Vyplnit údaje na receptu. Povinný údaj je Dávkování.
+3. Vyplnit údaje na receptu. Povinný údaj je Dávkování.
 
-1. Stisknout tlačítko eRecept. Pokud není tlačítko přístupné, znamená to, že není vyplněn povinný údaj vyžadovaný SÚKL. Po najetí myši na toto tlačítko se zobrazí informace, které je nezbytné doplnit, aby SÚKL recept přijal.
+4. Stisknout tlačítko eRecept. Pokud není tlačítko přístupné, znamená to, že není vyplněn povinný údaj vyžadovaný SÚKL. Po najetí myši na toto tlačítko se zobrazí informace, které je nezbytné doplnit, aby SÚKL recept přijal.
 
 ### **Sdělení kódu pacientovi**
 
@@ -118,17 +120,17 @@ Postup:
 
 1. Otevřít kartu vybraného pacienta
 
-1. V tabulce Kontakty stisknout tlačítko plus pro přidání nového kontaktu.
+2. V tabulce Kontakty stisknout tlačítko plus pro přidání nového kontaktu.
 
-1. Vybrat typ kontaktu e-mail.
+3. Vybrat typ kontaktu e-mail.
 
-1. Vyplnit hodnotu kontaktu e-mailem pacienta.
+4. Vyplnit hodnotu kontaktu e-mailem pacienta.
 
-1. Zatrhnout možnost eRecept u vybraného kontaktu.
+5. Zatrhnout možnost eRecept u vybraného kontaktu.
 
 *Pozn.:* Je možné vybrat pouze jeden kontakt (email nebo mobil).
 
-1. **SMS**
+2. **SMS**
 
 Pro odeslání kódu receptu formou SMS, je nutné nastavit telefonní číslo pacienta na kartě pacienta.
 
@@ -136,29 +138,29 @@ Postup:
 
 1. Otevřít kartu vybraného pacienta
 
-1. V tabulce Kontakty stisknout tlačítko plus pro přidání nového kontaktu.
+2. V tabulce Kontakty stisknout tlačítko plus pro přidání nového kontaktu.
 
-1. Vybrat typ kontaktu mobil.
+3. Vybrat typ kontaktu mobil.
 
-1. Vyplnit hodnotu kontaktu telefonním číslem pacienta.
+4. Vyplnit hodnotu kontaktu telefonním číslem pacienta.
 
-1. Zatrhnout možnost eRecept u vybraného kontaktu.
+5. Zatrhnout možnost eRecept u vybraného kontaktu.
 
 *Pozn.:* Je možné vybrat pouze jeden kontakt (email nebo mobil).
 
-1. **Papírová průvodka**
+3. **Papírová průvodka**
 
 Pro vytištění průvodky, je nutné nejprve odeslat recepty na SÚKL.
 
 1. Odeslat předepsané recepty na SÚKL tlačítkem eRecept.
 
-1. Stisknout tlačítko Tisk.
+2. Stisknout tlačítko Tisk.
 
 1. Pokud není recept odeslán na SÚKL, tlačítko Tisk není přístupné. Při najetí myši na tlačítko Tisk, se zobrazí seznam receptů, které nebyly odeslány na SÚKL.
 
-1. Definování dalších parametrů tisku v okně Tisk.
+3. Definování dalších parametrů tisku v okně Tisk.
 
-1. Samotný tisk se vyvolá tlačítkem Tisk.
+4. Samotný tisk se vyvolá tlačítkem Tisk.
 
 Papírovou průvodku lze pacientovi vytisknout i z okna Výdeje, kde lze tisknout:
 
@@ -166,7 +168,7 @@ Papírovou průvodku lze pacientovi vytisknout i z okna Výdeje, kde lze tiskn
 
 - Průvodky vztahující se ke konkrétnímu datu – vybrat datum (vpravo se zobrazí recepty předepsané zvoleného data) a následně postupovat od bodu 2.
 
-1. **Další alternativy**
+4. **Další alternativy**
 
 Při nedostupnosti služeb SMS nebo e-mail ze strany SÚKL
 
@@ -176,13 +178,13 @@ V případě, že nebudou dostupné služby SÚKL (email nebo SMS), umožňuje
 
 1. Odeslat předepsané recepty na SÚKL tlačítkem eRecept.
 
-1. Následně je možné stisknout tlačítko PDF.
+2. Následně je možné stisknout tlačítko PDF.
 
-1. Stisknout tlačítko Poslat email.
+3. Stisknout tlačítko Poslat email.
 
-1. Vybrat kontakt/y, popřípadě dopsat předmět a text zprávy.
+4. Vybrat kontakt/y, popřípadě dopsat předmět a text zprávy.
 
-1. Stisknout tlačítko Odeslat.
+5. Stisknout tlačítko Odeslat.
 
 *Pozn.:* Pro použití této formy je vhodné mít vytvořenou šablonu v modulu ` `Komunikace.
 

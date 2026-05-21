@@ -5,6 +5,8 @@ updated_at: 2026-03-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/310214669
 ---
 
+# API: Měření
+
 > [!info]
 > Toto API umožňuje externímu systému zapisovat a číst záznamy měření (dekurzu) pacienta.
 

@@ -5,6 +5,8 @@ updated_at: 2026-01-19
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/230031362
 ---
 
+# Online objednávání pacientů
+
 > [!info]
 > Online objednávání umožňuje pacientům objednat se na vyšetření nebo výkon **přes Portál pacienta**, aniž by museli volat do ordinace.
 

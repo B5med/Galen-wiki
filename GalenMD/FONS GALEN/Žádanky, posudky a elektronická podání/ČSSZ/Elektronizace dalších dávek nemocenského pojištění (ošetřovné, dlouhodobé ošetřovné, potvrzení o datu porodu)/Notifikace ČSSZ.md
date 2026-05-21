@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940506
 ---
 
+# Notifikace ČSSZ
+
 Nově ČSSZ ke všem dávkám (eDPN, OČR a další) umožňuje zvolit způsob, jakým způsobem budou informace pacientovi předány. Kromě standardní listinné podoby může pacient obdržet identifikátor prostřednictvím SMS zprávy nebo e-mailu.
 
 Aby se elektronický způsob předání identifikátoru v nově vystaveném podání přednastavil, je nutné k právě jednomu kontaktu v kartě pacienta nastavit příznak *SÚKL, ČSSZ.*

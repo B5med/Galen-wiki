@@ -5,6 +5,8 @@ updated_at: 2025-12-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315
 ---
 
+# Prohlídky
+
 ![[pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250619-062338.png]]
 Nástroj pro definování prohlídek a vyšetření, které se nabízí u konkrétního pacienta na liště v dolní části obrazovky Prohlídky a vyšetření.
 

@@ -5,6 +5,8 @@ updated_at: 2025-11-28
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/173834242
 ---
 
+# Maximální preskripce
+
 Maximální preskripce se týká pouze prostředků v úhradových skupinách:
 
 **06.01.11.01 – 06.01.11.05**

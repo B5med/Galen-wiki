@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694353
 ---
 
+# Pokladny
+
 Je možné založit jednu nebo více pokladen (použití malého zeleného + vlevo nahoře). Po zadání názvu a zkratky, pokladna se přiřadí pracovišti, na kterém se bude pokladna používat
 
 ![[pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Pokladny/assets/image-20250618-113147.png]]

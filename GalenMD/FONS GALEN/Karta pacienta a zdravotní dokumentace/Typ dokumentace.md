@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52854786
 ---
 
+# Typ dokumentace
+
 Typ dokumentace Kurativa nebo PLS lze definovat pro oblasti Dekurzu, Prohlídky, Formuláře, Neschopenky, Medikace , Přílohy, Laboratorní výsledky, ePoukazy, RDG žádanky, FT poukazy a EZD anamnézu. V případě výběru PLS dokumentace, je nutné definovat zaměstnání výběrem ze seznamu.
 
 Dekurz:

@@ -5,6 +5,8 @@ updated_at: 2026-01-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/247169026
 ---
 
+# Využívaná a spolupracující pracoviště
+
 > [!info]
 > Koncept využívaných a spolupracujících pracovišť dovoluje delegovat vybrané entity na jiné pracoviště, jedná se např. o FT poukazy, RDG žádanky, vyúčtování dopravy nebo výdej foniatrických pomůcek.
 

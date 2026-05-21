@@ -5,6 +5,8 @@ updated_at: 2025-06-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/56885286
 ---
 
+# PLS prohlídky
+
 PLS prohlídku lze založit v okně Prohlídky a vyšetření, po kliku na ikonu
 
 ![[pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky/assets/image-20250626-135401.png]]

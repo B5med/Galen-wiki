@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53182468
 ---
 
+# Výchozí nastavení
+
 Po vytvoření lékařské zprávy za celou společnost jsou nutná tato nastavení:
 
 A)     **Zapnutí funkcionality konkrétnímu uživateli**
@@ -24,13 +26,13 @@ a) identifikační údaje poskytovatele, kterými jsou
 
 1. jméno, popřípadě jména, příjmení poskytovatele,
 
-1. adresa místa poskytování zdravotních služeb v případě fyzické osoby,
+2. adresa místa poskytování zdravotních služeb v případě fyzické osoby,
 
-1. obchodní firma nebo název poskytovatele, adresa sídla nebo adresa místa podnikání v případě právnické osoby,
+3. obchodní firma nebo název poskytovatele, adresa sídla nebo adresa místa podnikání v případě právnické osoby,
 
-1. identifikační číslo osoby, bylo-li přiděleno,
+4. identifikační číslo osoby, bylo-li přiděleno,
 
-1. název oddělení nebo obdobné části, je-li zdravotnické zařízení poskytovatele takto členěno (dále jen „oddělení zdravotnického zařízení“)
+5. název oddělení nebo obdobné části, je-li zdravotnické zařízení poskytovatele takto členěno (dále jen „oddělení zdravotnického zařízení“)
 
 Údaje uvedené v bodech 1. a 5. budou automaticky doplněny k jednotlivým záznamům lékařské zprávy. Údaje v bodech 2., 3. a 4. by měly být uvedeny v hlavičce lékařské zprávy.
 

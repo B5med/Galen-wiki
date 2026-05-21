@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690949
 ---
 
+# Dekurz
+
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/assets/image-20250623-081444.png]]
 Pro vytvoření zápisu v dekurzu u vybraného pacienta v kartotéce klikneme na dolní liště na tlačítko Dekurz nebo lze v kartotéce dvojklikem nad kartou pacienta.
 

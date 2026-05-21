@@ -5,12 +5,14 @@ updated_at: 2025-06-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/18513922
 ---
 
+# Spuštění programu
+
 ## Postup krok za krokem:
 
 1. Program Galen spustíme standardním způsobem, např. dvojklikem myši na ikonu zástupce IS Galen na ploše.
 
 ![[pages/FONS GALEN/Začínam se systémem/Spuštění programu/assets/image-20250416-164351.png]]
-1. V přihlašovacím okně v části „Uživatel“ je třeba zadat uživatelské (přihlašovací) jméno a v poli heslo přihlašovací heslo uživatele.
+2. V přihlašovacím okně v části „Uživatel“ je třeba zadat uživatelské (přihlašovací) jméno a v poli heslo přihlašovací heslo uživatele.
 
 ![[pages/FONS GALEN/Začínam se systémem/Spuštění programu/assets/image-20250416-164409.png]]
 Při zapnuté funkcionalitě dvoufázového ověřování se uživateli při přihlášení po zadání správného loginu a hesla zobrazí pole pro vyplnění PIN, který uživatel dostane na mobilní číslo zadané v Galenu.

@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/109215766
 ---
 
+# Přegenerování certifikátů
+
 Diagnostikovali jsme problém s některými certifikáty, který způsoboval, že při odesílání elektronického receptu docházelo k odmítnutí receptu ze strany Centrálního úložiště. To vracelo chybovou hlášku „*Byl zadán neplatný algoritmus“*.
 
 ![[pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/Přegenerování certifikátů/assets/image-20250901-085524.png]]

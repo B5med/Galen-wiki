@@ -5,6 +5,8 @@ updated_at: 2025-06-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48201742
 ---
 
+# Sdílení dokumentace
+
 AIS Galen umožňuje sdílet s určitým pracovištěm (vybranou) dokumentaci pouze konkrétního pacienta.
 
 Uživatel daného pracoviště skrz „Přehled upozornění“ anebo po stisknutí (F3) požádá stisknutím  + jiné pracoviště v rámci stejné společnosti o sdílení vybrané dokumentace pacienta.

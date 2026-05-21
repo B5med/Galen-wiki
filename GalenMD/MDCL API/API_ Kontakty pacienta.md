@@ -5,6 +5,8 @@ updated_at: 2025-07-08
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/65306627
 ---
 
+# API: Kontakty pacienta
+
 > [!info]
 > Toto API slouží pro správu kontaktů evidovaných u konkrétního pacienta v systému. Umožňuje načíst seznam kontaktů, přidávat nové, upravovat existující a také je mazat.
 

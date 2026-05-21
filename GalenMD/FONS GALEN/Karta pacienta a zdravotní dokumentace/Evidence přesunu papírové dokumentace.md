@@ -5,6 +5,8 @@ updated_at: 2025-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/120356875
 ---
 
+# Evidence přesunu papírové dokumentace
+
 Pokud je zapnut nadstandardní modul „Evidence přesunu papírové dokumentace“, pak je možné evidovat přesun dokumentace v rámci jedné společnosti FONS Galen.
 
 V kartě pacienta -> Historie je dostupná záložka Přesun dokumentace

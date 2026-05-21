@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/74940440
 ---
 
+# Trvalé medikace a Receptář
+
 ![[pages/FONS GALEN/Medikace, očkování a registry/Medikace/Trvalé medikace a Receptář/assets/image-20250721-105246.png]]
 lze vybrat kliknutím na ikonu Trvalé. Jsou to ty léky, které jsou uvedeny v anamnéze jako trvalé.
 

@@ -5,17 +5,19 @@ updated_at: 2025-09-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/113704976
 ---
 
+# Zapnutí modulu pro uživatele
+
 Pokud má uživatel pracovat s modulem Finanční analýza, je nutné, aby měl tento modul zapnutý. Aktivace probíhá v modulu Správce následujícím způsobem:
 
 1. Otevřete modul Správce.
 
-1. Přejděte na Správa organizace → Uživatelé.
+2. Přejděte na Správa organizace → Uživatelé.
 
-1. Vyberte konkrétního uživatele.
+3. Vyberte konkrétního uživatele.
 
-1. V části Dostupné moduly zatrhněte Finanční analýza.
+4. V části Dostupné moduly zatrhněte Finanční analýza.
 
-1. Změnu uložte tlačítkem OK.
+5. Změnu uložte tlačítkem OK.
 
 Poznámky:
 

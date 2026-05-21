@@ -5,6 +5,8 @@ updated_at: 2025-07-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68419606
 ---
 
+# Konfigurace a vznik nároků
+
 Konfigurace se nachází pod správcovským účtem v module Nároky, v okně Očkování.
 
 Zdravotník tuto konfigurací vidí jenom jako náhled, nemůže ji upravovat.

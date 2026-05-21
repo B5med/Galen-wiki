@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792551
 ---
 
+# Vyúčtování – hromadné úpravy výkonů
+
 V modulu Vyúčtování lze také provádět hromadné úpravy výkonů, které uživatelům ulehčí práci při nutnosti změny u více výkonů současně. Správce -> Vyúčtování -> Hromadné úpravy
 
 Ve třech základních záložkách
@@ -70,11 +72,11 @@ V pravé části se poté zobrazuje detail vybrané operace:
 ![[pages/FONS GALEN/Správce a nastavení/Vyúčtování/Vyúčtování – hromadné úpravy výkonů/assets/image-20250618-132841.png]]
 1. Tento ukazatel indikuje, v jakém stavu se daná operace nachází.
 
-1. Jestliže daná operace stále běží, je možné ji pomocí tlačítka Zastavit ukončit. Opětovné spuštění ovšem není již možné.
+2. Jestliže daná operace stále běží, je možné ji pomocí tlačítka Zastavit ukončit. Opětovné spuštění ovšem není již možné.
 
-1. V této části uživatel definuje, jaké typy zpráv chce v detailním přehled zobrazovat.
+3. V této části uživatel definuje, jaké typy zpráv chce v detailním přehled zobrazovat.
 
-1. Detailní přehled uživatele informuje o jednotlivých dílčích krocích operace. Tento přehled se v průběhu běhu operace pravidelně aktualizuje. Přehled lze i exportovat do požadovaného formátu stisknutím ikonky: ![[pages/FONS GALEN/Správce a nastavení/Vyúčtování/Vyúčtování – hromadné úpravy výkonů/assets/image-20250618-132904.png]]
+4. Detailní přehled uživatele informuje o jednotlivých dílčích krocích operace. Tento přehled se v průběhu běhu operace pravidelně aktualizuje. Přehled lze i exportovat do požadovaného formátu stisknutím ikonky: ![[pages/FONS GALEN/Správce a nastavení/Vyúčtování/Vyúčtování – hromadné úpravy výkonů/assets/image-20250618-132904.png]]
 
 ### **Vygenerování zprávy o chybných výkonech**
 

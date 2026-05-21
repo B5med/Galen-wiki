@@ -5,6 +5,8 @@ updated_at: 2025-12-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694423
 ---
 
+# Potřebná nastavení
+
 > [!info]
 > Popis nastavení, která jsou nutná pro spuštění komunikace FONS Galen s ČSSZ. Dále jsou popsána volitelná nastavení jako je např. možnost nastavení upozornění na blížící se překročení podpůrčí doby pracovní neschopnosti.
 

@@ -5,6 +5,8 @@ updated_at: 2025-06-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53149728
 ---
 
+# Vyšetření
+
 ![[pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vyšetření/assets/image-20250623-102311.png]]
 Ikona pro zadání nové prohlídky (vyšetření) se nachází v levé části obrazovky. Pod tlačítkem + Nová prohlídka nebo + Nová PLS prohlídka. Po stisknutí na první tlačítko si vybereme typ prohlídky.
 

@@ -5,6 +5,8 @@ updated_at: 2025-07-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75268255
 ---
 
+# Převzetí do péče
+
 Převzetí dávky do péče je možné dvěma způsoby v závislosti na tom, zda byla původní dávka vytvořená v rámci dané společnosti ve FONS Galen.
 
 ## Převzetí do péče mezi pracovišti, která mají nastaveno nahlížení

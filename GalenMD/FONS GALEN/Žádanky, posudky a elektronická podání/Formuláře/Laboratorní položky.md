@@ -5,6 +5,8 @@ updated_at: 2025-08-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/105086977
 ---
 
+# Laboratorní položky
+
 Pro vytvoření formuláře typu eŽádanka, tj. laboratorní žádanka, která je elektronicky lab. klientem odeslána do laboratoře, je nutné vytvořit soubor laboratorních metod, které bude žádanka obsahovat.
 
 ## Dostupnost souborů lab. položky

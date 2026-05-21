@@ -5,6 +5,8 @@ updated_at: 2025-11-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/109248514
 ---
 
+# Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL
+
 > [!info]
 > Tato stránka popisuje nastavení certifikátu potřebného pro komunikaci se systémem **eRecept**.
 > Certifikát může být:

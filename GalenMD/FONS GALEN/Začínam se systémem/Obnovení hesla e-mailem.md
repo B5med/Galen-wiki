@@ -5,6 +5,8 @@ updated_at: 2025-08-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/105316353
 ---
 
+# Obnovení hesla e-mailem
+
 ## Konfigurace v modulu Správa organizace
 
 Nejprve je nutné zapnout a nastavit obnovení hesla e-mailem ve správě organizace.
