@@ -1,0 +1,382 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obsahuje rozšířenou analytiku zaměřenou na výkonnost, nákladnost a bonifikace. Obrazovka je rozdělena do čtyř tematických záložek:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Body a unikátní pojištěnci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poskytuje přehled o ",
+          "type": "text"
+        },
+        {
+          "text": "počtu vykázaných bodů a počtu unikátních pojištěnců",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v čase. Uživatel zde může porovnávat více období:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktuální období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – údaje za právě sledovaný rok (resp. období vybrané v horní části obrazovky)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Referenční období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – historické údaje, jedná se o předminulý rok, které slouží k porovnání dle metodiky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Mezidobí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – období mezi aktuálním a referenčním rokem, které umožňuje sledovat průběžný vývoj.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příklad: Pokud je aktuální rok 2025, tak referenčním rokem je rok 2023 a mezidobí je 2024.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Všechna období jsou přepočítána podle aktuální úhradové vyhlášky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", aby byla data porovnatelná a reflektovala platná pravidla úhrad.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tabulka zobrazuje vývoj bodů a Kč za body. Obsahuje také ",
+          "type": "text"
+        },
+        {
+          "text": "součtový řádek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074611.png",
+            "id": "b2819063-49bd-445f-aa75-c715dbc286a8",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "height": 62
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Záložka slouží pouze k prohlížení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nákladní pojištěnci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poskytuje přehled pacientů s vysokými náklady. V rozšířené verzi zobrazuje hodnoty jako PURO × 5, překročení v Kč a %, a jejich barevné označení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zaměřuje se na ",
+          "type": "text"
+        },
+        {
+          "text": "mimořádně nákladné pojištěnce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Uživatel zde vidí, kteří pacienti již překročili hranici mimořádné nákladnosti (MNP) a kteří se k ní blíží.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074700.png",
+            "id": "72c00178-d085-4b4a-91e4-6a9510e6103c",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "height": 60
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné ocenění celkem, PURO 5 (výpočet pětinásobku PURO), výše překročení v Kč a %.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Navýšení hodnoty bodu (pouze Rozšířená verze)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kontroluje, zda zařízení splňuje podmínky pro navýšení hodnoty bodu. Hodnoty jsou barevně označeny dle splnění nebo nesplnění limitů (např. % pacientů s konkrétní diagnózou).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074721.png",
+            "id": "39f69566-bb7f-45fe-a1cd-195e416c5732",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "height": 66
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Záložka slouží pouze k prohlížení. Záložka je dostupná v rozšířené verzi.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Navýšení koeficientu navýšení (pouze Rozšířená verze)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zkoumá, zda zařízení splňuje kritéria pro navýšení koeficientu. Srovnává data za aktuální a referenční období. Obsahuje poměrové ukazatele a jejich barevné zvýraznění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074842.png",
+            "id": "b527c807-9595-46a7-916a-965746cc3d0d",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "height": 62
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Záložka slouží pouze k prohlížení. Záložka je dostupná v rozšířené verzi.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

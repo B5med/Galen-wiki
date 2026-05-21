@@ -1,0 +1,187 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelIconId": "atlassian-light_bulb_on",
+        "panelIcon": ":light_bulb_on:",
+        "panelIconText": ":light_bulb_on:",
+        "panelColor": "#FFFAE6",
+        "panelType": "custom",
+        "localId": "0db5c9f3-b3a2-413b-adc2-38c3f256c95c"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "eed80f1a1854"
+          },
+          "content": [
+            {
+              "text": "Pro nastavení čtečky stačí postupovat dle níže uvedeného postupu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d4d47d2101ff"
+      },
+      "content": [
+        {
+          "text": "Postup nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "21c4c5a780bf"
+      },
+      "content": [
+        {
+          "text": "Pomocí níže přiloženého kódu nastavíme čtečku do továrního nastavení. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 238,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 238,
+            "alt": "image-20260423-125815.png",
+            "id": "bf32f7bb-2b96-449d-b590-7cacd7572b06",
+            "collection": "contentId-367624194",
+            "type": "file",
+            "localId": "20e7c9f16b59",
+            "height": 149
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5c26d487514b"
+      },
+      "content": [
+        {
+          "text": "Pozor: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "u bezdrátové verze čtečky po uvedení do továrního nastavení je nutné ji vložit do kolébky a počkat na zvukový signál.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "bfe5318e-3518-4503-a8d7-c7e71f0ab532"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "033ba55baf8d"
+          },
+          "content": [
+            {
+              "text": "Pro správnou funkčnost, je třeba mít ve čtečce upgradovaný firmware na nejnovější verzi. Máme ověřeno, že jeden z prvních firmwarů (CAAAJS00-001-R00) není funkční.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "315481008081"
+      },
+      "content": [
+        {
+          "text": "Dále pak již stačí pouze načíst konfigurační QR kód, ve kterém je uloženo celé potřebné nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1041032d672a"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 130,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 130,
+            "alt": "image-20260423-125840.png",
+            "id": "d78ac91f-e08d-422d-bdb6-8e845b4fb25b",
+            "collection": "contentId-367624194",
+            "type": "file",
+            "localId": "88ec10c4ef75",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "58977c0f16e3"
+      },
+      "content": [
+        {
+          "text": "Pozor:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Je třeba počkat až čtečka potvrdí dokončení nakonfigurování zvukovým signálem.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

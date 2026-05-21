@@ -1,0 +1,300 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "51b6d274-f658-489a-bb2b-eae4204c0ce2"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "ff5d473f-0c04-4f05-b7a1-0514e59c04df"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odbornost 702 má speciální modul, přes který vystavuje poukaz na foniatrickou pomůcku. Po vybrání konkrétního pacienta v dekurzu bude ikona “Foniatrie” aktivní. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 863,
+            "alt": "image-20250701-085401.png",
+            "id": "f72b403b-1573-4c92-b970-01a9ab22a083",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 286
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nový poukaz se vystavuje přes zelené tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (plus).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 957,
+            "alt": "image-20250701-085439.png",
+            "id": "05e7c37b-8984-464c-b1cd-8a98f68d7e48",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 240
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vyplnění indikační skupiny a zadání tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "  se zobrazí nový řádek a požadovaný prostředek zadáme vyplněním pole PZT. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 957,
+            "alt": "image-20250701-085512.png",
+            "id": "f46db59d-55e6-4deb-bd2a-fd05a373421e",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 193
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybrat prostředek můžeme více způsoby: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vybrat z číselníku PZT, který se nám zobrazí po kliknutí na rozbalovací šipku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Doplnit název nebo kod prostředku do pole PZT ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vyplňování poukazu se doplňuje i pole ",
+          "type": "text"
+        },
+        {
+          "text": "Typ zv. Úhrady. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "V tomto poli se nabízejí položky dle číselníku, který vydává VZP.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 955,
+            "alt": "image-20250701-085551.png",
+            "id": "c8da7de1-e8ff-4e6d-b9ca-b8eb42db9b3c",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 173
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vyplnění všech položek poukaz vytiskneme nebo jenom uložíme. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 959,
+            "alt": "image-20250701-085604.png",
+            "id": "6cb2cfc1-0ad5-47c3-bd46-31f2d82d00e4",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 385
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vystavený poukaz vidíme v dekurzu  pacienta v pravé části.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 955,
+            "alt": "image-20250701-085617.png",
+            "id": "11de0621-6dec-40a7-a527-164638df532f",
+            "collection": "contentId-61308945",
+            "type": "file",
+            "height": 248
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

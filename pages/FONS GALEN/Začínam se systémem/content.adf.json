@@ -1,0 +1,73 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "594b164e58bc"
+      },
+      "content": [
+        {
+          "text": "Tato sekce je určena pro nové uživatele a pro situace, kdy potřebujete znovu nastavit nebo zprovoznit FONS Galen — například po přeinstalaci, změně počítače nebo zapomenutém hesle.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "832669ba2f08"
+      },
+      "content": [
+        {
+          "text": "Najdete zde návody na instalaci a první spuštění programu, nastavení přihlašovacích údajů včetně dvoufaktorového ověření (2FA), správu kvalifikovaných certifikátů a přehled klávesových zkratek pro rychlejší práci. Součástí je také návod pro práci v off-line režimu a vzdálená správa přes TeamViewer.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "38344b2807b6"
+      }
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "8d9933d1be3f6f8bef5633fe9aafb5c2a554ddc1563762273f8a934d4f97ad6b"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "636e2a57-8f21-46a0-af58-ca04e4ae3804"
+      }
+    }
+  ],
+  "version": 1
+}

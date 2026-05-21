@@ -1,0 +1,154 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelIconId": "atlassian-light_bulb_on",
+        "panelIcon": ":light_bulb_on:",
+        "panelIconText": ":light_bulb_on:",
+        "panelColor": "#FFFAE6",
+        "panelType": "custom",
+        "localId": "68f385dc-9f5c-4a0d-af46-4653192e3779"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "5a29469bafb7"
+          },
+          "content": [
+            {
+              "text": "Pro nastavení čtečky stačí postupovat dle níže uvedeného postupu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bff0c846f111"
+      },
+      "content": [
+        {
+          "text": "Postup nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d01b57e52ce"
+      },
+      "content": [
+        {
+          "text": "Pomocí níže přiloženého kódu nastavíme čtečku do továrního nastavení. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 234,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 234,
+            "alt": "image-20260423-130632.png",
+            "id": "cbc71aea-1ff6-4b86-bc8b-6e8580118b65",
+            "collection": "contentId-367165454",
+            "type": "file",
+            "localId": "09347f52b882",
+            "height": 144
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8cc499c316bb"
+      },
+      "content": [
+        {
+          "text": "Pozor: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " po nastavení do továrního nastavení je nutné počkat na zvukový signál.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "319853324adf"
+      },
+      "content": [
+        {
+          "text": "Dále pak již stačí pouze načíst konfigurační QR kód, ve kterém je uloženo celé potřebné nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 130,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 130,
+            "alt": "image-20260423-130655.png",
+            "id": "5b61b1f0-feca-4ccf-9a86-566d13a13e88",
+            "collection": "contentId-367165454",
+            "type": "file",
+            "localId": "5d0ea5454490",
+            "height": 113
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d5b9ffaa23c"
+      },
+      "content": [
+        {
+          "text": "Pozor:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Je třeba počkat až čtečka potvrdí dokončení nakonfigurování zvukovým signálem.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

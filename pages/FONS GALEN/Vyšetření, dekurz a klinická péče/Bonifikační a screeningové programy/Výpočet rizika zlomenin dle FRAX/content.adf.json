@@ -1,0 +1,842 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fb72565c-2bbe-49a0-935e-6fb11b84d0bc"
+      },
+      "content": [
+        {
+          "text": "Funkcionalita výpočet rizika zlomenin dle FRAX umožňuje vyplnit dotazník, jehož výstup udává pravděpodobnost vzniku zlomeniny kyčle během následujících 10 let a pravděpodobnost, že dojde k hlavní osteoporotické zlomenině, což zahrnuje klinické zlomeniny obratlů, zlomeniny distálního předloktí, zlomeniny v oblasti kyčle a paže, během stejného období.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ff2e848-d853-45fb-9df9-dedab545c193"
+      },
+      "content": [
+        {
+          "text": "Funkcionalitu je možné vyvolat v prohlídce a v měření. V prohlídce je dále navázaná na možnost vykázat výkony související s FRAX, tj. 11320 a 11321 Výkony je nutné mít nasmlouvané s pojišťovnou a uvedené ve FONS Galen ve smlouvách s pojišťovnami.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8590f76f-8865-420a-976a-8de703af4e38"
+      },
+      "content": [
+        {
+          "text": "Funkcionalita \"Výpočet rizika zlomenin dle FRAX\" je placenou službu. Pro aktivaci služby prosím kontaktujte naše obchodní oddělení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "d11ca841-0fbc-4759-ad38-f847d4dc9756"
+      },
+      "content": [
+        {
+          "text": "Výpočet rizika zlomen dle FRAX",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "da64b4f5-bf17-4405-aa5b-2787a086ffe3"
+      },
+      "content": [
+        {
+          "text": "Výpočet rizika lze provádět na dvou místech:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "71800760-a5c1-4005-8e2d-c7bf3e5d7ca5",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c01ac6e1-73e2-455c-80f2-80587e6af478"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0e55e878-3f45-4310-86ae-3fe160a8ea81"
+              },
+              "content": [
+                {
+                  "text": "Obrazovka Měření návštěvy – přes dekurz pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "dab35fb7-1f04-4349-a1cc-de660b40564c",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c537deb9-0149-47d9-9397-a37e50f5e38c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b115c57b-bfba-4d59-b1bc-22b13fc956c5"
+              },
+              "content": [
+                {
+                  "text": "Prohlídka pacienta – prohlídka, jejíž součástí je výpočet rizika zlomenin dle FRAX",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "46156aa3-4bc2-4209-8c1d-aa0d13d41d45"
+      },
+      "content": [
+        {
+          "text": "Výpočet rizika v měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ccfaa5bb-65bd-459e-ab32-d7ab66107b0c"
+      },
+      "content": [
+        {
+          "text": "Cesta: vybrat pracoviště -> modul Ordinace -> vybrat pacienta -> záložka Dekurz -> možnost Zadat měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bc6825f6-8c58-4afb-9bbd-835b0a9695af",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f51c0888-744a-4f61-ad8d-68efb7872bba"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ca7e7059-c314-418b-b58a-7b346647dfb9"
+              },
+              "content": [
+                {
+                  "text": "V sekci Rizika zlomenin stisknout tlačítko FRAX, které otevře dotazník pro výpočet.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 395,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 395,
+            "alt": "image-20250722-071658.png",
+            "id": "35ec44af-3168-4d93-848d-905211eda014",
+            "collection": "contentId-76709889",
+            "type": "file",
+            "localId": "1ca44a1a-341e-47cf-9db0-bca64299821f",
+            "height": 237
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "154df9bf-ba79-48bc-97c7-2597866612ee",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d986c6e6-9ef1-43d6-a27c-d8f3976817d8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "478729c6-57de-45f2-9e44-912e79d5285f"
+              },
+              "content": [
+                {
+                  "text": "Vyplnit dotazník.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "60f70810-0c72-4b97-af53-aed59e211de9"
+      },
+      "content": [
+        {
+          "text": "Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v měření vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 412,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 412,
+            "alt": "image-20250722-071733.png",
+            "id": "3a2c653a-5b08-49a1-8434-100141ca2146",
+            "collection": "contentId-76709889",
+            "type": "file",
+            "localId": "d2c5bb5b-9d45-4988-8ae7-2b926ded775d",
+            "height": 221
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fe3d2e5d-9ee8-4a4c-9a23-8371baeada41",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "13a3aeeb-04a4-486a-b35e-e6a1077206ab"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e746c557-88fa-4221-af77-4f44b4d47961"
+              },
+              "content": [
+                {
+                  "text": "Následně stisknout tlačítko Vypočítat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "6b79d8e9-3332-456d-8988-fef77673833a",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7cce4a3c-5763-4767-9972-32dbc2f9bf4b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "80f4806c-4e25-417d-8467-a959d9c38d69"
+              },
+              "content": [
+                {
+                  "text": "Vypočítané hodnoty se do měření přenesou za pomocí tlačítka Převzít hodnoty.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3369358d-033a-47dd-89c2-f397f874aa58",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b1314c9c-b2ae-46ba-985d-f24eccb0d437"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "de0473e9-7b4f-438c-9411-6c67a037d4f8"
+              },
+              "content": [
+                {
+                  "text": "V Měření jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 408,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 408,
+            "alt": "image-20250722-071750.png",
+            "id": "f0a226c0-af92-4840-b750-a845a1ff16fa",
+            "collection": "contentId-76709889",
+            "type": "file",
+            "localId": "d932fb1f-a871-4067-8b0b-9b5ea9796936",
+            "height": 246
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4e4e0988-d8f3-4815-a955-7a897df26d10"
+      },
+      "content": [
+        {
+          "text": "Výpočet rizika v prohlídce Screening osteoporózy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "43941f77-b3b2-464f-8374-74db8d2d8ffd"
+      },
+      "content": [
+        {
+          "text": "Cesta: vybrat pracoviště -> modul Ordinace -> vybrat pacienta -> záložka Prohlídky a vyšetření -> Nová prohlídka -> vybrat prohlídku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Screening osteoporózy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "38086145-ecb5-4e99-9e8e-a8e86afe2885",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c14e6212-a834-43b5-98ab-660b6d6bbfe2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7e8a9df9-1afd-4982-b544-5b3dc21cb6ba"
+              },
+              "content": [
+                {
+                  "text": "V prohlídce stisknout tlačítko FRAX (vpravo nahoře), které otevře dotazník pro výpočet.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "85ab4a9a-57f8-43ba-b813-4e7971bf12e0",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "53a45b2c-b7ab-493f-b7c5-6909401f007e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4c7ecf54-4c27-4cfb-8e1b-95826d90db67"
+              },
+              "content": [
+                {
+                  "text": "Vyplnit dotazník - Do dotazníku se předvyplní věk a pohlaví pacienta. Pokud je v prohlídce vyplněna položka Výška a Hmotnost, doplní se i tyto údaje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 412,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 412,
+            "alt": "image-20250722-071821.png",
+            "id": "6452e41e-7895-4ff8-b83b-e449268a9d79",
+            "collection": "contentId-76709889",
+            "type": "file",
+            "localId": "e7fc9927-3de6-4cd7-9eed-723bc184647a",
+            "height": 221
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d9c95d70-b1e1-4798-903b-bf5480e1917a",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6457bdec-8d74-481c-8cef-b1c7ab21276c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5dcc467b-445e-4f47-89d6-2a681093b7ef"
+              },
+              "content": [
+                {
+                  "text": "Následně stisknout tlačítko Vypočítat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "c929cbd1-e9b1-41bb-8712-ff3fd43f07e4",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d97dd5c9-c398-41fe-bf11-6138e010bb80"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c30ef2c5-7d6b-48c4-80bd-066e452e6230"
+              },
+              "content": [
+                {
+                  "text": "Vypočítané hodnoty se do prohlídky přenesou za pomocí tlačítka Převzít hodnoty.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "6fcf76b9-bafc-4645-99b3-096887102f4d",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7dec613d-68cf-46d0-b555-195b4ccc1c6a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "402cd6ea-ceae-4a0e-9c66-1c6f90f493f6"
+              },
+              "content": [
+                {
+                  "text": "V prohlídce jsou přenesené hodnoty a k jednotlivým hodnotám je doplněno hodnocení (je/není indikováno DXA).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1391967b-2ad1-4f54-8b59-9feea5f23ae2",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e3518f22-a3f0-42eb-850d-c8a604818557"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "51482093-e29d-4c43-b2b2-e152d4341c00"
+              },
+              "content": [
+                {
+                  "text": "Pro vykázání výkonů stisknout v prohlídce tlačítko Vytvořit výkony.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d5dd633d-f867-4e10-90cc-3742e0db5c0a",
+        "order": 7
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1ebc4b64-c402-4409-92cf-a2d929b3980f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d9ed37d6-38b4-4156-81ad-66565f59e2b9"
+              },
+              "content": [
+                {
+                  "text": "Na obrazovce Vytvořit výkony zvolit hlavní výkon. Následně se zobrazí volitelné výkony související s FRAX. Vždy se nabízí pouze jeden výkon a to na základě vypočítaných hodnot, tj.:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "7c98e6d0-0781-4cf6-9cd3-894dd82bcb00",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b2fa8994-7e68-4bd2-9f05-f7c262a98736"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "00037a2f-a2b9-4370-9143-deea235823b2"
+                      },
+                      "content": [
+                        {
+                          "text": "Je indikováno DXA – nabízí se výkon 11320",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "4757d3c2-b486-4c33-aa85-2fa2f9b2e3e1"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "42bf84a5-8d99-46a9-b873-189d2c5e4973"
+                      },
+                      "content": [
+                        {
+                          "text": "Není indikováno DXA – nabízí se výkon 11321",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "977b4d8c-098b-4f1f-9fc5-62801720df21"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "aa3c3f5e-86a6-4d10-a011-8794ae5e60b8"
+              },
+              "content": [
+                {
+                  "text": "Uživatel může vybrat jeden z volitelných výkonů souvisejících s FRAX.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "28509b1a-7cbe-408b-867a-3d023f2c90cc",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "178c9d46-3fb0-4c2d-8f49-d5cb784f132f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "ae200dff-f29d-4749-8aaf-a1f64564d4de"
+                      },
+                      "content": [
+                        {
+                          "text": "Pokud je výkon vybrán, vykáže se.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a484cef1-0146-47af-beff-b722b436f624"
+      },
+      "content": [
+        {
+          "text": "Informace k výpočtu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5e900be3-b880-4193-a23c-00850b8a13c6"
+      },
+      "content": [
+        {
+          "text": "Podbarvení položek:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7673c512-f9a1-488b-8e7b-605bab215bbf"
+      },
+      "content": [
+        {
+          "text": "Červená barva znamená, že hodnoty jsou vysoké a je indikováno vyšetření DXA.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ab5abe76-9e55-44ba-9740-1aa32aea64ad"
+      },
+      "content": [
+        {
+          "text": "Výpočet rizika je pro pacienty ve věku od 40 do 90 let. Pokud má pacient věk nižší nebo vyšší, vypočítává se pravděpodobnost pro věk 40, resp. pro 90 let.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5321ae31-67c9-4567-80e6-2c3476b6e2c0"
+      },
+      "content": [
+        {
+          "text": "Všechny rizikové faktory ovlivňující výpočet jsou popsány pod dotazníkem včetně vysvětlení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "740e9175-9772-4f6a-9304-5315f23571d6"
+      },
+      "content": [
+        {
+          "text": "Výkony související s FRAX:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "086e5371-ca11-45fa-9f9f-f8b246a9231b"
+      },
+      "content": [
+        {
+          "text": "11320: (VZP) MANAGEMENT ČASNÉHO ZÁCHYTU OSTEOPORÓZY PRAKTICKÝM LÉKAŘEM NEBO GYNEKOLOGEM - JE INDIKOVÁNO DXA",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ce94759-629d-4e85-82af-97771558c98b"
+      },
+      "content": [
+        {
+          "text": "11321: (VZP) MANAGEMENT ČASNÉHO ZÁCHYTU OSTEOPORÓZY PRAKTICKÝM LÉKAŘEM NEBO GYNEKOLOGEM - NENÍ INDIKOVÁNO DXA",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

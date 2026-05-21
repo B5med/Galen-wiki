@@ -1,0 +1,558 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2e4bd5bf-5404-4dc1-9478-c677c494beee"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8f769c63-a9c4-42c5-a2ed-a504bbe3396f"
+      },
+      "content": [
+        {
+          "text": "Změny v ePoukazu od 1. 1. 2026",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8fbe2971-c210-47b6-982a-dd2353688989"
+      },
+      "content": [
+        {
+          "text": "Do systému byly zapracovány všechny změny související s úpravami ePoukazu, které vstupují v platnost od 1. 1. 2026. Cílem je zjednodušit vystavování poukazů, zpřesnit validace a zrychlit proces schvalování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5ad3e878-4e98-499b-8c15-ba4fa448e546"
+      },
+      "content": [
+        {
+          "text": "Co je nového:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d829c665-a4cf-42b6-a749-d8dcaf47fbae"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b2b843b4-a8d3-4044-a18a-a46865d88c04"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "867996a0-6268-4eaf-8677-e6d98a3b3c6e"
+              },
+              "content": [
+                {
+                  "text": "Zvýšení velikosti příloh:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Maximální velikost přiložených dokumentů je nyní 10 MB.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cc9425b3-a7a4-43d1-aefd-fb8d1d770c45"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5d799b54-05d6-4e7a-a849-d0a3007a22d0"
+              },
+              "content": [
+                {
+                  "text": "Úpravy signálního kódu 0082747 (vlhké krytí):",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Automatické množství 999, nové povinné položky pro popis a rozměry rány.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5bdce5b1-d51b-4dd5-a3d0-bf324aa0ba15"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4245eb90-4136-43e1-90ad-87a7834553f4"
+              },
+              "content": [
+                {
+                  "text": "Změny v povinnosti uvádět datum signálního kódu:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Datum se již nevyžaduje ve vybraných situacích (např. stav „Ke schválení“).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8f7dc18a-c374-4ba3-8ad6-28d812a6ab32"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9968e72e-9e37-48c7-9140-5b83720e778b"
+              },
+              "content": [
+                {
+                  "text": "Nový způsob předpisu neregistrovaného prostředku:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Aktualizace tlačítka na „+ Kód 99999XX“ a nová kontrola číselnosti kódu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "74c6b52b-58e9-400f-b046-fbd5befec107"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "557a4000-239f-4121-8aaa-78056cf2005e"
+              },
+              "content": [
+                {
+                  "text": "Úpravy automatického nastavování stavu „Ke schválení“:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Zohlednění nových skupin a výjimek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0df42d14-3670-487e-91ee-75fc235bfdc9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "212cc24b-02c1-4846-a497-ec46d4ffc397"
+              },
+              "content": [
+                {
+                  "text": "Maximální preskripce – nové tlačítko a zjednodušená práce se schváleními:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Tlačítko „Doplnit číslo schválení“ umožní snadné dohledání existujícího schválení u vybraných pomůcek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2f02bce0-5b1b-4fde-b394-1171c8944877"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "89a3d4a6-da54-4e91-849e-2ba52a58c7a7"
+              },
+              "content": [
+                {
+                  "text": "Nové signální kódy:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Doplněn kompletní seznam a pravidla jejich použití.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "beff76d3-ba5a-41a1-90f9-6386c8811bc7"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ffbeb278-f351-437d-9a5d-0da390748471"
+      },
+      "content": [
+        {
+          "text": "Přeskladnění očkovací látky vč. kódu SÚKL",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ba5027ca-4ecb-40b6-9f4f-6a7369798568"
+      },
+      "content": [
+        {
+          "text": "Při přeskladnění očkovací látky se nově přenáší i SÚKL kód vakcíny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "70d0d79a-ba0b-424d-9f9d-e6565c4c9c24"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2ed3da2d-1696-4fd7-8c6a-59b67891bb82"
+      },
+      "content": [
+        {
+          "text": "Evidence ordinace, které je pacient předán do dispenzární péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c3a5fed4-94ca-4b9d-8f95-9006e07aba93"
+      },
+      "content": [
+        {
+          "text": "Pokud je dispenzarizace pacienta ve stavu „Předán specialistovi“, je nyní možné zadat IČP ordinace, ve které bude pacient dispenzarizován. Pole pro zadání IČP má pouze informativní charakter.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f1a1bcfc-7390-4c15-9628-dea65cc1ac12"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "6b012ddc-890f-42eb-b8d6-bf91f15a116f"
+      },
+      "content": [
+        {
+          "text": "Dotahování laboratorních výsledků PSA",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c276a25e-f7b1-4b92-909e-fe1685915f77"
+      },
+      "content": [
+        {
+          "text": "V rámci nadstandardní funkcionality dotahování laboratorních výsledků PSA do měření byly lépe definovány kódy výsledků, které se do tohoto pole dotahují.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5e278e84-fbf7-478d-a281-5a6558226492"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7727f772-972e-4f55-ab68-4f8edd8bd041"
+      },
+      "content": [
+        {
+          "text": "Kopie posudku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dc255ea2-b992-48e6-bc31-5da4111ef30e"
+      },
+      "content": [
+        {
+          "text": "Oprava chování při vytváření kopie posudku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "fbf88ef8-fbdb-4360-8cc9-2cb84390ddce"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "eca74779-0999-47b8-aaa3-47f277c46f6f"
+      },
+      "content": [
+        {
+          "text": "Gen. rezervace času v kalendáři",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6a6dbfc3-4656-4f12-92ff-cd63b0e06e22"
+      },
+      "content": [
+        {
+          "text": "Vytvoření generální rezervace času v kalendáři je nově omezeno na dva roky. Datum „od“ a „do“ může být v rozmezí maximálně dvou let.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "4ff0a958-9cb3-459e-9afc-05627d46b0dc"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1c35b652-8ff8-4de8-a307-dab2331b9bca"
+      },
+      "content": [
+        {
+          "text": "Vytváření eŽádanek do laboratoře pomocí tlačítka Kopie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "97c0da0e-9cf4-48dd-b71c-100fc88fb7c8"
+      },
+      "content": [
+        {
+          "text": "Je opět možné vytvářet elektronické žádanky do laboratoře pomocí tlačítka „Kopie“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "1252ee91-a1e5-4031-a49c-7b75ecf7f670"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5d32e6f8-6228-4859-8208-0338c79c63f2"
+      },
+      "content": [
+        {
+          "text": "Výzva ke kontrole vyúčtovacích skupin",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce010354-3a02-41c9-a899-a367370aec50"
+      },
+      "content": [
+        {
+          "text": "Pokud uživatel edituje smlouvu s pojišťovnou (pole „Pojišťovna“ a „Druh péče“) a nastavení vyúčtování není výchozí, je uživatel vyzván ke kontrole nastavení vyúčtování. Automaticky nastavená skupina má v názvu uvedeno „výchozí“. Pokud uživatel skupinu edituje, již není upravována automaticky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "ec59e0be-d21a-4cdd-a6f6-86620f232d35"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "13f3818f-3b7a-421d-9bb6-a4dcdbcd06c1"
+      },
+      "content": [
+        {
+          "text": "EZD – zapamatování poslední zvolené položky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d290ae66-4f82-4dcd-93a9-18ef01571b8c"
+      },
+      "content": [
+        {
+          "text": "Ve výběru položek na podepsání se pamatují poslední zvolené položky.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,428 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Převzetí dávky do péče je možné dvěma způsoby v závislosti na tom, zda byla původní dávka vytvořená v rámci dané společnosti ve FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Převzetí do péče mezi pracovišti, která mají nastaveno nahlížení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je mezi dvěma pracovišti nastaveno nahlížení, uživatel dávku, kterou chce převzít vidí ve sloupci vedené v IS Galen. Tuto dávku označí a pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Převzít do péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "ji převezme. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 401,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 213,
+            "alt": "image-20250721-123611.png",
+            "id": "15906618-377a-442d-b4c0-8232ca30972f",
+            "collection": "contentId-75268255",
+            "type": "file",
+            "height": 108
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po kliku na tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít do péče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " se v pravé části obrazovky zobrazí detail dávky. Uživatel zkontroluje, že je zaškrtnut checkbox ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít do péče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a že je vyplněno datum převzetí aktuálním datem. Tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Odeslat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " odesílá Hlášení ošetřujícího lékaře o převzetí do péče. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 350,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 216,
+                    "alt": "image-20250721-123637.png",
+                    "id": "0bd78cdb-f900-47b4-87e0-c01d5231a667",
+                    "collection": "contentId-75268255",
+                    "type": "file",
+                    "height": 74
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V části komunikace s ČSSZ uživatel zkontroluje, že hlášení ošetřujícího lékaře bylo formálně přijato ze strany ČSSZ zobrazením slovem slova OK. Hlášení je v tuto chvíli ve zpracování, jakmile bude finálně přijato, bude ze strany ČSSZ zaslána notifikace a dávka bude automaticky převedena do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 630,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-123715.png",
+            "id": "5aba6fc5-f658-4acd-b9d7-5808015a3246",
+            "collection": "contentId-75268255",
+            "type": "file",
+            "height": 53
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Převzetí do péče dávky z jiné společnosti nebo z pracoviště, na které není nastaveno nahlížení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uživatel označí dávku, kterou chce převzít, v záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vedené mimo IS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " Galen a převezme tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít do péče.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 296,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 148,
+                    "alt": "image-20250721-123743.png",
+                    "id": "6a5a8a60-d0db-4659-aa34-c28f74dd2f60",
+                    "collection": "contentId-75268255",
+                    "type": "file",
+                    "height": 89
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po kliku na tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít do péče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " se v pravé části obrazovky zobrazí detail dávky. Uživatel zkontroluje, že je zaškrtnut checkbox ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít do péče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a že je vyplněno datum převzetí aktuálním datem. Tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Odeslat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " odesílá Hlášení ošetřujícího lékaře o převzetí do péče.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 300,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 216,
+                    "alt": "image-20250721-123817.png",
+                    "id": "058e2a6b-6118-49c4-98e4-d9916f9ae4d8",
+                    "collection": "contentId-75268255",
+                    "type": "file",
+                    "height": 74
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V části komunikace s ČSSZ uživatel zkontroluje, že hlášení ošetřujícího lékaře bylo formálně přijato ze strany ČSSZ zobrazením slovem slova OK. Hlášení je v tuto chvíli ve zpracování, jakmile bude finálně přijato, bude ze strany ČSSZ zaslána notifikace a dávka bude automaticky převedena do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 564,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-123849.png",
+            "id": "6c0cfad5-1852-4ab7-9daf-1aca350523af",
+            "collection": "contentId-75268255",
+            "type": "file",
+            "height": 53
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V konfiguraci pracoviště (Správce -> Správa organizace -> výběr konkrétního pracoviště) se nachází kolonka URL adresa, kam je možné zadat odkaz na www stránky daného pracoviště. Zde vyplněnou hodnotu je možné použít v šablonách. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 906,
+            "alt": "image-20250618-112919.png",
+            "id": "b9b85f54-c6e7-40c8-8f63-691948e1f3ed",
+            "collection": "contentId-76021761",
+            "type": "file",
+            "height": 301
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Položku s URL adresou ordinace je možné použít např. takto: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 907,
+            "alt": "image-20250618-112946.png",
+            "id": "d863f9d4-282b-457a-9455-92df430adecd",
+            "collection": "contentId-76021761",
+            "type": "file",
+            "height": 425
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V e-mailu zaslanému pacientovi se zpráva zobrazí takto:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 928,
+            "alt": "image-20250618-113002.png",
+            "id": "dddfba05-fa5c-437a-9bef-eba152de6a08",
+            "collection": "contentId-76021761",
+            "type": "file",
+            "height": 396
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

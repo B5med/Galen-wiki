@@ -1,0 +1,39 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita umožňuje vytvořit lékařskou zprávu za celu společnost, resp. zahrnout do zprávy i texty pracovišť, na které má aktuální pracoviště povolené nahlížení. Funkcionalita je dostupná pouze vybraným uživatelům, kterým modul zapíná správce společnosti. Při vytváření zprávy jsou zohledněny podřízené společnosti z důvodu správných údajů uvedených v hlavičce zprávy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Zapnutí funkcionality",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost vytváření lékařských zpráv za celou společnost je nadstandardním modulem, který je zapínán ze strany Stapro.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

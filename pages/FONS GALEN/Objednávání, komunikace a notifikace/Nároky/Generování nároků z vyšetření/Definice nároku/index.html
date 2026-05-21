@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Definice nároku</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68517899">
+<link rel="stylesheet" href="../../../../../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>Definice nároku</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/68517899">Source</a> · version 1 · updated 2025-07-10T12:28:07.308Z</small></p></header>
+<main>
+<p>V modulu Nároky je třeba definovat nad kterou prohlídkou budou nároky vznikat.  </p><p>Definici zadává uživatel s oprávněním Správce v modulu <em>Nároky</em>.</p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20250710-122731.png" class="confluence-embedded-image image-center" src="./assets/image-20250710-122731.png" width="425"/></span><p>Po kliknutí na tlačítko <strong>+ </strong>se objeví okno, kde uživatel nadefinuje, jaké podmínky platí pro generovaní nároků na danou prohlídku a jejich splnění.</p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20250710-122747.png" class="confluence-embedded-image image-center" src="./assets/image-20250710-122747.png" width="425"/></span><p>Definice nároku se skládá z hlavičky definice a intervalu definice. Počet intervalů může být pod jednou hlavičkou více.</p><p><u>V rámci hlavičky definice je nutné určit:</u></p><ul><li><p>Definici prohlídky, z které se mají nároky generovat.</p></li></ul><ul><li><p>Název definice – přednastaví se název prohlídky.</p></li></ul><ul><li><p>Následná prohlídka – když je definována, po vytvoření aktuální prohlídky (a splnění podmínek), je vytvořen nový nárok na následnou prohlídku.</p></li></ul><p><u>V rámci intervalu definice je nutné určit:</u></p><ul><li><p>Odbornost – nároky se budou tvořit jenom pro pacienty s danou odborností.</p></li></ul><p>Nemusí být vyplněno.</p><ul><li><p>Věk od – minimální věk pacienta, aby mohl být nárok v rámci daného intervalu definice vytvořen/splněn.</p></li></ul><ul><li><p>Věk do – maximální věk pacienta, aby mohl být nárok v rámci daného intervalu definice vytvořen/splněn.</p></li></ul><ul><li><p>Interval</p></li></ul><p>o      Určuje minimální počet dní, který musí uběhnout mezi dvěma vytvořenými nároky v rámci stejné prohlídky.</p><p>o      Když má definice určenou následnou prohlídku, určuje minimální počet dní, který musí uběhnout mezi dvěma vytvořenými nároky v rámci aktuální prohlídky a následné prohlídky.</p><ul><li><p>Tolerance splnění – určuje kolik dní předem je možné nárok splnit, před dosáhnutím jeho platnosti (splnění budoucího nároku).</p></li></ul><ul><li><p>Záměna za prohlídku – definuje která jiná prohlídka zastupuje aktuální prohlídku.</p></li></ul><p>(zaměněná prohlídka vytváří a splní nároky podle aktuální definice).</p><p>Generování dosažením věku – když je zatrhnuté, budou se nároky pacientům generovat 1x v noci, při splnění podmínek v intervalu.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,217 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 83,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 83,
+            "alt": "image-20250721-105517.png",
+            "id": "2411c4c0-1eea-42a5-ad25-6ed72b4f4d9e",
+            "collection": "contentId-75595827",
+            "type": "file",
+            "localId": "6e03f654ce64",
+            "height": 113
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ae057f30d49a"
+      },
+      "content": [
+        {
+          "text": "Výkony zadáváme pomocí tlačítka Výkon, které se nachází v horní liště v kartotéce nad označeným pacientem, popř. na kartě pacienta. Po zadání výkonu je nutné zadání potvrdit tlačítkem OK. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8ace1a0f400e"
+      },
+      "content": [
+        {
+          "text": "V horní části okna editoru výkonů vidíme výkony nevyúčtované, v dolní části vidíme výkony vyúčtované, tzn. výkony, kterým již byla v modulu Vyúčtování přiřazena čísla dokladů.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e925dd955d32"
+      },
+      "content": [
+        {
+          "text": "Při zadávání nového výkonu zadáváme datum výběrem z kalendáře nebo manuálně. Typ výkonu, tj. pětimístný číselný kód výkonu (např. 01021) lze zadat ručně a našeptávač (roletka) během editace nabídne všechny nastavené nasmlouvané výkony pro dané pracoviště. Také lze typ výkonu vybrat šipečkou přímo z číselníku výkonů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1024,
+            "alt": "image-20250721-105552.png",
+            "id": "2faef915-be4e-4267-9c66-4f7ef04da716",
+            "collection": "contentId-75595827",
+            "type": "file",
+            "localId": "df113a3b67fc",
+            "height": 236
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1022,
+            "alt": "image-20250721-105604.png",
+            "id": "ddd69284-07c8-4887-b2a2-53a08e567917",
+            "collection": "contentId-75595827",
+            "type": "file",
+            "localId": "24c4a1cc1555",
+            "height": 114
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "ba567a68e722"
+          },
+          "content": [
+            {
+              "text": "Editor výkonů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "18d744edc27c"
+      },
+      "content": [
+        {
+          "text": "Hlavní diagnózu lze vybrat z číselníku diagnóz šipkou v řádku zadávaného výkonu v poli Hlav.Dg. nebo lze diagnózu manuálně vepsat. Pro ulehčení práce lékařům Řádk.Dg. prvotně zkopíruje diagnózu hlavní, ale je možné ji následně změnit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 456,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 456,
+            "alt": "image-20250721-105625.png",
+            "id": "98856c66-af93-4ab4-8e05-249e7e659dd4",
+            "collection": "contentId-75595827",
+            "type": "file",
+            "localId": "b21533c68bcb",
+            "height": 216
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "afaabef4083a"
+          },
+          "content": [
+            {
+              "text": "Výběr diagnózy ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b3164053526d"
+      },
+      "content": [
+        {
+          "text": "Pole Body, Cena a Výkon (název výkonu) se doplní automaticky z číselníku výkonů. Odpovědný lékař a pracoviště se také doplní automaticky, ale lze je dle potřeby změnit. K pojišťovnou určeným výkonům lze přiřadit ZUM (tlačítko Z a výběr z číselníku), ",
+          "type": "text"
+        },
+        {
+          "text": "Cestovní příkaz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (tlačítko C). Na konci řádku s výkonem vidíme, na jaký typ dokladu se výkon v závislosti na registraci pacienta u lékaře po vyúčtování přiřadí (A – ambulantní doklad, N – doklad nepravidelné péče). Typ dokladu může změnit správce organizace manuálně v modulu Vyúčtování, kde lze provádět běžná vyúčtovat zadané zdravotní výkony, které poté přímo z AIS Galen odeslat zdravotním pojišťovnám. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "855c176b3e19"
+      },
+      "content": [
+        {
+          "text": "K zadávání výkonů lze také vytvořit a použít vlastní šablony výkonů či skupiny výkonů, které se definují v modulu Nástroje. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

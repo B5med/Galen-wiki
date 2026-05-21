@@ -1,0 +1,137 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost uživatele odhlásit se z příjmu echo zpráv týkající se odstávky a údržby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel, který nemá roli ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se může v uživatelském nastavení odhlásit z příjmu echo zpráv, které jsou odesílány ze strany Stapro a které se týkajíc odstávky a údržby. Uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se z příjmu nemá možnost odhlásit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Oprava uživatelské konfigurace Galen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do okna uživatelská konfigurace Galen byl přidán vertikální posuvník.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Oprava zobrazení dotazníku FRAX ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upravili jsme zobrazení dotazníku FRAX z důvodu změn na oficiálních stránkách FRAX®. Nové chování jsme zapracovali, aby bylo možné dotazník opět plně využívat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upozornění: FRAX hodnoty jsou počítány s přesností na dvě desetinná místa, i když se na stránkách zobrazují zaokrouhlené na jedno. Pro správné posouzení indikace dalšího vyšetření přebíráme výsledky s plnou přesností.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Oprava modulu nároky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při kontaktování pacienta je nyní možné vybrat šablonu SMS, což dříve nebylo možné.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

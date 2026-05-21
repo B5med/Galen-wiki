@@ -1,0 +1,266 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "b77b5909-637b-41b9-a020-0d3a578238d8"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "041bb39a-1fc8-4b8a-a3c0-fde1a7ccf9c6"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul Vyšetření byl rozšířen o možnost, aby jedno vyšetření (prohlídku) mohlo doplnit více odpovědných lékařů ze stejného pracoviště. Jedná se tak o jedno vyšetření pacienta, na kterém pracuje více lékařů stejného pracoviště (např. ve chvíli, kdy lékař vyplňuje pouze část prohlídky), většinou během několika dní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Výchozí stav",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dosud bylo možné, aby je jedno vyšetření editoval pouze jeho autor, nebo sestra (tzn. uživatel, který není odpovědným lékařem). Jiný lékař (uživatel, který je odpovědným lékařem, tzn. při vstupu na pracoviště se nepřihlašuje na jiného odpovědného lékaře) vyšetření nemohl doplnit, editovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Aktuální stav",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nyní je možné, aby jiný odpovědný lékař na stejném pracovišti doplnil vyšetření, které bylo zadáno jiným lékařem. Vytvoří se tak řetězec na sebe navazujících prohlídek, kdy nejnovější prohlídka vychází z prohlídky předcházející.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytvoření prvního vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "První odpovědný lékař vyplní vyšetření stejně jako obvykle. Z vyšetření je možné podle potřeby vytvořit navazující formulář, vykázat výkon, nebo vyšetření uzamknout a podepsat v rámci EZD.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytvoření nového hlavního vyšetření a podzáznamu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jiný odpovědný lékař ze stejného pracoviště najde vyšetření a stiskne tlačítko Doplnit záznam.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1501,
+            "alt": "image-20250903-100634.png",
+            "id": "0e41b6e7-6806-4e90-9c95-9fcfc69a44f2",
+            "collection": "contentId-111017986",
+            "type": "file",
+            "height": 249
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 100.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po stisknutí tlačítka Doplnit záznam se vytvoří kopie původní prohlídky: Do záznamu se přenesou všechny informace z původní prohlídky a záznam se stane editovatelným. Zároveň se záznam původního odpovědného lékaře stane tzv. podzáznamem. To znamená, že na vyšetření prvního odpovědného lékaře navazuje záznam dalšího odpovědného lékaře. Nejnovější prohlídka je vždy hlavní prohlídkou, podzáznamy (tzn. předcházející prohlídky, ze kterých hlavní nejnovější prohlídka vychází) je možné zobrazit tlačítkem ▼",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1506,
+            "alt": "image-20250903-100814.png",
+            "id": "e685aaac-bc3b-4478-808b-e8bf9cdedc88",
+            "collection": "contentId-111017986",
+            "type": "file",
+            "height": 275
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Editace a mazání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tlačítko Doplnit záznam vidí pouze jiný odpovědný lékař. To znamená, že uživatel, který původní záznam vytvořil, nemůže záznam doplnit, musí editovat stávající záznam.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Sestra (tzn. uživatel, který není odpovědným lékařem) může editovat původní záznam (změna bude provedena pod odpovědným lékařem, který původní záznam vytvořil), nebo doplnit záznam a vytvořit tak novou hlavní prohlídku, která bude jako záznam odpovědného lékaře, na kterého je sestra aktuálně přihlášena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Z nově vzniklé hlavní prohlídky je možné opět vytvořit navazující formulář. Výkon lze z prohlídky vykázat pouze jeden za den, tzn. pokud nová hlavní prohlídka vznikne ten stejný den, není již možné z ní výkon vykázat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud se hlavní prohlídka stane podzáznamem, tzn. na jejím základě vznikla novější prohlídka, která z ní vychází, není možné tuto předcházející prohlídku smazat (ani uživatelem, který původní prohlídku vytvořil). Podzáznam je možné pouze uzamknout a podepsat v rámci EZD. Podzáznam také není možné editovat (ani uživatelem, který původní prohlídku vytvořil). Pokud uživatel potřebuje doplnit prohlídku, musí doplnit hlavní, tzn. nejnovější prohlídku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je však smazána hlavní prohlídka (oprávnění mazat prohlídku odpovídá již existujícím pravidlům mazání a editace záznamů), stává se podzáznam opět hlavní prohlídkou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "PLS prohlídka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jediným rozdílem PLS prohlídek je, že tlačítko Doplnit záznam není dostupné ve chvíli, kdy na poslední prohlídce uzavře položku smlouvy, která je hlavní prohlídkou. V tu chvíli ostatní lékaři nevidí na prohlídce tlačítko Doplnit záznam.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

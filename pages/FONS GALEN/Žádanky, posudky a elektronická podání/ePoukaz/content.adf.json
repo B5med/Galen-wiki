@@ -1,0 +1,157 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě účinnosti zákona č. 89/2021 Sb. o zdravotnických prostředcích a Vyhlášky č. 97/2002 ze Sbírky zákonů nabízí AIS Galen možnost vystavení elektronických poukazů. Centrální úložiště ePoukazů bude součástí informačního systému eRecept. Elektronizace se týká veškerých typů poukazů, tedy bude možné předepsat poukazy na všechny ZP, které se  předepisovaly v listinné podobě:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·        Poukaz 12 – ZP ze skupiny 09 ZP pro korekci zraku (Poukaz na brýle a optické pomůcky)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·        Poukaz 13 – všechny ostatní ZP + skupina 9.04 ZP kompenzační pro zrakově postižené (Poukaz na léčebnou a ortopedickou pomůcku)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·        Poukaz 14 – ZP ze skupiny 08 ZP pro pacienty s poruchou sluchu (Poukaz na foniatrickou pomůcku)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro zprovoznění funkcionality ePoukaz v AIS Galen je potřeba mít stávající nezbytnosti pro",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "odeslání eReceptu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Certifikát SÚKL na pracovišti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kód SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Identitu uživatele SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Podpisový certifikát",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatelé, kteří již z AIS Galen odesílají eRecept, nebudou potřebovat nic dalšího kromě toho, co používají nyní.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

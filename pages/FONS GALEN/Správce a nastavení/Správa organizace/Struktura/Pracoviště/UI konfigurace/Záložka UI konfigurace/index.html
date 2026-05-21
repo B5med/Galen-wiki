@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Záložka UI konfigurace</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/193363969">
+<link rel="stylesheet" href="../../../../../../../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>Záložka UI konfigurace</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/193363969">Source</a> · version 3 · updated 2026-01-29T07:16:40.613Z</small></p></header>
+<main>
+<div class="contentLayout2">
+<div class="columnLayout single" data-layout="single">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p local-id="8edae44b-d68b-46c3-a7b0-bbb7906c5a3c">Záložka UI konfigurace umožňuje definovat práci s kartou pacienta. Upravuje zobrazení, možnosti   tisku, editaci a další. Všechny volby v tomto okně se týkají pracoviště, tedy mohou se u jednotlivých IČP měnit.</p><p local-id="50c0b881-52fa-492a-8230-d3f1e32231b2">V části <em>Skartační lhůta </em>uživatel nastaví výchozí skartační lhůty pro kurativu a PLS na daném pracovišti. Tyto lhůty může uživatel na pracovišti změnit, zde přednastavené lhůty slouží pouze jako výchozí.</p><p local-id="2238d746-a4a3-4c22-8b03-4a9a98f4a37c"></p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h2 id="ZáložkaUIkonfigurace-Upozorňovacíokno" local-id="cef2f18e-ec91-445f-9ad3-d516e7600928">Upozorňovací okno</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20251210-150755.png" class="confluence-embedded-image image-center" src="./assets/image-20251210-150755.png" width="346"/></span><h2 id="ZáložkaUIkonfigurace-Povinnéúdaje" local-id="37ee879f-44e3-44a5-939a-7ef7bc778ddc">Povinné údaje</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20251210-150829.png" class="confluence-embedded-image image-center" src="./assets/image-20251210-150829.png" width="523"/></span><h2 id="ZáložkaUIkonfigurace-Laboratornívýsledky" local-id="306417b3-5358-4e99-a8f6-3457cc9638fa">Laboratorní výsledky</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20251210-150859.png" class="confluence-embedded-image image-center" src="./assets/image-20251210-150859.png" width="525"/></span><p local-id="485d838c-f4c8-45cc-a924-399af59e91e5"> </p><h2 id="ZáložkaUIkonfigurace-Dialogměření" local-id="896e93d5-8ae3-4898-9d97-dac946d4fc63">Dialog měření</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20251210-150946.png" class="confluence-embedded-image image-center" src="./assets/image-20251210-150946.png" width="528"/></span><p local-id="c742906c-3be8-4106-a63f-801ec3d61453">Ve výchozím nastavení jsou všechna pole pro zadání měření v dekurzu viditelná. V závislosti na odbornosti pracoviště však nejsou pro všechna pracoviště neužitelná, a proto je zde možné vybraná pole měření skrýt.</p><p local-id="76321a61-3e4f-48c5-afbb-4a4df4f97cc1">Měření, která uživatel v tomto okně vybere, budou skryta. V konkrétním případě níže tak budou skryta všechna pole určená pro pediatra.</p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20251210-151217.png" class="confluence-embedded-image image-center" src="./assets/image-20251210-151217.png" width="221"/></span><div class="panel" style="background-color: #EAE6FF;border-color: #998DD9;border-width: 1px;"><div class="panelContent" style="background-color: #EAE6FF;">
+<p local-id="3b0e6d8b-32c2-49bd-9786-9ab541eaf46c">Nově mají praktičtí lékaři pro dospělé sledovat mj. obvod pasu pacienta. Proto je nutné, aby si  pracoviště s odborností 001 skryla všechna měření v sekci pediatr kromě obvodu pasu.</p>
+</div></div><h2 id="ZáložkaUIkonfigurace-ePoukaz" local-id="05dbf64b89dd">ePoukaz</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20260126-134335.png" class="confluence-embedded-image image-center" src="./assets/image-20260126-134335.png" width="550"/></span><p local-id="5a1d30d19dbc"><strong>(1)</strong> Zjišťování stavu ePoukazu aktualizuje stav ePoukazu poté, co jiné pracoviště (pojišťovna, výdejna) změní jeho stav. Tato služba aktualizuje stavy přes noc. To znamená, že pokud bude pomůcka na ePoukazu vydána 22. 1., tak se tento stav ve FONS Galen zobrazí až 23. 1.</p><p local-id="daaade5531e9"><strong>(2) </strong>Na ePoukazu nebude při jeho předpisu zvolena notifikace pacientovi i přesto, že má pacient kontakt označen příznakem pro notifikace SÚKL. Uživatel bude mít možnost kontakt vyplnit ručně.</p><p local-id="4ad167134666"><strong>(3) </strong>V těchto dvou řádcích je možné nastavit výchozí platnost pro ePoukazy v případě předpisu pomůcky bez schválení pojišťovnou a v případě pomůcky schvalované pojišťovnou. Pokud zde není vyplněna žádná hodnota, bude ePoukaz vystaven s platností 30 dní. Přednastavenou platnost může uživatel ručně upravit při předpisu konkrétního ePoukazu. </p></div>
+</div>
+</div>
+</div>
+</main>
+</body>
+</html>

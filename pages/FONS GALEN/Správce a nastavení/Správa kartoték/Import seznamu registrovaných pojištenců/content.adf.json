@@ -1,0 +1,514 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "809beaf8-19bd-48af-bead-8d26eb8db0e2"
+      },
+      "content": [
+        {
+          "text": "Postup importu:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "100af3d5-859d-4188-ac67-9e5784952612"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "64581b72-63e2-4ada-889e-de748781252b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "009d888e-fe28-4185-9952-2a915a89807e"
+              },
+              "content": [
+                {
+                  "text": "Navigace: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa kartoték  → Kontrola",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b95fa78c-98d6-47fe-84e8-3b658f1f89f0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c089b6e1-f744-44bb-a08a-9e2780f3d22b"
+              },
+              "content": [
+                {
+                  "text": "Zde lze nahrát FDávku od pojišťovny se seznamem registrovaných pojištěnců.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c9f63eaf-ee8e-4022-8d54-8a21dd05d966"
+      },
+      "content": [
+        {
+          "text": "Požadavky na název:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "21ad270d-fb7e-437d-9b8f-747c301ef620"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "389a7a13-b7d7-44e0-933a-eeb4bf7fc715"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b5f7ae1b-511a-431b-b600-f06ab0538f6f"
+              },
+              "content": [
+                {
+                  "text": "Délka názvu souboru: 12 znaků (včetně tečky).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2cc6aac8-435f-4d63-bcf5-cfcfaa34d7d1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ddfb53cc-41a1-45cc-b37c-274e31467917"
+              },
+              "content": [
+                {
+                  "text": "Pokud první písmeno názvu je ",
+                  "type": "text"
+                },
+                {
+                  "text": "F",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ":",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "e226035e-926a-40ba-bb03-560048c04282"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "15be76be-f4bc-40e6-8fe1-f48c6b2ecac5"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "d05f3ffa-52a2-420c-a282-d250784e1c25"
+                      },
+                      "content": [
+                        {
+                          "text": "První řádek musí být dlouhý 20 znaků.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "42808238-b143-468b-b393-a63cd6858c87"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e261a4f6-7f9b-4a08-bd08-e4e0eda808e2"
+              },
+              "content": [
+                {
+                  "text": "Pokud první písmeno názvu je ",
+                  "type": "text"
+                },
+                {
+                  "text": "E",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ":",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "2696cbc2-2539-4e63-a734-0e8cf20b86bf"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c0bdd77d-9c37-40e0-8be7-e506e184d3bf"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "659ff085-99d2-4747-bd30-f6e8c7e6320d"
+                      },
+                      "content": [
+                        {
+                          "text": "První řádek musí být dlouhý 32 znaků.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "eebcacba-19af-47dc-b053-f2722025338b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c8fe57a5-5fde-4c40-87b4-06764b9c8771"
+              },
+              "content": [
+                {
+                  "text": "Název musí dále obsahovat:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "2c356d8b-f377-440a-8915-ab57050de83c"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "2e40dfe4-5485-4de9-9217-344679bfed60"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "81afffb4-d5ec-4a5d-970d-8cc9fdcbde54"
+                      },
+                      "content": [
+                        {
+                          "text": "Tříznakový kód pojišťovny.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "4c76fc66-a932-4cd4-bb36-1895707a2e37"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "91e95bad-290b-4db1-b98c-88eaea3d1547"
+                      },
+                      "content": [
+                        {
+                          "text": "Poslední dvě číslice z roku.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "0eb6a3fb-dc6b-4258-a479-9a382e1bc073"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6a3deac4-60df-4519-b6d7-7951e199b3d7"
+                      },
+                      "content": [
+                        {
+                          "text": "Dvojčíselné vyjádření měsíce.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d19c9a02-0436-420c-a686-a3e97165ce24"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ed2c1d3a-2f9d-47ff-b2f3-a0b078ded2b5"
+              },
+              "content": [
+                {
+                  "text": "První řádek souboru musí začínat písmenem ",
+                  "type": "text"
+                },
+                {
+                  "text": "H",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b360ef98-7888-4d9a-b15d-911cb699f966"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3aee93da-bf68-4480-9fe0-034cb73aa66a"
+              },
+              "content": [
+                {
+                  "text": "Následujících 8 znaků musí být IČP pracoviště, na které se provádí nahrání FDávky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 926,
+            "alt": "image-20250616-093000.png",
+            "id": "c3d216a5-a6e5-4134-902d-ff568822479f",
+            "collection": "contentId-46071809",
+            "type": "file",
+            "localId": "d6115713-6cc7-44e2-9b4f-382eb81dc8c3",
+            "height": 210
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8a01db1b-7479-4d5f-946f-ecb415204492"
+      },
+      "content": [
+        {
+          "text": "Nový import seznamu pojištěnců:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c7de5879-5d4a-4358-b593-02786dd67196"
+      },
+      "content": [
+        {
+          "text": "V modulu Správce -> Správa kartoték -> Kontrola -> je možné nahrát Fdávku od pojišťovny se seznamem registrovaných pojištěnců.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pro import seznamu pojištěnců je nutné zvolit pracoviště, poté vybrat soubor, který budeme importovat. Zobrazí se seznam pojištěnců s možností volby vytvoření či nevytvoření registrační dávky, s možností vyloučit pojištěnce z importu odtržením checkboxu na začátku řádku. Sloupec operace oznamuje, jaká akce po importu má nastat. Tlačítkem Provést aktivujeme import zvolných položek souboru.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 756,
+            "alt": "image-20250616-093123.png",
+            "id": "5187725b-15f6-4c7f-8501-a91d85bc1bce",
+            "collection": "contentId-46071809",
+            "type": "file",
+            "localId": "b321339c-5631-4304-b4be-202c90cf6c41",
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e437c87d-5216-4e7f-9fae-fbd28d39c6db"
+      },
+      "content": [
+        {
+          "text": "Tlačítkem Provést aktivujeme import zvolných položek souboru. Před samotným importem se zobrazí okno k výběru měsíce, ke kterému import provedeme. Systém poté oznámí, kolik změn bylo provedeno a ukáže se okno s dotazem, zda chceme seznam vytisknout. Import je dokončen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 405,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 405,
+            "alt": "image-20250616-093145.png",
+            "id": "3f4565e6-1533-4582-8fc8-c201e61903fa",
+            "collection": "contentId-46071809",
+            "type": "file",
+            "localId": "a3d719b5-da9f-4811-9ab3-117fb92cbdba",
+            "height": 119
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eeb4456b-3e3a-4811-a22d-b3541398463d"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1cbb8026-2793-43b0-8719-73497ca4f419"
+      }
+    }
+  ],
+  "version": 1
+}

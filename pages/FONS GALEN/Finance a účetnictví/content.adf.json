@@ -1,0 +1,104 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5459267e3fb8"
+      },
+      "content": [
+        {
+          "text": "Tato sekce pokrývá finanční agendu spojenou s provozem zdravotnického zařízení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c5cb6a1bd57e"
+      },
+      "content": [
+        {
+          "text": "Najdete zde modul Finance pro celkovou správu pokladen a finančních toků, export dokladů do účetního systému POHODA a nastavení uživatelské hlavičky na bankovním spojení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "7ae8f7fb2a6c"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "f27c2c344a2e"
+          },
+          "content": [
+            {
+              "text": "Návod k vyúčtování pro pojišťovny najdete v sekci Správce a nastavení: ",
+              "type": "text"
+            },
+            {
+              "text": "Vyúčtování ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792385"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "51b755c4-bc3b-4b51-b4fd-82f9a9b2c900"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "79505860-2a01-4a49-b2a4-8b3af0c278ef"
+      }
+    }
+  ],
+  "version": 1
+}

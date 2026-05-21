@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/>
+<title>API StrukturaOrganizaceService</title>
+<link href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/30113793" rel="canonical"/>
+<link href="../../_assets/confluence.css" rel="stylesheet"/>
+</head>
+<body>
+<header><h1>API StrukturaOrganizaceService</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/30113793">Source</a> · version 1 · updated 2025-05-15T08:28:49.012Z</small></p></header>
+<main>
+<div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Toto API zasílá přehled pracovníků společnosti, tj. uživatelů přirazených na konkrétní pracoviště. Jeden uživatel může být přiřazen na více pracovištích.</p></div></div><h2 id="APIStrukturaOrganizaceService-get/api/StrukturaOrganizaceService/Pracovnici">get /api/StrukturaOrganizaceService/Pracovnici</h2><div class="confluence-information-macro confluence-information-macro-note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">⚠️</span><div class="confluence-information-macro-body"><p>Informace o deaktivaci uživatele zasílání nejsou. Pokud je uživatel (resp. pracovník) deaktivován, je i přesto zaslán pomocí metody.</p></div></div><p></p><h2 id="APIStrukturaOrganizaceService-get/api/StrukturaOrganizaceService/PracovniciZaObdobi">get /api/StrukturaOrganizaceService/PracovniciZaObdobi</h2><div class="confluence-information-macro confluence-information-macro-note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">⚠️</span><div class="confluence-information-macro-body"><p>Metody <em>Pracovnici </em>a <em>PracovniciZaObdobi</em> zasílají přehled všech pracovníků  bez ohledu na to, zda je pracovník (uživatel na pracovišti) aktivní, či nikoli.</p></div></div><ul><li><p>Metoda zasílá přehled pracovníků, v jejichž nastavení byla provedena změna. </p></li><li><p>Pracovník jako takový nemůže být deaktivován, může být pouze ukončen přístup pracovníka na pracoviště k určitému datu. </p></li><li><p>V případě ukončení přístupu na pracoviště se nejedná o smazání, ale o editaci, a proto je zaslán záznam tohoto znění</p></li></ul><p><code> {       "prijmeni": "Dlaha",       "jmeno": "Julius",       "titul": "MUDr..",       "titulZa": "PhD.",       "platnostOd": "02052025",       "odpovednyLekar": true,       "icpPracoviste": "00000000",       "nazevPracoviste": "Springfield General Hospital",       "typZmeny": "U",       "datumCasZmeny": "15052025T08:13:52.304",       "externiId": "C6DFBF8B-007F-484D-A307-65E87A5546G2"     }</code></p><p></p>
+</main>
+</body>
+</html>

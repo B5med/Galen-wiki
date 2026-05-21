@@ -1,0 +1,207 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "0a8cf5ae-df24-4e06-a3d6-97838242f0ec"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "a083717f-58cb-4a51-b1c0-b333a31b77cb"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eb51c332b517"
+      },
+      "content": [
+        {
+          "text": "V modulu Finance lze z pozice Správce vést celkovou správu pokladen a finančních toků.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "221f92dd0ee6"
+      },
+      "content": [
+        {
+          "text": "Pokladna  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fc39492ac82a"
+      },
+      "content": [
+        {
+          "text": "Je možné provádět pokladní uzávěrku k určenému datu, tisk pokladní knihy, zadat nový příjem či výdej z pokladny. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1187,
+            "alt": "image-20250619-073004.png",
+            "id": "d98ca3f2-53ce-4c91-8e01-177c0143d108",
+            "collection": "contentId-50167847",
+            "type": "file",
+            "localId": "ba31f4ed2ab1",
+            "height": 167
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7b8b6b0d1060"
+      },
+      "content": [
+        {
+          "text": "Pokladní doklady ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7e9fae91216c"
+      },
+      "content": [
+        {
+          "text": "V sekci Pokladní doklady lze filtrovat a tisknout zavedené pokladní doklady. Horní část okna zobrazuje jednotlivé doklady a po označení požadovaného řádku s pokladním dokladem se v dolní části okna zobrazuje obsah dokladu, tedy položky na dokladu uvedené. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1271,
+            "alt": "image-20250619-073032.png",
+            "id": "5a06919a-1c93-45ef-8f1d-2ee7904eb844",
+            "collection": "contentId-50167847",
+            "type": "file",
+            "localId": "35174c9909d5",
+            "height": 698
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "440cdc84b6f5"
+      },
+      "content": [
+        {
+          "text": "Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "38082c2ddb25"
+      },
+      "content": [
+        {
+          "text": "Oddíl faktury je strukturován stejně jako oddíl Pokladny. Lze filtrovat Faktury dle různých kritérií, které uživatel zadá do filtru. Poté lze vyhledané faktury prohlížet či tisknout. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a6faa3310751"
+      },
+      "content": [
+        {
+          "text": "Pohledávky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "52bb62a548bd"
+      },
+      "content": [
+        {
+          "text": "V oddíle pohledávky najdeme všechny vystavené doklady, které nejsou ještě zaplacené. Pohledávky lze v na tomto místě také jednotlivě nebo hromadně zaplatit. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

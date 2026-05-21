@@ -1,0 +1,147 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při ztrátě konektivity zčervená Zeměkoule vpravo nahoře. Chce-li uživatel vstoupit do jiného okna aplikace (např. Výkony, Anamnéza, Kartotéka atd.), systém zobrazí upozornění o možnosti ztráty dat. Po stisku tlačítka OK zmizí upozorňovací okno a původní okno zůstane nezměněné. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 905,
+            "alt": "image-20250618-111542.png",
+            "id": "f78fa68b-f976-4694-8ff0-5a042e8da2bc",
+            "collection": "contentId-47939696",
+            "type": "file",
+            "height": 263
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 88,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 88,
+            "alt": "image-20250618-111604.png",
+            "id": "419eadea-958c-4038-990e-afad8a45450c",
+            "collection": "contentId-47939696",
+            "type": "file",
+            "height": 80
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud se uživatel rozhodne odejít z programu tímto tlačítkem, systém zobrazí dotaz, zda uživatel chce uložit provedené změny.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 911,
+            "alt": "image-20250618-111646.png",
+            "id": "a2b5c874-e628-4d2f-91e0-7c3a0486ca29",
+            "collection": "contentId-47939696",
+            "type": "file",
+            "height": 264
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ano",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - systém upozorní uživatele, že došlo k chybě při síťové komunikaci. Pokud uživatel v tuto chvíli aplikaci ukončí, dojde ke ztrátě zapsaných dat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ne ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "- nově zapsaná data se neuloží. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Storno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - zobrazené okno IS Galen se nezmění, pouze dotazovací okno k uložení změn se uzavře. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

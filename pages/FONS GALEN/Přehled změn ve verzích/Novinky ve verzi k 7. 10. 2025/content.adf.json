@@ -1,0 +1,786 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8e742661-b968-44ac-a3e3-e4b17ea8b1f7"
+      },
+      "content": [
+        {
+          "text": "🩺 Těhotenská prohlídka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e977e07f-936b-460c-9d7f-cdbdd183127e"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36690a17-b4b7-412e-9a8c-ea6dd3c694ab"
+      },
+      "content": [
+        {
+          "text": "V rámci ",
+          "type": "text"
+        },
+        {
+          "text": "dekurzu těhotenské prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je nově zobrazován i ",
+          "type": "text"
+        },
+        {
+          "text": "čas provedení prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "46b422b4-5d75-4c03-8417-45920449542b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "602f6d0a-ace3-48bc-addc-4010b266b0e1"
+      },
+      "content": [
+        {
+          "text": "🧮 Nový druh fráze „Měření“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "eb63999c-0ef9-4b42-850f-a95cc307c001"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "26104e78-5af7-42e6-9c74-0eaa04698e4c"
+      },
+      "content": [
+        {
+          "text": "V systému byl naprogramován nový druh fráze s názvem ",
+          "type": "text"
+        },
+        {
+          "text": "„Měření“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d7c33b2c-d152-47f5-b7d1-6d569edf486c"
+      },
+      "content": [
+        {
+          "text": "Nový druh fráze ",
+          "type": "text"
+        },
+        {
+          "text": "„Měření“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je nyní dostupný v položkách textového typu a je určen pro použití v rámci funkcionality měření, konkrétně:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "59509561-9deb-478d-b781-e58f5796f2c2"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f2b313cc-61af-4e59-a3f6-013137a614da"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c4741ed0-364a-4dff-ba4a-57ca3e3c5cd0"
+              },
+              "content": [
+                {
+                  "text": "při zadávání měření přes ",
+                  "type": "text"
+                },
+                {
+                  "text": "dekurz",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "58a17085-acee-4d84-9694-cb871bfcdfdd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8a96f5e3-0367-48dd-bb49-6c0d51ec9817"
+              },
+              "content": [
+                {
+                  "text": "při zadávání měření přes ",
+                  "type": "text"
+                },
+                {
+                  "text": "prohlídky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "734f9a27-1a6b-4e1a-9c24-4b80bfda7b5c"
+      },
+      "content": [
+        {
+          "text": "Správa a editace:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Fráze typu „Měření“ je plně editovatelná a spravovatelná stejně jako ostatní druhy frází v systému.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "76d6bad8-5762-4eff-9277-0268ad43306b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d0678cdb-721b-4e4e-aeaa-b51a63b0076e"
+      },
+      "content": [
+        {
+          "text": "📬 Přeposlat upozornění",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a504d33b-c50a-4085-a031-df3abee2b172"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c476b8d1-ff5b-401f-ad9b-d2cc73c501d7"
+      },
+      "content": [
+        {
+          "text": "V ",
+          "type": "text"
+        },
+        {
+          "text": "kontextovém menu přehledu upozornění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (pravým kliknutím na vybrané upozornění) je nově k dispozici akce ",
+          "type": "text"
+        },
+        {
+          "text": "„Přeposlat upozornění“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a66c71c2-2cb2-4052-9146-9c0e9884cf35"
+      },
+      "content": [
+        {
+          "text": "Po zvolení akce ",
+          "type": "text"
+        },
+        {
+          "text": "„Přeposlat upozornění“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se vytvoří ",
+          "type": "text"
+        },
+        {
+          "text": "kopie původního upozornění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Nové upozornění je plně editovatelné.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Tato funkce usnadňuje opakované odesílání podobných upozornění s možností jejich úprav před odesláním.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "6a0bc7b4-f187-4f1c-8681-22c37b910769"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fbac093e-5636-4d5f-8cb0-a33a62ddfaf8"
+      },
+      "content": [
+        {
+          "text": "📊 Doplnění statistik – Přehled výkonů a Přehled dokladů vyžádané péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "1e8ec982-fff8-4381-a65f-7ecb2301c724"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0bf49768-c61d-4958-af48-f55e76e45297"
+      },
+      "content": [
+        {
+          "text": "Do obou statistik byly přidány nové sloupce pro detailnější identifikaci žádajícího lékaře:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "01ca542f-7be0-4cae-9c28-360fa476a5a7"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "358d9955-05e7-4c97-92f1-a2feb2d35cde"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1465b506-7278-4150-a85f-41d4550543ed"
+              },
+              "content": [
+                {
+                  "text": "IČP žadatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "94105868-9af6-4227-8860-f8e901e80423"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3f22d372-f7ba-4285-bb7a-354c8f0e68d5"
+              },
+              "content": [
+                {
+                  "text": "Bližší identifikace žadatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (jméno a příjmení, případně adresa)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "abde36b4-b4ec-4b11-bcee-0a45c03cad96"
+      },
+      "content": [
+        {
+          "text": "Rozšíření umožňuje přesnější přehled o původu vyžádané péče a žadatelích o výkony.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "dc2b624b-77e8-4643-996d-ea355d96d02a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5a9d626f-098e-4301-85e6-6c7d6caffed9"
+      },
+      "content": [
+        {
+          "text": "📅 Statistika „Přehled objednávek – pacient“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5af326a3-5331-4f9b-9ead-020b2188010e"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b9a03e01-5e8e-4efa-b6c7-2616ad09aef9"
+      },
+      "content": [
+        {
+          "text": "Do statistiky byly doplněny také objednávky bez vazby na pacienta (tj. záznamy v kalendáři vytvořené ",
+          "type": "text"
+        },
+        {
+          "text": "neregistrovaným pacientem přes Portál pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ").",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "494548f9-afd0-453a-b12b-9f934d2fff27"
+      },
+      "content": [
+        {
+          "text": "U těchto záznamů se nyní zobrazují dostupné údaje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1a7af6ca-7357-43b7-9d2d-2b84ebe966ba"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "57683ac3-e61f-45b2-b57d-5bc4cf4e73af"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "55a2e0c8-8113-4554-b78f-4e83027ac06c"
+              },
+              "content": [
+                {
+                  "text": "Datum objednávky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e390baaf-ba01-444e-a6ee-15ff6c8f8b1d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "509bf998-c828-42b1-b5c6-9e2b7b2c3787"
+              },
+              "content": [
+                {
+                  "text": "Číslo pojištěnce",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (pokud je známo)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "54ab8b25-7cab-4ec1-ae48-5911f3baaa5f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "eeaa5a8a-3066-43e9-b509-b9a68f36fda8"
+              },
+              "content": [
+                {
+                  "text": "Pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1fa7e234-4903-4333-b3df-276242a2efdd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e932df4c-bb67-4774-8546-578b1c884c6d"
+              },
+              "content": [
+                {
+                  "text": "Registrován v PP = NE",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3fbff787-2913-43a2-8aef-c739473a1ef8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ef32538d-3d3f-41b3-97f1-6f0853fc204f"
+              },
+              "content": [
+                {
+                  "text": "Objednávka z PP (ANO/NE)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0df1fac9-9116-45aa-98ea-a348192b7d94"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c8360ad-7c54-4d90-bfd4-6faf28893aca"
+              },
+              "content": [
+                {
+                  "text": "Název kalendáře",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4f581490-cfdd-4e86-88e1-ba03db9559b0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "70ad2ed7-83f6-4f4f-b9e2-f1bf09db7ba2"
+              },
+              "content": [
+                {
+                  "text": "Typ objednávky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "79439665-3618-4915-b179-8477b451fe4a"
+      },
+      "content": [
+        {
+          "text": "Pokud byla objednávka vytvořena přímo v ",
+          "type": "text"
+        },
+        {
+          "text": "Galenu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", doplní se i pole:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "b802a5f0-4ac4-4710-835d-bc33e3f27f07"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bb60056e-75ec-432a-9aeb-cb25e98dd06b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5bed35d5-5560-4429-af78-c814f4b6dc2b"
+              },
+              "content": [
+                {
+                  "text": "Objednávku vytvořil",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a5f74672-6734-4851-ba0a-0ea9ffe431f2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9def6beb-3c7e-40d1-809f-78b6731ab993"
+              },
+              "content": [
+                {
+                  "text": "Role uživatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

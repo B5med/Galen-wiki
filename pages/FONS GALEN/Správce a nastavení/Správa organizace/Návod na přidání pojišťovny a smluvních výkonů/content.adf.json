@@ -1,0 +1,686 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nastavení pojišťoven se provádí pod rolí správce v modulu Správa organizace ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 471,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 471,
+            "alt": "image-20250826-115901.png",
+            "id": "e2e0e5a0-9e4b-4481-a24a-361e48a4a07d",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 120
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pojišťovnu je potřeba přidat pod každé IČZ a IČP zvlášť ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1145,
+            "alt": "image-20250826-115924.png",
+            "id": "edc8b454-57e8-446f-b733-4363a7b49784",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 648
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 100.0
+          },
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 3
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Vyberte IČZ kliknutím na modrou buňku a přejeďte do pravého panelu, kde můžete přidat novou pojišťovnu pomocí zeleného plus a otevře se Vám okno pro nastavení základního parametru smlouvy pro pojišťovnu, kterou si vyberete v prvním řádku. ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 266,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 218,
+                    "alt": "image-20250826-115956.png",
+                    "id": "d4a07574-8177-44e7-a91c-da7bbe75e33b",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 44
+                  }
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 74,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 34,
+                    "alt": "image-20250826-120005.png",
+                    "id": "e1b4e8ab-7d3b-414c-aa0e-14c9e80cd3f7",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 35
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 407,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 407,
+                    "alt": "image-20250826-120034.png",
+                    "id": "91229edf-7b7e-4598-9ad6-853c98fc5939",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 525
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 4
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Vyberte pojišťovnu a potvrďte tlačítkem ok. U VZP prosím zadejte příslušnou pobočku. Dále vyplňte bankovní spojení, kam Vám má pojišťovna posílat peníze. Splatnost faktury zadejte 30 dní. Naposledy nastavte druh péče (PL je 51, PLDD 52, většina specialistů má 62, ale například Gynekologie je 45). Nastavení pojišťovny potvrďte tlačítkem ok. ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 410,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 410,
+                    "alt": "image-20250826-120054.png",
+                    "id": "725277d5-4482-4d60-9bfc-0ae736f3ed72",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 532
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 5
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Následně v pravém panelu použijte tlačítko uložit a můžete přejít na modrou buňku IČP",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 447,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 447,
+                    "alt": "image-20250826-120134.png",
+                    "id": "8eab8e00-8e90-471d-908e-6236d78dec6b",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 487
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud kliknete na buňku IČP, otevře se Vám nový postranní panel s nastavením. Sjeďte pomocí rolovacího menu dolů, kde se zobrazují pojišťovny. Pomocí zeleného plus přidejte požadovanou pojišťovnu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1231,
+            "alt": "image-20250826-120155.png",
+            "id": "6c5ba540-bfe0-4b47-b88d-81c3d9e75a47",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 690
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 7
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Otevře se okno s nastavením parametrů pojišťovny. Napište kód pojišťovny nebo název a druh péče, který jste již zadávali pod IČZ. Dále můžete pomocí horního zeleného plus přidat jednotlivé výkony. Pokud máte výkony stejné jako v jiné již zadané pojišťovně, tak přejděte bez zadávání výkonů na spodní zelené plus a přidejte období RR/MM, základní hodnotu bodu, koeficient 1 a kapitační paušál (praktický lékař nebo pediatr). Nastavení uložte pomocí tlačítka OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 999,
+            "alt": "image-20250826-120233.png",
+            "id": "0c73bc73-f1c1-4a6a-bbfc-1e41f5844905",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 692
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 8
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Následně můžete využít funkci kopírování výkonů z jiné již zadané pojišťovny. Označte pojišťovnu, z které budete kopírovat výkony a použijte tlačítko Kopírovat smluvní výkony. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 414,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 414,
+            "alt": "image-20250826-120248.png",
+            "id": "29748e88-c0e1-4dd0-a810-6443a9148855",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 84
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 9
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Otevře se Vám okno pro výběr jednotlivých pojišťoven. Více pojišťoven můžete poznačit pomocí klávesy ctrl + pravé tlačítko myši. Následně potvrďte tlačítkem OK a pak ve stejném pravém menu uložte pomocí horního tlačítka uložit.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 541,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 541,
+                    "alt": "image-20250826-120312.png",
+                    "id": "8bad585e-6c34-4eb7-9670-f488c448a628",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 41
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 495,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 495,
+                    "alt": "image-20250826-120323.png",
+                    "id": "ff3cee34-2659-4db7-8bf0-19e43caac7d0",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 396
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V případě, že jste lékař specialista a máte maximální úhrady nebo úhrady pomocí paušálu. Přejděte zpět pod buňku IČZ a klikněte na tlačítko Nastavení vyúčtování. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 521,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 521,
+                    "alt": "image-20250826-120341.png",
+                    "id": "6c5c03c0-d035-44b5-86bc-1f13c85d2304",
+                    "collection": "contentId-104890403",
+                    "type": "file",
+                    "height": 228
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 11
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V tabulce pod jednotlivými pojišťovnami použijte tlačítko editovat strukturu a otevře se Vám nabídka kde je možné vybrat typ maximální úhrady po zaškrtnutí  Max. úhrady. Vyberte druh max. úhrady a následně pomocí zeleného plus přidejte od kdy Vám pojišťovna nastavila maximální úhradu. Platnost je vždy do konce roku pokud se mezitím s pojišťovnou nedohodnete na změně. Zadejte částku a okno zavřete a uložte v pravém panelu tlačítkem uložit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozor! Pokud jsou jednotlivé pojišťovny v tomto okně oranžové tak použijte nejdříve tlačítko Resetovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1072,
+            "alt": "image-20250826-120417.png",
+            "id": "0dc30884-fbcf-4b36-8639-0dcd195294e1",
+            "collection": "contentId-104890403",
+            "type": "file",
+            "height": 589
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Veškeré změny se projeví až po restartu FONS Galen. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,741 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "49a43d61-a624-47f4-ba39-7fb04a5428eb"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "3b8f38bc-465d-4cab-8c82-18da3772bc7c"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost odesílat eRecepty přímo do centrálního úložiště SUKLu vyžaduje zprovoznění funkcionality v IS Galen za použití dvou certifikátů – podpisového certifikátu lékaře a SUKL certifikátu daného pracoviště.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přístupové údaje SUKL: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "O přístupové údaje sloužící ke zprovoznění funkcionality eRecept je nutné zažádat na stránkách SUKLu (",
+          "type": "text"
+        },
+        {
+          "text": "www.sukl.cz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "http://www.sukl.cz/"
+              }
+            }
+          ]
+        },
+        {
+          "text": "). Během několika týdnů (cca 1 měsíc) ",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "​​přijde doporučený dopis ​​s ​​tímto ​​obsahem: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přístupové údaje OSOBY pro přístup do portálu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přístupové údaje OSOBY pro přístup do centrálního úložiště ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přístupové údaje ZAŘÍZENÍ pro přístup do portálu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přístupové údaje ZAŘÍZENÍ pro přístup do centrálního úložiště ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přístupové údaje do za osobu i za zařízení slouží k: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přístupové údaje do za osobu i za zařízení slouží k: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "přístupu do portálu ",
+                  "type": "text"
+                },
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "url": "http://identity.sukl.cz"
+                  }
+                },
+                {
+                  "text": "  – slouží ke správě přístupů a změně hesla ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "přístupu na portál ",
+                  "type": "text"
+                },
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "url": "http://pristupy.sukl.cz"
+                  }
+                },
+                {
+                  "text": "  – slouží ke generování certifikátu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "přístupu do samotného centrálního úložiště receptů - slouží vašemu ambulantnímu softwaru k ověření pro komunikaci s centrálním úložištěm receptů. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Máte tedy celkem 4 přihlašovací údaje.  Centrální úložiště receptů vyžaduje pro svůj přístup dvojí ověření. Prvním je ověření zdravotnického zařízení, druhým je pak ověření samotné osoby.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozor, údaje, které jste dostali ze SÚKLu ještě nejsou aktivní, pro jejich aktivaci je třeba změnit heslo. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Aktivace​​ údajů ​​pro ​​ověření ​​osoby na stránkách SUKLu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro​​ aktivací ​​údajů ​​pro​​ ověření​​ osoby ​​je ​​třeba ​​se ​​přihlásit​​ na ​​stránkách ",
+          "type": "text"
+        },
+        {
+          "text": "http://identity.sukl.cz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "link",
+              "attrs": {
+                "href": "http://identity.sukl.cz/"
+              }
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro​​přístup ​​k ​​aktivaci ​​údajů​​ o ​​osobě ​​lékaře ​​(tedy ​​ne ​​o ​​zdravotnickém ​​zařízení) ​​je ​​třeba ​​napoprvé ​​použít přihlašovací​​ jméno ​​a ​​heslo ​​označené ​​(​​Údaje ​​osoby ​​pro​​ přístup ​​na​​ portál) .​​​Ihned ​​po ​​prvním ​​přihlášení ​​si​​ musíte ​​heslo​​ změnit.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nastavení certifikátu vydaného SÚKLem do IS Galen ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "(certifikát není nutné instalovat):  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Modul Správce -> modul Správa Organizace -> tlačítko Rozbalit strukturu -> vybrat IČP -> v pravé části se zpřístupní informace o pracovišti.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 500,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 500,
+            "alt": "image-20250721-075514.png",
+            "id": "e0605413-2bc0-4eb3-8659-84caf9081458",
+            "collection": "contentId-75333635",
+            "type": "file",
+            "height": 643
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Nastavení certifikátu a čísla Centrálního úložiště eReceptů ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V informacích o pracovišti vyplnit Kód SÚKL.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Stisknout tlačítko Nastavit -> tlačítko Vybrat soubor (vybrat certifikát ",
+                  "type": "text"
+                },
+                {
+                  "text": "vydaný SÚKLem",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ") -> výběr potvrdit tlačítkem Otevřít.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vyplnit Heslo a potvrdit změny tlačítkem OK.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nastavení uložit tlačítkem Uložit (nahoře).  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Pokud nastavení proběhlo v pořádku, po uložení se doplnilo datum u Platnosti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nastavení kvalifikovaného certifikátu vydaného certifikační autoritou:  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nastavení certifikátu lze z pozice správce v modulu Správa organizace nebo z pozice uživatele v konfigurační hlavičce v ordinaci v pravém horním rohu.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V modulu Správa organizace přejít na záložku Uživatelé.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vyhledat příslušného uživatele a otevřít jeho nastavení dvojklikem.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 766,
+            "alt": "image-20250721-094004.png",
+            "id": "4536ac70-9a21-4488-9457-cf9b4d18a45c",
+            "collection": "contentId-75333635",
+            "type": "file",
+            "height": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Stisknout tlačítko Vybrat (tlačítko u eRecept) a vyhledat certifikát -> výběr potvrdit tlačítkem OK -> po výběru se doplní sériové číslo certifikátu.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V části eRecept doplnit:  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Identifikace SÚKL  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Heslo  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Změny potvrdit tlačítkem OK ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Odeslané recepty na SUKL = eRecepty nelze již smazat, ale lze je stornovat obdobným způsobem jako již popsané smazání receptu. Informace o stornování eReceptu je také odesílána na SUKL.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

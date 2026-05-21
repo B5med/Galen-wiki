@@ -1,0 +1,174 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Toto API zasílá přehled pracovníků společnosti, tj. uživatelů přirazených na konkrétní pracoviště. Jeden uživatel může být přiřazen na více pracovištích.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "get /api/StrukturaOrganizaceService/Pracovnici",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Informace o deaktivaci uživatele zasílání nejsou. Pokud je uživatel (resp. pracovník) deaktivován, je i přesto zaslán pomocí metody.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "get /api/StrukturaOrganizaceService/PracovniciZaObdobi",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Metody ",
+              "type": "text"
+            },
+            {
+              "text": "Pracovnici ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": "a ",
+              "type": "text"
+            },
+            {
+              "text": "PracovniciZaObdobi",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " zasílají přehled všech pracovníků  bez ohledu na to, zda je pracovník (uživatel na pracovišti) aktivní, či nikoli.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Metoda zasílá přehled pracovníků, v jejichž nastavení byla provedena změna. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pracovník jako takový nemůže být deaktivován, může být pouze ukončen přístup pracovníka na pracoviště k určitému datu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V případě ukončení přístupu na pracoviště se nejedná o smazání, ale o editaci, a proto je zaslán záznam tohoto znění",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " {       \"prijmeni\": \"Dlaha\",       \"jmeno\": \"Julius\",       \"titul\": \"MUDr..\",       \"titulZa\": \"PhD.\",       \"platnostOd\": \"02052025\",       \"odpovednyLekar\": true,       \"icpPracoviste\": \"00000000\",       \"nazevPracoviste\": \"Springfield General Hospital\",       \"typZmeny\": \"U\",       \"datumCasZmeny\": \"15052025T08:13:52.304\",       \"externiId\": \"C6DFBF8B-007F-484D-A307-65E87A5546G2\"     }",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

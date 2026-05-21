@@ -1,0 +1,643 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "b48db850-a935-4ba5-b759-493a140e34d4"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "afa6fc10-17f2-4d3f-90a7-ce8b30044528"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Úvod",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tato funkcionalita slouží k shromažďování, zobrazení a případnému exportu událostí, které mají bezpečnostní charakter, v AIS Galen. Exportované logy lze následně využít v SIEM k podrobnějšímu analýzám chování jednotlivých uživatelů. Funkcionalitu lze rozdělit na dvě části:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·         Přehled bezpečnostních logů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·         Pravidelný export bezpečnostních logů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Zařazení funkcionality",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Okno pro zobrazení bezpečnostních logů mohou otevřít uživatelé s oprávněním Správce. K funkcionalitě se dostanou následujícím způsobem:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na úrovni Správce otevřít modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Systémové logy.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Dále je nutné otevřít submodul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Bezpečnostní logy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 72,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 72,
+            "alt": "image-20250917-080801.png",
+            "id": "ccfd3445-911f-4f8a-8c5c-ed9fe1bdcabf",
+            "collection": "contentId-120487956",
+            "type": "file",
+            "height": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přehled bezpečnostních logů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 786,
+            "alt": "image-20250917-080905.png",
+            "id": "30e1c5d7-fc67-4ed4-813b-c33ce92e63c3",
+            "collection": "contentId-120487956",
+            "type": "file",
+            "height": 213
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Typ logů",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Rozeznáváme následující typy logů, které se liší zaznamenávanými informacemi (sloupci v přehledu):",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Autentizace:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Tento typ logů zaznamenává, kdo a kdy se přihlásil do AIS Galen. Dále se zobrazují informace o případném odhlášení. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Audit záznamu: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento typ logů zaznamenává, kdo a kdy pořídil, upravil nebo smazal záznam v AIS Galen. Dále se zobrazuje název a ID entity, ve které daná změna proběhla. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nahlížení do dokumentace: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento typ logů zaznamenává, kdo a kdy nahlížel do dokumentace AIS Galen. Dále se zobrazuje název a ID dokumentace, do které bylo nahlíženo. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tisk dokumentace: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento typ logů zaznamenává, kdo a kdy tiskl dokumentaci AIS Galen. Dále se zobrazuje název a ID dokumentace, která byla tisknutá. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zástup: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento typ logů zaznamenává, kdo a kdy zastupoval a na kterém pracovišti. Přehled taktéž obsahuje jedinečné identifikátory jako je název počítače, IP adresa a Mac adresa.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Datum od:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Uživatel pomocí této položky volí počátek časového intervalu, ze kterého chce zobrazit bezpečnostní logy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Datum do:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Uživatel pomocí této položky volí konec časového intervalu, ze kterého chce zobrazit bezpečnostní logy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aplikovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Exportovat:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Pomocí tohoto tlačítka se exportují logy, které definoval pomocí filtrů, do uživatelem určené složky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Pravidelný export bezpečnostních logů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při zapnutí pravidelného exportu dodavatel AIS Galen navolí na základě komunikace se zákazníkem složku, kam budou soubory s logy ukládány. Pravidelný export poté probíhá pravidelně 1x denně v nočních hodinách. Do příslušných souborů jsou vždy uloženy pouze logy, které vznikly od posledního exportu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 196,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 196,
+            "alt": "image-20250917-081147.png",
+            "id": "1c82addd-b212-4a10-ab88-12f197a4d94a",
+            "collection": "contentId-120487956",
+            "type": "file",
+            "height": 285
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Každý typ logů se exportuje do vlastního souboru. Název souboru je intuitivně pojmenován dle typu logů a data, ze kterého logy pocházejí (např. AuditZaznamu_2023-02-22). Data jsou exportována ve formátu JSON.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následuje krátký popis jednotlivých klíčů exportovaného JSON souboru:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Oblast:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " V tomto klíči je uložená informace o typu logů v daném souboru.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "DatumOd:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " V tomto klíči je uložená informace o začátku intervalu, ze kterého příslušné logy pocházejí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "DatumDo: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "V tomto klíči je uložená informace o konci intervalu, ze kterého příslušné logy pocházejí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Logy:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " V tomto klíči je uložené pole objektů, kdy každý objekt představuje informace o jednom bezpečnostním záznamu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

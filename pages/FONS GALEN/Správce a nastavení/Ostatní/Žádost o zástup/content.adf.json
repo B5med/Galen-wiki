@@ -1,0 +1,251 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nutností pro tuto funkcionalitu je mít na společnosti aktivní modul „Schvalování zástupů“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nejdříve je nutné, aby uživatel v roli",
+          "type": "text"
+        },
+        {
+          "text": " Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " umožnil vybraným uživatelům v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " oprávnění. Jedná-li se o vedoucího, který bude schvalovat žádosti o zástupy, zaškrtne uživatelskou ",
+          "type": "text"
+        },
+        {
+          "text": "roli Zdravotník a Schvalovatel zástupů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " viz obrázek, případně mu vybere další potřebné moduly.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20250917-075134.png",
+            "id": "62db41ca-d2e8-49c9-b4df-28f37fe420b1",
+            "collection": "contentId-119996419",
+            "type": "file",
+            "height": 102
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po přihlášení uživatele (s rolí Zdravotník + Schvalovatele zástupu tj, Vedoucí) do Galenu, se zobrazí výběr pracoviště - Ostatní, pod kterým jsou k dispozici zvolené dostupné moduly. Po kliknutí na modul Zástup se otevře okno se zaslanými žádostmi o zástup ke schválení viz obrázek níže. V pravém horním rohu se zobrazuje také číselná informace, kolik čeká nových žádostí ke schválení. Veškeré žádosti je možné si filtrovat dle stavu žádosti. Po výběru žádosti zaktivuje Schvalovatel příslušná tlačítka Schválit, Zamítnout, Zrušit nebo vytvořit novou tlačítkem Plus. Jakmile je žádost schválena, pošle se upozornění o schválení žadateli a vzniknou mu uživatelská práva na pracovišti, na kterém bude zastupovat. V případě nepřítomnosti Vedoucího žádosti schvaluje administrátor, ten musí mít též od ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " povolenou ",
+          "type": "text"
+        },
+        {
+          "text": "roli Schvalovatel zástupů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 378,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 378,
+            "alt": "image-20250917-075158.png",
+            "id": "f51cc528-6d7f-4125-b97e-58a69c8199d3",
+            "collection": "contentId-119996419",
+            "type": "file",
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jedná-li se o pracovníka, který o zástup a jeho schválení bude žádat tj. Žadatel, je třeba, aby mu uživatel ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " zaškrtl ",
+          "type": "text"
+        },
+        {
+          "text": "role zdravotník ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a v dostupných modulech ",
+          "type": "text"
+        },
+        {
+          "text": "Zástup",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " viz obrázek, případně další potřebné moduly.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20250917-075211.png",
+            "id": "5121224d-8000-4cb3-8280-2d81c4de8503",
+            "collection": "contentId-119996419",
+            "type": "file",
+            "height": 105
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po přihlášení uživatele (s uživatelskou rolí zdravotník a modulem Zástup) tzn. Žadatel se zobrazí výběr pracoviště Ostatní, pod kterým je k dispozici modul Zástup (případně další navolené moduly). Po kliknutí na modul Zástup se otevře okno s žádostmi o zástup. Zde je tlačítko Plus k podání nové žádosti a otevření záznamu. Odeslání žádosti ke schválení, případně editace žádosti je možné po otevření a vyplnění žádosti. Dokud je žádost ve stavu- čeká na schválení, je možné ji editovat. Žádost je možné také zrušit, dokud je ve stavu – čeká na schválení - příslušným tlačítkem. Jakmile žádost schválí/zamítne Vedoucí, v pravém horním rohu se nám objeví číselná informace o tom, že již máme žádost schválenou/zamítnutou a v případě schválení se zpřístupní potřebná oprávnění k zástupu na daném pracovišti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "  O zástup mohou žádat sestry, či lékaři, lékař však nesmí zástup schvalovat sestře a naopak.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 450,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 450,
+            "alt": "image-20250917-075236.png",
+            "id": "2863d8da-42d7-40b4-922a-8638583b4a98",
+            "collection": "contentId-119996419",
+            "type": "file",
+            "height": 78
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

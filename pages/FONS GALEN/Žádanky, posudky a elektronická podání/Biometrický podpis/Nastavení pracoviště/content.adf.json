@@ -1,0 +1,402 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e85c6870d2d8"
+      },
+      "content": [
+        {
+          "text": "Nejprve je potřeba podpisová zařízení nastavit v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ve ",
+          "type": "text"
+        },
+        {
+          "text": "Správě organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", kde se na pracovišti (IČP) nastaví údaje podpisového zařízení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5e5a7424275f"
+      },
+      "content": [
+        {
+          "text": "Přidání nového zařízení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1021193ef61b"
+      },
+      "content": [
+        {
+          "text": "Cesta: Modul Správce -> modul Správce organizace -> vybrat pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "666b8c5fa6a0",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d9160c9de6ec"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "749995b6712f"
+              },
+              "content": [
+                {
+                  "text": "V nastavení pracoviště (pravá strana) uživatel vybere záložku Podpisová zařízení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 402,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 402,
+            "alt": "image-20260129-132459.png",
+            "id": "d7c4a501-d6c0-4ce5-8e03-2b46d7d0f952",
+            "collection": "contentId-248545281",
+            "type": "file",
+            "localId": "fdbef3f5c5ac",
+            "height": 170
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ce0092851436",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5bf35d0d0f1c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e840a3a05e8c"
+              },
+              "content": [
+                {
+                  "text": "Zařízení uživatel přidá tlačítkem Přidat nový záznam (plus).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "24ecded5728f",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0b6f7ebab0a9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "612422602dbe"
+              },
+              "content": [
+                {
+                  "text": "Uživatel zadá název podpisového zařízení, přihlašovací jméno a heslo",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "17990410d99d",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "50449637b9f6"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "7e64b6550a2c"
+                      },
+                      "content": [
+                        {
+                          "text": "Název = vlastní název pro identifikaci zařízení",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "748e2fce74f2"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "b399422a5adf"
+                      },
+                      "content": [
+                        {
+                          "text": "Přihlašovací jméno a heslo – údaje pro přihlášení do aplikace",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "orderedList",
+                      "attrs": {
+                        "localId": "6cd43307eb3a",
+                        "order": 1
+                      },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "26e658cddff9"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "3e1a2e5a280d"
+                              },
+                              "content": [
+                                {
+                                  "text": "Přihlašovací jméno = emailová adresa",
+                                  "type": "text"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "10185c1d4696"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "9c5725c5586e"
+                              },
+                              "content": [
+                                {
+                                  "text": "Na tuto adresu bude zaslán e-mail s výzvou k vytvoření hesla.",
+                                  "type": "text"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "4c733ee0a303"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "cf7bd98d2ceb"
+                              },
+                              "content": [
+                                {
+                                  "text": "vytvořené heslo je následně nutné zadat do konfigurace podpisového zařízení ve FONS Galen.",
+                                  "type": "text"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "mediaSingle",
+                              "attrs": {
+                                "layout": "center",
+                                "width": 493,
+                                "widthType": "pixel"
+                              },
+                              "content": [
+                                {
+                                  "type": "media",
+                                  "attrs": {
+                                    "width": 493,
+                                    "alt": "image-20260410-062915.png",
+                                    "id": "9a2a0c84-09cd-4e47-930d-4d376c41a84b",
+                                    "collection": "contentId-248545281",
+                                    "type": "file",
+                                    "localId": "00dfcfc6bf45",
+                                    "height": 246
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d104f602d57b",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b59b96e394af"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a6a714039018"
+              },
+              "content": [
+                {
+                  "text": "Uživatel potvrdí tlačítkem OK.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ea5e8d34bcb5"
+      },
+      "content": [
+        {
+          "text": "Zařízení je dále možné editovat a mazat za pomocí tlačítek:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 49,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 49,
+            "alt": "image-20260129-133729.png",
+            "id": "5f830222-7c4a-45b8-b285-1967682129f6",
+            "collection": "contentId-248545281",
+            "type": "file",
+            "localId": "1f738c2b20a9",
+            "height": 22
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9e004c002535"
+      },
+      "content": [
+        {
+          "text": "Počet podpisových zařízení je omezen na celou společnost dle počtu licencí.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,71 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ukončit je možné pouze eDPN, Ošetřovné a Dlouhodobé ošetřovné. Na dávce je potřeba vyplnit datum ",
+          "type": "text"
+        },
+        {
+          "text": "Neschopen do / Potřeba ošetřování do / Potřeba dlouhodobé péče skončila dne. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Po stisku tlačítka Odeslat uživatel v části Komunikace s ČSSZ zkontroluje, zda bylo podání přijato. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 676,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 414,
+            "alt": "image-20250721-124002.png",
+            "id": "defbe6e2-9509-4eaa-b905-b526231e92f3",
+            "collection": "contentId-75628769",
+            "type": "file",
+            "height": 71
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podání je v tuto chvíli ve zpracování, jakmile bude finálně přijato, bude ze strany ČSSZ zaslána notifikace a dávka bude automaticky převedena do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Ukončená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

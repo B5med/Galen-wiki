@@ -1,0 +1,179 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5a560d34413"
+      },
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze upravovat nastavení Info panelu pacienta pro pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c7d53a918b72"
+      },
+      "content": [
+        {
+          "text": "Kde nastavení najdete",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "877d6ff596c3"
+      },
+      "content": [
+        {
+          "text": "Přejděte do: ",
+          "type": "text"
+        },
+        {
+          "text": "Pracoviště → Nástroje → Šablony → Zobrazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e3b2aa15ed3a"
+      },
+      "content": [
+        {
+          "text": "Na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " najdete položku ",
+          "type": "text"
+        },
+        {
+          "text": "Info panel pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Kliknutím na ikonu tužky otevřete její konfiguraci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7c420992ef7b"
+      },
+      "content": [
+        {
+          "text": "Jak to funguje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "014d006d9227"
+      },
+      "content": [
+        {
+          "text": "Nastavení je ",
+          "type": "text"
+        },
+        {
+          "text": "sdílené pro celé pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – jakákoli změna, kterou provedete, se okamžitě projeví pro všechny uživatele. Zároveň platí, že konfigurace je vždy synchronizována se Správcem, takže změny provedené administrátorem se promítnou i do Nástrojů a naopak.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "967eafbb906f"
+      },
+      "content": [
+        {
+          "text": "Jak funkci zpřístupnit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "69fef6162971"
+      },
+      "content": [
+        {
+          "text": "Záložka Zobrazení je ve výchozím stavu skrytá. Administrátor ji může povolit v: ",
+          "type": "text"
+        },
+        {
+          "text": "Správce → Správa organizace → Pracoviště → UI konfigurace → Info panel pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kde zaškrtne volbu „Zobrazovat konfiguraci v modulu Nástroje pracoviště\".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

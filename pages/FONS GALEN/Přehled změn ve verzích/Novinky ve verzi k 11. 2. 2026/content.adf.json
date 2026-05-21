@@ -1,0 +1,182 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3e3ba9bfe38b"
+      },
+      "content": [
+        {
+          "text": "Nastavení výchozích hodnot ePoukazu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c0d329f4cdb1"
+      },
+      "content": [
+        {
+          "text": "Do FONS Galen bylo implementováno několik výchozích možností ePoukazu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c4ca9a9f51d0"
+      },
+      "content": [
+        {
+          "text": "A) Možnost nastavení na pracovišti, aby se ePoukaz ve výchozím stavu vystavoval bez notifikace pacientovi. Nastavení může provést uživatel s rolí sp",
+          "type": "text"
+        },
+        {
+          "text": "rávce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace - struktura organizace - pracovišti - UI konfigurace: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Popis nastavení je zde ",
+          "type": "text"
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "localId": "37593f47-0b4d-4e82-89a3-a17e1e8ab2a7",
+            "url": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/193363969/Z+lo+ka+UI+konfigurace#ePoukaz"
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "908f0c92f2b0"
+      },
+      "content": [
+        {
+          "text": "B) Možnost nastavení výchozích hodnot platnosti ePoukazu na pracovišti. Nastavení může provést uživatel s rolí sp",
+          "type": "text"
+        },
+        {
+          "text": "rávce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace - struktura organizace - pracovišti - UI konfigurace: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Popis nastavení je zde ",
+          "type": "text"
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "localId": "7a166f6ef06e",
+            "url": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/193363969/Z+lo+ka+UI+konfigurace#ePoukaz"
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c3c357dac766"
+      },
+      "content": [
+        {
+          "text": "C) Výchozí vyplnění Úhrada 1 při předpisu pomůcky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5d455b2039a5"
+      },
+      "content": [
+        {
+          "text": "Pokud lékař předepisuje pomůcku, která je ze strany pojišťovny hrazení v rámci základní úhrady (UHR1) vyplní se tato úhrada automaticky při předpisu. Výše úhrady je možné ze strany uživatele dále editovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "01dd1b7b0305"
+      },
+      "content": [
+        {
+          "text": "Pokud lékař vyplnil stupeň inkontinence, nastaví se následně výše úhrady předepisované pomůcky dle nastaveného stupně inkontinence (Stupeň 1=UHR1, Stupeň 2=UHR2, Stupeň 3=UHR3). Výše úhrady je možné ze strany uživatele dále editovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f5f3ec15b9e9"
+      },
+      "content": [
+        {
+          "text": "Při předpisu pomůcky se automaticky nastavuje počet 1, který je možný ze strany uživatele dále editovat.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

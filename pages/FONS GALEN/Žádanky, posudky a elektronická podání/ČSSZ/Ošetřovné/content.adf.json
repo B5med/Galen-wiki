@@ -1,0 +1,1913 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "381a309e-22be-47f8-a391-0febf3da8aec"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "fcb12f8d-9040-4b97-b86b-5e4e17fff21a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vznik potřeby ošetřování (péče)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel očekává, že se na pozadí vystaveného formuláře ošetřovného zároveň vykáže výkon 09550, je nutné před vystavením formuláře zadat návštěvu s příslušnou diagnózou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-124649.png",
+            "id": "7a6d4ec6-69fa-4a01-8649-1f6fa3aacf3e",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 69
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následně uživatel pokračuje v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 43,
+            "alt": "image-20250721-124708.png",
+            "id": "0fcca726-13bb-491e-b593-dd342a6ab0a7",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 56
+          }
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-124748.png",
+            "id": "ffce4458-e36f-4f5f-8e1b-21b8d91c1921",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 37
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel v modulu ČSSZ zvolí záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Ošetřovné",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (1).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Klikem na tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Nová ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "(2) vystaví nový formulář.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel zvolí nebo zapíše kontakt pro notifikaci pacienta (SMS nebo e-mail).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 742,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-124818.png",
+            "id": "0c21a86b-feaf-4c36-b2dd-023307566a78",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 13
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel zvolí důvod, pro který se ošetřovné vydává.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 742,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-124836.png",
+            "id": "eeacac94-20b2-4929-9060-dc1f8c9e1c5f",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 57
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kolonka ",
+          "type": "text"
+        },
+        {
+          "text": "Potřeba ošetřování/péče od",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se automaticky vyplní aktuálním datem. V případě potřeby může uživatel datum změnit, ale maximálně 3 dny zpětně nebo maximálně 1 den do budoucnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 212,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 212,
+            "alt": "image-20250721-124856.png",
+            "id": "e89678b6-e393-4c71-84c1-558c76e47907",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 24
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kolonka ",
+          "type": "text"
+        },
+        {
+          "text": "Vystaveno dne",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se automaticky vyplní aktuálním datem bez možnosti editace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel Ošetřovné odešle stisknutím tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 47,
+            "alt": "image-20250721-124918.png",
+            "id": "f4a8fc6b-381f-4392-98d6-5b800f0322b5",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 56
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem ošetřovného „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 736,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 412,
+            "alt": "image-20250721-124940.png",
+            "id": "1754515b-f80a-44c4-b3e4-18f52c7075ec",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 73
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě potřeby může uživatel pacientovi vytisknout formulář ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnutí o potřebě ošetřování/péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "prostřednictvím tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Opravné podání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, kdy uživatel změní důvod pro vystavené ošetřovného nebo Datum ",
+          "type": "text"
+        },
+        {
+          "text": "Potřeba ošetřování/péče od",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " má možnost odeslat tyto změny prostřednictvím opravného podání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravné podání uživatel odesílá stiskem tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Opravit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 46,
+            "alt": "image-20250721-125026.png",
+            "id": "929895bc-c25a-4385-888b-007c3290bf8a",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 56
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Úspěšné odeslání je potvrzeno v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "kde je také uveden detail odeslaných změn.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 728,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-125045.png",
+            "id": "ee6d49eb-90eb-46d1-9504-2eda026b8a9c",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 37
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Tisk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po odeslání rozhodnutí o potřebě ošetřování/péče může uživatel vytisknout formulář ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnutí o potřebě ošetřování/péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 43,
+            "alt": "image-20250721-125123.png",
+            "id": "42a25a86-6e5f-436e-9b3a-2bde3397cba2",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 55
+          }
+        },
+        {
+          "text": ".",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Potvrzení o trvání potřeby",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ošetřující lékař nejméně jednou měsíčně (pokud potřeba ošetřování/péče trvá déle než jeden měsíc) potvrdí pojištěnci, že trvá potřeba ošetřování, a to ke dni vydání potvrzení nebo nejvýše 3 kalendářní dny dopředu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel zaškrtne checkbox ",
+          "type": "text"
+        },
+        {
+          "text": "Lístek na peníze",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Automaticky se předvyplní aktuální datum, které uživatel může ručně dle podmínek ČSSZ upravit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 430,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 250,
+            "alt": "image-20250721-132240.png",
+            "id": "1132ae06-f7df-4de7-913f-df074b1e396b",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 303
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Stisknutím tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " uživatel lístek na peníze odešle ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 31,
+            "alt": "image-20250721-132259.png",
+            "id": "46f8888f-b567-40ee-a773-61c7b32d0828",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 33
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem ošetřovného „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 638,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-132321.png",
+            "id": "9c16fcb5-5af1-4ff9-91f9-e88d7b84c941",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 65
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Tisk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po odeslání Potvrzení o trvání potřeby může uživatel vytisknout formulář ",
+          "type": "text"
+        },
+        {
+          "text": "Potvrzení o trvání potřeby ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 43,
+            "alt": "image-20250721-132345.png",
+            "id": "713d4008-40fa-42f2-87ba-8ce0c0193a0e",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 55
+          },
+          "marks": [
+            {
+              "type": "border",
+              "attrs": {
+                "size": 1,
+                "color": "#091e4224"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Převzetí do péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Převzetí stávajícího ošetřovného do péče daného pracoviště je možné několika způsoby.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Převzetí do péče prostřednictvím nahlížení na záznamy jiného pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud bylo ošetřovné vystaveno na jiném pracovišti dané společnosti a pokud mají tato pracoviště mezi sebou nastaveno nahlížení, může uživatel ošetřovné, které chce převzít, vybrat ze seznamu v záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Vedené v IS Galen.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 633,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 260,
+            "alt": "image-20250721-132505.png",
+            "id": "c84e93d4-3a6e-441b-baa5-b933c4869082",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po označení konkrétního řádku stiskne tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Převzít do péče.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Detail ošetřovného před převzetím není načten, tzn. že notifikace, důvod vystavení ošetřovného, nebo datum ",
+          "type": "text"
+        },
+        {
+          "text": "Potřeba ošetřování/péče od ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " není aktuální (před odesláním jsou vyplněné výchozí hodnoty).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 611,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 299,
+            "alt": "image-20250721-132523.png",
+            "id": "839b93a8-db02-4e98-828d-bfe329c91195",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Před převzetím uživatel zkontroluje údaje v kolonce ",
+          "type": "text"
+        },
+        {
+          "text": "Datum převzetí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 227,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 227,
+            "alt": "image-20250721-132544.png",
+            "id": "63aac068-c458-4331-932f-68cc6a1724c1",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 76
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Položku ",
+          "type": "text"
+        },
+        {
+          "text": "Převzít od lékaře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " není povinné vyplnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 49,
+            "alt": "image-20250721-132559.png",
+            "id": "c09c78c8-0464-4ac5-9648-8f3050787d8c",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 58
+          }
+        },
+        {
+          "text": " uživatel odesílá Hlášení ošetřujícího lékaře o převzetí do péče.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem HOL „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 608,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-132620.png",
+            "id": "1651da98-6961-49b1-8d45-26869308db3a",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 51
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Převzetí do péče ošetřovného, které bylo vytvořeno mimo IS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, kdy pracoviště mezi sebou nemají nastavené nahlížení, nebo v případě převzatí ošetřovného, které vzniklo mimo danou společnost, uživatel k převzetí použije záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Vedené mimo IS Galen.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 484,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 284,
+            "alt": "image-20250721-132657.png",
+            "id": "3092d5ca-42ae-4d47-9f7f-85d115596ce3",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto přehledu jsou dostupné všechna aktivní ošetřovné, která nejsou v péči daného pracoviště. ČSSZ poskytuje pouze čísla dávek, detaily uživatel vidí až po převzetí ošetřovného.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po označení konkrétní dávky a stisku tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Převzít do péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "se uživatel zobrazí detail dávky, která stejně jako v předchozí kapitole neodpovídá realitě. Formulář je vyplněn pouze výchozími hodnotami. Reálné údaje se uživatel zobrazí až po odeslání převzetí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 616,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-132721.png",
+            "id": "1ca532b9-8ea2-4dcc-ba32-1cf9c2b7cd94",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 184
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Před převzetím uživatel zkontroluje údaje v kolonce ",
+          "type": "text"
+        },
+        {
+          "text": "Datum převzetí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 227,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 227,
+            "alt": "image-20250721-132742.png",
+            "id": "6bf7ed46-5fc1-4005-907b-f98dad5390fd",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 76
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Položku ",
+          "type": "text"
+        },
+        {
+          "text": "Převzít od lékaře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " není povinné vyplnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 49,
+            "alt": "image-20250721-132758.png",
+            "id": "6aae467d-5bee-4087-9f6f-c11d19a66098",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 58
+          }
+        },
+        {
+          "text": " uživatel odesílá Hlášení ošetřujícího lékaře o převzetí do péče.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem HOL „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 611,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-132854.png",
+            "id": "5d78df35-a234-4ab8-b532-245eef4d0af7",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 51
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po úspěšném odeslání hlášení jsou zobrazeny detaily ošetřovného, které zadal předchozí ošetřující lékař.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 616,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 254,
+            "alt": "image-20250721-132910.png",
+            "id": "1ed92884-5fd8-4816-b99c-93eee3b48699",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Předání do péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě potřeby předání do péče na stávajícím ošetřovném lékař zaškrtne checkbox ",
+          "type": "text"
+        },
+        {
+          "text": "Předat do péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a zkontroluje, případně upraví, datum předání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 189,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 189,
+            "alt": "image-20250721-133002.png",
+            "id": "73bc80d6-c7c7-4469-ae38-0da800970f48",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 48
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " uživatel odesílá ",
+          "type": "text"
+        },
+        {
+          "text": "Hlášení ošetřujícího lékaře.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem HOL „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 633,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-133016.png",
+            "id": "2f1ed081-6beb-4dda-b39f-36f4f196744b",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Ukončení potřeby ošetřování (péče)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel očekává, že se na pozadí vystaveného ukončení ošetřovného zároveň vykáže výkon 09551, je nutné před vystavením formuláře zadat návštěvu s příslušnou diagnózou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 633,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-133057.png",
+            "id": "1f356927-283a-45c1-9d01-cf96d7ba33ac",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 69
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ošetřující lékař rozhodne o ukončení potřeby ošetřování, pokud vyšetřením zjistí, že potřeba ošetřování pominula, a to dnem, kdy ošetřující lékař tuto skutečnost zjistil, nejpozději však třetím kalendářním dnem následujícím po dni tohoto vyšetření; ošetřující lékař dále rozhodne o ukončení potřeby ošetřování, pokud se osoba, u které bylo rozhodnuto o potřebě ošetřování (nebo osoba poskytující ošetřování dítěti mladšímu 10 let spolu s tímto dítětem), nedostaví v určený den k ošetření nebo kontrole zdravotního stavu a neprokáže existenci vážných důvodů, pro které se nemohla dostavit, a to dnem nedostavení se.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel odešle rozhodnutí o ukončení péče tak, že vyplní datum v kolonce ",
+          "type": "text"
+        },
+        {
+          "text": "Potřeba ošetřování/péče do. Datum ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Rozhodnuto dne je automaticky vyplněno aktuálním datem bez možnosti editace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 368,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 368,
+            "alt": "image-20250721-133116.png",
+            "id": "38e0f5f2-c2f8-4a5d-9008-ff9f0b74dfb2",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 23
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "uživatel odesílá ukončení péče.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel ověří správnost odeslaného podání v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak, že ČSSZ potvrdila příjem 2. dílu (tzn. ukončení) „OK“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 638,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 388,
+            "alt": "image-20250721-133132.png",
+            "id": "865739bb-f9eb-4b9b-855a-ac53361683b8",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 75
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Opravné podání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, kdy uživatel změní důvod pro vystavené ošetřovného, Datum ",
+          "type": "text"
+        },
+        {
+          "text": "Potřeba ošetřování/péče do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnuto dne",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " má možnost odeslat tyto změny prostřednictvím opravného podání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravné podání uživatel odesílá stiskem tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Opravit ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 46,
+            "alt": "image-20250721-133227.png",
+            "id": "c3769626-26ae-4d2b-839d-c789ddf916c7",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 56
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Úspěšné odeslání je potvrzeno v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace s ČSSZ, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "kde je také uveden detail odeslaných změn.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 611,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-133248.png",
+            "id": "2acd8a37-e6a0-44a2-8897-8eb24c3c0076",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 45
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Tisk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po odeslání ",
+          "type": "text"
+        },
+        {
+          "text": "Ukončení potřeby ošetřování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " může uživatel vytisknout formulář ",
+          "type": "text"
+        },
+        {
+          "text": "Hlášení ošetřujícího lékaře o ukončení potřeby ošetřování/péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 43,
+            "alt": "image-20250721-133319.png",
+            "id": "dabbd5ba-74d2-4f77-8a4c-8aff6f737ed0",
+            "collection": "contentId-75464947",
+            "type": "image",
+            "height": 55
+          }
+        },
+        {
+          "text": ".",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vystavení papírového tiskopisu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Papírové tiskopisy bude možné využít pouze v případě technického výpadku a bude nutné uvádět důvod vystavení tiskopisu v papírové podobě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel vystaví tiskopis, který obdržel od příslušné OSSZ. Do FONS Galen provede evidenci o vystaveném tiskopisu v modulu ČSSZ – Ošetřovné – tl. Papírové o.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do formuláře zapíše číslo dávky z papírového tiskopisu a v rámci FONS Galen uloží.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 616,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-133401.png",
+            "id": "96a7e06f-76ff-4eab-b24a-6e8a66a9a538",
+            "collection": "contentId-75464947",
+            "type": "file",
+            "height": 50
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po zavedení tiskopisu do elektronického systému na straně ČSSZ se dávka ve FONS Galen automaticky na pozadí zaktualizuje.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

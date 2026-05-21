@@ -1,0 +1,209 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "1a084080-0cf3-4f81-856b-a719bf66c1ad"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "ddc6ba3b-4d55-43b4-b97d-ca62fa8f0f56"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Pořízení pokladního dokladu / faktury ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "AIS Galen umožňuje mj. také vystavení pokladního dokladu či faktury pacientovi. K vystavení těchto dokumentů slouží následující postup: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vybrat a označit pacienta v kartotéce, popř rozkliknout kartu pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zvolit záložku Stav účtu (na dolní liště vpravo) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na záložce Stav účtu, vybrat z předvoleného Sortimentu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tlačítko Platba - výběr umožňuje zadat platbu vybraných položek sortimentu. Tlačítko Platba - vše umožňuje zadat platbu všech položek sortimentu v seznamu vlevo. Stejně je tomu u tlačítek Faktura - výběr a Faktura - vše. V pravém sloupci vidíme položky, které již byly zaplaceny. Po zadání platby se zobrazí okno pro doplnění platebních či fakturačních údajů. Po kliknutí na tlačítko Zaplatit se objeví náhled tisku s možností vytisknout doklad o zaplacení. Doklady o zaplacení lze také vytisknout zpětně po označení příslušné položky v pravém sloupci zaplacených dokladů a následné volbě Tisk v pravé části horní lišty. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Sortiment",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " má již nadefinované prohlídky, očkování, výkony atd. Nadefinovat položky lze v roli správce viz popis modulu Nadstandardní péče. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1216,
+            "alt": "image-20250618-082850.png",
+            "id": "77a00828-6570-4a7b-ab8a-5314057a008d",
+            "collection": "contentId-48431127",
+            "type": "file",
+            "height": 658
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro názornost zde vidíte ukázku Příjmového pokladního dokladu a Faktury.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 534,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 534,
+            "alt": "image-20250618-082915.png",
+            "id": "42cc20f2-ec89-4170-9e73-edb87c309b55",
+            "collection": "contentId-48431127",
+            "type": "file",
+            "height": 347
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 534,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 574,
+            "alt": "image-20250618-082943.png",
+            "id": "0ba1f3ce-3cb8-435c-a0da-8f1daacf9ad9",
+            "collection": "contentId-48431127",
+            "type": "file",
+            "height": 700
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

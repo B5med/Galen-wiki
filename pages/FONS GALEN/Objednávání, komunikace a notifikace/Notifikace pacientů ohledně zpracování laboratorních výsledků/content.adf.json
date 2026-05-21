@@ -1,0 +1,789 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "2c6660e5-34ac-41b9-a7c2-2fdebc963545"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "7b44f9d5-2250-43a2-a464-dc243d7baf44"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cílem funkcionality je omezit volání pacientů do ordinací s dotazy ohledně stavu zpracování jejich laboratorních výsledků. Tohoto cíle bude dosaženo ručním odesíláním notifikací pacientovi o stavu lab. výsledku jednotlivě, nebo hromadně. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Konfigurace funkcionality",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po zpřístupnění administrátory ze strany podpory AIS Galen, je možné funkcionalitu okamžitě používat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Doporučujeme si však nejdříve nastavit šablony notifikací, které budeme pacientům odesílat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Šablony najdeme v modulu Nástroje, okno Šablony, záložka Notifikace. Na tento účel nám poslouží šablony s použitím: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Notifikace laboratorního výsledku – bez konzultace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "(šablona určená pro pacienty s lab. výsledkem ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": ",,V pořádku“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ") – pacienti kteří již nemusí lab. výsledek konzultovat s lékařem. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Notifikace laboratorního výsledku – potřebná konzultace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "(šablona určená pro pacienty s lab. výsledkem ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": ",,Nutná konzultace“, nebo „Ostatní“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ") – pacienti u kterých je konzultace s lékařem potřebná. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U obou typů notifikací je možné zatrhnout možnost ,,",
+          "type": "text"
+        },
+        {
+          "text": "Zahrnout komentář lékaře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "“. Po zatrhnutí této možnosti se při odeslání notifikace automaticky doplní komentář lékaře k danému lab. výsledku. Komentář se doplní na konec zprávy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1183,
+            "alt": "image-20250826-080917.png",
+            "id": "cb04836e-f054-43b5-9b7d-4bb3e9320c6a",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 321
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1184,
+            "alt": "image-20250826-081045.png",
+            "id": "1d5c32fe-649e-4f59-9e6e-871673b13e6b",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 474
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Odeslání notifikace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odeslání notifikace bude možné jen pro zpracované lab. výsledky. Lab. výsledkem ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": ",,Nový“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebude možné notifikaci odeslat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odeslání notifikace bude možné ze dvou míst v AIS Galen a to individuálně pro každého pacienta z ",
+          "type": "text"
+        },
+        {
+          "text": "dekurzu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", nebo hromadně z ",
+          "type": "text"
+        },
+        {
+          "text": "modulu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Notifikace z dekurzu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po rozkliknutí detailu lab. výsledku přibude nové tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": ",,Notifikovat“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Uživatel bude mít možnost zvolit, jestli chce notifikaci odeslat i se samotným lab. výsledkem ve formátu PDF. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1069,
+            "alt": "image-20250826-081205.png",
+            "id": "82fe75c6-8f93-42b5-a1ce-16c8fe3eee85",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 447
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1075,
+            "alt": "image-20250826-081215.png",
+            "id": "5e8193b2-ea06-4191-8cec-2a9f1564006c",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 355
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po kliku na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": ",,Notifikovat“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se uživateli objeví okno pro odeslání notifikace.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Okno obsahuje na začátku informaci, jaká informace bude pacientovi odeslána. V případě který je na screenshotu je to informace, která obsahuje šablonu s nutností další konzultace. Je to z důvodu že stav lab. výsledku byl ",
+                  "type": "text"
+                },
+                {
+                  "text": ",,Nutná konzultace“.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uživatel si může zvolit, jestli chce odeslat SMS, E-mail, nebo obojí. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na screenshotu na konci notifikace se automaticky zkopíroval komentář lékaře k danému lab. výsledku (možnost nastavení na šabloně notifikace, popsána výše).    ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 785,
+            "alt": "image-20250826-083459.png",
+            "id": "01669a76-637a-47b0-b391-da38d14d0aa6",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 738
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Notifikace z modulu komunikace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Z modulu komunikace, v okně Lab. výsledky, je možné odeslat notifikace k vícero lab. výsledkům naráz. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do okna byly přidané nové prvky: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Možnost rozdělit si poměrově obrazovku dle potřeby (potáhnutím myši na rozdělovací čáře obrazovky, znázorněné šipkou v screenshotu). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Možnost označit vícero lab. výsledků naráz (klávesové zkratky CTRL + levý klik myší, nebo SHIFT + levý klik myší). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V okně bude možnost filtrovat jenom lab. výsledky bez notifikace. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přibyla tři nová tlačítka: ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Notifikovat – primární tlačítko na odeslání notifikací. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Již nenotifikovat – přidá k laboratornímu výsledku příznak ",
+                  "type": "text"
+                },
+                {
+                  "text": ",,Nenotifikovat“. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tomuto lab. výsledku nebude možné odeslat notifikaci. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Povolit notifikaci – Zpětně odstraní příznak ",
+                  "type": "text"
+                },
+                {
+                  "text": ",,Nenotifikovat“. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sloupce v zobrazení byly rozšířeny o nové, poskytující informace o odeslání/neodeslání notifikací. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1017,
+            "alt": "image-20250826-083626.png",
+            "id": "ce644a0a-b786-47e2-9c02-1a6e4a9975ca",
+            "collection": "contentId-104759320",
+            "type": "file",
+            "height": 307
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při zvolení vícero výsledků s různými stavy zpracování (například: 1. výsledek ve stavu v pořádku, 2. se stavem nutná konzultace), je nutné každému pacientovi odeslat jinou informaci. Z toho důvodu po kliknutí na tlačítko Notifikovat, uživatel nejdříve odešle notifikace pro pacienty s informací, že konzultace není nutná a následně notifikaci pro pacienty s informací, že konzultace je potřebná (",
+          "type": "text"
+        },
+        {
+          "text": "okno z obrázku č. 3 se objeví 2x",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", pro každou informaci zvlášť). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě že má pacient vícero lab. výsledků kterým odesíláme notifikaci, odešleme mu vždy maximálně 1 SMS a 1 email. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě že má rozdílné stavy zpracování lab. výsledků, vyhrává odesílání informace o tom, že je potřebná konzultace.  ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

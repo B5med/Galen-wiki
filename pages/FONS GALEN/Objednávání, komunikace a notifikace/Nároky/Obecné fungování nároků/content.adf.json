@@ -1,0 +1,81 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok pacienta na vyšetření je datum, ke kterému by měl pacient absolvovat další vyšetření.  Nárok na prohlídku vzniká ve chvíli, kdy pacient absolvuje vyšetření a z tohoto vyšetření je vykázán výkon. Dalšími způsoby je vznik nároku při registraci pacienta, noční kontrolou věku pacienta, nebo hromadně tlačítkem v konfiguraci nároků. Vzniknutý nárok uživatel vidí v historii pacienta nebo v modulu Nároky (v případě, kdy má uživatel tento modul přístupný). V tomto modulu je dále možné nastavit automatické notifikace nebo přímo osloví konkrétního pacienta s informací, že by se pacient měl na dané vyšetření objednat. Každý pacient může mít 1 okamžik jenom 1 aktívní nebo budoucí nárok.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Kroky potřebné ke zprovoznění funkcionality",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "a.      Zpřístupnění modulu Nároky ze strany STAPRO (v rámci placené funkcionality). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "b.     Vytvoření definice nároku z vyšetření, jakým způsobem má být datum příštího nároku vypočítáno. Tato definice je specifická pro každou prohlídku a definuje se v modulu Nároky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "c.      Správce společnosti zpřístupní modul Nároky uživatelům, kteří s nároky budou pracovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "d.     Vytvoření šablony notifikací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "e.      Odesílání notifikací pacientům s informací, že mají nárok na vyšetření, na které by se měli objednat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Další funkcionality: odesílání SMS z aplikace (nadstandardní funkcionalita aktivovaná ze strany STAPRO).",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,392 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "83d1e38f-971f-4253-9fa1-f68b563a6c12"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 100.0,
+            "localId": "48e7644d-a786-4dc8-a9c5-984978051b63"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8edae44b-d68b-46c3-a7b0-bbb7906c5a3c"
+              },
+              "content": [
+                {
+                  "text": "Záložka UI konfigurace umožňuje definovat práci s kartou pacienta. Upravuje zobrazení, možnosti   tisku, editaci a další. Všechny volby v tomto okně se týkají pracoviště, tedy mohou se u jednotlivých IČP měnit.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "50c0b881-52fa-492a-8230-d3f1e32231b2"
+              },
+              "content": [
+                {
+                  "text": "V části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Skartační lhůta ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "uživatel nastaví výchozí skartační lhůty pro kurativu a PLS na daném pracovišti. Tyto lhůty může uživatel na pracovišti změnit, zde přednastavené lhůty slouží pouze jako výchozí.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2238d746-a4a3-4c22-8b03-4a9a98f4a37c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "cef2f18e-ec91-445f-9ad3-d516e7600928"
+      },
+      "content": [
+        {
+          "text": "Upozorňovací okno",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 346,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 346,
+            "alt": "image-20251210-150755.png",
+            "id": "c664eb5e-cf65-4ecf-a95b-2509ce1104dd",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "7e604283-a7dc-4c7a-9043-a3afb3a5212f",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "37ee879f-44e3-44a5-939a-7ef7bc778ddc"
+      },
+      "content": [
+        {
+          "text": "Povinné údaje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 523,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 523,
+            "alt": "image-20251210-150829.png",
+            "id": "3017a270-3683-417f-a4bf-86e53e32256a",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "1302f851-c373-427f-8f70-1310f942b95c",
+            "height": 112
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "306417b3-5358-4e99-a8f6-3457cc9638fa"
+      },
+      "content": [
+        {
+          "text": "Laboratorní výsledky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 525,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 525,
+            "alt": "image-20251210-150859.png",
+            "id": "89bc90eb-1964-48b9-af38-1981a60ff496",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "78be0ccd-edbc-4ae3-b5c5-acaa03c8a700",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "485d838c-f4c8-45cc-a924-399af59e91e5"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "896e93d5-8ae3-4898-9d97-dac946d4fc63"
+      },
+      "content": [
+        {
+          "text": "Dialog měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 528,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 528,
+            "alt": "image-20251210-150946.png",
+            "id": "0f2ad1ff-3940-4ae8-aaf6-b7da6181b792",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "46b19531-d199-4375-8aba-e2974e55ee48",
+            "height": 82
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c742906c-3be8-4106-a63f-801ec3d61453"
+      },
+      "content": [
+        {
+          "text": "Ve výchozím nastavení jsou všechna pole pro zadání měření v dekurzu viditelná. V závislosti na odbornosti pracoviště však nejsou pro všechna pracoviště neužitelná, a proto je zde možné vybraná pole měření skrýt.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "76321a61-3e4f-48c5-afbb-4a4df4f97cc1"
+      },
+      "content": [
+        {
+          "text": "Měření, která uživatel v tomto okně vybere, budou skryta. V konkrétním případě níže tak budou skryta všechna pole určená pro pediatra.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 221,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 221,
+            "alt": "image-20251210-151217.png",
+            "id": "66302dee-9d89-4603-b8d6-831b1961877b",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "8dc26942-03bc-4a03-89e4-1ded7ec97ed5",
+            "height": 245
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "8bcd5d1a-97e7-43fc-a3ab-c30f659402ee"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3b0e6d8b-32c2-49bd-9786-9ab541eaf46c"
+          },
+          "content": [
+            {
+              "text": "Nově mají praktičtí lékaři pro dospělé sledovat mj. obvod pasu pacienta. Proto je nutné, aby si  pracoviště s odborností 001 skryla všechna měření v sekci pediatr kromě obvodu pasu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "05dbf64b89dd"
+      },
+      "content": [
+        {
+          "text": "ePoukaz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 550,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 550,
+            "alt": "image-20260126-134335.png",
+            "id": "c2dbfa9d-fc1f-4371-be0d-273b99cbb34a",
+            "collection": "contentId-193363969",
+            "type": "file",
+            "localId": "fb502f672429",
+            "height": 145
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5a1d30d19dbc"
+      },
+      "content": [
+        {
+          "text": "(1)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Zjišťování stavu ePoukazu aktualizuje stav ePoukazu poté, co jiné pracoviště (pojišťovna, výdejna) změní jeho stav. Tato služba aktualizuje stavy přes noc. To znamená, že pokud bude pomůcka na ePoukazu vydána 22. 1., tak se tento stav ve FONS Galen zobrazí až 23. 1.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "daaade5531e9"
+      },
+      "content": [
+        {
+          "text": "(2) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Na ePoukazu nebude při jeho předpisu zvolena notifikace pacientovi i přesto, že má pacient kontakt označen příznakem pro notifikace SÚKL. Uživatel bude mít možnost kontakt vyplnit ručně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ad167134666"
+      },
+      "content": [
+        {
+          "text": "(3) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "V těchto dvou řádcích je možné nastavit výchozí platnost pro ePoukazy v případě předpisu pomůcky bez schválení pojišťovnou a v případě pomůcky schvalované pojišťovnou. Pokud zde není vyplněna žádná hodnota, bude ePoukaz vystaven s platností 30 dní. Přednastavenou platnost může uživatel ručně upravit při předpisu konkrétního ePoukazu. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

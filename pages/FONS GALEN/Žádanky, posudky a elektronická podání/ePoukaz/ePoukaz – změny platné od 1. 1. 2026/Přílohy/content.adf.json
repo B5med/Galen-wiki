@@ -1,0 +1,67 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6e0e8b9c-bfd8-434f-a182-0af4f02337ed"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e02e845e-5085-4df0-adf5-170b22a07067"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "838db676-24f3-4955-afdd-441bb26df3cb"
+              },
+              "content": [
+                {
+                  "text": "Maximální velikost příloh se zvyšuje na ",
+                  "type": "text"
+                },
+                {
+                  "text": "10 MB",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f8c5f565-ca55-43a5-9da1-f52ecf0d8668"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ae9697df-ac78-4a7f-9135-79d2650c1549"
+              },
+              "content": [
+                {
+                  "text": "Při překročení limitu se zobrazí aktualizovaná hláška.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

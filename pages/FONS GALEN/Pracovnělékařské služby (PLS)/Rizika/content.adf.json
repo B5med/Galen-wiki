@@ -1,0 +1,221 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Okno pro správu práci rizik a intervalů prohlídek. Tato rizika se následně zadávají do jednotlivých PLS skupin. Přepočet lhůt pro pacienty s daným rizikem proběhne automaticky po editaci daného rizika.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Rizika jsou rozdělena do tří skupin:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kategorie",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Faktory prostředí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ohrožení zdraví",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Lze je smazat, jedině pokud nemají vytvořenou referenci (nebyly použity) Při vytváření nebo editaci uživatel pracuje se stejnou obrazovkou ve všech třech skupinách:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 750,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 750,
+            "alt": "image-20250626-135127.png",
+            "id": "1e434f09-d887-4263-9119-4c75a9db9b39",
+            "collection": "contentId-56918042",
+            "type": "file",
+            "height": 317
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Mimořádná prohlídka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – aktuálně pouze informativní charakter, nepoužívá se v žádné jiné logice",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následná prohlídka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – aktuálně pouze informativní charakter, nepoužívá se v žádné jiné logice",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Periodické prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – Interval prohlídek lze vztahovat na věk pacientů, a to zadáním věku od –  do. Věk se bere zpětně a zjišťuje se při uzavření prohlídky. Tento interval lze odstranit i v případě že již je použit (pokud se datum následující prohlídky bralo z tohoto intervalu, bude datum smazáno).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě přiřazených rizik u PLS skupiny pacienta je vypočítán interval prohlídky tak, že interval prohlídky odpovídá nejkratšímu intervalu rizika.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tento interval je zobrazen v modulu Recepce – Objednávání (viýz kap. PLS - modul objednávání a recepce).",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

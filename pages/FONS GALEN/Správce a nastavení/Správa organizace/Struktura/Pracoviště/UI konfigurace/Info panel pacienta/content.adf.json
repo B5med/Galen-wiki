@@ -1,0 +1,360 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "b86375e0-50dd-4d18-bfe8-cbbde4a953a9"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "5b2c8738-cad3-4c0c-8487-509a7797623e"
+          },
+          "content": [
+            {
+              "text": "Info panel pacienta umožňuje nastavit, jaké informace je potřeba po zobrazení info panelu pacienta na pracovišti zobrazit. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d1f7d781-7378-4625-bb6b-509e6bdd150b"
+      },
+      "content": [
+        {
+          "text": " Info panel pacienta zobrazíme téměř ve všech oknech FONS Galen. Slouží k nahlížení či kopírování informací o pacientovi. V případě, že je nastaveno nahlížení na informace z jiného pracoviště, budou se zde zobrazovat i informace z jiného pracoviště. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 549,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 549,
+            "alt": "image-20251211-084800.png",
+            "id": "c16e8e35-c330-4477-a028-8913c862a6b7",
+            "collection": "contentId-193396737",
+            "type": "file",
+            "localId": "56ccf28f-a101-4763-aa1a-46166d10663f",
+            "height": 363
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "939c451a-9f3c-41a9-8288-12b03c2e133d"
+      },
+      "content": [
+        {
+          "text": "(1) Sbalit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f63ed78e-69e6-42b5-aee7-2bd9e2bade31"
+      },
+      "content": [
+        {
+          "text": "Volba ",
+          "type": "text"
+        },
+        {
+          "text": "Sbalit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se zobrazuje v každé sekci. Pokud je checkbox zaškrtnut, bude sekce ve výchozím zobrazení info panelu sbalena. Uživatel ji klikem může rozbalit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "9b62015d-b77d-45ef-bd4d-fbaf4afff1d0"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "592d98e7-7aa3-4861-8a66-20e1cc9e3cbf"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 287,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 287,
+                    "alt": "11260bb1-35e9-45d7-a232-78b53b4e737b.png",
+                    "id": "a6388ed4-a705-4796-a48c-57bf66011da1",
+                    "collection": "contentId-193396737",
+                    "type": "file",
+                    "localId": "e9a6a61b-1c17-44c6-b831-90fcfe51aba8",
+                    "height": 76
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73103204-b1cf-4bc7-9253-8d51c3ace182"
+              }
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "cfc9ad20-cb59-4750-8113-2fd660906768"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 287,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 287,
+                    "alt": "c0219b9b-8997-4a9b-91ba-5e08856db623.png",
+                    "id": "81b0ef42-c692-4d8f-b6bf-268c9fb9e902",
+                    "collection": "contentId-193396737",
+                    "type": "file",
+                    "localId": "1f84c359-a18f-42c2-bc0b-ae2f6ab0ca8f",
+                    "height": 326
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b31727a-4aa6-470a-82ae-13df9f039627"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46ff1f63-6a22-47ad-a5bf-ae8b28121222"
+      },
+      "content": [
+        {
+          "text": "(2) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Obsah některých sekcí je možné pouze zobrazit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b21f79e5-251b-4912-b534-92bbc0ccf1b3"
+      },
+      "content": [
+        {
+          "text": "(3)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " U jiných sekcí je možné definovat, kolik položek je potřebo zobrazovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "28ffe493-da11-4b0d-b245-c19690dded4c"
+      },
+      "content": [
+        {
+          "text": "Příští očkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a7d989d6-8713-4b83-98ea-a868470ea9ed"
+      },
+      "content": [
+        {
+          "text": "Blok zobrazuje přehled očkování proti nemocem, ve kterých bylo vyplněno datum příštího očkování a zároveň následující očkování proti dané nemoci nebylo vytvořeno. V případě, že je datum příštího očkování v minulosti, je zvýrazněno. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "864615c6-3f13-42c8-a742-5cf53576695f"
+      },
+      "content": [
+        {
+          "text": "Tento blok nesouvisí s objednávkami pacienta na očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b63d220-4d80-4189-93aa-e2b14699521d"
+      },
+      "content": [
+        {
+          "text": "Pokud se v info panelu zobrazuje datum příštího očkování u nemoci, které již nemá být provedeno, je potřeba u nejnovějšího očkování datum příštího očkování smazat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ab202c8a-c39f-4f52-bf9c-e0cf5f0310fa"
+      },
+      "content": [
+        {
+          "text": "Příští prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6c011f45-9398-41eb-ad0b-8b444918b72b"
+      },
+      "content": [
+        {
+          "text": "Blok zobrazuje přehled příštích prohlídek pacienta. Do přehledu se prohlídka dostane tak, že je v prohlídce vyplněno datum příští prohlídky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fcb768a5-e2dd-4472-b39b-e1d634572729"
+      },
+      "content": [
+        {
+          "text": "Pokud se jedná o prohlídku, která nemá definovanou následující prohlídku, název příští prohlídky zůstává totožný jako právě vytvořená prohlídka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05df9bd6-2e7a-4feb-91e2-c98b0a179815"
+      },
+      "content": [
+        {
+          "text": "Pokud je na prohlídce definovaná následující prohlídka (nejčastějším příkladem je preventivní prohlídka pro děti), v přehledu příštích prohlídek se zobrazuje název následující prohlídky. Např.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0a37bfc1-9af0-4cb4-ad47-766d8415e6b2"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Preventivní prohlídka ve věku 5 let byla vystavena 5. 12. 2023. V této prohlídce je vyplněno datum příští prohlídky 5. 12. 2025. Proto bude v info panelu pacienta zobrazena příští prohlídka 5. 12. 2025 PP ve věku 7 let.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a9727457-f14c-49b0-98cf-43198967928a"
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,2130 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "fccb98e2-7de6-43bb-8661-eb3850ab638f"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "d7a43164-7847-423b-ae66-db89bcb88281"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8eb459a3-b11b-4c18-890a-94dcf67589b7"
+      },
+      "content": [
+        {
+          "text": "Pro každé pracovišti je možné definovat provozovny. Pacienty na pracovišti je pak možné přiřazovat do takto definovaných provozoven. Uživatel může definovat svoji preferovanou provozovnu, kdy pak vidí přednostně pacienty přiřazené na svoji provozovnu. Údaje definované v rámci provozovny vstupují do notifikací (např. mobil, adresa). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9d8e55e1-6af4-4904-92e1-947c30be736e"
+      },
+      "content": [
+        {
+          "text": "Konfigurace společnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c8d0aab0-5594-4fe3-89cd-32e04e79faee"
+      },
+      "content": [
+        {
+          "text": "Funkcionalitu lze zapnout v konfiguraci společnosti. Následně se v konfiguraci definují jednotlivé provozovny na pracovištích.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a1a95c32-73c2-4192-9c4c-3c84b61f1674"
+      },
+      "content": [
+        {
+          "text": "Zapnutí funkcionality ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0cfcbd12-5390-4b81-95c9-f34ea6853dba"
+      },
+      "content": [
+        {
+          "text": "Cesta: modul Správce -> modul Správa organizace -> vybrat pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "cc28c2f9-5128-4167-8c23-adcf4426dcbf",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fb27c798-8a74-4cc2-950c-68e8ed478a79"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "86db5838-a13b-4de9-8fa0-38a084de2cf3"
+              },
+              "content": [
+                {
+                  "text": "Pro zapnutí funkcionality uživatel vybere v pravé části možnost „Přiřazení pacientů na provozovny“ a tuto možnost zatrhne.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ecbaa767-b7aa-478b-91de-7d25d3d6f6d4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "60d91da7-d6da-47c6-9181-386d2c6e8ee4"
+              },
+              "content": [
+                {
+                  "text": "Změny potvrdí tlačítkem Uložit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2ec65179-9b80-4d7a-8f69-0a8e3e9701a0"
+      },
+      "content": [
+        {
+          "text": "Provozovny ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1623406e-2b17-4e86-a031-eeee2d5a95e3"
+      },
+      "content": [
+        {
+          "text": "Cesta: modul Správce -> modul Správa organizace -> vybrat pracoviště -> záložka Provozovna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "aeec79d7-8d36-4bad-9837-104215769ddf"
+      },
+      "content": [
+        {
+          "text": "Vytvoření nové provozovny ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "8a4b986f-ac08-4197-928d-66d5637e9b21"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "fdf0be63-6239-438f-a571-1e0160d72463"
+          },
+          "content": [
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "52bfc892-b136-4f34-9b66-2c1af26c891f",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "592ad57e-81e8-4659-9e91-1f722fde955b"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9e3d6186-bb55-442e-9020-3abc9a80c135"
+                      },
+                      "content": [
+                        {
+                          "text": "Uživatel stiskne tlačítko Přidat nový záznam. ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "982072d1-27c2-448f-bbca-42553fcb5c7a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "48464ffd-7595-4e90-9ced-c0ce5a5b7cdb"
+                      },
+                      "content": [
+                        {
+                          "text": "Uživatel vyplní údaje provozovny. ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "3765d30a-0474-45fa-b5b4-2456276b234f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "0d16e699-96e4-4033-8fd8-deadd4a01b79"
+                      },
+                      "content": [
+                        {
+                          "text": "Údaje potvrdí tlačítkem OK. ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "a1659470-44bf-4732-84c8-22e87cd75e16"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 450,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 450,
+                    "alt": "image-20250901-074820.png",
+                    "id": "870ef923-7eb7-441f-b0c6-0928999e554d",
+                    "collection": "contentId-108757007",
+                    "type": "file",
+                    "localId": "ea255842-a85c-4c55-9b83-40e8ef70de58",
+                    "height": 220
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 616,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 616,
+            "alt": "image-20250901-074848.png",
+            "id": "e329ee11-3d54-468d-934f-cfc4f2f888c9",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "afeb692b-2e85-4f44-953f-ad29f13c16c4",
+            "height": 357
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "3ae56bd9-a918-451d-aa50-8ef2eba77742"
+      },
+      "content": [
+        {
+          "text": "Editace provozovny ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "659352d4-fe8f-4aff-b8e9-bb6ae10521a0",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b85f74a4-6bd0-4825-8fc9-46baecb14799"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d10f541a-2dbd-4994-b7fe-27a1bf4be7eb"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vybere provozovnu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "76d67a7a-2962-4ec7-865f-922bff1f6b2e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ff174205-4f3d-4027-aebc-68abbd7dc586"
+              },
+              "content": [
+                {
+                  "text": "Uživatel stiskne tlačítko Otevřít vybraný záznam. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e5d1a979-c4a6-4049-9b3c-1c743fdaa541"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "55120348-7e54-4344-8e03-051bbee427de"
+              },
+              "content": [
+                {
+                  "text": "Alternativa je dvojklik na vybraný záznam. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1829d462-5bd9-4991-99f5-75113138e340"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8e2e3c90-ae25-4797-9b66-631becd23ca4"
+              },
+              "content": [
+                {
+                  "text": "Uživatel provede změny.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "94df5754-3a24-492a-b6fb-9ec6eef43821"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7c52ede0-d7af-435a-9102-4368418963ec"
+              },
+              "content": [
+                {
+                  "text": "Uživatel údaje potvrdí tlačítkem OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "99ee60b0-f157-43e1-be91-23f814aad53f"
+      },
+      "content": [
+        {
+          "text": "Zneaktivnění provozovny ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a368c545-1d45-42c1-a279-c76dd34b6479",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ed67b96f-4bae-47af-8ff1-120e827a96dd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4cbca870-2a2d-4963-861b-d64a99a2635d"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vybere provozovnu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "558cd00d-d3b1-4b20-82e4-8e2d677cc1f1",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "38d2f1cd-ffd6-4a0d-bfce-31c693412851"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4df0ed4d-bbbb-46cc-afca-96c44f1839fb"
+              },
+              "content": [
+                {
+                  "text": "Uživatel stiskne tlačítko Otevřít vybraný záznam. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "8fce74f9-c4c9-4cfc-afdc-618a4dddc5e3",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "762ac053-3c79-4468-a9cf-f4f6dc19ce27"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "90ee4401-05de-4162-ba96-4132bfb0a0f4"
+              },
+              "content": [
+                {
+                  "text": "Alternativa je dvojklik na vybraný záznam. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "37471ca3-18bc-46e3-b010-5292d6652d4b",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3ce21dfa-e010-4408-9edf-816ec7caba85"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d58efe09-5392-44a1-9d03-4ca237467565"
+              },
+              "content": [
+                {
+                  "text": "Uživatel odtrhne možnost Aktivní. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ae8be2ce-bff1-4e45-ab40-561b57a558dc",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "994b4bc1-d22d-4b2f-a04b-c1954c8015ee"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3f242011-5408-468e-9d2f-4084b9b7bf41"
+              },
+              "content": [
+                {
+                  "text": "Uživatel údaje potvrdí tlačítkem OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "28a1a498-badf-4f6e-81d1-9da8e7af4d92"
+      },
+      "content": [
+        {
+          "text": "Uživatelské nastavení ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce63d5b5-d940-4858-a61c-c79dfae04fab"
+      },
+      "content": [
+        {
+          "text": "V uživatelském nastavení lze nastavit výchozí provozovnu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3065abcb-b531-4a06-b7da-70c8ef3a9c38"
+      },
+      "content": [
+        {
+          "text": "Cesta: Vybrat pracoviště -> modul Ordinace -> Konfigurace a nastavení (vpravo nahoře)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "da3b893e-f979-4d3c-9524-1aae29875864",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "abf0f1a5-1bdf-4f4a-aec1-8bff88678231"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "28cc7dff-6cce-4259-9cff-c84317bb3ba8"
+              },
+              "content": [
+                {
+                  "text": "Uživatel zůstane na záložce Nastavení.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "48a1c05b-40e6-4c68-807b-80e9cf68103b",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "acea4eaa-fdda-4b03-aabf-21a191677b21"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d18e8613-77d6-4c51-904e-27e5de841470"
+              },
+              "content": [
+                {
+                  "text": "U položky Výchozí provozovna uživatel vybere provozovnu ze seznamu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f25fc6d2-b84e-4535-99d7-060d0b7d0231",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d9792388-e770-4847-a11d-6c470bc27f56"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5ceaf0d9-a08c-41ac-befa-579fdf3a95ba"
+              },
+              "content": [
+                {
+                  "text": "Uživatel výběr potvrdí tlačítkem OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 695,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 695,
+            "alt": "image-20250901-075125.png",
+            "id": "227eea63-23f6-4196-934c-6536ca95cfd5",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "5869b900-b86c-4333-ac0e-5aa8b8727aca",
+            "height": 571
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "231c601a-d3b7-4288-8314-ed15024357b3"
+      },
+      "content": [
+        {
+          "text": "Kartotéka ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5749cef0-788f-49c2-b7a1-e375f02e9c88"
+      },
+      "content": [
+        {
+          "text": "Cesta: Vybrat pracoviště -> modul Ordinace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2180d3f-5cab-425a-84a0-1a4eb78d264a"
+      },
+      "content": [
+        {
+          "text": "V kartotéce je položka „Zobrazit jen provozovnu“ a výběr ze seznamu provozoven daného pracoviště. Pokud má uživatel definovanou provozovnu, checkbox je zatržený a je vybrána provozovna definovaná uživatelem v nastavení. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8d5f0426-6d04-4241-a692-6b611c369754"
+      },
+      "content": [
+        {
+          "text": "V seznamu je dostupná také volba „Nepřiřazení“. Po jejím zvolení se zobrazí pacienti, kteří nejsou přiřazeni k žádné provozovně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 905,
+            "alt": "image-20250901-075149.png",
+            "id": "ddf86ad6-82b7-4513-ac2c-79806781b865",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "d1c63a47-6e5b-4cd4-a0ea-24ed3e50f7ad",
+            "height": 145
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f170c998-4b91-4d2c-ac10-c1a1f67f3997"
+      },
+      "content": [
+        {
+          "text": "V kartotéce je možné přiřazovat/vyřazovat pacienty k provozovně a to následujícím způsobem: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "386e317a-8a58-4deb-9a64-2c4ba222f49a"
+      },
+      "content": [
+        {
+          "text": "Přiřazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "66886b1e-9ea0-4e33-919c-bb92e9f0484b",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "716b3248-48a7-460a-8c77-0979cbdf7466"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "69724636-68f0-4d0f-b215-23279d71869f"
+              },
+              "content": [
+                {
+                  "text": "Vybrat pacienta a stisknout pravé tlačítko myši. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a0420319-0fc3-48c4-8f89-f4e716300d7a",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "32dcfc0f-b6ae-4316-84d1-3a51a65b5b98"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73712807-9dc6-465a-865e-f7f8a3a1f1f4"
+              },
+              "content": [
+                {
+                  "text": "Vybrat možnost Zařadit -> K provozovně. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fc4958f5-912f-4de3-aa76-bcc25fdf65a4",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9c646eac-1407-4637-9158-21d8f3cfafc7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "898f85e0-7e64-4e8b-a371-c563065cde97"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vybere provozovnu a případě upraví datum přiřazení. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "521e7ce1-2c37-4ff5-8246-da39d8b00f88",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e1b143a3-1721-42ac-9b90-a5d4c30a37c9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2d840f20-bd13-440c-b505-93685d2b86e7"
+              },
+              "content": [
+                {
+                  "text": "Údaje uživatel potvrdí tlačítkem OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 465,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 465,
+            "alt": "image-20250901-075207.png",
+            "id": "4dffdb16-8b48-47f4-afda-1bf1210b26ff",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "163ef5a0-532e-4dbc-9870-9d267cbccd26",
+            "height": 180
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d85514b1-449f-41e5-a874-48d368e5127e"
+      },
+      "content": [
+        {
+          "text": "Vyřazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f9663760-52d3-4bc7-b9d7-bd5ab177b428",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0b693411-3ab6-463a-a9e1-fef126972913"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a6e2761f-36dc-4fb3-a2d3-d84749a0996c"
+              },
+              "content": [
+                {
+                  "text": "Vybrat pacienta a stisknout pravé tlačítko myši. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bd2e4e6e-66e9-4cb7-b521-f78fe5da39c3",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "adfaa5ad-cc46-46cc-9137-3bf99529a623"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d4d8d599-7199-48e0-81f9-a59e1f0a11c9"
+              },
+              "content": [
+                {
+                  "text": "Vybrat možnost Vyřadit -> Z provozovny. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "43588032-12a8-41ad-9c0b-55216b255db1",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "483d6a74-fd5c-4ac7-870a-2400becc07eb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3beb339-36c4-4f9a-a189-72b32b8df0dc"
+              },
+              "content": [
+                {
+                  "text": "Potvrdit ukončení tlačítkem Ano. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5d77deed-f208-4934-b37d-afa903898185",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a06fdd7c-18f1-4df6-a2fb-2510b32ec7e7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d064fea6-325b-4397-ae52-100f7197cda5"
+              },
+              "content": [
+                {
+                  "text": "Uživatel je vyřazen. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 713,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 713,
+            "alt": "image-20250901-075219.png",
+            "id": "dcafc93c-609f-4de7-8ba9-25313903d1a6",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "1b323e2d-357d-4d71-af15-babbde009b1b",
+            "height": 265
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "af29c910-19c2-4fea-896d-dcee3d7ddcae"
+      },
+      "content": [
+        {
+          "text": "Upozornění k pacientovi",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "62c97249-9d60-4641-9d3d-8420584fe1d4"
+      },
+      "content": [
+        {
+          "text": "V okně ",
+          "type": "text"
+        },
+        {
+          "text": "Upozornění k pacientovi",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se zobrazuje sekce ",
+          "type": "text"
+        },
+        {
+          "text": "„Provozovna pacienta“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", pokud pacient není přiřazen k žádné provozovně.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Sekce obsahuje informaci ",
+          "type": "text"
+        },
+        {
+          "text": "„Pacient není přiřazen k žádné provozovně. Přiřaďte pacienta na provozovnu.“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "„Přiřadit k provozovně“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Po kliknutí na tlačítko je uživatel přesměrován do karty pacienta, kde může přiřazení provést.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6d7a1b69-1353-4386-8808-5def7d639da2"
+      },
+      "content": [
+        {
+          "text": "Karta pacienta ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a008a4cc-20b9-4ef6-a506-4d69cc31ac3d"
+      },
+      "content": [
+        {
+          "text": "Cesta: Vybrat pracoviště -> modul Ordinace -> vybrat pacienta -> karta pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49c66922-a1ab-40ab-9298-036fead69281"
+      },
+      "content": [
+        {
+          "text": "Na kartě pacienta je vidět aktuálně přiřazená provozovna. Provozovny lze na kartě pacienta přiřazovat nebo vyřazovat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 905,
+            "alt": "image-20250901-075238.png",
+            "id": "2ef81dd6-7ca4-4f5f-93dc-228bd1c8d4f2",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "a4443440-01bd-4eef-adbc-5f07bdb8fa3c",
+            "height": 192
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d32a066b-7b46-4cd3-a352-6a0260f6d7aa"
+      },
+      "content": [
+        {
+          "text": "Přiřazení pacienta je za pomocí tlačítka Přiřadit k provozovně a vyřazení tlačítkem Vyřadit z provozovny. Postup pro přiřazení/vyřazení je stejný, jako je v kartotéce. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0e594cdc-a558-43f7-ba03-e181cee39aa9"
+      },
+      "content": [
+        {
+          "text": "Dashboard ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c57e64d-53af-4676-a077-245c267421f1"
+      },
+      "content": [
+        {
+          "text": "V dashbordu lze zobrazovat data dle provozovny. Jako výchozí je zobrazena provozovna definovaná v uživatelském nastavení. Provozovny lze přepínat výběrem ze seznamu provozoven v položce „Zobrazit jen provozovnu“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 906,
+            "alt": "image-20250901-075304.png",
+            "id": "e55ec4a3-34b8-480b-8e7d-c9fdb0c4e0ca",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "8153ffa4-9181-4b02-a19a-37856747d8d7",
+            "height": 345
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4eb20d23-ffc3-4258-ae61-40761f5dc141"
+      },
+      "content": [
+        {
+          "text": "Recepce ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0441e5ed-dd3a-43c2-a6cd-680e0c48d13a"
+      },
+      "content": [
+        {
+          "text": "Cesta: modul Recepce -> modul Objednávání -> vybrat pacienta -> pravá strana",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "39de4fdc-59c6-4cfc-b192-ffc261f305eb"
+      },
+      "content": [
+        {
+          "text": "V recepci v informacích o pacientovi je vidět položka „Přiřazen k provozovně:“ včetně názvu provozovny. Pokud pacient není přidělen k žádné provozovně, položka se nezobrazuje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 906,
+            "alt": "image-20250901-075327.png",
+            "id": "d5c9fd75-0cbc-445c-bfae-690058dba1e1",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "702e4b08-f71e-47b2-9656-17dc4744b3db",
+            "height": 217
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "127a1478-e83c-4637-a3bd-dc9efca89bdf"
+      },
+      "content": [
+        {
+          "text": "Nastavení kalendáře pro provozovnu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f75911f0-b011-4f62-aa86-bef9d073bbbe"
+      },
+      "content": [
+        {
+          "text": "V nastavení kalendáře lze definovat, které provozovně vybraný kalendář patří. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7a78c1ae-4a0e-4c97-9b11-8b29d89540d9"
+      },
+      "content": [
+        {
+          "text": "Cesta: modul Správce -> Správa organizace -> Agendy -> záložka Kalendář -> vybrat kalendář",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "c502a434-70a6-473f-ad9a-7d1d41ecba1e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b3f19a95-00c6-41c1-9919-2d8b462718b0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c8d967a6-046d-44fd-b6ee-320d09b3afd3"
+              },
+              "content": [
+                {
+                  "text": "Otevřít nastavení vybraného kalendáře. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f9e0f2fb-76e2-418b-9f9c-1dcf0669fa4d",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d3469fd8-0fb5-4025-8260-33f43bd6fd9e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3a9c85f5-d2ab-4ce9-a1dd-15d573a92881"
+              },
+              "content": [
+                {
+                  "text": "Otevřít Nastavení. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "14fb13be-ce90-40b3-ab4a-d079c4ae4cd6",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e9292e4d-89a6-47b7-a7f3-844b6c57ed0a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d9aebb70-0fb9-4aca-b6d3-05627e512a8b"
+              },
+              "content": [
+                {
+                  "text": "U položky Provozovna vybrat ze seznamu provozovnu.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d96941f0-b720-4927-96f7-619939baef71",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "19001fa0-ccb6-4b5e-9c00-ab7bd481069f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "48bc203a-5e0b-45c9-b393-5113a76a5e91"
+              },
+              "content": [
+                {
+                  "text": "Nové údaje potvrdit tlačítkem OK. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 829,
+            "alt": "image-20250901-075351.png",
+            "id": "7cfc72dd-1e70-47a4-9bc5-181278eb31ec",
+            "collection": "contentId-108757007",
+            "type": "file",
+            "localId": "52baee86-850e-4ba1-92bf-08503c354e42",
+            "height": 553
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "17ac156d-8d75-4a1c-9828-e7b5b2db8349"
+      },
+      "content": [
+        {
+          "text": "Poznámka: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Na záložce Notifikace lze definovat výchozí notifikace. V nastavení šablon lze definovat údaje pro provozovnu. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "950bd076-2102-4ece-979a-685d45b36c27"
+      },
+      "content": [
+        {
+          "text": "Rozdělení notifikací na provozovnu (nároky)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9e681ffe-558d-469d-99c4-e7a6ba022b0f"
+      },
+      "content": [
+        {
+          "text": "Cesta: modul Správce -> modul Nároky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f19bc7f3-b12e-4384-9dce-07959470549d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7bff1c3b-446d-46fa-8cf8-4eaf25baac43"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4968ec30-6a89-4338-830f-7d7b7200770e"
+              },
+              "content": [
+                {
+                  "text": "Uživatel stiskne tlačítko Notifikace pro zobrazení obrazovky Hromadné notifikace. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "136572ce-3fa9-4098-a59a-335c7f40f244",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7eea06b2-a00f-42ac-9d69-e36d7d7f6f86"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2d1b5d69-b774-4688-990f-e633d779101c"
+              },
+              "content": [
+                {
+                  "text": "Uživatel stiskne tlačítko Přidat nový záznam. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d7759c94-f615-4ba2-b3ff-79c53f7bd199",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "681f33f6-c1f5-4d05-ab56-ed5e25feea4e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cedac4d6-942e-4d2d-8028-448d016a9f44"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vyplní potřebné údaje ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1b08d338-cd31-4251-b0e4-8e0d4f6669ca",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "870ecf1b-629b-4d83-b60f-fdaaf3c18e12"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "84991219-c21c-4bfb-93d4-9b3bbf6418db"
+              },
+              "content": [
+                {
+                  "text": "Termín ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "140a49a6-3b21-4d61-b3fd-8f2bedf167d9",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b7f23fe8-9b04-4663-9235-31fc4d3ca8b5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "27298237-0bd2-4f0c-a2a3-c8544d7698c6"
+              },
+              "content": [
+                {
+                  "text": "Typ ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "50e971a5-98f0-41e2-b2f8-74a6c3dce5b8",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b142ca08-d398-4de2-a9c9-cbe018f14de7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "afb474f7-6e5a-4ef2-a042-b985ebe393ac"
+              },
+              "content": [
+                {
+                  "text": "Podtyp ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "8bbd08ac-ac1c-419b-8760-773dd5988e2c",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9dea3820-ab61-422f-a5a5-9409490d1c7e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8e5217de-cf2c-444b-8d74-d0b13ff5d548"
+              },
+              "content": [
+                {
+                  "text": "Počet notifikací na pracoviště ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a2f9c923-3ac2-47dc-b4d9-855411f24c9c",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a2fe39ba-ae76-430d-b4fd-a4fdba8905ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f48fba26-645f-4992-8e2a-897eca606352"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "cb34bf25-94f4-4613-9687-04a365d2087d",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5ba7f9c3-0e8a-4dc7-bb1e-c602fc781e6c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "45cb8a3b-8b99-4ee1-a24f-26ae9cc30a89"
+              },
+              "content": [
+                {
+                  "text": "Provozovna – zde uživatel vybere provozovnu, pro kterou mají být notifikace odesílány ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3b214104-740a-41cb-b16c-8558acc8dd0e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "79a1e385-c1bf-49ec-997d-7af44606fb6a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6922c407-eac2-4091-8430-324f8bec1322"
+              },
+              "content": [
+                {
+                  "text": "Lze definovat pouze provozovny jednoho pracoviště. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "511a8979-6f14-40ef-8d67-1ebf301a2663",
+        "order": 7
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9b56822b-5f8e-4ede-8f77-fb9633d9688f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "766c1652-937b-449f-ab59-7ff92a6763da"
+              },
+              "content": [
+                {
+                  "text": "Počet notifikací pro jeden nárok ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f5e8c64b-1bcd-412a-8889-a53c8bd5723c",
+        "order": 8
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5b346f53-d263-4a0a-913c-1a0f4318e314"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cf059f51-4a66-45d3-bd8a-c56eb775d72f"
+              },
+              "content": [
+                {
+                  "text": "Mimo pojišťovny ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "9dcb43b2-061e-4ec0-9a1c-6872c86e4f0a",
+        "order": 9
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e842c7a2-ee0b-4b92-9ac9-fc81ffa80ef2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "93828f44-df3a-41eb-846e-14c758d11c73"
+              },
+              "content": [
+                {
+                  "text": "Rozestup notifikací [dny] ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6d768e8-5604-4d31-9c86-a32be06dce06"
+      },
+      "content": [
+        {
+          "text": "Poznámka: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Pro oslovování pacientů k nárokům se používají šablony notifikací. Do těchto šablon lze nastavit údaje provozoven.  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

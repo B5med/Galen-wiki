@@ -1,0 +1,251 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 48,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 42,
+            "alt": "image-20250623-082546.png",
+            "id": "ef278280-b3c0-49d6-8d39-dd77a8024c7a",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 52
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Lékařskou zprávu je možné vygenerovat na základě zapsaných dekurzů kliknutím na ikonu Zprávy a poté na ikonu Nová. Otevře se dialogové okno (viz obrázek níže), kde lze specifikovat jednotlivé parametry lékařské zprávy a data, která mají být do zprávy zahrnuta v určitém časovém období. Standardně je toto období nastaveno na dnešní den.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250623-082928.png",
+            "id": "1238dd67-aa66-4f6c-a228-f34174d3e36f",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 215
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po potvrzení konfigurace kliknutím na tlačítko OK je zobrazen text lékařské zprávy, který je ",
+          "type": "text"
+        },
+        {
+          "text": "možné dále upravovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a formátovat. Tento text se při vytištění zároveň ukládá, takže lékař má zaevidováno, jakou zprávu tiskl. (Celkové přehledy je možné nalézt v ",
+          "type": "text"
+        },
+        {
+          "text": "Historii pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "#"
+              }
+            }
+          ]
+        },
+        {
+          "text": " -> Vytištěno.) Chceme-li tisknout pouze denní záznam, při otevřeném okně Dekurz použijeme tlačítko Tisk v pravé části modré horní lišty. Hlavičku lékařské zprávy i denního záznamu je možné definovat v roli Správce v modulu Nástroje -> Šablony -> Záhlaví tisků.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 363,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 363,
+            "alt": "image-20250623-082949.png",
+            "id": "5a8ddd21-008b-4bf0-b479-f73660951507",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 173
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Lékařskou zprávu je také možné odeslat prostřednictvím zabezpečeného přenosového klienta, a to použitím tlačítka Odeslat  v pravé části modré horní lišty.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 24,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 24,
+            "alt": "image-20250623-083030.png",
+            "id": "4741bc63-7881-47d1-8b97-1e9ca91faca8",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 29
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po výběru adresáta je zpráva odeslaná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 202,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 202,
+            "alt": "image-20250623-083018.png",
+            "id": "ed823d4d-e945-4b90-b809-eb1f346f1104",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 59
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Předdefinované texty – fráze",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud lékař píše několikrát denně stejné texty, je možné si tyto texty uložit a jednoduše je vkládat tam, kam je třeba. Tyto texty nadefinujeme v oddílu Nástroje, který najdeme na úvodní obrazovce programu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Fráze je možné vyvolat v textu dvěma způsoby. Asi nejjednodušší je napsat prvních pět znaků z názvu fráze. Program sám nabídne tuto frázi k použití:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 214,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 214,
+            "alt": "image-20250623-083125.png",
+            "id": "268ed51d-6ec6-4954-a7c2-315bf7d676ff",
+            "collection": "contentId-52920363",
+            "type": "file",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Druhý způsob je kliknout do textu pravým tlačítkem myši a vybrat fráze, popř. rovnou použít klávesovou zkratku Ctrl+mezerník. Pak je třeba vybrat frázi ze seznamu.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

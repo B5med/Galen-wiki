@@ -1,0 +1,129 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> záložka Podřízené společnosti ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 250,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1354,
+            "alt": "image-20250618-123855.png",
+            "id": "c18297cd-6895-4468-b0ce-d709a4f043f8",
+            "collection": "contentId-75563053",
+            "type": "file",
+            "height": 201
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel v roli správce organizace zadává novou podřízenou společnost po stisku zeleného +. Stisknutím malé modré tužky otevřeme po označení příslušného řádku s existující podřízenou společností stejné okno, které umožňuje editovat zadané údaje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 356,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 514,
+                    "alt": "image-20250721-100319.png",
+                    "id": "6b4743bc-c37c-4b56-9cf0-a307de663afe",
+                    "collection": "contentId-75563053",
+                    "type": "file",
+                    "height": 730
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Podřízená společnost má své IČO, které se následně generuje do dokladů, např. do faktur při vyúčtování zdravotních výkonů. Podřízená společnost se přiděluje na úrovni IČZ.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 250,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 412,
+                    "alt": "image-20250618-123944.png",
+                    "id": "50a97f29-3f75-4a94-a7f7-1005712d08ba",
+                    "collection": "contentId-75563053",
+                    "type": "file",
+                    "height": 484
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po uložení údajů podřízené společnosti se v dokumentech obsahujících IČO společnosti objevuje IČO podřízené společnosti. Uživateli je tato funkce často využívána v situaci, kdy lékař koupí praxi jiného lékaře s vlastním číslem IČO. Podřízené společnosti jsou v tomto dokumentu zmiňovány u některých funkcionalit, u kterých hraje nastavení podřízené společnosti nějakou roli.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

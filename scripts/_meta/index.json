@@ -1,0 +1,2423 @@
+{
+  "space_id": "98309",
+  "space_key": "fg",
+  "synced_at": "2026-05-20T12:58:13Z",
+  "pages": {
+    "75235333": {
+      "title": "Agendy",
+      "version": 2,
+      "updated_at": "2025-07-21T11:49:10.923Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694084",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy"
+    },
+    "75694190": {
+      "title": "AISLP",
+      "version": 1,
+      "updated_at": "2025-07-21T10:33:39.814Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75366401",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/AISLP"
+    },
+    "53018672": {
+      "title": "Akce spojené s životní cyklem ePoukazu",
+      "version": 1,
+      "updated_at": "2025-06-23T10:16:23.666Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Akce spojené s životní cyklem ePoukazu"
+    },
+    "53018691": {
+      "title": "Anamnéza",
+      "version": 3,
+      "updated_at": "2026-02-04T15:07:51.802Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Anamnéza"
+    },
+    "25952258": {
+      "title": "API PacientDataService GET",
+      "version": 4,
+      "updated_at": "2025-06-11T08:18:44.028Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "30048257",
+      "path": "pages/API PacientDataService GET"
+    },
+    "39583745": {
+      "title": "API PacientDataService PUT",
+      "version": 7,
+      "updated_at": "2025-06-11T13:29:08.983Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "30048257",
+      "path": "pages/API PacientDataService PUT"
+    },
+    "30113793": {
+      "title": "API StrukturaOrganizaceService",
+      "version": 1,
+      "updated_at": "2025-05-15T08:28:49.012Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "30048257",
+      "path": "pages/API StrukturaOrganizaceService"
+    },
+    "66093057": {
+      "title": "API: Adresy",
+      "version": 1,
+      "updated_at": "2025-07-08T14:28:14.609Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Adresy"
+    },
+    "65306627": {
+      "title": "API: Kontakty pacienta",
+      "version": 1,
+      "updated_at": "2025-07-08T14:28:07.504Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Kontakty pacienta"
+    },
+    "310214669": {
+      "title": "API: Měření",
+      "version": 1,
+      "updated_at": "2026-03-18T14:42:41.330Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Měření"
+    },
+    "309657607": {
+      "title": "API: Návštěva",
+      "version": 1,
+      "updated_at": "2026-03-18T14:42:31.170Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Návštěva"
+    },
+    "65994755": {
+      "title": "API: Pacient",
+      "version": 1,
+      "updated_at": "2025-07-08T14:27:58.885Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Pacient"
+    },
+    "82214922": {
+      "title": "API: PLS Pobočky, Skupiny",
+      "version": 2,
+      "updated_at": "2025-07-28T08:41:46.793Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ PLS Pobočky, Skupiny"
+    },
+    "82214913": {
+      "title": "API: Zaměstnání",
+      "version": 1,
+      "updated_at": "2025-07-28T08:26:36.707Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "66093066",
+      "path": "pages/MDCL API/API_ Zaměstnání"
+    },
+    "75595947": {
+      "title": "Archiv – Přeřazení pacienta do archivu",
+      "version": 3,
+      "updated_at": "2026-05-13T13:26:16.539Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Archiv – Přeřazení pacienta do archivu"
+    },
+    "57180187": {
+      "title": "Balíčky",
+      "version": 1,
+      "updated_at": "2025-06-26T13:37:26.771Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150372363",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Balíčky"
+    },
+    "120487956": {
+      "title": "Bezpečnostní logy",
+      "version": 1,
+      "updated_at": "2025-09-17T08:12:23.899Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Bezpečnostní logy"
+    },
+    "248479746": {
+      "title": "Biometrický podpis",
+      "version": 1,
+      "updated_at": "2026-01-29T13:19:08.020Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis"
+    },
+    "78544916": {
+      "title": "Bonifikační a screeningové programy",
+      "version": 9,
+      "updated_at": "2026-05-13T13:01:30.647Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy"
+    },
+    "281739265": {
+      "title": "Centrová léčba",
+      "version": 2,
+      "updated_at": "2026-02-24T09:37:51.122Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba"
+    },
+    "150372363": {
+      "title": "Ceníky a balíčky",
+      "version": 1,
+      "updated_at": "2025-11-07T15:05:13.094Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky"
+    },
+    "377421825": {
+      "title": "Certifikát PZS",
+      "version": 1,
+      "updated_at": "2026-04-29T13:53:21.333Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "359006213",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS"
+    },
+    "18448393": {
+      "title": "Cesta k nastavení používání hesel",
+      "version": 1,
+      "updated_at": "2025-06-17T06:06:01.482Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Cesta k nastavení používání hesel"
+    },
+    "174587905": {
+      "title": "Další signální kódy",
+      "version": 3,
+      "updated_at": "2026-05-12T08:06:23.946Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Další signální kódy"
+    },
+    "104824864": {
+      "title": "Další úpravy spojené s funkcionalitou",
+      "version": 1,
+      "updated_at": "2025-08-26T08:38:33.987Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "104759320",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace pacientů ohledně zpracování laboratorních výsledků/Další úpravy spojené s funkcionalitou"
+    },
+    "68517899": {
+      "title": "Definice nároku",
+      "version": 1,
+      "updated_at": "2025-07-10T12:28:07.308Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68517890",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Definice nároku"
+    },
+    "52690949": {
+      "title": "Dekurz",
+      "version": 1,
+      "updated_at": "2025-06-23T08:17:25.296Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz"
+    },
+    "49446923": {
+      "title": "Design",
+      "version": 1,
+      "updated_at": "2025-06-18T13:20:24.196Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Design"
+    },
+    "56918054": {
+      "title": "Design PLS prohlídky",
+      "version": 1,
+      "updated_at": "2025-06-26T14:11:27.358Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky"
+    },
+    "79724546": {
+      "title": "Dlouhodobé ošetřovné",
+      "version": 4,
+      "updated_at": "2025-09-05T10:54:36.140Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Dlouhodobé ošetřovné"
+    },
+    "249495553": {
+      "title": "Doporučená zařízení",
+      "version": 1,
+      "updated_at": "2026-01-29T14:12:17.029Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "248479746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Doporučená zařízení"
+    },
+    "114262017": {
+      "title": "Doporučení pro práci s modulem",
+      "version": 1,
+      "updated_at": "2025-09-05T07:52:54.129Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Doporučení pro práci s modulem"
+    },
+    "103415835": {
+      "title": "Dvoufaktorové ověření (2FA)",
+      "version": 5,
+      "updated_at": "2025-11-07T12:38:03.375Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)"
+    },
+    "57376772": {
+      "title": "Editace smlouvy",
+      "version": 1,
+      "updated_at": "2025-06-26T13:32:09.172Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150110227",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Editace smlouvy"
+    },
+    "111017986": {
+      "title": "Editace vyšetření různými odpovědnými lékaři",
+      "version": 1,
+      "updated_at": "2025-09-03T10:10:31.543Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Editace vyšetření různými odpovědnými lékaři"
+    },
+    "75104438": {
+      "title": "Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)",
+      "version": 1,
+      "updated_at": "2025-07-21T12:21:50.985Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)"
+    },
+    "48168963": {
+      "title": "eNeschopenka",
+      "version": 2,
+      "updated_at": "2025-06-20T07:12:51.059Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka"
+    },
+    "359006213": {
+      "title": "ePosudek – Elektronické lékařské posudky",
+      "version": 1,
+      "updated_at": "2026-04-29T13:54:37.292Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky"
+    },
+    "360710145": {
+      "title": "ePosudek – Řidičské oprávnění (ŘP)",
+      "version": 1,
+      "updated_at": "2026-04-29T13:54:45.349Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "359006213",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/ePosudek – Řidičské oprávnění (ŘP)"
+    },
+    "52756523": {
+      "title": "ePoukaz",
+      "version": 2,
+      "updated_at": "2026-05-13T13:56:39.675Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz"
+    },
+    "173309953": {
+      "title": "ePoukaz – změny platné od 1. 1. 2026",
+      "version": 2,
+      "updated_at": "2025-11-28T11:04:14.841Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026"
+    },
+    "75366401": {
+      "title": "eRecept",
+      "version": 2,
+      "updated_at": "2025-07-21T10:34:11.829Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75104341",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept"
+    },
+    "75333635": {
+      "title": "eRecept - SÚKL",
+      "version": 2,
+      "updated_at": "2025-07-21T10:34:34.046Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75366401",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept - SÚKL"
+    },
+    "75268126": {
+      "title": "eRecept – návod k použití",
+      "version": 2,
+      "updated_at": "2025-07-21T10:34:48.668Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75366401",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/eRecept/eRecept – návod k použití"
+    },
+    "120356875": {
+      "title": "Evidence přesunu papírové dokumentace",
+      "version": 1,
+      "updated_at": "2025-09-17T08:00:23.187Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Evidence přesunu papírové dokumentace"
+    },
+    "130809857": {
+      "title": "Export dokladů do účetního systému POHODA",
+      "version": 2,
+      "updated_at": "2025-10-16T09:36:57.723Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398491650",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Export dokladů do účetního systému POHODA"
+    },
+    "120487946": {
+      "title": "Externí zpráva - zobrazení a upozornění",
+      "version": 1,
+      "updated_at": "2025-09-17T08:06:40.649Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Externí zpráva - zobrazení a upozornění"
+    },
+    "47546437": {
+      "title": "EZD – elektronická zdravotní dokumentace",
+      "version": 5,
+      "updated_at": "2026-02-16T13:01:10.283Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace"
+    },
+    "398491650": {
+      "title": "Finance a účetnictví",
+      "version": 2,
+      "updated_at": "2026-05-15T12:13:08.889Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Finance a účetnictví"
+    },
+    "61308945": {
+      "title": "Foniatrie",
+      "version": 1,
+      "updated_at": "2025-07-01T08:56:31.634Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Foniatrie"
+    },
+    "98420": {
+      "title": "FONS GALEN",
+      "version": 15,
+      "updated_at": "2026-05-15T09:04:14.475Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": null,
+      "path": "pages/FONS GALEN"
+    },
+    "162955265": {
+      "title": "Formuláře",
+      "version": 1,
+      "updated_at": "2025-11-20T07:45:08.670Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře"
+    },
+    "74940449": {
+      "title": "Formuláře a vyšetření",
+      "version": 1,
+      "updated_at": "2025-07-21T10:35:48.558Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Formuláře a vyšetření"
+    },
+    "75694248": {
+      "title": "Fráze",
+      "version": 1,
+      "updated_at": "2025-07-21T10:36:36.859Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Fráze"
+    },
+    "53379092": {
+      "title": "Generování lékařské zprávy",
+      "version": 1,
+      "updated_at": "2025-06-23T08:48:42.177Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "53313560",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Generování lékařské zprávy"
+    },
+    "68190247": {
+      "title": "Generování nároků z očkování",
+      "version": 1,
+      "updated_at": "2025-07-10T12:44:52.846Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68452353",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z očkování"
+    },
+    "68517890": {
+      "title": "Generování nároků z vyšetření",
+      "version": 2,
+      "updated_at": "2025-07-10T12:26:22.820Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68452353",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření"
+    },
+    "48234521": {
+      "title": "Historie pacienta",
+      "version": 2,
+      "updated_at": "2025-06-18T11:42:35.293Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Historie pacienta"
+    },
+    "57016341": {
+      "title": "Hlavní položky smlouvy",
+      "version": 1,
+      "updated_at": "2025-06-26T13:34:04.236Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150110227",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Hlavní položky smlouvy"
+    },
+    "167641089": {
+      "title": "Hlášení do registru akutních respiračních infekcí ÚZIS",
+      "version": 2,
+      "updated_at": "2026-05-13T13:43:24.488Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Hlášení do registru akutních respiračních infekcí ÚZIS"
+    },
+    "16809985": {
+      "title": "Hlášení do registru infekčních onemocnění ISIN",
+      "version": 2,
+      "updated_at": "2025-11-18T07:47:43.109Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Hlášení do registru infekčních onemocnění ISIN"
+    },
+    "229801986": {
+      "title": "Hlídací pes: Automatické upozornění na volné termíny pro pacienty",
+      "version": 1,
+      "updated_at": "2026-01-19T14:10:18.972Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "3866625",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Hlídací pes_ Automatické upozornění na volné termíny pro pacienty"
+    },
+    "48431112": {
+      "title": "Hlídání podpůrčí doby eDPN",
+      "version": 1,
+      "updated_at": "2025-06-18T08:27:47.244Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "48168963",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Hlídání podpůrčí doby eDPN"
+    },
+    "75792496": {
+      "title": "Import KDávek",
+      "version": 1,
+      "updated_at": "2025-07-21T08:54:08.329Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75792385",
+      "path": "pages/FONS GALEN/Správce a nastavení/Vyúčtování/Import KDávek"
+    },
+    "57180205": {
+      "title": "Import PLS",
+      "version": 1,
+      "updated_at": "2025-06-26T13:53:40.639Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Import PLS"
+    },
+    "46071809": {
+      "title": "Import seznamu registrovaných pojištenců",
+      "version": 3,
+      "updated_at": "2026-01-28T15:10:46.180Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "399179778",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Import seznamu registrovaných pojištenců"
+    },
+    "257916930": {
+      "title": "Individuální vycházky",
+      "version": 2,
+      "updated_at": "2026-02-04T11:21:27.909Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "48168963",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Individuální vycházky"
+    },
+    "193396737": {
+      "title": "Info panel pacienta",
+      "version": 2,
+      "updated_at": "2025-12-11T09:05:14.272Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "191037441",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta"
+    },
+    "312705025": {
+      "title": "Info panel pacienta v Nástrojích",
+      "version": 1,
+      "updated_at": "2026-03-19T09:22:17.156Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "193396737",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Info panel pacienta/Info panel pacienta v Nástrojích"
+    },
+    "177831938": {
+      "title": "Instalace FONS Galen",
+      "version": 3,
+      "updated_at": "2025-12-09T14:54:48.017Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Instalace FONS Galen"
+    },
+    "52690999": {
+      "title": "Jednotlivé části formuláře ePoukaz",
+      "version": 3,
+      "updated_at": "2026-01-27T14:30:20.301Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Jednotlivé části formuláře ePoukaz"
+    },
+    "398065676": {
+      "title": "Karta pacienta a zdravotní dokumentace",
+      "version": 3,
+      "updated_at": "2026-05-15T11:48:06.766Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace"
+    },
+    "57081883": {
+      "title": "Kategorie",
+      "version": 1,
+      "updated_at": "2025-06-26T13:38:22.506Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150372363",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Kategorie"
+    },
+    "75366514": {
+      "title": "Kategorie upozornění",
+      "version": 1,
+      "updated_at": "2025-07-21T10:40:40.501Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Kategorie upozornění"
+    },
+    "75595876": {
+      "title": "Klávesové zkratky ve FONS Galen",
+      "version": 1,
+      "updated_at": "2025-07-21T12:11:34.141Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Klávesové zkratky ve FONS Galen"
+    },
+    "68419606": {
+      "title": "Konfigurace a vznik nároků",
+      "version": 1,
+      "updated_at": "2025-07-10T12:48:03.959Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68190247",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z očkování/Konfigurace a vznik nároků"
+    },
+    "56918022": {
+      "title": "Konfigurace PLS Očkování",
+      "version": 2,
+      "updated_at": "2025-06-26T13:57:15.936Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Očkování"
+    },
+    "57180176": {
+      "title": "Konfigurace PLS Prohlídky",
+      "version": 2,
+      "updated_at": "2025-06-26T13:57:32.412Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Prohlídky"
+    },
+    "57311234": {
+      "title": "Kontakty",
+      "version": 1,
+      "updated_at": "2025-06-26T13:32:03.235Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Kontakty"
+    },
+    "53313549": {
+      "title": "Kopírování textu předchozí návštěvy",
+      "version": 1,
+      "updated_at": "2025-06-23T08:19:55.675Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52690949",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Kopírování textu předchozí návštěvy"
+    },
+    "52756492": {
+      "title": "Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz",
+      "version": 1,
+      "updated_at": "2025-06-23T08:17:16.357Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52690949",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz"
+    },
+    "105086977": {
+      "title": "Laboratorní položky",
+      "version": 1,
+      "updated_at": "2025-08-26T07:32:04.816Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "162955265",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Laboratorní položky"
+    },
+    "47972481": {
+      "title": "Lázně",
+      "version": 1,
+      "updated_at": "2025-06-18T12:37:05.348Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Lázně"
+    },
+    "75268170": {
+      "title": "Lékaři",
+      "version": 1,
+      "updated_at": "2025-07-21T10:28:03.770Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104296",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky/Lékaři"
+    },
+    "52920363": {
+      "title": "Lékařská zpráva",
+      "version": 1,
+      "updated_at": "2025-06-23T08:31:51.451Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva"
+    },
+    "48005121": {
+      "title": "Lékové žádanky",
+      "version": 2,
+      "updated_at": "2025-06-19T12:35:03.904Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75104341",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/Lékové žádanky"
+    },
+    "173834242": {
+      "title": "Maximální preskripce",
+      "version": 2,
+      "updated_at": "2025-11-28T11:17:46.749Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Maximální preskripce"
+    },
+    "66093066": {
+      "title": "MDCL API",
+      "version": 2,
+      "updated_at": "2025-07-08T14:33:35.774Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "30048257",
+      "path": "pages/MDCL API"
+    },
+    "75104341": {
+      "title": "Medikace",
+      "version": 1,
+      "updated_at": "2025-07-21T10:49:50.461Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace"
+    },
+    "398688271": {
+      "title": "Medikace, očkování a registry",
+      "version": 3,
+      "updated_at": "2026-05-15T11:50:43.527Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry"
+    },
+    "50167847": {
+      "title": "Modul finance",
+      "version": 3,
+      "updated_at": "2026-05-13T12:58:53.194Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "398491650",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul finance"
+    },
+    "113704961": {
+      "title": "Modul Finanční analýza",
+      "version": 1,
+      "updated_at": "2025-09-05T06:47:18.512Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398491650",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza"
+    },
+    "48365658": {
+      "title": "Modul komunikace",
+      "version": 4,
+      "updated_at": "2025-07-21T12:12:38.687Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Modul komunikace"
+    },
+    "68517948": {
+      "title": "Modul Nároky",
+      "version": 2,
+      "updated_at": "2025-07-10T12:42:42.473Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68452353",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Modul Nároky"
+    },
+    "35684353": {
+      "title": "Modul ordinace",
+      "version": 5,
+      "updated_at": "2025-08-11T09:10:52.770Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace"
+    },
+    "48136251": {
+      "title": "Modul sklad",
+      "version": 3,
+      "updated_at": "2025-12-05T14:41:04.181Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "404029444",
+      "path": "pages/Modul sklad"
+    },
+    "57999370": {
+      "title": "Možnost editace vlastních pravidel pro vykazování výkonů",
+      "version": 5,
+      "updated_at": "2026-03-09T12:59:10.505Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "49446923",
+      "path": "pages/FONS GALEN/Správce a nastavení/Design/Možnost editace vlastních pravidel pro vykazování výkonů"
+    },
+    "50298914": {
+      "title": "Nadstandardní modul eOčkování",
+      "version": 1,
+      "updated_at": "2025-06-19T10:56:19.651Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "103776281",
+      "path": "pages/Nadstandardní modul eOčkování"
+    },
+    "50495507": {
+      "title": "Nadstandardní péče",
+      "version": 2,
+      "updated_at": "2025-06-20T07:42:20.947Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nadstandardní péče"
+    },
+    "104104015": {
+      "title": "Napojení FONS GALEN na modul eOčkování - nahlížení",
+      "version": 9,
+      "updated_at": "2026-03-18T12:54:31.251Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "103776281",
+      "path": "pages/Napojení FONS GALEN na modul eOčkování - nahlížení"
+    },
+    "83001345": {
+      "title": "Naskladňování přes čtečky",
+      "version": 3,
+      "updated_at": "2026-04-23T13:13:57.862Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "404029444",
+      "path": "pages/Naskladňování přes čtečky"
+    },
+    "77365253": {
+      "title": "Nastavení kalendáře",
+      "version": 1,
+      "updated_at": "2025-07-22T13:56:40.312Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "77430788",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Nastavení kalendářů/Nastavení kalendáře"
+    },
+    "77430788": {
+      "title": "Nastavení kalendářů",
+      "version": 1,
+      "updated_at": "2025-07-22T13:41:55.818Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Nastavení kalendářů"
+    },
+    "109248514": {
+      "title": "Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL",
+      "version": 5,
+      "updated_at": "2025-11-07T12:38:30.121Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL"
+    },
+    "248545281": {
+      "title": "Nastavení pracoviště",
+      "version": 2,
+      "updated_at": "2026-04-10T06:29:29.490Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "248479746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Nastavení pracoviště"
+    },
+    "217579521": {
+      "title": "Nastavení vyúčtování",
+      "version": 2,
+      "updated_at": "2026-01-06T14:57:00.369Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75202672",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení/Nastavení vyúčtování"
+    },
+    "68616209": {
+      "title": "Notifikace",
+      "version": 1,
+      "updated_at": "2025-07-10T12:44:10.799Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68517890",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Notifikace"
+    },
+    "54427649": {
+      "title": "Notifikace objednávek",
+      "version": 4,
+      "updated_at": "2026-04-13T07:39:42.181Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace objednávek"
+    },
+    "104759320": {
+      "title": "Notifikace pacientů ohledně zpracování laboratorních výsledků",
+      "version": 1,
+      "updated_at": "2025-08-26T08:36:55.883Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Notifikace pacientů ohledně zpracování laboratorních výsledků"
+    },
+    "74940506": {
+      "title": "Notifikace ČSSZ",
+      "version": 1,
+      "updated_at": "2025-07-21T12:44:24.811Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Notifikace ČSSZ"
+    },
+    "75628633": {
+      "title": "Notifikace.",
+      "version": 1,
+      "updated_at": "2025-07-21T10:38:28.626Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Notifikace"
+    },
+    "297140225": {
+      "title": "Novinky ve verzi k 10. 3. 2026",
+      "version": 4,
+      "updated_at": "2026-03-09T09:41:18.494Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 10. 3. 2026"
+    },
+    "264208385": {
+      "title": "Novinky ve verzi k 11. 2. 2026",
+      "version": 2,
+      "updated_at": "2026-02-09T08:52:10.237Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 11. 2. 2026"
+    },
+    "94535682": {
+      "title": "Novinky ve verzi k 12. 8. 2025",
+      "version": 4,
+      "updated_at": "2025-08-25T09:40:24.618Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 12. 8. 2025"
+    },
+    "224788481": {
+      "title": "Novinky ve verzi k 13. 1. 2026",
+      "version": 1,
+      "updated_at": "2026-01-12T14:11:30.826Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 13. 1. 2026"
+    },
+    "78970915": {
+      "title": "Novinky ve verzi k 15. 7. 2025",
+      "version": 2,
+      "updated_at": "2025-07-29T10:59:36.413Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 15. 7. 2025"
+    },
+    "203554817": {
+      "title": "Novinky ve verzi k 16. 12. 2025",
+      "version": 2,
+      "updated_at": "2025-12-17T11:47:24.657Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 16. 12. 2025"
+    },
+    "160727041": {
+      "title": "Novinky ve verzi k 18. 11. 2025",
+      "version": 2,
+      "updated_at": "2025-12-03T10:19:23.213Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 18. 11. 2025"
+    },
+    "406781968": {
+      "title": "Novinky ve verzi k 19. 5. 2026",
+      "version": 2,
+      "updated_at": "2026-05-18T11:00:16.326Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 19. 5. 2026"
+    },
+    "177438721": {
+      "title": "Novinky ve verzi k 2. 12. 2025",
+      "version": 4,
+      "updated_at": "2025-12-17T11:47:14.123Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 2. 12. 2025"
+    },
+    "359661570": {
+      "title": "Novinky ve verzi k 21. 4. 2026",
+      "version": 7,
+      "updated_at": "2026-04-23T07:12:59.602Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 21. 4. 2026"
+    },
+    "280494081": {
+      "title": "Novinky ve verzi k 24. 2. 2026",
+      "version": 2,
+      "updated_at": "2026-02-23T10:19:40.729Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 24. 2. 2026"
+    },
+    "316211203": {
+      "title": "Novinky ve verzi k 24. 3. 2026",
+      "version": 1,
+      "updated_at": "2026-03-23T08:42:47.233Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 24. 3. 2026"
+    },
+    "103219202": {
+      "title": "Novinky ve verzi k 26. 8. 2025",
+      "version": 2,
+      "updated_at": "2025-09-23T10:28:46.716Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 26. 8. 2025"
+    },
+    "243105793": {
+      "title": "Novinky ve verzi k 28. 1. 2026",
+      "version": 2,
+      "updated_at": "2026-01-27T07:59:02.945Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 28. 1. 2026"
+    },
+    "83427332": {
+      "title": "Novinky ve verzi k 29. 7. 2025",
+      "version": 2,
+      "updated_at": "2025-08-13T11:17:31.376Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 29. 7. 2025"
+    },
+    "383877123": {
+      "title": "Novinky ve verzi k 5. 5. 2026",
+      "version": 4,
+      "updated_at": "2026-05-04T08:20:08.066Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 5. 5. 2026"
+    },
+    "132481025": {
+      "title": "Novinky ve verzi k 7. 10. 2025",
+      "version": 2,
+      "updated_at": "2025-12-03T10:19:33.474Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 7. 10. 2025"
+    },
+    "336199681": {
+      "title": "Novinky ve verzi k 8. 4. 2026",
+      "version": 8,
+      "updated_at": "2026-04-07T10:13:37.469Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 8. 4. 2026"
+    },
+    "115736577": {
+      "title": "Novinky ve verzi k 9. 9. 2025",
+      "version": 4,
+      "updated_at": "2025-09-23T10:29:02.129Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "78675976",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích/Novinky ve verzi k 9. 9. 2025"
+    },
+    "75268151": {
+      "title": "Nákladová střediska",
+      "version": 2,
+      "updated_at": "2025-07-21T10:23:29.647Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska"
+    },
+    "68452353": {
+      "title": "Nároky",
+      "version": 2,
+      "updated_at": "2025-07-10T12:42:27.969Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky"
+    },
+    "75694173": {
+      "title": "Nástroje",
+      "version": 3,
+      "updated_at": "2025-07-21T10:56:14.573Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje"
+    },
+    "104890403": {
+      "title": "Návod na přidání pojišťovny a smluvních výkonů",
+      "version": 1,
+      "updated_at": "2025-08-26T12:04:30.070Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75694084",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Návod na přidání pojišťovny a smluvních výkonů"
+    },
+    "68091907": {
+      "title": "Obecné fungování nároků",
+      "version": 1,
+      "updated_at": "2025-07-10T12:24:36.280Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68452353",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Obecné fungování nároků"
+    },
+    "113737731": {
+      "title": "Obecné informace",
+      "version": 1,
+      "updated_at": "2025-09-05T06:49:40.733Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obecné informace"
+    },
+    "45842437": {
+      "title": "Objednávání, kalendáře, notifikace",
+      "version": 1,
+      "updated_at": "2025-07-21T13:50:01.476Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Objednávání, kalendáře, notifikace"
+    },
+    "400097284": {
+      "title": "Objednávání, komunikace a notifikace",
+      "version": 3,
+      "updated_at": "2026-05-18T07:42:47.670Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace"
+    },
+    "105316353": {
+      "title": "Obnovení hesla e-mailem",
+      "version": 1,
+      "updated_at": "2025-08-26T11:50:46.021Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Obnovení hesla e-mailem"
+    },
+    "114032645": {
+      "title": "Obrazovka: Analytika",
+      "version": 1,
+      "updated_at": "2025-09-05T07:49:04.918Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Analytika"
+    },
+    "113639430": {
+      "title": "Obrazovka: Finanční přehled",
+      "version": 1,
+      "updated_at": "2025-09-05T07:44:38.108Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Finanční přehled"
+    },
+    "113999874": {
+      "title": "Obrazovka: Výchozí údaje",
+      "version": 2,
+      "updated_at": "2026-05-12T06:10:51.279Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obrazovka_ Výchozí údaje"
+    },
+    "248053765": {
+      "title": "Odeslání k podpisu",
+      "version": 1,
+      "updated_at": "2026-01-29T13:51:44.311Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "248479746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Odeslání k podpisu"
+    },
+    "76120082": {
+      "title": "Odeslání lístku na peníze",
+      "version": 1,
+      "updated_at": "2025-07-21T12:39:37.283Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Odeslání lístku na peníze"
+    },
+    "104824874": {
+      "title": "Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)",
+      "version": 1,
+      "updated_at": "2025-08-26T11:57:03.696Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)"
+    },
+    "52985868": {
+      "title": "Odesílání lékařských zpráv",
+      "version": 1,
+      "updated_at": "2025-06-23T08:54:34.510Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Odesílání lékařských zpráv"
+    },
+    "47939696": {
+      "title": "Off-line režim",
+      "version": 1,
+      "updated_at": "2025-06-18T11:17:41.833Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Off-line režim"
+    },
+    "230031362": {
+      "title": "Online objednávání pacientů",
+      "version": 1,
+      "updated_at": "2026-01-19T14:09:37.725Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "3866625",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online objednávání pacientů"
+    },
+    "233504769": {
+      "title": "Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen",
+      "version": 3,
+      "updated_at": "2026-01-19T14:24:25.660Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "3866625",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen"
+    },
+    "75235441": {
+      "title": "Operační sály",
+      "version": 1,
+      "updated_at": "2025-07-21T11:48:34.404Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Operační sály"
+    },
+    "75628693": {
+      "title": "Oprávnění",
+      "version": 4,
+      "updated_at": "2026-02-04T15:07:38.875Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694084",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění"
+    },
+    "120291330": {
+      "title": "Ostatní",
+      "version": 1,
+      "updated_at": "2025-09-17T07:50:58.311Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Ostatní"
+    },
+    "76972043": {
+      "title": "Ověření údajů v kartě pacienta",
+      "version": 1,
+      "updated_at": "2025-07-22T08:09:49.564Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Ověření údajů v kartě pacienta"
+    },
+    "53149737": {
+      "title": "Očkování",
+      "version": 1,
+      "updated_at": "2025-06-23T10:31:31.756Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování"
+    },
+    "75464947": {
+      "title": "Ošetřovné",
+      "version": 2,
+      "updated_at": "2025-07-21T13:34:46.239Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Ošetřovné"
+    },
+    "108757007": {
+      "title": "Pacienti dle provozovny",
+      "version": 3,
+      "updated_at": "2026-03-03T09:49:11.771Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Pacienti dle provozovny"
+    },
+    "75694321": {
+      "title": "PACS",
+      "version": 1,
+      "updated_at": "2025-07-21T11:39:29.812Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/PACS"
+    },
+    "52723760": {
+      "title": "Platnost ePoukazu",
+      "version": 3,
+      "updated_at": "2026-01-26T13:35:49.290Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Platnost ePoukazu"
+    },
+    "57016366": {
+      "title": "PLS - modul objednávání a recepce",
+      "version": 2,
+      "updated_at": "2025-06-26T14:02:47.915Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce"
+    },
+    "57147399": {
+      "title": "PLS Admin",
+      "version": 1,
+      "updated_at": "2025-06-26T13:47:54.382Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin"
+    },
+    "57442361": {
+      "title": "PLS Admin Služby",
+      "version": 1,
+      "updated_at": "2025-06-26T13:48:42.289Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin Služby"
+    },
+    "57507855": {
+      "title": "PLS Faktury",
+      "version": 1,
+      "updated_at": "2025-06-26T13:52:12.484Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Faktury"
+    },
+    "57376809": {
+      "title": "PLS očkování",
+      "version": 1,
+      "updated_at": "2025-06-26T13:57:47.809Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování"
+    },
+    "56885286": {
+      "title": "PLS prohlídky",
+      "version": 1,
+      "updated_at": "2025-06-26T13:57:40.890Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky"
+    },
+    "57344037": {
+      "title": "PLS Služba",
+      "version": 1,
+      "updated_at": "2025-06-26T13:50:03.571Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Služba"
+    },
+    "247627788": {
+      "title": "Podepsání v Signosoft",
+      "version": 1,
+      "updated_at": "2026-01-29T14:05:02.826Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "248479746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Podepsání v Signosoft"
+    },
+    "367263750": {
+      "title": "Podporované čtečky 2D kódů a konfigurace",
+      "version": 2,
+      "updated_at": "2026-05-12T09:21:00.809Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "83001345",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace"
+    },
+    "75104313": {
+      "title": "Podávání léčiv",
+      "version": 1,
+      "updated_at": "2025-07-21T10:54:09.627Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75104341",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/Podávání léčiv"
+    },
+    "75563053": {
+      "title": "Podřízené společnosti",
+      "version": 3,
+      "updated_at": "2025-07-21T10:03:48.405Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Podřízené společnosti"
+    },
+    "75694353": {
+      "title": "Pokladny",
+      "version": 1,
+      "updated_at": "2025-07-21T11:45:06.426Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Pokladny"
+    },
+    "3866625": {
+      "title": "Portál pacienta",
+      "version": 1,
+      "updated_at": "2025-03-21T08:14:35.458Z",
+      "author_id": "712020:0802bce8-6eb3-4cf6-bdbf-c4fa85044b95",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta"
+    },
+    "257622018": {
+      "title": "Postup při změně IČPE",
+      "version": 1,
+      "updated_at": "2026-02-04T08:39:33.798Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Postup při změně IČPE"
+    },
+    "113705028": {
+      "title": "Potvrzení o datu porodu",
+      "version": 1,
+      "updated_at": "2025-09-09T10:48:45.169Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potvrzení o datu porodu"
+    },
+    "75694423": {
+      "title": "Potřebná nastavení",
+      "version": 3,
+      "updated_at": "2025-12-05T14:10:14.351Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75628746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Potřebná nastavení"
+    },
+    "61440018": {
+      "title": "Poukaz FT",
+      "version": 2,
+      "updated_at": "2025-12-01T12:24:48.288Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT"
+    },
+    "75595813": {
+      "title": "Poučení očkování",
+      "version": 1,
+      "updated_at": "2025-07-21T10:39:14.970Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Poučení očkování"
+    },
+    "48136310": {
+      "title": "Pozitivní PZT",
+      "version": 7,
+      "updated_at": "2025-07-21T10:06:11.590Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Pozitivní PZT"
+    },
+    "52854833": {
+      "title": "Počet položek ePoukazu",
+      "version": 1,
+      "updated_at": "2025-06-23T09:59:36.843Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Počet položek ePoukazu"
+    },
+    "75694407": {
+      "title": "Pracoviště",
+      "version": 5,
+      "updated_at": "2025-12-10T15:02:44.841Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694398",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště"
+    },
+    "150339588": {
+      "title": "Pracovnělékařské služby (PLS)",
+      "version": 5,
+      "updated_at": "2026-05-14T08:04:40.752Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)"
+    },
+    "79593473": {
+      "title": "Preferovaná medikace VZP – nezaměňovat",
+      "version": 1,
+      "updated_at": "2025-07-24T08:22:21.950Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398688271",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Preferovaná medikace VZP – nezaměňovat"
+    },
+    "75628662": {
+      "title": "Preferovaná preskripce",
+      "version": 1,
+      "updated_at": "2025-07-21T11:47:46.578Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Preferovaná preskripce"
+    },
+    "50102315": {
+      "title": "Prohlídky",
+      "version": 9,
+      "updated_at": "2025-12-11T13:51:10.090Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "49446923",
+      "path": "pages/FONS GALEN/Správce a nastavení/Design/Prohlídky"
+    },
+    "179994625": {
+      "title": "Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek",
+      "version": 1,
+      "updated_at": "2025-12-02T11:01:35.518Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104341",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek"
+    },
+    "120225793": {
+      "title": "Předepsání eReceptu pod jiným IČP",
+      "version": 1,
+      "updated_at": "2025-09-17T07:48:55.234Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694407",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Předepsání eReceptu pod jiným IČP"
+    },
+    "49446938": {
+      "title": "Předlohy tisku",
+      "version": 4,
+      "updated_at": "2025-06-19T06:18:46.650Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "49446923",
+      "path": "pages/FONS GALEN/Správce a nastavení/Design/Předlohy tisku"
+    },
+    "173146115": {
+      "title": "Předpis neregistrovaného prostředku",
+      "version": 2,
+      "updated_at": "2025-11-28T11:18:39.577Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Předpis neregistrovaného prostředku"
+    },
+    "109215766": {
+      "title": "Přegenerování certifikátů",
+      "version": 3,
+      "updated_at": "2025-11-07T12:38:47.245Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "109248514",
+      "path": "pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/Přegenerování certifikátů"
+    },
+    "78675976": {
+      "title": "Přehled změn ve verzích",
+      "version": 3,
+      "updated_at": "2025-07-23T11:33:41.933Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Přehled změn ve verzích"
+    },
+    "219578370": {
+      "title": "Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen",
+      "version": 1,
+      "updated_at": "2026-01-07T12:54:19.631Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen"
+    },
+    "75268255": {
+      "title": "Převzetí do péče",
+      "version": 1,
+      "updated_at": "2025-07-21T12:39:03.507Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Převzetí do péče"
+    },
+    "247627780": {
+      "title": "Přihlášení do Signosoftu",
+      "version": 1,
+      "updated_at": "2026-01-29T13:45:29.040Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "248479746",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Biometrický podpis/Přihlášení do Signosoftu"
+    },
+    "61145127": {
+      "title": "Příkaz ke zdravotnímu transportu",
+      "version": 2,
+      "updated_at": "2025-07-21T11:39:41.981Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Příkaz ke zdravotnímu transportu"
+    },
+    "174358529": {
+      "title": "Přílohy",
+      "version": 1,
+      "updated_at": "2025-11-28T10:59:04.635Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Přílohy"
+    },
+    "60850197": {
+      "title": "RDG žádanky",
+      "version": 1,
+      "updated_at": "2025-07-01T10:50:21.800Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky"
+    },
+    "229736451": {
+      "title": "Registrace do Portálu pacienta",
+      "version": 1,
+      "updated_at": "2026-01-19T14:23:20.210Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "3866625",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Registrace do Portálu pacienta"
+    },
+    "56918042": {
+      "title": "Rizika",
+      "version": 1,
+      "updated_at": "2025-06-26T13:52:43.663Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Rizika"
+    },
+    "113705011": {
+      "title": "Rozdíly mezi verzemi",
+      "version": 1,
+      "updated_at": "2025-09-05T07:51:42.118Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Rozdíly mezi verzemi"
+    },
+    "57049103": {
+      "title": "Rozšiřující položky smlouvy",
+      "version": 1,
+      "updated_at": "2025-06-26T13:34:11.460Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150110227",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Rozšiřující položky smlouvy"
+    },
+    "202473494": {
+      "title": "Screening kolorektálního karcinomu",
+      "version": 1,
+      "updated_at": "2025-12-16T17:49:39.795Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Screening kolorektálního karcinomu"
+    },
+    "83361812": {
+      "title": "Screening zraku u dětí",
+      "version": 2,
+      "updated_at": "2025-12-16T17:22:46.226Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Screening zraku u dětí"
+    },
+    "202735618": {
+      "title": "Screening časného záchytu karcinomu plic",
+      "version": 1,
+      "updated_at": "2025-12-16T17:47:30.668Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Screening časného záchytu karcinomu plic"
+    },
+    "75628733": {
+      "title": "Sdílená kartotéka pro skupiny pracovišť",
+      "version": 1,
+      "updated_at": "2025-07-21T12:05:11.359Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Sdílená kartotéka pro skupiny pracovišť"
+    },
+    "48201742": {
+      "title": "Sdílení dokumentace",
+      "version": 1,
+      "updated_at": "2025-06-18T08:28:06.377Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Sdílení dokumentace"
+    },
+    "75104287": {
+      "title": "Seznam NSP",
+      "version": 1,
+      "updated_at": "2025-07-21T10:30:38.109Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104296",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky/Seznam NSP"
+    },
+    "172556291": {
+      "title": "Signální kód 0082747 – vlhké krytí",
+      "version": 2,
+      "updated_at": "2025-11-28T11:20:45.512Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Signální kód 0082747 – vlhké krytí"
+    },
+    "107970584": {
+      "title": "Sjednocení upozornění pro pacienty",
+      "version": 1,
+      "updated_at": "2025-09-01T08:34:35.273Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Sjednocení upozornění pro pacienty"
+    },
+    "61079557": {
+      "title": "Skartace pacientů",
+      "version": 1,
+      "updated_at": "2025-07-01T08:35:17.214Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Skartace pacientů"
+    },
+    "75628653": {
+      "title": "Skladový sortiment",
+      "version": 1,
+      "updated_at": "2025-07-21T11:46:17.404Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Skladový sortiment"
+    },
+    "75595845": {
+      "title": "Sklady",
+      "version": 3,
+      "updated_at": "2025-11-21T09:02:15.285Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Sklady"
+    },
+    "108494849": {
+      "title": "Sklady HVLP a PZT",
+      "version": 1,
+      "updated_at": "2025-09-01T07:45:12.849Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "404029444",
+      "path": "pages/Sklady HVLP a PZT"
+    },
+    "77332490": {
+      "title": "Skupiny kalendářů",
+      "version": 1,
+      "updated_at": "2025-07-22T13:48:23.990Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "77430788",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Nastavení kalendářů/Skupiny kalendářů"
+    },
+    "75268161": {
+      "title": "Skupiny pacientů, Dispenzární skupiny",
+      "version": 2,
+      "updated_at": "2025-12-01T10:54:01.594Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104296",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky/Skupiny pacientů, Dispenzární skupiny"
+    },
+    "75694112": {
+      "title": "Skupiny pracovišť",
+      "version": 1,
+      "updated_at": "2025-07-21T10:06:23.638Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Skupiny pracovišť"
+    },
+    "75563103": {
+      "title": "Sledování defektů  ",
+      "version": 1,
+      "updated_at": "2025-07-21T10:31:37.082Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104296",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky/Sledování defektů"
+    },
+    "399638530": {
+      "title": "Sloučení karet pacienta",
+      "version": 2,
+      "updated_at": "2026-05-13T12:40:15.123Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "399179778",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Sloučení karet pacienta"
+    },
+    "68517932": {
+      "title": "Smazání nároku",
+      "version": 1,
+      "updated_at": "2025-07-10T12:33:10.334Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68517890",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Smazání nároku"
+    },
+    "48922625": {
+      "title": "Smlouvy",
+      "version": 4,
+      "updated_at": "2025-10-31T12:28:46.746Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "75694084",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy"
+    },
+    "150110227": {
+      "title": "Smlouvy PLS",
+      "version": 1,
+      "updated_at": "2025-11-07T14:53:34.377Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS"
+    },
+    "75464891": {
+      "title": "Smluvní výkony",
+      "version": 2,
+      "updated_at": "2025-12-10T11:13:00.761Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694407",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Smluvní výkony"
+    },
+    "341704706": {
+      "title": "SMS zprávy ve FONS Galen",
+      "version": 2,
+      "updated_at": "2026-04-13T07:32:00.608Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/SMS zprávy ve FONS Galen"
+    },
+    "57507841": {
+      "title": "Sortiment",
+      "version": 1,
+      "updated_at": "2025-06-26T13:35:33.443Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150372363",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Sortiment"
+    },
+    "75202656": {
+      "title": "Společnost",
+      "version": 3,
+      "updated_at": "2025-07-21T12:03:41.087Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694398",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Společnost"
+    },
+    "75694093": {
+      "title": "Správa API",
+      "version": 1,
+      "updated_at": "2025-07-21T08:50:01.816Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Správa API"
+    },
+    "399179778": {
+      "title": "Správa kartoték",
+      "version": 2,
+      "updated_at": "2026-05-15T12:22:57.496Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték"
+    },
+    "75694084": {
+      "title": "Správa organizace",
+      "version": 2,
+      "updated_at": "2025-07-21T11:56:40.894Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace"
+    },
+    "75333741": {
+      "title": "Správce a nastavení",
+      "version": 4,
+      "updated_at": "2026-05-15T12:18:13.277Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Správce a nastavení"
+    },
+    "18513922": {
+      "title": "Spuštění programu",
+      "version": 1,
+      "updated_at": "2025-06-17T06:05:41.653Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Spuštění programu"
+    },
+    "53084213": {
+      "title": "Stahování výdejů ePoukazů",
+      "version": 1,
+      "updated_at": "2025-06-23T10:17:39.629Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Stahování výdejů ePoukazů"
+    },
+    "48431127": {
+      "title": "Stav účtu",
+      "version": 2,
+      "updated_at": "2025-06-20T07:16:33.253Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Stav účtu"
+    },
+    "76120098": {
+      "title": "Stavy",
+      "version": 1,
+      "updated_at": "2025-07-21T12:43:07.995Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Stavy"
+    },
+    "75694398": {
+      "title": "Struktura",
+      "version": 3,
+      "updated_at": "2025-07-21T12:02:57.140Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694084",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura"
+    },
+    "75268199": {
+      "title": "Styly tisků",
+      "version": 1,
+      "updated_at": "2025-07-21T10:37:52.928Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Styly tisků"
+    },
+    "76742689": {
+      "title": "Synchronizovat s AD",
+      "version": 2,
+      "updated_at": "2025-07-22T10:28:57.531Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "76972064",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Uživatelé/Synchronizovat s AD"
+    },
+    "201523202": {
+      "title": "T-skóre",
+      "version": 1,
+      "updated_at": "2025-12-16T17:40:03.397Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/T-skóre"
+    },
+    "202801160": {
+      "title": "Test mentálních funkcí",
+      "version": 1,
+      "updated_at": "2025-12-16T17:52:08.488Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Test mentálních funkcí"
+    },
+    "74940440": {
+      "title": "Trvalé medikace a Receptář",
+      "version": 2,
+      "updated_at": "2025-07-21T10:53:36.499Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "75104341",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Medikace/Trvalé medikace a Receptář"
+    },
+    "52854786": {
+      "title": "Typ dokumentace",
+      "version": 1,
+      "updated_at": "2025-06-23T08:17:32.853Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Typ dokumentace"
+    },
+    "191037441": {
+      "title": "UI konfigurace",
+      "version": 4,
+      "updated_at": "2025-12-10T15:28:51.255Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694407",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace"
+    },
+    "75628769": {
+      "title": "Ukončení dávky",
+      "version": 1,
+      "updated_at": "2025-07-21T12:40:47.082Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Ukončení dávky"
+    },
+    "47546507": {
+      "title": "Ukončení programu",
+      "version": 1,
+      "updated_at": "2025-06-18T11:15:02.435Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Ukončení programu"
+    },
+    "67305473": {
+      "title": "Upozornění pro uživatele",
+      "version": 1,
+      "updated_at": "2025-07-22T07:47:53.919Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele"
+    },
+    "76021761": {
+      "title": "URL adresa pracoviště ",
+      "version": 1,
+      "updated_at": "2025-07-21T12:07:37.616Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694407",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/URL adresa pracoviště"
+    },
+    "109051919": {
+      "title": "Uživatelská hlavička a příznak na bankovním spojení",
+      "version": 3,
+      "updated_at": "2025-11-07T12:38:17.370Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "398491650",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení"
+    },
+    "76972064": {
+      "title": "Uživatelé",
+      "version": 1,
+      "updated_at": "2025-07-22T10:21:48.714Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694398",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Uživatelé"
+    },
+    "52690969": {
+      "title": "Vložení výpisu z dokumentace",
+      "version": 1,
+      "updated_at": "2025-06-23T08:50:24.890Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "53313560",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Vložení výpisu z dokumentace"
+    },
+    "76972053": {
+      "title": "Vyhledání pacienta",
+      "version": 2,
+      "updated_at": "2025-07-22T13:35:53.458Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Vyhledání pacienta"
+    },
+    "74940518": {
+      "title": "Vykázání výkonu",
+      "version": 1,
+      "updated_at": "2025-07-21T12:45:14.288Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Vykázání výkonu"
+    },
+    "258998273": {
+      "title": "Vystavení eDPN o více než 3 dny zpětně",
+      "version": 1,
+      "updated_at": "2026-02-04T11:24:07.766Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "48168963",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Vystavení eDPN o více než 3 dny zpětně"
+    },
+    "53379104": {
+      "title": "Vystavení žádanky, posudku apod.",
+      "version": 1,
+      "updated_at": "2025-06-23T09:56:55.376Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "162955265",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/Vystavení žádanky, posudku apod"
+    },
+    "53313560": {
+      "title": "Vytvoření lékařské zprávy za celou společnost",
+      "version": 2,
+      "updated_at": "2025-06-23T08:43:35.335Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost"
+    },
+    "74940487": {
+      "title": "Vytvoření nové dávky",
+      "version": 1,
+      "updated_at": "2025-07-21T12:35:39.972Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Vytvoření nové dávky"
+    },
+    "247169026": {
+      "title": "Využívaná a spolupracující pracoviště",
+      "version": 3,
+      "updated_at": "2026-01-29T13:31:35.762Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694407",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/Využívaná a spolupracující pracoviště"
+    },
+    "75792385": {
+      "title": "Vyúčtování",
+      "version": 1,
+      "updated_at": "2025-07-21T08:54:06.520Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Vyúčtování"
+    },
+    "253788162": {
+      "title": "Vyúčtování foniatrické pomůcky vydané na ePoukaz",
+      "version": 5,
+      "updated_at": "2026-02-10T09:48:33.361Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "247857153",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/Vyúčtování foniatrické pomůcky vydané na ePoukaz"
+    },
+    "75792551": {
+      "title": "Vyúčtování – hromadné úpravy výkonů",
+      "version": 1,
+      "updated_at": "2025-07-21T08:54:09.185Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75792385",
+      "path": "pages/FONS GALEN/Správce a nastavení/Vyúčtování/Vyúčtování – hromadné úpravy výkonů"
+    },
+    "53149728": {
+      "title": "Vyšetření",
+      "version": 1,
+      "updated_at": "2025-06-23T10:26:52.457Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vyšetření"
+    },
+    "82608130": {
+      "title": "Vyšetření karcinomu prostaty",
+      "version": 3,
+      "updated_at": "2025-10-27T09:19:39.436Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Vyšetření karcinomu prostaty"
+    },
+    "399802371": {
+      "title": "Vyšetření, dekurz a klinická péče",
+      "version": 4,
+      "updated_at": "2026-05-15T11:57:06.770Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče"
+    },
+    "398131202": {
+      "title": "Vzdálená správa – TeamViewer",
+      "version": 1,
+      "updated_at": "2026-05-13T09:26:41.985Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "398983170",
+      "path": "pages/FONS GALEN/Začínam se systémem/Vzdálená správa – TeamViewer"
+    },
+    "68190229": {
+      "title": "Vznik nároku",
+      "version": 1,
+      "updated_at": "2025-07-10T12:32:11.532Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68517890",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Vznik nároku"
+    },
+    "53182468": {
+      "title": "Výchozí nastavení",
+      "version": 1,
+      "updated_at": "2025-06-23T08:45:52.839Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "53313560",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení"
+    },
+    "247857153": {
+      "title": "Výdej foniatrické pomůcky předepsané na ePoukaz",
+      "version": 10,
+      "updated_at": "2026-02-10T09:22:36.123Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "52756523",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz"
+    },
+    "174522369": {
+      "title": "Výjimky ze schválení",
+      "version": 1,
+      "updated_at": "2025-11-28T11:02:00.944Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "173309953",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Výjimky ze schválení"
+    },
+    "75595827": {
+      "title": "Výkon – Zadání zdravotních výkonů",
+      "version": 2,
+      "updated_at": "2026-05-13T13:36:20.196Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "399802371",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Výkon – Zadání zdravotních výkonů"
+    },
+    "75268187": {
+      "title": "Výkony",
+      "version": 1,
+      "updated_at": "2025-07-21T10:35:14.002Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Výkony"
+    },
+    "78348323": {
+      "title": "Výpočet KVO dle Score 2",
+      "version": 1,
+      "updated_at": "2025-07-23T11:10:06.420Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet KVO dle Score 2"
+    },
+    "67993602": {
+      "title": "Výpočet percentilu BMI s vazbou na výkony",
+      "version": 2,
+      "updated_at": "2025-07-16T08:30:12.779Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet percentilu BMI s vazbou na výkony"
+    },
+    "76709889": {
+      "title": "Výpočet rizika zlomenin dle FRAX",
+      "version": 2,
+      "updated_at": "2025-12-16T17:35:26.621Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "78544916",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Výpočet rizika zlomenin dle FRAX"
+    },
+    "332693505": {
+      "title": "Zabezpečení API",
+      "version": 1,
+      "updated_at": "2026-04-02T07:12:15.728Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "30048257",
+      "path": "pages/Zabezpečení API"
+    },
+    "76742669": {
+      "title": "Založení karty pacienta – bez pojištění (samoplátce, novorozenec)",
+      "version": 1,
+      "updated_at": "2025-07-22T08:03:46.355Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – bez pojištění (samoplátce, novorozenec)"
+    },
+    "67665931": {
+      "title": "Založení karty pacienta – pojištěnce",
+      "version": 1,
+      "updated_at": "2025-07-22T07:56:04.189Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce"
+    },
+    "57180217": {
+      "title": "Zaměstnání pacienta",
+      "version": 1,
+      "updated_at": "2025-06-26T13:58:27.598Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "150339588",
+      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Zaměstnání pacienta"
+    },
+    "113704976": {
+      "title": "Zapnutí modulu pro uživatele",
+      "version": 1,
+      "updated_at": "2025-09-05T06:50:34.359Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "113704961",
+      "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Zapnutí modulu pro uživatele"
+    },
+    "398983170": {
+      "title": "Začínam se systémem",
+      "version": 4,
+      "updated_at": "2026-05-15T11:47:42.865Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Začínam se systémem"
+    },
+    "75202672": {
+      "title": "Zařízení",
+      "version": 3,
+      "updated_at": "2026-01-06T15:08:15.304Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694398",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Zařízení"
+    },
+    "366772226": {
+      "title": "Zebra CS60 – konfigurace čtečky",
+      "version": 1,
+      "updated_at": "2026-04-23T13:05:34.049Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra CS60 – konfigurace čtečky"
+    },
+    "366608389": {
+      "title": "Zebra DS2278 a DS2208 – konfigurace čtečky",
+      "version": 2,
+      "updated_at": "2026-04-23T12:54:30.468Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS2278 a DS2208 – konfigurace čtečky"
+    },
+    "366313485": {
+      "title": "Zebra DS4308 – konfigurace čtečky",
+      "version": 1,
+      "updated_at": "2026-04-23T12:57:03.990Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS4308 – konfigurace čtečky"
+    },
+    "367624194": {
+      "title": "Zebra DS6878 – konfigurace čtečky",
+      "version": 1,
+      "updated_at": "2026-04-23T12:59:20.050Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS6878 – konfigurace čtečky"
+    },
+    "367853569": {
+      "title": "Zebra DS8178 a DS8108 – konfigurace čtečky",
+      "version": 2,
+      "updated_at": "2026-04-23T12:54:49.619Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS8178 a DS8108 – konfigurace čtečky"
+    },
+    "366903302": {
+      "title": "Zebra DS9308 – konfigurace čtečky",
+      "version": 1,
+      "updated_at": "2026-04-23T13:02:52.739Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra DS9308 – konfigurace čtečky"
+    },
+    "367165454": {
+      "title": "Zebra MP7000 – konfigurace čtečky",
+      "version": 1,
+      "updated_at": "2026-04-23T13:07:17.442Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "367263750",
+      "path": "pages/Naskladňování přes čtečky/Podporované čtečky 2D kódů a konfigurace/Zebra MP7000 – konfigurace čtečky"
+    },
+    "53444609": {
+      "title": "Zkratky a formátování v dekurzu",
+      "version": 1,
+      "updated_at": "2025-06-23T08:19:00.507Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "52690949",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu"
+    },
+    "75595901": {
+      "title": "Změna poměrů zobrazených částí obrazovky",
+      "version": 1,
+      "updated_at": "2025-07-21T12:42:11.065Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Změna poměrů zobrazených částí obrazovky"
+    },
+    "75366610": {
+      "title": "Zobrazení jednotlivých dávek",
+      "version": 1,
+      "updated_at": "2025-07-21T12:41:28.490Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75104438",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)/Zobrazení jednotlivých dávek"
+    },
+    "68386822": {
+      "title": "Zobrazení nároků pacienta v záložce Historie",
+      "version": 1,
+      "updated_at": "2025-07-10T12:35:24.109Z",
+      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "parent_id": "68517890",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z vyšetření/Zobrazení nároků pacienta v záložce Historie"
+    },
+    "48365582": {
+      "title": "Zvýraznění pacienta v dlouhodobé pracovní neschopnosti",
+      "version": 2,
+      "updated_at": "2025-06-20T07:15:05.299Z",
+      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
+      "parent_id": "48168963",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Zvýraznění pacienta v dlouhodobé pracovní neschopnosti"
+    },
+    "74907743": {
+      "title": "Záhlaví tisků",
+      "version": 1,
+      "updated_at": "2025-07-21T10:37:32.959Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694225",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony/Záhlaví tisků"
+    },
+    "193363969": {
+      "title": "Záložka UI konfigurace",
+      "version": 3,
+      "updated_at": "2026-01-29T07:16:40.613Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "191037441",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace/Záložka UI konfigurace"
+    },
+    "120029189": {
+      "title": "Zástupy",
+      "version": 1,
+      "updated_at": "2025-09-17T07:58:06.029Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Zástupy"
+    },
+    "60915714": {
+      "title": "Záznamy v číselníku vytvořené uživatelem",
+      "version": 3,
+      "updated_at": "2025-07-21T10:22:07.927Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75366432",
+      "path": "pages/FONS GALEN/Správce a nastavení/Číselníky/Záznamy v číselníku vytvořené uživatelem"
+    },
+    "162856962": {
+      "title": "ÚZIS žádanka testu COVID-19",
+      "version": 3,
+      "updated_at": "2025-11-20T08:30:35.160Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "162955265",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Formuláře/ÚZIS žádanka testu COVID-19"
+    },
+    "76054599": {
+      "title": "Čekárna",
+      "version": 3,
+      "updated_at": "2025-08-05T12:52:10.578Z",
+      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Čekárna"
+    },
+    "75628746": {
+      "title": "ČSSZ",
+      "version": 2,
+      "updated_at": "2025-12-05T14:07:10.611Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398393355",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ"
+    },
+    "50135057": {
+      "title": "Číselné řady",
+      "version": 1,
+      "updated_at": "2025-06-19T06:25:04.033Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "49446923",
+      "path": "pages/FONS GALEN/Správce a nastavení/Design/Číselné řady"
+    },
+    "75202629": {
+      "title": "Číselné řady.",
+      "version": 1,
+      "updated_at": "2025-07-21T11:46:56.892Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Číselné řady"
+    },
+    "75366432": {
+      "title": "Číselníky",
+      "version": 1,
+      "updated_at": "2025-07-21T10:16:51.929Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75333741",
+      "path": "pages/FONS GALEN/Správce a nastavení/Číselníky"
+    },
+    "75104296": {
+      "title": "Číselníky.",
+      "version": 1,
+      "updated_at": "2025-07-21T10:33:40.291Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694173",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Číselníky"
+    },
+    "75694225": {
+      "title": "Šablony",
+      "version": 1,
+      "updated_at": "2025-07-21T10:34:13.802Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75694173",
+      "path": "pages/FONS GALEN/Správce a nastavení/Nástroje/Šablony"
+    },
+    "398393355": {
+      "title": "Žádanky, posudky a elektronická podání",
+      "version": 2,
+      "updated_at": "2026-05-15T12:17:09.512Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání"
+    },
+    "119996419": {
+      "title": "Žádost o zástup",
+      "version": 1,
+      "updated_at": "2025-09-17T07:53:06.783Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "120291330",
+      "path": "pages/FONS GALEN/Správce a nastavení/Ostatní/Žádost o zástup"
+    }
+  }
+}

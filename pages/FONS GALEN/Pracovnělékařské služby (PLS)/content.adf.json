@@ -1,0 +1,1542 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "060ed26b-027d-425d-8126-486b8c7dbe69"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "e8cdbad0-a694-4fe8-937f-afdcffab81ef"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "15dfb58d6865"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "9c702b6b1fec"
+          },
+          "content": [
+            {
+              "text": "Modul ",
+              "type": "text"
+            },
+            {
+              "text": "Nadstandardní péče",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " slouží k evidenci a správě pracovnělékařských prohlídek, očkování a služeb poskytovaných zaměstnancům firemních klientů.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Umožňuje kompletní zpracování agendy pracovnělékařské péče — od správy firem a smluv až po fakturaci a sledování lhůtníku prohlídek.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 947,
+            "alt": "image-20250626-132147.png",
+            "id": "dea73e53-fac5-44c7-a78f-b2d467c517a7",
+            "collection": "contentId-150339588",
+            "type": "file",
+            "localId": "f60d42517f96",
+            "height": 323
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "8c0ceb53bfce"
+          },
+          "content": [
+            {
+              "text": "Základní zobrazení modulu Nadstandardní péče z pozice administrátora.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b5652a196baa"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b897be64ed7c"
+      },
+      "content": [
+        {
+          "text": "Hlavní přínosy modulu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "aff2d19ab784"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c07f1d87e23f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2758b9ac11ef"
+              },
+              "content": [
+                {
+                  "text": "přehledná evidence firem, poboček a jejich smluvních vztahů,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dda7b537f481"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0abf4bc5c6cb"
+              },
+              "content": [
+                {
+                  "text": "automatické načítání údajů z ARES,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1fcc50df32a5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "130288c72f55"
+              },
+              "content": [
+                {
+                  "text": "propojení s kalendářem a kartou pacienta,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3ab411be7b98"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9155354dadf0"
+              },
+              "content": [
+                {
+                  "text": "automatický výpočet lhůtníku podle rizik,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ef81b50e1c3a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "555be76331a7"
+              },
+              "content": [
+                {
+                  "text": "podpora výkonové i paušální fakturace,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "184b01cdbebe"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a8671f0d8d4b"
+              },
+              "content": [
+                {
+                  "text": "možnost importu zaměstnanců z CSV souboru,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4839a7ef7133"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d029943349a9"
+              },
+              "content": [
+                {
+                  "text": "přehled uzavřených i plánovaných prohlídek v PLS Adminu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d8a372e91451"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3e6a6f7cbe56"
+      },
+      "content": [
+        {
+          "text": "Komu je modul určen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d4188170121b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c189ec9a4721"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bbbad379ddef"
+              },
+              "content": [
+                {
+                  "text": "lékařům a sestrám",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " pracovnělékařských služeb,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8962d12e84c7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "079c1603cd65"
+              },
+              "content": [
+                {
+                  "text": "administrátorům",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " spravujícím firemní smlouvy,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7827853164e8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0c349248af43"
+              },
+              "content": [
+                {
+                  "text": "recepci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", která zajišťuje objednávání a evidenci návštěv,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1c62dc9129e4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "45db3341c4be"
+              },
+              "content": [
+                {
+                  "text": "vedení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", které sleduje přehled fakturace a vykázaných služeb.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d923b04f1e25"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7ef0029ad090"
+      },
+      "content": [
+        {
+          "text": "🏢Správa firem a poboček",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "40c03722b541"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ff7b38acbf98"
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:",
+            "localId": "c3d73de12035"
+          }
+        },
+        {
+          "text": " Založení firmy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "515b7be91036"
+      },
+      "content": [
+        {
+          "text": "Novou firmu přidáte v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nadstandardní péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "„+“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V současnosti lze ukládat pouze české firmy z databáze ",
+          "type": "text"
+        },
+        {
+          "text": "ARES",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "2f77223efabb"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1f1d270c63d8"
+          },
+          "content": [
+            {
+              "text": "Odstranit firmu je možné pouze tehdy, pokud na ni nejsou navázány jiné záznamy (např. pobočky, smlouvy nebo skupiny PLS).",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Pokud již existují vazby, lze pouze změnit stav firmy na neaktivní.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ef204b30b654"
+      },
+      "content": [
+        {
+          "text": "Pole a nastavení:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2100ae7bb7ef"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8240f75b3df7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "512c439db2b8"
+              },
+              "content": [
+                {
+                  "text": "Název firmy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", ",
+                  "type": "text"
+                },
+                {
+                  "text": "IČO",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", ",
+                  "type": "text"
+                },
+                {
+                  "text": "adresa",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – údaje se doplňují automaticky z ARES,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0eba71d5557a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "799288105eb5"
+              },
+              "content": [
+                {
+                  "text": "Prohlídka předem (dny)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – určuje, kolik dní před začátkem zaměstnání je možné provést vstupní prohlídku,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bc1421152bb5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ca0ca559150c"
+              },
+              "content": [
+                {
+                  "text": "Aktivní stav",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – určuje, zda je firma dostupná při zadávání pacientů a smluv.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "894ab79323b7"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "de4db4dada03"
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:",
+            "localId": "6808ed13996c"
+          }
+        },
+        {
+          "text": " Pobočky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c1379867289c"
+      },
+      "content": [
+        {
+          "text": "Každá firma může mít více poboček. Ty se zakládají v detailu firmy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "159040c8d34d"
+      },
+      "content": [
+        {
+          "text": "Možnosti nastavení:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "30685a72c519"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0acaf724f22e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "add371df1876"
+              },
+              "content": [
+                {
+                  "text": "Typ pobočky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – informativní údaj (",
+                  "type": "text"
+                },
+                {
+                  "text": "Provozovna",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " / ",
+                  "type": "text"
+                },
+                {
+                  "text": "Jednotka",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "29d1f818405e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b4f9911f6685"
+              },
+              "content": [
+                {
+                  "text": "Fakturovat samostatně",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – pokud je zaškrtnuto, pobočka bude mít při generování faktur vlastní fakturu,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "04abc05e8de9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d62b5e250fc3"
+              },
+              "content": [
+                {
+                  "text": "Období vedení lhůtníku (od–do)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – určuje, pro jaké období se vypočítává interval prohlídek,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cebffda22702"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c2caab8a39c2"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – přidáním pracoviště umožníte jeho uživatelům (s povoleným modulem Nadstandardní péče) zobrazit informace o firmě a jejích smlouvách,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b860dc404767"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "44095e841b35"
+              },
+              "content": [
+                {
+                  "text": "Hodnosti",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – doplňkový informativní údaj, zobrazovaný na kartě pacienta při zadávání zaměstnavatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 757,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 938,
+            "alt": "image-20250626-132627.png",
+            "id": "9801c36b-92fa-4b65-b008-f133708458f2",
+            "collection": "contentId-150339588",
+            "type": "file",
+            "localId": "ff0977340566",
+            "height": 480
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "2706c919c316"
+          },
+          "content": [
+            {
+              "text": "Obrazovka pro založení a editaci pobočky",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "bfb298fe9d5b"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3beeaedc589a"
+          },
+          "content": [
+            {
+              "text": "💡 ",
+              "type": "text"
+            },
+            {
+              "text": "Doporučení:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Nastavte pro každou pobočku jasné období vedení lhůtníku. Prohlídky založené mimo toto období se do výpočtu lhůt nezahrnují.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "325ec117f5fa"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "10018d4a2a9c"
+      },
+      "content": [
+        {
+          "text": "👥 Skupiny PLS a rizika",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5bd05077e6a3"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "de24ecb380fd"
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:",
+            "localId": "a7134e743470"
+          }
+        },
+        {
+          "text": " Skupiny PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "53ac7282c27d"
+      },
+      "content": [
+        {
+          "text": "Skupiny PLS slouží k rozdělení zaměstnanců podle pracovních pozic nebo rizikovosti práce.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Každá skupina je přiřazena konkrétní firmě a může mít definována tři typy rizik:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "57901c50a536",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3d23834aa0d5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1f0286bd4690"
+              },
+              "content": [
+                {
+                  "text": "Kategorie",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6a25276a794c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "959b9abc1112"
+              },
+              "content": [
+                {
+                  "text": "Faktory prostředí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9c5a849578a7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "558cd2e31f80"
+              },
+              "content": [
+                {
+                  "text": "Ohrožení zdraví",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 961,
+            "alt": "image-20250626-132754.png",
+            "id": "f3b78f0f-8896-425e-8823-7f877036a224",
+            "collection": "contentId-150339588",
+            "type": "file",
+            "localId": "0dc0406ecead",
+            "height": 506
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "a67ad7f6fa4f"
+          },
+          "content": [
+            {
+              "text": "Vytváření a editace skupin PLS",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a0f67eb48b6b"
+      },
+      "content": [
+        {
+          "text": "Princip výpočtu intervalu:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d6cb22945663"
+      },
+      "content": [
+        {
+          "text": "Interval mezi prohlídkami se určuje jako ",
+          "type": "text"
+        },
+        {
+          "text": "nejkratší (MIN)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " z intervalů všech zvolených rizik.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Tím je zajištěno, že zaměstnanci s vyšším rizikem mají kratší periodu kontrol.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "6cab09f833a9"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "89da97a913b7"
+          },
+          "content": [
+            {
+              "text": "Nastavení skupin PLS má přímý vliv na výpočet data příští prohlídky a plánování v kalendáři.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cb527e441215"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "9b2b89de9450"
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:",
+            "localId": "0e744a87e00c"
+          }
+        },
+        {
+          "text": " Rizika",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "43752efc88e0"
+      },
+      "content": [
+        {
+          "text": "Rizika určují frekvenci pracovnělékařských prohlídek podle druhu práce a expozice.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "26442631b7d2"
+      },
+      "content": [
+        {
+          "text": "Typy rizik:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "53a04b1d7233"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d05bd5d37f75"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "be7a8255b43c"
+              },
+              "content": [
+                {
+                  "text": "Kategorie",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (např. práce ve výškách, práce s chemikáliemi),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "764131b2382f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "545c194e724e"
+              },
+              "content": [
+                {
+                  "text": "Faktory prostředí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (hluk, prach, vibrace, teplota),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bca73ffdff46"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b70d91868538"
+              },
+              "content": [
+                {
+                  "text": "Ohrožení zdraví",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (ergonomie, stres, zraková zátěž).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9f2e16e93916"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7724246e5b65"
+      },
+      "content": [
+        {
+          "text": "Správa rizik:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "352641fe1318"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "73de89ceb82f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "40fc102b0706"
+              },
+              "content": [
+                {
+                  "text": "Rizika se vytvářejí a upravují v sekci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Rizika",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " v modulu Nadstandardní péče,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "100a9b85af4d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8d049ec65148"
+              },
+              "content": [
+                {
+                  "text": "Lze je upravovat, mazat nebo přidávat nové, pokud nejsou již použita ve skupinách,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a63b16bc4cca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "410931db761d"
+              },
+              "content": [
+                {
+                  "text": "Po změně rizik je nutné stisknout tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Přepočti všechny intervaly všech pacientů“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — aktualizují se tím lhůty všech zaměstnanců dané firmy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cc6beab94c89"
+      }
+    }
+  ],
+  "version": 1
+}

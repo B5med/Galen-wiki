@@ -1,0 +1,85 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V záložce notifikace lze nastavit notifikace prostřednictvím e-mailů a sms zpráv. Zde si lékaři nastavují texty, které pacientům mohou odesílat např. při vytvoření objednávky, zrušení objednávky, při změně termínu objednávky či zvolený počet dní před naplánovanou objednávkou apod.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Novou notifikaci zadáme kliknutím na zelené tlačítko + v levé horní části monitoru. Výběrem z nabídky vyplníme Typ komunikace a použití, při kterém se notifikace bude používat. Vyplníme pole Název a určíme, zda bude šablona obecná, nebo určená pouze ženám či mužům, nebo pouze pacientům, u kterých je v poli Pohlaví zvolená možnost Neuvedeno.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do pole text editujeme trvalý text s možností dotahování údajů o pacientovi či o zdravotnickém zařízení, které jsou zadaní v IS Galen. Dotahování údajů je možné nastavit metodou ",
+          "type": "text"
+        },
+        {
+          "text": "Drag and drop",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", tedy přetažením myší z pravého sloupce. Takto nastavené notifikace lze poté požít ve zvolené funkcionalitě, což vede k ulehčení práce zdravotnického personálu.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jestliže v případě nastavení Připomenutí záznamu v kalendáři v je kalendáři vytvořena objednávka a v nastavení kalendáře je nastaveno připomínání např. 2 dny před uskutečněním objednávky, systém automaticky odešle e-mail ve dvoudenním předstihu s upozorněním, aby se pacient nezapomněl na dříve objednaný termín dostavit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Okno vytváření nové notifikace: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 941,
+            "alt": "image-20250618-104748.png",
+            "id": "ca1bce41-0232-489b-9077-38d17f2b59cb",
+            "collection": "contentId-75628633",
+            "type": "file",
+            "height": 410
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

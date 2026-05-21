@@ -1,0 +1,620 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tento manuál popisuje kroky potřebné pro konfiguraci a použití nové funkce pro výpočet percentilu BMI u dětských pacientů v rámci vybraných preventivních prohlídek.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita „",
+          "type": "text"
+        },
+        {
+          "text": "Výpočet percentilu BMI",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "“ je ",
+          "type": "text"
+        },
+        {
+          "text": "placenou službou",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a je dostupná pouze pro ",
+          "type": "text"
+        },
+        {
+          "text": "odbornost 002",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pro aktivaci služby prosím kontaktujte svého obchodního zástupce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Výpočet v rámci měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výpočet percentilu BMI probíhá automaticky na základě údajů zadaných do měření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cesta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": modul ",
+          "type": "text"
+        },
+        {
+          "text": "Ordinace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → vybrat pacienta → přejít do ",
+          "type": "text"
+        },
+        {
+          "text": "Dekurzu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Zadat měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V měření v sekci „",
+                  "type": "text"
+                },
+                {
+                  "text": "Výška, hmotnost, teplota",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "“ uživatel vyplní položky:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.       Výška (cm)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      Hmotnost (kg)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na základě těchto údajů se automaticky vypočítá hodnota v položce ",
+                  "type": "text"
+                },
+                {
+                  "text": "BMI",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a následně ",
+                  "type": "text"
+                },
+                {
+                  "text": "Percentil BMI",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Výpočet v rámci prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cesta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": modul ",
+          "type": "text"
+        },
+        {
+          "text": "Ordinace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → vybrat pacienta → záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Prohlídky a vyšetření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → ",
+          "type": "text"
+        },
+        {
+          "text": "Nová prohlídka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → vybrat odpovídající preventivní prohlídku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita je dostupná pro všechny typy preventivních prohlídek určených pro děti a dorost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V sekci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Měření",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " uživatel vyplní položky:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.       Výška (cm)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      Hmotnost (kg)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na základě těchto údajů se automaticky dopočítají hodnoty v polích ",
+                  "type": "text"
+                },
+                {
+                  "text": "BMI",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a ",
+                  "type": "text"
+                },
+                {
+                  "text": "Percentil BMI.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po stisknutí tlačítka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vytvořit výkony",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " se v části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Volitelné výkony",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " automaticky nabídne ten výkon, který odpovídá vypočítanému percentilu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Automaticky nabízené výkony dle výsledku percentilu BMI:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·       ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon 02325",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – percentil BMI ≤ 20",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·       ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon 02326",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – 20 < percentil BMI ≤ 90",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·       ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon 02327",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – 90 < percentil BMI ≤ 97",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·       ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon 02328",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – percentil BMI > 97",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

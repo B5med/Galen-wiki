@@ -1,0 +1,381 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul zástupy umožňuje v případě nepřítomnosti lékaře (např. z důvodu dovolené, nemoci atd.) určit a umožnit  jinému (zastupujícímu) lékaři pracovat v ordinaci nepřítomného lékaře. Zastupující lékař musí být uveden v seznamu uživatelů (správa seznamu uživatelů viz Modul Správce), ze kterého administrátor přidělí lékaře k požadovanému pracovišti a přidělí mu roli Zastupující lékař.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Určení zastupujícího lékaře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce - > Správa organizace –> záložka Struktura -> rozbalit strukturu (vlevo nahoře)-> u daného pracoviště označíme vybraného uživatele -> zaškrtneme checkbox Zastupující lékař.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20250917-075439.png",
+            "id": "2cb07d49-e8f4-4b73-bd3c-641255c2b883",
+            "collection": "contentId-120029189",
+            "type": "file",
+            "height": 111
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aby uživatel viděl při přihlašování do IS Galen i pracoviště, kde je určený jako Zastupující lékař, musí být v okně výběru pracovišť zaškrtnut checkbox Včetně zastupovaných. V takovém případě uvidí po přihlášení do IS Galen v zobrazení výběru pracovišť pracoviště určené k zástupu v bledším modrém zbarvení s označením v levém horním rohu slovem (zástup).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 284,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 284,
+            "alt": "image-20250917-075449.png",
+            "id": "227ff502-02cc-4fc2-b4e1-ef215ed19b26",
+            "collection": "contentId-120029189",
+            "type": "file",
+            "height": 65
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po přihlášení na pracoviště zástupu je uživatel vyzván k doplnění důvodu zástupu s možností upřesnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Důvod zástupu se nastavuje v modulu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace –> Agendy –> Zástupy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 301,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 301,
+            "alt": "image-20250917-075501.png",
+            "id": "cd63e824-368b-4a6f-aa4f-e99d0e504a93",
+            "collection": "contentId-120029189",
+            "type": "file",
+            "height": 184
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po stisknutí tlačítka ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 22,
+            "alt": "image-20250917-075516.png",
+            "id": "21f73b4c-13df-4733-aa66-f8be24832dfd",
+            "collection": "contentId-120029189",
+            "type": "image",
+            "height": 19
+          }
+        },
+        {
+          "text": " je možné zadat důvod zástupu, stisknutím ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 23,
+            "alt": "image-20250917-075539.png",
+            "id": "91a48a55-5ae4-4449-820d-5402edc98287",
+            "collection": "contentId-120029189",
+            "type": "image",
+            "height": 18
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ho lze upravit, případně ho odstranit stisknutím tlačítka ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 17,
+            "alt": "image-20250917-075553.png",
+            "id": "ae8abb12-c0c4-43d6-8ad7-c05327d7c931",
+            "collection": "contentId-120029189",
+            "type": "image",
+            "height": 18
+          }
+        },
+        {
+          "text": " .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 256,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 256,
+            "alt": "image-20250917-075611.png",
+            "id": "fb5bc853-695a-4065-8dae-a6aff3a68cbc",
+            "collection": "contentId-120029189",
+            "type": "file",
+            "height": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poté se lze přihlásit do ordinace jako zastupující lékař.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 463,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 463,
+            "alt": "image-20250917-075628.png",
+            "id": "353cf598-88be-483d-8c33-35cf07a3cf79",
+            "collection": "contentId-120029189",
+            "type": "file",
+            "height": 188
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Práce zastupujícího lékaře s laboratorními výsledky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zastupující lékař může v období svého zástupu ",
+                  "type": "text"
+                },
+                {
+                  "text": "nahlížet a komentovat laboratorní výsledky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " stejně jako stálý lékař.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Komentáře zastupujícího lékaře se zaznamenávají do auditní stopy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", je tedy možné dohledat, kdo a kdy komentář vložil.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Odpovědnost za laboratorní výsledek však zůstává na stálém lékaři pracoviště.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Pokud zastupující lékař výsledek okomentuje, systém ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "nevytváří vazbu",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " na tohoto lékaře.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Po ukončení zástupu tak může výsledek dále upravovat stálý lékař.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

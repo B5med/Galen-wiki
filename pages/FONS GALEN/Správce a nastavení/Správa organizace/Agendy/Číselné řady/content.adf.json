@@ -1,0 +1,63 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> záložka Číselné řady ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce má možnost nastavit konfigurovat kritéria číselných u zvolených typů dokladů. Tato kritéria lze nastavit výběrem z nabídky v dolní části okna. Po označení dokladu, který chceme konfigurovat a stisku zeleného + se objeví nabídka dostupných kritérii k výběru. Logika je taková, že Správce nastaví uživatelům kritéria, v rámci, kterých pak uživatelé mohou v příslušných modulech nastavit konkrétní číselné řady. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příklad: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybere-li Správce po označení Faktury kritérium IČZ, ve vyúčtování se objeví rozšířená možnost zadat konkrétní číselné řady faktur vznikajících při vyúčtování zdravotních výkonů. Na každém IČZ je v tomto případě oddělená číselná řada faktur, kterou si účtující uživatel může nastavit v Modulu vyúčtování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1164,
+            "alt": "image-20250618-113433.png",
+            "id": "957bfefb-836f-484d-b0b0-626c29d71f25",
+            "collection": "contentId-75202629",
+            "type": "file",
+            "height": 517
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

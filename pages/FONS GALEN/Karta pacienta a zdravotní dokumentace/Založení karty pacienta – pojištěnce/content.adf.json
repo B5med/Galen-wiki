@@ -1,0 +1,319 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 67,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 67,
+            "alt": "image-20250709-142350.png",
+            "id": "7c51d9b9-6839-42df-a1be-18514cc1eceb",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 34
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nového pacienta lze založit kliknutím na ikonu Nová karta, která je nad kartotékou.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1258,
+            "alt": "074c9167-ad0d-4151-afd7-59da49cb1e8b.png",
+            "id": "2a50cf34-a1dc-4565-b331-f535b2706e93",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 503
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm nebudou mít okno s registrací pacientů).Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm ",
+                  "type": "text"
+                },
+                {
+                  "text": "nebudou mít ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "okno s registrací pacientů).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zde se vyplňují potřebné údaje. Minimálně je třeba zadat číslo pojištěnce, příjmení, jméno, pojišťovnu a druh pojištění. Číslo pojištěnce se píše bez lomítka. Pokud je zadáno ve správném tvaru, automaticky se doplní datum narození. První písmeno Jména a Příjmení se píše automaticky velké.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "U praktických lékařů, pediatrů, gynekologů je třeba vyplnit i stav registrace, popř. datum registrace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nový pacient se automaticky uloží při vrácení se do kartotéky, popř. pokračováním práce např. psaní v dekurzu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud chce uživatel přidání pacienta zrušit, klikne na ikonu vpravo nahoře. To mu umožní opustit formulář zadání pacienta bez uložení a návrat do hlavního menu programu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Správnost zadaných údajů je možné zdarma zkontrolovat oproti Centrálnímu registru pojištěnců.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 186,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 186,
+            "alt": "image-20250722-075242.png",
+            "id": "a184ee01-c8c3-4af7-a066-1408f9821bd2",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 24
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Již uloženou kartu je možné při otevření Identifikace volně editovat. Jedinou výjimku tvoří změna pojišťovny a změna rodného čísla. Protože zde může být další vazba, např. na doklady, je třeba kliknout na tlačítko:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 278,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 278,
+            "alt": "image-20250722-075423.png",
+            "id": "53fb3268-6ca0-4b97-8dce-20b71c61fa0b",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 26
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Osobní údaje pacienta je také možné načíst do karty pacienta z údajů ČSSZ po kliknutí na Aktualizovat dle ČSSZ, nebo nepřijmout tyto údaje kliknutím na křížek.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 996,
+            "alt": "image-20250722-075455.png",
+            "id": "f336d274-edb6-4e93-86ed-3f0523010ccd",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 702
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 162,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 162,
+            "alt": "image-20250722-075511.png",
+            "id": "31797554-2c4e-455f-882f-701c9d2ea0fd",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 22
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Potřebné údaje je pak možné změnit v nabídnutém formuláři (obrázek). Důležité je vybrat období, od kterého bude změna provedena a poté vybrat, jaká změna bude provedena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 656,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 656,
+            "alt": "image-20250722-075542.png",
+            "id": "5c7a1b02-b6de-482c-bba2-bcca6afc56ac",
+            "collection": "contentId-67665931",
+            "type": "file",
+            "height": 385
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

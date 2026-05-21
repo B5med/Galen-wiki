@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/>
+<title>API PacientDataService GET</title>
+<link href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/25952258" rel="canonical"/>
+<link href="../../_assets/confluence.css" rel="stylesheet"/>
+</head>
+<body>
+<header><h1>API PacientDataService GET</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/25952258">Source</a> · version 4 · updated 2025-06-11T08:18:44.028Z</small></p></header>
+<main>
+<p></p><div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Toto API zasílá informace o vybraných entitách, které byly vytvořeny v rámci zdravotnické dokumentace pacienta. API úzce souvisí s API StrukturaOrganizaceService. </p></div></div><div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Metody pro jednotlivé entity jsou v logických dvojících: Jedna z dvojice zasílá všechny údaje týkající se daného pacienta. Druhá z dvojice (<em>ZaObdobi) </em>zasílá všechny záznamy, které byly v daném období změněny. Zadané období může být maximálně 24hod.</p></div></div><h2 id="APIPacientDataServiceGET-Obecnéinformace">Obecné informace</h2><h3 id="APIPacientDataServiceGET-DatumCas"><strong>DatumCas</strong></h3><p>Parametr datum a čas se zadává ve formátu ddMMyyyyTHH:mm:ss</p><h3 id="APIPacientDataServiceGET-Datum">Datum </h3><p>Datum se zadává ve formátu ddMMyyyy</p><h3 id="APIPacientDataServiceGET-Start">Start</h3><p>Číslo prvního vráceného záznamu kde první záznam má číslo 0 (nula).</p><h3 id="APIPacientDataServiceGET-Pocet">Pocet</h3><p>Maximální počet vrácených záznamů</p><h2 id="APIPacientDataServiceGET-vykony">vykony</h2><h2 id="APIPacientDataServiceGET-Pacient">Pacient</h2><p>Voláním metody je možné získat vybrané informace z karty pacienta.</p><ul><li><p>datum narození</p></li></ul><p>Ve tvaru DDMMYYYY</p><ul><li><p>pohlaví</p></li></ul><p>Pole může nabývat hodnot: <em>Muž, Žena, Neuvedeno.</em></p><ul><li><p>pojišťovna</p></li></ul><p>Jedná se o kódy zdravotních pojišťoven. V případě Pojišťovny VZP, a.s.  se jedná o kód 333, samoplátci mají kód 999.</p><ul><li><p>telefon/email</p></li></ul><p>Zasílá se právě jeden kontakt daného typu a to i v případě, že má pacient zadaných více typů daného kontaktu. V rámci elementu <em>telefon </em>se zasílá jak kontakt typu telefon, tak kontakt typu mobil z karty pacienta. Právě jeden kontakt se určí množinou kontaktů daného typu, které nejsou smazané/neuvedené/neplatné. Tyto kontakty se seřadí podle toho, zda mají příznak primární a podle data vytvoření. Z těchto kontaktů se odešle kontakt na prvním místě.</p><ul><li><p>Karta založena</p></li></ul><p>Ve tvaru DDMMYYYY</p><p></p><p></p><p></p>
+</main>
+</body>
+</html>

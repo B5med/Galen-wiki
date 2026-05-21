@@ -1,0 +1,279 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obrazovka Finanční přehled zajišťuje kompletní přehled o úhradách, jejich limitech a ocenění v rámci poskytnuté péče. Obrazovka je rozdělena do tří záložek. Tyto záložky slouží ",
+          "type": "text"
+        },
+        {
+          "text": "pouze k prohlížení dat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – uživatel zde nemůže provádět žádné úpravy ani editace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Limitovaná péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tato záložka zobrazuje ",
+          "type": "text"
+        },
+        {
+          "text": "výkony, jejichž úhrada je omezena stanoveným limitem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Uživatel zde získá přehled, zda byl limit již vyčerpán, zda došlo k jeho překročení a jak se to promítá do finančního vyhodnocení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074343.png",
+            "id": "a2e0bf02-c92f-429c-8c83-2b9bb26a666b",
+            "collection": "contentId-113639430",
+            "type": "file",
+            "height": 132
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Plně hrazená péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obsahuje přehled ",
+          "type": "text"
+        },
+        {
+          "text": "výkonů hrazených v plné výši bez limitů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Uživatel zde získá souhrn bodů, ocenění bodů a odpovídajících úhrad od pojišťoven. Tato záložka poskytuje rychlý přehled o plně hrazené zdravotní péči.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074405.png",
+            "id": "d763da30-de81-4e9a-83ad-0a138201e7b1",
+            "collection": "contentId-113639430",
+            "type": "file",
+            "height": 84
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Péče cizincům",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přehled výkonů poskytnutých ",
+          "type": "text"
+        },
+        {
+          "text": "pojištěncům z ciziny",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Tabulka uvádí body, hodnoty ZUM a ZULP a úhrada.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Na konci tabulky je vždy k dispozici ",
+          "type": "text"
+        },
+        {
+          "text": "součtový řádek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", který shrnuje celkový objem vykázané péče cizincům.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Záložka slouží pouze k prohlížení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-074420.png",
+            "id": "1d712a93-8354-47cb-a654-10192dcd47c3",
+            "collection": "contentId-113639430",
+            "type": "file",
+            "height": 95
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

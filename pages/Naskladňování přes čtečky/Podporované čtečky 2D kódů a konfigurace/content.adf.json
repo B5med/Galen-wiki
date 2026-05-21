@@ -1,0 +1,244 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "6e65964bb708"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "82f82517415e"
+          },
+          "content": [
+            {
+              "text": "Následující kapitoly popisují postupy a kódy konfigurace pro jednotlivé modely podporovaných čteček čárových kódů. Konfigurace se provádí načtením kódů příslušnou čtečkou v uvedeném pořadí.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "dd4b216d-4a5f-4802-86e2-8ebafa557af3"
+      },
+      "content": [
+        {
+          "text": "Přehled konfigurací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "24c3def3-32c8-4d9a-98d3-e9941bae0941"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d460a1b4-5f28-46d0-a96d-abfd02488b4e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "badc42ba3ab9"
+              },
+              "content": [
+                {
+                  "text": "Zebra DS2278 a DS2208 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366608389"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "704b926f-a689-4c07-8116-21b138712f2f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a576cf35e0b7"
+              },
+              "content": [
+                {
+                  "text": "Zebra DS8178 a DS8108 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367853569"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "78e4de01-62e3-4cc8-98d0-780c49d177f6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "509d30e99c96"
+              },
+              "content": [
+                {
+                  "text": "Zebra DS4308 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366313485"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e616124c-38d1-4f16-a0f9-91d243c7c4fa"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b99d31bf7cab"
+              },
+              "content": [
+                {
+                  "text": "Zebra DS6878 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367624194"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dd579485-4de6-427c-9225-f76e53adb9c0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "15ffe374eacd"
+              },
+              "content": [
+                {
+                  "text": "Zebra DS9308 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366903302"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "064f35ad-baa3-4a21-9eea-2272b7a6ea1f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "37fec67fd317"
+              },
+              "content": [
+                {
+                  "text": "Zebra CS60 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/366772226"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7b924932-ea7b-4b2b-8b89-bd669ad60f05"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2f0e293ecb9c"
+              },
+              "content": [
+                {
+                  "text": "Zebra MP7000 – konfigurace čtečky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/367165454"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

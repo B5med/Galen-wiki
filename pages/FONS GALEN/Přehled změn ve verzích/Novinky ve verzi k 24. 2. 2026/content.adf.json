@@ -1,0 +1,261 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "29dc080c536c"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#36b37e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "bab02abb57e2"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "55f33f67b72f"
+      },
+      "content": [
+        {
+          "text": "Preventivní prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "6e8693f74f3d"
+      },
+      "content": [
+        {
+          "text": "Oprava zobrazení prázdných sekcí vyšetření v prohlídce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49bfcb8de7f9"
+      },
+      "content": [
+        {
+          "text": "Pokud prohlídka obsahuje podmíněné zobrazení bloku a u pacienta se daný blok nezobrazí, v prohlídce se již nezobrazuje prázdná mezera. Obsah prohlídky je nyní zobrazen kompaktně bez zbytečných mezer.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "27b6ab4d8167"
+      },
+      "content": [
+        {
+          "text": "Biometrický podpis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b06e1fc93e5f"
+      },
+      "content": [
+        {
+          "text": "Úprava odesílání údajů do SignoSoft",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0f325236e520"
+      },
+      "content": [
+        {
+          "text": "Byla provedena úprava, aby se do systému biometrického podpisu SignoSoft neodesílalo jméno a příjmení pacienta k podpisovým polím.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "4f2e2702793a"
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d975feace599"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "656a0aa34edf"
+      },
+      "content": [
+        {
+          "text": "Hromadné podepisování EZD",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "194da1a940bb"
+      },
+      "content": [
+        {
+          "text": "Byl optimalizován výkon při hromadném podepisování elektronické zdravotnické dokumentace (EZD).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b55ffc324c29"
+      },
+      "content": [
+        {
+          "text": "Upozornění – Pacient bez provozovny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8a8910c36c3d"
+      },
+      "content": [
+        {
+          "text": "Bylo opraveno chybné zobrazování upozornění „Pacient není přiřazen k žádné provozovně\" u pacientů, kteří byli správně přiřazeni.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a26eb109f507"
+      },
+      "content": [
+        {
+          "text": "Odesílání ukončení OČR do ČSSZ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "33aaf02f9c76"
+      },
+      "content": [
+        {
+          "text": "Byla opravena chyba, kvůli které nebylo možné odeslat ukončení ošetřovného (OČR) do ČSSZ. Oprava zahrnuje korektní deserializaci neodeslaných změn a zajištění uložení odeslaného podání i v případě, kdy po odeslání dojde k výjimce v aplikaci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "63e1565beb23"
+      },
+      "content": [
+        {
+          "text": "Dialog pro výběr podpisového certifikátu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9403306caf9f"
+      },
+      "content": [
+        {
+          "text": "Byl opraven problém, kdy dialog pro výběr podpisového certifikátu byl skrytý za původním oknem konfigurace FONS Galen. Dialog se nově zobrazuje vždy v popředí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f127d56ac7ab"
+      },
+      "content": [
+        {
+          "text": "Změna údajů pojištěnce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9310cd34319d"
+      },
+      "content": [
+        {
+          "text": "Byla opravena chyba, která se zobrazovala při změně údajů pojištěnce v případě nesprávného vyplnění formuláře.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

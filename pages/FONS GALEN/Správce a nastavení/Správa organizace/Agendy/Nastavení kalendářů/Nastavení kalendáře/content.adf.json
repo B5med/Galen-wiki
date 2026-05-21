@@ -1,0 +1,406 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 806,
+            "alt": "image-20250722-134857.png",
+            "id": "49eadd03-51df-4719-a515-3711a09b382f",
+            "collection": "contentId-77365253",
+            "type": "file",
+            "height": 535
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aktivní",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " deaktivuje kalendář",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Odpovědné pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " určuje, na kterém pracovišti je možné do kalendáře objednávat. Další pracoviště je možné přidat/odebrat vpravo v části ",
+          "type": "text"
+        },
+        {
+          "text": "Právo přístupu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – u každého pracoviště je možné nastavit, zda do kalendáře nahlíží nebo ho edituje (zaškrtnutím checkboxu „Editace“). Odpovědné pracoviště nemusí být vyplněné, pak bude kalendář dostupný na všech pracovištích.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživatel",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " do bloku mohou objednávat všichni uživatelé, jméno lékaře se může využít při vytváření šablony notifikace",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Název",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " název kalendáře",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Umístění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " textově specifikuje umístění pracoviště. Přímo v aplikaci se s položkou nepracuje, ale je možné ji použít v šabloně notifikace, např. Budova B, 4. patro vlevo.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pořadí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " specifikuje umístění kalendáře při objednávaní, v případě stejného pořadového čísla se jednotlivé kalendáře umísťují dle abecedy",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Minutový interval",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje minutový interval zobrazení kalendáře",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Víkend",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje, zda se mají v kalendáři zobrazovat dny víkendu",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Veřejný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje, zda má být možné se do toho kalendáře objednat online",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kalendář CC",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje, zda je tento kalendář napojen na callcentrum",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uzavření rezervací předem (v hodinách)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje počet hodin před začátkem objednávky, kdy už v objednávce/záznamu v kalendáři není možné provádět změny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správa čekárny",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ruční odstranění – pacient je z čekárny odstraněn na základě změny stavu uživatelem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Automatické odstranění - při odchodu z pacienta do kartotéky či čekárny se uživateli zobrazuje dotaz, zda má být pacient odstraněn z čekárny. Při volbě ANO pacient z čekárny zmizí, při volbě NE pacient v čekárně zůstane.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Evidence stavů - Cílem Evidence stavů je zachytit k jednotlivým pacientům v čekárně stavovou informaci, ze které je patrné, zda již bylo zahájeno ošetřování nebo zda již byli kompletně vyšetřeni. V horní liště čekárny se na navíc nachází checkboxy, pomocí kterých lze filtrovat příslušné stavy pacientů v čekárně a tlačítko Změna stavu, pomocí něhož se mění stav pacienta manuálně.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Sledovat historii",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zapne sledování změn v objednávkách/záznamech v kalendáři",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Státní svátky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nezobrazovat – den se v kalendáři zobrazuje jako běžný pracovní den. V online objednávání je možné se na tento den objednat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pouze zobrazovat – den v kalendáři se zobrazuje jako běžný pracovní den, pouze v záhlaví je zobrazena informace o státním svátku. V online objednávání je možné se na tento den objednat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Volné dny – den se v kalendáři zobrazuje jako volný den, v online kalendáři není možné se na daný den objednat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Neprůhledné pozadí objednávek/záznamů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " na záznamu nastaví ne/průhledné pozadí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 609,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 609,
+            "alt": "image-20250722-135615.png",
+            "id": "31bfe705-4fb9-4b92-ba0d-05528ee4ddce",
+            "collection": "contentId-77365253",
+            "type": "file",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

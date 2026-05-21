@@ -1,0 +1,67 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "204db7edd6b4"
+      },
+      "content": [
+        {
+          "text": "Tato sekce popisuje vše, co se týká plánování návštěv pacientů, komunikace s nimi a nastavení upozornění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aef1b059887f"
+      },
+      "content": [
+        {
+          "text": "Najdete zde nastavení kalendářů a skupin kalendářů, modul objednávání včetně notifikací, SMS zprávy pacientům a sjednocení upozornění. Součástí jsou notifikace laboratorních výsledků, správa upozornění pro uživatele a nastavení nároků pacienta na vyšetření a nebo očkování. Sekce zahrnuje také Portál pacienta — online objednávání, nastavení kalendářů pro portál, hlídacího psa pro volné termíny a registraci pacientů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "e419b600-fd8a-4b36-b02e-d0185a8c8243"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "cdbb83cf-171a-453b-a971-80d0d8bc5687"
+      }
+    }
+  ],
+  "version": 1
+}

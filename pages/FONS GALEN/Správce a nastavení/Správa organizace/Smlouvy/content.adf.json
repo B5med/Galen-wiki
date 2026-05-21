@@ -1,0 +1,1302 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "0bd86eb8-58d1-409a-8cab-05aba92f7a59"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "6ade07ba-d5cd-44a7-bad0-b307145698d2"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1219,
+            "alt": "image-20250618-124256.png",
+            "id": "c3e87bed-95d4-42cc-8d8e-212e38e676b5",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 210
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V sekci Smlouvy lze provádět hromadné změny týkající se nasmlouvaných výkonů a parametrů smlouvy. Nejčastěji uživatelé potřebují přidat výkon do více pojišťoven či na více pracovišť současně.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Hromadné přidání nasmlouvaného výkonu, parametru smlouvy a jejich aktualizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1156,
+            "alt": "image-20250618-124325.png",
+            "id": "2c00f361-0a71-444d-9f84-fb45762b6495",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 280
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V levém sloupci je nutné označit pojišťovny, do kterých lze přidat výkon ve středním sloupci označíme všechna pracoviště, u kterých je výkon nasmlouván. Poté stiskem Přidat výkon otevřeme v pravé části okno pro přidání výkonu. Označení všech položek v jednom sloupci po označení jednoho řádku provedeme stiskem kláves CTRL+A. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "V sekci Smlouvy lze",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přidat výkon a jeho parametry ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přidat parametry smlouvy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktualizovat parametry výkonu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktualizovat parametry smlouvy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Přidat výkon a jeho parametry ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1224,
+            "alt": "image-20250618-124416.png",
+            "id": "29b9b6d8-c1d2-4aca-a9ce-be604108aed3",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 297
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 835,
+            "alt": "image-20250618-124430.png",
+            "id": "4372e3e2-d7c7-4a3e-9f5f-bcb9ebacc432",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 507
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do položky ",
+          "type": "text"
+        },
+        {
+          "text": "Typ výkonu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " napíšeme kód výkonu (např. 09543) a poté se stiskem tlačítka Provést výkon přiřadí do všech zvolených pojišťoven a pracovišť. Ostatní položky není nutné vyplňovat, ty budou načteny z číselníku výkonů. ",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pokud má uživatel s pojišťovnou smluvené jiné než „číselníkové“ parametry smluvy, je možné tato nastavení také definovat v okně Přidat výkon. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Typ výkonu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - kód výkonu (např. 02125). Chceme-li zadat více výkonů, je nutné jednotlivé výkony oddělit čárkou, poté po stisku tlačítka Provést je výkon přidán k nasmlouvaným výkonům. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hodnota bodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – umožňuje k zadanému výkonu či více výkonům zadat jinou než „číselníkovou“ hodnotu bodu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hodnota bodu NP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - umožňuje zvolit hodnotu bodu u pacienta v nepravidelné péči ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Fixní částka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – umožňuje zadat jednoznačnou fixní částku výkonu, která ruší platnost hodnoty bodu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cesty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – odškrtnutím checkboxu lze (u výkonů s možností spojení s cestou lékaře k pacientovi, např. 01150) zakázat možnost vykazování cesty svázané s těmito výkony. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kapitace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– umožňuje volbu zahrnout či vyloučit výkony do/z kapitační platby ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Platí od, Platí do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – umožňuje stanovit období platnosti uvedených výkonů ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Smazat výkon nelze, lze ukončit platnost výkonu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Přidat parametr smlouvy ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Slouží k možnosti hromadného přidání parametrů smlouvy. Stejně jako u možnosti „Přidat výkon“ je nejdříve nutný výběr alespoň jedné pojišťovny a alespoň jednoho pracoviště. Po otevření tabulky „Přidat parametr smlouvy“ je možné hromadně přidat zobrazené položky, např. max. počet km, které lze vykazovat na doklady cest. Systém poté hlídá stanovený limit kilometrů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zvolení pojištoven a pracovišt pro provedení změn: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1215,
+            "alt": "image-20250618-124523.png",
+            "id": "5be3bf04-94c5-4a57-96e6-81b69d42277d",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 204
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Volba operace, kterou chceme na označených pracovištích a pojišťovnách provést: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 827,
+            "alt": "image-20250618-124535.png",
+            "id": "93dd0a31-2c68-4ed3-81ed-2ffb8ae44cde",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 337
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 830,
+            "alt": "image-20250618-124546.png",
+            "id": "f4eb6e47-a78c-4414-9910-0fb8bd2ae2ec",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 619
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Od období",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – stanovení začátku období platnosti uvedených parametrů smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hodnota bodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – stanoví hodnotu bodu bez ohledu na údaj z číselníku výkonů ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hodnota bodu zahr.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – stanoví hodnotu bodu zahraničních pacientů ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Degresní koeficient",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – možnost stanovení vlastního degresního koeficientu dle smlouvy s pojišťovnou/ pojišťovnami. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kapitační paušál",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – možnost stanovení vlastního kapitačního paušálu dle smlouvy s pojišťovnou/ pojišťovnami. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kód dopravy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – dle metodiky lze zvolit kód dopravy:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "06 – paušál na jednu návštěvu u pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "08 – paušál na měsíc ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "10 – dle kilometrů ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Max.počet km",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – možnost stanovení max. počtu km, které lze vykazovat na doklady cest. Systém poté hlídá stanovený limit kilometrů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Náhradní IČP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – lze nastavit IČP, které se bude objevovat ve vyúčtovacích dokladech namísto IČP, na kterém byly vyúčtované výkony původně zadané ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Náhradní odbornost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - lze nastavit odbornost, která se bude objevovat ve vyúčtovacích dokladech namísto odbornosti pracoviště, na kterém byly vyúčtované výkony původně zadané ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nejpřesnější dg",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – možnost stanovení kontroly nejpřesnější dg dle metodiky zadávání výkonů. Existuje-li v číselníku čtyřmístná diagnóza, systém hlídá zadání této čtyřmístné = nejpřesnější diagnózy. Např. nelze zdat Dg.M54, je nutno doplnit Dg např M543. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Aktualizovat parametr výkonu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Slouží k možnosti hromadné aktualizace parametrů výkonu pro více pracovišt i pojišťoven. Stejně jako u možnosti „Přidat výkon“ je nejdříve nutný výběr alespoň jedné pojišťovny a alespoň jednoho pracoviště. Po otevření tabulky „Aktualizovat parametr výkonu“ je možné hromadně aktualizovat zobrazené položky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 828,
+            "alt": "image-20250618-124625.png",
+            "id": "ef20d503-7d82-42c5-80e2-7f08b9cbe5a2",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 343
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 833,
+            "alt": "image-20250618-124635.png",
+            "id": "bfe673b7-c921-46b0-8cfd-ed09e3838e77",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 635
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Postup aktualizace jednotlivých položek je stejný jako v případě přidání výkonu a jeho parametrů.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Novinkou je zde možnost ",
+          "type": "text"
+        },
+        {
+          "text": "Vynulovat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "stávající parametr výkonu. Je-li např. stanovena hodnota bodu NP (pro označené/á pracoviště a označenou/é pojišťovnu/y) např. 2,5, po zaškrtnutí pole Vynulovat dojde na zvolených pracovištích u zvolených pojišťoven ke smazání nastavené hodnoty, která nadále zůstane nevyplněna. Viz příklad dále. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Původní hodnota nastavení Hodnoty bodu NP výkonu 21225: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1216,
+            "alt": "image-20250618-124720.png",
+            "id": "6f3bf45a-7c7d-45c1-940a-13ffa963d13a",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 256
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Provedení hromadného vynulování nastavené Hodnoty bodu NP výkonu 21225: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1219,
+            "alt": "image-20250618-124737.png",
+            "id": "541835d6-b4ce-4ed6-b341-702cd9ab8efc",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 466
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vynulovaná Hodnota bodu NP výkonu 21225 po provedení Aktualizace parametru výkonu: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1214,
+            "alt": "image-20250618-124802.png",
+            "id": "8eea0317-b917-41e3-adb8-21d339429ff6",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 257
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Smazání výkonu se neprovádí, lze provést ukončení platnosti výkonu.Veškeré úpravy výkonu do minulosti se poté budou vázat k nastavení parametrů k datu vykázání výkonu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Aktualizovat parametr smlouvy ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Smlouvy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Slouží k možnosti hromadné aktualizace parametrů smlouvy pro více pracovišt i pojišťoven. Stejně jako u možnosti „Přidat parametr smlouvy“ je nejdříve nutný výběr alespoň jedné pojišťovny a alespoň jednoho pracoviště. Po otevření tabulky „Aktualizovat parametr smlouvy“ je možné hromadně aktualizovat zobrazené položky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 785,
+            "alt": "image-20250618-124840.png",
+            "id": "1d346f4c-1646-4a71-af12-cd47c6ce45f4",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 713
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Postup aktualizace jednotlivých položek je stejný jako v případě přidání parametrů smlouvy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Novinkou je zde možnost ",
+          "type": "text"
+        },
+        {
+          "text": "Vynulovat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "stávající parametr smlouvy. Je-li např. stanovena hodnota pole „Max. počet km“(pro označené/á pracoviště a označenou/é pojišťovnu/y) např. 10, po zaškrtnutí pole Vynulovat dojde na zvolených pracovištích u zvolených pojišťoven ke smazání nastavené hodnoty, která nadále zůstane nevyplněna. Nastavení se takto změní u všech zvolených pracovišť a pojišťoven. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Kopírování smluvních výkonů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poskytuje možnost kopírování smluvních výkonů mezi jednotlivými pojišťovnami nebo pracovišti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost kopírovat smluvní výkony se nachází ve správě organizace, ve struktuře na úrovni pracoviště. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při výběru konkrétní pojišťovny klikneme na tlačítko Kopírovat smluvní výkony.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 768,
+            "alt": "image-20250618-124906.png",
+            "id": "a8cb52e7-e1c7-4875-b314-edc0dcab087b",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 525
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Kopírovat smluvní výkony na pracovišti:  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybereme cílové smlouvy s pojišťovnami, kam chci smluvní výkony nakopírovat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 821,
+            "alt": "image-20250618-124930.png",
+            "id": "3e9ddac1-ed9d-442a-9121-6ba54d27fad7",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 694
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po Potvrzení se nám zobrazí výsledek kopírování smluvních výkonů. Info okno obsahuje počet přidaných výkonů, počet přeskočených výkonů, které již na pracovišti existují případně výkony, které již nejsou v platném číselníku. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1032,
+            "alt": "image-20250618-124949.png",
+            "id": "30c18812-bc7b-4dd6-9497-1f09fcdac1da",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 597
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Kopírovat smluvní výkony mezi pracovišti:  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při možnosti kopírovat smluvně výkony mezi pracovišti bude uživateli nabídnut číselník všech smluv s pojišťovnami na všech pracovištích společnosti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 802,
+            "alt": "image-20250618-125019.png",
+            "id": "fbb87da1-ba6a-4614-8471-74a2749ea5b4",
+            "collection": "contentId-48922625",
+            "type": "file",
+            "height": 677
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

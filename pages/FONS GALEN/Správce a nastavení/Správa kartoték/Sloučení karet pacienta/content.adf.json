@@ -1,0 +1,244 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "183b05fec343"
+      },
+      "content": [
+        {
+          "text": "Pokud se v systému FONS Galen vyskytuje pacient evidovaný pod dvěma různými kartami (například z důvodu chybného prvotního zadání), je možné tyto karty sloučit do jedné. Funkce sloučení zajistí převod veškeré dokumentace z rušené karty na kartu výslednou, včetně dekurzu a navázaných záznamů. Položky, které se při sloučení nepřenášejí (zůstávají z výsledné karty): adresa, kontakt, registrace, státní příslušnost, kategorie pojištěnce, anamnéza, etc.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 825,
+            "alt": "Snímka obrazovky 2026-04-30 104202.png",
+            "id": "2dadaf6b-1847-46a4-bcf3-f0158a414a34",
+            "collection": "contentId-399638530",
+            "type": "file",
+            "localId": "c86c093d14cf",
+            "height": 62
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "141b79945373"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a4774959ebe2"
+          },
+          "content": [
+            {
+              "text": "Funkce je přístupná pouze uživatelům s rolí ",
+              "type": "text"
+            },
+            {
+              "text": "Správce",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "229469774293"
+      },
+      "content": [
+        {
+          "text": "Je nutné pečlivě zvolit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7ce6c95d-c53e-4803-b032-dd7fdbc51aed"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ba27694e-cdec-446f-bb7b-6b5cf2ecc6c4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "95df7c7a61cf"
+              },
+              "content": [
+                {
+                  "text": "Pacienta, který zůstane zachován. Jeho karta bude výslednou se správným rodným číslem a pojišťovnou.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ca77bc15-28e9-40fd-ab67-ee27bdeb7647"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "60d8393c2aa8"
+              },
+              "content": [
+                {
+                  "text": "Pacienta, který bude sloučen.  Dokumentace z této karty bude převedena na výslednou kartu pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d967e5d576b"
+      },
+      "content": [
+        {
+          "text": "Po výběru obou pacientů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bd450093-5e29-40db-94ba-64503dafa36a",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c7f7dd86-ddd9-49b8-a92d-0a835f9f7bba"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "92ec533eeecd"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko Analyzovat – systém zobrazí přehled dat, která se při sloučení nepřenesou.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b25997e4-cc66-47ae-9cba-a5f2bdaf6097"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7939aedf1458"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko Sloučit – dojde k trvalému sloučení duplicitních karet.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1138,
+            "alt": "Snímka obrazovky 2026-04-30 104100.png",
+            "id": "febf2cb4-9a03-4be2-8894-b32278f6a93d",
+            "collection": "contentId-399638530",
+            "type": "file",
+            "localId": "a231b5ba2704",
+            "height": 770
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "24f22e0da288"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "aec247041279"
+          },
+          "content": [
+            {
+              "text": "Při slučování pacientů, u kterých jsou vyplněny údaje na obou kartách, systém uživatele na tuto skutečnost upozorní.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a92efbfa7392"
+      }
+    }
+  ],
+  "version": 1
+}

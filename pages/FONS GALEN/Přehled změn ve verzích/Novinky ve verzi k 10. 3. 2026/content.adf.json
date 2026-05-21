@@ -1,0 +1,1245 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "ae4b9ccffc72"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "3ad0102e8fea"
+      },
+      "content": [
+        {
+          "text": "Tlačítko Objednat ve vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "434f94330b1a"
+      },
+      "content": [
+        {
+          "text": "Do záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Prohlídky a vyšetření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bylo přidáno nové tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "„Objednat“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v horní liště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2340abe172e"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí se otevře ",
+          "type": "text"
+        },
+        {
+          "text": "modul objednání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " s automaticky vyplněným:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2dbccf3b-da87-49fd-bc6b-997b55665bff"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ea1ec90e-7929-4192-80d9-85bbb7dbb5b8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "44869dd91051"
+              },
+              "content": [
+                {
+                  "text": "pacientem,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f4f2de68-7452-4af2-ae6f-8f206fea73a1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "91240f4c6f94"
+              },
+              "content": [
+                {
+                  "text": "ordinací.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c19d5156707"
+      },
+      "content": [
+        {
+          "text": "Funkcionalita je stejná jako u stávajícího tlačítka „Objednat“ dostupného na jiné záložce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "5e74bc898734"
+      },
+      "content": [
+        {
+          "text": "Přejmenování položky BWR na Syfilis v anamnéze pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4347ca02ef44"
+      },
+      "content": [
+        {
+          "text": "V modulu Ordinace byla v záložce Anamnéza upravena položka BWR, která se nyní uživateli zobrazuje pod srozumitelnějším názvem Syfilis. Změna se projeví při výběru pacienta v pravé části anamnézy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "ea2185b1021f"
+      },
+      "content": [
+        {
+          "text": "Rozšíření pravidla „Nepovolená kombinace výkonů\" o kontrolu diagnózy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7dc7a4663713"
+      },
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "správy pravidel",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bylo rozšířeno nastavení pravidla typu ",
+          "type": "text"
+        },
+        {
+          "text": "Nepovolená kombinace výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " o novou volitelnou podmínku ",
+          "type": "text"
+        },
+        {
+          "text": "„Shodná diagnóza“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "55469b74457e"
+      },
+      "content": [
+        {
+          "text": "Co se změnilo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c37be436315a"
+      },
+      "content": [
+        {
+          "text": "Na řádku výkonu v definici pravidla je nyní možné přidat podmínku ",
+          "type": "text"
+        },
+        {
+          "text": "„Shodná diagnóza“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", která může mít tyto hodnoty:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7574a740-5724-4090-b995-59c33f9d6475"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bd2eadd3-adf0-4a8e-9ae4-63697d6e79f3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "772c976c0c1b"
+              },
+              "content": [
+                {
+                  "text": "Hlavní diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, mají-li výkony shodnou hlavní diagnózu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0bb6ebad-0663-44de-9899-9ebf597efdc6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "de769186d8a2"
+              },
+              "content": [
+                {
+                  "text": "Řádková diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, mají-li výkony shodnou řádkovou diagnózu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6e9564f8-5b53-42ce-b92a-d68e8e9ce2e6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f832573f5f1e"
+              },
+              "content": [
+                {
+                  "text": "Hlavní nebo řádková diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, pokud se shoduje hlavní ",
+                  "type": "text"
+                },
+                {
+                  "text": "nebo",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " řádková diagnóza.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "77509937d6e9"
+      },
+      "content": [
+        {
+          "text": "Chování systému",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c8f450f5-672b-46d9-9005-b890815ffb4d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cdb66374-a3ed-4c03-8a6b-740db9f7b222"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6ef47bdf6faf"
+              },
+              "content": [
+                {
+                  "text": "Pokud je podmínka nastavena ",
+                  "type": "text"
+                },
+                {
+                  "text": "a výkony mají ve stejný den u jednoho pacienta shodnou diagnózu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ›",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "vykázání je zablokováno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a zobrazí se chybová hláška.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b18b15ef-7bb2-4134-8190-f70c146a847c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f451e59c6fa3"
+              },
+              "content": [
+                {
+                  "text": "Pokud je podmínka nastavena ",
+                  "type": "text"
+                },
+                {
+                  "text": "a výkony mají různé diagnózy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ›",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "vykázání je povoleno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "442d04fe-7b99-426e-b06a-a633fed38d60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0bc8459a6bdb"
+              },
+              "content": [
+                {
+                  "text": "Pokud podmínka ",
+                  "type": "text"
+                },
+                {
+                  "text": "není nastavena",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ›",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "chování pravidla zůstává beze změny",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "(kombinace je zakázaná vždy, bez ohledu na diagnózu).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "0ea85ec51968"
+      },
+      "content": [
+        {
+          "text": "Zobrazení rozdílu hmotnosti v záznamu preventivní prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f0b6245f4928"
+      },
+      "content": [
+        {
+          "text": "V záznamu ",
+          "type": "text"
+        },
+        {
+          "text": "preventivní prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bylo vedle kolonky ",
+          "type": "text"
+        },
+        {
+          "text": "Hmotnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " doplněno zobrazení rozdílu oproti poslední zaznamenané hodnotě hmotnosti pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "ebe0cffcc0c1"
+      },
+      "content": [
+        {
+          "text": "Co se změnilo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "84ef2e4cd9af"
+      },
+      "content": [
+        {
+          "text": "Pokud je u pacienta evidována předchozí hodnota hmotnosti, zobrazí se nyní automaticky informace o ",
+          "type": "text"
+        },
+        {
+          "text": "přírůstku nebo úbytku váhy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " od posledního záznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e5f6c460f7b9"
+      },
+      "content": [
+        {
+          "text": "Tato hodnota je vizuálně zvýrazněna (",
+          "type": "text"
+        },
+        {
+          "text": "tooltip",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "), aby lékař okamžitě viděl, zda u pacienta nastala významná změna hmotnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "3e47d7928771"
+      },
+      "content": [
+        {
+          "text": "Chování systému",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "06bcfcb4-d7bb-4531-ad72-b7c2204e42d1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c18ad7cf-09fd-4cce-b036-bbb984146ce8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ecf7cbc87d42"
+              },
+              "content": [
+                {
+                  "text": "Je-li evidována předchozí hmotnost:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Zobrazí se vedle pole ",
+                  "type": "text"
+                },
+                {
+                  "text": "Hmotnost",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " informace o rozdílu (přírůstek/úbytek) oproti poslednímu záznamu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8c6a26fc-2336-49a8-803f-98c00f3ef176"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1c06984480bb"
+              },
+              "content": [
+                {
+                  "text": "Není-li předchozí hmotnost evidována:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Žádná dodatečná informace se nezobrazuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "a348b1e2c92d"
+      },
+      "content": [
+        {
+          "text": "Přínos",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "01895c0deb77"
+      },
+      "content": [
+        {
+          "text": "Tato úprava usnadňuje lékařům ",
+          "type": "text"
+        },
+        {
+          "text": "rychlé vyhodnocení změn hmotnosti pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", což je obzvláště přínosné při péči o:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4d002193-fd00-4136-a9ae-1dddf407d7ef"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f6a6bcff-4cb7-4ee3-be34-d9b28b5031a7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "14e2a86529f6"
+              },
+              "content": [
+                {
+                  "text": "kojence,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ce5c2cc3-7aca-42b5-8c53-cbf75c698b76"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "58fa65d60a9d"
+              },
+              "content": [
+                {
+                  "text": "obézní pacienty.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "28fd944d4fe3"
+      },
+      "content": [
+        {
+          "text": "Podpora předávání dat o centrové léčbě do registru ÚZIS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f41e75d88928"
+      },
+      "content": [
+        {
+          "text": "V systému ",
+          "type": "text"
+        },
+        {
+          "text": "FONS Galen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " byla implementována podpora pro povinné předávání dat o ",
+          "type": "text"
+        },
+        {
+          "text": "centrové léčbě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " do registru ",
+          "type": "text"
+        },
+        {
+          "text": "ÚZIS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v souladu s legislativními požadavky Ministerstva zdravotnictví ČR.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "db4efa6408df"
+      },
+      "content": [
+        {
+          "text": "Funkčnost zahrnuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "42b12429-5fa3-4bee-ab5e-4090570d1be8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7c4c6441-48fe-432b-a9d8-e79a3b563ebf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f02d7c51dfb4"
+              },
+              "content": [
+                {
+                  "text": "konfiguraci propojení s ÚZIS,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "510d14c4-1262-4968-86a8-35f5c50f22ae"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "057d805b045a"
+              },
+              "content": [
+                {
+                  "text": "evidenci podání inovativních léčivých přípravků u pacientů,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a391a782-3fae-4309-b5eb-7004cf4f81cc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e2d63ed4e214"
+              },
+              "content": [
+                {
+                  "text": "elektronické odeslání hlášení přes ",
+                  "type": "text"
+                },
+                {
+                  "text": "API ÚZIS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "603d3212-9b7c-451e-9b0f-8d357c1ad36a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "09a21b46e5b1"
+              },
+              "content": [
+                {
+                  "text": "automatické vykazování výkonů a ZUM zdravotní pojišťovně.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "d114ed798629"
+      },
+      "content": [
+        {
+          "text": "Více informací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "187a5ef02cf0"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "https://stapro-galen.atlassian.net/wiki/x/AQDLE",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/AQDLE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "278e3f6e3983"
+      },
+      "content": [
+        {
+          "text": "Funkce zobrazení/skrývání hesla",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2caacd41f53d"
+      },
+      "content": [
+        {
+          "text": "Do polí pro zadávání hesla byla doplněna ikona ",
+          "type": "text"
+        },
+        {
+          "text": "„očička“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", která umožňuje dočasné ",
+          "type": "text"
+        },
+        {
+          "text": "zobrazení nebo skrytí hesla",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Z bezpečnostních důvodů se ikona pro zobrazení hesla přestane zobrazovat, pokud uživatel opustí pole pro zadání hesla (překlikne se jinam).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "e060862a03b6"
+      },
+      "content": [
+        {
+          "text": "Kde je funkce dostupná:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4796ec54-c1a6-4816-9af7-7e543015dd6e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1fd047c5-2977-4038-9d7f-e9fbd794d9b6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "05a88f473c63"
+              },
+              "content": [
+                {
+                  "text": "při změně hesla v ",
+                  "type": "text"
+                },
+                {
+                  "text": "profilu uživatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3bdc323f-b923-44a6-bebe-918bbf98a086"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "29da1cd60186"
+              },
+              "content": [
+                {
+                  "text": "ve ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správě organizace – Uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b816c52a-5191-4d80-a2a6-dc379128b3f3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7d5909866f99"
+              },
+              "content": [
+                {
+                  "text": "na ",
+                  "type": "text"
+                },
+                {
+                  "text": "přihlašovací obrazovce",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,485 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "3fdf54f09f3a"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f2fcae009b8c"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "108655df0336"
+      },
+      "content": [
+        {
+          "text": "Upozornění / Dekurz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "357657d937c6"
+      },
+      "content": [
+        {
+          "text": "Uložení přílohy z Upozornění do Dekursu pro všechny uživatele",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "79cee18873a8"
+      },
+      "content": [
+        {
+          "text": "Přílohu z modulu Upozornění nyní může uložit přímo do Dekursu pacienta každý přihlášený uživatel — nejen autor nebo správce upozornění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "aee0deadc0fa"
+      },
+      "content": [
+        {
+          "text": "ePoukaz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "e026568100fc"
+      },
+      "content": [
+        {
+          "text": "Načítání kontaktů při výchozí hodnotě „Bez notifikace“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee810012e845"
+      },
+      "content": [
+        {
+          "text": "Při otevření formuláře ePoukazu jsou vždy načteny kontaktní údaje pacienta označené příznakem SÚKL — i pokud má pracoviště nastavenou výchozí hodnotu „Bez notifikace“. Uživatel může notifikaci zvolit ručně z nabídky dostupných typů kontaktů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "eaa3f9deed62"
+      },
+      "content": [
+        {
+          "text": "Automatické zjišťování stavu výdejů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "181a564f6d46"
+      },
+      "content": [
+        {
+          "text": "Na pracovišti, které má aktivní ePoukaz a odesílá eRecepty, probíhá zjišťování stavu výdejů léků nyní automaticky — bez nutnosti ručního nastavování v konfiguraci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ad740b28111e"
+      },
+      "content": [
+        {
+          "text": "Karta pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a4cc6d2651d1"
+      },
+      "content": [
+        {
+          "text": "Vysvětlivka u pole Zákaz nahlížení v anamnéze",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49071597d7c1"
+      },
+      "content": [
+        {
+          "text": "K poli ",
+          "type": "text"
+        },
+        {
+          "text": "Zákaz nahlížení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v anamnéze pacienta přibyl popisný tooltip, který uživatelům objasní, co toto nastavení ovlivňuje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3d99d51d394c"
+      },
+      "content": [
+        {
+          "text": "Konfigurace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "88acd29c8817"
+      },
+      "content": [
+        {
+          "text": "Vyhledávání v konfiguraci Galenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f3e59379a42b"
+      },
+      "content": [
+        {
+          "text": "V okně konfigurace Galenu přibyla možnost vyhledat konkrétní nastavení zadáním textu do vyhledávacího pole.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "43e2088b83ce"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5817a220b3d7"
+      },
+      "content": [
+        {
+          "text": "Upozornění u dokladu s výkony s navázaným ZUM",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "76a798a505eb"
+      },
+      "content": [
+        {
+          "text": "Při změně stavu dokladu tlačítkem „Nově vyúčtovat“ je nyní zobrazeno upozornění v případě, že doklad obsahuje výkony, na které je navázán ZUM proto, aby stejná operace použita i pro doklad ZUM.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "db4de10cd93a"
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cedabe21fd7b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d9486f52f6ce"
+      },
+      "content": [
+        {
+          "text": "Refresh stavu nahrání přílohy na cloud",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "14a741066329"
+      },
+      "content": [
+        {
+          "text": "Po uložení přílohy přes přístroj se ikona stavu nahrávání nyní správně aktualizuje okamžitě po dokončení uploadu — bez nutnosti znovu načíst pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8e4d2e063f85"
+      },
+      "content": [
+        {
+          "text": "Seznam NSP – selhání při hromadném přepočtu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "70fcd975890e"
+      },
+      "content": [
+        {
+          "text": "V modulu Nástroje → Seznam NSP selhávala funkce ",
+          "type": "text"
+        },
+        {
+          "text": "Přepočíst vše",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " s chybou „An item with the same key already exists“. Chyba byla odstraněna.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8d95cf2f4d0c"
+      },
+      "content": [
+        {
+          "text": "eDPN – převzetí DPN u pacientů cizinců",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a14776586b86"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, která znemožňovala převzít dočasnou pracovní neschopnost od jiného zdravotnického zařízení u pacientů cizinců identifikovaných datem narození místo evidenního čísla pojištěnce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4fa31fcf8b81"
+      },
+      "content": [
+        {
+          "text": "Pozvánka do Portálu pacienta – chyba „Read not allowed“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e7b3fb80df5e"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, kvůli které se při odeslání pozvánky do Portálu pacienta zobrazovala zpráva o zamítnutém přístupu k verifikacínmu kódu a blokovala přístup ke kartě pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "80065c85b6b8"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování – pojištěnci s kódem pojištění 1A",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f25a943b6a53"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, při níž u pojištěnců cizinců s kódem 1A (žadatelé o mezinárodní azyl) po použití tlačítka Přepočíst nevyúčtované výkony odcházely kapitované výkony s nenulovou hodnotou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "acff542dc354"
+      },
+      "content": [
+        {
+          "text": "Recepce – nelze otevřít pacienta přes objednávání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4dbb8440987c"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, při níž z modulu Recepce nebylo po aktualizaci možné otevřít kartu pacienta přes objednávání — systém hlásil chybu přístupu k dokladu pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b0b3fb9d1071"
+      },
+      "content": [
+        {
+          "text": "PLS posudky – přenos čísla OP po přesunu pole",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9a9631c1b0c5"
+      },
+      "content": [
+        {
+          "text": "Po přesunu pole Občanský průkaz do záložky kontaktů přestalo číslo dokladu přecházet do PLS posudku. Přidána zpětná kompatibilita zajišťující správný přenos bez nutnosti úpravy existujících formulářů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "340d480542eb"
+      },
+      "content": [
+        {
+          "text": "Nelze otevřít dekurz u pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cb2ac57c1fb7"
+      },
+      "content": [
+        {
+          "text": "Opravena databázová chyba, ke které docházelo u pacientů s příliš dlouhou poznámkou k objednávce — výsledkem bylo, že u takového pacienta nešlo otevřít dekurz.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

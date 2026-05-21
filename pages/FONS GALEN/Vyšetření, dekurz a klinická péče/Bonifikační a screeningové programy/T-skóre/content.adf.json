@@ -1,0 +1,145 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e01ae2ba-6241-4e07-8f00-2bbcdab80fb3"
+      },
+      "content": [
+        {
+          "text": "Hodnotu měření T-skóre je možné zadat ručně (nedotahuje se z přístroje) v rámci měření nebo prohlídky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "944b464c-41d1-4c90-a697-2077060d3689"
+      },
+      "content": [
+        {
+          "text": "Zadání hodnoty v měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "422548d8-ef50-4503-af56-e64fe9dc8896"
+      },
+      "content": [
+        {
+          "text": "Cesta: vybrat pracoviště -> modul Ordinace -> vybrat pacienta -> záložka Dekurz -> možnost Zadat měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "04d4acee-1160-4db2-9366-2d85009bdc0a"
+      },
+      "content": [
+        {
+          "text": "V poli měření v části ",
+          "type": "text"
+        },
+        {
+          "text": "Ostatní ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je dostupné pole T-skóre, kam uživatel zadá naměřenou hodnotu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 782,
+            "alt": "image-20251216-173659.png",
+            "id": "6a71b3b3-5796-4c8e-890a-27ca6d2ab4c5",
+            "collection": "contentId-201523202",
+            "type": "file",
+            "localId": "c262bb8b-9849-4bc3-abe0-5eb6f67347aa",
+            "height": 144
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f89b5aba-9f2b-41d4-87c8-af768ac920bd"
+      },
+      "content": [
+        {
+          "text": "Pokud je hodnota zadaná zde, dotáhne se automaticky do prohlídky, která bude vystavena po zadání hodnoty do pole měření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4e4e0988-d8f3-4815-a955-7a897df26d10"
+      },
+      "content": [
+        {
+          "text": "Zadání hodnoty v prohlídce Screening osteoporózy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "26124820-d00a-4959-91e4-15120e4969a1"
+      },
+      "content": [
+        {
+          "text": "Pole T-skoré je zároveň zpřístupněno v prohlídce ",
+          "type": "text"
+        },
+        {
+          "text": "Screening osteoporózy. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Na základě zde zadané hodnoty se budou nabízet výkony k vykázání.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

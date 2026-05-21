@@ -1,0 +1,80 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "baa6a0f99b70"
+      },
+      "content": [
+        {
+          "text": "Pacienta je možné zařadit do archivu tak, že na něj v kartotéce klikneme pravým tlačítkem myši. Objeví se menu „Převést pacienta do archivu“, na které klikneme levým tlačítkem myši. V následujícím dialogu je možné doplnit poznámku k archivaci. Přeřazení pacienta do archivu potvrdíme tlačítkem OK. V případě registrace archivovaného pacienta u praktického lékaře provede program automaticky jeho odregistraci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05b1679b16b9"
+      },
+      "content": [
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Více pacientů lze označit buď pomocí tlačítka CTRL, kdy držím toto tlačítko a kliknutím na pacienta přidávám dalšího pacienta mezi označené. Pokud mám souvislou skupinu pacientů, stačí kliknout levým tlačítkem myši na prvního pacienta, držet tlačítko Shift a kliknout na posledního pacienta ve skupině. Tím se označí všichni pacienti mezi těmito dvěma. Pak stačí kliknout na kohokoliv v této skupině pravým tlačítkem myši a dát Archivovat.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Archiv pacientů je možné si prohlížet kliknutím na ikonu Archiv v horní liště uprostřed stránky vedle ikony Kartotéka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 198,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 198,
+            "alt": "image-20250721-134723.png",
+            "id": "714c602e-a7af-44b9-ad43-d39af4c11318",
+            "collection": "contentId-75595947",
+            "type": "file",
+            "localId": "21b061351eeb",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c908a2b6f78"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3656980bcb1d"
+      }
+    }
+  ],
+  "version": 1
+}

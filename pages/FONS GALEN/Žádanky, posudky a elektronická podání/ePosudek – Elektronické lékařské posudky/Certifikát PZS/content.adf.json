@@ -1,0 +1,1961 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "dc6b87cf986c"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6e8bc8941ff1"
+          },
+          "content": [
+            {
+              "text": "Aby FONS Galen mohl odesílat ",
+              "type": "text"
+            },
+            {
+              "text": "ePosudky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " (elektronické lékařské posudky), musí mít nastavený ",
+              "type": "text"
+            },
+            {
+              "text": "Certifikát PZS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Vydavá ho ",
+              "type": "text"
+            },
+            {
+              "text": "EZCA II",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", Portál certifikační autority Ministerstva zdravotnictví ČR.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "16ca797889a0"
+          },
+          "content": [
+            {
+              "text": "Celý postup má 3 fáze:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " přihlášení na národní portál → vystavení certifikátu v EZCA → nastavení v FONS Galen.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1760,
+            "alt": "obrazek-20260429-123156.png",
+            "id": "6d99414c-6099-44ea-924e-2cc77457bc00",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "471957917118",
+            "height": 944
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "bddb4414d215"
+          },
+          "content": [
+            {
+              "text": "Certifikát PZS",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "109dcdb5f97a"
+      },
+      "content": [
+        {
+          "text": "1. K čemu Certifikát PZS slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3fb10e5b07e2"
+      },
+      "content": [
+        {
+          "text": "Certifikát PZS je ",
+          "type": "text"
+        },
+        {
+          "text": "systémový přístupový certifikát organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Neváže se na konkrétního lékaře, ale na celou ordinaci (IČO / IČZ). Pro odesílání ePosudky přes FONS Galen je jeho nastavení ",
+          "type": "text"
+        },
+        {
+          "text": "povinné",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "fb4dbdaea871"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "e5188d5975de"
+          },
+          "content": [
+            {
+              "text": "Kdo certifikát vyřizuje?",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8d9ed7657cfe"
+          },
+          "content": [
+            {
+              "text": "Certifikát musí vystavit ",
+              "type": "text"
+            },
+            {
+              "text": "statutární zástupce",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nebo ",
+              "type": "text"
+            },
+            {
+              "text": "pověřená osoba PZS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " zapsaná v Registru oprávnění. Přihlášení probíhá přes identitu občana (datová schránka, eObčanka, mobilní klíč eGov). Řadový lékař bez tohoto oprávnění certifikát vystavit nemůže.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "78e8a88e1e2f"
+      },
+      "content": [
+        {
+          "text": "2. Přihlášení na národní portál zdravotníka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b790966e56d1"
+      },
+      "content": [
+        {
+          "text": "Certifikát se vyřizuje přes národní portál eZdraví Ministerstva zdravotnictví.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "cfefbd341de3"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8f153aef9ce9"
+          },
+          "content": [
+            {
+              "text": "Pozor — přihlášuje se pověřená osoba, ne lékař",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "ab282d6e9422"
+          },
+          "content": [
+            {
+              "text": "Přihlásit se musí osoba s oprávněním za organizaci (statutár nebo pověřenec). Přihlášení osobním občanským průkazem lékaře nestačí, pokud tato osoba nemá oprávnění za PZS.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "7bbdd2008c0e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9bab7930b12f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "611b7ba04558"
+              },
+              "content": [
+                {
+                  "text": "Přejděte na ",
+                  "type": "text"
+                },
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "localId": "77359c2077bb",
+                    "url": "https://www.ezdravi.gov.cz/login/role?typ=zdravotnik&returnurl=%2Fprivate"
+                  }
+                },
+                {
+                  "text": ". Zobrazí se stránka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zdravotnický pracovník",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dcf2280bb954"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cbc3c1db1b5a"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Identita občana",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a přihlaste se: mobilní klíč eGov, bankovní identita nebo eObčanka (NIA).",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1529,
+                    "alt": "obrazek-20260429-130220.png",
+                    "id": "203523ae-e700-4fc8-83a7-0f7e91b885c6",
+                    "collection": "contentId-377421825",
+                    "type": "file",
+                    "localId": "1a06877894c7",
+                    "height": 773
+                  }
+                },
+                {
+                  "type": "caption",
+                  "attrs": {
+                    "localId": "184f585042f8"
+                  },
+                  "content": [
+                    {
+                      "text": "Přihlášení NPEZ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1532,
+            "alt": "obrazek-20260429-130408.png",
+            "id": "53411de8-fad5-48ef-ac84-bb84326c142d",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "7faf651127e8",
+            "height": 808
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "3311604db324"
+          },
+          "content": [
+            {
+              "text": "Proces přihlášení",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0e1b39be5356",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ff081020c535"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "10ac7aa64ef0"
+              },
+              "content": [
+                {
+                  "text": "Po dokončení přihlášení se zobrazí ",
+                  "type": "text"
+                },
+                {
+                  "text": "Pracovní přehled",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " portálu. V menu zvolte “",
+                  "type": "text"
+                },
+                {
+                  "text": "Poskytovatel zdravotnických služeb",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "”. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1523,
+            "alt": "obrazek-20260429-130933.png",
+            "id": "71637e73-aa5e-4ab4-9dca-b1a88d99a540",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "377c94705c76",
+            "height": 802
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d0bde7ac91a0",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "63adda1af1fb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7f7fbe463eb0"
+              },
+              "content": [
+                {
+                  "text": "Vpravo nahoře zkontrolujte, že je vybrána ",
+                  "type": "text"
+                },
+                {
+                  "text": "správná organizace (PZS)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e3dc5a608e62"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1e45d1e45e0f"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na dlaždici ",
+                  "type": "text"
+                },
+                {
+                  "text": "Certifikáty",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Budete přesměrováni na portál EZCA.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1522,
+            "alt": "obrazek-20260429-131630.png",
+            "id": "da2efb55-7e18-49f6-8d86-0d029025710e",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "28b89d3cbf49",
+            "height": 808
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "3135b0c5994d"
+          },
+          "content": [
+            {
+              "text": "Certifikáty",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "487a00c80cbe",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b7c29fdb76f5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dac77d2553b2"
+              },
+              "content": [
+                {
+                  "text": "Přejděte na přihlášení do Portálu EZCA",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1533,
+            "alt": "obrazek-20260429-132406.png",
+            "id": "f6a1b103-f938-49ae-b6ea-0aeb74c54f6e",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "353c3caf4b60",
+            "height": 800
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "8fc1d4353064"
+          },
+          "content": [
+            {
+              "text": "Přihlášení EZCA",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e26d273dfedf"
+      },
+      "content": [
+        {
+          "text": "3. Jak získat certifikát v portálu EZCA",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "66fed3f85890"
+      },
+      "content": [
+        {
+          "text": "Pokud jste přešli z národního portálu, jste již přihlášeni. Případně se přihlaste přímo na ",
+          "type": "text"
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "localId": "d705568e10af",
+            "url": "https://ezca-ez.csez.cz"
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "03de46785f7d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d56390e22a10"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4868444c1c09"
+              },
+              "content": [
+                {
+                  "text": "Na stránce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Subjekty",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " v sekci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Systémové certifikáty",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přejít",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " u vaší organizace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 820,
+            "alt": "obrazek-20260429-134755.png",
+            "id": "8e581160-3393-4c84-9061-275983220faf",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "d809e5d376eb",
+            "height": 676
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "262954f055b3"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ec5bdbb75400",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "06871bb3a7d3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7438b560b3dd"
+              },
+              "content": [
+                {
+                  "text": "Otevře se stránka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Certifikáty",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " s tabulkou stávajících certifikátů a tlačítky pro vystavení nových.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e57d0ea90d5f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e5ca35557d9"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "VYSTAVIT PŘÍSTUPOVÝ CERTIFIKÁT",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 760,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1524,
+                    "alt": "obrazek-20260429-132900.png",
+                    "id": "c40a4636-bc2e-48f3-9e51-3eaa157ba680",
+                    "collection": "contentId-377421825",
+                    "type": "file",
+                    "localId": "9440bd7ecbf9",
+                    "height": 664
+                  }
+                },
+                {
+                  "type": "caption",
+                  "attrs": {
+                    "localId": "ecfad8eb0099"
+                  },
+                  "content": [
+                    {
+                      "text": "Vystavení přístupového certifikátu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "77e8ca908a77"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "6005b640c4d4",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "267c10d78c86"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "884e0768d02d"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte formulář ",
+                  "type": "text"
+                },
+                {
+                  "text": "Žádost o nový firemní přístupový certifikát",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ":",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 890,
+            "alt": "obrazek-20260429-133146.png",
+            "id": "97c6ea18-733f-4201-8d2c-d265ef9c9efb",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "a6ff83301fad",
+            "height": 679
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5602757b33c0"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "7d2cbe65d454",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "22bd9a1da0ab"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1f8540186e10"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "GENEROVAT",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Zobrazí se potvrzení ",
+                  "type": "text"
+                },
+                {
+                  "text": "Žádost o vydání certifikátu byla odeslána.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 712,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 712,
+            "alt": "obrazek-20260429-133536.png",
+            "id": "3e622758-ee3d-40bf-969d-cfae56bb9357",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "8023f01d4cb7",
+            "height": 667
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "493a6bd8b31f"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "cb77aa9ad48e",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "04054c8013ce"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "efa2237a32f2"
+              },
+              "content": [
+                {
+                  "text": "V tabulce certifikátů klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "STÁHNOUT",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " u nového certifikátu. Uložte soubor ",
+                  "type": "text"
+                },
+                {
+                  "text": ".pfx",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": " na bezpečné místo.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "9d8da1c1b563"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "415f0d9a9577"
+          },
+          "content": [
+            {
+              "text": "Soubor .pfx obsahuje privátní klíč",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1e3dcb23bb00"
+          },
+          "content": [
+            {
+              "text": "Zacházejte s ním jako s heslem — nezasílejte e-mailem ani nesdílejte přes veřejná úložiště. Soubor je chráněn heslem nastaveným ve formuláři.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6fbc38ca7229"
+      },
+      "content": [
+        {
+          "text": "4. Jak nastavit Certifikát PZS v FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f927628f0cda"
+      },
+      "content": [
+        {
+          "text": "Nastavení provádí administrátor (role ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "). Certifikát se nastavuje jednou za celou organizaci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f29ec8012a8a"
+      },
+      "content": [
+        {
+          "text": "Cesta:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Správce → Správa organizace → záložka Struktura → klikněte na název organizace → řádek ",
+          "type": "text"
+        },
+        {
+          "text": "Certifikát PZS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → ",
+          "type": "text"
+        },
+        {
+          "text": "Nastavit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "8257280d6402",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "359b69181db3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e7ccd24a7b87"
+              },
+              "content": [
+                {
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správa organizace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (menu Správce), záložka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Struktura",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f71e4152b52c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9126d2f8b7c5"
+              },
+              "content": [
+                {
+                  "text": "V levém stromě klikněte na název vaší organizace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "445f76e84d08"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d0e683e43f35"
+              },
+              "content": [
+                {
+                  "text": "V pravém panelu klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nastavit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " u řádku Certifikát PZS.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "13ea0d5568c0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c472a0476e13"
+              },
+              "content": [
+                {
+                  "text": "Vyberte soubor ",
+                  "type": "text"
+                },
+                {
+                  "text": ".pfx",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": " a zadejte heslo z EZCA.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ccda0d971d38"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c6eb9ad1582f"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Uložit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ade9693264f3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "24d6791c38dc"
+              },
+              "content": [
+                {
+                  "text": "Restartujte FONS Galen",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — bez restartu se certifikát neaktivuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "38b1f10d7a7f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6f09e8f86daf"
+          },
+          "content": [
+            {
+              "text": "Ověření funkčnosti",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "ac6224935e8c"
+          },
+          "content": [
+            {
+              "text": "Po restartu klikněte na ",
+              "type": "text"
+            },
+            {
+              "text": "Ověřit PZS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " v detailu organizace. Zelená ikona = certifikát funguje správně.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6e7a92068df5"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1760,
+            "alt": "obrazek-20260429-133850.png",
+            "id": "7915e8e4-faab-4fa2-aff1-bd1ccf41e749",
+            "collection": "contentId-377421825",
+            "type": "file",
+            "localId": "a65197c35b06",
+            "height": 944
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "1a15a4f20bb2"
+          },
+          "content": [
+            {
+              "text": "Nastavení FONS Galen",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6ee481e5d87f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "89a42b3b6d65"
+      },
+      "content": [
+        {
+          "text": "5. Obnova certifikátu před vypršením",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ef7a37ccb085"
+      },
+      "content": [
+        {
+          "text": "Certifikát PZS má platnost ",
+          "type": "text"
+        },
+        {
+          "text": "3 měsíce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Bez platného certifikátu přestanou fungovat ePosudky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1b019af7e64d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ae952220ea27"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "91321f429132"
+              },
+              "content": [
+                {
+                  "text": "Vystavte nový certifikát v EZCA stejným postupem jako v části 3.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d107effbbe23"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7ef428584b49"
+              },
+              "content": [
+                {
+                  "text": "Stáhněte nový soubor ",
+                  "type": "text"
+                },
+                {
+                  "text": ".pfx",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "325e0be7f5a0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c0119ec20d0a"
+              },
+              "content": [
+                {
+                  "text": "V Galenu: Správa organizace → Struktura → organizace → Certifikát PZS → ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nastavit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " → nahrajte nový soubor.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fa8809f6e248"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "025ccabf6338"
+              },
+              "content": [
+                {
+                  "text": "Restartujte Galen.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "443634c2719f"
+      },
+      "content": [
+        {
+          "text": "6. Časté otázky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "expand",
+      "attrs": {
+        "title": "Může certifikát vystavit přímo lékař?",
+        "localId": "f730fe150978"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3d1677a9a018"
+          },
+          "content": [
+            {
+              "text": "Ne. Certifikát musí vystavit statutární zástupce nebo pověřená osoba PZS zapsaná v Registru oprávnění.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expand",
+      "attrs": {
+        "title": "Musím certifikát instalovat do Windows?",
+        "localId": "e672ed71b708"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6338dc13f0bc"
+          },
+          "content": [
+            {
+              "text": "Ne. Certifikát PZS se do Windows neinstaluje — Galen pracuje přímo se souborem ",
+              "type": "text"
+            },
+            {
+              "text": ".pfx",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            },
+            {
+              "text": ". ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expand",
+      "attrs": {
+        "title": "Kmenové registry, ePosudky nefungují — co zkontrolovat?",
+        "localId": "07edb38d4e88"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "orderedList",
+          "attrs": {
+            "localId": "dc833e6f549d",
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "f766389542f7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8a4b04a59afa"
+                  },
+                  "content": [
+                    {
+                      "text": "Je Certifikát PZS nastaven? (Správa organizace → Struktura → organizace → Certifikát PZS)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "c588b31bd748"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "95aa128b110f"
+                  },
+                  "content": [
+                    {
+                      "text": "Je certifikát platný? (datum expirace v EZCA nebo v detailu organizace)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "c4b2e367599b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ca8f00b6158e"
+                  },
+                  "content": [
+                    {
+                      "text": "Byl Galen po nastavení restartován?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expand",
+      "attrs": {
+        "title": "Potřebuji pro ePosudky osobní certifikát lékaře?",
+        "localId": "4f28d947205d"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "09eeaa7e3dd3"
+          },
+          "content": [
+            {
+              "text": "Ne. Stačí Certifikát PZS — autenticita je zajištěna pečetí poskytovatele na úrovni organizace.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expand",
+      "attrs": {
+        "title": "Kde uchovávat soubor .pfx po nastavení?",
+        "localId": "4a4df5005040"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4b5e399e22e9"
+          },
+          "content": [
+            {
+              "text": "Po nahrání do Galenu uložte soubor jako zálohu na bezpečné offline místo (např. šifrovaný USB disk dostupný jen správci). V Galenu je certifikát uložen v databázi.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,226 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě zákona č. 395/2024 Sb. o nemocenském pojištění, jsou poskytovatelé zdravotních služeb povinni od 1. ledna 2025 vystavovat další podklady k nemocenským dávkám elektronicky. Ke stávajícímu ",
+          "type": "text"
+        },
+        {
+          "text": "Potvrzení o dočasné pracovní neschopnosti",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " tak přibylo ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnutí o potřebě ošetřování/péče, Rozhodnutí o potřebě dlouhodobé péče, Potvrzení o datu porodu a Potvrzení o hospitalizaci dítěte ze zdravotních důvodů na straně dítěte nebo matky dítěte.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "FONS Galen jako ambulantní systém implementoval pouze relevantní dávky, tedy: ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnutí o potřebě ošetřování/péče, Rozhodnutí o potřebě dlouhodobé péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a",
+          "type": "text"
+        },
+        {
+          "text": " Potvrzení o datu porodu.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odesílání dalších dávek nemocenského pojištění elektronicky je v rámci FONS Galen připraveno jako nadstandardní ucelený balíček všech služeb.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Stávající ",
+          "type": "text"
+        },
+        {
+          "text": "Potvrzení o dočasné pracovní neschopnosti, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "dále jako ",
+          "type": "text"
+        },
+        {
+          "text": "eDPN, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je implementováno jako základní funkcionalita dostupná pro všechny uživatele. ",
+          "type": "text"
+        },
+        {
+          "text": "eDPN ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je možné vystavit na všech pracovištích všem pacientům starších 15 let.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Rozhodnutí o potřebě ošetřování/péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", též označované jako ",
+          "type": "text"
+        },
+        {
+          "text": "OČR, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "dále jako ",
+          "type": "text"
+        },
+        {
+          "text": "Ošetřovné, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je možné vystavit na všech pracovištích všem pacientům. Stejně tak ",
+          "type": "text"
+        },
+        {
+          "text": "Rozhodnutí o potřebě dlouhodobé péče, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "dále jako ",
+          "type": "text"
+        },
+        {
+          "text": "Dlouhodobé ošetřovné, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "mohou vystavovat jak praktici, tak specialisté všem pacientům.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Potvrzení o datu porodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", které slouží jako podklad ",
+          "type": "text"
+        },
+        {
+          "text": "Peněžité pomoci v mateřství",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", je možné vystavit pouze na pracovišti gynekologie (603) a dětské gynekologie (604).",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

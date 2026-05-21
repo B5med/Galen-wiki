@@ -1,0 +1,284 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Okno PLS Admin slouží k celkovému přehledu provedených PLS akcí, a to zadaných prohlídek a očkování, v rámci PLS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 945,
+            "alt": "image-20250626-134732.png",
+            "id": "d8933dec-3937-436f-b6a7-ac047d38ca54",
+            "collection": "contentId-57147399",
+            "type": "file",
+            "height": 512
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výsledné zobrazení všech PLS záznamů lze filtrovat viz. Obrázek.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Stav může nabýt hodnoty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Nová naplánovaná akce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – nově založená PLS prohlídka nebo PLS očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Přiděleno dalšími IČP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – aktuálně může nastat pouze u nehlavních položek smlouvy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Vráceno ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– aktuálně může nastat pouze u nehlavních položek smlouvy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Uzavřena, fakturovat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– uzavřená služba, kde ještě neproběhla fakturace (v okně PLS Faktury)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Uzavřena, nefakturovat ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– stav nastává, pokud je výsledek prohlídky „Nedostavil/a se, a v nastavení smlouvy není zatržen příznak o fakturování tohoto stavu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o ",
+          "type": "text"
+        },
+        {
+          "text": "Faktura vystavena ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– uzavřená služba, proběhla fakturace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cena při PLS očkování není zobrazena.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Doplnění PLS očkování se v seznamu nezobrazuje. Uzavřené položky na prohlídce jsou označeny zelenou ikonou, viz. Obrázek výše. Při uzavřené celé prohlídce (je stanoveno datum Uzavřeno), je zobrazen také Výsledek prohlídky (té je zobrazen pouze pokud se jedná o prohlídku založenou v definici designéru jako PLS). Tyto uzavřené položky lze znovu otevřít. Při neuzavřených prohlídkách lze měnit způsob úhrady na Hotovost a opačně. Dodatečně přidané položky na prohlídce (nejsou vedeny ve smlouvě, ale byly přidány ručně na prohlídku) lze odstranit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zadání data příští prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V kontextovém menu (klik pravým tlačítkem myši) nad zvoleným záznamem, je možné určit Datum příští prohlídky a také datum, odkdy je tato změna platná. K určení data je možné přidat poznámku. Tato poznámka je zobrazena okně PLS admin, v recepci a PLS aplikaci pod datem plánované prohlídky. Změna se váže na firmu, kde byl PLS záznam vytvořen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Datum příští prohlídky je možné určit i ze záznamu PLS očkování. Toto datum se však váže pouze k prohlídkám. Pokud má prohlídka určené datum příští prohlídky, toto datum je v tomto okně zobrazeno. Změna data plánované prohlídky je viditelná v modulu Recepce a v PLS aplikaci (není viditelná v samotné prohlídce). Za datem je označení \"(určeno správcem)\". Datum má platnost pouze v případě že datum Platnost ke dni > datum poslední PLS OL prohlídky, nebo datum z importu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

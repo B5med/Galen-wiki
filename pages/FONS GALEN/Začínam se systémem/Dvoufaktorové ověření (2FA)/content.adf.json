@@ -1,0 +1,1775 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "layoutSection",
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 100.0
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelType": "info"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Dvoufaktorové ověření (2FA) zvyšuje bezpečnost přihlášení do systému ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "FONS Galen",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "text": "Po aktivaci musí uživatel při přihlášení kromě hesla zadat i ověřovací kód z autentizační aplikace, např. ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Microsoft Authenticator",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Pro správnou funkčnost 2FA musí mít uživatel nainstalovanou a aktivní autentizační aplikaci.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "61eff680-c12b-4a0a-9bfb-9a2df4ca3d70"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "97e80135-2a3b-4728-ae36-340ca90c8186"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f9ed",
+            "text": "🧭",
+            "shortName": ":compass:"
+          }
+        },
+        {
+          "text": "  Přehled oblastí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "center",
+        "width": 760.0,
+        "localId": "7dd6b719-0a57-457b-a6b3-0cfdb01906eb"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Oblast",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Role",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Správa organizace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Nastavení rozsahu a frekvence 2FA, možnost deaktivace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ordinace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Uživatel",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Propojení aplikace Authenticator, ověření a přihlášení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Přihlášení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Všichni uživatelé",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Zadání kódu při startu aplikace FONS Galen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "2699",
+            "text": "⚙️",
+            "shortName": ":gear:"
+          }
+        },
+        {
+          "text": " Konfigurace v modulu Správa organizace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cesta:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Správce → Správa organizace → vybrat ",
+          "type": "text"
+        },
+        {
+          "text": "Společnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " → ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → část ",
+          "type": "text"
+        },
+        {
+          "text": "Dvoufaktorové ověření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:"
+          }
+        },
+        {
+          "text": " Stanovení rozsahu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce může určit, pro které uživatele bude 2FA vyžadováno:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Všichni aktivní uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – 2FA je povinné pro všechny.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vybraní uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – možnost určit konkrétní uživatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nad seznamem lze filtrovat podle ",
+          "type": "text"
+        },
+        {
+          "text": "pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "role",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Výběr potvrďte tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:"
+          }
+        },
+        {
+          "text": " Frekvence dvoufaktorového ověření ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce může určit, jak často bude 2FA požadováno:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Při každém přihlášení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – ověření se vyžaduje při každém startu aplikace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Poprvé na daném PC v daný den",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – ověření proběhne pouze při prvním přihlášení v daný den na konkrétním zařízení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f538",
+            "text": "🔸",
+            "shortName": ":small_orange_diamond:"
+          }
+        },
+        {
+          "text": " Deaktivace aplikace správcem ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě ztráty mobilního zařízení může správce deaktivovat 2FA daného uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Cesta:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Správce → Správa organizace → záložka ",
+              "type": "text"
+            },
+            {
+              "text": "Uživatelé",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " → vybrat uživatele → část ",
+              "type": "text"
+            },
+            {
+              "text": "Autentizační aplikace",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " → tlačítko ",
+              "type": "text"
+            },
+            {
+              "text": "Smazat",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po deaktivaci bude uživatel při dalším přihlášení vyzván k novému nastavení autentizační aplikace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1329,
+            "alt": "image-20250825-100054.png",
+            "id": "e70f9b32-ce84-41b3-a530-a2726fefc19e",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 116
+          }
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f464",
+            "text": "👤",
+            "shortName": ":bust_in_silhouette:"
+          }
+        },
+        {
+          "text": " Uživatelská konfigurace a nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Cesta:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Vybrat pracoviště → Ordinace → ",
+              "type": "text"
+            },
+            {
+              "text": "Konfigurace a nastavení",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " → záložka ",
+              "type": "text"
+            },
+            {
+              "text": "Zabezpečení",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " → část ",
+              "type": "text"
+            },
+            {
+              "text": "Autentizační aplikace",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " → tlačítko ",
+              "type": "text"
+            },
+            {
+              "text": "Nastavit",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud autentizační aplikace není nastavena, klikněte na ",
+          "type": "text"
+        },
+        {
+          "text": "Nastavit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a spusťte průvodce. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Stažení a instalace aplikace Microsoft Authenticator ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Stáhněte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Microsoft Authenticator",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " z Google Play nebo App Store.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Spusťte aplikaci a připravte ji k naskenování QR kódu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 877,
+            "alt": "image-20250825-100131.png",
+            "id": "064a1e8d-67f4-4dbd-b7e9-6da2d5e172dc",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 639
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 1 – Stažení aplikace)",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Propojení autentizační aplikace s účtem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V průvodci nastavením v Galenovi naskenujte QR kód zobrazený na obrazovce pomocí aplikace ",
+          "type": "text"
+        },
+        {
+          "text": "Microsoft Authenticator",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 844,
+            "alt": "image-20250825-100152.png",
+            "id": "74bc3ce2-db1d-43e9-b827-537913eb374c",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 619
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 2 – Propojení účtu)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Ověření propojení aplikace s účtem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aplikace vygeneruje šestimístný kód. Tento kód zadejte a potvrďte.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 817,
+            "alt": "image-20250825-100213.png",
+            "id": "6ebf57c4-9037-45aa-92c0-93bec32dbc33",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 600
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 3 – Ověření účtu)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Chybné ověření:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pokud je kód neplatný, zobrazí se hlášení:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "„Ověření neproběhlo úspěšně. Opište nový kód.“",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zadejte nový kód z aplikace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Uložení ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po úspěšném ověření klikněte na ",
+          "type": "text"
+        },
+        {
+          "text": "Uložit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Nastavení je tím dokončeno.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 809,
+            "alt": "image-20250825-100314.png",
+            "id": "9b7ba1b7-9fb7-4cb1-83f0-908ec590430b",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 589
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 4 - Uložení účtu)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Záloha (doporučeno) ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Doporučujeme aktivovat ",
+          "type": "text"
+        },
+        {
+          "text": "zálohování účtu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v aplikaci Microsoft Authenticator, abyste mohli 2FA snadno obnovit v případě ztráty nebo výměny telefonu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 867,
+            "alt": "image-20250825-100342.png",
+            "id": "f791e608-cc18-400f-bc71-ba3b7d3511b9",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 635
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 5 - Záloha účtu)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f539",
+            "text": "🔹",
+            "shortName": ":small_blue_diamond:"
+          }
+        },
+        {
+          "text": " Opětovné nastavení / smazání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro opětovní nastavení autentizační aplikace je možné proces znovu vyvolat a to za pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Změnit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Za pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Smazat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze nastavení smazat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 971,
+            "alt": "image-20250825-100412.png",
+            "id": "e01a362a-99ec-4c47-9855-289d8858587d",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 175
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f511",
+            "text": "🔑",
+            "shortName": ":key:"
+          }
+        },
+        {
+          "text": "  Nastavení 2FA po přihlášení ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel dosud 2FA nenastavil, může být po přihlášení k tomuto kroku vyzván.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na přihlašovací stránce vyplňte jméno a heslo.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Potvrďte tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přihlášení do aplikace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zobrazí se průvodce nastavením 2FA (viz kroky „Stažení a instalace aplikace“ až „Záloha“).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f6aa",
+            "text": "🚪",
+            "shortName": ":door:"
+          }
+        },
+        {
+          "text": " Přihlášení s 2FA ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Spusťte FONS Galen.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zadejte uživatelské jméno a heslo.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Opište kód z autentizační aplikace a klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přihlášení do aplikace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel je po úspěšném ověření přihlášen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f504",
+            "text": "🔄",
+            "shortName": ":arrows_counterclockwise:"
+          }
+        },
+        {
+          "text": " Dva způsoby ověření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud má uživatel aktivní ",
+          "type": "text"
+        },
+        {
+          "text": "dva způsoby ověření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (např. SMS a autentizační aplikaci), může po zadání přihlašovacích údajů kliknout na:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "„Vybrat jiný způsob dvoufaktorového ověření“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "a zvolit preferovanou metodu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 538,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 538,
+            "alt": "image-20250825-100505.png",
+            "id": "5c019a05-13e7-453d-88fc-09dfa499f0fd",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 280
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 6- Zadání kódu)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 815,
+            "alt": "image-20250825-100513.png",
+            "id": "ba1b953c-b27b-4dfa-8153-26fbfd6e8bf8",
+            "collection": "contentId-103415835",
+            "type": "file",
+            "height": 305
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "(Obr. 7 - Volba způsobu ověření)",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

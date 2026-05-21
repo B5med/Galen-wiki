@@ -1,0 +1,1442 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4f00ce9a93d6"
+      },
+      "content": [
+        {
+          "text": "Vítejte v dokumentaci AIS FONS Galen. Tento manuál a nápověda byly vytvořeny pro podporu uživatelů, správců a konzultantů FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "b072150d66bc"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "0c687a7f9507"
+          },
+          "content": [
+            {
+              "text": "FONS Galen",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " je cloudový, přehledný a intuitivní nástroj pro zdravotní personál a management zdravotnických zařízení všech ambulantních specializací. Systém přináší centralizované řešení, vysoké zabezpečení, možnost práce z více pracovišť, rychlé vyúčtování pojišťovnám, automatické zálohování, a to vše ve spolupráci s cloudem Microsoft Azure. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fb40d14d390a"
+      },
+      "content": [
+        {
+          "text": "Kde začít",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "31ca01c12964"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "bc000ea2dfc3"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "25b6",
+                "panelIcon": ":arrow_forward:",
+                "panelIconText": "▶️",
+                "panelColor": "#EAE6FF",
+                "panelType": "custom",
+                "localId": "83e3ad2b721b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3f5a7d14f9bb"
+                  },
+                  "content": [
+                    {
+                      "text": "Začínám se systémem",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1a7fda18ba64"
+              },
+              "content": [
+                {
+                  "text": "Instalace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/177831938"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ", ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "přihlášení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/18513922"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ", ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "hesla",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/18448393"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "11990fa63af2"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "2709",
+                "panelIcon": ":envelope:",
+                "panelIconText": "✉️",
+                "panelColor": "#EAE6FF",
+                "panelType": "custom",
+                "localId": "dc5c5c261d94"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dd161dad62ce"
+                  },
+                  "content": [
+                    {
+                      "text": "Podpora a kontakt",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "21b6b700ae44"
+              },
+              "content": [
+                {
+                  "text": "STAPRO HelpDesk",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://helpdesk.stapro.cz/"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ", podpora: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "+420 731 193 593",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#0747a6"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "7d6babbeaed8"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bb2e2780b53a"
+      },
+      "content": [
+        {
+          "text": "Každodenní práce lékaře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "2c10b11a738c"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "db73bc112d17"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f464",
+                "panelIcon": ":bust_in_silhouette:",
+                "panelIconText": "👤",
+                "panelColor": "#F4F5F7",
+                "panelType": "custom",
+                "localId": "21d1fea83079"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "41b7f40a55ee"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient a dokumentace",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0e540b23441b"
+                  },
+                  "content": [
+                    {
+                      "text": "Ordinace",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/35684353"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "karta pacienta",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67665931"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "anamnéza",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53018691"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "EZD",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/47546437"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "  ",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "666d31fc4bb8"
+                  },
+                  "content": [
+                    {
+                      "text": "→",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Další",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398065676"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1fa7a",
+                "panelIcon": ":stethoscope:",
+                "panelIconText": "🩺",
+                "panelColor": "#F4F5F7",
+                "panelType": "custom",
+                "localId": "c38366d2-74f2-4f91-8f72-c4954d257fd9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "69885dc2bcb6"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyšetření a dekurz ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "67d29847970d"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlídky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53149728"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "dekurz",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690949"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "lékařská zpráva",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52920363"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "068a359808f8"
+                  },
+                  "content": [
+                    {
+                      "text": "→",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Další",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/399802371"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "e2d8815336cf"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f48a",
+                "panelIcon": ":pill:",
+                "panelIconText": "💊",
+                "panelColor": "#F4F5F7",
+                "panelType": "custom",
+                "localId": "48a1e847-029c-4613-8ac6-69ac37e3e326"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0252d102a0ae"
+                  },
+                  "content": [
+                    {
+                      "text": "Léky a žádanky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "04e33fdab74d"
+                  },
+                  "content": [
+                    {
+                      "text": "eRecept",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75366401"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "poukaz K, Z, laboratorní žádanky, posudky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53379104"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a665a36dce90"
+                  },
+                  "content": [
+                    {
+                      "text": "→",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Další",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/398688271"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f5d3",
+                "panelIcon": ":calendar_spiral:",
+                "panelIconText": "🗓️",
+                "panelColor": "#F4F5F7",
+                "panelType": "custom",
+                "localId": "af3c3140-626b-4dba-b16d-3a9f6ac508ec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "44d149a7843d"
+                  },
+                  "content": [
+                    {
+                      "text": "Objednávání",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "935dcfdd3ef1"
+                  },
+                  "content": [
+                    {
+                      "text": "Kalendáře",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/45842437"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "online objednání",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/230031362"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "SMS",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/341704706"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7f87e477f530"
+                  },
+                  "content": [
+                    {
+                      "text": "→",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Další",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/400097284"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "efe3dbbe50a5"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "92ff0a78c825"
+      },
+      "content": [
+        {
+          "text": "Elektronické formuláře a hlášení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "abf51fc132aa"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 33.33,
+            "localId": "913fb9334e04"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f9fe",
+                "panelIcon": ":receipt:",
+                "panelIconText": "🧾",
+                "panelColor": "#EAE6FF",
+                "panelType": "custom",
+                "localId": "dc1150318999"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4cc45e950f27"
+                  },
+                  "content": [
+                    {
+                      "text": "ePoukaz a ePosudky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "74c50aa86010"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyplnění a",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52690999"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "vystavení ePoukazu",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53018672"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "ePosudek",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/359006213"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 33.33,
+            "localId": "dc7e42e0b19c"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f3e5",
+                "panelIcon": ":hospital:",
+                "panelIconText": "🏥",
+                "panelColor": "#EAE6FF",
+                "panelType": "custom",
+                "localId": "98e724b74f8c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "69079b1471f7"
+                  },
+                  "content": [
+                    {
+                      "text": "eNeschopenka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "03058c5f3c3a"
+                  },
+                  "content": [
+                    {
+                      "text": "Neschopenka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48168963"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "ošetřovné",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75464947"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 33.33,
+            "localId": "cbc44c6b9cf1"
+          },
+          "content": [
+            {
+              "type": "panel",
+              "attrs": {
+                "panelIconId": "1f4b0",
+                "panelIcon": ":moneybag:",
+                "panelIconText": "💰",
+                "panelColor": "#EAE6FF",
+                "panelType": "custom",
+                "localId": "f9fed1d12c43"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c4da8c8b6ab"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyúčtování",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4bae5ac1c811"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyúčtovaní na pojišťovny",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "textColor",
+                          "attrs": {
+                            "color": "#0747a6"
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792385"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5eba9ced101a"
+      }
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "88a5c446dd80"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "875d69b87461"
+          },
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2,
+                "localId": "cb319243aef4"
+              },
+              "content": [
+                {
+                  "text": "Základní oblasti",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "extension",
+              "attrs": {
+                "layout": "default",
+                "extensionType": "com.atlassian.confluence.macro.core",
+                "extensionKey": "toc",
+                "parameters": {
+                  "macroParams": {
+                    "minLevel": {
+                      "value": "1"
+                    },
+                    "maxLevel": {
+                      "value": "1"
+                    },
+                    "outline": {
+                      "value": "false"
+                    },
+                    "style": {
+                      "value": "none"
+                    },
+                    "type": {
+                      "value": "list"
+                    },
+                    "printable": {
+                      "value": "true"
+                    }
+                  },
+                  "macroMetadata": {
+                    "macroId": {
+                      "value": "5bfd3707-7f82-4073-a715-6a4e6c484376"
+                    },
+                    "schemaVersion": {
+                      "value": "1"
+                    },
+                    "title": "Obsah"
+                  }
+                },
+                "localId": "2784aa24-b4f2-4186-a2b9-6aab4a2ff713"
+              }
+            },
+            {
+              "type": "extension",
+              "attrs": {
+                "layout": "default",
+                "extensionType": "com.atlassian.confluence.macro.core",
+                "extensionKey": "children",
+                "parameters": {
+                  "macroParams": {
+                    "allChildren": {
+                      "value": "true"
+                    }
+                  },
+                  "macroMetadata": {
+                    "macroId": {
+                      "value": "246d3be5-4735-42db-a160-89034550ec30"
+                    },
+                    "schemaVersion": {
+                      "value": "2"
+                    },
+                    "title": "Podřazené stránky"
+                  }
+                },
+                "localId": "40e5d34d-df5a-4d5e-ab93-3d6e84d04643"
+              }
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "64cf89c976fd"
+          },
+          "content": [
+            {
+              "type": "extension",
+              "attrs": {
+                "layout": "default",
+                "extensionType": "com.atlassian.confluence.macro.core",
+                "extensionKey": "recently-updated",
+                "parameters": {
+                  "macroParams": {
+                    "types": {
+                      "value": "page"
+                    },
+                    "max": {
+                      "value": "6"
+                    },
+                    "theme": {
+                      "value": "concise"
+                    },
+                    "maxToggle": {
+                      "value": "false"
+                    }
+                  },
+                  "macroMetadata": {
+                    "macroId": {
+                      "value": "3a6f340d-0104-44ab-ba90-1aba2af3acf1"
+                    },
+                    "schemaVersion": {
+                      "value": "1"
+                    },
+                    "title": "Nedávné aktualizace"
+                  }
+                },
+                "localId": "bac460aa-9a17-405f-859b-bb95303bb32e"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

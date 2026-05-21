@@ -1,0 +1,394 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "abe3d872345d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a6b15cd9e5d8"
+          },
+          "content": [
+            {
+              "text": "Koncept využívaných a spolupracujících pracovišť dovoluje delegovat vybrané entity na jiné pracoviště, jedná se např. o FT poukazy, RDG žádanky, vyúčtování dopravy nebo výdej foniatrických pomůcek.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "47ce1049a1e2"
+      },
+      "content": [
+        {
+          "text": "Nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "99e5b6611cc7"
+      },
+      "content": [
+        {
+          "text": "Ve všech případech se jedná o nadstandardní placený modul. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5b29fe4c9904"
+      },
+      "content": [
+        {
+          "text": "V prvním kroku si uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " do struktury organizace zadá dané pracoviště (RDG, rehabilitace, doprava, výdejna foniatrických pomůcek) stejně, jako by zadával běžné pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49cf1649cb0b"
+      },
+      "content": [
+        {
+          "text": "Následně pracovník Stapro na základě objednávky zákazníka opatří příznakem dané pracoviště: např. RDG pracoviště příznakem ",
+          "type": "text"
+        },
+        {
+          "text": "RDG pracoviště, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "pracoviště výdejny foniatrických pomůcek příznakem ",
+          "type": "text"
+        },
+        {
+          "text": "ePoukaz - výdej, ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "atp. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "cfbc34b870c4"
+      },
+      "content": [
+        {
+          "text": "Specializované pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a5ae83c151a0"
+      },
+      "content": [
+        {
+          "text": "Příznak je na daném (specializovaném) pracovišti znázorněn checkboxem bez možnosti editace, např.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 920,
+            "alt": "image-20260129-131757.png",
+            "id": "e787dc60-9c33-477d-bd38-ae26ed010a38",
+            "collection": "contentId-247169026",
+            "type": "file",
+            "localId": "85177a13ad73",
+            "height": 214
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 929,
+            "alt": "image-20260129-131948.png",
+            "id": "8f2a9d92-0e63-4596-a760-2732cea4828e",
+            "collection": "contentId-247169026",
+            "type": "file",
+            "localId": "d09e0e04816e",
+            "height": 185
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "674b07cdd8a6"
+      },
+      "content": [
+        {
+          "text": "Spolupracující pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36914321dde9"
+      },
+      "content": [
+        {
+          "text": "Pokud je na stejné společnosti více pracovišť se stejnou specializací, je možné po stisku tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Spolupracující … ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nastavit spolupracující pracoviště se stejnou specializací. Spolupracující pracoviště mají většinou možnost nahlížet na stejnou frontu entit, případě si entity mezi sebou přepínat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7385ed540b15"
+      },
+      "content": [
+        {
+          "text": "Využívaná pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bb9f84e04269"
+      },
+      "content": [
+        {
+          "text": "Pokud je na společnosti alespoň jedno pracoviště opatřené příznakem specializovaného pracoviště, na ostatních pracovištích je zobrazeno tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Využívaná pracoviště.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 921,
+            "alt": "image-20260129-132521.png",
+            "id": "651541ca-6c9d-485c-aa05-1cb422181d0a",
+            "collection": "contentId-247169026",
+            "type": "file",
+            "localId": "d58a7a3a545c",
+            "height": 110
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "221ae688c7c3"
+      },
+      "content": [
+        {
+          "text": "Znamená to, že toto pracoviště může využívat toto specializované pracoviště, např.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 338,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 338,
+            "alt": "image-20260129-132649.png",
+            "id": "5e2abf08-afc1-4134-9427-cf946a5f410c",
+            "collection": "contentId-247169026",
+            "type": "file",
+            "localId": "27ac4101d770",
+            "height": 238
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "990b099b23f0"
+          },
+          "content": [
+            {
+              "text": "Toto pracoviště může vystavovat RDG žádanky na tři ze čtyř RDG pracovišť v rámci společnosti. Při vystavení konkrétní žádanky tak uživatel volí, na které pracoviště RDG žádanku odešle.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "077155573f3e"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8be8b932360d"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1244,
+            "alt": "image-20260129-132941.png",
+            "id": "06549b5c-97fc-4205-a3eb-2ab53d481f6c",
+            "collection": "contentId-247169026",
+            "type": "file",
+            "localId": "b85e02072e16",
+            "height": 768
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "fef009cd5173"
+          },
+          "content": [
+            {
+              "text": "Toto pracoviště foniatrie využívá pro výdej foniatrických pomůcek právě jedno pracoviště i přesto, že v rámci společnosti existuje ještě další výdejna.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4cf975ad3631"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5d2c7d4dd79c"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b74a6edcd40a"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e30a47f0cc6d"
+      }
+    }
+  ],
+  "version": 1
+}

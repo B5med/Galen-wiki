@@ -1,0 +1,57 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 676,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 676,
+                    "alt": "image-20250618-103902.png",
+                    "id": "3819ab08-ef4f-4965-823a-e178497ff141",
+                    "collection": "contentId-75268170",
+                    "type": "file",
+                    "height": 543
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud lékař zadává často vyžádanou péči, může si předdefinovat lékaře, kteří mu nejčastěji posílají pacienty. Pak bude moci rychleji zadávat IČP a odbornost odesílajícího lékaře na dokladech vyžádané péče. Nový lékař se přidává kliknutím na zelené tlačítko plus, kliknutím na červený křížek se maže a kliknutím na tužku se vybraný záznam edituje. Při zakládání karty nového lékaře je povinné vyplnit pole Příjmení, Jméno, IČP a odbornost.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

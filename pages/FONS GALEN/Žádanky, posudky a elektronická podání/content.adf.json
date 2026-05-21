@@ -1,0 +1,43 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "216b0fb7-7432-4a98-b343-27b7ec66dbe5"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "a23c59d9-8156-4ff6-b3e2-cf27b02fd202"
+      }
+    }
+  ],
+  "version": 1
+}

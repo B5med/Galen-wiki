@@ -1,0 +1,3366 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "f17a6983-b583-46e2-91d8-58a8d732c8ce"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "bbe079b6-f8ef-49b9-a337-6c7b3cf4d4d2"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Obecný popis ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Základní konfigurace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "RDG žádanky jsou nadstavbovou funkcionalitou FONS Galen.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě zakoupení příslušné licence jsou ze strany Stapro označena pracoviště určená zákazníkem jako pracoviště poskytující radiodiagnostiku. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následně je možné ze strany zákazníka v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " definovat, která pracoviště mohou na pracoviště radiodiagnostiky zasílat elektronické žádanky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1203,
+            "alt": "image-20250701-085811.png",
+            "id": "8c073fee-7fad-4a82-bc71-733afe16cf05",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 631
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Konfigurace cílových pracovišť radiodiagnostiky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 508,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 508,
+            "alt": "image-20250701-085835.png",
+            "id": "5591913a-63cc-46a8-b295-7805f8638874",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 598
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Využívaná pracoviště radiodiagnostiky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Chování aplikace se pak liší v závislosti na tom, zda je uživatel přihlášen na pracovišti radiodiagnostiky, nebo na pracovišti, které o radiodiagnostické vyšetření žádá. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace komunikace s PACS ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Během procesu zpracovávání ",
+          "type": "text"
+        },
+        {
+          "text": "RDG žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " může probíhat komunikace s PACS. K tomu je zapotřebí na stanici, která má patřičnou konektivitu, nakonfigurovat přístroj typu ",
+          "type": "text"
+        },
+        {
+          "text": "Obecný RTG",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Obecné externí zařízení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 468,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 468,
+            "alt": "image-20250701-085913.png",
+            "id": "6eb09428-2dfd-4eb5-a97c-b14854594a6e",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 111
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Vstup do konfigurace stanice",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20250701-085928.png",
+            "id": "d2127bcf-7ba1-4c27-9bfb-dbc950017571",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 495
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Konfigurace přístroje",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V konfiguraci přístroje je zapotřebí zvolit několik atributů. Zásadním je přiřazení daného přístroje RDG žádankám (šipka 1) a určení spouštěcí události (šipka 2). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20250701-090002.png",
+            "id": "1f3fc7ba-de80-47c8-afd9-2e676e929df0",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 497
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Základní konfigurace přístroje",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Spouštěcí události jsou tři: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Žádanka – vyvolává se ve chvíli, kdy je ",
+                  "type": "text"
+                },
+                {
+                  "text": "RDG žádanka",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " pracovištěm radiodiagnostiky přebrána  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nález – vyvolává se ve chvíli, kdy je k ",
+                  "type": "text"
+                },
+                {
+                  "text": "RDG žádance",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " doplněn popis nálezu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Prohlížeč – je-li nastaven, pak se v horní liště ",
+                  "type": "text"
+                },
+                {
+                  "text": "RDG žádanky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " zobrazuje tlačítko pro vyvolání prohlížeče snímků ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro každou událost je možné nakonfigurovat samostatný „přístroj“, nebo je případně možné nastavit jeden „přístroj“ pro více spouštěcích událostí. Která varianta má být použita se liší v závislosti na konkrétní implementaci PACS. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě spouštěcích události ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Nález",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se typicky exportují vybrané informace. FONS Galen tyto informace exportuje do souborů na základě definovaných šablon. Šablony jsou textové soubory, které kombinují části napevno určeného textu a zástupné řetězce, které jsou v čase exportu nahrazeny konkrétními hodnotami. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci konfigurace je zapotřebí určit cestu k šabloně, cestu k adresářům, do kterých má být vystupovaný soubor uložen apod. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "S konfigurací těchto šablon, stejně jako s dalšími atributy, Vám ochotně pomohou pracovníci Stapro, budou k tomu však potřebovat dokumentaci od Vašeho dodavatele PACS, nebo alespoň kontakt na zodpovědnou osobu dodavatele. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace infopanelu pacienta ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V sekci ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "-> IČP -> ",
+          "type": "text"
+        },
+        {
+          "text": "UI konfigurace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Infopanel pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " možné zadat počet posledních ",
+          "type": "text"
+        },
+        {
+          "text": "RDG žádanek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", které se mají v infopanelu pacienta zobrazovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 441,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 441,
+            "alt": "image-20250701-090051.png",
+            "id": "b19ee762-a4a3-4b58-b352-7dc33d06c44e",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 596
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Konfigurace infopanelu pacienta",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V infopanelu pacienta se následně zobrazují nálezy ze zadaného počtu poslední ",
+          "type": "text"
+        },
+        {
+          "text": "RDG žádanek ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "daného pacienta. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1204,
+            "alt": "image-20250701-102549.png",
+            "id": "37417571-48df-459e-974b-5d2dbde728ad",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 381
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Infopanel pacienta se zobrazenými nálezy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jednotlivé nálezy se zobrazují ve sbalené formě, vždy je možné kliknutím rozbalit jeden z nich (obdobný princip, jako při zobrazování dekurzu v infopanelu).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Žádanka RDG",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Žádanka RDG je speciální objekt, který se od ostatních objektů ve FONS Galen odlišuje tím, že s ní během jejího životního cyklu mohou pracovat dvě různá pracoviště (žádající pracoviště a pracoviště provádějící radiodiagnostiku). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Žádanka RDG nabývá v průběhu času několika stavů: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nová",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jedná se o vytvořenou žádanku, kterou pracoviště provádějící zobrazovací diagnostiku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "ještě nepřebralo. Do tohoto stavu se žádanka dostává ve chvíli, kdy je vytvořena (na žádajícím pracovišti, nebo i na pracovišti radiodiagnostiky v případně listinných žádanek). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přijatá",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (= přijatá ke zpracování) Do tohoto stavu se žádanka dostává ve chvíli, kdy jí pracovník na pracovišti radiodiagnostiky otevře z fronty nových žádanek a oklasifikuje jí (doplní výkony, doplní klasifikaci ČRK, …). Je možná i ruční změna stavu bez nutnosti uvedené údaje zadávat. Při přechodu do tohoto stavu může být (v závislosti na konfiguraci) odesílána informace do PACS. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zpracovaná ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "(= bylo provedeno snímkování) Do tohoto stavu se žádanka dostává ve chvíli, kdy jí příslušný pracovník na pracovišti radiodiagnostiky doplní o informace o provedeném měření (zadá údaje o expozici, formáty pořízených snímků, …). Bude možná i ruční změna stavu bez nutnosti zadání údajů o provedeném měření. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Popsaná",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do tohoto stavu se žádanka ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "dostává ve chvíli, kdy k ní lékař na pracovišti radiodiagnostiky doplní popis snímku. Při přechodu do tohoto stavu může být (v závislosti na konfiguraci) odesílána informace do PACS. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Pracoviště žádající o provedení radiologického vyšetření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na pracovišti, které má možnost o provedení radiologického vyšetření požádat, se v horní liště zobrazuje ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanky RDG",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozn.: Pokud je pracoviště oprávněné vystavovat také ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " – hledejte Žádanky RDG pod ikonou ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanky.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 913,
+            "alt": "image-20250701-102702.png",
+            "id": "115ff862-1b7a-4bbc-9450-dc8316f80224",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 199
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Ikona pro otevření seznamu žádanek na radiologické vyšetření",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí této ikony se zobrazuje seznam žádanek, které byly pro daného pacienta vytvořeny. V tomto seznamu jsou zobrazeny žádanky, které byly vytvořeny na daném pracovišti, nebo které byly vytvořena na pracovišti, na které je definováno nahlížení. Žádanky z ostatních pracovišť jsou zobrazovány šedým písmem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1282,
+            "alt": "image-20250701-102723.png",
+            "id": "236442b9-d263-4ef7-a624-43f5c91d7610",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 467
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Seznam žádanek pacienta",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Novou žádanku pro daného pacienta je možné vytvořit pomocí ikony (+) nad seznamem žádanek. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1157,
+            "alt": "image-20250701-102743.png",
+            "id": "9f9715d7-af4a-4fa4-89ff-928fc6c0325a",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 609
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Nová RDG žádanka",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Dialog pro vytvoření nové žádanky je rozdělen na dvě části: větší levá část slouží k zadávání samotné žádanky, pravá část zobrazuje žádanky, které jsou k danému pacientovi evidované. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hlavička žádanky obsahuje: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Č. žádanky – nelze editovat, bude přiřazeno žádance automaticky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Platnost do – přednastaveno na 3 měsíce ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Urgentnost – přednastavena Rutina, lze změnit na Statim ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Typ dokumentace – přednastaveno Kurativa, lze změnit na PLS. Při volbě PLS se zobrazí doplňkové pole Zaměstnání, kde je potřeba vybrat z číselníku zaměstnání pacienta. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Identifikační údaje žadatele jsou dotahované kontextově a nelze je měnit. Požadované vyšetření vyplňuje uživatel, který žádanku vytváří. Vybírá mj. i cílové pracoviště radiodiagnostiky – pokud je k dispozici právě jedno, je předvyplněno. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravé části je možný dvojí pohled na ostatní žádanky: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Seznam vyšetření – tabulka s hlavičkovými údaji ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě výběru jedné se pod tabulkou zobrazuje popis. Dvojklikem je možné žádanku rozkliknout do náhledu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Seznam nálezů – textový blok vygenerovaný ze všech popisů všech žádanek ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1000,
+            "alt": "image-20250701-102814.png",
+            "id": "f6469e55-2d23-43af-824b-60b71b8da528",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 572
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Seznam vyšetření vs. Seznam nálezů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po potvrzení žádanky tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Ok",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se žádanka ukládá a od tohoto okamžiku je dostupná určenému pracovišti radiodiagnostiky. Případné opravy jsou možné pouze do chvíle, než si pracoviště radiodiagnostiky žádanku přebere. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Až od okamžiku, kdy je žádanka na pracovišti radiodiagnostiky popsaná, se žádajícímu pracovišti nezobrazují žádné další informace k žádance (s výjimkou změn stavů). Po vytvoření popisu je součástí žádanky i blok ",
+          "type": "text"
+        },
+        {
+          "text": "Nálezu.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1207,
+            "alt": "image-20250701-102853.png",
+            "id": "07d709ff-c838-41ef-bc58-43d3b4240897",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 634
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí ikony šipky je možné text přenést do dekurzu a zde jej dále upravovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě RdgDruhu ",
+          "type": "text"
+        },
+        {
+          "text": "SG (Skiagrafie)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " a věku pacientky 15 až 50 let, bude povinné zatrhnout možnost Těhotenství viz. obrázek níže. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1204,
+            "alt": "image-20250701-102916.png",
+            "id": "f560034b-c81e-4d54-8d2f-be67ec97303a",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 327
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Pracoviště provádějící radiodiagnostiku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vyhledání nebo tvorba RDG žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště provádějící radiodiagnostiku má dvě možnosti, jak s RDG žádankami pracovat: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pracovat se žádankami konkrétního vybraného pacienta  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané RDG pracoviště, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1281,
+            "alt": "image-20250701-103006.png",
+            "id": "2af4341a-b7c4-4953-9252-89d704572ce5",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 379
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Tlačítka pro práci RDG žádankami na pracovišti radiodiagnostiky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V obou případech je možné využít filtr, který je možné předdefinovat a uložit. V seznamu se zobrazují i žádanky pacientů, které dané pracoviště nemusí mít v kartotéce (pokud organizace nemá sdílenou kartotéku). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při rozkliku takové žádanky je uživatel informován, že je zapotřebí pacienta nejprve do kartotéky zařadit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 703,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 703,
+            "alt": "image-20250701-103029.png",
+            "id": "190a50af-7198-41c8-8775-4ffcf8eeaec6",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 196
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Zařazení pacienta do kartotéky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště radiodiagnostiky má rovněž možnost vytvořit žádanku, která přišla v listinné formě. V takovém případě musí nejprve založit kartu pacienta a následně vstoupit do seznamu žádanek tohoto pacienta (nelze přes seznam žádanek nad celým pracovištěm). Zde se zpřístupní tlačítko (+) pro založení nové žádanky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1272,
+            "alt": "image-20250701-103049.png",
+            "id": "8e42f36f-ee5c-4aa8-9e75-afe887fbb2bf",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 703
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Vytváření RDG žádanky na pracovišti radiodiagnostiky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dialog pro vytváření RDG žádanky na pracovišti radiodiagnostiky je obdobný. Rozdíl je v tom, že na pracovišti radiodiagnostiky je možné vyplnit i identifikaci žadatele a že zároveň s vytvořením žádanky je možné provést klasifikaci žádanky, zadat parametry provedeného vyšetření apod. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Převzetí RDG žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště radiodiagnostiky v prvním kroku RDG žádanku přijímá. To může provést několik způsoby: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přijatá",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " v horní liště žádanky (šipka 1) – tímto tlačítkem je možné přijmout RDG žádanku, která byla původně přiřazena na jiné RDG pracoviště a je ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nová",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Tím se přeřadí na aktuální RDG pracoviště.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Výběrem data převzetí (šipka 2) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zadáním klasifikace/výkonů/pohledávky/výšky a hmotnost/těhotenství (šipka 3) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " Pole výška a hmotnost/ těhotenství ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tyhle hodnoty zadané při vytvoření žádanky, může pracoviště RDG zadáním v sekci klasifikace aktualizovat – do formuláře se budou brát tyhle hodnoty ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1172,
+            "alt": "image-20250701-103140.png",
+            "id": "00824173-99f1-4b7d-80d6-7b45ae20f97d",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 640
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Převzetí žádanky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " V rámci převzetí je možné žádanku klasifikovat kódy České radiologické klasifikace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 884,
+            "alt": "image-20250701-103203.png",
+            "id": "98e8ae5f-22a1-4e46-8d0c-7b45521c42f9",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 145
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Klasifikace pomocí kódů ČRK",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zároveň je možné přímo vykázat potřebné výkony. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 912,
+            "alt": "image-20250701-103225.png",
+            "id": "10b4f8ba-3291-4ecb-aafd-56ea64cc14b6",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 168
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Vykázání výkonů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výkony zadané přes RDG žádanku jsou vykázané úplně stejně, jako by byly zadány v editoru výkonů (přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v horní liště ordinace). Po vyúčtování jsou tyto výkony přeneseny na záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtované výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obdobným způsobem je možné pacientovi zadat pohledávku – platbu v hotovosti, ať již manuálně nebo výběrem z definovaného sortimentu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 890,
+            "alt": "image-20250701-103246.png",
+            "id": "2de0a864-8aed-4143-b113-539f777e0ba1",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 120
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Zadání pohledávky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Samotná platba pohledávky se provádí již v okně pokladny. Po uhrazení se přesouvá ze záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Pohledávky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " na záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Uhrazené pohledávky.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve chvíli, kdy obsluha vyplní klasifikaci, výkon nebo pohledávku, je doplněn ",
+          "type": "text"
+        },
+        {
+          "text": "Datum převzetí ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "automaticky, není-li již zadán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Zpracování žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště radiodiagnostiky v druhém kroku RDG žádanku označuje jako zpracovanou. To může provést několik způsoby: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přijatá",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " v horní liště žádanky (šipka 1) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Výběrem data zpracování (šipka 2) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zadáním expozičních hodnot (šipka 3) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1204,
+            "alt": "image-20250701-103330.png",
+            "id": "a3afbf8c-9987-4982-b005-044c74b9607f",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 635
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Zpracování žádanky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Expoziční hodnoty jsou aktuálně řešeny jako kombinace dvou textových polí ",
+          "type": "text"
+        },
+        {
+          "text": "Metoda",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Hodnota",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Ve chvíli, kdy obsluha vyplní expoziční hodnoty, je doplněn ",
+          "type": "text"
+        },
+        {
+          "text": "Datum provedení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " automaticky, není-li již zadán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Popis žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Žádanka se do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Popsaná",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " dostává v okamžiku, kdy je k ní uložen ",
+          "type": "text"
+        },
+        {
+          "text": "Popis nálezu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1201,
+            "alt": "image-20250701-103418.png",
+            "id": "91f71b97-6fed-425f-9c69-0e47b244b0f5",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 637
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Doplněný popis snímku",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve chvíli, kdy je žádanka s popisem uložena, přechází do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Popsaná",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a nález se začne zobrazovat i na pracovišti, které vyšetření požadovalo. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Je možné žádanku uložit s rozpracovaným popisem, aniž by se tento zpřístupnil pracovišti, které vyšetření požadovalo. To je možné vypnutím škrtátka ",
+          "type": "text"
+        },
+        {
+          "text": "Nález dokončen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (ve výchozím stavu je zapnuté), viz Obr. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 957,
+            "alt": "image-20250701-103438.png",
+            "id": "581f34c0-aebd-427e-b1ad-e1f3988bc580",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 123
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Vyznačení rozpracovaného nálezu",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Podepisování RDG žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obě pracoviště, žádající i provádějící radiodiagnostiku, mají možnost RDG žádanku podepsat a následně archivovat. Jelikož během životního cyklu jedné RDG žádanky s žádankou pracují různí uživatelé, není možné při podepisování žádanku uzamknout proti další editaci. Proto se vždy po kliknutí na tlačítko EZD vygeneruje nad danou žádankou PDF dokument obsahující aktuální data RDG žádanky, který následně uživatel podepíše a odesílá do archivu EZD. Samotná RDG žádanka zůstává nadále editovatelná, aby s ní mohli pracovat další uživatelé.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nad vybranou RDG žádanku lze v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanky RDG",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " vygenerovat PDF k podpisu přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " na následujících místech: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "v okně editace konkrétní RDG žádanky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "ve formulářích nad danou RDG žádankou ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "nad seznamem RDG žádanek ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podepisování RDG žádanky v okně editace RDG žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1206,
+            "alt": "image-20250701-103514.png",
+            "id": "c07f790a-0383-4ff4-bf41-04ed7de34b15",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 449
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po kliknutí na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se zobrazí náhled PDF dokumentu k podepsání s aktuálními daty RDG žádanky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1205,
+            "alt": "image-20250701-103529.png",
+            "id": "b83931e3-e930-41f9-b77d-41d21f7d4c49",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 740
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím na ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na ",
+          "type": "text"
+        },
+        {
+          "text": "Odejít",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " dokument nebude podepsán a okno náhledu se uzavře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravém dolním rohu okna editace RDG žádanky je zobrazen seznam všech podepsaných PDF dokumentů, vygenerovaných nad danou RDG žádankou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1206,
+            "alt": "image-20250701-103549.png",
+            "id": "8496bef9-3b2d-4ce2-af09-1146cd2ef7a2",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 635
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím pravým tlačítkem myši nad konkrétním podepsaným dokumentem lze vyvolat kontextovou nabídku a dokument stornovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 423,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 423,
+            "alt": "image-20250701-103604.png",
+            "id": "8d47a293-320a-4b51-9bf9-5499523d324b",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 83
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podepisování RDG žádanky ve formulářích",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že uživatel požaduje zobrazit data editované RDG žádanky na podkladu určitého formuláře (tiskopisu), např. Poukaz Z, může tak učinit kliknutím na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Formuláře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1209,
+            "alt": "image-20250701-104525.png",
+            "id": "4e796cd7-1e64-4900-a969-d038f4dde980",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 447
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V dalším kroku vybere požadovaný formulář, nad kterým chce data RDG žádanky zobrazit. Takto zobrazený formulář lze opět podepsat prostřednictvím tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1210,
+            "alt": "image-20250701-104541.png",
+            "id": "2ef58b80-fd06-4ea7-9028-60a5b191c0a2",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 552
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po kliknutí na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se zobrazí náhled PDF dokumentu k podepsání s aktuálními daty RDG žádanky na podkladu vybraného formuláře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1142,
+            "alt": "image-20250701-104604.png",
+            "id": "fd98cdde-e585-40a0-8236-5b11bf060016",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 703
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím na ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na ",
+          "type": "text"
+        },
+        {
+          "text": "Odejít",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " dokument nebude podepsán a okno náhledu se uzavře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podepisování RDG žádanky nad seznamem RDG žádanek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel má možnost podepsat RDG žádanku nad seznamem RDG žádanek, aniž by vstupoval do editace dané žádanky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1148,
+            "alt": "image-20250701-104630.png",
+            "id": "15fb318e-08fd-4cfb-85a1-b6ec603f8837",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 197
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím označíme žádanku, kterou chceme podepsat a následně klikneme na tlačítko EZD. Zobrazí se náhled dokumentu k podepsání, který obsahuje aktuální data RDG žádanky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1140,
+            "alt": "image-20250701-104731.png",
+            "id": "2377e4c6-2551-4541-9b18-667ff77c58d9",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 697
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím na ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se dokument podepíše a je připraven na odeslání do archivu. Po kliknutí na ",
+          "type": "text"
+        },
+        {
+          "text": "Odejít",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " dokument nebude podepsán a okno náhledu se uzavře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "K lepšímu přehledu, která žádanka byla na daném pracovišti již podepsána a která ještě ne, slouží v seznamu ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanky RDG",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsáno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1145,
+            "alt": "image-20250701-104749.png",
+            "id": "bbd0de26-fa54-485e-a844-e54b36410ad1",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 195
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Komunikace s PACS ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Je-li nakonfigurovaná komunikace s PACS (viz kapitola 1.2), probíhá na pracovišti radiodiagnostiky automaticky odeslání informací ve dvou okamžicích: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Při přijetí žádanky – odchází informace o žádance ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Při uložení popis – odchází popis nálezu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Stav odeslání indikuje signální bod v záhlaví příslušné sekce. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1006,
+            "alt": "image-20250701-104917.png",
+            "id": "833be3bd-4ec1-4760-a605-be3a7457e2cc",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 604
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Stav odeslání do PACS (zelená = odesláno + v tooltipu datum a čas odeslání; červená = neodesláno)",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Odeslání je možné vyvolat i ručně, a to kliknutím pravým tlačítkem myši na signální bod a výběrem volby ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat do PACS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " z kontextového menu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 378,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 378,
+            "alt": "image-20250701-104946.png",
+            "id": "1ec244a3-abdd-44f8-8406-b91cc90f41da",
+            "collection": "contentId-60850197",
+            "type": "file",
+            "height": 70
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Manuální odeslání do PACS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

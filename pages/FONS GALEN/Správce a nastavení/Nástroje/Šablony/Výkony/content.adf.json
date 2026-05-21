@@ -1,0 +1,227 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vytvoření nové šablony výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Šablony výkonů je možné vytvořit v roli správce (Správce -> Nástroje -> Šablony -> záložka Výkony), nebo v roli uživatele, který má přiděleno právo přístupu do modulu Nástroje (Nástroje -> Šablony -> záložka Výkony) ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1234,
+            "alt": "image-20250618-104334.png",
+            "id": "8076432d-fe25-4d32-86a1-ebbfe335d91c",
+            "collection": "contentId-75268187",
+            "type": "file",
+            "height": 375
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vytvoření nové šablony výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zeleným + vlevo nahoře lze vytvořit novou šablonu, u které určujeme pořadí. ",
+          "type": "text"
+        },
+        {
+          "text": "Pořadí ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "šablony  určujeme celým číslem. ",
+          "type": "text"
+        },
+        {
+          "text": "Název",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " šablony napoví v editoru výkonů, k čemu lze tuto šablonu použít. (Např. Odběr krve). Zeleným + vpravo nahoře přidáme ",
+          "type": "text"
+        },
+        {
+          "text": "řádek s novým výkonem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", který v poli ",
+          "type": "text"
+        },
+        {
+          "text": "Výkon ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "vybíráme z číselníku výkonů. Nutné je také vyplnit ",
+          "type": "text"
+        },
+        {
+          "text": "počet",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (kolikrát je výkon vykázán) a ",
+          "type": "text"
+        },
+        {
+          "text": "diagnózu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kterou také vybíráme z editoru výkonů. ",
+          "type": "text"
+        },
+        {
+          "text": "Název výkonu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se automaticky doplní po vložení kódu výkonu. Tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Z+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " přidáváme do šablony k výkonu ZUM, který vybíráme z číselníku. Vybraný ZUM se po výběru připojí k předdefinovanému výkonu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Předdefinované šablony skupin výkonů určené k opakovanému vykazování jsou v editoru výkonů  nabízeny v pravém sloupci: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1202,
+            "alt": "image-20250618-104355.png",
+            "id": "98a319d4-7df6-4d0d-947b-8da53c15545c",
+            "collection": "contentId-75268187",
+            "type": "file",
+            "height": 244
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatelé mají možnost změnit barvu standardní a výběrové šablony výkonů. Šablonu výkonů. Lze nadefinovat z nabízené množiny barev barvu tlačítka šablony. ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,228 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "82c76d43-a757-44e0-acfe-c40378d36feb"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 328,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 328,
+            "alt": "image-20250618-112716.png",
+            "id": "57887d03-2368-4dee-8445-9621f0fa4d58",
+            "collection": "contentId-75464891",
+            "type": "file",
+            "localId": "49a974c6-21db-4ec3-8212-87451eeaa53a",
+            "height": 632
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "338f5b89-2bae-49ab-ab69-c86395dcaed1"
+      },
+      "content": [
+        {
+          "text": "Jedním kliknutím na IČP se otevře vpravo dole přehled nasmlouvaných pojišťoven, které jsou k jednotlivým ambulancím. Dvojitým kliknutím na číslo pojišťovny otevřeme přehled výkonů, které máme ve smlouvě s pojišťovnou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e8c1f595-2d29-475d-a362-ebe113d67804"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c9ad51de-8a44-4026-88f4-f691cefcea34"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "39fcf76a-f430-418b-9bdc-aa5aeec91b30"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6803288-3557-4c25-b441-63f60145d7d6"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "221cc895-0511-4e09-ab65-88ac900d249b"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9e08432a-d3de-40fe-aa7b-7de6bc305a82"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5325336-aaf5-4bc0-85ea-52b3ea0ebbf7"
+      },
+      "content": [
+        {
+          "text": "V okně Smlouvy je možné přidat výkon, určit hodnotu bodu či kapitačního paušálu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 929,
+            "alt": "image-20250618-112824.png",
+            "id": "3256f96c-43bc-400c-9db1-8fe6cec0992e",
+            "collection": "contentId-75464891",
+            "type": "file",
+            "localId": "311b34b9-e8ac-4240-b658-b3fd306bf858",
+            "height": 625
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6e39b3b0-cb17-4589-a166-e581118cc1a4"
+      },
+      "content": [
+        {
+          "text": "Verzování a aktualizace výkonů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3dde4ef6-79d0-4d2e-80bd-a9c6009c612c"
+      },
+      "content": [
+        {
+          "text": "Hodnoty parametrů výkonu se prvotně načítají z číselníků, které jsou automaticky v IS Galen aktualizovány a verzovány.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3b1738bf-ba4a-4f36-8740-dea2ab43871d"
+      },
+      "content": [
+        {
+          "text": "Pokud měníme v čase hodnoty jedné položky (např. výkonu) číselníku, je nutné zadat nový řádek se stejným kódem a jinými hodnotami.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f43dcb38-ea40-4c0c-b6f4-fad1aa94b244"
+      },
+      "content": [
+        {
+          "text": "Příkladem takové změny může být změna bodové hodnoty výkonu nebo ceny výkonu. V takovém případě je nutné u první položky zadat datum platnosti Do, přidat nový řádek a u toho vyplnit datum platnosti od: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1215,
+            "alt": "image-20250618-112850.png",
+            "id": "eb0da1a0-8736-41a1-8d08-7dc2f46ac4da",
+            "collection": "contentId-75464891",
+            "type": "file",
+            "localId": "f0102b37-82d0-45a4-9073-a38ec0c55c2b",
+            "height": 92
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e145a347-6016-4012-8942-4573db29a09d"
+      },
+      "content": [
+        {
+          "text": "Není správné původní záznam smazat nebo přepsat! ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b5c04c96-3469-49f5-8136-96f0f1487b24"
+      },
+      "content": [
+        {
+          "text": "Při přepočtu nevyúčtovaných výkonů, zpětném či opravném vyúčtování by byly změněny hodnoty i tam, kdy platily hodnoty původní. Nicméně pro případ potřeby systém umožňuje smazání řádku nebo přepsání jeho hodnot. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c9a3e78e-6892-409e-a4f1-4a651d54fe7f"
+      },
+      "content": [
+        {
+          "text": "Tzn. provádíme-li opravy výkonů z minulosti, systém bere v úvahu číselníky i změny výkonů, které byly aktuální v datu vykázaného výkonu",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,195 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Záložce příslušné dávky (eDPN, Ošetřovné, Dlouhodobé ošetřovné, Potvrzení o datu porodu) klikneme na tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Nová.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250721-123222.png",
+            "id": "1a368eb2-d413-4367-a08c-67147112f948",
+            "collection": "contentId-74940487",
+            "type": "file",
+            "height": 85
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud má pacient v danou chvíli neukončenou dávku, uživateli se nabídne možnost převzít stávající nebo vystavit novou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 401,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 259,
+            "alt": "image-20250721-123254.png",
+            "id": "41964d73-6234-43c9-babd-4cb0a080b138",
+            "collection": "contentId-74940487",
+            "type": "file",
+            "height": 83
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uživatel vyplní potřebné údaje. O povinných pode. O povinných údajích, které jsou potřeba pro odeslání dávky, je informován pomocí tooltipu nad tlačítkem odeslat.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 528,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 528,
+                    "alt": "6ec6e990-b250-491c-bbb6-64b9bf5175c7.png",
+                    "id": "04db9e65-9362-47d5-99ea-b71526a95d43",
+                    "collection": "contentId-74940487",
+                    "type": "file",
+                    "height": 221
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Jakmile uživatel vyplní všechny povinné údaje, tlačítko odeslat je aktivní.  Informaci o úspěšném odeslání dávky uživatel zkontroluje v části komunikace s ČSSZ. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 401,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 401,
+            "alt": "image-20250721-123513.png",
+            "id": "d4eba745-e005-4fcc-ad7d-19ab3387557f",
+            "collection": "contentId-74940487",
+            "type": "file",
+            "height": 79
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odeslané podání je na straně ČSSZ ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Ve zpracování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Formálně je podání v pořádku, protože ČSSZ podání akceptovala. Jakmile ČSSZ podání zpracuje, ČSSZ zašle notifikaci a celá dávka se automaticky převede do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

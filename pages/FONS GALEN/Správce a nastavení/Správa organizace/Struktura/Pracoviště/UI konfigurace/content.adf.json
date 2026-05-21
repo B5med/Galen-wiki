@@ -1,0 +1,377 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b441eb2e-cbeb-440d-8994-3276e95f710a"
+      },
+      "content": [
+        {
+          "text": "Pokud se postavíme na IČP (příklad Demo Dětská ordin...) rozbalí se nám pravý sloupec s tlačítkem UI konfigurace. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1076,
+            "alt": "image-20250618-112643.png",
+            "id": "0f65c020-1a54-4c5d-8767-d355ab8c6bce",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "543e046d-d46e-4c45-b7d8-5a5fa15511cb",
+            "height": 738
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "b6bf6249-b83d-4678-87a8-2058d7a99dc4"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "03fefe20-6fe6-4b20-954e-671ea5cff967"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 607,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 607,
+                    "alt": "image-20250618-112654.png",
+                    "id": "466788f8-220a-4bfa-b2d4-c34449606182",
+                    "collection": "contentId-191037441",
+                    "type": "file",
+                    "localId": "f59544f6-507f-4d4a-b4d2-a26d408ebceb",
+                    "height": 725
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "9795147d-1abc-4de1-8f0d-0de96d41f1bd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dc57f762-15f1-466d-a24a-2b7cd73dfa69"
+              },
+              "content": [
+                {
+                  "text": "Záložka UI konfigurace umožňuje definovat práci s kartou pacienta. Upravuje zobrazení, možnosti   tisku, editaci a další. Všechny volby v tomto okně se týkají pracoviště, tedy mohou se u jednotlivých IČP měnit. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "27480aed-f1e8-4546-ad0c-2ba0d34ac3bb"
+              },
+              "content": [
+                {
+                  "text": "V části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Skartační lhůta ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "uživatel nastaví výchozí skartační lhůty pro kurativu a PLS na daném pracovišti. Tyto lhůty může uživatel na pracovišti změnit, zde přednastavené lhůty slouží pouze jako výchozí. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d5296e4-ce07-4bd2-8dda-8f2dbbe851be"
+              },
+              "content": [
+                {
+                  "text": "Okno obsahuje kromě záložky UI konfigurace také záložku Info panel pacienta, ve kterém se nastavují položky, které mají být v info panelu zobrazeny. Info panel pacienta zobrazíme téměř ve všech oknech IS Galen. Slouží k nahlížení či kopírování informací o pacientovi. Lékař si sám nadefinuje, které informace o pacientovi se v modulu ordinace mají zobrazovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "cef2f18e-ec91-445f-9ad3-d516e7600928"
+      },
+      "content": [
+        {
+          "text": "Upozorňovací okno",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 346,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 346,
+            "alt": "image-20251210-150755.png",
+            "id": "d0c4c0f9-c8fb-4dfc-a83d-6a663c42e450",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "7e604283-a7dc-4c7a-9043-a3afb3a5212f",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "37ee879f-44e3-44a5-939a-7ef7bc778ddc"
+      },
+      "content": [
+        {
+          "text": "Povinné údaje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 523,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 523,
+            "alt": "image-20251210-150829.png",
+            "id": "11fcbd9d-945c-4a1d-b02b-2e44e245bb0c",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "1302f851-c373-427f-8f70-1310f942b95c",
+            "height": 112
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "306417b3-5358-4e99-a8f6-3457cc9638fa"
+      },
+      "content": [
+        {
+          "text": "Laboratorní výsledky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 525,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 525,
+            "alt": "image-20251210-150859.png",
+            "id": "3c1ced69-7454-4c39-a0c9-0ea8ac0a8da4",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "78be0ccd-edbc-4ae3-b5c5-acaa03c8a700",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b01c6da9-c256-4c2b-8860-751db8897f93"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "896e93d5-8ae3-4898-9d97-dac946d4fc63"
+      },
+      "content": [
+        {
+          "text": "Dialog měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 528,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 528,
+            "alt": "image-20251210-150946.png",
+            "id": "fcdaacaa-c84f-4823-8f20-04000ee2ef53",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "46b19531-d199-4375-8aba-e2974e55ee48",
+            "height": 82
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "19e875cf-7fef-4ec6-bbf9-88c628dc0a08"
+      },
+      "content": [
+        {
+          "text": "Ve výchozím nastavení jsou všechna pole pro zadání měření v dekurzu viditelná. V závislosti na odbornosti pracoviště však nejsou pro všechna pracoviště neužitelná, a proto je zde možné vybraná pole měření skrýt. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "202c91a6-b83a-4a07-af7e-47b5634b9aa2"
+      },
+      "content": [
+        {
+          "text": "Měření, která uživatel v tomto okně vybere, budou skryta. V konkrétním případě níže tak budou skryta všechna pole určená pro pediatra.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 221,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 221,
+            "alt": "image-20251210-151217.png",
+            "id": "2ec4ab21-762f-4433-878d-d4dc6d34f24e",
+            "collection": "contentId-191037441",
+            "type": "file",
+            "localId": "8dc26942-03bc-4a03-89e4-1ded7ec97ed5",
+            "height": 245
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "7b03ad06-3fe1-4734-a07f-3011dd5e5483"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "d80f2b60-e736-49e6-aefd-85a7ce63de24"
+          },
+          "content": [
+            {
+              "text": "Nově mají praktičtí lékaři pro dospělé sledovat mj. obvod pasu pacienta. Proto je nutné, aby si  pracoviště s odborností 001 skryla všechna měření v sekci pediatr kromě obvodu pasu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3bfb2bd8-6396-4597-9309-ab71723d4ef9"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f844103c-e2b2-42c2-9b9c-30c8f9adccb3"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c0c82e00-d33c-46c3-b336-4644a4caf458"
+      }
+    }
+  ],
+  "version": 1
+}

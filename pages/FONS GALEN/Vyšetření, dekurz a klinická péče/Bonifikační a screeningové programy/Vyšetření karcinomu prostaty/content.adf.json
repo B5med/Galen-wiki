@@ -1,0 +1,206 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Funkcionalita umožňuje evidovat hodnotu PSA pacienta v měření a ve vyšetření. Lékař má tak  k dispozici přehlednou historii této hodnoty a zároveň může pacienta zvát na další prohlídku v rámci modulu ",
+              "type": "text"
+            },
+            {
+              "text": "Plánování.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita umožňuje zadání hodnoty PSA jako položku měření. Kromě ručního zadání je možné dotáhnout výsledek měření z posledních laboratorních výsledků.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zároveň je ",
+          "type": "text"
+        },
+        {
+          "text": "zpřístupněna prohlídka V",
+          "type": "text",
+          "marks": [
+            {
+              "type": "annotation",
+              "attrs": {
+                "annotationType": "inlineComment",
+                "id": "7e001dbc-7cf9-447d-bb55-9e449b9535ee"
+              }
+            }
+          ]
+        },
+        {
+          "text": "yšetření karcinomu prostaty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "annotation",
+              "attrs": {
+                "annotationType": "inlineComment",
+                "id": "7e001dbc-7cf9-447d-bb55-9e449b9535ee"
+              }
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "V rámci tohoto vyšetření je dostupná stejná položky měření PSA, do které se dotahuje hodnota v případě, že je hodnota vyplněna v měření v dekurzu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě zadané číselné hodnoty je nabízen výkon 01131 nebo 01132 nebo 01133 k vykázání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nabídka výkonu k vykázání záleží na zadané hodnotě PSA specifikovanou konkrétním výkonem:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "01131 - hodnota PSA je menší než 1,0",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "01132 - hodnota PSA je mezi 1,0 a 2,99",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "01133 - hodnota PSA je větší než 3,0",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kromě výše uvedených výkonů je možné vykázat výkon 01134 - odmítnutí zařazení do programu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě zjištěných hodnot lékař zadá datum příští prohlídky a pacienta je tak možné pozvat na další prohlídku za použití modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Plánování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita je dostupná pro odbornosti praktický lékař pro dospělé a urolog a je ",
+          "type": "text"
+        },
+        {
+          "text": "zpoplatněna.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

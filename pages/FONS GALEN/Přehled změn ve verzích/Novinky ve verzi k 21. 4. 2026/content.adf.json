@@ -1,0 +1,691 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "e789336f1529"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "649aa93e6479"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "61212a98786b"
+      },
+      "content": [
+        {
+          "text": "Pole pro řádkovou diagnózu ve zúčtovacích zprávách",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "275bae1486eb"
+      },
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bylo doplněno pole ",
+          "type": "text"
+        },
+        {
+          "text": "Řádková diagnóza",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " při zpracování měsíční zúčtovací zprávy. Pole je dostupné na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "ZUM",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " u konkrétního dokladu a také při akci ",
+          "type": "text"
+        },
+        {
+          "text": "KNV",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "94e26283b90c"
+      },
+      "content": [
+        {
+          "text": "PLS – výběr střediska z číselníku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "444dfa860987"
+      },
+      "content": [
+        {
+          "text": "V modulu PLS bylo pole pro zadání střediska přepracováno z volného textového pole na ",
+          "type": "text"
+        },
+        {
+          "text": "výběr z číselníku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Uživatelé nyní vybírají středisko ze standardizovaného seznamu předdefinovaných hodnot, čímž se eliminují překlepy a nekonzistentní záznamy a usnadňuje se filtrování a reporting podle střediska.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ca396c772432"
+      },
+      "content": [
+        {
+          "text": "Rozšíření API notifikací o IČP a provozovny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "859b10b3e97a"
+      },
+      "content": [
+        {
+          "text": "Bylo rozšířeno API pro správu notifikací (Vytvoř, Zobraz, Uprav). Pole ",
+          "type": "text"
+        },
+        {
+          "text": "ICP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nově umožňuje zadání více hodnot — notifikace se zobrazí pro všechna zadaná IČP. Nově bylo přidáno pole ",
+          "type": "text"
+        },
+        {
+          "text": "Provozovna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", do kterého lze uvést jedno nebo více ID provozoven; notifikace se zobrazí pro všechny uvedené provozovny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3e2ed962d922"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "56b17ad873c8"
+      },
+      "content": [
+        {
+          "text": "Pravidlo pro zakázané kombinace výkonů s diagnózou",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b9c33ecf1b3"
+      },
+      "content": [
+        {
+          "text": "Bylo upraveno pravidlo pro zakázanou kombinaci výkonů ",
+          "type": "text"
+        },
+        {
+          "text": "01204 + 09532",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Tato kombinace je přípustná v případě, že jsou výkony vykázány s ",
+          "type": "text"
+        },
+        {
+          "text": "odlišnými diagnózami",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Pravidlo bylo rozšířeno tak, aby tuto situaci správně vyhodnotilo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "28decedacda2"
+      },
+      "content": [
+        {
+          "text": "Prohlídky a vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a97fce36c707"
+      },
+      "content": [
+        {
+          "text": "Podmínka pohlaví v Designeru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a76ea257d240"
+      },
+      "content": [
+        {
+          "text": "Do Designeru prohlídek (sekce Prohlídky – Výkony) byla přidána nová podmínka ",
+          "type": "text"
+        },
+        {
+          "text": "Pohlaví",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (muž/žena). Správci nyní mohou u výkonů v šablonách nastavit, zda se výkon týká pouze mužů, pouze žen, nebo obou pohlaví.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "412777a5157e"
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "17210b522c7e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "244d5f33c246"
+      },
+      "content": [
+        {
+          "text": "Opravy příloh – nelze otevřít starší nebo cloudové přílohy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "28d9f12d338d"
+      },
+      "content": [
+        {
+          "text": "Po aktualizaci ze dne 31. 3. 2026 nebylo možné otevírat přílohy vložené před touto verzí. Chyba se projevila u více zákazníků. Přílohy uložené před nasazením i nově vložené přílohy jsou nyní opět plně přístupné.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "986992606c97"
+      },
+      "content": [
+        {
+          "text": "Oprava příloh se speciálními znaky v názvu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1e522ed619c7"
+      },
+      "content": [
+        {
+          "text": "Přílohy nahrané s názvy obsahujícími speciální znaky (zejména otazník) nebylo možné otevřít ani stahovat prostřednictvím API. Systém nyní při uložení automaticky odstraňuje nebo nahrazuje problematické znaky a při přejmenování přílohy informuje uživatele o provedené změně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c61c2687f71c"
+      },
+      "content": [
+        {
+          "text": "Dávka na zdravotní pojišťovnu obsahuje doklady z více let",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a0895685f0ab"
+      },
+      "content": [
+        {
+          "text": "Bylo opraveno sestavování dávek na zdravotní pojišťovnu, kdy systém zahrnoval do dávky doklady z více kalendářních roků, což zdravotní pojišťovny odmítají.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b087e87cb584"
+      },
+      "content": [
+        {
+          "text": "ePoukazy zobrazovány v nesprávné odbornosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "192e5cb02a7f"
+      },
+      "content": [
+        {
+          "text": "Elektronické poukazy vystavené v jedné odbornosti se nesprávně zobrazovaly i v jiné odbornosti téhož pacienta. Chyba byla opravena a ePoukazy se nyní zobrazují jen v odbornosti, ve které byly vystaveny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0c3da2d5b08b"
+      },
+      "content": [
+        {
+          "text": "eDPN: nelze odeslat změny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "384ab640c822"
+      },
+      "content": [
+        {
+          "text": "Při odeslání změn v elektronické neschopence docházelo k chybě způsobené duplicitním záznamem. Oprava také zajišťuje, že data přílohy nejsou odstraňována v případě, kdy se odeslání nepodařilo a uplynul rok od původního pokusu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2fff0e91ab04"
+      },
+      "content": [
+        {
+          "text": "Opakované upozornění k předchozí neschopence / ošetřovnému",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2fc47bc089ba"
+      },
+      "content": [
+        {
+          "text": "Notifikace týkající se ošetřovného a dlouhodobého ošetřovného nebyly správně označovány jako zpracované, což způsobovalo opakované zobrazování upozornění i po jejich odsouhlasení. Tato chyba byla opravena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "785806ca631f"
+      },
+      "content": [
+        {
+          "text": "Výpadek Galenu při komunikaci s ISIN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1422b2adb905"
+      },
+      "content": [
+        {
+          "text": "Ve dnech 8. a 9. 4. 2026 docházelo k hromadnému výpadku způsobenému zpožděnými odpověďmi ze systému ISIN. Byl nastaven odpovídající timeout pro vyhledávání RID, čímž se předchází zamrzání aplikace při nedostupnosti externího systému.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "192b6837fa0a"
+      },
+      "content": [
+        {
+          "text": "Neaktivní kurzor při zadávání kódu dvoufaktorového ověření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3e41fb641eab"
+      },
+      "content": [
+        {
+          "text": "Po spuštění aplikace a zadání hesla se kurzor při dvoufaktorovém ověření automaticky nepřesouval do pole pro kód. Chyba byla opravena a fokus se nyní nastaví automaticky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "91f6818aa06a"
+      },
+      "content": [
+        {
+          "text": "Špatně vypočítané datum narození",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "44ebab97a9b3"
+      },
+      "content": [
+        {
+          "text": "Při ručním zadání data narození nesouladného s rodným číslem docházelo k nesprávnému zobrazení data. Systém nyní při uložení upozorní uživatele, pokud zadané datum není v souladu s rodným číslem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f255b1d38212"
+      },
+      "content": [
+        {
+          "text": "Chyba při aktualizaci číselníku NRZP",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9ef1b6afc121"
+      },
+      "content": [
+        {
+          "text": "Při pokusu o aktualizaci číselníku NRZP v modulu ISIN docházelo k chybě způsobené neočekávanou hodnotou z ÚZIS. Chyba byla opravena a aktualizace číselníku nyní probíhá bez problémů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "09bf7ddc004a"
+      },
+      "content": [
+        {
+          "text": "Info panel – nesprávná hodnota posledního měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "43ceba6ba21d"
+      },
+      "content": [
+        {
+          "text": "V info panelu pacienta se zobrazovala nesprávná hodnota posledního měření výšky. Opraveno tak, aby se měření aktualizovalo pouze tehdy, kdy k němu skutečně došlo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bbcbad78696e"
+      },
+      "content": [
+        {
+          "text": "Dashboard – zobrazení dat z nepřístupného přehledu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6440ba1b74d6"
+      },
+      "content": [
+        {
+          "text": "Při přepnutí na přehled, ke kterému nemá uživatel přístup, se v dashboardu zobrazovala data z předchozího přehledu. Nyní se při přepnutí na nepřístupný přehled data správně nevykreslí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6386c89480c2"
+      },
+      "content": [
+        {
+          "text": "ÚZIS statistiky rehabilitace – chybné hodnoty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d3c8d20beb65"
+      },
+      "content": [
+        {
+          "text": "Ve statistikách ÚZIS rehabilitace byly generovány nesprávné hodnoty, zejména v kategorii fyzikální terapie. Chyba byla opravena a statistiky nyní odpovídají skutečně vykázaným výkonům.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5789e2cbe73a"
+      },
+      "content": [
+        {
+          "text": "Připomínací SMS/e-mail – odesílání na více kontaktů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d28bdb2cae8"
+      },
+      "content": [
+        {
+          "text": "Připomínací zprávy k objednávkám byly odesílány na všechny kontakty pacienta, pokud měl uloženo více kontaktních údajů a alespoň jeden byl označen jako primární. Chyba byla opravena – zpráva se odesílá pouze na primární kontakt.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

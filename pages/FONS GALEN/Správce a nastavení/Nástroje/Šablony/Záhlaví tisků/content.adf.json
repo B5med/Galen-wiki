@@ -1,0 +1,171 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Nástroje -> v horní liště Šablony -> záložka Záhlaví tisků ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V záložce Záhlaví tisků je možné nastavit hlavičky řady dokumentů, které lze v IS Galen tisknout. Hlavičku tisků není bezpodmíněčně nutné definovat. Pro tento případ IS Galen nabízí možnost: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Převzít výchozí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " předdefinovanou hlavičku tisků, která do tisků dotahuje ze strukturovaně vložených dat základní údaje o pacientovi a o pracovišti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1205,
+            "alt": "image-20250618-104634.png",
+            "id": "6b084053-b314-409d-b80f-7de5961aedfb",
+            "collection": "contentId-74907743",
+            "type": "file",
+            "height": 414
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytvoření nové hlavičky tisků ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud máme definovaných více hlaviček tisků, zaškrtnutím checkboxu ",
+          "type": "text"
+        },
+        {
+          "text": "Implicitní",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze nastavit hlavičku, která se má při tisku nabízet jako první bez nutnosti volby mezi hlavičkami. I takto nastavenou hlavičku tisku lze těsně před tiskem změnit volbou jiné předdefinované hlavičky nebo přímo editací stávající hlavičky tisku v náhledu těsně před tiskem. ",
+          "type": "text"
+        },
+        {
+          "text": "Typ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lékařské zprávy je povinná položka, která určuje typ dokumentu, u kterého se bude hlavička tisku tisknout. Výběrem z nabídky určujeme, zda se jedná o Lékařskou zprávu, Denní záznam, Vyšetření, Měření, Anamnézu, ePoukaz apod. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V hlavičkách tisků lze nastavit také sekundární strany tisků, tzn. První strana tisku bude mít hlavičku definovanou na ",
+          "type": "text"
+        },
+        {
+          "text": "Primární",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " straně tisku a všechny ostatní strany budou mít hlavičku stanovenou na ",
+          "type": "text"
+        },
+        {
+          "text": "Sekundární",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " straně, kde již většinou bývá velmi stručný údaj o pacientovi, datu a pracovišti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 957,
+            "alt": "image-20250618-104658.png",
+            "id": "cc657b92-2e38-4a4a-99dd-dfdd0717b92b",
+            "collection": "contentId-74907743",
+            "type": "file",
+            "height": 64
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

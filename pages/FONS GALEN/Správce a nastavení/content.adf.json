@@ -1,0 +1,77 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d580b5be-db03-4744-a92b-a8e082b33ef5"
+      },
+      "content": [
+        {
+          "text": "Přístup Správce najdeme ve Výběru pracoviště (pouze uživatelé, kteří mají nastavena práva Administrátora). Pod tímto přístupem nalezneme modul Správce. V modulu Správce najde uživatel přidělené dlaždice, které se mohou lišit od dlaždic běžných uživatelů. Z pozice Správce je přístupných více možností konfigurací, náhledů, kontrol a nastavení než z pozice běžného uživatele bez přidělené role Správce.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 863,
+            "alt": "image-20250618-111844.png",
+            "id": "e40d639a-d324-4b9c-9934-7de1247ad28d",
+            "collection": "contentId-75333741",
+            "type": "file",
+            "localId": "a39e6c7f-4511-407e-9f8f-0d3168aa71d6",
+            "height": 339
+          }
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "8d475ea6-158d-478f-9112-700f439a2889"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "50feec7a-05f9-4652-bfc3-4044533175bc"
+      }
+    }
+  ],
+  "version": 1
+}

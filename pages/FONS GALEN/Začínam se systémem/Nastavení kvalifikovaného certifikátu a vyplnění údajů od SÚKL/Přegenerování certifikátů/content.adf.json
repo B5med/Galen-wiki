@@ -1,0 +1,1682 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "87eb5768-11d6-4506-b46e-704f4fe094a9"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "a668ad6e-f232-41bb-86c7-5917bdc927b5"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Diagnostikovali jsme problém s některými certifikáty, který způsoboval, že při odesílání elektronického receptu docházelo k odmítnutí receptu ze strany Centrálního úložiště. To vracelo chybovou hlášku „",
+          "type": "text"
+        },
+        {
+          "text": "Byl zadán neplatný algoritmus“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 878,
+            "alt": "image-20250901-085524.png",
+            "id": "57d4a57f-917c-4e6b-aa14-67caa5ef267c",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 247
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Problém se podle všeho nachází v samotném certifikátu, který v sobě obsahuje tzv. Crypto Service Providera. Při podepisování se používá metoda definovaná daným providerem, který však v případě popisovaného problému nepodporuje algoritmus SHA256 vyžadovaný Centrálním úložištěm. (Na tuto skutečnost nás naved přímo jeden vydavatel certifikátu.) ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nejjednodušším řešením je kontaktovat vydavatele certifikátu se žádostí o přegenerování certifikátu s tzv. ",
+          "type": "text"
+        },
+        {
+          "text": "Microsoft Enhanced RSA and AES Cryptographic Provider",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", který SHA256 obsahuje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokročilejší uživatelé mohou přegenerování provést svépomocí s využitím následujícího postupu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "(1) Instalace OpenSSL",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nejprve je zapotřebí nainstalovat pomocnou utilitu zvanou OpenSSL. Tuto je možné stáhnout z webových stránek ",
+          "type": "text"
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "url": "https://slproweb.com/products/Win32OpenSSL.html"
+          }
+        },
+        {
+          "text": "   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 940,
+            "alt": "image-20250901-085614.png",
+            "id": "b34263b8-e007-4536-9cff-84f65180d998",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 320
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 513,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 513,
+            "alt": "image-20250901-085626.png",
+            "id": "914a46af-8645-4811-bea5-a616c4e1f3fa",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 240
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 997,
+            "alt": "image-20250901-085637.png",
+            "id": "66a4a42a-2037-4989-94d0-4fe20219dbe4",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 675
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 590,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 590,
+            "alt": "image-20250901-085646.png",
+            "id": "d298b596-784d-4331-97a4-c542a248c12f",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 458
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 591,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 591,
+            "alt": "image-20250901-085655.png",
+            "id": "567da6f6-dfad-4acd-89ae-b50654fe2159",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 456
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Další okna odklikat pomocí ",
+          "type": "text"
+        },
+        {
+          "text": "Next ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a poslední pomocí ",
+          "type": "text"
+        },
+        {
+          "text": "Install",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "(2) Vyexportování certifikátu z úložiště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Start ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "na hlavním panelu Windows a vepsáním textu ",
+          "type": "text"
+        },
+        {
+          "text": "certmgr.msc",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a potvrzení enterem je možné zobrazit certifikáty nainstalované v úložišti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 340,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 340,
+            "alt": "image-20250901-085737.png",
+            "id": "a5508ab1-d091-45c4-8547-5f45082cd81a",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 711
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zde je zapotřebí vybrat certifikát, který má být opraven a ten vyexportovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1052,
+            "alt": "image-20250901-085818.png",
+            "id": "19600a24-840f-4554-a7c8-ef520e2863f9",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 491
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20250901-085827.png",
+            "id": "bc1b98f4-4d4e-4bc7-9fcb-861d2505e647",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 587
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20250901-085839.png",
+            "id": "0fde3074-9c6b-4484-b564-51e49c254330",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 581
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 598,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 598,
+            "alt": "image-20250901-085849.png",
+            "id": "a69015d8-e494-496f-b584-b201968e0c93",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 586
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 597,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 597,
+            "alt": "image-20250901-085900.png",
+            "id": "6f7b0f0c-89a3-4bde-b890-5105304adeca",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 583
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 595,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 595,
+            "alt": "image-20250901-085909.png",
+            "id": "72b1ca77-490e-44c4-948d-4c6d1e2c0cbd",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 582
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 601,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 601,
+            "alt": "image-20250901-085917.png",
+            "id": "1a6d2629-d719-492f-9f13-3777b95ac43a",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 586
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "(3) Potvrzení, že se jedná o popisovaný problém, s využitím OpenSSL",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "OpenSSL nemá standardní grafické rozhraní, ovládá se z příkazové řádky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příkazovou řádku je možné spustit pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Start",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " na hlavním panelu Windows, vepsáním textu ",
+          "type": "text"
+        },
+        {
+          "text": "cmd",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a potvrzením enter. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250901-085939.png",
+            "id": "316c678a-03f1-47f1-b6b3-381f69ccdb2e",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 772
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Objeví se „černé okénko“, co kterého je nutné napsat a vždy potvrdit enterem následující příkazy: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "c: ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "cd c:\\OpenSSL-Win32\\bin ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 924,
+            "alt": "image-20250901-085956.png",
+            "id": "7f49f1a6-2238-43d5-bc7b-377673786e78",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 479
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 923,
+            "alt": "image-20250901-090005.png",
+            "id": "06936bc6-ee04-4c5c-9625-7bbe755e6e1d",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 481
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dále napsat a potvrdit enterem tento příkaz: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "openssl pkcs12 -info -nodes -in puvodni.pfx ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "a poté, co se objeví výzva k zadání hesla (",
+          "type": "text"
+        },
+        {
+          "text": "Enter Import Password",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "), napsat heslo, které bylo zadáno při exportu výše. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 920,
+            "alt": "image-20250901-090019.png",
+            "id": "bd647908-72e8-4340-8526-d27b12738573",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 479
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po úspěšném zadání hesla se zobrazí dlouhý výpis informací, podstatný je řádek začínající textem ",
+          "type": "text"
+        },
+        {
+          "text": "Microsoft CSP Name.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Pokud je zde uvedeno cokoli jiného, než ",
+          "type": "text"
+        },
+        {
+          "text": "Microsoft Enhanced RSA and AES Cryptographic Provider ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "(např. ",
+          "type": "text"
+        },
+        {
+          "text": "Microsoft Enhanced Cryptographic Provider v1.0",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "), je třeba certifikát opravit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1140,
+            "alt": "image-20250901-090044.png",
+            "id": "3a384bd7-8e53-4331-8781-d47707790a8a",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 595
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "(4) Oprava certifikátu pomocí OpenSSL",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Oprava certifikátu se provede ve stejné „černém okně“, jako předchozí diagnostika. Postupně se zadají příkazy: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "openssl pkcs12 -in puvodni.pfx -nocerts -out puvodni.key -nodes ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "openssl pkcs12 -in puvodni.pfx -clcerts -nokeys -out puvodni.crt ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "openssl pkcs12 -export -in puvodni.crt -inkey puvodni.key -CSP \"Microsoft Enhanced RSA and AES Cryptographic Provider\" -out opraveny.pfx ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1146,
+            "alt": "image-20250901-090112.png",
+            "id": "d590b941-dca4-4557-88f7-d43f2d00c7c9",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 598
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1145,
+            "alt": "image-20250901-090121.png",
+            "id": "e8202351-5465-4f18-a503-c825c6609130",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 598
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1146,
+            "alt": "image-20250901-090130.png",
+            "id": "8a356033-c44d-4420-bbec-949daa8098f6",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 597
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "(5) Instalace opraveného certifikátu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravený certifikát je nutné nainstalovat. Nachází se v adresáři ",
+          "type": "text"
+        },
+        {
+          "text": "C:\\OpenSSL-Win32\\bin",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a jmenuje se ",
+          "type": "text"
+        },
+        {
+          "text": "opraveny.pfx",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Instalaci je možné pustit dvojklikem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1144,
+            "alt": "image-20250901-090150.png",
+            "id": "e25b9b40-f470-4179-afe6-987525b09ff6",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 726
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 666,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 666,
+            "alt": "image-20250901-090200.png",
+            "id": "863e1116-1e61-4a76-86a6-fa8ce8cda54a",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 654
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 662,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 662,
+            "alt": "image-20250901-090210.png",
+            "id": "8b5882b8-df3b-428f-83fe-7fc4c699b15a",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 646
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 666,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 666,
+            "alt": "image-20250901-090219.png",
+            "id": "d0d2846f-11b9-46e5-b3de-06b9b4afbbe5",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 651
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 665,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 665,
+            "alt": "image-20250901-090227.png",
+            "id": "8e754222-a9f0-4e67-87b7-b6fa805ac3b0",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 651
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 666,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 666,
+            "alt": "image-20250901-090236.png",
+            "id": "9c3c8393-d938-4ae5-b3e0-9ea4e12a6d19",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 655
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud instalace proběhla úspěšně, zobrazí se následující hláška ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 273,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 273,
+            "alt": "image-20250901-090249.png",
+            "id": "d3678ff8-dad3-4680-abeb-32e203637fab",
+            "collection": "contentId-109215766",
+            "type": "file",
+            "height": 187
+          }
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "🧠 ",
+          "type": "text"
+        },
+        {
+          "text": "Shrnutí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "6235c9c8-3e97-4d74-8235-85d584bef6b2"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Krok",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Výsledek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "(1)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Instalace OpenSSL",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "nástroj pro práci s certifikáty",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "(2)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Export původního certifikátu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "soubor ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "puvodni.pfx",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "(3)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ověření CSP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "zjištění problému",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "(4)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Oprava pomocí OpenSSL",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "vytvoření ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "opraveny.pfx",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "(5)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Instalace opraveného certifikátu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "funkční certifikát s SHA256",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Než provedete opravu, zálohujte původní soubor certifikátu ",
+              "type": "text"
+            },
+            {
+              "text": "puvodni.pfx",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            },
+            {
+              "text": " i klíč ",
+              "type": "text"
+            },
+            {
+              "text": "puvodni.key",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Po instalaci opraveného certifikátu je nutné aplikaci FONS Galen restartovat, aby se změny projevily.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

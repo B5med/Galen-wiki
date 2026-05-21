@@ -1,0 +1,39 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Diagram zobrazuje postup podmínek při aktualizaci stávajícího nebo vytvoření nového uživatele při synchronizaci Active Directory.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 925,
+            "alt": "nova_synchronizace_AD.png",
+            "id": "70552faf-e5e0-402d-abd4-898c875013a5",
+            "collection": "contentId-76742689",
+            "type": "file",
+            "height": 453
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

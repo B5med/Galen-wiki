@@ -1,0 +1,605 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto modulu probíhá 90% práce lékaře s programem. Pracuje se zde se zdravotnickou dokumentací pacientů. Zde se zapisují dekurzy, anamnézy, vyšetření, očkování, vystavují recepty, neschopenky, vyplňují formuláře, vykazují výkony pro pojišťovnu, …",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#000000"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 136,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 150,
+            "id": "5b327e56-973a-456f-89ab-3ed1e96664c8",
+            "collection": "contentId-35684353",
+            "type": "file",
+            "height": 63
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul se spouští kliknutím na ikonu v základním menu, popř. stisknutím klávesy Enter hned po přihlášení. Po otevření modulu se zobrazí kartotéka s ikonami nejdůležitějších funkcí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 750,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1154,
+            "type": "external",
+            "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-QhpCUYRt-xi2WZuaqc2W-swJWHf75H-Vhk0avL8EjcvYgaMvL6n4oAW9DXqszsyR2VnZBD1dJSBFzb6Xn3Gu_05rEfRlFTEoR-S6S_IE_0lTfSWOdY9YXoq0IrZEyX5F6KBcPQ?key=B72kwxRIztKWx5UrSHvB6w",
+            "height": 82
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V levé části horního panelu je zobrazeno vše, co se týká vybraného pacienta. Tj. vybranému pacientovi je možné vykázat výkon, předepsat lék, objednat ho, popřípadě vypsat žádanku, aniž bychom museli otevírat dekurz pacienta. Ikona Kartotéka (ALT+K) slouží k návratu do kartotéky z otevřeného pacienta. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#000000"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravé části horního panelu je zobrazeno vše, co se týká uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 56,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 52,
+            "type": "external",
+            "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeoaKSl6sVE105O97sQ-xLJ81C7na2loYfZPJSvD_MW9vOq5wkBWC6M_s1tmpHyqcurwFZ2qAqW4hUDuiA468K4Lr5eUFYVRw5Z6yROLrl1o2des3Xu4KISzfZZFW_BNqZcMG9mw?key=B72kwxRIztKWx5UrSHvB6w",
+            "height": 44
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona s kostičkami slouží jako tlačítko Zpět pro návrat do menu Modulů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 56,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 52,
+            "type": "external",
+            "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWconyzge5OhCmdYZFvmP8qfeEy4-3baRqUZXpzxiA6sb7k_srT9c1dkhngA4_JVW4n30I6GVsplfwNa8ZKsJcytzsS4vxAiPoX3c9mhVTvs6VnO3_-nbmjYjGBK33DtKn_c-ptA?key=B72kwxRIztKWx5UrSHvB6w",
+            "height": 49
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona uživatele slouží k individuálnímu nastavení programu přihlášeného uživatele. V menu Nastavení lze přepnout",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "automatické ukládání šířky sloupců",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "z dlaždicového zobrazení seznamů na řádkové zobrazení",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "upozornění na editaci historických záznamů v dekurzu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zobrazování okna pro výběr notifikace eReceptu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "tisk kopií po jednotlivých dokumentech",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zobrazování názvu dne u data v dekurzu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zobrazování okna pro zápis očkování do kalendáře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zobrazování okna pro zápis příští prohlídky do kalendáře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "přenášení řádkové diagnózy z předcházejícího výkonu v editoru výkonů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "upozorňování na nové pacienty v čekárně",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "formátovaný dekurz",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "dialog pro odesílání nepodepsaného formuláře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "dialog pro uložení nepodepsané žádanky RDG",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "příjem echo zpráv o odstávkách a údržbě (pouze uživatel, který nemá roli Správce)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zobrazení doprovodné info SÚKL při předpisu medikace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "konfiguraci tisku dekurzu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "konfiguraci uzamykání dekurzu (v případě aktivního modulu EZD)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "velikost zobrazení",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "výchozí čekárnu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V menu Zabezpečení lze měnit uživatelské heslo. Systémové informace jsou údaje určené pro technickou podporu. Menu Přístroje umožňuje nastavit komunikaci s externími aplikacemi a přístroji. V záložce Certifikáty uživatel vkládá své certifikáty, případně hesla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 713,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 713,
+            "alt": "image-20250811-091043.png",
+            "id": "ad2e77e6-972d-43b7-9f68-11a136b67cfa",
+            "collection": "contentId-35684353",
+            "type": "file",
+            "height": 623
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "hardBreak"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 62,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 62,
+            "alt": "image-20250709-134554.png",
+            "id": "bd2c431c-cb31-4929-9a69-ce2b51f362f1",
+            "collection": "contentId-35684353",
+            "type": "file",
+            "height": 50
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona Echo a Upozornění informuje uživatele o příchozích zprávách systému IS Galen. Zde může uživatel pravidelně vidět popisy k pravidelně vyvíjeným Novinkám systému IS Galen, urgentní důležitá upozornění apod. Červené číslo v pravém dolním rohu ikony informuje uživatele o počtu nových nepřečtených zpráv. V tomto okně najde uživatel také modul Upozornění, který je nadstandardní funkcionalitou a umožňuje uživatelům zakládat si navzájem (dle uživatelských oprávnění) upozornění, měnit stav splnění zadaných úkolů apod.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#000000"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

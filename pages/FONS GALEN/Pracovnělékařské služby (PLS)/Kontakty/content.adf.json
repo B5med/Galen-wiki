@@ -1,0 +1,92 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 956,
+            "alt": "image-20250626-132903.png",
+            "id": "65375b17-9be5-48f6-bff7-18dc2e76f6c9",
+            "collection": "contentId-57311234",
+            "type": "file",
+            "height": 508
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kontakt",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze přiřadit jednotlivým aktivním uživatelům ze stromové struktury IS Galen, kteří mají příznak PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Založeným takového kontaktu, přiřazujeme danou firmu PLS uživateli, který následně tuto firmu uvidí po přihlášení do PLS aplikace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud není vybrán uživatel, mají pouze informativní funkci na kartě firmy Kontakty lze přidávat na libovolnou firmu přidanou do IS Galen Typ kontaktu představuje enumeraci hodnot: HR/ Fakturace/ Obchod/ Provoz.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Je jen informativní údaj.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

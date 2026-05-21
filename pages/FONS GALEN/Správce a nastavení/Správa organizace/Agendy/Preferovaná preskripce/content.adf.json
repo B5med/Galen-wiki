@@ -1,0 +1,118 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> záložka Preferovaná preskripce ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 82,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 50,
+            "alt": "image-20250618-113517.png",
+            "id": "96981483-eb00-4182-ae1e-c014a049c307",
+            "collection": "contentId-75628662",
+            "type": "file",
+            "height": 51
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Preferovaná preskripce léků slouží jako doporučení pro předepisující lékaře. Preferované léky jsou určeny společností. Tato kritéria lze Správcem přidat stisknutím tlačítka , pro smazání vybraného záznamu slouží tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "-",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (minus)  . Číselník preferované preskripce lze také nahrát stisknutím tlačítka „Importovat CSV“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1442,
+            "alt": "image-20250618-113549.png",
+            "id": "5af65704-2693-4c73-9b0f-5c82b3d13ab5",
+            "collection": "contentId-75628662",
+            "type": "file",
+            "height": 433
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následně uživatel při zadávaní medikace vybere léčivo a zároveň existuje stejné léčivo, které je preferované, zobrazí se informační okno. Po stisknutí „Ano“ se předepíše preferované léčivo, po stisknutí „Ne“ se předepíše původně zadávané léčivo a po stisknutí „Storno“ se nepředepíše žádná medikace. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel je na léky, které mají preferovanou preskripci, upozorněn v Přehledu léku zobrazením červeného křížku.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 770,
+            "alt": "image-20250618-113609.png",
+            "id": "30faf12c-1d2b-40ed-a7ab-e3cd3579fbaf",
+            "collection": "contentId-75628662",
+            "type": "file",
+            "height": 658
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul Nároky slouží k definování pravidla, které specifikuje dobu, za kterou by měl pacient absolvovat další prohlídku/vyšetření. Jakmile nastane doba, kdy by měl být pacient vyšetřen, tzn. má nárok na prohlídku, lékaři se zobrazí upozornění na to, že by se měl pacient objednat. Pacientům, kteří mají na prohlídku nárok, je možné odeslat automatickou SMS/e-mail s upozorněním, že by se na prohlídku měli objednat.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

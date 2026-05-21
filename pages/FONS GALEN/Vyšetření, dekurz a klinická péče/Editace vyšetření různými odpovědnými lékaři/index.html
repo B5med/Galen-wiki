@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Editace vyšetření různými odpovědnými lékaři</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/111017986">
+<link rel="stylesheet" href="../../../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>Editace vyšetření různými odpovědnými lékaři</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/111017986">Source</a> · version 1 · updated 2025-09-03T10:10:31.543Z</small></p></header>
+<main>
+<div class="contentLayout2">
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<style type="text/css">/*<![CDATA[*/
+div.rbtoc1779283082649 {padding: 0px;}
+div.rbtoc1779283082649 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1779283082649 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style><div class="toc-macro rbtoc1779283082649">
+<ul class="toc-indentation">
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-Výchozístav">Výchozí stav</a></li>
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-Aktuálnístav">Aktuální stav</a>
+<ul class="toc-indentation">
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-Vytvořeníprvníhovyšetření">Vytvoření prvního vyšetření</a></li>
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-Vytvořenínovéhohlavníhovyšetřeníapodzáznamu">Vytvoření nového hlavního vyšetření a podzáznamu</a></li>
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-Editaceamazání">Editace a mazání</a></li>
+<li><a href="#Editacevyšetřenírůznýmiodpovědnýmilékaři-PLSprohlídka">PLS prohlídka</a></li>
+</ul>
+</li>
+</ul>
+</div><p>Modul Vyšetření byl rozšířen o možnost, aby jedno vyšetření (prohlídku) mohlo doplnit více odpovědných lékařů ze stejného pracoviště. Jedná se tak o jedno vyšetření pacienta, na kterém pracuje více lékařů stejného pracoviště (např. ve chvíli, kdy lékař vyplňuje pouze část prohlídky), většinou během několika dní.</p><h2 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-Výchozístav">Výchozí stav</h2><p>Dosud bylo možné, aby je jedno vyšetření editoval pouze jeho autor, nebo sestra (tzn. uživatel, který není odpovědným lékařem). Jiný lékař (uživatel, který je odpovědným lékařem, tzn. při vstupu na pracoviště se nepřihlašuje na jiného odpovědného lékaře) vyšetření nemohl doplnit, editovat.</p><h2 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-Aktuálnístav">Aktuální stav</h2><p>Nyní je možné, aby jiný odpovědný lékař na stejném pracovišti doplnil vyšetření, které bylo zadáno jiným lékařem. Vytvoří se tak řetězec na sebe navazujících prohlídek, kdy nejnovější prohlídka vychází z prohlídky předcházející.</p><h3 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-Vytvořeníprvníhovyšetření">Vytvoření prvního vyšetření</h3><p>První odpovědný lékař vyplní vyšetření stejně jako obvykle. Z vyšetření je možné podle potřeby vytvořit navazující formulář, vykázat výkon, nebo vyšetření uzamknout a podepsat v rámci EZD.</p><h3 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-Vytvořenínovéhohlavníhovyšetřeníapodzáznamu">Vytvoření nového hlavního vyšetření a podzáznamu</h3><p>Jiný odpovědný lékař ze stejného pracoviště najde vyšetření a stiskne tlačítko Doplnit záznam.</p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20250903-100634.png" class="confluence-embedded-image image-center" src="./assets/image-20250903-100634.png" width="760"/></span></div>
+</div>
+</div>
+<div class="columnLayout single" data-layout="single">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>Po stisknutí tlačítka Doplnit záznam se vytvoří kopie původní prohlídky: Do záznamu se přenesou všechny informace z původní prohlídky a záznam se stane editovatelným. Zároveň se záznam původního odpovědného lékaře stane tzv. podzáznamem. To znamená, že na vyšetření prvního odpovědného lékaře navazuje záznam dalšího odpovědného lékaře. Nejnovější prohlídka je vždy hlavní prohlídkou, podzáznamy (tzn. předcházející prohlídky, ze kterých hlavní nejnovější prohlídka vychází) je možné zobrazit tlačítkem ▼</p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20250903-100814.png" class="confluence-embedded-image image-center" src="./assets/image-20250903-100814.png" width="760"/></span><h3 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-Editaceamazání">Editace a mazání</h3><p>Tlačítko Doplnit záznam vidí pouze jiný odpovědný lékař. To znamená, že uživatel, který původní záznam vytvořil, nemůže záznam doplnit, musí editovat stávající záznam.</p><p>Sestra (tzn. uživatel, který není odpovědným lékařem) může editovat původní záznam (změna bude provedena pod odpovědným lékařem, který původní záznam vytvořil), nebo doplnit záznam a vytvořit tak novou hlavní prohlídku, která bude jako záznam odpovědného lékaře, na kterého je sestra aktuálně přihlášena.</p><p>Z nově vzniklé hlavní prohlídky je možné opět vytvořit navazující formulář. Výkon lze z prohlídky vykázat pouze jeden za den, tzn. pokud nová hlavní prohlídka vznikne ten stejný den, není již možné z ní výkon vykázat.</p><p>Pokud se hlavní prohlídka stane podzáznamem, tzn. na jejím základě vznikla novější prohlídka, která z ní vychází, není možné tuto předcházející prohlídku smazat (ani uživatelem, který původní prohlídku vytvořil). Podzáznam je možné pouze uzamknout a podepsat v rámci EZD. Podzáznam také není možné editovat (ani uživatelem, který původní prohlídku vytvořil). Pokud uživatel potřebuje doplnit prohlídku, musí doplnit hlavní, tzn. nejnovější prohlídku.</p><p>Pokud je však smazána hlavní prohlídka (oprávnění mazat prohlídku odpovídá již existujícím pravidlům mazání a editace záznamů), stává se podzáznam opět hlavní prohlídkou.</p><h3 id="Editacevyšetřenírůznýmiodpovědnýmilékaři-PLSprohlídka">PLS prohlídka</h3><p>Jediným rozdílem PLS prohlídek je, že tlačítko Doplnit záznam není dostupné ve chvíli, kdy na poslední prohlídce uzavře položku smlouvy, která je hlavní prohlídkou. V tu chvíli ostatní lékaři nevidí na prohlídce tlačítko Doplnit záznam.</p></div>
+</div>
+</div>
+</div>
+</main>
+</body>
+</html>

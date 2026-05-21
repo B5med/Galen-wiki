@@ -1,0 +1,400 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Postup krok za krokem:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Program Galen spustíme standardním způsobem, např. dvojklikem myši na ikonu zástupce IS Galen na ploše.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 49,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 49,
+            "alt": "image-20250416-164351.png",
+            "id": "fa6221df-48f2-42eb-a862-674896d02b11",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 46
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V přihlašovacím okně v části „Uživatel“ je třeba zadat uživatelské (přihlašovací) jméno a v poli heslo přihlašovací heslo uživatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 181,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 181,
+            "alt": "image-20250416-164409.png",
+            "id": "74621ee5-77f4-4fab-8591-ddec0702521f",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 180
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při zapnuté funkcionalitě dvoufázového ověřování se uživateli při přihlášení po zadání správného loginu a hesla zobrazí pole pro vyplnění PIN, který uživatel dostane na mobilní číslo zadané v Galenu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 191,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 191,
+            "alt": "image-20250416-164425.png",
+            "id": "b0bf2056-65b9-47b4-bb6f-812cf9aaad61",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 179
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·       Platnost vygenerovaného PINu je dána podle nastavení správcem organizace. Konec platnosti PINu má uživatel uvedený v zaslané SMS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·     Uživatel má možnost zažádat o zaslání nové SMS s PINem. Maximální počet SMS pro daný den je rovněž limitován podle nastavení správce organizace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·     Pokud má organizace zapnuto dvoufázové ověřování, není umožněné uživateli smazat mobilní číslo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkci dvoufázového ověřování lze zapnout přes: pracoviště Správce, modul Správa organizace: Konfigurace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 446,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 446,
+            "alt": "image-20250416-164532.png",
+            "id": "acdc3d63-d02c-401b-9e50-cc0adf881acc",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 205
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·     Pro spuštění dvoufázového ověřování je nutné, aby měli všichni uživatelé vyplněné telefonní číslo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·     Správce organizace má možnost zaškrtnutím checkboxu spustit funkci dvoufázového ověřování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "·     Možné frekvence pro dvoufázové ověřování jsou buď při každém přihlášení nebo poprvé na daném PC v daný den. Správce má možnost nastavit platnost vygenerovaného PINu v minutách a maximální počet SMS pro přihlášení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že je přihlašující se uživatel přiřazen k více pracovištím, objeví se dlaždice s danými pracovišti. Kliknutím na příslušnou dlaždici uživatel potvrdí, do kterého pracoviště nyní vstupuje. Pokud se přihlášený pracovník potřebuje přepnout do na jiné pracoviště, nemusí vypínat a zapínat program, ale v tomto základním menu klikne do pravého horního rohu a vrátí se zpět na okno s Výběrem pracoviště a výběrem Odpovědného lékaře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 352,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 352,
+            "alt": "image-20250416-164551.png",
+            "id": "0203e843-ff33-407d-a21a-c0abde6d729a",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 129
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že přihlašovaný uživatel není zadán v systému jako odpovědný lékař (nevykazuje svoje výkony pro pojišťovnu – např. sestra) a současně je na daném pracovišti více odpovědných lékařů, je uživatel vyzván, aby určil, pod kterým odpovědným lékařem bude pracovat. Pokud pak bude tento uživatel vykazovat výkony pro pojišťovnu, ve statistikách budou tyto výkony zobrazovány u lékaře, který byl při přihlašování vybrán.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 201,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 201,
+            "alt": "image-20250416-164645.png",
+            "id": "acf9d53e-3546-48c8-8419-d2fb832589b9",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 110
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po otevření programu se zobrazí okno s výběrem činností, ke kterým má uživatel přístup. V závislosti na roli a přístupových právech uživatele nemusí toto okno obsahovat všechny zobrazené oddíly. Nejčastěji používaný oddíl bude Ordinace, který umožňuje běžnou administrativní práci s pacientem. Na ikonu Ordinace stačí jednou kliknout myší. Při otevření programu je tlačítko Ordinace zvýrazněno, takže stačí potvrdit spuštění jen klávesou Enter. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 401,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 401,
+            "alt": "image-20250416-164701.png",
+            "id": "2d83491d-81a5-4855-908d-2ec85527290c",
+            "collection": "contentId-18513922",
+            "type": "file",
+            "height": 256
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Heslo je uživateli přiřazeno administrátorem systému.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s přidělenou rolí Správce společnosti má možnost nastavit Politiku hesel dle konkrétních potřeb dané společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Z důvodu úspory místa program nemá ikonky na minimalizaci a maximalizaci programu. Program se zminimalizuje jednoduše tak, že se klikne na ikonku Galenu dole na stavové liště Windows. Zmenšení okna programu se provede tak, že se 2x klikne nahoře na lištu programu (např. v okně Ordinace za nápis Kartotéka – jen ne na žádnou ikonu). Maximalizace okna programu se provede úplně stejně tak, že se klikne na ikonku Galenu dole na stavové liště Windows.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

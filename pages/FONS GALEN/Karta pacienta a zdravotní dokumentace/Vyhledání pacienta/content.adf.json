@@ -1,0 +1,385 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Základní vyhledávání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pro vyhledání pacienta je možné použít několik způsobů. Nejjednodušší je prostě začít psát příjmení nebo rodné číslo. Je-li kurzor v kartotéce, program čeká, co uživatel udělá. Pokud začne psát písmena, automaticky se spustí vyhledávání dle příjmení, popř. po mezeře pokračuje ve vyhledávání i podle jména. Pokud začne psát číslice, program vyhledává dle rodného čísla. V obou případech si otevře vyhledávací okénko a v něm zobrazuje zapisovaný text.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hledat pacienta je možné také tak, že se klikne myší na ikonku filtru a hledaný text se zapíše přímo do vyhledávacího okénka.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podrobný filtr",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 395,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 395,
+            "alt": "image-20250722-081507.png",
+            "id": "0a541615-654b-4a8f-b6c9-48904ef3e257",
+            "collection": "contentId-76972053",
+            "type": "file",
+            "height": 120
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Je-li potřeba detailnější hledání pacienta, klikne se na ikonu Podrobný filtr, kde lze ve formuláři v několika záložkách zvolit kritéria vyhledávání. Vyhledávání se spustí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Aplikovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V podrobném filtru lze ve 4 záložkách zadávat podrobnější parametry vyhledávání, přičemž vyplní-li uživatel parametry ve více záložkách, které nelze vidět všechny najednou, filtr drží všechny zadané údaje a výsledek vyhledávání zohledňuje parametry zadané ve všech záložkách podrobného filtru. Vyhledávání se spustí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Aplikovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 541,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 541,
+            "alt": "image-20250722-083149.png",
+            "id": "699275d1-9efb-4f8f-b038-5aba652da417",
+            "collection": "contentId-76972053",
+            "type": "file",
+            "height": 425
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podrobný filtr v kartotéce a ve Správě kartoték",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podrobný filtr byl ze základní verze rozšířen o položky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Státní příslušnost",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Skupina PLS (u aktuálně platného zaměstnání)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "RID",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Evidenční číslo SÚZ (v centrální kartotéce chybí)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Evidenční číslo ČSSZ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Externí ID PACS",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Datum úmrtí (pouze parametr – checkbox – vyplněno/nevyplněno)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Existence pohledávky (pouze parametr – checkbox – je/není)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Neplatné očkování TAT (výběr z možností – platné očkování; po uplynutí povinného intervalu; není nevyplněné)",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "platné očkování – poslední očkování není starší než 15 let",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "po uplynutí povinného intervalu = poslední očkování je starší než 15 let",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "není vyplněné = pacient nemá žádné očkování proti tetanu",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Druh poslední provedené PLS prohlídky (výběr ze zadaných možností v PLS prohlídce) v zadaném intervalu (od-do)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Platná budoucí objednávka v kalendáři v zadaném intervalu (od-do) - pokud hledáme na pracovišti, tak hledáme v kalendářích, které mají vazbu na dané pracoviště",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

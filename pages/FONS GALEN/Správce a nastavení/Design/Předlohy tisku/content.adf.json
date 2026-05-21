@@ -1,0 +1,1908 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "067dacda-2d51-483d-bb16-39791d39b5b7"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "97974706-9b2f-4049-bf3b-83e8bd1f1821"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1375,
+            "alt": "image-20250618-132039.png",
+            "id": "cedc0819-07a8-48de-9d86-4eeb9fe1b2d2",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 116
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Záložky Předlohy tisku slouží pro vytváření a editaci předloh tisku formulářů.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Obrazovka je rozdělena na dvé poloviny – Předlohy a Varianty. Logika vychází z předpokladu, že jeden formulář může mít několik variant. Jeden formulář tak má vždy jednu předlohu a alespoň jednu variantu.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Formulář, který se v ordinaci nabízí k vyplnění, je jednotlivou variantou předloh tisku.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Předlohy i varianty jsou rozděleny podle toho, zda byly vytvořeny uživatelem na daném prostředí a společnosti (uživatelské = ano) nebo správce FG (uživatelské = ne).",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživatelské předlohy i varianty jsou plně ve správě Správce na daném prostředí a společnosti. Předlohy a varianty, které nejsou uživatelské, jsou ve správě FG.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Předlohy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatelé mohou předlohy pouze přidávat. Po stisknutí zeleného tlačítka Plus v části Předlohy se zobrazí okno na přidání nové předlohy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 498,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 498,
+            "alt": "image-20250618-132109.png",
+            "id": "48c0b687-9aed-4eaf-a7b7-2aa9b2a49a45",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 247
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zde je potřeba zadat mj. ",
+          "type": "text"
+        },
+        {
+          "text": "Druh formuláře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Jedná se o číselník kategorií formulářů, podle kterých jsou formuláře tříděny v kartě pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 954,
+            "alt": "image-20250618-132121.png",
+            "id": "38bcb83f-5a29-496e-b52f-57d9feabba10",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 154
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Naopak ",
+          "type": "text"
+        },
+        {
+          "text": "Oblast ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "je textovým polem, tzn. tu si uživatelé dané společnosti na daném prostředí definují sami (pro danou uživatelskou předlohu, nikoli pro všechny předlohy). Formuláře se pod danou oblast zařazují pouze na základě přesného názvu oblasti, a proto by se měl uživatel vyvarovat překlepům. Naopak tak lze pod oblast, která byla vytvořena ze strany FG, zařadit i uživatelskou předlohu. Oblasti uvozují jednotlivé sloupce pro třídění formulářů (LK, OSSZ, Ostatní, Pracovní, apod.).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 994,
+            "alt": "image-20250618-132154.png",
+            "id": "9685da42-39e1-466b-8047-b44a7cac99ff",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 279
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Danou předlohu lze omezit pouze pro vybranou ",
+          "type": "text"
+        },
+        {
+          "text": "Odbornost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Takto funkcionalita pracuje tak, že pokud má uživatel přístup na pracoviště s uvedenou odborností, uvidí tento formulář na jakémkoli pracovišti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Varianty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 476,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 476,
+            "alt": "image-20250618-132217.png",
+            "id": "e1f669ff-481e-4d9f-99fc-982511774790",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 98
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Varianty lze vytvořit dvěma způsoby (oba způsoby pracují bez omezení, zda je jedná o předlohu uživatelskou či nikoliv):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "stisknutím zeleného tlačítku Plus v části Varianty - vytvoří novou prázdnou variantu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "tlačítkem Kopie po označení jiné varianty – vytvoří identickou kopii označené varianty (tlačítko Kopie je aktivní pouze ve chvíli, kdy je vytvořena a označena jedna varianta). V případě, kdy je vytvářena kopie el. laboratorní žádanky, zkopírují se také její nastavení (mapovací soubor, cesta pro uložení eŽádanky na serveru).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po stisku tlačítka kopie se zobrazí okno, ve kterém uživatel definuje, do jaké předlohy tisku se má nově vytvořená kopie varianty zařadit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 502,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 502,
+            "alt": "image-20250618-132329.png",
+            "id": "5848cd39-609a-4a8e-a4c1-4d83a91e197c",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 272
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Do stejné předlohy",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Nově vytvořená kopie bude zařazena do stejné předlohy, do které patří varianty, ze které se kopie vytváří.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Do nové předlohy",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Po stisku tlačítka se zobrazí okno, ve kterém uživatel definuje novou předlohy, do které se následně kopie zařadí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Do jiné existující předlohy",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "Po stisku tlačítka dostane uživatel na výběr seznam již existujících předloh, ze které je možné vybrat právě jednu, do které se nově vytvořená kopie varianty zařadí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tlačítko Zakázat pro uživatele slouží k tomu, aby mohla varianta, která není uživatelská, být skryta pro uživatele daného prostředí a společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytváření obsahu varianty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 300,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 300,
+            "alt": "image-20250618-132512.png",
+            "id": "4400e4a6-6d4e-43e9-b942-743a0d5a31cc",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 597
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto okně se vytváří obsah formuláře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zveřejnit",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "publikuje formulář na daném prostředí pro danou společnost",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "ke konkrétní variantě je možné přidat komentář (např. v čem spočívá změna oproti předešlé verzi), který se zobrazí v záložce historie",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Historie",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "přehled zveřejněných verzí varianty",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "po označení dané varianty je možné se k ní vrátit po stisknutí příslušného tlačítka",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Obsah a Pozadí",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "slouží pro překlikávání mezi úpravou obsahu a pozadí formuláře",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Checkbox Aktivní",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Název",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "název varianty dokumentu, pod kterým se zobrazuje uživatelům",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Typ dokumentace",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "výběrové pole Typ dokumentace s možnostmi Kurativa a PLS. Vybraný typ dokumentace se uloží jako výchozí hodnota typu dokumentace pro daný formulář. Tuto výchozí hodnotu je v následné práci s formulářem u konkrétního pacienta možno změnit.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Omezit pro odbornost",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nekopírovat do jiné varianty",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "dekurzu lze již vystavené formuláře metodou Drag&Drop kopírovat (již vystavený formulář lze přenést do aktuálního data a vytvořit formulář s identickým obsahem k danému dni). Pokud je tento checkbox zaškrtnut, nelze tuto funkcionalitu u daného formuláře použít.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vytvářet jen z vyšetření",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "formulář se nebude nabízet uživatelům v oblasti Formuláře, bude dostupný pouze jako výstup konkrétního vyšetření",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pozadí",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "(…) zde je možné nahrát obrázek, který bude sloužit jako pozadí formuláře",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Položka typu seznam",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí položky Parametr-seznam ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 18,
+            "alt": "image-20250618-133433.png",
+            "id": "af62481a-6996-4c41-b560-a8b715971c22",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 19
+          }
+        },
+        {
+          "text": " lze vytvořit seznam položek, ze kterého je možné vybrat vždy právě jednu možnost. Po dotažení položky metodu Drag&Drop do formuláře se zobrazí okno pro zadání PropertyName. V rámci formuláře se jedná o unikátní označení dané položky. Toto označení se nikde nezveřejňuje, slouží pouze pro vnitřní identifikaci položek v rámci formuláře. Při zadání PropertyName se uživatel řídí uvedenými instrukcemi.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Po zadání PropertyName se do formuláře vloží prázdná položka, kterou je potřeba naplnit možnosti, resp. položkami seznamu. Položky seznamu je potřeba vepsat do kolonky Values v záložce Vlastnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 323,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 323,
+            "alt": "image-20250618-133102.png",
+            "id": "2f893c03-2aee-4527-8fec-7ada71745df6",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 281
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Takto zadané položky ve formuláři vypadají takto ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 106,
+            "alt": "image-20250618-133545.png",
+            "id": "0bd52098-0477-419a-9743-899afc5475f4",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 27
+          }
+        },
+        {
+          "text": ". V tisku potom takto ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 47,
+            "alt": "image-20250618-133606.png",
+            "id": "e09ff289-2065-44a5-8811-85230cae7217",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 17
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí dalších vlastností lze nastavit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rozestup mezi položkami – vlastnost Spacing.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Orientaci položek – vlastnost Orientation (horizontální nebo vertikální).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Položka typu Combobox",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí položky Parametr-Combobox ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 19,
+            "alt": "image-20250619-060213.png",
+            "id": "c614c194-f5ac-4d11-982b-86e14120e005",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 19
+          }
+        },
+        {
+          "text": " lze vytvořit seznam položek, ze kterých uživatel vybírá právě jednu možnost. Metodou Drag&Drop je potřeba položku umístit do formuláře a zadat PropertyName. Hodnoty do takto vytvoření položky fomuláře je potřeba zadat do kolonky Values v záložce Vlastnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 186,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 186,
+            "alt": "image-20250619-060244.png",
+            "id": "c070df01-c636-4bec-b01f-4e71bea0d8ac",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 159
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve formuláři pak vytvořená položka vypadá takto",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 26,
+            "alt": "image-20250619-060309.png",
+            "id": "9d4d7d66-344c-4983-a310-d496498da6e3",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 26
+          }
+        },
+        {
+          "text": " resp. takto ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 47,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 47,
+            "alt": "image-20250619-060334.png",
+            "id": "6f1766f7-d890-41fc-89d5-6f521cd18039",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 78
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " resp. takto ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 39,
+            "alt": "image-20250619-060434.png",
+            "id": "494e90b6-6b63-41ad-9744-c9b50330b5ac",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 28
+          }
+        },
+        {
+          "text": " . V tisku pak položka vypadá takto ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 23,
+            "alt": "image-20250619-060500.png",
+            "id": "214e370e-17f0-4f98-a31a-b2d233acee87",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 16
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Položka typu číselník",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí položky Parametr – Číselník ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 24,
+            "alt": "image-20250619-060535.png",
+            "id": "14646e26-2ffd-498e-91aa-e824e837d59d",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 23
+          }
+        },
+        {
+          "text": " lze ve formuláři vytvořit položku, která bude pracovat s položkami vybraného číselníku. Po dotažení parametru do formuláře se zobrazí okno pro výběr konkrétního číselníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 281,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 281,
+            "alt": "image-20250619-060558.png",
+            "id": "a854df77-9574-4516-8e77-aaeea5cd34e0",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 63
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zde uživatel zadá PropertyName (požadavky na něj jsou specifikovány v tooltipu) a vybere číselník, se kterým má položka/položky ve formuláři pracovat. Po výběru konkrétního číselníku se zobrazí nabídka sloupců daného číselníku, jejichž obsah se bude dotahovat do kolonek formuláře (platí 1 sloupec číselníku = 1 kolonka ve formuláři).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 234,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 234,
+            "alt": "image-20250619-060612.png",
+            "id": "d96db9f1-a2b3-4c0f-ba63-5b6ab01ce7cf",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 114
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Sloupec (kolonka) Kód je povinný vždy. U této kolonky se ve formuláři zobrazuje šipka pro rozkliknutí a následný výběr položky z číselníku. Tuto kolonku je však možné pro tisk skrýt (tzn. zobrazí se ve formuláři, nikoli však v tisku) ve vlastnostech dané kolonky (HideForPrint = True).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po výběru sloupců/položek se vybrané položky přidají do formuláře do levého horního roku. Pouze položka kód se zobrazí v místě, kam byl umístěn parametr (ikona).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vložení položek z číselníku do formuláře je možné následně přidat další položku ze stejného číselníku. Stačí označit jednu ze stávajících položek ve formuláři, které k danému číselníku, ze kterého chce uživatel přidat další položku, a stisknout zelené tlačítko PLUS ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 41,
+            "alt": "image-20250619-060650.png",
+            "id": "247e13ec-f6a6-48a5-ac85-76ad536136e1",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 27
+          }
+        },
+        {
+          "text": " .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Vložení obrázku do předlohy tisku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do předlohy tisku lze vložit obrázek přetažením ikony ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 21,
+            "alt": "image-20250619-060727.png",
+            "id": "5749d453-0c7d-413c-a5f2-b276862aebc5",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 22
+          }
+        },
+        {
+          "text": " do předlohy textu. Po umístění ikony se zobrazí okno s nabídkou nahraných obrázků.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V závislosti na tom, jestli se uživatel pohybuje ve vrstvě pro editaci obsahu ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 53,
+            "alt": "image-20250619-060756.png",
+            "id": "1d8fc182-cc8f-460d-98d8-affe2237818d",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 64
+          }
+        },
+        {
+          "text": " nebo pozadí ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 54,
+            "alt": "image-20250619-060815.png",
+            "id": "820b8c94-7858-4dd1-bead-5a6c94abae86",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 62
+          }
+        },
+        {
+          "text": " se nabízí obrázky označené typem Obrázek nebo Pozadí. Typ však lze v okně výběru obrázku změnit a je tak možné nahrát jako pozadí obrázek, který je označen typem Obrázek.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po umístění obrázku do předlohy tisku lze změnit jeho pozici nebo velikost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Funkce zoom (přiblížení)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upravovanou předlohu tisku je možné přiblížit posuvníkem, případně kolečkem myši. Zpět na hodnotu 100% je možné se vrátit po kliknutí na ikonu ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 19,
+            "alt": "image-20250619-060909.png",
+            "id": "d907ade9-4aee-485c-bd06-eeb9fc9e3847",
+            "collection": "contentId-49446938",
+            "type": "image",
+            "height": 20
+          }
+        },
+        {
+          "text": " .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 31,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 31,
+            "alt": "image-20250619-060930.png",
+            "id": "62fd3283-9640-454f-83d2-b884e4545ab7",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 128
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Publikování varianty formuláře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Během procesu vytváření daného formuláře bude uživatel mít potřebu ověřovat, jak se daný formulář bude zobrazovat uživatelům. Formulář v tuto chvíli nepublikuje, ale pouze ukládá.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro zobrazení nově vytvořeného formuláře mezi formuláři v nabídce pro uživatele je potřeba zaškrtnout checkbox „Načítat testovací definice“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-061023.png",
+            "id": "558da37f-0d93-4288-b8e2-3c9a20ffef7a",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 98
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jakmile je daná varianta formuláře připravena k tomu, aby byla používána všemi uživateli, je možné ji publikovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zveřejnit ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "u variant formulářů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zveřejnit ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "v editačním poli varianty formuláře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Obrázky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-061345.png",
+            "id": "6effb5fe-7809-44d4-b938-ace3b7a6df56",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 74
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Záložka Obrázky slouží pro správu obrázků, které slouží jako pozadí formulářů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Popis symbolů ve spodní části panelu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zelené tlačítko Plus – slouží pro nahrání nového obrázku z disku počítače. Maximální velikost jednoho obrázku je omezena na 2MB.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uživatelské",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Nic – zobrazí všechny obrázky dostupné pro danou společnost na daném prostředí",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ano – obrázek byl nahrán uživatelem a je výhradně v jeho správě",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Ne – obrázek byl nahrán správcem FG",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Jen aktivní – výchozí hodnota je zaškrtnuto, zobrazí pouze obrázky, které jsou označeny jako aktivní",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Typ – slouží pro lepší orientaci v nahraných obrázcích",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Pozadí – předpokládá, že obrázek bude použit jako pozadí formuláře (ne však výhradně)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Obrázek – předpokládá, že obrázek bude použit v obsahu formuláře",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Využitá kapacita – celková kapacita pro nahrané obrázky je pro uživatele na dané společnosti 1GB.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Práce s obrázky, které byly nahrány uživatelem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 191,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 191,
+            "alt": "image-20250619-061632.png",
+            "id": "a3d5cce8-69ab-467a-9954-4562548b6aa3",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kromě zeleného tlačítka Plus, pomocí kterého je možné nahrát nový obrázek, je možné obrázky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "editovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vybrání obrázku a stisknutí modrého tlačítka editovat se otevře nové okno, ve kterém je možné změnit to:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-061727.png",
+            "id": "7cd2579f-a409-4514-9824-3b48b2dfd3d1",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 52
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "zda je obrázek aktivní",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "název obrázku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "přidat k obrázku poznámku (tato poznámka slouží jen pro toto okno, nikam jinam se nepřenáší)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "změnit obrázek kliknutím na Vybrat soubor… Po kliknutí se zobrazí upozornění bez ohledu na to, zda ej obrázek použit jako podklad formuláře, či nikoli.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 439,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 439,
+            "alt": "image-20250619-061808.png",
+            "id": "f0e681a0-402a-4aa9-a5ef-1639513e18ed",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 73
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "mazat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obrázek je možné mazat stisknutím červeného tlačítka Mínus. Pokud obrázek není použit jako podklad formuláře, bude ihned smazán. Pokud je obrázek použit jako podklad formuláře, tak jej není možné mazat a zobrazí se informace:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 373,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 373,
+            "alt": "image-20250619-061833.png",
+            "id": "99f1170d-b49e-4221-9dca-5b8d0fb77b9e",
+            "collection": "contentId-49446938",
+            "type": "file",
+            "height": 87
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obrázek se jako podklad do formuláře nahrává do konkrétní varianty formuláře v záložce Předlohy tisku.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

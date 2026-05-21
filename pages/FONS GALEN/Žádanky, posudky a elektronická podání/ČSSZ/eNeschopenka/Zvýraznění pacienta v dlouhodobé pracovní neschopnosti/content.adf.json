@@ -1,0 +1,229 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "b8f09239-1122-4fc2-a0a9-6ccf1b8dc24c"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "eb230060-e0dc-41e5-b447-7cd5b2401d3b"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel má možnost ovlivnit zvýraznění zadáním počtu dnů dle potřeb konkrétního pracoviště. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Konfigurace:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 936,
+            "alt": "image-20250618-081341.png",
+            "id": "209e27f3-9597-42a5-a613-65b4d6237ce0",
+            "collection": "contentId-48365582",
+            "type": "file",
+            "height": 495
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Zvýraznění pacienta v dlaždicovém zobrazení kartotéky:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 80,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 50,
+            "alt": "image-20250618-081446.png",
+            "id": "629c304c-532c-43b4-8b66-9c03e78287db",
+            "collection": "contentId-48365582",
+            "type": "file",
+            "height": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U pacienta, jehož pracovní neschopnost překročila stanovený počet dnů, se zobrazuje ikona v levém dolním rohu dlaždice. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1211,
+            "alt": "image-20250618-081546.png",
+            "id": "2adc5bd1-335b-4843-a57a-cbfbeb8dd38c",
+            "collection": "contentId-48365582",
+            "type": "file",
+            "height": 645
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Zvýraznění pacienta v řádkovém zobrazení kartotéky:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 81,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 50,
+            "alt": "image-20250618-081446.png",
+            "id": "629c304c-532c-43b4-8b66-9c03e78287db",
+            "collection": "contentId-48365582",
+            "type": "file",
+            "height": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U pacienta, jehož pracovní neschopnost překročila stanovený počet dnů, se zobrazuje ikona ve sloupci DPN.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1327,
+            "alt": "image-20250618-081708.png",
+            "id": "136fed27-bc0f-4d74-93b2-62d4385e56d0",
+            "collection": "contentId-48365582",
+            "type": "file",
+            "height": 709
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

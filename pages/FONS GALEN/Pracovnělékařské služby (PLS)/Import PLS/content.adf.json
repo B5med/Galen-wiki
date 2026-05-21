@@ -1,0 +1,423 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci importu PLS lze importovat PLS smlouvy, PLS skupiny a importovat samotné pacienty. Všechny importy se nacházejí v okně s detailem firmy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 940,
+            "alt": "image-20250626-135312.png",
+            "id": "c6e4dc0a-1019-4c60-a425-d24aa8614d98",
+            "collection": "contentId-57180205",
+            "type": "file",
+            "height": 494
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Založení a import dat smlouvy PLS do LS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cílem této definice je zpracování obecného a universálního skriptu pro založení smlouvy a import nezbytného rozsahu dat pro zajištění pracovně-lékařských či obdobných služeb smluvnímu partnerovi prostřednictvím lékařského systému Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pojmy:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "smlouva",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – soubor všech parametrů, atributů a sjednaných podmínek pro úplné a správné nastavení zpracování agendy PLS ve vztahu ke konkrétnímu smluvnímu partnerovi",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "firma",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – název a soubor základní údajů k právní entitě, ke které se vztahuje další nastavení (pobočky, smlouvy, skupiny PLS/pozice)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "pobočka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – entita v rámci firmy, na kterou je zavedena konkrétní smlouva; jedna smlouva resp. soubor parametrů smlouvy může být shodný pro všechny pobočky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "datum importu – datum",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ke kterému je spuštěn administrátorem import",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "datum smlouvy- ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "\"platnost od“ tzn. datum, od kterého nastává platnost údajů nově importované smlouvy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vzniknou 2 typy importů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "založení Skupiny PLS – pozice a hodnosti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "založení parametrů smlouvy",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Obecné předpoklady",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Samotnému importu smlouvy vždy předchází založení firmy a poboček administrátorem LSG. V prvním kroku je vždy importován přehled skupin PLS, pak teprve následuje import smlouvy. Povinností administrátora je zajistit správnost a úplnost údajů k firmě a pobočce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Import / založení skupiny PLS",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– principy a předpoklady",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Založení položky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tlačítko import pod danou firmou ale importujeme na jednotlivou pobočku, formát .csv",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Import zakládá položku skupiny PLS tzn. pozice (hodnosti ne). Pakliže systém najde shodu stávajícího údaje s položkou importu – ponechá původní, nová položka není založena. Ověření probíhá dle názvu tzn. vazba import x systém = „název skupiny PLS (pozice). V případě, že shoda názvu není nalezena. Založí položku z importu a doplní tak seznam s názvem položky tak, jak je uveden v importním souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Atributy položky – rizika",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci importu je možné založit či upravit atributy skupiny PLS v rozsahu „Kategorie“ (K), „Faktor prostředí“ (FP) a „Ohrožení zdraví“ (OZ). Názvy rizik v importe se musí shodovat s názvy rizik v systému. V případě shody položky, systém „od-označí rizika a faktory a zapíše nově dle CSV. Pokud není shoda (položka dle názvu nenalezena), systém založí novou skupinu PLS (pozici) a k ní kombinaci rizik a faktorů dle CSV. Při ověření dat importu ignorovat diakritiku a velká/malá písmena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Riziko (kategorie) je povinný údaj (vycházíme z nastavení GUI systému); údaje FP a OZ nepovinné.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V GUI při vytváření Skupiny PLS kategorie není povinná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "K dané pozici v importu bude n řádků s ohledem na počet záznamů k riziku, co řádek, to záznam o riziku k dané pozici (viz vzor xls). Pokud není nalezena shoda u faktorů rizika tzn. u K, FP a OZ systém vrací hlášení o chybě. Chybová hláška totožná s hláškou u importu zaměstnanců (souřadnice importu)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

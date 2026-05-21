@@ -1,0 +1,742 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel do modulu přistupuje v rámci pracoviště, vidí pouze aktivní nároky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel do modulu vstupuje jako Správce, vidí všechny nároky ve všech stavech. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nároky na vyšetření nemají platnost do, nemají tedy určené datum, do kdy je nutné je splnit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto modulu by měl mít uživatel možnost zobrazit odpovědi na tyto otázky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "       Kteří pacienti mají v určitém období na nějaký nárok.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "       Ke kterým nárokům již existuje nebo ještě neexistuje objednávka (budoucí i minulá).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "       Zda byl pacient již osloven, případně kolikrát",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "       V modulu je možné pacienta na vyšetření objednat nebo jej oslovit pomocí SMS/e-mailu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Funkční tlačítka modulu pro roli Správce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po označení alespoň jednoho nároku se zobrazí tlačítka. Tlačítka jsou aktivní v závislosti na stavu označeného nároku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 418,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 418,
+            "alt": "image-20250710-123754.png",
+            "id": "47681b5a-b73b-44e7-93e5-54140aa0d4bb",
+            "collection": "contentId-68517948",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zelené tlačítko plus",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje vytvořit nový nárok zkopírováním údajů označeného nároku s možností editace údajů.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                },
+                {
+                  "text": "Modré tlačítko",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " pro editaci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje editovat údaje označeného nároku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Červené tlačítko mínus",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " smaže vybraný/é nárok/y.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                },
+                {
+                  "text": "Oslovit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje odeslat SMS a/nebo e-mail pacientovi. V okně je, kromě volně vloženého textu, možné využít přednastavenou šablonu, viz. kapitola Šablony notifikací. Pacient je v rámci oslovení osloven pouze na vybraný nárok, tzn. pokud má pacient tři nároky a je osloven pouze v rámci jednoho nároku, u ostatních nároků se datum oslovení pacienta nepropíše. Po oslovení pacienta se datum odeslání SMS zobrazí v pravém sloupci po označení daného nároku.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Již neoslovovat: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento stav uživatel zvolí ve chvíli, kdy už pacienta nechce oslovovat, např. ve chvíli, kdy je pacient již objednán.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Zpět oslovovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje nárok opět aktivovat, tzn. vrátit zpět do množiny nároků, které budou oslovovány v rámci hromadných notifikací.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Pozastavit: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento stav Správce zvolí ve chvíli, kdy ví, že pacient prohlídku absolvuje později. Po dobu, kdy bude nárok pozastaven, nebude pacient oslovován v rámci hromadných notifikací. Ze stavu Pozastavený se nárok dostane pouze manuální změnou stavu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Aktivovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje opět aktivovat pozastavený nárok. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Objednat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "zobrazí kalendář pro zadání objednávky pacienta s tím, že vznikne vazba mezi nárokem a objednávkou. V objednávce lze případně zaškrtnout i další nároky, které budou v rámci objednávky splněny. Informace o tom, že je pacient na vyšetření již objednán, je zobrazena v pravém sloupci po označení konkrétního nároku.   ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                },
+                {
+                  "text": "Splnit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "umožňuje zadat vazbu k již provedeným vyšetřením a očkováním a tím nárok splnit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Funkční tlačítka modulu pro roli ",
+          "type": "text"
+        },
+        {
+          "text": "Zdravotník",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 310,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 310,
+            "alt": "image-20250710-124100.png",
+            "id": "90e7d476-c933-4ab7-bc39-8c9525df2f47",
+            "collection": "contentId-68517948",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkčnost tlačítek je shodná s tlačítky v modulu pro roli správce. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytváření objednávek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vytváření objednávky (ve standardním modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Objednávání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ") je detail vytvářené objednávky rozšířen o seznam nároků pacienta, které jsou ke dni objednávky aktivní a ke kterým ještě neexistuje objednávka do budoucnosti. Budou se tedy zobrazovat i nároky, ke kterým existuje objednávka v minulosti, za předpokladu, že tyto nároky budou stále aktivní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto seznamu má uživatel možnost vyznačit, které nároky mají být v rámci objednané návštěvy vyřízené. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že je kalendář zobrazen z modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nároky pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Objednat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", bude v okamžiku přechodu na kalendář kontextově vybrán pacient z daného nároku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytvoření vazby objednávka – nárok",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při oslovování pacientů je pro uživatele důležitá informace, zda již je pacient na dané vyšetření objednán. Proto je nutné, aby Správce nastavil v jednotlivých objednávkách vazbu mezi konkrétním objednávkou a nárokem, který daným ošetřením pacienta bude splněn. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správa organizace – Agendy – Kalendáře – Objednávky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po rozkliknutí konkrétního typu objednávky uživatel vytvoří vazbu na nárok(y) zaškrtnutím checkboxu ",
+          "type": "text"
+        },
+        {
+          "text": "Nároky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".  Pokud vyšetření pacienta splní nárok na prohlídku, pak uživatel volí typ nároku „Vyšetření“ a jako podtyp vybere název prohlídky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250710-124134.png",
+            "id": "aa4ba206-8b8e-461c-b42b-20080b63630b",
+            "collection": "contentId-68517948",
+            "type": "file",
+            "height": 117
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

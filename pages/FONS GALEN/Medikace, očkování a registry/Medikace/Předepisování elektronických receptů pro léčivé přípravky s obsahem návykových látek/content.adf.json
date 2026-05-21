@@ -1,0 +1,191 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dc20427d-5996-4a9b-9dba-dc5d7d55f836"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46ba12e8-7369-41e8-b219-e5c1eb5b825d"
+      },
+      "content": [
+        {
+          "text": "Na základě změny zákona o návykových látkách č. 167/1998 Sb. a změnách některých dalších zákonů (primárně zákona č. 378/2007 Sb., o léčivech), která má účinnost od 1. ledna 2022, bude povinné ",
+          "type": "text"
+        },
+        {
+          "text": "od 1. ledna 2022",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " předepisovat elektronické recepty také pro léčivé přípravky s obsahem návykových látek (dříve předpis na listinný recept s modrým pruhem).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a7061a9e-a700-43e6-8006-6497f6cb917e"
+      },
+      "content": [
+        {
+          "text": "Při předpisu léčivého přípravku z přílohy 1 a 5 (příloha č. 1 k Nařízení vlády č. 463/2013 Sb. a příloha č. 5 k Nařízení vlády č. 463/2013 Sb.) nebo konopí bude eRecept automaticky opatřen příznakem Vysoce návyková látka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e9466f7e-65aa-4b54-89dc-1369162fb518"
+      },
+      "content": [
+        {
+          "text": "Pro předpis vysoce návykové látky na eRecept je nutné v konfiguraci pracoviště vyplnit hodnotu \"Kraj\" (Správce - Správa organizace - Struktura - Pracoviště).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20251202-110020.png",
+            "id": "072003f0-393b-4033-ab52-cadb9a64183c",
+            "collection": "contentId-179994625",
+            "type": "file",
+            "localId": "c48eba6e-34f4-4e53-97d5-2778e851564b",
+            "height": 268
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b1116758-b6bb-4259-bd0a-cac7d4a34199"
+      },
+      "content": [
+        {
+          "text": "Takový eRecept má následující vlastnosti:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5261c069-7621-423f-8e96-e31ead7c2e8b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0017c281-c069-48a5-b145-53e82e013c8d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f2a5fb6a-09d8-4727-91d7-1067f49dac7b"
+              },
+              "content": [
+                {
+                  "text": "Na eRecept s označením „Vysoce návyková látka“ bude možné předepsat jen jednu položku (s libovolným množstvím do max. výše povolené systémem eRecept).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bd01e81c-2be5-49aa-aa18-4bb471359352"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2978469d-5250-464a-adc9-fdee28c44fc2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2f007851-87e2-48d6-a8a9-5667d641a4b7"
+              },
+              "content": [
+                {
+                  "text": "eRecept s označením „Vysoce návyková látka“ má maximální platnost 30 dní od založení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ce2a5864-b512-47c0-ad1a-d301eb2d40b7"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8426c3d8-aa54-43ad-af39-68bbf080c6e9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c4f8be63-0fe6-4dab-a85a-69f19050d6b8"
+              },
+              "content": [
+                {
+                  "text": "eRecept s označením “Vysoce návyková látka“ nesmí být opakovací.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d37dabf8-a96c-48ba-a09b-308c4e2aa15d"
+      },
+      "content": [
+        {
+          "text": "V případě tisku papírové průvodky eReceptu bude tato opatřena označením Vysoce návyková látka. Průvodka eReceptu s označením „Vysoce návyková látka“ bude tisknuta vždy tak, že jedna průvodka bude vytištěna na jeden list i v případě, kdy je v konfiguraci pracoviště nastavena možnost tisku více průvodek na jeden list (možnost tisku více průvodek na jeden list je placenou funkcionalitou).",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

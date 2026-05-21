@@ -1,0 +1,562 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "049d2425-9ff9-4792-8c2d-41355043d897"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "9527ed69-033c-4b23-af6c-4ecca86133b3"
+      }
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 466,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 466,
+                    "alt": "image-20250618-110454.png",
+                    "id": "4a54fd74-9860-42df-a897-28bac11cae59",
+                    "collection": "contentId-48365658",
+                    "type": "file",
+                    "height": 182
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V modulu Komunikace najde zdravotní personál mj. informace o laboratorních výsledcích. V tomto modulu lze také provést finanční uzávěrku za minulá období nebo logy zaslaných e-mailů či sms pacientům, logy eReceptů, eNeschopenek a další. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Laboratorní výsledky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 909,
+            "alt": "image-20250618-110529.png",
+            "id": "3b7ec017-8397-493b-83ee-9b10c02edd58",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 94
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "…slouží k zobrazení a případnému párování přijatých laboratorních výsledků (např. pokud nedošlo k automatickému párování z důvodu chyby v RČ). Program využívá služeb serveru k automatickému načítání laboratorních výsledků. Lékař tak nemusí využívat různé pomocné programy jako je např. MISE apod., laboratorní výsledky se mu automaticky objeví v jeho počítači.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1147,
+            "alt": "image-20250618-110556.png",
+            "id": "04c81b85-af7e-480e-9b13-6dd35fe3d549",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 165
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Všechny načtené laboratorní výsledky se objeví právě zde. Podle rodného čísla se automaticky párují k pacientovi. Laboratorní výsledek je zobrazen v dekurzu pacienta jakožto samostatný záznam s datem zpracování výsledku s možností prokliku na detail naměřených hodnot.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 552,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 552,
+            "alt": "image-20250618-110617.png",
+            "id": "b375388a-5a1d-4860-9107-9301ccb94148",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě nenapárování, např. z důvodu překlepu laborantky v RČ, je možné výsledek napárovat ručně. Lékař vybere záznam, u kterého není rodné číslo a klikne na tlačítko Spárovat. Vybere pacienta ze zobrazeného seznamu (kartotéky) a výsledek tak napáruje ručně. Vpravo jsou zobrazené laboratorní výsledky v dlaždicovém zobrazení. Pokud dá lékař Tisk, tisknou se v klasickém řádkovém zobrazení. Výsledky je možné také tisknout rovnou v dekurzu pacienta. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1241,
+            "alt": "image-20250618-110712.png",
+            "id": "70ab0828-1653-4bde-b18f-5523a73967fc",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 368
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Laboratorní výsledek slouží zároveň jako hypertextový odkaz pro zobrazí detailních informacích. Zobrazené laboratorní výsledky je možné vytisknout kliknutím na tlačítko Tisk. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Uzávěrka ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul ",
+          "type": "text"
+        },
+        {
+          "text": "Uzávěrka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " slouží k oznámení účetní firmě (pokud lékař tuto službu využívá), že jsou všechna data na vyúčtování pojišťovnám připravená a je možné provést vyúčtování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1020,
+            "alt": "image-20250618-110828.png",
+            "id": "e110f215-435f-4f90-8696-aec2602abcd3",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 249
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Log ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Log",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje zpětné dohledání elektronické komunikace lékaře. V záložkách Notifikace, eRecepty, eNeschopenky, Elektronické žádanky a Očkování lze vyfiltrovat potřebná data dle zadaných údajů, kterými jsou Číslo pojištěnce, Datum od a Datum Do, Stav hledaných komunikací a v záložce Notifikace lze ještě hledat dle názvu a Typu komunikace. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1104,
+            "alt": "image-20250618-110852.png",
+            "id": "801cc600-dc7d-4cdd-befd-f4ac773d1e87",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 215
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "EZPR ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pod ikonou EZPR jsou uvedeny všechny nestrukturované laboratorní výsledky např. propouštěcí zprávy a pracuje se s nimi stejným způsobem jako se strukturovanými laboratorními výsledky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1224,
+            "alt": "image-20250618-110922.png",
+            "id": "b55c15fb-f0aa-4ba6-a038-a09fc954ac4e",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 279
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vybrání konkrétní zprávy se její obsah zobrazí v pravé části obrazovky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1362,
+            "alt": "image-20250618-110957.png",
+            "id": "345ebf35-99ec-419a-aab8-0a1f85ad2407",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 662
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přílohy externí zprávy lze v roli Správce pouze zobrazit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 715,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 715,
+            "alt": "image-20250618-111012.png",
+            "id": "baf7a792-7899-415d-b990-3134b0b4bfb8",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 438,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 438,
+                    "alt": "image-20250618-111027.png",
+                    "id": "ec289f82-5170-4422-a76e-4bb7721c3d70",
+                    "collection": "contentId-48365658",
+                    "type": "file",
+                    "height": 127
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud máme nezpracovanou externí zprávu, zobrazí se Oznámení GALEN s textem “",
+                  "type": "text"
+                },
+                {
+                  "text": "Počet nezpracovaných lab. Výsledků: X “",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " prostřednictvím pop up okna v pravé spodní části obrazovky.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě nepřiřazené externí zprávy je možné ji přiřadit ke kartě pacienta stisknutím tlačítka Spárovat. Následně se táto zpráva zobrazí i v dekurzu u daného pacienta – pod ikonou modré obálky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1213,
+            "alt": "image-20250618-111053.png",
+            "id": "082a688a-6d2d-4f80-ab4e-be598a6ac302",
+            "collection": "contentId-48365658",
+            "type": "file",
+            "height": 227
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "ECHO  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Z uživatelské role Správce se v modulu Komunikace zobrazí také ikona Echo. Slouží ke shromažďování příchozích zpráv uživatele. Je možné si je filtrovat, editovat, označovat za přečtené nebo přímo upozornění i vytvořit a zaslat vybranému adresátovi na pracovišti.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

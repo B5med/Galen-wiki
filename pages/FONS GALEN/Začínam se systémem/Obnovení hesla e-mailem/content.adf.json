@@ -1,0 +1,419 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "fa59fd73-faec-453c-acbe-bcd362191192"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "b19deb0a-6df2-4d62-96a0-a726aed12c84"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Konfigurace v modulu Správa organizace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nejprve je nutné zapnout a nastavit obnovení hesla e-mailem ve správě organizace. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Cesta: modul Správce -> modul Správa organizace -> vybrat Společnost -> tlačítko Konfigurace -> záložka Politika hesel -> část Obnovení hesla e-mailem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita se zapíná zatržením ",
+          "type": "text"
+        },
+        {
+          "text": "Obnovení hesla e-mailem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Následně správce definuje: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Platnost vygenerovaného PINu (v minutách) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Maximální počet e-mailů pro přihlášení ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rozsah – popis viz. níže ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Stanovení rozsahu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V části ",
+          "type": "text"
+        },
+        {
+          "text": "Rozsah",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " můžete správce zvolit buď možnost ",
+          "type": "text"
+        },
+        {
+          "text": "Všichni aktivní uživatelé",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Vybraní uživatelé",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Při výběru druhé možnosti lze za pomocí ",
+          "type": "text"
+        },
+        {
+          "text": "upřesnit uživatele",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definovat seznam uživatelů, pro které bude obnova hesla možná. Nad seznamem lze filtrovat podle pracoviště nebo role. Výběr uživatelů je za pomocí checkboxu a následné potvrzení je přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 583,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 583,
+            "alt": "image-20250826-114933.png",
+            "id": "4d01539b-f52c-49b9-8c32-5375d733111c",
+            "collection": "contentId-105316353",
+            "type": "file",
+            "height": 705
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Obnovení hesla",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel má možnost obnovit si zapomenuté heslo, kdy na přihlašovací stránce stiskne tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Potřebuji pomoc",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a následně zvolí možnost ",
+          "type": "text"
+        },
+        {
+          "text": "Zapomenuté heslo",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 667,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 667,
+            "alt": "image-20250826-114959.png",
+            "id": "641af028-6661-4534-9a77-84a48a589e6a",
+            "collection": "contentId-105316353",
+            "type": "file",
+            "height": 323
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživateli se zobrazí okno pro obnovení hesla, kde vyplní přihlašovací jméno a potvrdí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Získat kód pro obnovení hesla",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 497,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 497,
+            "alt": "image-20250826-115012.png",
+            "id": "1bbc41b7-06a5-4e73-ac2d-75222ba0783f",
+            "collection": "contentId-105316353",
+            "type": "file",
+            "height": 417
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel si následně otevře obrazovka pro obnovu zapomenutého hesla, kde uživatel vyplní Kód pro ověření, Nové heslo a Potvrzení hesla. Údaje uživatel potvrdí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Nastavit nové heslo",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 427,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 427,
+            "alt": "image-20250826-115025.png",
+            "id": "4a362832-bb74-40e4-b316-342a14894d9c",
+            "collection": "contentId-105316353",
+            "type": "file",
+            "height": 354
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka: Kód pro ověření byl uživateli zaslán na email, který má definovaný v nastavení FONS Galen.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

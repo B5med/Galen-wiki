@@ -1,0 +1,691 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "PACS-prohlížeč ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tato funkcionalita slouží k provolávání systému určenému k prohlížení snímků uložených v systému PACS z AIS Galen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nastavení parametrů může provádět uživatel s oprávněním Správce. K funkcionalitě se dostane následujícím způsobem:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Na úrovni Správce otevřít modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správa organizace.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Dále je nutné otevřít submodul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Agendy a následně záložku PACS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro nastavení integrace s prohlížečem PACS snímků jsou klíčové následující položky: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 599,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 599,
+            "alt": "image-20250701-105711.png",
+            "id": "bd6e0fa2-4e18-4612-a013-c73db6e33962",
+            "collection": "contentId-75694321",
+            "type": "file",
+            "height": 672
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V položce Aktivační událost je nezbytné zatrhnout checkbox Prohlížeč. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "URL prohlížeče:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " adresa, na které systém pro prohlížení snímků běží ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Parametry-pacient: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "uživatel je schopný pomocí této položky definovat, s jakými parametry se bude provolávat prohlížeč z úrovně pacienta. Parametry je doporučené zadat následujícím zápisem: ",
+                  "type": "text"
+                },
+                {
+                  "text": "pid=[@P.CisloPojistence",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "]; ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "user=[@U.AlternateLogin",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "]",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "pid a user jsou názvy parametrů, které jsou dané dokumentací prohlížejícího systému ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "[",
+                  "type": "text"
+                },
+                {
+                  "text": "@P.CisloPojistence",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "] a [",
+                  "type": "text"
+                },
+                {
+                  "text": "@U.AlternateLogin",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "] jsou zástupné proměnné, pomocí nichž se v okamžiku volání požadavku dotahující požadovaná data. Zástupné proměnné je možné vybrat pomocí následujícího tlačítka: @",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Jednotlivé parametry je nutné oddělovat pomocí středníku ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Parametry-žádanka: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "uživatel je schopný pomocí této položky definovat, s jakými parametry se bude provolávat prohlížeč z úrovně žádanky. Parametry je doporučené zadat následujícím zápisem: ",
+                  "type": "text"
+                },
+                {
+                  "text": "accno=[@R.RecordCode];user=[@U.AlternateLogin",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "strong"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "#"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "]",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Certifikát prohlížeče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ": do této položky administrátor vloží privátní část certifikátu, pomocí níž se požadavek digitálně podepíše. Do systému určenému k prohlížení PACS snímků je v takovém případě nutné vložit veřejnou část příslušného certifikátu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V dolní části konfiguračního okna následně uživatel volí, z jakých pracovišť je možné volat prohlížeč snímků. Na výběr jsou ale pouze pracoviště radiodiagnostiky. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "  ",
+          "type": "text"
+        },
+        {
+          "text": "Provolání prohlížeče na úrovni RDG žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Systém na prohlížení snímků je možné provolat pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazit v PACS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", které je přítomné v modulu RDG žádanek. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 910,
+            "alt": "image-20250701-105820.png",
+            "id": "584b0df0-7020-4e34-84ed-59aca5241e3a",
+            "collection": "contentId-75694321",
+            "type": "file",
+            "height": 452
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Provolání prohlížeče na úrovni pacienta ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Systém je možné z úrovně pacienta provolat následujícím způsobem: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kliknout pravým tlačítkem myši na kartu vybraného pacienta. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zvolit položku Přístroje. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vybrat položku PACS. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 909,
+            "alt": "image-20250701-105847.png",
+            "id": "a2a5adeb-8493-45e3-b0b8-faacdbd2ade8",
+            "collection": "contentId-75694321",
+            "type": "file",
+            "height": 360
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

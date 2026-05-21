@@ -1,0 +1,228 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "932f87ffd89f"
+      },
+      "content": [
+        {
+          "text": "Dávky ČSSZ v infopanelu recepce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0cf568887948"
+      },
+      "content": [
+        {
+          "text": "Došlo k přejmenování sekce v konfiguraci i v Info panelu Recepce z Neschopenky na ČSSZ, včetně úprav popisků.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "80e9227cc2ff"
+      },
+      "content": [
+        {
+          "text": "Info panel pacienta nyní zobrazuje všechny typy dávek ČSSZ (neschopenky, dlouhodobé ošetřovné, ošetřovné) podle nastaveného počtu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "962116d16872"
+      },
+      "content": [
+        {
+          "text": "Řazení záznamů zůstává stejné – standardně podle data, pouze byl rozšířen jejich obsah.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "667bf9c32699"
+      },
+      "content": [
+        {
+          "text": "Statistiky Přehled očkování - rozšíření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "81054d5dc03e"
+      },
+      "content": [
+        {
+          "text": "Do statistiky Přehled očkování bylo doplněno filtrování pacientů podle data narození od – do.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5b19892e678e"
+      },
+      "content": [
+        {
+          "text": "Nově lze použít položky Narozen od a Narozen do s výběrem data z kalendáře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f267fb5bae3e"
+      },
+      "content": [
+        {
+          "text": "Jméno a příjmení pacienta - mazání mezer",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "252ecb125c82"
+      },
+      "content": [
+        {
+          "text": "Proběhlo jednorázové vyčištění dat: odstranění běžných mezer na začátku a konci polí Jméno a Příjmení u stávajících pacientů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "55d5ce863d25"
+      },
+      "content": [
+        {
+          "text": "Při ukládání karty pacienta se nyní mezery v polích Jméno a Příjmení automaticky ořezávají, bez upozornění uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4290b5f782e9"
+      },
+      "content": [
+        {
+          "text": "Stejné automatické ořezání mezer je nově zajištěno i ve všech API, aby byla data konzistentní napříč systémem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "68c4d68ed8ea"
+      },
+      "content": [
+        {
+          "text": "Změna druhu péče a vykazování v gynekologii",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9633d23d5b74"
+      },
+      "content": [
+        {
+          "text": "K 31. 12. 2025 je ukončen druh péče 45 – Gynekologie (odbornosti 603, 604). Od 1. 1. 2026 se používá druh péče 98 pro odbornost 603 a druh péče 99 pro odbornost 604.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6debf076f883"
+      },
+      "content": [
+        {
+          "text": "V souvislosti se změnou úhrad nelze vykazovat kapitované výkony u registrované pacientky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "14fd5f89602f"
+      },
+      "content": [
+        {
+          "text": "Datum signálního kódu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b3b13ada31e0"
+      },
+      "content": [
+        {
+          "text": "Upravena funkcionalita zadávání signálního kódu u poukazů na vlhké krytí. Pokud SÚKL signální kód neeviduje, lze nově doplnit datum signálního kódu ručně.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

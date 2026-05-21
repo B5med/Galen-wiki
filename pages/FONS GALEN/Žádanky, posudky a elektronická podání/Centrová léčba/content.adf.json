@@ -1,0 +1,1714 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "ca77c6a7479c"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "61a246379615"
+          },
+          "content": [
+            {
+              "text": "Modul Centrová léčba slouží k evidenci, správě a povinnému elektronickému hlášení dat o indikacích a podáváních inovativních léčivých přípravků v rámci tzv. centrové léčby. ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "2ab9eeceeba8"
+          },
+          "content": [
+            {
+              "text": "Tato povinnost vyplývá z požadavků Ústavu zdravotnických informací a statistiky ČR (ÚZIS) a je legislativně závazná pro všechna pracoviště, která smluvně poskytují centrovou léčbu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e26df2753453"
+      },
+      "content": [
+        {
+          "text": "Modul umožňuje:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "462b9ca8ef10"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6462e4db8cc7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cd817d3e6631"
+              },
+              "content": [
+                {
+                  "text": "evidovat léčby pacientů – zahájení, průběh, ukončení;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e6766d1ac5ec"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c66f9d21e2a0"
+              },
+              "content": [
+                {
+                  "text": "zaznamenávat jednotlivá podání léčiva;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "537ea8fe7fe3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d30ba7783f30"
+              },
+              "content": [
+                {
+                  "text": "sledovat stav každého podání;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bccd03a57444"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8077d68aface"
+              },
+              "content": [
+                {
+                  "text": "automaticky vykazovat výkon (kód 99991) po odeslání podání;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "75d047088b87"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3215c583151a"
+              },
+              "content": [
+                {
+                  "text": "filtrovat a přehledně zobrazovat seznam léčeb a podání;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "54727988ec16"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c00736123b0"
+              },
+              "content": [
+                {
+                  "text": "procházet historii změn u každé léčby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5de79160c63a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a5add62e6b7e"
+      },
+      "content": [
+        {
+          "text": "Kdy funkci použít",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "f449d8e7d398"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "0e1280aaf205"
+          },
+          "content": [
+            {
+              "text": "Modul Centrová léčba je určen pro lékaře na pracovištích, která mají uzavřenu zvláštní smlouvu o centrové léčbě. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "30a963e9c8aa"
+      },
+      "content": [
+        {
+          "text": "Použijete jej ve chvíli, kdy:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c72f6c93a97c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b3f7da52be0c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8a222245c9b5"
+              },
+              "content": [
+                {
+                  "text": "zahajujete u pacienta léčbu inovativním léčivým přípravkem v rámci centrové léčby;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ab119d9e6103"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e794f55851a7"
+              },
+              "content": [
+                {
+                  "text": "aplikujete pacientovi dávku léčiva a potřebujete toto podání zaznamenat;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fc1b0b8d34a5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9aae316660bf"
+              },
+              "content": [
+                {
+                  "text": "potřebujete upravit nebo ukončit probíhající léčbu (a zadat důvod změny);",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5e1f92f4c979"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8629bc03faa1"
+              },
+              "content": [
+                {
+                  "text": "chcete zkontrolovat stav odesílání dat na ÚZIS nebo zjistit, zda hlášení proběhlo bez chyby;",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "09f5ea1b3408"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "04110db4e0d6"
+              },
+              "content": [
+                {
+                  "text": "potřebujete rychlý přehled všech léčeb nebo podání pro celé pracoviště nebo konkrétního pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d2e6d7de470e"
+      },
+      "content": [
+        {
+          "text": "V klinickém pracovním postupu typicky přistoupíte do modulu po ambulantní návštěvě pacienta léčeného centrovou léčbou, nebo pravidelně na konci ordinační doby, abyste zkontrolovali stavy odeslaných hlášení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "3d5ed4c33f95"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c3d6ae12b422"
+      },
+      "content": [
+        {
+          "text": "Otevření modulu a orientace v přehledech",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0bdcf6d32bb9",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6b7f8779dc78"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3795c77bc6d9"
+              },
+              "content": [
+                {
+                  "text": "Otevřete modul Centrová léčba z hlavního menu systému FONS Galen. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 135,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 135,
+                    "alt": "obrazek-20260224-080708.png",
+                    "id": "d12500dd-4431-4e9f-b6a8-ec0623f2f566",
+                    "collection": "contentId-281739265",
+                    "type": "file",
+                    "localId": "ba32f9acc71a",
+                    "height": 94
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "079dfd0aa1b9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9ba7943165ee"
+              },
+              "content": [
+                {
+                  "text": "V modulu uvidíte dvě záložky: Léčby a Podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f5e81de9ccb4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "efaa1b884b9d"
+              },
+              "content": [
+                {
+                  "text": "Záložka Léčby zobrazuje seznam všech léčeb (pacient, diagnóza, léčivo, paragraf, stav).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4e4a42ef82a8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "988e5965d33d"
+              },
+              "content": [
+                {
+                  "text": "Záložka Podání zobrazuje přehled jednotlivých aplikací léčiva ke každé léčbě.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f6edc868454d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "48334a527324"
+              },
+              "content": [
+                {
+                  "text": "Použijte filtry v horní části obrazovky pro vyhledání podle pacienta, léčiva, stavu, paragrafu nebo časového období.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2c863014f8f7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "51bef8920bba"
+              },
+              "content": [
+                {
+                  "text": "Dvojklikem na řádek otevřete detail léčby nebo detail podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1916,
+            "alt": "obrazek-20260224-081902.png",
+            "id": "0c565e22-f5c3-44a4-9298-a5b1d429e379",
+            "collection": "contentId-281739265",
+            "type": "file",
+            "localId": "d6a500a8dc2e",
+            "height": 1014
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "a28b4d06e046"
+          },
+          "content": [
+            {
+              "text": "Centrová léčba",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a87da50777c0"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "59afeb31f574"
+      },
+      "content": [
+        {
+          "text": "Zahájení nové léčby pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "e2db853374f2",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "75143a669bf3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d4df33912c73"
+              },
+              "content": [
+                {
+                  "text": "V záložce Léčby klikněte na tlačítko pro přidání nové léčby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ad4e588e55d4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2d033333ea53"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte základní informace: vyberte pacienta, zadejte diagnózu, vyberte léčivo z číselníku, zvolte příslušný paragraf.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6bdc73b5e9e4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b8253edc30c"
+              },
+              "content": [
+                {
+                  "text": "Nastavte datum zahájení léčby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3aa9542872e6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a4c9c10782b3"
+              },
+              "content": [
+                {
+                  "text": "Uložte novou léčbu. Systém ověří, zda pro daného pacienta a léčivo již neexistuje aktivní léčba.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8e8703a2a7ad"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "263b6a609cf9"
+              },
+              "content": [
+                {
+                  "text": "Po uložení se nová léčba zobrazí v přehledu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 824,
+            "alt": "obrazek-20260224-082211.png",
+            "id": "36dbc9bb-636f-474c-9902-e67fb0aebc81",
+            "collection": "contentId-281739265",
+            "type": "file",
+            "localId": "28e13bc493d6",
+            "height": 948
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "0869f86aaec1"
+          },
+          "content": [
+            {
+              "text": "Nová léčba",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "9bb59f30568a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ae05b93ae59c"
+      },
+      "content": [
+        {
+          "text": "Zaznamenání podání léčiva",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "238782d9afd6",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "26ea796243c0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8ce099298579"
+              },
+              "content": [
+                {
+                  "text": "V přehledu léčeb dvojklikem otevřete detail příslušné léčby, nebo přejděte přímo do záložky Podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "559fa3f44f73"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2bf1dd3ab3d4"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko pro přidání nového podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cca35672eefd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "824138c8cef7"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte: datum podání, léčivo, množství a další potřebné údaje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6b4f081d8f6c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d80521cd5514"
+              },
+              "content": [
+                {
+                  "text": "Uložte podání. Systém automaticky zkontroluje, zda datum podání spadá do platnosti léčby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0372043313db"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3253060d7b61"
+              },
+              "content": [
+                {
+                  "text": "Po uložení je podání evidováno ve stavu Rozpracováno.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7e2284421ca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "020ba02f5f65"
+              },
+              "content": [
+                {
+                  "text": "Po odeslání do ÚZIS je podání evidováno ve stavu Odesláno.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1c6059c49bf7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "862828bc8153"
+              },
+              "content": [
+                {
+                  "text": "Podání, které ještě nebylo odesláno na ÚZIS, lze upravit nebo smazat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "63739b390d56"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3e0f416eeeb6"
+              },
+              "content": [
+                {
+                  "text": "Podání, které již bylo odesláno na ÚZIS, lze upravit nebo stornovat.Odeslání podání na ÚZIS a automatické vykázání výkonu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 824,
+            "alt": "obrazek-20260224-082445.png",
+            "id": "0915f857-7545-41f7-bde8-60b92bb511eb",
+            "collection": "contentId-281739265",
+            "type": "file",
+            "localId": "8a34040ddc4d",
+            "height": 948
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "d6588625cd3f"
+          },
+          "content": [
+            {
+              "text": "Podání",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f3551124a2a3"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0cb256e47447"
+      },
+      "content": [
+        {
+          "text": "Změna nebo ukončení léčby",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a4338fc8f10d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3a4c405b652d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "091355767d85"
+              },
+              "content": [
+                {
+                  "text": "Otevřete detail léčby dvojklikem v záložce Léčby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9d3b007e3d2b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ad7aa5cd0306"
+              },
+              "content": [
+                {
+                  "text": "Zvolte akci Upravit léčbu nebo Ukončit léčbu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f2080fd66666"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b50c512adb96"
+              },
+              "content": [
+                {
+                  "text": "Vyberte důvod změny nebo ukončení z číselníku (výběr je povinný).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b64897966238"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3e7717d4089"
+              },
+              "content": [
+                {
+                  "text": "Zadejte datum změny nebo ukončení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c4368dbe2acc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1741c83c38b5"
+              },
+              "content": [
+                {
+                  "text": "Uložte. V detailu léčby se zaktualizuje stav a zobrazí se záznam o změně v historii.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8cb4d0e2ce58"
+      }
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d5cbb6c561ae"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ed1be1ed4f27"
+      },
+      "content": [
+        {
+          "text": "Odeslání podání na ÚZIS a automatické vykázání výkonu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "b410a0c49f58"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "9796090a71f7"
+          },
+          "content": [
+            {
+              "text": "Odesílání hlášení na ÚZIS probíhá prostřednictvím integrovaného rozhraní přímo ze systému FONS Galen. Po úspěšném přijetí podání systém automaticky vytvoří výkon 99991 (je-li nasmlouván) a ZULP a přiřadí jej k pacientovi, léčbě a podání. Tento výkon je viditelný v detailu podání.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "4347e9eebe5f",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4835d551050d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "961cf5962dec"
+              },
+              "content": [
+                {
+                  "text": "V přehledu podání vyberte podání ve stavu Rozpracováno, které chcete odeslat na ÚZIS.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1386f323783"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cf57cd14790c"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko Odeslat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b4b2dcd6d8f3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "057de119be4c"
+              },
+              "content": [
+                {
+                  "text": "Systém odešle data na ÚZIS a aktualizuje stav podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3ca0c38a6054"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8467174b6590"
+              },
+              "content": [
+                {
+                  "text": "Zkontrolujte stav odeslání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9c6ecf3c103c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9410570b0a7e"
+              },
+              "content": [
+                {
+                  "text": "V případě stavu Chyba si přečtěte hlášení o chybě, opravte příslušné podání a odešlete znovu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8d28b0019923"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e5af2ea3d489"
+              },
+              "content": [
+                {
+                  "text": "Po úspěšném přijetí (stav Přijato) systém automaticky zaúčtuje výkon 99991 určený pracovišti se zvláštní smlouvou.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "838b096b367e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4c1d0d069a86"
+      },
+      "content": [
+        {
+          "text": "Příklady použití",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1de933462fe7"
+      },
+      "content": [
+        {
+          "text": "Příklad: Zahájení léčby a evidence prvního podání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a60b0ec8c52b"
+      },
+      "content": [
+        {
+          "text": "MUDr. Novák je revmatolog, jehož pacient pan Kratochvíl (68 let) byl indikován k léčbě biologickým léčivým přípravkem v rámci centrové léčby revmatoidní artritidy. Pracoviště má uzavřenou smlouvu s pojišťovnou a je povinno každý měsíc reportovat data o podáních na ÚZIS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "7a7c85ea85f9"
+      },
+      "content": [
+        {
+          "text": "Postup MUDr. Nováka v systému FONS Galen:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "b3c9c6a5fca3",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "929c53b04cc2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1969f24855ee"
+              },
+              "content": [
+                {
+                  "text": "Otevře modul Centrová léčba a v záložce Léčby klikne na Nová léčba.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cb5cf00e8d47"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a0f0268fa510"
+              },
+              "content": [
+                {
+                  "text": "Vybere pacienta Kratochvíl, zadá diagnózu (M05 – séropozitivní revmatoidní artritida), vybere léčivo z číselníku a zvolí příslušný paragraf.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dc620bd4c065"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "964f21e7feb9"
+              },
+              "content": [
+                {
+                  "text": "Uloží léčbu se dnešním datem zahájení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9e2e4a9cfaef"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d3b58c6810d3"
+              },
+              "content": [
+                {
+                  "text": "Po první aplikaci přejde do záložky Podání, přidá nové podání: zadá datum aplikace, léčivo a množství.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6c641841ef3b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "34b6ec86c8cd"
+              },
+              "content": [
+                {
+                  "text": "Klikne na Odeslat – systém hlášení odešle na ÚZIS a stav podání se změní na Odesláno.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8bccbbb6678"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c9878ec88ebe"
+              },
+              "content": [
+                {
+                  "text": "Po potvrzení příjmu ze strany ÚZIS se stav změní na Přijato a systém automaticky vytvoří výkon 99991 (ZULP) v přehledu výkonů pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e7bf3300c8f0"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b70b5d9336e0"
+      },
+      "content": [
+        {
+          "text": "Doporučené postupy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d2154610-8144-42ab-ac81-fa8cd1efc7d3"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9bc7024f-87f0-4691-bd64-1a86547a09ca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "05e10ef1b1db"
+              },
+              "content": [
+                {
+                  "text": "Podání evidujte co nejdříve po aplikaci, ideálně tentýž den – snížíte tím riziko opomenutí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e7a961ad-4160-4960-8d53-770c3625ab1f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "24eacb921c52"
+              },
+              "content": [
+                {
+                  "text": "Před odesláním vždy zkontrolujte stav podání v přehledu a ověřte správnost dávky a data aplikace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "693506ea-f979-401e-a6d8-9cb2f63f1bfb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "216dfcadd905"
+              },
+              "content": [
+                {
+                  "text": "V případě stavu Chyba přečtěte hlášení a opravte konkrétní pole, které chybu způsobilo.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "66d7c23a-5afc-4d05-b701-cbe816e6eb9c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3cf6bd4e14f"
+              },
+              "content": [
+                {
+                  "text": "Historii změn léčby využijte pro dohledání, kdo a kdy léčbu upravoval.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "582068f3-f922-43a1-aae0-ff3d78b6159c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "21f6b7f514d3"
+              },
+              "content": [
+                {
+                  "text": "Filtr v přehledu Podání podle stavu Chyba vám rychle zobrazí všechna neúspěšně odeslaná podání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2397bb7dfb2a"
+      },
+      "content": [
+        {
+          "text": "Technická omezení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "27fa5cfe-15e1-43f4-be95-577cebb73879"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fd2d37b9-8cec-490a-b046-c8b6e3031a93"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "447b2ddece99"
+              },
+              "content": [
+                {
+                  "text": "Číselníky léčiv a paragrafů jsou automaticky aktualizovány jednou týdně ze zdrojů ÚZIS, je možné je ručně aktualizovat v případě potřeby. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "28048d76-edf9-4485-a5a2-f3e2deb75e5d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2308309e7b70"
+              },
+              "content": [
+                {
+                  "text": "Napojení na API ÚZIS a samotné odesílání dat jsou součástí aktivní implementace a mohou být dále rozšiřovány. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "66515f7d4a2b"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "94b2c9a95d46"
+      },
+      "content": [
+        {
+          "type": "bulletList",
+          "attrs": {
+            "localId": "adfe1d8cbacf"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "f04cae5d1b03"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "071d96542f3f"
+                  },
+                  "content": [
+                    {
+                      "text": "Modul Centrová léčba je určen pouze pro pracoviště, která mají uzavřenou zvláštní smlouvu o centrové léčbě. Pokud modul nevidíte, obraťte se na správce systému, aby jej aktivoval pro vaše pracoviště.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "643602c76fd3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "387d6a512615"
+                  },
+                  "content": [
+                    {
+                      "text": "Automatické vykázání výkonu ZULP (kód 99991) probíhá pouze na pracovištích se zvláštní smlouvou. Pokud výkon není zasmluvněn, nebude vytvořen.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "a3995daef5d0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "266f6378c3d3"
+                  },
+                  "content": [
+                    {
+                      "text": "Pro jednoho pacienta nelze současně vést dvě aktivní léčby stejným léčivem. Systém na duplicitu upozorní.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,635 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "3dd90282-a7ee-4a80-a53c-0bce9cbff209"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "39c7f65b-a810-415a-9dd0-51923c7f0115"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 317,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 462,
+            "alt": "image-20250619-075059.png",
+            "id": "3d447859-89ee-4254-8774-48a24ab931d7",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 190
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul Nadstandardní péče slouží k nastavení firem, ceníků, pracovně lékařské služby atd.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 104,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 104,
+            "alt": "image-20250619-075152.png",
+            "id": "0066a177-2cf1-4b24-9e35-e03ffacce8d5",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 148
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím na ikonu ",
+          "type": "text"
+        },
+        {
+          "text": "Firmy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se nastavují spolupracující firmy včetně základních identifikačních informací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 100,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 100,
+            "alt": "image-20250619-075216.png",
+            "id": "0198ba0f-6d5b-4113-b6b6-815e72a94d5b",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 147
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Ceníky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nastavuje jednotlivé položky ambulance. Jsou zde kategorie Sortiment, Prohlídky, Očkování, Služby a Balíčky.  Pokud je otevřená ikona ceníky, jsou ve výpisu všechny nadefinované služby, kliknutím na jednotlivé kategorie se seznamy nadstandardní péče vyfiltrují například jen na očkování nebo prohlídky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1446,
+            "alt": "image-20250619-075248.png",
+            "id": "fc1bed6a-e1c7-46e5-8dc3-1a034223f3f0",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 118
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Nadstandardní péče -> Ceníky -> Sortiment -> malým zeleným + vlevo nahoře lze přidat novou položku ceníku, ke které je nutné stanovit popisné a platební údaje ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1441,
+            "alt": "image-20250619-075305.png",
+            "id": "bf866c0d-4bb5-4ff2-bcc8-8e6137b17617",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 291
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po rozkliknutí položky ceníku lze nastavit či změnit další údaje. Sortiment se přidá včetně ceny, dá se nastavit platnost ceníku, pro jakou odbornost a pracoviště je určen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1442,
+            "alt": "image-20250619-075321.png",
+            "id": "6c9bef29-d036-41ae-b4d7-34feb9b776e0",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 279
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 110,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 110,
+            "alt": "image-20250619-075341.png",
+            "id": "84d5f6e5-a35e-457c-b33e-63e800d8e83b",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nastavení Sortimentu do ",
+          "type": "text"
+        },
+        {
+          "text": "kategorií ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "(například Doplňky stravy, Pomůcky atd.), které si určí sám správce, se organizuje nahoře na liště ikonou Kategorie",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nadstandardní péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost konfigurace vlastních prohlídek i s cenami, doplatky apod. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 582,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 582,
+                    "alt": "image-20250619-075423.png",
+                    "id": "a15d8c45-97cb-4856-9ac1-145b5a8ac9ce",
+                    "collection": "contentId-50495507",
+                    "type": "file",
+                    "height": 279
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kliknutím na Prohlídky se rozbalí seznam prohlídek, které lékař využívá nebo si může zeleným plus přidat. Pak vybírá ze seznamu druhy prohlídky, její typy a další",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po rozkliknutí řádku s příslušnou prohlídkou vidíme nastavení definice konkrétní prohlídky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1518,
+            "alt": "image-20250619-075507.png",
+            "id": "68a6c676-c20b-4bf1-8be0-ca4c93693d8b",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 492
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na pravé straně se definují informace o sortimentu, a vpravo se upravuje cena sortimentu, který bude účtován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Očkování ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možnost konfigurace vlastních typů Očkování i s doplatky apod.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1529,
+            "alt": "image-20250619-100615.png",
+            "id": "ec24834a-7896-400e-9b81-23c4261bb56e",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 332
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nový typ Očkování přidáváme malým zeleným + vlevo nahoře. Objeví se okno, ve kterém kromě popisných a platebních údajů vybíráme i očkovací látku ze seznamu OL a očkovací variantu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Služby ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1489,
+            "alt": "image-20250619-100647.png",
+            "id": "ef874150-1ce1-479e-a8bf-5a37a056c131",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 340
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Služby lze individuálně nazvat a nastavit.  Nový typ služby přidáváme malým zeleným + vlevo nahoře. Objeví se okno, ve kterém je potřeba vyplnit popisné a platební údaje.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "align-start",
+                "width": 372,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 551,
+                    "alt": "image-20250619-100715.png",
+                    "id": "86dbbc81-5ed8-4aa0-a11d-58564e8e8b88",
+                    "collection": "contentId-50495507",
+                    "type": "file",
+                    "height": 215
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 105,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 95,
+                    "alt": "a67bb376-e95c-469f-b605-2c5720c8845e.png",
+                    "id": "a3290a8a-7a56-4222-aa5c-c2dc5e534d36",
+                    "collection": "contentId-50495507",
+                    "type": "file",
+                    "height": 131
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Balíčky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje vytvoření balíčku sortimentu a služeb nadstandardní péče, kde se v horní části definuje název balíčku, v dolní části se vkládají jednotlivé položky. U každé položky lze také definovat slevu v procentech.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1210,
+            "alt": "image-20250619-100934.png",
+            "id": "bf035b88-2c22-42a5-95a8-69b3b72ead08",
+            "collection": "contentId-50495507",
+            "type": "file",
+            "height": 699
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

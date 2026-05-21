@@ -1,0 +1,1178 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "2e2097add9ec"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "92072c2d236d"
+          },
+          "content": [
+            {
+              "text": "Výdej foniatrických pomůcek je součástí modulu ",
+              "type": "text"
+            },
+            {
+              "text": "ePoukaz – předpis",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Abyste mohli tyto pomůcky vydávat, je proto nutné mít modul ePoukaz – předpis aktivní.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "104088ab5db8"
+          },
+          "content": [
+            {
+              "text": "Ve FONS Galen lze vydat pouze tu foniatrickou pomůcku, která byla předepsána ePoukazem vystaveným pro stejnou společnost ve FONS Galen.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "71e50f9d5c7c"
+          },
+          "content": [
+            {
+              "text": "Při výdeji se automaticky odešle informace o vydání do systému SÚKL a zároveň se vydaná pomůcka připraví pro následné vyúčtování.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "0b968ceb-b7eb-4fa3-836c-debe149dee1a"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "56cbc518-90b9-438e-9a8c-bbc7a8b85a1b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "aa9c88015254"
+      },
+      "content": [
+        {
+          "text": "Prerekvizity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dae6cffd6a70"
+      },
+      "content": [
+        {
+          "text": "Pro zprovoznění výdejů foniatrických pomůcek vydaných na ePoukaz je potřeba, aby uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nastavil",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "eccafe48f25d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a3a5a384fc08"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7ba99a94e7eb"
+              },
+              "content": [
+                {
+                  "text": "na stejné společnosti, kde je pomůcka na ePoukaz předepsána, ",
+                  "type": "text"
+                },
+                {
+                  "text": "pracoviště výdejny",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (výdejen) vč. ",
+                  "type": "text"
+                },
+                {
+                  "text": "kódu SÚKL",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a ",
+                  "type": "text"
+                },
+                {
+                  "text": "certifikátu SÚKL",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (jedná se o identifikaci pracoviště, které má oprávnění vydávat foniatrické pomůcky)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5bd01e53a86a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1b6f495f9e26"
+              },
+              "content": [
+                {
+                  "text": "uživatele na pracoviště výdejny, kteří budou mít možnost pomůcky vydávat",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cd294face7c6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a05202278c8c"
+              },
+              "content": [
+                {
+                  "text": "na IČZ aktivní příznak ",
+                  "type": "text"
+                },
+                {
+                  "text": "Výdejna fon. pom. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 430,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 430,
+                    "alt": "image-20260129-125332.png",
+                    "id": "49cb4c9e-c21c-40c4-a455-a7f248d18c0d",
+                    "collection": "contentId-247857153",
+                    "type": "file",
+                    "localId": "8455c6451f46",
+                    "height": 186
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c747abf0db48"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ffc0e2afc568"
+              },
+              "content": [
+                {
+                  "text": "na pracovišti výdejny příznak, že se jedná o pracoviště s oprávněním vydávat foniatrické pomůcky předepsané na ePoukaz (příznak zapíná pracovník Stapro)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "fb92ba476406"
+      },
+      "content": [
+        {
+          "text": "Rozšířené nastavení - doporučujeme",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d9c7e3528334"
+      },
+      "content": [
+        {
+          "text": "Aby bylo možné na stejném pracovišti ePoukaz na foniatrickou pomůcku předepsat i vydat, je nutné, aby uživatel s rolí",
+          "type": "text"
+        },
+        {
+          "text": " Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ve struktuře společnosti nastavil vazbu mezi předepisujícím a vydávajícím pracovištěm. Podrobný návod je uveden ",
+          "type": "text"
+        },
+        {
+          "text": "zde",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/AoC7Dg"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ae555137c14"
+      },
+      "content": [
+        {
+          "text": "Ve zkratce: Na předepisujícím pracovišti uživatel nastaví využívané pracoviště výdejny:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1244,
+            "alt": "image-20260129-133335.png",
+            "id": "5de70488-b8e5-4731-85ac-2327fefff0d3",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "dd3fa6dc7f99",
+            "height": 768
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f7dc60bf0e3b"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d6fe5eb9656"
+      },
+      "content": [
+        {
+          "text": "Pokud pracoviště využívá pouze jednu výdejnu (i přesto, že je na společnosti více výdejen), zaškrtne pouze jednu výdejnu. Pokud na předepisujícím pracovišti probíhá výdej na více výdejnách, uživatel vybere všechny potřebné výdejny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "40abd788ade9"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "f72e0b2aa4f4"
+          },
+          "content": [
+            {
+              "text": "Mezi předepisujícím pracovištěm a pracovištěm výdejny je nutné nastavit nahlížení ",
+              "type": "text"
+            },
+            {
+              "type": "inlineCard",
+              "attrs": {
+                "localId": "e8642fbdff69",
+                "url": "https://stapro-galen.atlassian.net/wiki/x/lQCCB"
+              }
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c72ec7b4d91b"
+      },
+      "content": [
+        {
+          "text": "Výdej na pracovišti, které předepisuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e0499bd4c3b1"
+      },
+      "content": [
+        {
+          "text": "Pokud jste nastavili využívané pracoviště pro výdej foniatrické pomůcky, jak bylo uvedeno v ",
+          "type": "text"
+        },
+        {
+          "text": "předchozí kapitole",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/247857153/V+dej+foniatrick+pom+cky+p+edepsan+na+ePoukaz#Roz%C5%A1%C3%AD%C5%99en%C3%A9-nastaven%C3%AD---doporu%C4%8Dujeme"
+              }
+            }
+          ]
+        },
+        {
+          "text": ", nemusíte se při výdeji přepínat mezi pracovišti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "087f3c171f9b"
+      },
+      "content": [
+        {
+          "text": "Na pracovišti, které má oprávnění pro předpis foniatrické pomůcky, uživatel předepíše ePoukaz tak, jak je zvyklý",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1283,
+            "alt": "image-20260129-140050.png",
+            "id": "06782207-b62f-486b-a449-3e7e066abffa",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "c7dafae90c06",
+            "height": 806
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0260f29cf53a"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "028de63372b2"
+      },
+      "content": [
+        {
+          "text": "Po úspěšném odeslání, kdy je ePoukaz ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Předepsaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a zároveň má ID ePoukazu, se zobrazí záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Výdej",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1741,
+            "alt": "image-20260129-140249.png",
+            "id": "1aa25b6d-6f2c-42ef-8c59-33e0a214282e",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "956c46fbb533",
+            "height": 800
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c513b58f8eff"
+      },
+      "content": [
+        {
+          "text": "V záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Výdej ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "uživatel vyplní Datum výdeje a v případě, že má nastaveno více výdejen, vybere výdejnu. Pomocí tlačítka Odeslat odesílá výdej.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1738,
+            "alt": "image-20260129-140420.png",
+            "id": "337405d7-53c9-4ff8-8ba4-5f0791fd2d1d",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "fed7a13f0df6",
+            "height": 850
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "26e18b19ed75"
+      },
+      "content": [
+        {
+          "text": "Úspěšně vydaný ePoukaz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3ac2708eb099"
+      },
+      "content": [
+        {
+          "text": "(1) a (2) je automaticky převeden do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Plně vydaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6fb0e9e7fa95"
+      },
+      "content": [
+        {
+          "text": "(3) je automaticky načten identifikátor výdeje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6aac1c086b4"
+      },
+      "content": [
+        {
+          "text": "(4) v části ",
+          "type": "text"
+        },
+        {
+          "text": "Komunikace SÚKL ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je založení i výdej uveden ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1733,
+            "alt": "image-20260129-140822.png",
+            "id": "5f022345-80cd-4457-8c9d-f0d0758dac4e",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "9389754295a1",
+            "height": 1392
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "43feb9f46d95"
+      },
+      "content": [
+        {
+          "text": "Výdej na pracovišti výdejny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b03e27dd958a"
+      },
+      "content": [
+        {
+          "text": "Je možné provést výdej na pracovišti výdejny. Takový výdej může provádět pracovník, který nemá mít přístup na pracoviště předepisujícího. V takovém případě je nutné mít nastavené nahlížení mezi pracovišti dle tohoto ",
+          "type": "text"
+        },
+        {
+          "text": "návodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/lQCCB"
+              }
+            }
+          ]
+        },
+        {
+          "text": ". Ve zkratce předepisující pracoviště musí sdílet informace a vydávající bude mít právo na ně nahlížet.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fb2606aa8d55"
+      },
+      "content": [
+        {
+          "text": "Zrušení výdeje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "91b66828174b"
+      },
+      "content": [
+        {
+          "text": "Zrušit výdej je možné jak na předepisujícím pracovišti (pokud má nastavené využívané pracoviště výdejny), tak na pracovišti výdejny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2c1a2d58a0dc"
+      },
+      "content": [
+        {
+          "text": "Výdej je možné zrušit klikem pravým tlačítkem myši na řádek plně vydaného ePoukazu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 932,
+            "alt": "image-20260129-143403.png",
+            "id": "dc5a8309-303a-4c61-a9a4-eba54d9f0f1b",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "9308940f95ca",
+            "height": 255
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0a38658255c8"
+      },
+      "content": [
+        {
+          "text": "Ve chvíli, kdy je zrušen výdej, je zároveň (automaticky na pozadí) smazán foniatrický záznam k vyúčtování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d795033924a"
+      },
+      "content": [
+        {
+          "text": "Poté, co uživatel zapíše důvod zrušení, je ePoukaz převeden do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Předepsaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b4d64eea4ca6"
+      },
+      "content": [
+        {
+          "text": "Takový ePoukaz je možné ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f07d3d0d9c0d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "536ed16e59de"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "810624fd0f4b"
+              },
+              "content": [
+                {
+                  "text": "opravit - změnit údaje na ePoukazu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "09f2e6545600"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "78599fd7e47b"
+              },
+              "content": [
+                {
+                  "text": "zrušit - zrušit celý ePoukaz",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "48e14e4451b5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e9f0edc05c97"
+              },
+              "content": [
+                {
+                  "text": "změnit na připravovaný - viz ",
+                  "type": "text"
+                },
+                {
+                  "text": "kapitola ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/247857153/V+dej+foniatrick+pom+cky+p+edepsan+na+ePoukaz#Zm%C4%9Bnit-na-P%C5%99ipravovan%C3%BD"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d3a89775861e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ef6142441412"
+              },
+              "content": [
+                {
+                  "text": "aktualizovat dle SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 933,
+            "alt": "image-20260129-143609.png",
+            "id": "27ad1ff4-4aa7-4d6f-ad97-feea97452a08",
+            "collection": "contentId-247857153",
+            "type": "file",
+            "localId": "620e549237ba",
+            "height": 261
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3ba90ab9bb64"
+      },
+      "content": [
+        {
+          "text": "Nevidím možnost Zrušit výdej",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67c4b00cbe04"
+      },
+      "content": [
+        {
+          "text": "Pokud potřebujete zrušit výdej pomůcky, ale tuto možnost nevidíte, může to mít dva důvody",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "24efd60d5949",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "90507f97384e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7daf7bfe8d2d"
+              },
+              "content": [
+                {
+                  "text": "Výdej pomůcky provedl jiný uživatel. V takovém případě nemáte práva na editaci daného záznamu a výdej musí zrušit ten uživatel, který výdej zadal.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8fca20b94d36"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ea3a55f48b25"
+              },
+              "content": [
+                {
+                  "text": "Vydaná pomůcka je vyúčtovaná. Informaci, zda je pomůcka vyúčtovaná zjistíme v modulu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vyúčtování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " - záložka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Foniatrické záznamy. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Pokud má foniatrický záznam přiřazeno číslo dokladu a zároveň stav ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vykázaný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", jedná se o vyúčtovanou pomůcku. Pokud se jedná o tento případ, můžete změnit stav dokladu podle toho, jak potřebujete s ePoukazem dále nakládat podle ",
+                  "type": "text"
+                },
+                {
+                  "text": "tohoto postupu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/253788162/Vy+tov+n+foniatrick+pom+cky+vydan+na+ePoukaz#Vy%C3%BA%C4%8Dtov%C3%A1n%C3%AD-foniatrick%C3%BDch-pom%C5%AFcek"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1485,
+                    "alt": "image-20260210-091121.png",
+                    "id": "54e7c299-07fc-415e-b7b3-e6b483701693",
+                    "collection": "contentId-247857153",
+                    "type": "file",
+                    "localId": "ff5cd604cec7",
+                    "height": 144
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1a1629300bb6"
+      },
+      "content": [
+        {
+          "text": "Změnit na Připravovaný",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1371d730592c"
+      },
+      "content": [
+        {
+          "text": "Předepsaný ePoukaz je možné změnit do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Připravovaný.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Tento stav nastavuje výdejna (pracoviště, které má nastavené využívané pracoviště výdejny nebo přímo výdejna). Výdejna dává ePoukaz do tohoto stavu ve chvíli, kdy byl ePoukaz uplatněn, ale ještě nebyl plně vydán. Používá se např. v situacích výroby pomůcky na zakázku. Výdejna změní stav na ",
+          "type": "text"
+        },
+        {
+          "text": "Připravovaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", což znamená, že  jej není možné využít v jiné výdejně. Jakmile je pomůcka dodána, provede se klasický výdej.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2c7dde21254e"
+      }
+    }
+  ],
+  "version": 1
+}

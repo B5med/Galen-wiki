@@ -1,0 +1,30 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3b74a05d64c4"
+      },
+      "content": [
+        {
+          "text": "Služba Biometrický podpis slouží k podepisování dokumentů pacientem (například souhlasů se zákrokem) prostřednictvím podpisového zařízení. Ve FONS Galen je vygenerován dokument. Ten je následně odeslán do podpisového zařízení, kde je podepsán a následně uložen ve FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f60c95898dc7"
+      },
+      "content": [
+        {
+          "text": "Funkcionalita biometrického podpisu je placená a vyžaduje aktivaci. Aktivace biometrického podpisu je podmíněná ukládáním souborů do cloudu. Biometrický podpis je umožněný pouze pro předem určité formuláře.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

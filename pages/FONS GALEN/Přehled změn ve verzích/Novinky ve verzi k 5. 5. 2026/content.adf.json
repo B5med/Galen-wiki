@@ -1,0 +1,383 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "f753152dc27c"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "c0a5af411b12"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "d1fc2d2cc320"
+      },
+      "content": [
+        {
+          "text": "Elektronické lékařské posudky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "54cda78d6087"
+      },
+      "content": [
+        {
+          "text": "Byla přidána podpora ",
+          "type": "text"
+        },
+        {
+          "text": "elektronických lékařských posudků",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňující vystavování a podepisování posudků v elektronické podobě přímo z aplikace. Podrobný popis funkcionality je dostupný v ",
+          "type": "text"
+        },
+        {
+          "text": "uživatelské dokumentaci",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/BQBmFQ"
+              }
+            }
+          ]
+        },
+        {
+          "text": ". Před prvním použitím je nutné provést ",
+          "type": "text"
+        },
+        {
+          "text": "nastavení certifikátu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/AQB-Fg"
+              }
+            }
+          ]
+        },
+        {
+          "text": " pro elektronický podpis.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "22f0bb88ca1e"
+      },
+      "content": [
+        {
+          "text": "Automatické ukončení neaktivních relací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "174ab367a551"
+      },
+      "content": [
+        {
+          "text": "Systém FONS Galen nově automaticky ukončuje uživatelské relace, které nebyly korektně odhlášeny – například při restartu serveru, výpadku spojení nebo po uplynutí více než 24 hodin bez aktivity. Tato změna zajišťuje, že evidujeme pouze skutečně aktivní přihlášení a zabraňuje tak falešnému překročení licenčních limitů. Současně je potřeba počítat s tím, že v případě neaktivity delší než 24 hodin není možné využívat tzv. \"relogin\" – pokračovat ve stejném modulu, kde došlo k opuštění práce, a je třeba se místo toho standardně přihlásit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a9cded42759d"
+      },
+      "content": [
+        {
+          "text": "Zapamatování výchozího formátu skenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4153b7d6ae72"
+      },
+      "content": [
+        {
+          "text": "Při skenování příloh si systém nově pamatuje naposledy zvolený formát souboru. Uživatel tak nemusí při každém skenování znovu vybírat preferovaný formát – systém automaticky předvyplní ten, který byl použit naposledy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2d407ad6ec61"
+      },
+      "content": [
+        {
+          "text": "Vyhledávání v nastavení (zapínačích)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5655be8e59fe"
+      },
+      "content": [
+        {
+          "text": "V okně Konfigurace (Správce -> Správa organizace) na úrovni Společnost a Pracoviště bylo přidáno textové vyhledávání. Správci systému nyní mohou rychle filtrovat a dohledat konkrétní nastavení zadáním klíčového slova, bez nutnosti ručně procházet všechny záložky a sekce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b78485153a4c"
+      },
+      "content": [
+        {
+          "text": "Název skenované přílohy – pohyb šipkami",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4fa0b806039d"
+      },
+      "content": [
+        {
+          "text": "Při zadávání názvu skenované přílohy bylo opraveno chování kurzorových šipek. Šipky nahoru a dolů nyní v textovém poli fungují správně pro pohyb v textu, místo aby přesouvaly výběr v nadřazeném seznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2a013dc3eeb4"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "9b0211750aa6"
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d23160488a0e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "02a9c60c1902"
+      },
+      "content": [
+        {
+          "text": "EKG data do uzamčeného dekurzu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d3ebe7ea5edb"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, kdy se data z přístroje EKG (např. BTL) nepřenášela do dekurzu v případě, že lékař uzamknul záznam dříve, než sestra dokončila měření. V takovém případě, pokud není dohledána návštěva k danému dni a danému odpovědnému lékaři, se založí nová návštěva, do které jsou informace vepsány. O založení nové návštěvy je uživatel informován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "85431c1206c3"
+      },
+      "content": [
+        {
+          "text": "Statistiky ÚZIS – rehabilitace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b4bc3257150"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba ve výpočtu statistik ÚZIS pro rehabilitační pracoviště. Hodnoty ve sloupcích (zejména FT – fyzikální terapie) jsou nyní počítány správně a odpovídají požadovanému členění dle ÚZIS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e063b9d1b8d2"
+      },
+      "content": [
+        {
+          "text": "Smazání očkování u pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6d5ba75be58a"
+      },
+      "content": [
+        {
+          "text": "Odstraněna chyba, která znemožňovala smazání záznamu o očkování u pacienta. Při pokusu o smazání se zobrazovala chybová hláška o nenalezení vakcinační dávky – tato chyba je nyní opravena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b2646fb65130"
+      },
+      "content": [
+        {
+          "text": "eNeschopenky – opakované zobrazení upozornění",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "551355ad8047"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, kdy systém opakovaně zobrazoval upozornění k ošetřovnému a dlouhodobému ošetřovnému přesto, že již bylo uživatelem potvrzeno. Notifikace jsou nyní správně označovány jako zpracované.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "517e8ba848d0"
+      },
+      "content": [
+        {
+          "text": "Signální výkon vykázaný navzdory pravidlu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1e220e45ca0"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba ve vyúčtování tak, aby uživatel v modulu V",
+          "type": "text"
+        },
+        {
+          "text": "yúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " mohl vykázat výkon, který je v rozporu s definovaným pravidlem. O této skutečnosti (že je vykazován výkon v rozporu s pravidlem), je uživatel informován. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "03049c1459be"
+      },
+      "content": [
+        {
+          "text": "Přetahování dělicí lišty (splitter)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3aa19a4bcf42"
+      },
+      "content": [
+        {
+          "text": "Opraveno chování dělicí lišty (splitteru) v obrazovkách s více panely. Lišta nyní respektuje nastavená minimální a maximální omezení velikosti panelů a nelze ji přetáhnout mimo povolený rozsah.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

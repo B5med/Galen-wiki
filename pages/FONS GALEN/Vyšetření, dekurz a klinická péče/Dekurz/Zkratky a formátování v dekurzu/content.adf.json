@@ -1,0 +1,109 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V programu není nadefinována žádná předvolená šablona dekurzu, nicméně program umí zkratky nejčastějších slov., tj.",
+          "type": "text"
+        },
+        {
+          "text": " pokud na začátku odstavce uživatel napíše sub a mezerník, program napíše ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Subjektivně:, obj -> Objektivně:, záv -> Závěr:, ter -> Terapie:, dop -> Doporučení: a nál -> Nález. Důležité je, aby tyto zkratky byly na začátku odstavce a byla za nimi mezera. Pokud je potřeba v dersu zvýraznit důležitou informaci, tak za použití „uvozovek“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravé části jsou pak zobrazeny vyplňované formuláře. Slouží zároveň jako odkazy, kliknutím na ně se lze dostat do příslušného formuláře. V případě medikací a formulářů je možné tyto odkazy použít i na přetažení a tím zkopírování do dnešního záznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do dekurzu je možné konfiguračně přidat ikonu „Formátovat text“. Výchozí způsob zapisování do editačního pole bude „prostý text“. V případě, že uživatel bude chtít editovat text dekurzu, klikne na ikonu „Formátovat text“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 390,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 390,
+            "alt": "image-20250623-081804.png",
+            "id": "204b0eaf-104b-4adb-b533-3bb2192432c6",
+            "collection": "contentId-53444609",
+            "type": "file",
+            "height": 205
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po kliknutí na ikonu „Formátovat text“ se zobrazí panel ikon pro formátování textu pomocí něhož bude možné v editačním poli upravovat formát textu stejným způsobem jako v lékařské zprávě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 390,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 390,
+            "alt": "image-20250623-081821.png",
+            "id": "11e86e1d-d0ce-4e24-b0e5-223a73ea82f4",
+            "collection": "contentId-53444609",
+            "type": "file",
+            "height": 207
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

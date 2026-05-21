@@ -1,0 +1,207 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7e78d28d-538b-4120-a7a5-88511c675eaf"
+      },
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> záložka Sklady ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "37443bc8-2b61-426b-b00c-9686b078e6d6"
+      },
+      "content": [
+        {
+          "text": "Podobně jako v záložce Pokladny Je možné založit jeden sklad nebo více skladů (použití malého zeleného + vlevo nahoře). Při založení či následné editaci konfigurace skladu lze zadání názvu a zkratky přiřadit odpovědné pracoviště, na kterém se bude pokladna používat. Současně lze definovat, ze kterých pracovišť bude sklad zpřístupněn. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1154,
+            "alt": "image-20250618-113234.png",
+            "id": "69e79a5b-abd5-4d2e-bc99-0b09155cd036",
+            "collection": "contentId-75595845",
+            "type": "file",
+            "localId": "3657f117-cccd-4bbd-a5dc-16a7039f3513",
+            "height": 254
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "99d51cf9-aa71-40bf-8979-87f4a0bfb0ef"
+      },
+      "content": [
+        {
+          "text": "Dvojklikem na řádek se zvoleným skladem otevřeme konfigurační okno. Pokud má společnost aktivní funkci elektronických dodacích listů od Firmy Avenier, je nutné zapsat do nastavení skladu zákaznické číslo Avenier. Pokud již sklad není pracovišti používán, lze ho zneaktivnit (zneviditelnit pro uživatele) odkliknutím checkboxu Aktivní.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 748,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 748,
+            "alt": "image-20250618-113248.png",
+            "id": "84ba3050-21b0-441b-8d26-75e2057fe6f0",
+            "collection": "contentId-75595845",
+            "type": "file",
+            "localId": "6019d197-0712-4f3a-ac04-c1bb76c9a7ca",
+            "height": 604
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 275,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 275,
+            "alt": "image-20250618-113259.png",
+            "id": "31643d83-5bed-456a-aba7-18448cad1dbf",
+            "collection": "contentId-75595845",
+            "type": "file",
+            "localId": "46aedd11-7674-4226-b1d5-77cd6f1833bf",
+            "height": 156
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "61593de6-eece-4e66-bd9c-54a2b2e2cb19"
+      },
+      "content": [
+        {
+          "text": "Je-li nastavený časový úsek Hlídat exspiraci kratší než (zadáme počet dní), systém upozorní na blížící se exspiraci dle zadaného počtu dní malým vykřičníkem v červeném poli v pravém horním rohu skladové karty.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "33617197-04b9-475e-b8ed-bd2e3701ca18"
+      },
+      "content": [
+        {
+          "text": "Systém naskladňování látek, očkování atd. je popsán v kapitole Očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "815e7f79-552f-4557-ad04-f07d385db502"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "fadeaf0f-85ac-4db1-95d8-bb7bb8b2fd92"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 232,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 232,
+                    "alt": "image-20251121-090136.png",
+                    "id": "569ca52e-057e-4d1e-b384-b081489ac7b5",
+                    "collection": "contentId-75595845",
+                    "type": "file",
+                    "localId": "2980f4fd-7812-4f40-9543-dbff470e38a0",
+                    "height": 195
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "8a0848cb-cd8b-4864-b88a-d8bae610f44d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "34ed00c2-2865-4ff9-9712-eb93461c7f94"
+              },
+              "content": [
+                {
+                  "text": "Hlášení blížící se exspirace lze nastavit v Správce → Správa organizace → Agendy → Sklad → položka “Hlídat exspiraci kratší než”",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "10f858c0-f3d7-4958-a686-28a7d7658a11"
+      }
+    }
+  ],
+  "version": 1
+}

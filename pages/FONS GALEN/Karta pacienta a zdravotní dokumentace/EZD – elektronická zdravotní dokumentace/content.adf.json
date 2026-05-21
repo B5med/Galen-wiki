@@ -1,0 +1,3098 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "fc8da97a-2ba1-409f-a42a-75e82ffeb986"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "008252f9-8b95-41cf-bd17-d3268244cacf"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a719ece9-25af-4966-9c33-adf639c20724"
+      },
+      "content": [
+        {
+          "text": "Elektronický archiv slouží pro ukládání dokumentů elektronické zdravotní dokumentace. Elektronický dokument se stává platným až po uložení do archivu, kde je ověřen.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f21c03e2-e917-48a0-a1ce-ffd9dcaa90ae"
+      },
+      "content": [
+        {
+          "text": "Napojení na el. archiv zdravotnické dokumentace je placenou nadstavbou. V případě zájmu o napojení je potřeba kontaktovat Stapro, které v prvním kroku vytvoří úložiště a nakonfiguruje napojení. Další kroky popsané v tomto dokumentu již provádí sám zákazník. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "95f93ca4-b7cd-4acc-8a46-e8d11c7525b8"
+      },
+      "content": [
+        {
+          "text": "Konfigurace uživatele ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f15da6a1-a18d-4a17-8b7f-24f49df23897"
+      },
+      "content": [
+        {
+          "text": "Uživatelé, kteří jsou oprávněni k podpisu dokumentů, odesílají podepsané dokumenty do archivu. Každý uživatel obdrží své přihlašovací údaje do archivu. Takový uživatel musí mít správcem jeho společnosti zapnutý modul EZD. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "94891f6c-207e-4fea-a762-ce01b70eb41a"
+      },
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> záložka Uživatelé, rozkliknout daného uživatele ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 881,
+            "alt": "image-20250618-083140.png",
+            "id": "dedfdf74-0d9d-4b07-aabe-0dc281707b54",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "0301fd5f-5ef7-488d-ab8d-530fdc3fd9e1",
+            "height": 341
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6f57df72-efc9-4aa1-b5ea-dd892f1eecba"
+      },
+      "content": [
+        {
+          "text": "Pokud je na společnosti zapnuta úroveň EZD s archivem, zobrazí se aktivaci modulu EZD. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a5254cf1-e265-4334-8987-0bdbccd9ae11"
+      },
+      "content": [
+        {
+          "text": "Zároveň uživatel zvolí způsob odeslání dokumentu do archivu: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a35919ae-4531-4177-b46e-7c33a79b1fdd"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "20473560-3b2b-40c0-bc60-8d93aa2e8a8e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8e5a10c2-8088-45bf-b792-5fb359376745"
+              },
+              "content": [
+                {
+                  "text": "Ručně   ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4a6f4c11-d424-4e74-a16b-702480b41600"
+      },
+      "content": [
+        {
+          "text": "Dokumenty jsou odeslány až poté, co uživatel označí dokumenty, které se mají do archivu odeslat. Uživatel dokumenty odesílá pomocí tlačítka Odeslat v modulu EZD. Výhodou této volby je to, že uživatel odesílá dokument až ve chvíli, kdy si je jist, že dokument již nebude upravovat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5529aabc-bde2-4f0c-9d92-be3d501e3e04"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "19a99155-2c7a-4e02-9991-bc0b92c96ac3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2a201939-a71c-4c60-a81c-39f2e74a2b28"
+              },
+              "content": [
+                {
+                  "text": "Automaticky   ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b083183e-ae8d-4672-b14f-4980d8dd6184"
+      },
+      "content": [
+        {
+          "text": "Dokument je ihned po podepsání uživatelem v aplikaci odeslán do archivu. Nevýhodou této volby je v možný nárůst počtu dokumentů v archivu v případě, kdy uživatel potřebuje již odeslaný dokument upravit, protože dokumenty v archivu se nestornují, v archivu zůstávají všechny do něj odeslané dokumenty. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "12d9b619-3b83-4b13-9cbc-332496bcf645"
+      },
+      "content": [
+        {
+          "text": "Uživatel si taky volí možnost upozorňovat na nepodepsané dokumenty. Zvolený datum určuje, na jak staré nepodepsané dokumenty nás bude systém upozorňovat. Upozornění je ve formě vyskakovacího okna po zapnutí Galenu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7aca526d-b121-4355-a9f6-f797a65f2c93"
+      },
+      "content": [
+        {
+          "text": "Konfigurace společnosti a pracoviště ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b6851e39-a744-4a67-8d03-503d05d906aa"
+      },
+      "content": [
+        {
+          "text": "Na úrovni společnosti je možné definovat složku, do které se ukládají dokumenty v případě využití EZD bez archívu. V případě využití EZD s archívem, se dokumenty do této složky ukládají jenom dočasně, dokud nejsou odeslané do archivu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3eb1fa69aee1"
+      },
+      "content": [
+        {
+          "text": "Zároveň lze EZD aktivovat samostatně pro jednotlivá pracoviště. Tuto možnost je nutné před spuštěním funkcionality předem projednat se STAPRO.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1053,
+            "alt": "image-20250618-083227.png",
+            "id": "2024a011-6c93-487a-b931-2469db8d85fc",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "b345d68d-c4b1-43bd-ae86-cdb286e9937a",
+            "height": 581
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f7c91b54-1767-41e7-9d9d-b1cc3857ca1b"
+      },
+      "content": [
+        {
+          "text": "Vytvoření podepsaného pdf dokumentu  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c27586d2-e5ba-4616-a1a8-630d1881c1c7"
+      },
+      "content": [
+        {
+          "text": "Do el. archivu jsou odeslány podepsané pdf dokumenty. V rámci aplikace AIS Galen je potřeba vygenerovat toto pdf a podepsat jej. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ac498b21-b41f-4d29-9152-d5f14ef78b81"
+      },
+      "content": [
+        {
+          "text": "Dokumentace v rámci dekurzu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f75b5b90-ef98-48f9-9e77-ec13265ae5f2",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "130167cf-6f10-4b2c-9d5e-ddd38df01c4f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a03aa47c-c67c-4a92-9379-bf458bbfed9c"
+              },
+              "content": [
+                {
+                  "text": "Zdravotní dokumentace je v dekurzu rozdělená na dokumentaci Kurativa a dokumentaci PLS. V rámci dekurzu je možné vygenerovat, uzamknout a podepsat tyto části zdravotní dokumentace. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 477,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 477,
+            "alt": "image-20260216-115457.png",
+            "id": "2fb43132-9bd8-4f69-9420-458214150dcc",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "e10e3657ff73",
+            "height": 562
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "82ce5d0afeb0"
+      },
+      "content": [
+        {
+          "text": "Pozn. pokud se uživateli toto konfigurační okno po stisku tlačítka nezobrazí, je možné tuto konfiguraci zobrazit po stisku tlačítka busty -> záložka Nastavení → tlačítko Konfigurace zamykání dekurzu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 77,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 50,
+            "alt": "image-20250618-083431.png",
+            "id": "6d4dbf60-03af-4213-8210-6bab8a3356ad",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "9e610b48-3763-401d-9d0f-6a5a0afcd518",
+            "height": 53
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 382,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 382,
+            "alt": "image-20250618-083614.png",
+            "id": "d32244ca-2aad-477b-9bad-5d10cb32871a",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "0838334f-851d-4881-a51c-5e602678fc05",
+            "height": 59
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "91cf8b03-43a4-41bc-afc1-bfc998d689fc"
+      },
+      "content": [
+        {
+          "text": "V případě vytvoření více dekurzů v daný den (Kurativa, PLS) se podepisuje zdravotní dokumentace za každý typ dekurzu samostatně. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8ff9cc6b-5659-4699-9522-63c43c672cd6"
+      },
+      "content": [
+        {
+          "text": "V případě potřeby je možné vyšetření a žádanky vygenerovat do oddělených dokumentů a ty podepsat. Ostatní položky je možné vygenerovat do pdf a podepsat pouze v rámci dekurzu. V případě zapnuté funkcionality auditní stopy se podepsání a stornování podepsaného dokumentu zobrazí v historii změn.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "96bf020b-fe31-42d5-9122-24e5355f2b04"
+      },
+      "content": [
+        {
+          "text": "Tlačítko pro vygenerování pdf. (vpravo) ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1024,
+            "alt": "1ba2ea0d-0d87-45b2-8b69-3d9d7a804d37.png",
+            "id": "14d6685c-2fec-4983-8fd8-bd8a9f5eba32",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "6c8b8d66be74",
+            "height": 267
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1153,
+            "alt": "image-20250618-083638.png",
+            "id": "b28095e2-9c52-4382-84ee-e7d593880391",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "6ff56589-fd8a-45c5-946d-a1f6b00f1a42",
+            "height": 301
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "98476301ecc3"
+      },
+      "content": [
+        {
+          "text": "A. Anamnéza",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "40f4772a-2178-4e80-a189-95129c7a9f2f"
+      },
+      "content": [
+        {
+          "text": "Anamnézu je možné podepsat pouze v okně Anamnéza, ve kterém se anamnéza vytváří. Pomocí tlačítka pečetě nebo EZD  je možné zprávu podepsat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 60,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 60,
+            "alt": "image-20260216-115002.png",
+            "id": "61a98be5-ff75-415b-913f-cf77d5d9f7d1",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "80a5c63e4c2f",
+            "height": 77
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d8068b33-0ee5-40f6-92bb-699365175c3f"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4d12891a-8cd9-4ac6-b1ea-940f561f1f52"
+      },
+      "content": [
+        {
+          "text": "B. Lékařská zpráva",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a2c20652-6e3e-4bc8-94e9-f06d53906633"
+      },
+      "content": [
+        {
+          "text": "Lékařskou zprávu je možné podepsat pouze v okně Lékařské zpráva, ve kterém se zprávy vytváří. Pomocí tlačítka EZD  je možné zprávu podepsat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd97b649-d012-4e43-9eac-8cb5be3c92f6"
+      },
+      "content": [
+        {
+          "text": "C. Přílohy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c67d69a5-3ac3-4ef8-a336-6a48fdcaf89d"
+      },
+      "content": [
+        {
+          "text": "Všechny přílohy (ve formátu .docx, .xlsx, .rtf, .txt, .mp3, .mp4) lze odeslat do EZD pouze společně s dekurzem. V dekurzu se po kliknutí na tlačítko pečetě zobrazí okno ”Konfigurace obsahu EZD”, kde uživatel zvolí, které přílohy chce odeslat do EZD (viz obrázek níže). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 160,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 160,
+            "alt": "image-20250618-084330.png",
+            "id": "1ac93654-a5c3-479c-b403-a5ca4b171361",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "2c892df5-7acf-4079-b28b-e96721a9db14",
+            "height": 105
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9adceb7f-fc94-4409-a9e4-852a6b124001"
+      },
+      "content": [
+        {
+          "text": "Samotné přílohy se nepodepisují, s výjimkou dokumentace převáděné z listinné do elektronické podoby. K tomuto účelu slouží tlačítko Převod listinné ZD. V tomto případě je k nahrávané či skenované příloze automaticky přidána další strana s tzv. doložkou, která obsahuje informace, kdo a kdy daný dokument naskenoval, rozsah dokumentu a další náležitosti. Tento dokument uživatel podepíše kliknutím na tlačítko ”Opatřit podpisem” v okně ”Náhled dokumentu k opatření podpisem“. Dokumentaci převáděnou z listinné podoby není možné z okna konfigurace obsahu EZD odebrat, aby mohl být proces převodu řádně dokončen. O tomto faktu je uživatel informován po najetí myši na ikonu “i” (info). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 883,
+            "alt": "image-20250618-084437.png",
+            "id": "d425aa0f-3855-4fea-8a94-b8a34c4b1be9",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "e67def8a-2100-493a-9716-d0d45ed756e6",
+            "height": 636
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "63a029e1-9177-4dfd-8035-9ecc2d8ebac3"
+      },
+      "content": [
+        {
+          "text": "D. RDG žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "daf8238c-f70b-4646-baf1-1d2ce6e38ef2"
+      },
+      "content": [
+        {
+          "text": "RDG žádanky je možné podepsat v okně RDG žádanky na pracovišti žádajícím i provádějícím radiodiagnostiku, ve kterém se žádanky vytváří. Pomocí tlačítka EZD je možné žádanku podepsat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7cac9dfd-b28c-4923-b879-fa9dde4de54d"
+      },
+      "content": [
+        {
+          "text": "E. FT poukazy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "184ccc02-c664-4a4d-a152-64b0b8c199de"
+      },
+      "content": [
+        {
+          "text": "FT poukazy je možné podepsat v okně FT poukazy na pracovišti žádajícím i na pracovišti, které využívá aparát umožňující práci s přijatými poukazy FT. Pomocí tlačítka pečetě EZD je možné poukaz podepsat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a8b576e3-a3be-4d92-993b-7b233f208e87"
+      },
+      "content": [
+        {
+          "text": "F. Lékové žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "189fc071-2e06-4ffe-a91a-8177441c3fad"
+      },
+      "content": [
+        {
+          "text": "Informace o vytvoření nové lékové žádanky se automaticky propíše do dekurzu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1197,
+            "alt": "image-20250618-090752.png",
+            "id": "c99fdcb3-b448-4560-9c50-2a80cfb638a5",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "66b6d1a5-c865-4e37-af52-241e1d401781",
+            "height": 643
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3ddb1f70-a9ef-41df-ae61-74d6ecb8d01c"
+      },
+      "content": [
+        {
+          "text": "Při vytvoření nové lékové žádanky po kliknutí na tlačítko \"Odeslat\" nebo \"Odeslat a vytisknout\" se propíše informace do dekurzu v následujícím formátu: ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslána nová léková žádanka č. {číslo_lékové_žádanky}",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lék: {lék}, datum indikace: {datum_indikace}, pracoviště: {pracoviště}, pracovník: {pracovník} ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d6d16c67-dc83-483c-95ab-a9aa4ab5bab8"
+      },
+      "content": [
+        {
+          "text": "G. Zaměstnání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b7ba07d2-446d-4e69-b299-a9789aca57c3"
+      },
+      "content": [
+        {
+          "text": "Při ukončení zaměstnání dochází po zadání datumu \"Do\" u pacienta k přepočítání skartačních lhůt veškeré dokumentace:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ecba3dad-0d58-47e6-9028-c72185feedb4",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fa69c123-ba71-4436-ac94-87c8c569f00d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "37f925db-6787-4d64-91a9-1076f138f351"
+              },
+              "content": [
+                {
+                  "text": "Vybereme požadované zaměstnání + potvrdíme tlačítkem \"Ok\": ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1104,
+            "alt": "image-20250618-090923.png",
+            "id": "5945633c-5e28-4add-8247-83f00f606035",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "a3e02f1a-dfef-45ff-932f-ad0f66b489d4",
+            "height": 586
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f9e7372f-864f-42b4-b6a8-c5acc4043a22",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ec7b97a0-81b5-4739-b936-4bca3900c585"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "24532026-e9e6-47d9-979b-87411bfbd9c0"
+              },
+              "content": [
+                {
+                  "text": "Zobrazí se informace, zda si přejeme informaci o ukončení zaměstnání přenést do dekurzu. Pro provedení zvolíme v dialogovém okně volbu \"Ano\":",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1102,
+            "alt": "image-20250618-090947.png",
+            "id": "0a6dd6b6-fdc9-4add-adf4-b831c7e50eea",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "d5145f16-79d9-4b64-81b4-aa43b9f4ee68",
+            "height": 591
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "30469e90-795a-4905-8d73-d9793333961e",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8fbb3f70-1524-4127-8714-bae0bc3f98d0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e296c647-05f2-418c-bd12-c598e02d66bf"
+              },
+              "content": [
+                {
+                  "text": "Následně dochází k náhledu dokumentu k podepsání. K podpisu dokumentu a k přenesení informace dochází kliknutím na tlačítko \"Podepsat\":",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1103,
+            "alt": "image-20250618-091013.png",
+            "id": "0f7480ff-1434-4a9a-89a8-193e7acbe7fb",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "7b5af4ea-49db-448c-b026-db75d4e8f08f",
+            "height": 581
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "dae89e63-5065-4bff-bf68-59afe30fff45",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86f599ae-5a68-43a0-8916-54155af47959"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8030ee48-74b4-4246-ba39-69d6ac063668"
+              },
+              "content": [
+                {
+                  "text": "V dekurzu následně dochází k zápisu informace o ukončení zaměstnání. Zde je možné také dokument později zobrazit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1104,
+            "alt": "image-20250618-091033.png",
+            "id": "980fc9cf-6d28-4997-909b-a1ff511f6b51",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "12d65b86-13f3-4449-8cdd-228bada0eb9c",
+            "height": 586
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "65f117d0-3935-4800-a4ff-49da2250289b"
+      },
+      "content": [
+        {
+          "text": "Převod podepsaného dokumentu na papírovou autorizovanou konverzi ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ab9ef387-fa7a-4e66-8e92-5a7f069281f3"
+      },
+      "content": [
+        {
+          "text": "Každý dokument, který byl podepsaný a uložený do archivu EZD, lze převést na papírovou autorizovanou konverzi dat. Možnost uložit podepsaný dokument je dostupná na všech místech, kde je možné dokument zobrazit, např. v přílohách vybraného pacienta, v modulu EZD, u lékařských zpráv, dekurzů a dalších dokumentů odeslaných do archivu EZD. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 762,
+            "alt": "image-20250618-092909.png",
+            "id": "f59cd2bc-4259-4128-8a7d-a6f1f5983d71",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "f3d5eaca-9256-4b27-b19a-1a69aef23b9b",
+            "height": 71
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b9befc2-4ef5-4279-880e-59691bee765d"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí na ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " se otevře náhled podepsaného dokumentu s tlačítkem uložit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1138,
+            "alt": "image-20250618-092937.png",
+            "id": "dc83be55-d604-4ecf-a54d-5af0aebb09dc",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "24597371-7858-4b41-b8dc-1d4e86f7ed4c",
+            "height": 629
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b20c3792-d22c-4f08-9fb0-49ecb13234b3"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí na Uložit si uživatel může zvolit, kam daný soubor z archivu uloží ve svém počítači, případně na flash disk apod. Po kliknutí jen na Odejít se dokument neuloží. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4f0a4092-40ca-46e9-9dd2-0ffced548a68"
+      },
+      "content": [
+        {
+          "text": "Stornování podepsaného dokumentu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "670521ab-7f25-45dd-abcd-5edfa809e0ba"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřebné dokumentaci po podepsání ještě upravit, musí se záznam znovu otevřít a podepsaný dokument stornovat. Po úpravě je možné znovu dokument podepsat. Stornovat podepsaný dekurz lze dvěma způsoby: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "09ab1dc0-eaec-48c3-af0b-689963daafb9",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7b353fed-2731-436a-af54-d342ca689b78"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c245a662-275c-4e20-a8a1-a6bc121b2780"
+              },
+              "content": [
+                {
+                  "text": "Přes pravé tlačítko myši nad lištou se stavem vygenerovaného dokumentu EZD ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a910162f-1fe4-4ae3-bc7f-1b4eec3c092d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c1209b32-b020-4ad4-bfea-cdb2b24a9861"
+              },
+              "content": [
+                {
+                  "text": "Kliknutím levým tlačítkem myši na modrou ikonu otevřeného zámečku příslušné návštěvy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1343,
+            "alt": "image-20250618-093023.png",
+            "id": "477608a3-35ee-4c75-996e-07f795e6a4bb",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "95705764-a73b-406d-bf14-bc2c253c068e",
+            "height": 280
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "644cea3d-b0fe-461c-be22-425ea4f895de"
+      },
+      "content": [
+        {
+          "text": "Pozn.: Stornovat dokument může pouze uživatel, který daný záznam podepsal (uzamknul). V případě, že bylo společně uzamknuto více návštěv dohromady v daný den, dojde při stornování k odemčení všech těchto spolu uzamknutých návštěv. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "99c94bc4-a9a6-44e5-b2bc-aa528ec88eae"
+      },
+      "content": [
+        {
+          "text": "Nepodepsané dokumenty v Dashboardu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b9a27d6b-20af-4cec-a08b-eb7d946acf13"
+      },
+      "content": [
+        {
+          "text": "Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Z jednotlivých záznamů je možné se prokliknou přímo do dokumentů a následně je podepsat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 868,
+            "alt": "image-20250618-093108.png",
+            "id": "4fea1a9b-f4fe-48ed-928b-70cfd385693f",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "fbe52d07-24f0-4e3b-8ce9-d7471e05cf8e",
+            "height": 708
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7ce3a7f3-8273-4c90-9cd8-ea023ad8fc72"
+      },
+      "content": [
+        {
+          "text": "Odeslání podepsaného dokumentu do archivu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d948b363-d2cf-4446-a874-89b460f6fd96"
+      },
+      "content": [
+        {
+          "text": "V závislosti na konfiguraci uživatele jsou dokumenty odeslány do archivu okamžitě po podepsání nebo až po ručním odeslání uživatelem pomocí tlačítka Odeslat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "db14e265-78b2-441e-ae99-9da8d2da801c"
+      },
+      "content": [
+        {
+          "text": "Ruční odeslání dokumentu probíhá v modulu EZD – záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Dokumenty k odeslání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebo záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Správa dokumentů EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " – dokumenty ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Čeká na schválení odeslání do archivu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 73,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 73,
+            "alt": "image-20250618-093143.png",
+            "id": "6190bbee-1eb0-403e-82a6-e4e939d7aafe",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "edf7ef99-e72c-46e7-86e3-6b34d53a66e0",
+            "height": 91
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a25c6b83-1dd5-4c4a-ac45-b65f4fb39de3"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce15c2ac-4f54-449e-902c-9ba70eadc0e3"
+      },
+      "content": [
+        {
+          "text": "Dokumenty, které je potřeba odeslat do archivu, je potřeba označit (je možný i multiselect) a stisknout tlačítko Odeslat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d303c03-b6dc-43ad-a7cd-eedcae2a6e9a"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9b691293-ecea-4b15-9c4c-c8a22f62d62e"
+      },
+      "content": [
+        {
+          "text": "Po odeslání dokumentů do archivu dokument nabývá těchto stavů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c70d7774-4cf0-45c6-9f66-71d60b113f1e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cd1f93d2-81b1-4a14-b0db-aa4083b2736f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b71a308a-46ba-4047-b2ee-016a05707fb2"
+              },
+              "content": [
+                {
+                  "text": "Odesílání do archivu - dokument je odesílán od archivu.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ecd827f3-9453-48bb-8654-82b5c70c78bb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2b6717f8-8b7a-4c28-98f7-d49031b79e8a"
+              },
+              "content": [
+                {
+                  "text": "Odeslán do archivu  - dokument bylo doručen do archivu a čeká, až bude archivem přijat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ed57f99c-fd7f-4d70-ae49-fa1a9386f1e8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "447141e4-01ec-4fce-a754-38deb9e081de"
+              },
+              "content": [
+                {
+                  "text": "Archivovaný - dokument byl přijat archivem. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6c0ff06a-de89-41bf-a844-9695ecae0b86"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7eb8b5b8-ef09-49e3-912d-6113a7399ad9"
+              },
+              "content": [
+                {
+                  "text": "Chyba při odesílání do archivu - podrobnosti k chybě jsou zobrazeny ve sloupci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Chyba.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "139b33e6-853a-42f9-9783-0421d5d4112e"
+      },
+      "content": [
+        {
+          "text": "Popis modulu EZD ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a5bb5b8-9b98-4bc9-a4a8-9f2bbe0b3037"
+      },
+      "content": [
+        {
+          "text": "V modulu EZD může uživatel dokument podepsat a odeslat jej do archivu. Následující podkapitoly popisují jednotlivé záložky modulu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5afbd991019f"
+      },
+      "content": [
+        {
+          "text": "Správa dokumentů EZD ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d7f99b7-8119-4506-afa1-f129bb5707dc"
+      },
+      "content": [
+        {
+          "text": "Záložka zobrazuje dokumenty ve všech stavech, kterých může dokument EZD nabýt. Záložka pracuje pouze nad dokumenty v rámci EZD, tzn. podepsanými pdf dokumenty. Dokumenty, které ještě nebyly podepsány, nezobrazuje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1530,
+            "alt": "image-20260216-121702.png",
+            "id": "b4a510f8-c194-4c55-af10-9d6e119357b5",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "d938d271c519",
+            "height": 89
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "7835d0f68ea1"
+      },
+      "content": [
+        {
+          "text": "Filtrace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "aca3ea62-30f4-415e-94d0-0c11b8bacfe9"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d60011a6-c6ec-4597-bbf1-2dd303576ad4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bc97a075-f1bb-4ccf-b5c5-14dd62ef93dd"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště – pokud uživatel přistupuje jako Správce, vidí navíc filtraci podle pracoviště, na kterém dokument vznikl. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1a4781383e12"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9319043c6785"
+              },
+              "content": [
+                {
+                  "text": "Typ dokumentu – určuje, v rámci kterého modulu byl dokument vygenerován. Pokud bylo vyšetření uzamčeno a vygenerováno do pdf v rámci dekurzu, zobrazí se pdf dokument pouze pod typem dokumentu „dekurz“. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5dc52b44-0008-4897-8bee-65a6a1de94f4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c2e7de4-7ade-4607-9eb1-f3980ff8e87b"
+              },
+              "content": [
+                {
+                  "text": "Pacient – určuje dokumenty EZD pro konkrétního pacienta. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4ace75cd-c271-4134-8cb6-d854458e1c5f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "85269047-2546-4352-8c4c-163f87edea71"
+              },
+              "content": [
+                {
+                  "text": "Datum od, Datum do – filtruje podle data podpisu pdf dokumentu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e390940b-ea8b-4024-92cf-cb4fbe6fbe6a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b0b98bc1-c96e-4c0e-97fa-ad9316c219cc"
+              },
+              "content": [
+                {
+                  "text": "Typ dokumentace – filtruje dokumentaci typu Kurativa či PLS. Nevyplněný parametr zobrazí všechny dokumenty. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "648c8adf-c61a-4dc9-b2d9-c80446d4c82c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fca4ba14-bbdc-448d-9930-13e7f4670a1a"
+              },
+              "content": [
+                {
+                  "text": "Stav ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3cd68739-d70b-44f8-a4f2-9226e75c811a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "27250ab1-488d-4807-9b55-a249e0ada4d4"
+              },
+              "content": [
+                {
+                  "text": "Checkbox „Chybový stav“ – zaškrtnutí zobrazí všechny dokumenty, které jsou v jakémkoli chybovém stavu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1d97d0f-65b5-44a0-a98a-934db77aff71"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "616bfd54-edc2-4ab0-9904-10cb3e6faca9"
+              },
+              "content": [
+                {
+                  "text": "Checkbox „Vč. dokumentů vzniklých před napojením archivu“ – zobrazení defaultně pracuje pouze s dokumenty, které vznikly po napojení společnosti na el. archiv. Po zaškrtnutí checkboxu se zobrazí i dokumenty vzniklé před napojením. Tyto dokumenty však nelze z důvodu chybějících metadat do archivu odeslat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "2641e03ccab1"
+      },
+      "content": [
+        {
+          "text": "Filtrování stavů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "11c67ae8-4462-4c80-93c4-8d648218bc5b",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a7ddf327-8659-4ace-b263-894924674a40"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "236c9a5f-c974-48e5-81ac-24bc79f66db1"
+              },
+              "content": [
+                {
+                  "text": "Podepsaný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = v aplikaci byl vygenerován pdf dokument, který byl podepsaný. Dokument tento stav nabývá pouze v případě, že společnost v aplikaci nemá aktivován stav EZD s archivem. V tomto stavu jsou tedy všechny dokumenty, které uživatelé vygenerovali a podepsali před napojením společnosti na archiv EZD. Dokumenty vzniklé před napojením společnosti na archiv již není možné do archivu odeslat z důvodu chybějících metadat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1035c97-18f8-4cca-9e06-362e5abb3af3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7124bb75-b784-4e7e-9aae-22e12fc0127e"
+              },
+              "content": [
+                {
+                  "text": "Stornovaný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = jedná se o podepsaný dokument, který byl uživatelem stornován. Uživatel obvykle dokument stornuje ve chvíli, kdy potřebuje upravit záznam, který již byl vygenerován od podepsaného pdf. Stornovat lze pouze podepsaný dokument i dokument, který již byl odeslán do archivu. V archivu dokument stornován není, zůstává tam i nadále, ale v rámci aplikace již dále není stav stornovaného dokumentu vůči archivu ověřován.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9ebfc8f6-d69a-4863-8341-fa094ebafab6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bfa2cf2c-897a-48d0-b1a4-9982392db5f2"
+              },
+              "content": [
+                {
+                  "text": "Čeká na schválení odeslání do archivu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " =  tohoto stavu může nabýt pouze dokument, který vznikl na společnosti po napojení na archiv. Dokument v tomto stavu čeká, až jej uživatel odešle z aplikace do archivu. To znamená, že tohoto stavu nemůže nebýt dokument, který podepsal uživatel, který má nastaveno automatické odesílání do archivu.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e85a12e1-57d0-41c2-b4e0-3128d7e1bcca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "72414850-ffa7-4353-be93-475cd102ec2a"
+              },
+              "content": [
+                {
+                  "text": "Odesílání do archivu ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= dokument je odesílán do archivu ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8772284-c05b-486a-99ce-a2197043b0d9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dac1405f-b7c6-46d2-8851-06f57ebbc75b"
+              },
+              "content": [
+                {
+                  "text": "Chyba při odeslání do archivu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = dokument se nepodařilo do archivu odeslat ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4043978d-d607-4038-8397-c23ecd6153b6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "245b8ac4-dfde-41a6-bd7d-0d83bb346176"
+              },
+              "content": [
+                {
+                  "text": "Odeslán do archivu ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= dokument byl odeslán do archivu, kde ale čeká na další ověření ze strany archivu. To znamená, že ač byl dokument do archivu doručen, ještě nemusí být archivem přijat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "808168c4-1742-4c37-9d1f-5145ce61da65"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2f3faa60-e319-43d5-b9ba-72232d9fe114"
+              },
+              "content": [
+                {
+                  "text": "Zpracováván, čeká v archivu ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= dokument je ověřován archivem. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "23db4c47-07c7-4fb8-b887-518bbef9a2e0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "92487e44-d0fb-4ab9-bea4-bd0c9ea600aa"
+              },
+              "content": [
+                {
+                  "text": "Archivovaný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = dokument byl přijat archivem a je v pořádku archivován.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d385d239-0e1f-4845-919d-333f8040dd70"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "320be048-ba58-4bef-b26d-1cc5b4b9cd2a"
+              },
+              "content": [
+                {
+                  "text": "Určen k trvalé archivaci ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= tohoto stavu nabývají pouze dokumenty se skartačním typem V. Po uplynutí doby určené vyhláškou se uživatel rozhoduje, zda je již možné je skartovat, nebo zda ještě musí být v archivu uložené.  ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "ba00174d10eb",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "cb5ce157e4fe"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "b51a61d69894"
+                      },
+                      "content": [
+                        {
+                          "text": "Poznámka: V rámci novelizací byl skartační znak zrušen. Jedná se tedy již o historickou záležitost, protože současná legislativa jej nevyžaduje.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "63447e2d-473a-44ad-b07e-2799fb017a9c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7348f464-ac4d-4369-bb11-ca1ca3073d8e"
+              },
+              "content": [
+                {
+                  "text": "V procesu skartačního řízení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = dokument byl archivem navržen ke skartaci.  Uživatel se v tuto chvíli přihlásí do webového rozhraní archivu, kde rozhodne o tom, zda se má dokument skartovat. Pokud ano, je možné jej v archivu skartovat. Pozor! Nikdy se neskartují jednotlivé dokumenty pacienta, ale vždy jeho celá dokumentace. Při skartaci v archivu je vhodné nechat si vygenerovat seznam skartovaných pacientů – pro následnou skartaci dokumentaci v rámci aplikace.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fa25d31a-9182-47c4-91ca-e87777a061bc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4f41336b-f9b2-419e-8979-c78688a7ec60"
+              },
+              "content": [
+                {
+                  "text": "Skartován",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = dokument by v archivu uživatelem skartován. V tuto chvíli má uživatel seznam pacientů, jejichž dokumentaci v archivu skartoval. Následně je potřeba skartovat dokumentaci pacientů v rámci aplikace.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6b77da2a-8160-4e82-8c4d-381000518b3e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8a1af149-5804-46b6-b6c0-83965de07ed4"
+              },
+              "content": [
+                {
+                  "text": "Neznámý stav",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = nepodařilo se od archivu získat stav dokumentu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6e7c4016-2096-4cdc-b9d5-e8d1984b9807"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4fce7128-3cd9-4215-826c-9d6af956346c"
+              },
+              "content": [
+                {
+                  "text": "Chyba v archivu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = dokument v archivu nabyl chybového stavu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8632cef397da"
+      },
+      "content": [
+        {
+          "text": "Dokumenty k odeslání ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1522,
+            "alt": "image-20260216-123406.png",
+            "id": "4a49e43a-881d-46f6-a3f5-a910ccf2e1dd",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "ecc81c867f95",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "375253f0-c775-4507-a192-8c281e8500f0"
+      },
+      "content": [
+        {
+          "text": "Tato záložka zobrazuje pouze dokumenty, které  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "321935b8-b4e4-4ed0-a912-24b4705197ee"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "da47e84e-60ad-4279-a806-74c3ce89a442"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "05df63f1-0625-46fc-bc95-031687bc4ccd"
+              },
+              "content": [
+                {
+                  "text": "čekají na ruční odeslání uživatelem do archivu (stav Čeká na schválení odeslání do archivu) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "49815a80-e30f-4341-91c4-f622b71cd01d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a0b88d2b-6bc4-46bd-a41e-d380d4484991"
+              },
+              "content": [
+                {
+                  "text": "jsou do archivu právě odeslány, ale archiv je zatím nepřijal (stav Odesílání do archivu) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4b4b5ddd-5456-4bdd-b53e-f3e50baeb285"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9abcbe4e-07a5-41ad-8802-8cf1d79f449d"
+              },
+              "content": [
+                {
+                  "text": "do archivu nebyly doručeny, např. z důvodu nedostatečného oprávnění uživatele v archivu (stav Chyba při odesílání do archivu). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "05070df4d874"
+      },
+      "content": [
+        {
+          "text": "Odeslané dokumenty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1530,
+            "alt": "image-20260216-123441.png",
+            "id": "34f0aba6-41d9-49db-a8dd-bcf5b27ae5db",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "ac18b4015910",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "317983e7fa0b"
+      },
+      "content": [
+        {
+          "text": "Zobrazuje pouze dokumenty, které byly do archivu odeslány. Pokud byl dokument do archivu odeslán a následně v aplikaci stornován, v této záložce se již neobjeví. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0212e00f05c4"
+      },
+      "content": [
+        {
+          "text": "Nepodepsané dokumenty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1530,
+            "alt": "image-20260216-123521.png",
+            "id": "b60c8f8f-a5d3-4191-9cda-285da47fc9be",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "e7121dd47b06",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e4fec2f4b97a"
+      },
+      "content": [
+        {
+          "text": "Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerovaná do podepsaného pdf dokumentu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "07b60946b362"
+      },
+      "content": [
+        {
+          "text": "V modulu EZD lze dokument po výběru pracoviště zobrazit a podepsat dvojklikem nebo pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Hromadné podepisování dokumentů není z legislativních důvodů povoleno, je však možné označit více dokumentů najednou a tím postupně spustit proces jejich zobrazení a podepisování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2280ca73-139f-4d18-a753-9d6f3a52550a"
+      },
+      "content": [
+        {
+          "text": "Proces skartace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5c1bf70a-bdfd-4d3b-8a57-eb9cf991caf7"
+      },
+      "content": [
+        {
+          "text": "Kapitola popisuje proces skartace, kdy je dokument navržen elektronickým archivem ke skartaci, uživatel jej v prostředí webového archivu posoudí a rozhodne, zda se má dokument skartovat. Po posouzení uživatelem uživatel dokument v archivu skartuje. Uživatel následně skartuje záznamy v AIS Galen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9b5acc27-88cd-4d97-8152-af3ac76b52a7"
+      },
+      "content": [
+        {
+          "text": "Důležitá poznámka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " - archiv navrhuje ke skartaci jednotlivé dokumenty, kdežto aplikace skartuje pouze pacienty. Aplikace tedy neskartuje jednotlivé záznamy pacienta, ale pouze všechny záznamy daného pacienta. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2d5a37e1-ace9-43ff-b2b5-1255dcc28747",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "124104cf-acbe-4f3c-af22-c944487eee7c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c7b6cfd8-f494-41fa-9bd2-298e85164098"
+              },
+              "content": [
+                {
+                  "text": "Možnost exportu seznamů",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a4778070-d858-48bc-b94f-6a020d0e980b"
+      },
+      "content": [
+        {
+          "text": "Všechny přehledy, resp. seznamy dokumentů archivu je možné exportovat pomocí tlačítka, viz. níže. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 100,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 100,
+            "alt": "abff32ae-c791-4828-9c0c-527873eb0b39.png",
+            "id": "8a71759e-5cb7-47ce-b59e-2de21c12e38a",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "fed5d7c10886",
+            "height": 75
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1e04800b92a7"
+      },
+      "content": [
+        {
+          "text": "Exportovat tedy lze např. seznam dokumentů navržených ke skartaci, ale i seznam skartovaných dokumentů. Vždy se však jedná pouze o popis dokumentů, není přiložen přehled jejich popisných dat (např. jméno pacienta, číslo pojištěnce, atd.)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "8a4b44e5-d688-47e0-9e9d-9f8c7b2f8238",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b417e2dc-e7e7-4b58-a30f-fc00f69500d1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "61ae41bf-60bf-4b9f-a6ac-d509940a2a8f"
+              },
+              "content": [
+                {
+                  "text": "Skartační třída",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2d80df0427e"
+      },
+      "content": [
+        {
+          "text": "Každý dokument z aplikace AIS Galen (dále jen „aplikace“) zaslán do prostředí elektronického archivu (dále jen „archiv“) zaslán s již zadanou skartační třídou, která je nastavena na základě vyhlášky o zdravotnické dokumentaci. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "01c9e97a-3492-4ec0-8cdd-43aba7a71da1"
+      },
+      "content": [
+        {
+          "text": "Každá skartační třída se skládá z číslic vyjadřující dobu v letech a dříve i z písmena S nebo V. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "54bdd6c2-1c6a-4980-985c-9586adf6eddd"
+      },
+      "content": [
+        {
+          "text": "S = označuje zdravotnickou dokumentaci, která se po uplynutí doby uchování navrhne ke zničení.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "676fb84d-34ae-43ed-8813-43bf9e85ee2f"
+      },
+      "content": [
+        {
+          "text": "V = označuje zdravotnickou dokumentaci, jejíž hodnotu nelze v okamžiku vzniku určit.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee5edad0-4b23-4aca-905f-7dc852a4de87"
+      },
+      "content": [
+        {
+          "text": "Jakmile uplyne lhůta definovaná skartační lhůtou, je dokument k 1. 1. následujícímu roku archivem navržen ke skartaci. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8cca78b485f0"
+      },
+      "content": [
+        {
+          "text": "Poznámka: V rámci novelizací byl skartační znak (písmeno) zrušen. Jedná se tedy již o historickou záležitost, protože současná legislativa jej nevyžaduje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0975c729-981f-4f11-a446-0740a1ad87d9",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "83ac889e-6094-4af3-85eb-cdeec44d17e7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e54acd39-e4b9-4775-a7c7-7fec4fb85d9a"
+              },
+              "content": [
+                {
+                  "text": "Dokumenty ke skartaci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "98a2004075c8"
+      },
+      "content": [
+        {
+          "text": "Archiv automaticky kontroluje dobu skartace každého dokumentu. Jakmile uplyne doba, po kterou musí být dokument uchován, je zařazen archivem do dokumentů ke skartaci. ",
+          "type": "text"
+        },
+        {
+          "text": "Záložka Dokumenty  - Dokumenty ke skartaci. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "Zde jsou zobrazeny všechny dokumenty, které byly archivem automaticky vyhodnoceny jako vhodné ke skartaci. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 121,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 121,
+            "alt": "image-20250618-093738.png",
+            "id": "b5fec192-af07-4009-b8f4-20e88ae8571e",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "2b89d723-35ab-4e04-9181-31724e9450d9",
+            "height": 103
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2585a479-f1ba-4ad2-a864-56163be3fb1d"
+      },
+      "content": [
+        {
+          "text": "Uživatel každý dokument posoudí (kliknutím na ikonu nastavení může zobrazit popisná data každého dokumentu) a rozhodne, zda jej zařadí do skartačního návrhu. Dokument může zařadit do stávajícího skartačního návrhu, nebo vytvořit nový skartační návrh. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1030c5d0-b4b6-46e4-a1ab-0ab5b14a7023"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0f1b578e-aec6-4c65-873d-bdf624aae637",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8b438011-c792-4ce0-aa50-fc6048c25bdc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a88c94d2-7dcb-488c-9d4b-0df9bf69aecc"
+              },
+              "content": [
+                {
+                  "text": "Návrh skartačního řízení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b1a04ba3c506"
+      },
+      "content": [
+        {
+          "text": "Následně uživatel zobrazí jednotlivé návrhy skartačního řízení (může existovat jedno, nebo více návrhů skartačního řízení).  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0f653acc-8aae-4620-aca3-091686fe0d7c"
+      },
+      "content": [
+        {
+          "text": "Záložka Dokumenty – Návrhy skartačního řízení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e6429ed3-cba2-4431-b411-65e3c1857cc6"
+      },
+      "content": [
+        {
+          "text": "Zde jsou v jednotlivých návrzích zařazené dokumenty navržené ke skartaci. Pokud má dokument nastaven skartační znak S, je možné jej ihned skartovat. Pokud má dokument skartační znak V, je nutné posoudit, zda se má skartovat. Pokud tomu tak skutečně je, je potřeba změnit jeho skartační znak na S. Pro změnu skartačního znaku z V na S je nutné dokument označit zaškrtnutím checkboxu a v možnostech vybrat ",
+          "type": "text"
+        },
+        {
+          "text": "Změnit skartační znak V na S",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 672,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 672,
+            "alt": "image-20250618-093826.png",
+            "id": "536babf3-397a-4ffc-9b14-3b569b0cd63d",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "a8f1f554-b49e-4997-9ba4-edd5e5f84170",
+            "height": 409
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "213eeda6-45c5-4f62-a873-b2f77f41d3f9"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5ad8f41c-703d-4969-bcde-b65f77306907"
+      },
+      "content": [
+        {
+          "text": "Pokud dokument bez ohledu na jeho skartační typ ještě nemá být skartován, je možné jej ve stejném okně za odebrat ze skartačního návrhu. Tím se dokument dostane zpět do Dokumentů ke skartaci.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0a750e6d-4545-4aa1-be15-8cdd3c05edd1",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "55c5e96e-d85b-46fb-92a6-c3dd76e8d154"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1b76cced-82ef-437f-a726-99c5d9fc3c65"
+              },
+              "content": [
+                {
+                  "text": "Skartační řízení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2711b866f196"
+      },
+      "content": [
+        {
+          "text": "Po skartaci je dokument z archivu smazán, zůstává pouze záznam o dokumentu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "361a4583d117"
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,1310 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "7b1d72c4-cfcd-444c-baea-bf117bb809c7"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "f5988cc0-f72a-4ae2-a044-d14e0343604c"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Základní konfigurace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příkaz ke zdravotnímu transportu jsou nadstavbovou funkcionalitou FONS Galen.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě zakoupení příslušné licence jsou ze strany Stapro označena pracoviště určená zákazníkem jako pracoviště poskytující dopravu.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následně je možné ze strany zákazníka v modulu Správa organizace definovat, která pracoviště mohou na pracoviště dopravy zasílat elektronické žádanky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1215,
+            "alt": "image-20250701-105148.png",
+            "id": "e0f9ed25-f448-4a2b-8953-52c1721c9a41",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 582
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Konfigurace cílových pracovišť dopravy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 603,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 603,
+            "alt": "image-20250701-105206.png",
+            "id": "cc02ccb9-6fb2-4daa-a929-fb2f5ffc7bcc",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 717
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Využívaná pracoviště dopravy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro pracoviště dopravy se definují výkony přes smlouvu s pojišťovnou. Po otevření smlouvy uživatel vybere záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Dopravy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", kde za pomocí funkčních tlačítek přidává/odebírá výkony dopravy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 904,
+            "alt": "image-20250701-105229.png",
+            "id": "77437857-6343-4588-a4b7-e3c91ad4a1dc",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 616
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Smlouva s pojišťovnou – výkony dopravy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Chování aplikace se pak liší v závislosti na tom, zda je uživatel přihlášen na pracovišti dopravy, nebo na pracovišti, které o dopravu žádá.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příkaz ke zdravotnímu transportu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příkaz ke zdravotnímu transportu je speciální objekt, který se od ostatních objektů ve FONS Galen odlišuje tím, že s ním během jejího životního cyklu mohou pracovat dvě různá pracoviště (žádající pracoviště a pracoviště provádějící dopravu).  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Příkaz ke zdravotnímu transportu nabývá v průběhu času několika stavů:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nová - ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Jedná se o vytvořenou žádanku, kterou pracoviště provádějící dopravu ještě  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "nepřebralo.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Předaná",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (= předaná ke zpracování) Do tohoto stavu se žádanka dostává ve chvíli, kdy pracovník zatrhne možnost Předat dopravci a dá uloží. Pracoviště dopravy s žádankou může začít pracovat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "K vyúčtování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (= byly zadány údaje pro vyúčtování) Do tohoto stavu se žádanka dostává ve chvíli, kdy příslušný pracovník na pracovišti dopravy doplní informace včetně výkonů dopravy a zatrhne „K vyúčtování“.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vyúčtovaná ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "(= výkony na žádance byly vyúčtovány) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště žádající o provedení dopravy ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na pracovišti, které má možnost zadávat žádanky dopravy, se v horní liště zobrazuje ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Transport",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozn.: Pokud je pracoviště oprávněné vystavovat také ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "RDG žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " – hledejte ",
+          "type": "text"
+        },
+        {
+          "text": "Transport ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "pod ikonou ",
+          "type": "text"
+        },
+        {
+          "text": "Žádanky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1218,
+            "alt": "image-20250701-105317.png",
+            "id": "d6bf7b3f-0027-4670-bbbe-325a130c5ad1",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 134
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Ikona pro otevření seznamu žádanek pro dopravu ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pomocí této ikony se zobrazuje seznam žádanek, které byly pro daného pacienta vytvořeny. V tomto seznamu jsou zobrazeny žádanky, které byly vytvořeny na daném pracovišti, nebo které byly vytvořena na pracovišti, na které je definováno nahlížení. Žádanky z ostatních pracovišť jsou zobrazovány šedým písmem.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1196,
+            "alt": "image-20250701-105338.png",
+            "id": "94158a1e-c9cf-4855-a24a-9b95140b1fc2",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 342
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Seznam žádanek pacienta",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Novou žádanku pro daného pacienta je možné vytvořit pomocí ikony (+) nad seznamem žádanek.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1216,
+            "alt": "image-20250701-105403.png",
+            "id": "136f771b-bb97-4da9-9da8-eefde7d480ff",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 467
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Nový Příkaz ke zdravotnímu transportu",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hlavička žádanky obsahuje:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Č. žádanky – nelze editovat, bude přiřazeno žádance automaticky  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Var. symbol ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Poř. číslo – nelze editovat, bude přiřazeno žádance automaticky  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pojišťovna – nelze editovat, údaj z karty pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Druh pojištění – nelze editovat, údaj z karty pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Datum vystavení – nelze editovat, aktuální datum ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Typ dokumentace – přednastaveno Kurativa, lze změnit na PLS.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Identifikační údaje žadatele jsou dotahované kontextově a nelze je měnit.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Údaje o transportu obsahují detailní informace o transportu včetně výběru cílového pracoviště dopravy – pokud je k dispozici právě jedno, je předvyplněno.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při kliknuté do jakéhokoliv z polí ",
+          "type": "text"
+        },
+        {
+          "text": "Odkud ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Kam ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "lze použít klávesovou zkratku CTRL+K pro načtení trvalé adresy pacienta nebo zkratku CTRL+L pro načtení adresy pracoviště lékaře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po potvrzení žádanky tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "OK ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "se žádanka ukládá a od tohoto okamžiku je dostupná určenému pracovišti dopravy. Případné opravy jsou možné pouze do chvíle, než si pracoviště dopravy žádanku přebere.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště provádějící dopravu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vyhledání nebo tvorba Příkazu k transportu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště provádějící dopravu má dvě možnosti, jak s žádankami pracovat:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pracovat se žádankami konkrétního vybraného pacienta   ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pracovat se všemi žádankami, které jsou směrovány na pracoviště RDG z ostatních pracovišť (napříč různými pacienty). Žádanky, které byly odeslány na dané pracoviště dopravy, jsou zobrazeny modře, žádanky odeslaná na ostatní pracoviště, jsou zobrazeny šedou barvou.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1225,
+            "alt": "image-20250701-105505.png",
+            "id": "8d8d2c02-5273-4180-a70c-dad7bb6de802",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 369
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Seznam žádanek pro různá pracoviště dopravy ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "  V obou případech je možné využít filtr, který je možné předdefinovat a uložit. V seznamu se zobrazují i žádanky pacientů, které dané pracoviště nemusí mít v kartotéce (pokud organizace nemá sdílenou kartotéku).  Tito pacienti jsou do kartotéky zařazeni automaticky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště dopravy má rovněž možnost vytvořit žádanku, která přišla v listinné formě. V takovém případě musí nejprve založit kartu pacienta a následně vstoupit do seznamu žádanek tohoto pacienta (nelze přes seznam žádanek nad celým pracovištěm). Zde se zpřístupní tlačítko (+) pro založení nové žádanky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dialog pro vytváření žádanky na pracovišti dopravy je obdobný. Rozdíl je v tom, že na pracovišti dopravy je možné vyplnit i identifikaci žadatele. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Převzetí Příkazu ke zdravotnímu transportu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracovník dopravy převezme žádanku a začne s ní pracovat. Doplní údaje o dopravě, jako jsou ",
+          "type": "text"
+        },
+        {
+          "text": "Odjezd, Příjezd, Vozidlo a Řidič",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Zároveň vykáže výkony vztahující se k dopravě. Případně má možnost vykázat i výkony žadatele.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1236,
+            "alt": "image-20250701-105537.png",
+            "id": "25ca51b6-4f75-4d47-8f4b-eef595c4eb90",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 193
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Vykázání výkonů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výkony zadané přes žádanku jsou vykázané úplně stejně, jako by byly zadány v editoru výkonů (přes tlačítko Výkon v horní liště ordinace). Po vyúčtování jsou tyto výkony přeneseny na záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtované výkony žadatele",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po zatržení K vyúčtování lze výkony přes modul ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " vyúčtovat na pojišťovnu. Po vyúčtování lze cesty dopravy sledovat v záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Transport",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1265,
+            "alt": "image-20250701-105600.png",
+            "id": "aa93288e-76b4-4303-87c9-697b61e18cfd",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 283
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Přehled cest vyúčtovaných na pojišťovnu ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "  ",
+          "type": "text"
+        },
+        {
+          "text": "Formuláře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Formuláře ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "se uživateli zobrazí seznam Příkaz ke zdravotnímu transportu, ze kterého lze vybrat jeden konkrétní. Tisková podoba formuláře obsahuje přenesená data z příkazu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Číselník Míst, Vozidel a Řidičů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "(-> ",
+          "type": "text"
+        },
+        {
+          "text": "Číselník",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " -> záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Doprava",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ") lze definovat číselník nabízející se pro položky žádanky, kdy: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Číselník Místo je pro položky Odkud a Kam ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Číselník Vozidla je pro položky Vozidlo ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Číselník Řidiči je pro položky Řidičů ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nové položky číselníků se přidávají/editují/mažou za pomocí funkčních tlačítek. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1228,
+            "alt": "image-20250701-105626.png",
+            "id": "74b1e1e0-f35b-4d36-b0bb-34068100cf7b",
+            "collection": "contentId-61145127",
+            "type": "file",
+            "height": 351
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Číselníky pro žádanky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

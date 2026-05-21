@@ -1,0 +1,105 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Šablony formulářů slouží k editaci uložených šablon formulářů. Uživatel si může vytvořit u jednotlivých formulářů šablonu, kterou poté může vybírat při zadávání daného vyšetření u pacientů. Šablony formulářů si lékař vytváří přímo v ordinaci po vytvoření konkrétního formuláře u pacienta. Takto vytvořené šablony formulářů lze zobrazit a editovat i v modulu Nástroje -> Šablony -> v záložce Formuláře a vyšetření. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vytvořit šablonu lze následujícím způsobem: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 150,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 150,
+                    "alt": "image-20250618-104424.png",
+                    "id": "aacf41f1-1290-4c11-9887-b7613c0b7814",
+                    "collection": "contentId-74940449",
+                    "type": "file",
+                    "height": 117
+                  }
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 624,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 624,
+                    "alt": "image-20250618-104457.png",
+                    "id": "dc6b6bf6-afdb-4d25-a62d-b03e7afc759a",
+                    "collection": "contentId-74940449",
+                    "type": "file",
+                    "height": 168
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po editaci potřebných dat a uložení formuláře použijeme volbu Uložit šablonu, u které můžeme zvolit, zda bude sloužit pouze danému uživateli, celému pracovišti nebo celé společnosti.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Při další volbě daného formuláře se již nabízí výběr vytvořené šablony a současně také nevyplněný formulář ke zcela nové editaci.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

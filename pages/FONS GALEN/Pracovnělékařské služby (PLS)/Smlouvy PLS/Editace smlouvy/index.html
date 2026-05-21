@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Editace smlouvy</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376772">
+<link rel="stylesheet" href="../../../../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>Editace smlouvy</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/57376772">Source</a> · version 1 · updated 2025-06-26T13:32:09.172Z</small></p></header>
+<main>
+<span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img alt="image-20250626-133009.png" class="confluence-embedded-image image-center" src="./assets/image-20250626-133009.png" width="760"/></span><p></p><p><strong>Nefakturovat</strong></p><p>Pokud je zatržen tento příznak, na dané smlouvě se negenerují faktury (ani výkonové ani paušální).</p><h3 id="Editacesmlouvy-Způsobplatby">Způsob platby</h3><ol start="1"><li><p><strong>Kombinovaně</strong></p></li></ol><p>Generují se faktury s vazbou na výkon is paušální faktury</p><ol start="2"><li><p> <strong>Paušál</strong></p></li></ol><p>Generují se pouze pravidelné, paušální faktury Pravidelnost určuje údaj Počet měsíců paušálu, viz níže</p><ol start="3"><li><p> <strong>Výkony</strong></p></li></ol><p>Generují se pouze faktury s vazbou na výkon Tyto faktury se vytvářejí pouze zpětně! Pouze na položky s vazbou na výkon, které byly uzavřeny předchozí měsíc a dříve</p><h3 id="Editacesmlouvy-Režimplatbypaušálu">Režim platby paušálu</h3><p>Nevztahuje se na faktury s vazbou na výkony</p><ol start="1"><li><p><strong>Předem</strong></p></li></ol><p>Faktura je vytvořena za aktuální měsíc vůči datu vystavení</p><ol start="2"><li><p> <strong>Zpětně</strong></p></li></ol><p>Faktura je vytvořena za minulý měsíc vůči datu vystavení</p><p><strong>Počet měsíců paušálu</strong></p><p>Tento údaj určuje interval, jak často se generuje faktura paušálu Pokud nezadáno, bere se jako default 1 měsíc</p><p><strong>Typ paušálu</strong></p><p>Nevztahuje se na faktury s vazbou na výkony</p><ol start="1"><li><p><strong>Jednorázový</strong></p></li></ol><p>Faktura obsahuje cenu paušálu 1x</p><ol start="2"><li><p> <strong>Za 1 pacienta</strong></p></li></ol><p>Faktura obsahuje cenu paušálu x počet hlavních (uzavřených a nevyfakturovaných) položek, bez ohledu na vazbu hlavní položky.</p><p>Příklad: Cena paušálu je 1000 Kč. Na pacientovi 1 byla vytvořena jedna PLS prohlídka (i s výsledkem "Nedostavil se"). Na pacientovi 2 byla vytvořena jedna PLS prohlídka a jedno PLS očkování. Faktura paušálu bude vystavena na 3000 Kč.</p><p><strong>Fakturovat stav, ”Nedostavil se”</strong></p><p>Nevztahuje se na paušální faktury.</p><p><strong>Nezatržený příznak</strong></p><p>Při výsledku prohlídky "Nedostavil se" se nevygeneruje žádná výkonová faktura z této prohlídky (bez ohledu jaké byly na prohlídce rozšiřující položky).</p><p><strong>Zatržený příznak</strong></p><p>% z ceny se vztahuje pouze na cenu hlavní položky.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,334 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "bb9e8f4c-1c66-4606-92b0-41c780f9d64b"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "c0b120f3-71ba-4f67-b014-1ee447024016"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul Design – Čís. řady",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Existují dvě verze číselných řad – uživatelské a ty, které byly vytvořeny Staprem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Číselné řady vytvořené Staprem uživatelé v modulu Design vidí, ale nemohou je editovat. Mohou z nich však vytvořit kopii, se kterou je možné dále pracovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Číselné řady vytvořené uživatelem jsou publikované pouze na dané společnosti na daném prostředí, kde byly vytvořeny.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nastavení uživatelské číselné řady - Modul Design – Čís. řady",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zeleným tlačítkem Plus vlevo nahoře je možné přidat nový záznam.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-062042.png",
+            "id": "1c81d846-4585-49a9-8535-e65efb89d068",
+            "collection": "contentId-50135057",
+            "type": "file",
+            "height": 186
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V okně dané číselné řady je nutné zadat její název a dále je možné přidat formuláře, ve kterých má být daná číselná řada použita (tzn. před tím, než uživatel bude samotnou číselnou řadu přidávat do formuláře, je nutné název formuláře přidat do tohoto seznamu).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že formulář, ve kterém je daná číselná řada použita, bude z tohoto seznamu smazán, položka v předloze tisku sice zůstane, ale nebude se dotahovat. Jakmile bude formulář do seznamu přidán, zobrazí se číselná řada i v již vystavených formulářích.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nastavení uživatelské číselné řady - Modul Design – Předlohy tisku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V dalším kroku je možné danou číselnou řadu umístit do předlohy tisku. Po otevření konkrétní uživatelské varianty formuláře se metodou Drag&Drop umístí číselná řada.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 107,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 107,
+            "alt": "image-20250619-062154.png",
+            "id": "40e92f08-45f2-4b63-8f66-ae58eb31bbc1",
+            "collection": "contentId-50135057",
+            "type": "file",
+            "height": 94
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po umístění do požadovaného místa formuláře uživatel zvolí, která číselná řada má být použita.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-062210.png",
+            "id": "26ba9648-d8e7-4110-9c64-bc16be0e4ce0",
+            "collection": "contentId-50135057",
+            "type": "file",
+            "height": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vyplňování formuláře u konkrétního pacienta není číselná řada vidět. Ta se zobrazí až po stisku tlačítka Tisk.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Nastavení uživatelské číselné řady – Správa organizace – Číslování formulářů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pořadí tohoto kroku je možné zaměnit s krokem v předcházející podkapitole Modul Design – Předlohy tisku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správa organizace – Agendy – Číslování formulářů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zde jsou zobrazeny všechny číselné řady dostupné pro danou společnost na daném prostředí bez ohledu, zda jsou vytvořeny uživatelem, nebo ze strany Stapro.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-062314.png",
+            "id": "5617d213-064e-4968-8298-7807d13cbdfb",
+            "collection": "contentId-50135057",
+            "type": "file",
+            "height": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel může upravit, zda má být daná číselná řada pro danou společnost aktivní, může zadat kritéria pro použití číselné řady (zda má být jiná číselná řada jiná pro každý rok, pro každé pracoviště a/nebo pro podřízenou společnost).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dvojklikem do prázdného pole ve sloupci Formát se aktivuje možnost definovat formát číselné řady. Mezi jednotlivé dotahované položky je možné dopsat znaky jako / - apod.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve sloupci Omezit zpracování je možné nastavit, zda je možné již vystavený formulář u daného pacienta smazat nebo editovat. Zaškrtnutý checkbox znamená, že již vystavený formulář není možné smazat, ale pouze stornovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 253,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 253,
+            "alt": "image-20250619-062329.png",
+            "id": "5a41db26-c8c8-4fb0-8163-11aa16850661",
+            "collection": "contentId-50135057",
+            "type": "file",
+            "height": 116
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

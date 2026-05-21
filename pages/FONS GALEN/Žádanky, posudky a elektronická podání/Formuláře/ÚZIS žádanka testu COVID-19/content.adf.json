@@ -1,0 +1,658 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "46a757ff-e6ec-44d1-8d96-06a4ce520639"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "597eaa14-eac2-4662-9025-8199ba8aac80"
+          },
+          "content": [
+            {
+              "text": "Pomocí formuláře ",
+              "type": "text"
+            },
+            {
+              "text": "ÚZIS žádanka testu COVID-19",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " lékař odesílá informace do systému ÚZIS ISIN v souvislosti v provedením testu Covid-19 a/nebo vystavením žádanky na test Covid-19.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aaa826dd-fc31-4401-9b85-23c9d672690c"
+      },
+      "content": [
+        {
+          "text": "Pro uživatele jsou připravené dvě varianty formulářů. Obě mají stejný obsah a účel, rozdíl je ve jejich formě. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "73527bfd-6d97-48e4-8e81-b120fcde357c"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "257ad605-c126-4d1e-a4ba-1c66a08df6f0"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c91863e1-5c36-4928-8396-1f817650c93b"
+      },
+      "content": [
+        {
+          "text": "ÚZIS žádanka testu COVID-19",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c84f954-ee07-4052-b610-7d9755890dca"
+      },
+      "content": [
+        {
+          "text": "Pro odeslání této žádanky je nutné vyplnit pole Klíč ÚZIS v nastavení společnosti (",
+          "type": "text"
+        },
+        {
+          "text": "Správce → Správa organizace →",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Společnost ",
+          "type": "text"
+        },
+        {
+          "text": "→",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Klíč ÚZIS). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 422,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 422,
+            "alt": "image-20251120-081638.png",
+            "id": "9896f2ba-1c3b-4af9-bae0-b61163c336ce",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "59e82ddb-0015-46f7-a211-d5d5af00a4fa",
+            "height": 405
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4bb6f2a2-c6b6-4fa8-9ed2-2c14598a16ad"
+      },
+      "content": [
+        {
+          "text": "Lékař vyplní formulář a odešle stiskem tlačítka Odeslat, čímž se otevře formulář v internetovém prohlížeči.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20251120-081840.png",
+            "id": "bb3a2d9e-165f-4389-9e2c-b7b506792810",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "ef86c94b-2f97-43e0-b35a-47e52664f676",
+            "height": 751
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e51a0c61-0ce3-4958-8da3-e58d9536a7b4"
+      },
+      "content": [
+        {
+          "text": "Obsah formuláře v internetovém prohlížeči uživatel zkontroluje a pomocí tlačítka Odeslat uloží.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "106319e7-9054-4225-b634-7c2f157c8714"
+      },
+      "content": [
+        {
+          "text": "ÚZIS žádanka testu COVID-19 ISIN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "95e838fa-82e4-4cbc-aa5a-993de13ba449"
+      },
+      "content": [
+        {
+          "text": "Prerekvizity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "a7cc8930-eec7-4909-b966-da0400632ab0"
+      },
+      "content": [
+        {
+          "text": "Identifikace uživatele",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "646925c3-25b5-46f1-8a8e-1a427c7aa244"
+      },
+      "content": [
+        {
+          "text": "Uživatel, který má mít možnost hlášení do ISIN odesílat, musí mít vyplněné pole ",
+          "type": "text"
+        },
+        {
+          "text": "Číslo NRZP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (číslo uživatele z Národního registru zdravotnických pracovníků). Číslo zadá uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "v modulu Správa organizace – Uživatelé",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 157,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 157,
+            "alt": "image-20250414-095636.png",
+            "id": "aaf6ef93-cb86-4fa2-9aa0-345259625c62",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "2781538b-b19c-4c54-8b68-5221dcdd4c21",
+            "height": 146
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "cb34c536-60d0-41d5-b9c3-b600038523ee"
+      },
+      "content": [
+        {
+          "text": "Certifikát na pracovišti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e13b8237-25f6-4652-8af3-42eb70a9dd77"
+      },
+      "content": [
+        {
+          "text": "Pro komunikaci s ISIN je nutné, aby byl na pracovišti, ze kterého se bude ohlášení odesílat, nastaven šifrovací certifikát SÚKL (aktuálně vydává též ÚZIS).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8617b022-3181-42a4-b5ea-1e8467cf0b38"
+      },
+      "content": [
+        {
+          "text": "Správa organizace – v rámci stromové struktury vyhledat pracoviště a nastavit platný certifikát.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250414-095739.png",
+            "id": "7e5b8dc1-7d94-418a-b0fe-2efb0843aff2",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "384f1fdd-9d45-42b6-820b-5b0d496eae6c",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "c478f51c-665d-4f6a-984c-95601b388a7b"
+      },
+      "content": [
+        {
+          "text": "Vyplněná hodnota PČZ - pořadové číslo zařízení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c9086b9-74c4-4fa2-93d5-95224e5119a9"
+      },
+      "content": [
+        {
+          "text": "Na úrovni pracoviště je dále nutné vyplnit položku PČZ - pořadové číslo zařízení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fb50f095-a1f4-4796-b732-10b7f1da1055"
+      },
+      "content": [
+        {
+          "text": "Správce → Správa organizace →",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Struktura společnosti ",
+          "type": "text"
+        },
+        {
+          "text": "→",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " úroveň pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 290,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 290,
+            "alt": "image-20250422-045812.png",
+            "id": "f96542f6-6429-40c0-af27-1224be5c56e8",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "8f1a9cd5-49d0-4c21-9c6c-5ab118614021",
+            "height": 90
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "5691e28a-f803-465f-9e38-0768a193d0d7"
+      },
+      "content": [
+        {
+          "text": "Číselníky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7e1c63c6-466c-4ba1-8dbc-28b3bd6fe504"
+      },
+      "content": [
+        {
+          "text": "Na základě objednávky nadstandardního modulu je uživatelům zpřístupněn modul ISIN – Hlášení infekčního onemocnění. Po zpřístupnění funkcionality je potřeba aktualizovat číselníky, které jsou pro toto hlášení nutné:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee98bf94-4e19-4cfc-bba1-d90d31da01e7"
+      },
+      "content": [
+        {
+          "text": "Nástroje – ISIN:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bfd42b7d-65a2-4ada-a935-5589b4e0aeda"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6922c9ba-5cfd-403d-8a9e-d7d893155507"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3397789b-80ce-4c67-a335-97e476ecf68a"
+              },
+              "content": [
+                {
+                  "text": "Registr zdravotnických pracovníků",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5d90fa03-c94c-447d-8f4f-cdb4f4d5f82c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bb33f176-7faf-463c-9530-8818170eaba3"
+              },
+              "content": [
+                {
+                  "text": "Odběrová místa",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "65cf3d72-889c-4891-84ce-13f7e5bfa6b8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6fa29c90-9f6a-4d45-947b-c69503175ac1"
+              },
+              "content": [
+                {
+                  "text": "Výrobci testů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b93c9ab-a0ee-4be4-9427-83ae5bab02f9"
+      },
+      "content": [
+        {
+          "text": "Uživatel pomocí tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Aktualizovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " načte aktuální číselníky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250414-095825.png",
+            "id": "511770c6-e2ce-4c6c-8ee4-cd6825685612",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "f1607326-7102-46f9-a673-e61b93e1bbd7",
+            "height": 74
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "e33dc788-40dd-48da-ab4a-21d23e1c42ee"
+      },
+      "content": [
+        {
+          "text": "Vystavení žádanky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d331d68b-a6fc-4e08-b45d-51ce65bc4fed"
+      },
+      "content": [
+        {
+          "text": "Uživatel vyplní formulář, který se obsahově rovná první variantě ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20251120-082920.png",
+            "id": "c0effcb3-d5a0-402a-b201-ad19c16516f5",
+            "collection": "contentId-162856962",
+            "type": "file",
+            "localId": "252d727f-3ef3-40c8-908d-adc516791901",
+            "height": 1152
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a2365914-4a39-49cf-8fc7-7ad92eb82704"
+      },
+      "content": [
+        {
+          "text": "a tlačítkem Odeslat odesílá.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "74e568ae-b81e-4252-acb0-9d97c40f9bfb"
+      },
+      "content": [
+        {
+          "text": "Na rozdíl od první varianty se tato odeslání přímo z aplikace FONS Galen do ISIN (a proto se v tomto případě neotevírá internetový prohlížeč).",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

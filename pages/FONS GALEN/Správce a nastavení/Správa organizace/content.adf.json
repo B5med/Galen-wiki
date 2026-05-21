@@ -1,0 +1,91 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Další modul s názvem Správa organizace nám umožňuje veškeré nastavení struktury organizace, zavést nasmlouvané výkony na pojišťovně, nastavit pokladny, sklady, kalendáře atd. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1263,
+            "alt": "image-20250618-111911.png",
+            "id": "4499185b-1f61-4eca-b58d-bea511d93e4c",
+            "collection": "contentId-75694084",
+            "type": "file",
+            "height": 184
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "První se zobrazuje ikona Struktura, kde v pravém sloupci se vyplňují základní údaje o organizaci – IČ, Název ambulance, ulice a město, mail zavedený na portále ZPMV a bankovní spojení, na které pojišťovna zasílá finance. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravém sloupci jsou údaje týkající konkrétního IČP, jsou u různých IČP rozdílné.",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V prvním sloupci je název společnosti. Druhý sloupec obsahuje všechna IČZ, která jsou zaregistrována. Kliknutím na IČZ pořídíme nový podřízený záznam (neboli IČP ve třetím sloupci), který se opět edituje vpravo. Čtvrtý sloupec obsahuje jména personálu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1078,
+            "alt": "image-20250618-111934.png",
+            "id": "c03d0fe8-e5da-45f7-b42c-c1cbb6f079f9",
+            "collection": "contentId-75694084",
+            "type": "file",
+            "height": 572
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

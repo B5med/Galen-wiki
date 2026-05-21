@@ -1,0 +1,317 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "minLevel": {
+              "value": "1"
+            },
+            "maxLevel": {
+              "value": "6"
+            },
+            "outline": {
+              "value": "false"
+            },
+            "style": {
+              "value": "none"
+            },
+            "type": {
+              "value": "list"
+            },
+            "printable": {
+              "value": "true"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "ab23e4d8-5a43-441a-b656-84704da8747e"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "5097e3ee-7ec2-46d4-baad-730d7297e528"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Konfigurace eNeschopenky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "S-> Správa organizace -> vlevo nahoře rozbalit strukturu -> ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 181,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 181,
+            "alt": "Obrázek5.png",
+            "id": "55dc3e9f-2832-4ddb-b6dc-99d26fa8fe45",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "→ označit pracoviště, u kterého proběhne konfigurace eNeschopenky tak, aby okraj byl červený -> Konfigurace eNeschopenky -> v pravém sloupci zvolit tlačítko Konfigurace eNeschopenky ->",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Konfigurace eNeschopenky je rozdělena na „starou“ a „novou“.  Lze také vytvářet nová čísla IČPE a zneplatňovat stávající čísla IČPE. Jedná se o placenou funkcionalitu. V konfiguraci „nové“ eNeschopenky je možné otestovat komunikaci s ČSSZ. Test zahrnuje kontrolu správnosti základního nastavení - certifikát SUKL a IČPE. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 449,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 449,
+            "alt": "Obrázek7.png",
+            "id": "8374b43f-f56d-4737-b1fc-8a2f831be50b",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 241
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vystavení eNeschopenky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 46,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 46,
+            "alt": "Obrázek8.png",
+            "id": "4dd54c2d-4b87-4944-9f60-8416633d7610",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 64
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona pro vystavení neschopenky se nachází na kartě Dekurz. Po kliknutí na tlačítko Nová vlevo nahoře se založí nová neschopenka. Nyní lze doplnit potřebné údaje týkající se neschopnosti pacienta. Poté se Neschopenka odesílán na ČSSZ stiskem tlačítka Odeslat v pravé části horní modré lišty.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto okně lze v levém sloupci zobrazit nejen neschopenky vedené i IS Galen Zobrazení eNeschopenek vedených mimo IS Galen se děje na základě údajů načítaných z ČSSZ. Lze také zobrazit eNeschopenky stornované, předané a ukončené. Stejně jako u eReceptů, možnost smazat se nabízí pouze u neschopenky neodeslané na ČSSZ. Pokud je neschopenka již odeslaná na ČSSZ, lze zvolit Storno. Informace o stornování eNeschopenky je při uložení automaticky odeslána na ČSSZ.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 684,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "Obrázek9.png",
+            "id": "902d68d6-e6b1-49f5-85aa-16f5a7bcc2e3",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 399
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vyplňovaní neschopenky – část Ošetření, nově přibyl sloupec Trváni DPN ke dni, kde bude možné manuálně vyplnit/vybrat datum.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Rovněž v tiskovém výstupu Rozhodnutí o dočasné pracovní neschopnosti (DPN) II. díl, část F, přibyl sloupec Trváni DPN ke dni. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "Obrázek10.png",
+            "id": "1cf57327-bd54-40fc-8fa6-d1fbc7851c5b",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 125
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "eNeschopenka, která je vedena pod jiným správcem pojištění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U eNeschopenek, které jsou vedeny jiným správcem pojištění, než je ČSSZ, se zobrazuje pouze číslo bez dalších údajů (stav, název PZS, jméno lékaře), protože ČSSZ nemá tyto údaje k dispozici. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zároveň byla upravena funkcionalita kontroly při zakládání nové eNeschopenky. Pokud existuje aktivní neschopenka, tak je uživatel vyzván, zda přesto chce vystavit novou, nebo převzít stávající. V seznamu stávajících aktivních eNeschopenek vybere konkrétně tu, kterou přebere. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V záložce Vedené mimo IS Galen se po načtení údajů z ČSSZ zobrazí e-Neschopenky vedené jiným lékařem. Po jejím označení, je možné ji převzít do péče. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 668,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "Obrázek11.png",
+            "id": "6369f3e0-be78-4a05-ae18-e7cf16551a5f",
+            "collection": "contentId-48168963",
+            "type": "file",
+            "height": 174
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,63 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V konfiguraci pracoviště je možné nastavit, aby se eRecepty předepisovaly pod jiným IČP než pod tím, které je nastaven v konfiguraci pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce ->  Správa organizace -> výběr konkrétního pracoviště ve struktuře organizace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 302,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 302,
+            "alt": "image-20250917-074833.png",
+            "id": "25ef4fad-c918-4d62-8728-028a4eccff2c",
+            "collection": "contentId-120225793",
+            "type": "file",
+            "height": 392
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "(A)    Je IČP, pod kterým se eRecept standardně předepisuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "(B)    Je IČP, pod kterým se mají eRecepty předepisovat. Pokud je nevyplněno, předepisuje se pod IČP (A)",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

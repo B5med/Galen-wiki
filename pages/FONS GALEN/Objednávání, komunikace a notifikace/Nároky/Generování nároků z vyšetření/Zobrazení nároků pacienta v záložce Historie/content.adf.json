@@ -1,0 +1,162 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na spodním panelu karty pacienta – Historie je možné v záložce Nároky pacienta zobrazit. Nároky je možné filtrovat podle stavů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Vše",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aktivní",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Platnost nároku je větší nebo rovna dnešnímu datu a zároveň nárok není realizovaný a není pozastavený, tzn. pacient už může prohlídku absolvovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Budoucí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Platnost nároku je větší než dnešní datum a zároveň nárok již není realizovaný a také není pozastavený, tzn. pacient bude mít v budoucnu nárok na prohlídku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Exspirovaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Platí pro nároky, kdy je datum platnosti nároku do větší než dnešní datum a nárok není realizovaný.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Realizovaný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok byl realizován, tzn. pacient již absolvoval prohlídku, na kterou měl nárok. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozastavený",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok byl označen jako Pozastavený. Tento stav Správce zvolí ve chvíli, kdy ví, že pacient prohlídku absolvuje později. Nároky se automaticky pozastaví v případě odregistrace pacienta, nebo po zneaktivnění definice nároku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ze stavu Pozastavený se nárok dostane manuální změnou nebo registrací pacienta (při registraci je znovu kontrola na podmínky jako při vytvoření nároku).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zaškrtnutím checkboxu „Moje nároky“ jsou zobrazeny nároky vzniklé na aktuálním pracovišti.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

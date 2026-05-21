@@ -1,0 +1,99 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 356,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 661,
+                    "alt": "image-20250618-103742.png",
+                    "id": "76274aaf-0df7-4a37-b2fd-3e8b28dfce0c",
+                    "collection": "contentId-75694173",
+                    "type": "file",
+                    "height": 183
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Modul Nástroje slouží pro detailnější nastavení práce s programem. V tomto modulu lze nadefinovat skupiny pacientů, spolupracující lékaře, šablony výkonů pro pohodlnější vykazování výkonů pojišťovnám, šablony formulářů, fráze, které slouží k rychlému zadání opakujících se textů, šablony notifikací apod.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1403,
+            "alt": "image-20250618-103826.png",
+            "id": "04c818ea-babc-4a02-b76b-05b11f39a78f",
+            "collection": "contentId-75694173",
+            "type": "file",
+            "height": 167
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

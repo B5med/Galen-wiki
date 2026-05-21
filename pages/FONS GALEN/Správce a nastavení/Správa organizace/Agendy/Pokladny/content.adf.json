@@ -1,0 +1,88 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Je možné založit jednu nebo více pokladen (použití malého zeleného + vlevo nahoře). Po zadání názvu a zkratky, pokladna se přiřadí pracovišti, na kterém se bude pokladna používat ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1124,
+            "alt": "image-20250618-113147.png",
+            "id": "9a965e22-dcdb-4454-8aca-419fa6440a6b",
+            "collection": "contentId-75694353",
+            "type": "file",
+            "height": 282
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poklepem dvojklikem na příslušný řádek s vytvořenou pokladnou (např. Pokladna – Gynekologie) lze měnit nastavení. Velmi důležité je přidělení jednotlivých uživatelů, kteří budou mít k dané pokladně přístup. Pokud uživatel nemá k pokladně přístup, nemůže do této pokladny vystavovat žádné doklady a v okně pacienta Stav účtu nemá tlačítko Zaplatit aktivní. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1151,
+            "alt": "image-20250618-113203.png",
+            "id": "175ffec1-4be2-45b7-8177-570376bf76a5",
+            "collection": "contentId-75694353",
+            "type": "file",
+            "height": 284
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při zakládání nové pokladny je potřeba zvolit a vyplnit zkratku pokladny, název pokladny, pracoviště, Zodpovědnou osobu a typ pokladního dokladu, který se bude při platbách vytvářet. Jméno zodpovědné osoby figuruje v pokladní knize ve stejnojmenném poli. Pokladní knihu najdeme v modulu Finance.",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

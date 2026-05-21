@@ -1,0 +1,460 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "a6f30f8c-23f6-44d9-9ee6-739c3ea1c9f7"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "4bc3d9a9-8b8e-4d98-8831-d4ed637c12c4"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatelé s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " mají možnost přidávat položky do číselníků vydávaných oficiálními institucemi (např. VZP). Správcem přidané položky budou dostupné pro všechny uživatele v dané společnosti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Uživatelské číselníky ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 116,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 116,
+            "alt": "image-20250701-081525.png",
+            "id": "cd6c87d6-ca4c-4a32-b262-5f22e905aa3e",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 63
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s rolí Správce má v modulu Číselníky dostupnou záložku Uživatelské číselníky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přidání nového číselníku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel potřebuje do zpřístupněných číselníků přidat záznam, je nutné v uživatelských číselnících přidat číselník. Tento postup se aplikuje pouze ve chvíli, kdy uživatel přidává první záznam do daného číselníku. Pokud bude přidávat další položku do stejného číselníku, celý číselník nepřidává, pracuje v již přidaném číselníku.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přidání nového číselníku: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 901,
+            "alt": "image-20250701-081835.png",
+            "id": "6254a6cb-a754-43e2-b456-c80480b5b18f",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 128
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Z nabídky vybere číselník, do kterého chce přidávat položky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 332,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 332,
+            "alt": "image-20250701-081856.png",
+            "id": "56a87b35-fb7a-48fa-ba3b-42d0ef2fe998",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 125
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Výběr nového číselníku",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po přidání číselníku se zobrazí okno přehledu, kam je možné jednotlivé položky přidat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 902,
+            "alt": "image-20250701-081919.png",
+            "id": "cc46ea45-1737-48e0-b522-8831c75a27c0",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přidání položek do číselníku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V detailu číselníku uživatel vyplní jednotlivé řádky – co jedna položka v číselníku, to jeden řádek v přehledu. Toto platí pouze v případě, kdy se hodnoty např. jednoho výkonu v čase nemění. Pokud se v čase mění např. cena výkonu, je nutné přidat nový řádek tak, jak je popsáno v další kapitole. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 905,
+            "alt": "image-20250701-081945.png",
+            "id": "d20d233b-c69c-4e09-971e-4747eb0396f6",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Význam jednotlivých sloupců číselníku je popsán v pravé části obrazovky. Je zde uvedeno, jaký je obsah daného sloupce, zda je povinné jeho vyplnění, maximální délka obsahu a formát obsahu (text/číslo). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 347,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 347,
+                    "alt": "image-20250701-082044.png",
+                    "id": "118260f6-2145-4942-af64-17e105bb29ce",
+                    "collection": "contentId-60915714",
+                    "type": "file",
+                    "height": 332
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Veškeré změny (vytvoření, editace, smazání, deaktivace) se ostatním uživatelům v aplikaci projeví do 15 minut. Konkrétně: Pokud uživatel vytvoří nový řádek v číselníku Výkony, tak tento výkon bude možné v parametrech smluv na pracovišti přidat do 15 minut. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Důležité: Změna hodnoty položky v číselníku v čase",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud se hodnoty jedné položky číselníku mění v čase, je nutné zadat nový řádek se stejným kódem a jinými hodnotami. Příkladem takové změny může být změna bodové hodnoty výkonu nebo ceny výkonu. V takovém případě je nutné u první položky zadat datum platnosti, přidat nový řádek a u toho vyplnit datum platnosti od: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1289,
+            "alt": "image-20250701-082112.png",
+            "id": "413948bb-8729-4ff9-9bb0-080de1775e35",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Není možné původní záznam deaktivovat, nebo přepsat: při přepočtu nevyúčtovaných výkonů by byly změněny hodnoty i tam, kdy platily ty původní.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Zobrazení položky v číselníku přidané uživatelem ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Položka v číselníku přidaná uživatelem má vždy přednost před položkou v oficiálním číselníku. Pokud uživatel do číselníku Výkony přidá výkon, který se následně objeví také v oficiálním číselníku, bude AIS Galen pracovat stále s položkou přidanou uživatelem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Položky přidané uživatelem mají v číselníku v posledním sloupci Zdroj ikonu informující o uživatelském záznamu:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 508,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 508,
+            "alt": "image-20250701-082153.png",
+            "id": "f0e5df63-3e26-45f0-933b-fac197afa531",
+            "collection": "contentId-60915714",
+            "type": "file",
+            "height": 266
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

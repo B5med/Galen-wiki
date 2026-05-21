@@ -1,0 +1,457 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok vzniká způsoby:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " vykázáním výkonu z prohlídky u registrovaného pacienta, při registraci pacienta, automaticky v noci při dosažení věku, nebo ručním spuštěním generování nad konkrétní definici. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vzniku nároku existuje kontrola na duplicitu, která nedovolí, aby měl pacient v 1 okamžik více aktivních nebo budoucích nároků, v rámci stejné definice a v rámci stejné ordinace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vznik nároku vykázáním výkonu z prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok vznikne vytvořením výkonu pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Vytvořit výkon",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "   v prohlídce. Datum, ke kterému by měla proběhnout další prohlídka definovaná nárokem, není nijak ovlivněno zadaným termínem příští prohlídky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vznik nároku probíhá na pozadí, při vykázání výkonu z prohlídky není vznik nároku potvrzován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve chvíli, kdy je výkon vytvořený z vyšetření smazán, je smazán i nárok, který vznikl na základě tohoto výkonu z vyšetření. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok může vzniknout na stejnou definici prohlídky nebo na prohlídku, která je definovaná jako následující. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Způsob výpočtu platnosti nároku při vykázání výkonu z prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Datum, do kdy je nárok platný (platnost do) představuje datum, kdy pacient dosáhne horní věkové hranice na definici intervalu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Datum, od kdy je nárok platný (platnost od) je určen následovně:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Definice nároku nemá určenou následující prohlídku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "o      Platnost od nároku je datum vytvoření vyšetření + hodnota intervalu na definici.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Definice nároku má určenou následující prohlídku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "o      Platnost od nároku je pozdější datum z kombinace, datum vytvoření vyšetření + interval určený na definici a datum, kdy pacient dosáhne spodní hranici věku v následující definici nároku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vznik nároku při registraci pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve chvíli, kdy uživatel registruje pacienta pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Nová registrace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "zobrazí se okno s informací, které nároky pacientovi vzniknou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aby se nárok vytvořil, je nutné, aby byly splněny podmínky určené na definici nároku, a",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "to podmínka na věk pacienta a podmínka splnění rozestupu nároků (podmínka na interval). Rozhodné datum, které je v rámci podmínek zohledňováno, je datum registrace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "(Systém posuzuje věk pacienta k datu registrace, totéž platí i pro podmínku na interval).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po splnění podmínek se nárok vždy vytváří jako aktivní, s platností, která je rovna datu registrace pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20250710-123014.png",
+            "id": "08f4144f-e2fb-4df1-9204-6d6e08b819c6",
+            "collection": "contentId-68190229",
+            "type": "file",
+            "height": 247
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vznik nároku hromadným generováním",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s rolí Správce může ručně vygenerovat nároky na zvolenou definici.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tímto způsobem lze definovat rozsah generování nároků na společnost nebo na konkrétní pracoviště.  Také se definuje, jestli generovat nároky na základě data výkonu vztahující se k vyšetření nebo data realizace výkonu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nárok vzniká vždy aktivní, k aktuálnímu datu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20250710-123035.png",
+            "id": "6ccd6af8-8979-4c57-a02a-13b18ab64401",
+            "collection": "contentId-68190229",
+            "type": "file",
+            "height": 93
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 308,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 308,
+            "alt": "image-20250710-123040.png",
+            "id": "54892552-87a1-4b1d-aef2-e2974e9b9f64",
+            "collection": "contentId-68190229",
+            "type": "file",
+            "height": 110
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vznik nároku noční úlohou",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po zvolení této možnosti (zatrhnutí na úrovni intervalu definice, viz obrázek), systém bude dle dané definice prohledávat všechny pacienty, kteří splňují podmínky. Po splnění podmínek bude pacientovi vytvořen aktivní nárok s platností od aktuálního dne.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 371,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 371,
+            "alt": "image-20250710-123106.png",
+            "id": "b34f9975-0459-45ce-bbbf-2660baee0f1e",
+            "collection": "contentId-68190229",
+            "type": "file",
+            "height": 223
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,135 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Certifikát pro věření pacienta v centrálním registru pojištěnců B2B na VZP ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s rolí správce má možnost nastavit certifikát, který bude použit pro autentizaci komunikace pro ověření pacienta v centrálním registru pojištěnců B2B na VZP. K uložení certifikátu dojde automaticky po výběru z adresáře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 826,
+            "alt": "image-20250618-112022.png",
+            "id": "b6c386fb-6814-40da-a2c1-443ee91165e9",
+            "collection": "contentId-75202656",
+            "type": "file",
+            "height": 265
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na podřízenou společnost není nutné certifikát nastavovat, komunikace ověří každého pacienta bez ohledu na to, zda je nebo není v kartotéce daného pracoviště. Uživateli s rolí správce se po přihlášení do aplikace objeví upozornění, že se blíží exspirace certifikátu (< 7 dní). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravém sloupci jsou zobrazeny údaje týkající se celé společnosti, tzn. Všech pracovišť ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1137,
+            "alt": "image-20250618-112158.png",
+            "id": "b49c66fb-2c62-4d48-ba49-f43e6ff0c785",
+            "collection": "contentId-75202656",
+            "type": "file",
+            "height": 603
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 613,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 613,
+            "alt": "image-20250618-112220.png",
+            "id": "b8d518d2-9abb-47b8-803f-49c9a105aba3",
+            "collection": "contentId-75202656",
+            "type": "file",
+            "height": 739
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Okno Konfigurace obsahuje několik záložek, ve kterých lze definovat položky, které se týkají úrovně celé společnosti, tedy všech pracovišť. ",
+          "type": "text"
+        },
+        {
+          "text": "Infopanel pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " si uživatel zobrazí kliknutím na klávesu F4 v ordinaci či k nahlížení či v recepci. Infopanel pacienta slouží ke kopírování informací o pacientovi. Správce společnosti zde nadefinuje, které informace o pacientovi mají zobrazovat uživatelům v recepci ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

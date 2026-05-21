@@ -1,0 +1,99 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nově ČSSZ ke všem dávkám (eDPN, OČR a další) umožňuje zvolit způsob, jakým způsobem budou informace pacientovi předány. Kromě standardní listinné podoby může pacient obdržet identifikátor prostřednictvím SMS zprávy nebo e-mailu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aby se elektronický způsob předání identifikátoru v nově vystaveném podání přednastavil, je nutné k právě jednomu kontaktu v kartě pacienta nastavit příznak ",
+          "type": "text"
+        },
+        {
+          "text": "SÚKL, ČSSZ.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 623,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 401,
+            "alt": "image-20250721-124330.png",
+            "id": "14f9b8e1-649b-437d-90f3-4a9a5fe77086",
+            "collection": "contentId-74940506",
+            "type": "file",
+            "height": 62
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kontakt bude přednastaven i ve chvíli, kdy je dávka přebírána. Kanál pro předání notifikace i samotný kontakt je před odesláním možné ručně editovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 615,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20250721-124352.png",
+            "id": "c8cff54f-931e-4c7b-a70c-29c6315a571c",
+            "collection": "contentId-74940506",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Notifikace bude pacientovi ze strany ČSSZ odeslána ve chvíli vytvoření nové dávky, v případě vystavení lístku na peníze a v momentě, kdy je dávka ze strany lékaře ukončena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

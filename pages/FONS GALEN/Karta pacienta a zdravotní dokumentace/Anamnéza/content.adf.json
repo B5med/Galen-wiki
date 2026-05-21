@@ -1,0 +1,243 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ac927d39-e4d7-4e0d-8819-dd35e957fedd"
+      },
+      "content": [
+        {
+          "text": "Formulář pro zápis anamnézy se skládá z pěti částí: vlastního textu anamnézy, CAVE, alergologické anamnézy, seznamu trvalých medikací a trvalých diagnóz.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 484,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 484,
+            "alt": "image-20250623-102043.png",
+            "id": "67ed2890-2333-4b50-a7a4-30a479dde66a",
+            "collection": "contentId-53018691",
+            "type": "file",
+            "localId": "ec0b7524-1858-4cf4-812a-0da9cc7d81f0",
+            "height": 323
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5cb80554-647f-4daf-9020-1360a96ed102"
+      },
+      "content": [
+        {
+          "text": "Pro zápis vlastního textu anamnézy platí obdobná pravidla jako pro dekurz, tj. opět není žádný předdefinovaný text, ale opět existují zkratky. Tj. po napsání oa mezera se zobrazí OA:, ra -> RA:, pa -> PA:, sa -> SA:, ga -> GA, fa ->FA. Do oddílu CAVE lze napsat stručnou poznámku, kterou chce lékař vidět dole na liště u pacienta pod nápisem anamnéza. Je-li např. pacient alergický na PNC, uvidí to už při zvýraznění pacienta v kartotéce. Alergologická anamnéza má svůj vlastní oddíl. Do trvalých medikací se můžou zapsat trvalé medikace, tj. medikace i od ostatních lékařů, které pacient bere pravidelně a do trvalých DG trvalé diagnózy pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d78a9321-a542-44e2-b9bb-7b1367f8bda3"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05c1b38f-e7eb-4ee6-b5e5-967dc703ba4b"
+      },
+      "content": [
+        {
+          "text": "Informace z anamnézy je také možné zobrazit v Infopanelu (po stisknutí F4) v kterékoli části programu, bez nutnosti otevírat nové okno. Tyto informace je možné jednoduše kopírovat, např. do textové části otevřeného formuláře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 481,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 481,
+            "alt": "image-20250623-102112.png",
+            "id": "eb282241-0b51-4a2b-83a6-cb780e8019dc",
+            "collection": "contentId-53018691",
+            "type": "file",
+            "localId": "a51a8486-bada-49c6-b2e2-7ae19f48575b",
+            "height": 131
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a8863841996f"
+      },
+      "content": [
+        {
+          "text": "Zakázat nahlížení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "84e63b3de35c"
+      },
+      "content": [
+        {
+          "text": "Pokud uživatel na pracovišti zaškrtne tento checkbox, zakáže nahlížet ostatním pracovištím na záznamy daného pracoviště a daného pacienta. Tento zákaz platí i přesto, že by bylo nastaveno nahlížení na dokumentaci mezi pracovišti. Zákaz nahlížení se týká všech záznamů ",
+          "type": "text"
+        },
+        {
+          "text": "tohoto typu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75628693/Opr+vn+n#V-r%C3%A1mci-nahl%C3%AD%C5%BEen%C3%AD-jsou-sd%C3%ADleny-z%C3%A1znamy-tohoto-typu%3A"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1580,
+            "alt": "image-20260204-150747.png",
+            "id": "6beead2f-e0ee-489b-8ddb-bdf9e9e96933",
+            "collection": "contentId-53018691",
+            "type": "file",
+            "localId": "a83fd7458db8",
+            "height": 114
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "71f33b74b974"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4bc84f13885d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b20c9ae73e31"
+      },
+      "content": [
+        {
+          "text": "Konfigurace infopanelu pacienta – sekce Anamnéza",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4a35f245-d39e-4830-97bf-f797cbbb8c50"
+      },
+      "content": [
+        {
+          "text": "V sekci Správa organizace -> IČP -> UI konfigurace je na záložce Infopanel pacienta možné zadat, které informace se mají v infopanelu pacienta zobrazovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5f8d759c-8d67-480d-93d7-7ba3f8129909"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 257,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 257,
+            "alt": "image-20250623-102136.png",
+            "id": "21566643-3963-4ffe-83a4-3b1cee235501",
+            "collection": "contentId-53018691",
+            "type": "file",
+            "localId": "8c688cd5-0713-49f7-a5a1-543cb5f4478d",
+            "height": 307
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "844dea1e-6bc2-456d-beb2-c0a81ef41f5c"
+      }
+    }
+  ],
+  "version": 1
+}

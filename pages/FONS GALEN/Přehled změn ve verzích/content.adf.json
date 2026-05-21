@@ -1,0 +1,59 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "acad1df0-0ae9-4f31-9dd2-49d1f90bdf10"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "2f94056f-03de-434f-8036-bade32c4222b"
+      }
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "allChildren": {
+              "value": "true"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "323ba33c-49f7-47f1-b384-30f74b544b14"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "856ce963-7498-43e0-8efd-2f8230269ba9"
+      }
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,492 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8e2dd2ad1d6b"
+      },
+      "content": [
+        {
+          "text": "Po provedení výdeje foniatrické pomůcky vydané na ePoukaz se tato pomůcka automaticky zařazuje do vyúčtování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1376,
+            "alt": "image-20260202-061230.png",
+            "id": "5f182571-33a2-4390-8dad-cdac4cdbb86b",
+            "collection": "contentId-253788162",
+            "type": "file",
+            "localId": "b7cf3c2e9b66",
+            "height": 349
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "773f26ae4aa3"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování foniatrických pomůcek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c6826c02136b"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování provede uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "běžným způsobem, který je popsán ",
+          "type": "text"
+        },
+        {
+          "text": "zde ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/x/AYCEB"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67719a4d2de3"
+      },
+      "content": [
+        {
+          "text": "Dokud není pomůcka vyúčtovaná - přiřazená na dokladu, je možné na ePoukazu dané pomůcky zrušit výdej.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1493,
+            "alt": "image-20260202-061404.png",
+            "id": "757bd1b3-9695-448a-bc89-36c16ac3e5b1",
+            "collection": "contentId-253788162",
+            "type": "file",
+            "localId": "c4914348da2a",
+            "height": 164
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "b9619084521e"
+          },
+          "content": [
+            {
+              "text": "Tyto pomůcky jsou vyúčtované - zařazené na dokladu, a proto není možné zrušit jejich výdej.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "33c9b163aba5"
+      },
+      "content": [
+        {
+          "text": "Nově vyúčtovat - v případě potřeby změny na vydaném ePoukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5cc78d862780"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřeba foniatrický záznam nově vyúčtovat z důvodu změny na ePoukazu (např. špatná pojišťovna pacienta, úpravy množství, nebo změny samotné pomůcky za jinou), je potřeba:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "b8562cb9fd4a",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3740be89cd93"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bdb8e37f180b"
+              },
+              "content": [
+                {
+                  "text": "V modulu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vyúčtování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " v záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Doklady",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " označit řádek dokladu s pomůckou, na kterém je potřeba udělat změnu a stisknout tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nově vyúčtovat ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 736,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1259,
+            "alt": "a14eb3d0-2b0d-486a-addf-13111bbc3d44.png",
+            "id": "eacd8282-007b-44c1-a1de-298d996c1697",
+            "collection": "contentId-253788162",
+            "type": "file",
+            "localId": "d95de4ce31a8",
+            "height": 175
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 611,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 611,
+            "alt": "67ddb947-2b9a-488f-9a0e-d0aa9e856a93.png",
+            "id": "ad89facd-dc19-49d1-9061-40f4d90528c2",
+            "collection": "contentId-253788162",
+            "type": "file",
+            "localId": "ebb2d5efff75",
+            "height": 179
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "164ca88200c1"
+          },
+          "content": [
+            {
+              "text": "Potvrzení o převedení dokladu k novému vyúčtování.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3466d2d98621",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c022adc54d17"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a131230ecec"
+              },
+              "content": [
+                {
+                  "text": "Uživatel na ePoukazu zruší výdej ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 819,
+                    "alt": "image-20260202-070509.png",
+                    "id": "60c28f54-c7e7-4d53-98a5-7753d2c29052",
+                    "collection": "contentId-253788162",
+                    "type": "file",
+                    "localId": "45d0358ba8f8",
+                    "height": 313
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "15f59ca5df2a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "64fe6fd8050a"
+              },
+              "content": [
+                {
+                  "text": "Zrušením výdeje se ePoukaz dostane do stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Předepsaný. ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "Pomocí volby ",
+                  "type": "text"
+                },
+                {
+                  "text": "Opravit ePoukaz",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " uživatel převede ePoukaz do editačního módu a provede potřebné úpravy.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 679,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 679,
+                    "alt": "image-20260202-070730.png",
+                    "id": "9961eff7-b116-48f8-b325-6498b7105daf",
+                    "collection": "contentId-253788162",
+                    "type": "file",
+                    "localId": "c1abc328fd26",
+                    "height": 350
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "76e634018768"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "93c4144d2982"
+              },
+              "content": [
+                {
+                  "text": "Uživatel provede potřebné úpravy a tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Opravit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " odesílá změny. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1149,
+                    "alt": "image-20260202-071009.png",
+                    "id": "12b43430-ec86-4cf3-9449-74575a551efb",
+                    "collection": "contentId-253788162",
+                    "type": "file",
+                    "localId": "5c1f8358ad9d",
+                    "height": 301
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "97e7dfa518c7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a3ed05189b56"
+              },
+              "content": [
+                {
+                  "text": "Po úspěšném odeslání změn uživatel opět provede výdej běžným způsobem. Jakmile je proveden úspěšný výdej, je foniatrický záznam zařazen do vyúčtování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

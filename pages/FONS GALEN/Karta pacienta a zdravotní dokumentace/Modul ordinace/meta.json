@@ -1,0 +1,835 @@
+{
+  "id": "35684353",
+  "title": "Modul ordinace",
+  "version": 5,
+  "updated_at": "2025-08-11T09:10:52.770Z",
+  "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+  "parent_id": "398065676",
+  "source": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/35684353",
+  "attachments": [
+    {
+      "id": "att35389446",
+      "title": "att_24_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 9030,
+      "version": 1,
+      "local": "assets/att_24_for_35684353.png"
+    },
+    {
+      "id": "att35389450",
+      "title": "att_40_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 16387,
+      "version": 1,
+      "local": "assets/att_40_for_35684353.png"
+    },
+    {
+      "id": "att35389466",
+      "title": "att_91_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_91_for_35684353.png"
+    },
+    {
+      "id": "att35520514",
+      "title": "att_6_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2888,
+      "version": 1,
+      "local": "assets/att_6_for_35684353.png"
+    },
+    {
+      "id": "att35520518",
+      "title": "att_43_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 6992,
+      "version": 1,
+      "local": "assets/att_43_for_35684353.png"
+    },
+    {
+      "id": "att35520526",
+      "title": "att_47_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 25364,
+      "version": 1,
+      "local": "assets/att_47_for_35684353.png"
+    },
+    {
+      "id": "att35520530",
+      "title": "att_113_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1144896,
+      "version": 1,
+      "local": "assets/att_113_for_35684353.png"
+    },
+    {
+      "id": "att35520538",
+      "title": "att_106_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 178960,
+      "version": 1,
+      "local": "assets/att_106_for_35684353.png"
+    },
+    {
+      "id": "att35553291",
+      "title": "att_41_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1652,
+      "version": 1,
+      "local": "assets/att_41_for_35684353.png"
+    },
+    {
+      "id": "att35553295",
+      "title": "att_26_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2082,
+      "version": 1,
+      "local": "assets/att_26_for_35684353.png"
+    },
+    {
+      "id": "att35553307",
+      "title": "att_109_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 300450,
+      "version": 1,
+      "local": "assets/att_109_for_35684353.png"
+    },
+    {
+      "id": "att35553311",
+      "title": "att_111_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_111_for_35684353.png"
+    },
+    {
+      "id": "att35586051",
+      "title": "att_15_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1016,
+      "version": 1,
+      "local": "assets/att_15_for_35684353.png"
+    },
+    {
+      "id": "att35586055",
+      "title": "att_23_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13111,
+      "version": 1,
+      "local": "assets/att_23_for_35684353.png"
+    },
+    {
+      "id": "att35586059",
+      "title": "att_38_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2008,
+      "version": 1,
+      "local": "assets/att_38_for_35684353.png"
+    },
+    {
+      "id": "att35586071",
+      "title": "att_87_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 62647,
+      "version": 1,
+      "local": "assets/att_87_for_35684353.png"
+    },
+    {
+      "id": "att35586075",
+      "title": "att_96_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 99195,
+      "version": 1,
+      "local": "assets/att_96_for_35684353.png"
+    },
+    {
+      "id": "att35586079",
+      "title": "att_46_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_46_for_35684353.png"
+    },
+    {
+      "id": "att35618818",
+      "title": "att_42_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 7108,
+      "version": 1,
+      "local": "assets/att_42_for_35684353.png"
+    },
+    {
+      "id": "att35618830",
+      "title": "att_5_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13286,
+      "version": 1,
+      "local": "assets/att_5_for_35684353.png"
+    },
+    {
+      "id": "att35618834",
+      "title": "att_57_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 23623,
+      "version": 1,
+      "local": "assets/att_57_for_35684353.png"
+    },
+    {
+      "id": "att35618838",
+      "title": "att_67_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 43374,
+      "version": 1,
+      "local": "assets/att_67_for_35684353.png"
+    },
+    {
+      "id": "att35651586",
+      "title": "att_4_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 12835,
+      "version": 1,
+      "local": "assets/att_4_for_35684353.png"
+    },
+    {
+      "id": "att35651594",
+      "title": "att_69_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 51985,
+      "version": 1,
+      "local": "assets/att_69_for_35684353.png"
+    },
+    {
+      "id": "att35651598",
+      "title": "att_81_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 53716,
+      "version": 1,
+      "local": "assets/att_81_for_35684353.png"
+    },
+    {
+      "id": "att35651602",
+      "title": "att_83_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 78587,
+      "version": 1,
+      "local": "assets/att_83_for_35684353.png"
+    },
+    {
+      "id": "att35651609",
+      "title": "att_112_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 849642,
+      "version": 1,
+      "local": "assets/att_112_for_35684353.png"
+    },
+    {
+      "id": "att35651613",
+      "title": "att_13_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_13_for_35684353.png"
+    },
+    {
+      "id": "att35651621",
+      "title": "att_79_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_79_for_35684353.png"
+    },
+    {
+      "id": "att35651635",
+      "title": "att_110_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_110_for_35684353.png"
+    },
+    {
+      "id": "att35717121",
+      "title": "att_3_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 9199,
+      "version": 1,
+      "local": "assets/att_3_for_35684353.png"
+    },
+    {
+      "id": "att35717125",
+      "title": "att_19_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 911,
+      "version": 1,
+      "local": "assets/att_19_for_35684353.png"
+    },
+    {
+      "id": "att35717146",
+      "title": "att_22_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13339,
+      "version": 1,
+      "local": "assets/att_22_for_35684353.png"
+    },
+    {
+      "id": "att35717150",
+      "title": "att_97_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_97_for_35684353.png"
+    },
+    {
+      "id": "att35749889",
+      "title": "att_18_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 3101,
+      "version": 1,
+      "local": "assets/att_18_for_35684353.png"
+    },
+    {
+      "id": "att35749901",
+      "title": "att_49_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 34486,
+      "version": 1,
+      "local": "assets/att_49_for_35684353.png"
+    },
+    {
+      "id": "att35749905",
+      "title": "att_86_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 56570,
+      "version": 1,
+      "local": "assets/att_86_for_35684353.png"
+    },
+    {
+      "id": "att35749912",
+      "title": "att_27_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13339,
+      "version": 1,
+      "local": "assets/att_27_for_35684353.png"
+    },
+    {
+      "id": "att35782657",
+      "title": "att_10_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2089,
+      "version": 1,
+      "local": "assets/att_10_for_35684353.png"
+    },
+    {
+      "id": "att35782658",
+      "title": "att_12_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1582,
+      "version": 1,
+      "local": "assets/att_12_for_35684353.png"
+    },
+    {
+      "id": "att35782665",
+      "title": "att_37_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 750,
+      "version": 1,
+      "local": "assets/att_37_for_35684353.png"
+    },
+    {
+      "id": "att35782669",
+      "title": "att_64_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 40950,
+      "version": 1,
+      "local": "assets/att_64_for_35684353.png"
+    },
+    {
+      "id": "att35782673",
+      "title": "att_74_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 44307,
+      "version": 1,
+      "local": "assets/att_74_for_35684353.png"
+    },
+    {
+      "id": "att35782677",
+      "title": "att_104_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 146277,
+      "version": 1,
+      "local": "assets/att_104_for_35684353.png"
+    },
+    {
+      "id": "att35782692",
+      "title": "att_101_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 108559,
+      "version": 1,
+      "local": "assets/att_101_for_35684353.png"
+    },
+    {
+      "id": "att35782696",
+      "title": "att_92_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 82400,
+      "version": 1,
+      "local": "assets/att_92_for_35684353.png"
+    },
+    {
+      "id": "att35815425",
+      "title": "att_16_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 985,
+      "version": 1,
+      "local": "assets/att_16_for_35684353.png"
+    },
+    {
+      "id": "att35815429",
+      "title": "att_95_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 91760,
+      "version": 1,
+      "local": "assets/att_95_for_35684353.png"
+    },
+    {
+      "id": "att35815439",
+      "title": "att_93_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_93_for_35684353.png"
+    },
+    {
+      "id": "att35848193",
+      "title": "att_1_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13339,
+      "version": 1,
+      "local": "assets/att_1_for_35684353.png"
+    },
+    {
+      "id": "att35848194",
+      "title": "att_14_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 7995,
+      "version": 1,
+      "local": "assets/att_14_for_35684353.png"
+    },
+    {
+      "id": "att35848201",
+      "title": "att_35_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 4299,
+      "version": 1,
+      "local": "assets/att_35_for_35684353.png"
+    },
+    {
+      "id": "att35848205",
+      "title": "att_82_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 53475,
+      "version": 1,
+      "local": "assets/att_82_for_35684353.png"
+    },
+    {
+      "id": "att35880961",
+      "title": "att_17_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1141,
+      "version": 1,
+      "local": "assets/att_17_for_35684353.png"
+    },
+    {
+      "id": "att35880965",
+      "title": "att_20_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 4063,
+      "version": 1,
+      "local": "assets/att_20_for_35684353.png"
+    },
+    {
+      "id": "att35880969",
+      "title": "att_84_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 66807,
+      "version": 1,
+      "local": "assets/att_84_for_35684353.png"
+    },
+    {
+      "id": "att35880973",
+      "title": "att_88_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 60787,
+      "version": 1,
+      "local": "assets/att_88_for_35684353.png"
+    },
+    {
+      "id": "att35880997",
+      "title": "447cd537-fad0-4609-b9dc-a557d84a04be.jpg",
+      "mediaType": "image/jpeg",
+      "fileSize": 4637,
+      "version": 1,
+      "local": "assets/447cd537-fad0-4609-b9dc-a557d84a04be.jpg"
+    },
+    {
+      "id": "att35913729",
+      "title": "att_30_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1698,
+      "version": 1,
+      "local": "assets/att_30_for_35684353.png"
+    },
+    {
+      "id": "att35913733",
+      "title": "att_52_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 20416,
+      "version": 1,
+      "local": "assets/att_52_for_35684353.png"
+    },
+    {
+      "id": "att35913743",
+      "title": "att_58_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_58_for_35684353.png"
+    },
+    {
+      "id": "att35913749",
+      "title": "att_50_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13339,
+      "version": 1,
+      "local": "assets/att_50_for_35684353.png"
+    },
+    {
+      "id": "att35946497",
+      "title": "att_25_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2392,
+      "version": 1,
+      "local": "assets/att_25_for_35684353.png"
+    },
+    {
+      "id": "att35946498",
+      "title": "att_44_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 5154,
+      "version": 1,
+      "local": "assets/att_44_for_35684353.png"
+    },
+    {
+      "id": "att35946499",
+      "title": "att_11_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1590,
+      "version": 1,
+      "local": "assets/att_11_for_35684353.png"
+    },
+    {
+      "id": "att35946509",
+      "title": "att_80_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 73847,
+      "version": 1,
+      "local": "assets/att_80_for_35684353.png"
+    },
+    {
+      "id": "att35979265",
+      "title": "att_7_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 988,
+      "version": 1,
+      "local": "assets/att_7_for_35684353.png"
+    },
+    {
+      "id": "att35979273",
+      "title": "att_94_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 72578,
+      "version": 1,
+      "local": "assets/att_94_for_35684353.png"
+    },
+    {
+      "id": "att35979279",
+      "title": "att_89_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_89_for_35684353.png"
+    },
+    {
+      "id": "att35979285",
+      "title": "att_114_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1160194,
+      "version": 1,
+      "local": "assets/att_114_for_35684353.png"
+    },
+    {
+      "id": "att36012033",
+      "title": "att_33_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2290,
+      "version": 1,
+      "local": "assets/att_33_for_35684353.png"
+    },
+    {
+      "id": "att36012037",
+      "title": "att_54_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 19312,
+      "version": 1,
+      "local": "assets/att_54_for_35684353.png"
+    },
+    {
+      "id": "att36012047",
+      "title": "att_51_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_51_for_35684353.png"
+    },
+    {
+      "id": "att36044801",
+      "title": "att_2_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 2113,
+      "version": 1,
+      "local": "assets/att_2_for_35684353.png"
+    },
+    {
+      "id": "att36044802",
+      "title": "att_36_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 16704,
+      "version": 1,
+      "local": "assets/att_36_for_35684353.png"
+    },
+    {
+      "id": "att36044813",
+      "title": "att_90_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 84088,
+      "version": 1,
+      "local": "assets/att_90_for_35684353.png"
+    },
+    {
+      "id": "att36044817",
+      "title": "att_105_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_105_for_35684353.png"
+    },
+    {
+      "id": "att36044825",
+      "title": "att_61_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_61_for_35684353.png"
+    },
+    {
+      "id": "att36077569",
+      "title": "att_8_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 1225,
+      "version": 1,
+      "local": "assets/att_8_for_35684353.png"
+    },
+    {
+      "id": "att36077571",
+      "title": "att_32_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 11132,
+      "version": 1,
+      "local": "assets/att_32_for_35684353.png"
+    },
+    {
+      "id": "att36077581",
+      "title": "att_45_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17263,
+      "version": 1,
+      "local": "assets/att_45_for_35684353.png"
+    },
+    {
+      "id": "att36077595",
+      "title": "att_71_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_71_for_35684353.png"
+    },
+    {
+      "id": "att36077599",
+      "title": "att_75_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_75_for_35684353.png"
+    },
+    {
+      "id": "att36077607",
+      "title": "att_48_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_48_for_35684353.png"
+    },
+    {
+      "id": "att36110341",
+      "title": "att_55_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 24787,
+      "version": 1,
+      "local": "assets/att_55_for_35684353.png"
+    },
+    {
+      "id": "att36110349",
+      "title": "att_73_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 42243,
+      "version": 1,
+      "local": "assets/att_73_for_35684353.png"
+    },
+    {
+      "id": "att36143106",
+      "title": "att_21_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 12088,
+      "version": 1,
+      "local": "assets/att_21_for_35684353.png"
+    },
+    {
+      "id": "att36143107",
+      "title": "att_31_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 14252,
+      "version": 1,
+      "local": "assets/att_31_for_35684353.png"
+    },
+    {
+      "id": "att36143125",
+      "title": "att_68_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_68_for_35684353.png"
+    },
+    {
+      "id": "att36143135",
+      "title": "att_72_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_72_for_35684353.png"
+    },
+    {
+      "id": "att36143139",
+      "title": "att_9_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 13339,
+      "version": 1,
+      "local": "assets/att_9_for_35684353.png"
+    },
+    {
+      "id": "att36175877",
+      "title": "att_98_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 104603,
+      "version": 1,
+      "local": "assets/att_98_for_35684353.png"
+    },
+    {
+      "id": "att36175885",
+      "title": "att_103_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 146258,
+      "version": 1,
+      "local": "assets/att_103_for_35684353.png"
+    },
+    {
+      "id": "att36175895",
+      "title": "att_102_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 17544,
+      "version": 1,
+      "local": "assets/att_102_for_35684353.png"
+    },
+    {
+      "id": "att36208645",
+      "title": "att_56_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 25074,
+      "version": 1,
+      "local": "assets/att_56_for_35684353.png"
+    },
+    {
+      "id": "att36208653",
+      "title": "att_77_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 34147,
+      "version": 1,
+      "local": "assets/att_77_for_35684353.png"
+    },
+    {
+      "id": "att36208657",
+      "title": "att_60_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 26842,
+      "version": 1,
+      "local": "assets/att_60_for_35684353.png"
+    },
+    {
+      "id": "att36208665",
+      "title": "att_70_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_70_for_35684353.png"
+    },
+    {
+      "id": "att36241409",
+      "title": "att_65_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 41734,
+      "version": 1,
+      "local": "assets/att_65_for_35684353.png"
+    },
+    {
+      "id": "att36241410",
+      "title": "att_59_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 29534,
+      "version": 1,
+      "local": "assets/att_59_for_35684353.png"
+    },
+    {
+      "id": "att36241421",
+      "title": "att_53_for_35684353.png",
+      "mediaType": "image/png",
+      "fileSize": 15152,
+      "version": 1,
+      "local": "assets/att_53_for_35684353.png"
+    },
+    {
+      "id": "att67207169",
+      "title": "image-20250709-134554.png",
+      "mediaType": "image/png",
+      "fileSize": 2293,
+      "version": 1,
+      "local": "assets/image-20250709-134554.png"
+    },
+    {
+      "id": "att92569602",
+      "title": "image-20250811-091043.png",
+      "mediaType": "image/png",
+      "fileSize": 276593,
+      "version": 1,
+      "local": "assets/image-20250811-091043.png"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c88f00930892"
+      },
+      "content": [
+        {
+          "text": "Tato sekce popisuje každodenní klinickou práci lékaře v ordinaci — od zápisu dekurzu a vyšetření až po specializované klinické moduly.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "de781645ee04"
+      },
+      "content": [
+        {
+          "text": "Najdete zde návod na práci s dekurzem včetně zkratek a kopírování, zápis vyšetření a prohlídek, zadávání zdravotních výkonů, tvorbu a odesílání lékařské zprávy. Sekce zahrnuje také specializované moduly: bonifikační a screeningové programy (FRAX, BMI, KVO Score 2, screening plic, kolorekta a další), foniatrie.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "a7e0b470-3852-4f65-a8ed-d41693595733"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "0212893f-e366-4a19-84ad-312261485daa"
+      }
+    }
+  ],
+  "version": 1
+}

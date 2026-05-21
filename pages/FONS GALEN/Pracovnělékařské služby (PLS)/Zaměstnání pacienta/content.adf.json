@@ -1,0 +1,153 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na kartě pacienta lze přiřadit zaměstnavatele pacientovi. Pokud má firma příznak PLS, lze tuto firmu uložit pouze v případě, že má aktivní smlouvu a na smlouvě alespoň 1 hlavní položku se zařazenou skupinou PLS. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 944,
+            "alt": "image-20250626-135820.png",
+            "id": "829b518d-ebba-46d7-bc84-64b69fb60747",
+            "collection": "contentId-57180217",
+            "type": "file",
+            "height": 760
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud má firma příznak PLS, lze tuto firmu uložit pouze v případě, že má aktivní smlouvu a na smlouvě alespoň 1 hlavní položku se zařazenou skupinou PLS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka PLS ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "– je zobrazena v PLS adminovi a na prohlídce červeně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Středisko",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – informativní charakter, podle této hodnoty lze filtrovat v PLS aplikaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Platnost posudku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – údaj dotažený z modulu Recepce nebo Objednávání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Plánovaná prohlídka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – datum poslední plánované prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozastavení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – aktuálně má informativní charakter a používá se jako filtr v PLS aplikaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o Lze podle této hodnoty následně filtrovat v PLS aplikace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o Může nabýt stavy: Ne, MD + RD, DPN, Jiný důvod",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

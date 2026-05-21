@@ -1,0 +1,2226 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "79f61477-17e4-42e7-9441-f4f74cdb4129"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "86eb6ba2-aee0-4b80-b5d9-45831b4644ab"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9f11ff7b-2c6a-4b5e-9e58-c3883ecbecb2"
+      },
+      "content": [
+        {
+          "text": "Na pracovišti s odborností 902 je možné využívat aparát pro práci s přijatými poukazy FT. Tento aparát umožní: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d9959f03-733e-4dc8-bf2b-eaad419ada7f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3b346e25-94c8-4b15-8755-042f53d87b74"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7d857f3e-f084-446f-919b-d710e3317549"
+              },
+              "content": [
+                {
+                  "text": "Evidovat přijaté poukazy pro konkrétního pacienta. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1c450067-1b2d-45dd-9e9f-3b121c02b627"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "67a96d0b-5f3e-4db1-b342-0322e8e1813f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3dbc7512-db99-45a1-9d84-68bdfb6ee5e9"
+              },
+              "content": [
+                {
+                  "text": "Využívat informace z tohoto poukazu pro vykazování poskytnuté péče. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "53906225-46e5-4e34-b93b-fe126e1cc333"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4b894109-bff9-44b5-90a5-6fd6872698be"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "89af131a-9736-440a-8af8-b9938cd1ab50"
+              },
+              "content": [
+                {
+                  "text": "Vázat k tomuto poukazu informace o poskytnuté péči (výkony, zápisy, formuláře). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5fc501b3-c12e-4933-b9b9-10677c771ac9"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3d33de75-fe26-4f02-bc95-be3ffc97d805"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ab556e10-eb07-4607-b122-2c18aead47c5"
+              },
+              "content": [
+                {
+                  "text": "Vytvářet na základě vazeb k poukazu zdravotnickou dokumentaci. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "86c5ab56-eb0d-447a-8c43-710319846d80"
+      },
+      "content": [
+        {
+          "text": "Základní evidence ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1aa9b86b-efa7-48e1-af10-161ab2438ea0"
+      },
+      "content": [
+        {
+          "text": "Pro konkrétního pacienta je možné zobrazit seznam evidovaných poukazů pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v horní liště modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Ordinace.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 953,
+            "alt": "image-20250701-084227.png",
+            "id": "87426e4d-97fa-4be4-8e26-474e3af4d1dd",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "6168d43a-4077-4baa-bb75-c80d9f3e8b7f",
+            "height": 81
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "446c9458-66a7-4c7b-a15a-0e5963a21d78"
+          },
+          "content": [
+            {
+              "text": "Zobrazení seznamu poukazů FT",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fa5a7eca-709f-4813-9896-e78e43c290fc"
+      },
+      "content": [
+        {
+          "text": "Pozn.: Pokud je pracoviště oprávněné vystavovat také Žádanky RDG – hledejte Poukazy FT pod ikonou Žádanky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02473ccc-e47f-4bc9-941f-ff078bd27b5f"
+      },
+      "content": [
+        {
+          "text": "Okno s evidovanými poukazy obsahuje základní filtrace (v levé části) a seznam již evidovaných poukazů (v pravé části). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1005,
+            "alt": "image-20250701-084312.png",
+            "id": "d600cbc2-d56e-4b5c-bbcb-9e5bcf49a080",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "3780e352-2e1b-4426-9bc6-c143781fc160",
+            "height": 115
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "8431112e-29f5-4432-99c5-c3ab74c74e99"
+          },
+          "content": [
+            {
+              "text": "Seznam poukazů FT",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "41a5d180-7270-461e-a2f9-f9ef58c509c7"
+      },
+      "content": [
+        {
+          "text": "Do vytvářeného poukazu se nakopírují základní identifikační údaje z kartotéky. Dále je nutné zadat několik povinných informací, které jsou ve formuláři označeny červenou hvězdičkou. Zejména se jedná o: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "43f38511-3f7b-43a1-b870-81e5b372bb88"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2aa43c1a-51a0-4be4-bed1-e3a696100dbe"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5ccbd817-b438-48d4-9aa9-35e875e3d2f7"
+              },
+              "content": [
+                {
+                  "text": "Přiřazen na prac. - pracoviště, na které je poukaz FT přiřazen ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6cf8c78a-d2c1-485a-800d-de268532b52c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7c36c67-ecee-47b1-92ba-42bc00e891a5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5e5d1a3d-a44f-459f-96ae-6513954947b1"
+              },
+              "content": [
+                {
+                  "text": "Platnost poukazu do ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2bdfdbb0-18c4-44db-9f1f-d7b83e23541f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d769d9bc-ec14-4f3f-8019-6db6d38e257e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8fc5c6f2-15f0-4c10-a038-784bce09ee68"
+              },
+              "content": [
+                {
+                  "text": "Počet návštěv, během kterých mají být předepsané výkony realizovány ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "0fac99a6-1903-4b88-8b2c-52a6d1de40ed"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5f371549-8c24-4bbb-8199-958e7fa8695d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1fed7ec1-cb33-4f82-83e1-b2338deaca70"
+              },
+              "content": [
+                {
+                  "text": "Požadovaná adresa poskytování péče (v případě, že se jedná o domácí péči, jinak je možné ponechat prázdné) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "67279e04-53af-4c9e-887a-f1079e693c5e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5e176f93-51fa-4951-b844-ebdc65e4e7d7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "de56694d-bfd7-4a5d-996c-e76fee4a510e"
+              },
+              "content": [
+                {
+                  "text": "Informace o předepisujícím lékaři (zejména IČP a odbornost) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "dfd36ff2-cd84-410b-a641-2c22fc0c7bb4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "21359dd8-4f4a-4d3b-9f7f-a40004983f2b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "68c0acff-892c-441f-a7c5-3a951c714f29"
+              },
+              "content": [
+                {
+                  "text": "Diagnóza. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "89ee8635-8b21-442a-983a-a9ca262a80be"
+      },
+      "content": [
+        {
+          "text": "Pole Typ dokumentace je přednastaveno na hodnotu Kurativa a lze jej změnit na PLS. Při volbě PLS se zobrazí doplňkové pole Zaměstnání, kde je potřeba vybrat z číselníku zaměstnání pacienta. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a496de6-b2cc-473b-bd8c-79fd093e0ccd"
+      },
+      "content": [
+        {
+          "text": "U některých polí (např. adresa, předepisující lékař, …) je možné využít informace z navázaných objektů. K tomu slouží ikona černého trojúhelníku vedle příslušného pole. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1266,
+            "alt": "image-20250701-084356.png",
+            "id": "01e9dd2b-80e3-43ae-aaf9-91a042f67095",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "099a681e-f1ec-4b90-a260-b04b90e5d093",
+            "height": 242
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "efaf77f0-9f10-4a0e-a3db-d48c2cdceee0"
+          },
+          "content": [
+            {
+              "text": "Ikona pro výběr již evidovaných údajů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a1784ecc-3809-418a-ad58-ec2c606bf842"
+      },
+      "content": [
+        {
+          "text": " Dále je zapotřebí vyplnit seznam požadovaných výkonů. K tomu slouží editovatelná tabulka ve spodní části dialogu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1257,
+            "alt": "image-20250701-084420.png",
+            "id": "4e7fa2c4-82f2-4eed-97ae-802e0ecef6b7",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "f3e5211a-de66-4a62-985a-1a68a65f65ec",
+            "height": 512
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "5ce9a4b5-57c3-4bc4-9434-27c0299bb41f"
+          },
+          "content": [
+            {
+              "text": "Seznam předepsaných výkonů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d75d502b-8676-433e-bea5-e4af0acf0114"
+      },
+      "content": [
+        {
+          "text": "Zde se zadává informace o jednotlivých výkonech a předepsaných počtech těchto výkonů. Ve sloupci ",
+          "type": "text"
+        },
+        {
+          "text": "Počet k vykázání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se ve výchozím stavu zrcadlí údaj zadaný jako ",
+          "type": "text"
+        },
+        {
+          "text": "Předepsaný počet",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Vůči této hodnotě následně systém kontroluje počty vykázaných výkonů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2ccfd62b-d6ff-4f07-827f-9f94ca3eafe6"
+      },
+      "content": [
+        {
+          "text": "Konfiguračně (viz kapitola Konfigurace) lze u určitého výkonu umožnit zadat jinou hodnotu počtu pro vykázání. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "96aa092f-f4d3-4806-b317-60d9ca351503"
+      },
+      "content": [
+        {
+          "text": "Stav FT poukazu:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6a53a9f5-ab31-43fe-a1b7-ac0bcde5d7cf"
+      },
+      "content": [
+        {
+          "text": "Stav poukazu může editovat pouze pracoviště, na které je FT poukaz přiřazen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d1c6c4c9-c8b5-4b97-bc07-247e9fed9b6a"
+      },
+      "content": [
+        {
+          "text": "Detail pole Stav ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 539,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 539,
+            "alt": "image-20250701-084516.png",
+            "id": "49faea78-fc97-46ca-8345-33bbb50321c9",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "9072bce3-d65d-42d3-9b23-90a559aa099e",
+            "height": 332
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3b179199-a7b2-4fcb-a0af-6e2155a7eacb"
+      },
+      "content": [
+        {
+          "text": "Stavy, do kterých nemůže být FT poukaz převeden, je zašedlý. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "171b428b-a96e-4a4f-9497-95b6cb1040fa"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Stavy ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "69b1f6cd-9b40-4dba-a1bc-6b0ba446f8f2"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "850dc607-5fd2-4ce4-978e-af70dc3c913d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "22f2c8f6-1b8d-4721-837f-013093b46853"
+              },
+              "content": [
+                {
+                  "text": "Nový ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ffd4f322-ee41-495e-8a44-a501b3b2dbf1"
+      },
+      "content": [
+        {
+          "text": "Na poukaz není navázána žádná objednávka, ani z něj není vykázán žádný výkon. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "198be58c-e6f5-43c2-a17c-9321d2ffd54e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a9a04e0b-f782-49a5-a37c-0b0e91eaee9d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8d28e259-e475-488c-9c78-c40baa09c14d"
+              },
+              "content": [
+                {
+                  "text": "Přijatý ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "300d8e8d-2ba7-4fb0-854a-ee7e028d97f0"
+      },
+      "content": [
+        {
+          "text": "Na poukaz je navázána alespoň jedna objednávka, ale není na něj navázán žádný výkon. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "17303939-12a2-4760-b644-23e777a38bfd"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ea75f4dc-8e4d-470f-b0a6-74df80694dce"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "410a0121-b31f-4e45-8408-197033e74c60"
+              },
+              "content": [
+                {
+                  "text": "Ve zpracování ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "84a82643-c327-4a99-a524-b80dcf149ea0"
+      },
+      "content": [
+        {
+          "text": "Na FT poukaz je navázán alespoň jeden výkon. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ccefabfd-6287-4e8d-8fba-93787818e55b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9d0d400c-7ed0-492d-86a7-a985a7a2d67d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2df555e5-9a65-4947-9eb7-df63d3dfb651"
+              },
+              "content": [
+                {
+                  "text": "Zpracován ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "873c1f02-ebd2-4095-81fc-b8aedc8d0bd0"
+      },
+      "content": [
+        {
+          "text": "Tohoto stavu FT poukaz nabývá pouze po ruční změně. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "9339daa3-48da-43db-8cd7-421a6f200473"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9ffb4c5b-b373-4b2f-8ea7-701b39904ee4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9cc8252c-2ee7-4323-9086-d62bf950fda4"
+              },
+              "content": [
+                {
+                  "text": "Neplatný ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "def9055a-cad7-41e7-802a-620ca4ef6127"
+      },
+      "content": [
+        {
+          "text": "Tohoto stavu FT poukaz nabývá pouze po ruční změně. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ecf441dd-d6e2-4e30-91c4-983b1affaddf"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Vykazování péče ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "764ea093-86c8-45c6-bf1c-443d6680cb51"
+      },
+      "content": [
+        {
+          "text": "Evidované poukazy FT slouží jako „šablony“ pro zadávání výkonů v okně ",
+          "type": "text"
+        },
+        {
+          "text": "Výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Seznam těchto poukazů se zobrazuje v pravé části pod šablonami výkonů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1265,
+            "alt": "image-20250701-084644.png",
+            "id": "560f1e7f-a0d2-4226-9f5f-18648832ca69",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "66fd80f6-4cd6-453a-a799-798241b649d0",
+            "height": 262
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "5ac4cf9a-4575-4bf2-b886-8d8fbffeee03"
+          },
+          "content": [
+            {
+              "text": "Seznam poukazů v okně Výkony",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "523fee95-a713-4239-a9f1-f030a9e44090"
+      },
+      "content": [
+        {
+          "text": "Kliknutím na příslušné tlačítko se zobrazí dialogové okno pro zadání provedených výkonů.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1260,
+            "alt": "image-20250701-084706.png",
+            "id": "e13fb8a1-3944-457d-9936-f99ba5e5b394",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "ba2e337d-963d-4555-98a4-dfc93ddccdfa",
+            "height": 745
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36eb0777-87c2-40d0-bb2f-e8de2cb4a9e5"
+      },
+      "content": [
+        {
+          "text": "Zde je ve sloupci ",
+          "type": "text"
+        },
+        {
+          "text": "Vykázat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nutné zadat počty výkonů, které mají být vykázány. Výkony, u kterých bude vykázán počet 0, nebudou následně přeneseny do editoru výkonů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a73e8c14-77cb-4472-809c-063ef51f1969"
+      },
+      "content": [
+        {
+          "text": "Dále je možné v části ",
+          "type": "text"
+        },
+        {
+          "text": "Svázat záznamy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " provázat zápisy v dekurzu z daného dne s daným poukazem. Je zde uveden náhled, a o tom, zda má být vazba vytvořena, rozhoduje škrtátko vedle tohoto náhledu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "946090b9-9a70-409d-8006-3beaf722f30d"
+      },
+      "content": [
+        {
+          "text": "Vykázání vybraných výkonů a vytvoření případné vazby mezi zápisem v dekurzu a poukazem se provede pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Vykázat výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e3a8f5a9-3a3c-44f2-a953-e294ffa1b219"
+      },
+      "content": [
+        {
+          "text": "(Poznámka: Pokud následně v okně ",
+          "type": "text"
+        },
+        {
+          "text": "Výkony ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "uživatel klikne na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Storno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", pak se výkony neuloží, ale vazba mezi záznamem dekurzu a poukazem již zůstane vytvořená.) ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c49f0ba4-d592-4c1c-bb5e-a90a589c44d6"
+      },
+      "content": [
+        {
+          "text": "Podepisování FT poukazů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02db5ce0-00cf-43d9-ad80-7608b044b5b4"
+      },
+      "content": [
+        {
+          "text": "Obě pracoviště, žádající i pracoviště s odborností 902, mají možnost poukaz FT podepsat a následně archivovat. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1342,
+            "alt": "image-20250701-084745.png",
+            "id": "6eca120f-b5fc-4d56-89fb-adf7531ec700",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "b4b58c92-1014-47c3-86e7-3aa0bd1f6b10",
+            "height": 548
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "995543f4-dc75-4b98-adec-51058f8127ac"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí na ikonu EZD  a následně tlačítko Nová  lze zvolit poukaz, který má být podepsán. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1345,
+            "alt": "image-20250701-084807.png",
+            "id": "bb627770-58df-448d-a91e-b23c618108c2",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "eb84021e-d598-4ce0-a6a7-b56d9b8ac4aa",
+            "height": 497
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "98f6a4cf-2184-4326-b560-38dd56c47ba4"
+      },
+      "content": [
+        {
+          "text": "Po jejím zobrazením je možné žádanku upravit/formátovat a po stisknutí tlačítka EZD, resp. ikony v levé části Přehledů poukazů FT, následně podepsat.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1160,
+            "alt": "image-20250701-084829.png",
+            "id": "69709b94-d315-4154-a75c-abdd1c7d5bf0",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "72fe403d-cc64-4311-b0aa-bb90ae0e8d0f",
+            "height": 709
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1057,
+            "alt": "image-20250701-084843.png",
+            "id": "19b5c74f-7bf0-4e40-8804-945d661df526",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "c55acda6-b599-4d74-84b6-17a666bd283f",
+            "height": 649
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8fce91f3-c181-4ff8-8280-956b5323912a"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí na Podepsat se dokument podepíše a je připraven na odeslání do archívu. Po kliknutí na Odejít dokument nebude podepsán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ece8f878-1905-4740-a79f-7a73c6c6b5b5"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Evidence dalších vazeb vůči poukazům FT ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ae5aea49-b88f-4d87-80a6-873fe38a156d"
+      },
+      "content": [
+        {
+          "text": "Záznamy v dekurzu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "17d4537b-fe7d-4933-bfa5-5006f9f053a1"
+      },
+      "content": [
+        {
+          "text": "Vazbu záznamu v dekurzu na poukaz je možné provést také manuálně a to z okna dekurzu. V šedé liště u zápisu je nutné kliknout na odkaz ",
+          "type": "text"
+        },
+        {
+          "text": "Zadat vazbu na poukaz FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1082,
+            "alt": "image-20250701-084923.png",
+            "id": "69278bfe-8c77-4b27-b70a-7c7527d0c2b4",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "27912b0d-7bc3-44bd-912c-1c63f418a66f",
+            "height": 174
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "bf7efa30-84d0-4757-b189-5dd613138d52"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "b22f0583-9ac8-4273-8108-456fd0502147"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 310,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 310,
+                    "alt": "image-20250701-084939.png",
+                    "id": "168eb6e8-1d90-457b-bafc-2adb61feb8bb",
+                    "collection": "contentId-61440018",
+                    "type": "file",
+                    "localId": "b96b10fb-25ae-4c63-bc0f-ed23b74ba3fe",
+                    "height": 495
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "97b96671-b3b4-49da-bd98-1bfcaebbd461"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "34356a9f-7042-4f4f-aeeb-eb59bce5b8db"
+              },
+              "content": [
+                {
+                  "text": "Po kliknutí na tento odkaz se zobrazí dialog ",
+                  "type": "text"
+                },
+                {
+                  "text": "Výběr poukazu FT",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", kde uživatel vybere příslušný poukaz a po potvrzení je zápis v dekurzu s poukazem svázán. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7fa2fcd5-e69d-4be3-a018-f1ececd933f9"
+      },
+      "content": [
+        {
+          "text": "Pokud je zapotřebí naopak vazbu mezi dekurzem a poukazem zrušit, je to možné provést kliknutím pravým tlačítkem na odkaz indikujícím navázaný poukaz. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1078,
+            "alt": "image-20250701-085002.png",
+            "id": "f6ab4933-6634-47a2-9973-d4330cbb1c9c",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "8df357c1-bf14-436f-9c4e-c64c0badd64b",
+            "height": 250
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "daa825b9-44db-4c63-9632-d97c26020f21"
+      },
+      "content": [
+        {
+          "text": "Vyšetření ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a198eba8-9a16-4bc3-b68b-8d7f7cdfb82b"
+      },
+      "content": [
+        {
+          "text": "Dalším objektem, který je možné vázat na poukaz FT jsou vyšetření. Zde je vazba doplňována vždy ručně pomocí odkazu ",
+          "type": "text"
+        },
+        {
+          "text": "Zadat vazbu na poukaz FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " z detailu vyšetření. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1079,
+            "alt": "image-20250701-085026.png",
+            "id": "1816d4b9-a8ab-4651-9965-5c113bd5b449",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "f95700d6-5e5f-4dcc-8d99-5fce93705859",
+            "height": 389
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6b63c187-7e8d-4a10-b811-a9a6be1022b9"
+      },
+      "content": [
+        {
+          "text": "Další postup je identický, jako u ručního navázání dekurzu na tento poukaz. Obdobně probíhá i případné odvázání vyšetření z tohoto poukazu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1fea6b0b-2e61-41cf-a89c-f74a9e6458ef"
+      },
+      "content": [
+        {
+          "text": "Tvorba dokumentace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46245f9f-d694-4e21-9b86-8f62dd163a71"
+      },
+      "content": [
+        {
+          "text": "Zdravotní dokumentace FT ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c52ef8e-c7e5-4e91-8fb3-a95307adddd0"
+      },
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Zpráva",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné vytvářet zprávy typu ",
+          "type": "text"
+        },
+        {
+          "text": "Zdravotní dokumentace FT.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1094,
+            "alt": "image-20250701-085106.png",
+            "id": "3b81e43d-6817-4dc5-aaea-2c1336cdba5d",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "986ddd9e-b3ac-4f10-a823-35ea2a1e6224",
+            "height": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "60529950-a1f6-4c40-a613-d8e6c9198417"
+      },
+      "content": [
+        {
+          "text": "Pomocí ikony ",
+          "type": "text"
+        },
+        {
+          "text": "Nová",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v horní liště se zobrazí dialog pro tvorbu zprávy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 681,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 681,
+            "alt": "image-20250701-085122.png",
+            "id": "7e72a85b-0dc6-40c8-a955-6c8d8254bb44",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "2ff82bf4-f65b-4882-a2bd-484e6b868520",
+            "height": 562
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "87c6601f-a96c-4076-b08f-a3631a2c53f1"
+      },
+      "content": [
+        {
+          "text": "Zde je nutné zvolit v položce ",
+          "type": "text"
+        },
+        {
+          "text": "Typ zprávy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " hodnotu ",
+          "type": "text"
+        },
+        {
+          "text": "Zdravotní dokumentace FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a vybrat správný poukaz. Po potvrzení pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Ok",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je vygenerovaná zpráva z údajů vázaných k tomuto poukazu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1084,
+            "alt": "image-20250701-085136.png",
+            "id": "3d849eb1-4980-4179-b481-dea2cb8c4122",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "0a79e811-c901-4f81-a414-6bf4ce29917a",
+            "height": 348
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "77386965-34f6-4b26-afb5-e0e9c654db58"
+      },
+      "content": [
+        {
+          "text": "Vygenerovanou zprávu je možné dále ručně upravovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "42cf6a3d-3c1c-4ce0-b6ec-e54d1c8c603b"
+      },
+      "content": [
+        {
+          "text": "Prázdná hlavička ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0dbe232f-c175-459b-8deb-2c773e2efb96"
+      },
+      "content": [
+        {
+          "text": "V případě potřeby je možné vytvořit také zprávu typu ",
+          "type": "text"
+        },
+        {
+          "text": "Prázdná hlavička",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Zde je vygenerována pouze samotná hlavička s definovanými údaji, samotný obsah musí uživatel dopsat kompletně sám. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 442,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 442,
+            "alt": "image-20250701-085209.png",
+            "id": "9dcb48dc-cb4b-4761-8782-adffa63becd9",
+            "collection": "contentId-61440018",
+            "type": "file",
+            "localId": "cb7fbdeb-118d-4e1f-92c4-81c3eb46aaa7",
+            "height": 358
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "8f0af36f-254c-41c1-a0a2-6208ebb6debd"
+          },
+          "content": [
+            {
+              "text": "Prázdná hlavička zprávy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d91a672c-8303-422a-9023-d17ef78a45b4"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a6bcfe95-1d59-4081-af7b-3e409d6cd22d"
+      },
+      "content": [
+        {
+          "text": "Konfigurace se provádí v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". V horní liště je nutné zvolit ikonu ",
+          "type": "text"
+        },
+        {
+          "text": "Rehabilitační výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (vedle ikony ",
+          "type": "text"
+        },
+        {
+          "text": "Těhotenské akce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ").  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1bd0ccfc-1b8d-41c0-a0af-6b45d5b5817d"
+      },
+      "content": [
+        {
+          "text": "Zde se zobrazuje tabulka s následujícími sloupci: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "29c3240d-af55-4c64-802d-3e46702fbffb"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "aa7bf882-bcaa-4a5d-80a5-1d0d33db37f5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "618f5c33-9d66-49f5-80bd-577cfbe50a4b"
+              },
+              "content": [
+                {
+                  "text": "Výkon ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0c87e55f-59bb-4c65-8221-3c06cdc398a7"
+      },
+      "content": [
+        {
+          "text": "Slouží pro zadání kódu výkonu, jehož chování v rámci poukazu FT má být ovlivněno. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "91f16989-b4bb-446e-bf6b-9113af44a90c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f03aaa4b-ae07-4a29-bd4c-6193c4b0e91e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3180d0de-5e16-453f-926d-b5b85e933978"
+              },
+              "content": [
+                {
+                  "text": "Ruční změna ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "112a722b-81cb-4105-b2bd-6503498be410"
+      },
+      "content": [
+        {
+          "text": "Jde o příznak, které umožňuje uživateli v rámci poukazu ručně nastavit jiný počet výkonu k vykázání, než jaký lékař předepsal. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "12230f97-587a-4b80-ad8e-86a0819f08ca"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "73f9c1cf-90f1-4f9c-bc17-6c3441d455ec"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "33d02cce-10de-4dac-a771-202187e089e6"
+              },
+              "content": [
+                {
+                  "text": "Výchozí násobek ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8aac9671-6d03-4319-9cbc-3db09e626e67"
+      },
+      "content": [
+        {
+          "text": "Jedná se o celé číslo určující, jaký násobek předepsaného výkonu se má ve výchozím stavu nastavit jako počet k vykázání. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3d66f33f-8cf1-4006-8ec9-d9bd4c1836d1"
+      },
+      "content": [
+        {
+          "text": "Poukaz FT a Sortiment z recepce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ea9b6668-a69c-4841-973a-7b10c7aed397"
+      },
+      "content": [
+        {
+          "text": "Z role recepce v modulu Objednávání byly zpřístupněny dvě již používané funkcionality, a to konkrétně FT Poukazy a Sortiment. K oběma funkcionalitám je nutné mít na společnosti zaškrtnutý checkbox Poukaz FT, Sortiment. V horním modrém menu vznikla dvě nová tlačítka FT poukaz a Sortiment. V obou funkcionalitách je oproti stávajícím pouze nový mezikrok výběr pracoviště, jinak jsou funkcionality totožné jako byly doposud. Protože se u zákazníka platí veškerá vyšetření před jeho samotným absolvováním, neevidují tedy žádné pohledávky, vše je hrazeno v hotovosti, v modulu Sortiment tedy nemají spuštěné Faktury. Dají se opět samostatně spustit v checkboxu na společnosti. FT poukazy je možno editovat, či mazat pouze ve stavu nový a vystavený z Recepce. Mohou je vystavovat na všechny pracoviště.  ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

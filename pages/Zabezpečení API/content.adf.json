@@ -1,0 +1,763 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "889702291504"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4a9dee072492"
+          },
+          "content": [
+            {
+              "text": "Tento manuál popisuje novou možnost zabezpečení API přístupu pomocí klientského certifikátu. Poskytuje podrobný postup nastavení a porovnání se stávajícím tokenovým přístupem.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "83479182b299"
+      },
+      "content": [
+        {
+          "text": "Přehled a přínosy certifikátového zabezpečení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ed72c6dcb688"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c5da5c3824f9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "633234cd4371"
+              },
+              "content": [
+                {
+                  "text": "Vyšší úroveň bezpečnosti: ověření identity probíhá na úrovni TLS (mTLS), čímž snižuje riziko kompromitace přístupových tajemství oproti samotným tokenům.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8399931ac122"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8cbce99137ff"
+              },
+              "content": [
+                {
+                  "text": "Silná autentizace infrastruktury: vazba na privátní klíč v HSM/TPM a správu certifikátů pod centrální PKI.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "df8f796874a5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cd18c62658d9"
+              },
+              "content": [
+                {
+                  "text": "Granulární kontrola: možnost kombinovat s omezením na povolené IP adresy a platností certifikátů.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "3bd1faf66a5d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "d905df605096"
+          },
+          "content": [
+            {
+              "text": "Certifikátové zabezpečení je vhodné pro organizace vyžadující silnou autentizaci. Tokenový přístup zůstává podporovanou a výchozí metodou.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "978e7efa2aca"
+      },
+      "content": [
+        {
+          "text": "Kde nastavení najdete",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a5a37365020d"
+      },
+      "content": [
+        {
+          "text": "Nastavení API přístupu je dostupné v cestě: ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace → Agendy → Správa API",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Po otevření formuláře konkrétního API přístupu je k dispozici položka ",
+          "type": "text"
+        },
+        {
+          "text": "Způsob zabezpečení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4a213c2ef291"
+      },
+      "content": [
+        {
+          "text": "Výběr způsobu zabezpečení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c41b94755a66"
+      },
+      "content": [
+        {
+          "text": "V rozbalovacím seznamu ",
+          "type": "text"
+        },
+        {
+          "text": "Způsob zabezpečení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zvolte jednu z možností:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c2849a76f464"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f511e30cba52"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9cd63aaa9cd8"
+              },
+              "content": [
+                {
+                  "text": "Token – stávající metoda zabezpečení (výchozí nastavení).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e8334b9d8cc0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2b66f6e0c858"
+              },
+              "content": [
+                {
+                  "text": "Certifikát – nová metoda zabezpečení pomocí klientského certifikátu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "8948b23bc1c0"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "578b2e95d1de"
+          },
+          "content": [
+            {
+              "text": "Výchozí hodnota je Token. Pokud způsob zabezpečení neměníte, není třeba provádět žádné úpravy.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "41bb8a98b582"
+      },
+      "content": [
+        {
+          "text": "Zabezpečení pomocí tokenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c00e4a794578"
+      },
+      "content": [
+        {
+          "text": "Při zvolení možnosti Token se zobrazí standardní položky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "afa94f9f1c35"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f65a7082c6db"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7389ebcef19b"
+              },
+              "content": [
+                {
+                  "text": "Klíč – vygenerovaný přístupový token.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b01d9cb8f04f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0e3a53019091"
+              },
+              "content": [
+                {
+                  "text": "Datum vygenerování – datum vytvoření tokenu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fadf59d8f91e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3f65f7f1c358"
+              },
+              "content": [
+                {
+                  "text": "Platnost do – datum vypršení platnosti tokenu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5bd66b69e4bd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7479153d0527"
+              },
+              "content": [
+                {
+                  "text": "Jen povolené IP adresy – omezení přístupu na vybrané IP adresy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "530c6894a1e8"
+      },
+      "content": [
+        {
+          "text": "Chování tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Přegenerovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": Tlačítko je viditelné pouze pro přístupy se způsobem zabezpečení Token. U certifikátového zabezpečení se nezobrazuje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "cf1fede04216"
+      },
+      "content": [
+        {
+          "text": "Zabezpečení pomocí certifikátu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "d14e373f57b1"
+      },
+      "content": [
+        {
+          "text": "Zobrazené položky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "86d7a9d438ff"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86b4775b127a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "785e57f0555e"
+              },
+              "content": [
+                {
+                  "text": "Certifikát – pole zobrazující nahraný certifikát.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3806443d4f9a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6a5fbb2a1881"
+              },
+              "content": [
+                {
+                  "text": "Datum vygenerování  – datum nahrání certifikátu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ab989ae79ffe"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d716f21d9125"
+              },
+              "content": [
+                {
+                  "text": "Platnost do – datum vypršení platnosti certifikátu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e67791b06cb3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e0235d6dc457"
+              },
+              "content": [
+                {
+                  "text": "Tlačítko Nastavit – slouží k nahrání certifikátu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d615209be807"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2f9774c0f1bb"
+              },
+              "content": [
+                {
+                  "text": "Jen povolené IP adresy – omezení přístupu na vybrané IP adresy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "e6b25b537851"
+      },
+      "content": [
+        {
+          "text": "Nahrání certifikátu – postup",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a1924cef1d98",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b80a5c6c4c64"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "810c1c272565"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko Nastavit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a3fdf0a6e69e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "63641bf1feff"
+              },
+              "content": [
+                {
+                  "text": "V systémovém dialogu Windows zvolte certifikát určený pro klientskou autentizaci (Client Authentication, mTLS).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "19ef612cc800"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "628c6f27ce08"
+              },
+              "content": [
+                {
+                  "text": "Potvrďte výběr. Systém nahraje certifikát a zobrazí jeho identifikaci a datum platnosti.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 525,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 525,
+            "alt": "image-20260402-070835.png",
+            "id": "c2aa0e48-5f40-4fd3-9e7e-d2bbc6758360",
+            "collection": "contentId-332693505",
+            "type": "file",
+            "localId": "3f4080b7be1c",
+            "height": 578
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fed1ed88adbe"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "2faf73905b75"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8e6f56229e53"
+          },
+          "content": [
+            {
+              "text": "Doporučení: Pro zabezpečení API doporučujeme použít certifikát DigiCert X9 PKI TLS splňující požadavky na bezpečnost a kompatibilitu se systémem.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c97a00d17392"
+      },
+      "content": [
+        {
+          "text": "Upozornění na expiraci certifikátu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7bbf8fda7e25"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2ca8225599cf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a7c6dbfdfccc"
+              },
+              "content": [
+                {
+                  "text": "Blížící se konec platnosti – systém zobrazí upozornění s dostatečným předstihem pro obnovu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bf5eb8e17749"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9a40487c351b"
+              },
+              "content": [
+                {
+                  "text": "Expirovaný certifikát – systém informuje správce o nutnosti výměny.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b369586db11b"
+      },
+      "content": [
+        {
+          "text": "Mechanismus vychází ze stávající kontroly expirací certifikátů v systému.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

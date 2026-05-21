@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/>
+<title>API: PLS Pobočky, Skupiny</title>
+<link href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/82214922" rel="canonical"/>
+<link href="../../../_assets/confluence.css" rel="stylesheet"/>
+</head>
+<body>
+<header><h1>API: PLS Pobočky, Skupiny</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/82214922">Source</a> · version 2 · updated 2025-07-28T08:41:46.793Z</small></p></header>
+<main>
+<div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Toto API vrací seznam poboček a pracovních skupin PLS evidovaných u dané firmy.<br/>Slouží jako referenční seznam při zakládání nebo úpravě zaměstnání pacienta – konkrétní pobočka firmy určuje fyzické místo výkonu práce a pracovní skupina PLS definuje specifické rizikové podmínky nebo pracovní zařazení z pohledu pracovně-lékařských služeb.</p></div></div><h3 id="API:PLSPobočky,Skupiny-GET/api/Firma/{FirmaId}/Pobocky">GET /api/Firma/{FirmaId}/Pobocky</h3><p><strong>Popis:</strong><br/>Vrací seznam všech poboček firmy.</p><p><strong>Parametry:</strong></p><ul><li><p><code>FirmaId</code> – ID firmy</p></li></ul><p><strong>Odpověď (pole PobockaDetailModel):</strong></p><ul><li><p>ICO – IČO firmy</p></li><li><p>Nazev – název pobočky</p></li><li><p>Adresa – ulice a číslo</p></li><li><p>Obec – město</p></li><li><p>PSC – poštovní směrovací číslo</p></li><li><p>Stat – stát (např. CZ)</p></li></ul><p><strong>Kódy odpovědi:</strong></p><ul><li><p>200 OK – úspěšné načtení</p></li><li><p>400 Bad Request – firma neexistuje</p></li><li><p>401 Unauthorized – neplatné oprávnění</p></li></ul><hr/><h3 id="API:PLSPobočky,Skupiny-🧾GET/api/Firma/{FirmaId}/Skupiny-pls">🧾 GET /api/Firma/{FirmaId}/Skupiny-pls</h3><p><strong>Popis:</strong><br/>Vrací seznam skupin pracovně-lékařských služeb firmy.</p><p><strong>Parametry:</strong></p><ul><li><p><code>FirmaId</code> – ID firmy</p></li></ul><p><strong>Odpověď (pole SkupinaPlsDetailModel):</strong></p><ul><li><p>ID – identifikátor skupiny</p></li><li><p>Nazev – název skupiny</p></li></ul><p><strong>Kódy odpovědi:</strong></p><ul><li><p>200 OK – úspěšné načtení</p></li><li><p>400 Bad Request – firma neexistuje</p></li><li><p>401 Unauthorized – neplatné oprávnění</p></li></ul>
+</main>
+</body>
+</html>

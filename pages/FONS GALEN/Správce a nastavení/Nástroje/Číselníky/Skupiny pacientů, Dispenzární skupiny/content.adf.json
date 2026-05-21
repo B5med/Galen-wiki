@@ -1,0 +1,42 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7335d5b8-c53f-4888-9be7-9356bad7b19d"
+      },
+      "content": [
+        {
+          "text": "Skupiny pacientů umožňují zadat informace sloužící k dalšímu podrobnějšímu rozdělení pacientů. Lékař si může sám nadefinovat skupiny pacientů dle svých kritérií. Skupiny lze přidávat malým zeleným znaménkem plus vpravo nahoře a po označení příslušeného řádku skupiny také smazat červeným znaménkem mínus. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "93023fc7-0682-436a-b045-33c72761a381"
+      },
+      "content": [
+        {
+          "text": "V záložce Dispenzární skupiny lze výběrem z číselníku dispenzárních skupin vytvořit svůj používaný seznam dispenzárních skupin, což při řazení pacientů do disp. skupin velmi ulehčí práci. Přidané skupiny lze také ze seznamu vyčlenit a systém oznámí, kolik pacientů je v těchto skupinách zařazených a jejich zařazení ve vyčleněné skupině bude zrušeno.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d377f23f-71fb-4dfc-adb3-3cabe7ab96ff"
+      },
+      "content": [
+        {
+          "text": "Pokud je dispenzarizace pacienta ve stavu „Předán specialistovi“, je nyní možné zadat IČP ordinace, ve které bude pacient dispenzarizován. Pole pro zadání IČP má pouze informativní charakter.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

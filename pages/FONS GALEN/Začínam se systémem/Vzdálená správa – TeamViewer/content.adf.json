@@ -1,0 +1,582 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "824c09254886"
+      },
+      "content": [
+        {
+          "text": "TeamViewer slouží k tomu, aby se pracovníci podpory FONS Galen mohli vzdáleně připojit k počítači zákazníka a vyřešit problém přímo na místě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "88d60f7d-247b-4310-8603-64f8b790962e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "f20bbd980bbc"
+      },
+      "content": [
+        {
+          "text": "Jak spustit TeamViewer",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5f6dfc3875da"
+      },
+      "content": [
+        {
+          "text": "Zákazník má k dispozici ",
+          "type": "text"
+        },
+        {
+          "text": "tři způsoby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", jak TeamViewer spustit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "c0fcd05b-2db7-4817-846a-799a589062bb"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "616191b082c4"
+      },
+      "content": [
+        {
+          "text": "1. Přes aplikaci FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c26525cffcc1"
+      },
+      "content": [
+        {
+          "text": "V hlavním okně aplikace FONS Galen klikne zákazník v ",
+          "type": "text"
+        },
+        {
+          "text": "levém dolním rohu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "„Potřebuji pomoc\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Zobrazí se nabídka, kde vybere možnost ",
+          "type": "text"
+        },
+        {
+          "text": "„Vzdálená správa TeamViewer\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 755,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1279,
+            "alt": "image-20260513-091732.png",
+            "id": "6551418e-7522-4ed7-bd17-1ce610c44d50",
+            "collection": "contentId-398131202",
+            "type": "file",
+            "localId": "919462c2ea20",
+            "height": 753
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "852b7269d250"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fda8ba5bdc12"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí se zobrazí systémová výzva Windows, zda má aplikace povolit změny v počítači — zákazník klikne na ",
+          "type": "text"
+        },
+        {
+          "text": "Ano",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "00b85b47bbd4"
+      },
+      "content": [
+        {
+          "text": "Poté se zobrazí okno TeamVieweru s ",
+          "type": "text"
+        },
+        {
+          "text": "kódem relace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a polem pro jméno. Zákazník případně klikne na ",
+          "type": "text"
+        },
+        {
+          "text": "„Připojit k relaci\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — a pracovník podpory se automaticky připojí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 755,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1279,
+            "alt": "image-20260513-092120.png",
+            "id": "d3ee303b-ce3d-4b7d-9990-12c1df429737",
+            "collection": "contentId-398131202",
+            "type": "file",
+            "localId": "3b07ef0503e3",
+            "height": 752
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1e6950fc4ac"
+      }
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "240f410b-47fb-4082-8866-8a40a5ee0aaf"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "1d445b530909"
+      },
+      "content": [
+        {
+          "text": "2. Klávesová zkratka kdekoliv v Galenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "10b9c2d7d038"
+      },
+      "content": [
+        {
+          "text": "Pokud je zákazník přihlášen v aplikaci FONS Galen, může TeamViewer spustit stisknutím klávesové zkratky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "8ceda7b6-5c7c-4f9f-bf5c-2bec176699ca"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "7253d603d9cf"
+          },
+          "content": [
+            {
+              "text": "Ctrl + Alt + F1",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8af896057748"
+      },
+      "content": [
+        {
+          "text": "Tato zkratka funguje z jakéhokoliv místa v aplikaci. Postup po spuštění je stejný jako v bodě 1.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "020e569e-cad0-46d9-a786-b6b849c5e04a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "276d9fbc88ca"
+      },
+      "content": [
+        {
+          "text": "3. Vlastní instalace TeamVieweru v počítači",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "087b2d97a246"
+      },
+      "content": [
+        {
+          "text": "Pokud má zákazník ",
+          "type": "text"
+        },
+        {
+          "text": "TeamViewer nainstalovaný přímo v počítači",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", spustí jej standardně sám. Zobrazí se okno se sekcí ",
+          "type": "text"
+        },
+        {
+          "text": "„Povolit vzdálenou správu\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kde vidí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5bfd9f42-3a3e-4c54-afbb-0b9d999be6e5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2ccea817-f256-4e0a-80b0-5fc4edc029a8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c31f4bf784d2"
+              },
+              "content": [
+                {
+                  "text": "Vaše ID",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — číselný identifikátor zařízení ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fe43d9529927"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e8eee7867f90"
+              },
+              "content": [
+                {
+                  "text": "Heslo",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — jednorázové heslo, které se při každém spuštění mění ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 755,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1279,
+            "alt": "image-20260513-092602.png",
+            "id": "5c89ba04-5489-4ea5-bb50-4a6a850cbc2e",
+            "collection": "contentId-398131202",
+            "type": "file",
+            "localId": "d7e8691c4c1e",
+            "height": 749
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8cf144213e45"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d24117fb0e73"
+      },
+      "content": [
+        {
+          "text": "Zákazník toto ",
+          "type": "text"
+        },
+        {
+          "text": "ID a heslo sdělí",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " pracovníkovi podpory, který se připojí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "95cee927-5cab-472a-86c1-2b61f2451d39"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "3b4ff4867fa4"
+      },
+      "content": [
+        {
+          "text": "Poznámky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "81cae881-ba59-4010-9585-d95d52115aed"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c18484fd-ce38-42f7-b64a-b56837fbd7f7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2a5d0251e7de"
+              },
+              "content": [
+                {
+                  "text": "Heslo (možnost 3) i kód relace (možnosti 1 a 2) se mění při každém novém spuštění TeamVieweru.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "62b5e9cf-86af-423b-914e-afa6cb2fd2fd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ede453b5378d"
+              },
+              "content": [
+                {
+                  "text": "Zákazník musí mít TeamViewer aktivní po celou dobu vzdálené relace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ac36b31a-2cc1-4392-8f19-833f2ef5d871"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "64b0988ae97d"
+              },
+              "content": [
+                {
+                  "text": "Bez souhlasu a aktivní účasti zákazníka se nelze připojit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

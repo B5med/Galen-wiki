@@ -1,0 +1,1524 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "K čemu slouží funkcionalita upozornění pro uživatele?",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upozornění je možné použít k různím účelům, například:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Osobní To-Do list.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zaznamenání důležitých úloh/událostí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Sdělování informací mezi uživateli mezi pracovišti, společností nebo mezi recepcí a ordinací.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kdo může tuto funkcionalitu využívat?",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Funkcionalitu může používat každý uživatel bez ohledu na jeho roli. Role má vliv jenom na možnost odesílat upozornění na různé množiny uživatelů, případně její editaci.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kde najdu tuto funkcionalitu?",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "K upozorněním je možné se dostat dvěma cestami:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "a. Klávesovou zkratkou F3.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po jejím stisknutí se uživateli vysune panel s upozorněními, viz. obrázek .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 320,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 320,
+            "alt": "image-20250709-135324.png",
+            "id": "93bd4c9d-3bb9-4a18-b03d-b1b520dea2fc",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 480
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Panel upozornění pro uživatele",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Popis záložek:",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pro mě – Všechna upozornění, kde jsem uveden jako adresát.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Ode mě – Všechna upozornění, jejichž jsem autor.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Splněné – Všechna splněná nebo stornovaná upozornění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1007,
+            "alt": "image-20250709-135407.png",
+            "id": "000b9b6f-6189-4c33-bb68-90f4c4dea481",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 546
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Panel upozornění v kartotéce",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "b. Po kliku na stávající ikonu oznámení.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Na ikoně oznámení je počet nepřečtených echo zpráv a upozornění dohromady. V tooltipu je vidět",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "rozdělení nepřečtených informací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1007,
+            "alt": "image-20250709-135514.png",
+            "id": "407dc5bd-293e-4d34-9714-30b8d1b0a097",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 566
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Indikace nepřečtených oznámení",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Seznam upozornění po kliku na ikonu oznámení. Po kliku na záznam se otevře okno bočního",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "panelu, kde je možné s upozorněním pracovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1107,
+            "alt": "image-20250709-135617.png",
+            "id": "815fb501-aba7-400a-b4f5-2c1298cd027c",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 317
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "c. V kontextovém menu nad kartou pacienta.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kontextové menu je vyvolané pravým tlačítkem myši. Upozornění takto vznikne s vazbou na",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1007,
+            "alt": "image-20250709-135643.png",
+            "id": "b5984738-56c0-404f-85f1-4bf86e6abfd2",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 566
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jak vytvořím nové upozornění?",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Upozornění je možné vytvořit po kliku na tlačítko + buď z hlavního bočního panelu, nebo ze",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "seznamu upozornění. Následně se uživateli otevře okno, kde je možné vyplnit obsah upozornění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 614,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 614,
+            "alt": "image-20250709-135808.png",
+            "id": "303d3f6e-e09d-4c3f-a2ae-994970838079",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 482
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Popis jednotlivých položek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kategorie",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Je nutné předdefinovat v module Nástroje, okno Šablony (popsáno níže).",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Po zvolení doplní automaticky pole Nadpis a Obsah upozornění.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nadpis",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Hlavní popis upozornění, v bočním panelu je zvýrazněn.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Obsah",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Podrobný popis upozornění.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Adresát",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Výběr adresátů, uživatelů, kterým bude toto upozornění doručeno (popsáno níže). Přednastavený výběr je „Osobní“.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Název adresáta",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Sumarizující popis skupiny adresátů. Slouží jako informace pro adresáty, kde je vidět komu je tato informace určená, například: jenom pracoviště XY, jenom sestry. Pole je nepovinné a NESLOUŽÍ jako výběr adresátů!",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vybraní uživatelé",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Stavová informace o tom, kteří uživatelé byli vybráni.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pacient",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Upozornění je možné přiradit až 10 pacientům. Pacientovi, pokud existuje, se automaticky doplní kontaktní údaj. Adresát upozornění následně obdrží informaci, zda se upozornění váže na konkrétního pacienta a viz. Obrázek 1 (upozornění ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Přeobjednat pacienta“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ") má tuto informaci ihned zobrazenou a dokáže se jedním klikem dostat do dekurzu daného pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Splnění",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Je možné vybrat z dvou hodnot:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Kdokoliv – Aby bylo upozornění splněno, stačí, aby ho splnil jenom 1 adresát.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Všichni – Aby bylo upozornění splněno, musí ho splnit každý adresát.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Priorita",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Je možné vybrat 3 priority upozornění.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Standardní – Zobrazí se až po otevření bočního panelu. Bez vizuálního označení.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Důležitá – Boční panel s upozorněním se zobrazí po zapnutí Galenu a otevření libovolného modulu. Vizuálně je označena 1 vykřičníkem.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Urgentní – Boční panel s upozorněním se zobrazí ihned. Vizuálně je označena 2 vykřičníky.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Termín",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•Je možné si určit termín splnění. Po překročení termínu se boční panel zobrazí. Následně po každém zapnutí Galenu dokud nebude upozornění splněno, nebo stornováno.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přílohy",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "•K upozornění je možné přiložit přílohu. Příloha se vkládá přímo z úložiště PC. Přílohu je následně možné zobrazit jedním klikem ze zobrazení z bočního panelu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výběr adresátů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Výběr adresátů je možný po kliku na modrou ikonu upravit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 799,
+            "alt": "image-20250709-140757.png",
+            "id": "b6a903ab-6c32-415c-8acf-c20980f9a68c",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 558
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Výběr adresáta/ů",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Možný výběr:",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "•Osobní – Automaticky zvolený aktuální uživatel. Není možný výběr adresátů.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "•Pro společnost – Automaticky jsou zvolení všichni uživatelé. Není možný výběr adresátů.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "•Pro vybrané uživatelé – Výběr jednotlivých adresátů. Je možné filtrovat dle jména, příjmení, odbornosti, zařízení a pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživatel, který nemá roli Správce, může odeslat upozornění maximálně na úroveň pracoviště, kde je",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "vedený jako pracovník.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Práce s upozorněním",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V kapitole jsou popsány možnosti úprav, splnění, stornování a odstranění upozornění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Úprava",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upravovat upozornění může pouze jeho autor nebo uživatel s rolí Správce. Adresát se na detail upozornění dostane také, ale pouze v režimu „čtení“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Když taková situace nastane (například úprava obsahu upozornění), boční panel se automaticky aktualizuje, periodicky, každou minutu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Úprava je možná následujícími cestami:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Klikem pravým tlačítkem myši na upozornění a výběr z kontextového menu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Označením upozornění levým klikem myši a klikem na modrou ikonu upravit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Označením upozornění levým klikem myši a klávesou Enter.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Dvojklikem na upozornění.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Splnění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Splnit a upravovat stav upozornění je možné dvěma cestami:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pomocí checkboxu na upozornění v bočním panelu",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Jedná se o primární způsob změny stavu",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Změnou stavu se mění “Můj stav“. Celkový stav je dopočítávaný na základě stavů ostatních adresátů a zohledňuje, zda upozornění musí splnit všichni nebo kdokoliv.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Volbou stavu v rozbalovacím menu. Uživatel, který není autorem nebo správcem, může změnit stav jenom sobě.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Do okna pro změnu stavu je možné se dostat:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Klikem na informaci, pro koho je upozornění určeno (Název adresátů).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Klikem pravým tlačítkem myši na upozornění a výběr z kontextového menu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V okně úpravy upozornění a klikem na modrou ikonu upravit u položky Stav.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Stornování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Stornovat upozornění může jedině autor nebo uživatel s rolí Správce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Je možné dvěma cestami:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Klikem pravým tlačítkem myši na upozornění a výběr z kontextového menu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Volbou stavu v rozbalovacím menu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Odstranění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odstranit upozornění může jedině autor nebo uživatel s rolí Správce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odstranit lze pouze upozornění, u kterých nemá ani jeden z adresátů vyšší stav než „Přečtené“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odstranit upozornění lze klikem pravým tlačítkem myši na upozornění a výběrem z kontextového menu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 319,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 319,
+            "alt": "image-20250709-141342.png",
+            "id": "f655e598-af3e-49a2-a086-146e4586789a",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 492
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 599,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 599,
+            "alt": "image-20250709-141501.png",
+            "id": "bdef3513-fb5f-4b99-8bc3-87e35f7cfb31",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 479
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 262,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 262,
+            "alt": "image-20250709-142108.png",
+            "id": "20946851-a239-4461-9749-8ca917991389",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 69
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Ikona Zeměkoule (v pravém horním rohu) signalizuje stav připojení k serveru. Je-li ikona zelená, připojení k serveru je v pořádku. Pokud ikona zčervená, došlo k výpadku připojení. Uživatel při odchodu z rozpracovaného okna bude upozorněn na chybu při síťové komunikaci. Pokud uživatel v tuto chvíli práci ukončí, dojde k ztrátě zapsaných dat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1149,
+            "alt": "image-20250709-142153.png",
+            "id": "9e0798f0-020f-4c8a-b077-34083cfb6566",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 565
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona je oranžová do chvíle, pokud připojení není opravdu znova navázáno. Pokud je připojení znovu navázáno, ikona Zeměkoule znovu zezelená. Tento proces lze také iniciovat kliknutím na pole Zeměkoule. Otevře se okno, ve kterém uživatel najde v levém dolním rohu tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Připojit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 651,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 651,
+            "alt": "image-20250709-142225.png",
+            "id": "ef7a668d-1116-4551-80c4-f0c1fa8fbefe",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 496
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pod těmito ikonami je zobrazeno jméno přihlášeného uživatele, IČP a odbornost pracoviště a jméno odpovědného lékaře (tj. lékaře, který je vykonavatelem zadávaných výkonů).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pod hlavním panelem se nachází panel určený pro přidání pacienta do kartotéky, filtrování kartotéky (podrobné nebo základní) a pro přepínání mezi kartotékou a archivem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 753,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 753,
+            "alt": "image-20250709-142248.png",
+            "id": "d2073ee5-cd22-4c80-aaab-c2061d6d697e",
+            "collection": "contentId-67305473",
+            "type": "file",
+            "height": 41
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Číslo na konci řádku (před ikonou filtru) znamená počet záznamů, zde tedy počet pacientů v kartotéce. Pokud je použit filtr, zobrazuje počet vyfiltrovaných záznamů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

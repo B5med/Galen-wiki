@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page id="65994755" version="1" updated_at="2025-07-08T14:27:58.885Z" source="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/65994755"
+  xmlns:ac="http://atlassian.com/content"
+  xmlns:ri="http://atlassian.com/resource/identifier">
+<title>API: Pacient</title>
+<body><ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="6c011392-e910-4d66-87f8-e2b6e3909af8"><ac:rich-text-body><p>Toto API slouž&iacute; pro spr&aacute;vu z&aacute;kladn&iacute;ch &uacute;dajů o pacientech. Umožňuje nač&iacute;tat, zakl&aacute;dat a upravovat kartu pacienta na z&aacute;kladě č&iacute;sla pojištěnce nebo ID pacienta.</p></ac:rich-text-body></ac:structured-macro><h3>Obecn&eacute; informace</h3><p><strong>Form&aacute;t data narozen&iacute;:</strong><br /><code>ddMMyyyy</code> (např. <code>08102005</code>)</p><p><strong>Pohlav&iacute;:</strong></p><ul><li><p><code>Muz</code></p></li><li><p><code>Zena</code></p></li><li><p><code>Neuvedeno</code></p></li></ul><p><strong>DruhPojištěn&iacute; (DruhPojisteni):</strong><br />Typ pojištěn&iacute;, obvykle:</p><ul><li><p><code>1</code> &ndash; veřejn&eacute;</p></li><li><p><code>2</code> &ndash; komerčn&iacute;</p></li><li><p><code>3</code> &ndash; samopl&aacute;tce</p></li></ul><p><strong>Pojišťovna:</strong><br />K&oacute;d pojišťovny &ndash; např.</p><ul><li><p><code>111</code> &ndash; VZP</p></li><li><p><code>201</code>, <code>205</code>, ... dle seznamu pojišťoven</p></li><li><p><code>999</code> &ndash; samopl&aacute;tce</p></li></ul><p><strong>St&aacute;t:</strong><br />Dle mezin&aacute;rodn&iacute;ch k&oacute;dů: <code>CZ</code>, <code>SK</code>, <code>DE</code>, <code>UA</code>, &hellip;</p><hr /><h3>POST <code>/api/Pacient/Pacient</code></h3><p><strong>Popis:</strong><br />Založ&iacute; novou kartu pacienta.</p><p><strong>Tělo požadavku (JSON):</strong></p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="9a8ac8a0-bec6-4831-97bb-3fa89142ebd9"><ac:plain-text-body><![CDATA[{
+  "CisloPojistence": "string",
+  "Prijmeni": "string",
+  "Jmeno": "string",
+  "TitulPred": "string",
+  "TitulZa": "string",
+  "DatumNarozeni": "string",
+  "Pohlavi": "string",
+  "DruhPojisteni": "string",
+  "Pojistovna": "string",
+  "Stat": "string",
+  "RodnePrijmeni": "string",
+  "ObcanskyPrukaz": "string",
+  "HesloProKomunikaci": "string"
+}]]></ac:plain-text-body></ac:structured-macro><p><strong>Validace:</strong></p><ul><li><p>Povinn&aacute; pole: <code>CisloPojistence</code>, <code>Prijmeni</code>, <code>Jmeno</code>, <code>DatumNarozeni</code>, <code>Pohlavi</code>, <code>Pojistovna</code>, <code>Stat</code></p></li><li><p><code>CisloPojistence</code>: rodn&eacute; č&iacute;slo bez lom&iacute;tka (např. <code>&quot;0510087336&quot;</code>)</p></li><li><p><code>DatumNarozeni</code>: form&aacute;t <code>ddMMyyyy</code></p></li><li><p><code>Pohlavi</code>: <code>&quot;Muz&quot;</code>, <code>&quot;Zena&quot;</code>, <code>&quot;Neuvedeno&quot;</code></p></li></ul><p><strong>K&oacute;dy odpovědi:</strong></p><ul><li><p><code>200 OK</code> &ndash; pacient &uacute;spěšně založen</p></li><li><p><code>400 Bad Request</code> &ndash; chyba ve vstupn&iacute;ch datech</p></li><li><p><code>401 Unauthorized</code> &ndash; př&iacute;stup zam&iacute;tnut</p></li></ul><p /><h3>GET <code>/api/Pacient/Pacient?CisloPojistence={cislo}</code></h3><p><strong>Popis:</strong><br />Vrac&iacute; &uacute;daje o pacientovi podle zadan&eacute;ho č&iacute;sla pojištěnce.</p><p><strong>Parametry:</strong></p><ul><li><p><code>CisloPojistence</code> (string) &ndash; rodn&eacute; č&iacute;slo bez lom&iacute;tka</p></li></ul><p><strong>Model odpovědi:</strong></p><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="bc6fade8-d44e-4a79-a111-b45c0c8be936"><ac:plain-text-body><![CDATA[{
+  "ID": 0,
+  "CisloPojistence": "string",
+  "Prijmeni": "string",
+  "Jmeno": "string",
+  "TitulPred": "string",
+  "TitulZa": "string",
+  "DatumNarozeni": "string",
+  "Pohlavi": "string",
+  "DruhPojisteni": "string",
+  "Pojistovna": "string",
+  "Stat": "string",
+  "RodnePrijmeni": "string",
+  "ObcanskyPrukaz": "string",
+  "HesloProKomunikaci": "string"
+}]]></ac:plain-text-body></ac:structured-macro><h2><strong>K&oacute;dy odpovědi:</strong></h2><ul><li><p><code>200 OK</code> &ndash; pacient nalezen</p></li><li><p><code>400 Bad Request</code> &ndash; chybn&eacute; parametry</p></li><li><p><code>401 Unauthorized</code> &ndash; př&iacute;stup zam&iacute;tnut</p></li></ul><h3>PUT <code>/api/Pacient/Pacient/{Id}</code></h3><p><strong>Popis:</strong><br />Aktualizuje &uacute;daje pacienta podle ID.</p><p><strong>Parametry:</strong></p><ul><li><p><code>Id</code> (integer) &ndash; ID pacienta</p></li></ul><p><strong>Tělo požadavku:</strong><br />Stejn&eacute; jako u POST.</p><p><strong>K&oacute;dy odpovědi:</strong></p><ul><li><p><code>200 OK</code> &ndash; aktualizace proběhla &uacute;spěšně</p></li><li><p><code>400 Bad Request</code> &ndash; chyba ve vstupn&iacute;ch datech</p></li><li><p><code>401 Unauthorized</code> &ndash; př&iacute;stup zam&iacute;tnut</p></li></ul></body>
+</page>

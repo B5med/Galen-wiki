@@ -1,0 +1,302 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "df758fb7-02ef-44b8-b082-357679960f36"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "e6637eb2-a696-4b4e-bac4-e9a30b8d3f5b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vystavení a vytištění receptu / odeslání eReceptu ",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 102,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 102,
+            "alt": "image-20250721-074833.png",
+            "id": "c95ba575-4fea-4100-9da7-a077cd764421",
+            "collection": "contentId-75366401",
+            "type": "file",
+            "height": 120
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Lék předepíšeme kliknutím na ikonu, kterou najdeme v modulu Ordinace buď přímo nad vyznačeným pacientem v kartotéce, nebo při otevřené kartě pacienta nad jakýmkoliv modulem kromě Prohlídek. Poté se otevře formulář pro zadání medikací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1025,
+            "alt": "image-20250721-074923.png",
+            "id": "43149bde-059a-43ca-b720-3dc465c8b79a",
+            "collection": "contentId-75366401",
+            "type": "file",
+            "height": 508
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Toto okno je rozděleno do 4 základních oddílů. ",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V levém horním se nacházejí číselníky. Jako první je zobrazena ",
+                  "type": "text"
+                },
+                {
+                  "text": "Historie",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Je vidět, jaké léky byly kdy pacientovi předepsány, a přetažením vybraného léku lze předepsat nový recept. Kromě toho je hned vedle Historie záložka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Číselník",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", která obsahuje přehled všech léků. Standardně je nastaven přehled všech léků hrazených pojišťovnou, ale je možné se přepnou do číselníku SÚKLu. Záložka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Trvalé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " pacienta obsahuje ekvivalenty vyznačeného léku. ",
+                  "type": "text"
+                },
+                {
+                  "text": "Receptář",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " umožňuje předepsat magistraliter s vlastním výběrem složek medikace z číselníku. ",
+                  "type": "text"
+                },
+                {
+                  "text": "Výdeje",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " informují o stavu vydání medikace pacientovi. ",
+                  "type": "text"
+                },
+                {
+                  "text": "SLZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – sdílený lékový záznam umožňuje nahlédnout do informací SÚKLu o užívaných medikacích daného pacienta. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V pravém spodním rohu jsou zobrazeny informace o vybraném léku včetně vzájemných interakcí předepisovaných medikací. Po kliknutí na tlačítko Předepsat se vybraný lék se zařadí mezi ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "předepsané léky v pravém horním rohu. Zobrazeny jsou tak, jak budou na receptu. Z tohoto okna lze recepty odesílat kliknutím na ikonu eRecept. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud se lékař bude chtít dozvědět o léku nějaké bližší informace, klikne buď na tlačítko SPC (Ctrl+U) a zobrazí se mu informace o léku firmy PharmData nebo pod tlačítkem PIL (Ctrl+l) najde příbalový leták dané medikace.  Podmínkou je připojení na internet. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Předepsané recepty lze pak vytisknout kliknutím na ikonu tiskárny v pravém horním rohu. Pokud není předepsaná medikace odeslaná na SUKL, lze ji smazat. Pokud je potřeba předepsaný lék smazat, v okně předepsané léky se klikne na vybraný lék pravým tlačítkem myši a pak na nápis Smazat medikaci. Pokud je to jediný lék na receptu, smaže se i recept. Mohou se tak mazat i starší recepty. Napřed je třeba kliknout na datum, kdy vznikly, a tím se přenesou zpět do pravého okénka Předepsané recepty. Tam už je lze smazat standardním postupem.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

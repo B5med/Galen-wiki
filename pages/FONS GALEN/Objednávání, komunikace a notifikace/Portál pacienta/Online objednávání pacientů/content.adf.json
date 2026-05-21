@@ -1,0 +1,2283 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "d96ed1bf-c0b9-41c5-b863-f400e63b60d9"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "08ef8800-c9ee-46fe-96bd-434d675c2269"
+          },
+          "content": [
+            {
+              "text": "Online objednávání umožňuje pacientům objednat se na vyšetření nebo výkon ",
+              "type": "text"
+            },
+            {
+              "text": "přes Portál pacienta",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", aniž by museli volat do ordinace.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "aebcc780-6982-4298-ba56-9981ddafcf11"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8da67ad5-cec8-4eac-9800-27864db04078"
+          },
+          "content": [
+            {
+              "text": "Objednávky se automaticky zapisují do ",
+              "type": "text"
+            },
+            {
+              "text": "kalendáře v AIS FONS Galen",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", kde s nimi zdravotnický personál pracuje stejně jako s běžnými objednávkami.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a922fe17-ff2a-4e18-8a22-c59459107c3b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5553bda6-e7f8-41cc-bbc5-a330b19715f2"
+      },
+      "content": [
+        {
+          "text": "Kdo s funkcí pracuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "468a519e-9880-4163-ba36-5d97f89b68a9"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b9cde419-3b0e-44b1-9801-f9edbcbce4f4"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9daeba4c-c9ae-4e98-83aa-526bf5d97d22"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f88f400f-0c8b-4606-96ea-9f9a2c52e680"
+                  },
+                  "content": [
+                    {
+                      "text": "Role",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9c777f4b-a5bf-4c01-b042-2c20113c6360"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50d488c7-7d20-43b4-a37e-a27c98eefbeb"
+                  },
+                  "content": [
+                    {
+                      "text": "Co dělá",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "39a4f5d4-5a3f-4ab0-ba94-53a153ddadb9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "db011be0-9193-4055-a074-545c5fdcf968"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "43c1de2c-03a5-4e62-ade5-3e921b87072d"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fce4d1be-ef87-48ee-ad95-9b8bb31c02b4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5f3166e2-8eba-4c8a-8058-5541cca064c6"
+                  },
+                  "content": [
+                    {
+                      "text": "Vytváří, ruší nebo sleduje objednávku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c3fc3b09-7033-4a9c-9c61-af6c19ae2ad3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5c4517e1-9991-4fb1-a700-1211ccfe3015"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5e005690-87b6-4827-b2ef-d090bdb51419"
+                  },
+                  "content": [
+                    {
+                      "text": "Recepce / sestra",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0c634731-4608-4cd3-b0c3-442f0160f195"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ba93dc5d-a66a-46dd-b81e-a14408674ef6"
+                  },
+                  "content": [
+                    {
+                      "text": "Vidí a spravuje objednávky v kalendáři",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ae06dcea-d622-4896-b2bd-65151416b963"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5e6b52c9-49a0-449e-a3e9-0f1092ecad7b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d153858e-ae97-428b-97b8-db979a7af857"
+                  },
+                  "content": [
+                    {
+                      "text": "Lékař",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "af913e63-e9a9-41be-ba82-287d830a1498"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "de24ff53-ecc5-4d94-b09c-cf3396e3f704"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracuje s objednávkou v Galenu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "62ff1c90-ce61-4cd0-a994-07a7d1b92f5f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e289039a-3fd3-4642-996f-7698a71adcfb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a55ddb21-9cc6-40a6-ba41-94815871b6e1"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c195562b-2616-4a47-9eeb-3efa79b5af01"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "efdfa1a0-9e37-4e41-934f-85d9e7aed735"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastavuje kalendáře, ordinační dobu a pravidla",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b3021a69-23b5-4bbd-91a0-de5a4cba3ede"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "57838c2f-2877-4071-a7b6-d3a1042d978a"
+      },
+      "content": [
+        {
+          "text": "Konfigurace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6fd7a3b6-f9a9-4e74-bee2-1c1f1c037d48"
+      },
+      "content": [
+        {
+          "text": "Online objednávání ",
+          "type": "text"
+        },
+        {
+          "text": "nefunguje automaticky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Je nutné provést správné nastavení v Galenu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "22581e40-deec-451e-9013-88fda3b22aa9"
+      },
+      "content": [
+        {
+          "text": "1️⃣ Nastavení kalendáře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "925d5a4d-0fe8-4e14-8b48-87fc537e9e98"
+      },
+      "content": [
+        {
+          "text": "V Galenu otevřete:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3425c8f0-baac-478f-9c4a-56580ce578df"
+      },
+      "content": [
+        {
+          "text": "Správce → Správa organizace → Agendy → Kalendáře",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e689cf71-ab0a-412f-88c9-ad264591cf52"
+      },
+      "content": [
+        {
+          "text": "U kalendáře musí být:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2b8f8add-4886-499d-9929-fcaf41ac9aa0"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c4814902-07b7-4254-8f7a-35293ca42bf3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "23cdef1d-0507-4533-a325-d3fd11d2f4db"
+              },
+              "content": [
+                {
+                  "text": "✔️ ",
+                  "type": "text"
+                },
+                {
+                  "text": "Aktivní",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c1652c0d-fee6-4e69-914a-507d1aa04fef"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ed24139e-7d29-44bc-99df-b160ed31d534"
+              },
+              "content": [
+                {
+                  "text": "✔️ ",
+                  "type": "text"
+                },
+                {
+                  "text": "Veřejný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2a9e5190-f0a1-448d-8160-d5bd3a89851e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7dd69f30-2e74-4025-8142-b3cfec028fd5"
+              },
+              "content": [
+                {
+                  "text": "✔️ ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vyplněné odpovědné pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d93add5-e5e4-4132-8fd3-0b1852347942"
+      },
+      "content": [
+        {
+          "text": "⚠️ Pokud není vyplněno odpovědné pracoviště, ",
+          "type": "text"
+        },
+        {
+          "text": "nelze kalendář označit jako veřejný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e35c6c88-3d04-4935-8ed5-e691df8de147"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1da96795-5e62-45a7-9e95-464f0fe11741"
+      },
+      "content": [
+        {
+          "text": "2️⃣ Nastavení ordinačních hodin",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "68c25369-9af3-4ff0-9336-dd48633eb1af"
+      },
+      "content": [
+        {
+          "text": "Online objednávání funguje ",
+          "type": "text"
+        },
+        {
+          "text": "pouze v ordinačních hodinách",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", které mají povoleno veřejné objednávání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "245ce404-a586-4954-9d94-23376f2b0228"
+      },
+      "content": [
+        {
+          "text": "U každého bloku ordinační doby:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "0a10e307-a06c-4115-969e-66d570d73df5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "03660fb7-5c39-4722-b5a8-915a35f2e9c8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7d1c13fe-7552-44af-8915-db9f6f862c9f"
+              },
+              "content": [
+                {
+                  "text": "zaškrtnout ",
+                  "type": "text"
+                },
+                {
+                  "text": "Veřejný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9886574f-6d83-44e8-b938-5047e7973c69"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3a6d33f4-d27d-4615-a33d-abc92c0ccc4f"
+              },
+              "content": [
+                {
+                  "text": "vybrat ",
+                  "type": "text"
+                },
+                {
+                  "text": "povolené typy objednávek",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e77783c6-8bcf-44ad-9863-4a987132f3dc"
+      },
+      "content": [
+        {
+          "text": "Bez tohoto nastavení se pacient ",
+          "type": "text"
+        },
+        {
+          "text": "na daný termín neobjedná",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", i když je kalendář veřejný.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "6161ad0c-0560-4f19-a8c2-c275490a2a1e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "67bba3e3-c077-4b4d-b19a-254441980618"
+      },
+      "content": [
+        {
+          "text": "3️⃣ Nastavení typů objednávek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2ae75e5-1a04-4869-b880-7e1c1fe44e86"
+      },
+      "content": [
+        {
+          "text": "Typy objednávek určují:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7a5247d8-dbac-4b49-b218-79bb6147bdb4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "795c924a-e91d-4aca-9b60-289f7c911ea5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8cca90d0-a8da-4bba-bba7-c382d31fe7aa"
+              },
+              "content": [
+                {
+                  "text": "na co se pacient může objednat",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e4311718-5510-49c7-9d7b-cf8a255b2fbc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e57574b8-0298-42b6-8622-b484e1394aa3"
+              },
+              "content": [
+                {
+                  "text": "jak dlouho objednávka trvá",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5794aa01-33ce-4779-b6f3-99e8234845fb"
+      },
+      "content": [
+        {
+          "text": "U typu objednávky se nastavuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "69275e4e-71bd-4bff-959a-2aa2a58250cc"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "00ff58c8-8f5d-4e4a-906b-34150d6f27e7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d25c8cd0-3be4-4ede-9259-7e51878928f7"
+              },
+              "content": [
+                {
+                  "text": "název (např. „Preventivní prohlídka“)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "08b46485-cd45-481f-9dd7-3cec6b678e2a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c653cf05-0cb2-4aa5-85d3-680c1d4826e5"
+              },
+              "content": [
+                {
+                  "text": "délka trvání",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7dcaab12-1360-45df-a78a-1783ffad2b6a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c25879a4-c232-497d-9005-1b1f65cb1685"
+              },
+              "content": [
+                {
+                  "text": "minutový interval",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "68b8ecf2-179b-49d6-a327-989abded6ea1"
+      },
+      "content": [
+        {
+          "text": "Pacient vidí ",
+          "type": "text"
+        },
+        {
+          "text": "pouze ty typy objednávek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", které jsou:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4ace32a8-1d9a-45b1-bc64-6057531ea3c9"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8c0388c2-8931-494a-a121-c7ce37bda0de"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ec6d06b9-6f54-49ce-8058-dea97270c673"
+              },
+              "content": [
+                {
+                  "text": "povoleny v kalendáři",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bf771905-41ef-48dd-b650-3672cd2d536c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dc106c2a-8059-468c-9569-bb6c8c6fb272"
+              },
+              "content": [
+                {
+                  "text": "povoleny v ordinační době",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2e7853b9-dae4-49e3-a844-87181f51b122"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "036b5010-151f-44f5-871f-bce86822b38b"
+      },
+      "content": [
+        {
+          "text": "Jak probíhá objednání z pohledu pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1cae8580-5e42-4a35-a438-9c81bf4ed198",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "92d27eef-49b0-4ccc-a092-7ba035801bd8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "64eea85f-6dde-49a8-ae8d-71d9b7847412"
+              },
+              "content": [
+                {
+                  "text": "Pacient otevře Portál pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1abdb421-bd8e-4d5c-abd7-a8ffff2e82c8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d4ec17b3-a101-4f4a-bb03-c0a72ac1abae"
+              },
+              "content": [
+                {
+                  "text": "Vybere provozovnu (ordinaci)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dc065767-b8f3-4919-82a2-61da832f84db"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6d34f073-ec3a-4f1c-8d05-80b24baa08fb"
+              },
+              "content": [
+                {
+                  "text": "Vybere kalendář",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "26cd5fc0-2d60-4c76-8152-89137f2dcb66"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1e044274-bd24-49d5-965a-228ac6a507a9"
+              },
+              "content": [
+                {
+                  "text": "Vybere typ vyšetření",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cf92c2ee-64f6-45c4-9c75-250005004f96"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9fa0d79b-4ee6-4971-9d4e-c87f5dd62ee2"
+              },
+              "content": [
+                {
+                  "text": "Vybere volný termín",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6c4e7183-4ef2-4ac3-8cb7-66e80467ad28"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c70e2c02-39f3-467f-9b5d-361310da84ce"
+              },
+              "content": [
+                {
+                  "text": "Vyplní své údaje",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e4aa5aaf-4846-46be-9e77-e69e697c0426"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8bf0c409-edf3-40dd-9b2f-20607700d54e"
+              },
+              "content": [
+                {
+                  "text": "Odešle objednávku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "881a2afd-656c-4e71-805a-0fa138cedacb"
+      },
+      "content": [
+        {
+          "text": "Po odeslání:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "97d5abf5-0a90-4e74-b2f0-3531915d2f2d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4cb883d5-53aa-4aa2-9eac-3c81b5899fd2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "46740d8d-51f8-4fa7-813d-046ca7f73eee"
+              },
+              "content": [
+                {
+                  "text": "objednávka se zobrazí v kalendáři Galenu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "229f1160-7e26-4ce2-b616-157d4da2b59e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2cdb0e10-c22b-423f-a4dd-6a5f2319f0ef"
+              },
+              "content": [
+                {
+                  "text": "pacient obdrží potvrzení (SMS / e-mail – dle nastavení)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "0449a3fa-d456-4215-9b48-65bca975ec14"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e8d9bc35-5dd2-49f5-9b8a-b8eb129efd53"
+      },
+      "content": [
+        {
+          "text": "Jak se objednávka zobrazí v Galenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "21b9a236-c96e-4814-aa6e-6200e0139944"
+      },
+      "content": [
+        {
+          "text": "Objednávka se v Galenu objeví jako:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0348fca1-9186-4f35-9d72-862ada14010f"
+      },
+      "content": [
+        {
+          "text": "✔️ Objednávka pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "156bb7b0-65ab-435f-b268-c62cbb5dcf8e"
+      },
+      "content": [
+        {
+          "text": "Pokud se podaří pacienta jednoznačně identifikovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "07c942a3-0103-4d3e-8af4-caa469663e15"
+      },
+      "content": [
+        {
+          "text": "✔️ Záznam v kalendáři",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0273195e-4876-4ddd-937d-3b9adc95485d"
+      },
+      "content": [
+        {
+          "text": "Pokud pacienta nelze spárovat s kartotékou (např. nový pacient).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9078dc15-188a-4554-8561-1fabd774ee04"
+      },
+      "content": [
+        {
+          "text": "Obě varianty jsou ",
+          "type": "text"
+        },
+        {
+          "text": "plnohodnotně viditelné a editovatelné",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v kalendáři.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "876a8b38-7998-4718-bd0f-1edc849b1a80"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f2502f84-59d1-4749-822d-41b6fb144bee"
+      },
+      "content": [
+        {
+          "text": "Změna nebo zrušení objednávky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0836dc5c-5c97-4d14-b8eb-7730a939690c"
+      },
+      "content": [
+        {
+          "text": "Změnu nebo zrušení může provést:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "40403b87-11fd-4ca5-bdcf-a84f20021932"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "179ae4d0-5d85-48ed-b9a7-7da3fabb54a5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d377f732-2dab-441a-9181-b56874323ca5"
+              },
+              "content": [
+                {
+                  "text": "pacient (přes Portál pacienta – pokud je povoleno)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7db4649c-b7a5-4536-8e6d-5dc31a930148"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a69fbc7b-da08-4eed-a9c3-2102e80de966"
+              },
+              "content": [
+                {
+                  "text": "personál v Galenu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3195ab71-ab6d-48c2-88f1-0d1b1858badc"
+      },
+      "content": [
+        {
+          "text": "Možnost změn závisí na nastavení:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7d0fe521-57f2-4e42-a072-7184d7965d62"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b7d17c64-3871-41e6-adde-e38e69c1fc3b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "04dc4f87-50e8-4a40-a397-63cb99b85773"
+              },
+              "content": [
+                {
+                  "text": "Uzavření rezervací předem (v hodinách)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bde2024b-0872-41f4-a4fd-2856404bb507"
+      },
+      "content": [
+        {
+          "text": "Po překročení tohoto času:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "56bf397e-a6af-4e2c-bb52-b9649931f674"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ca46466e-1dca-4849-8404-20d78a53f7ef"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b46c21c6-223a-4a5d-9850-12c0e9455089"
+              },
+              "content": [
+                {
+                  "text": "objednávku nelze měnit",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ee29d978-deee-4f93-a401-7406dc0ae4d7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6313d3cd-9ca5-49ac-8bb2-1d79ee482469"
+              },
+              "content": [
+                {
+                  "text": "nelze ji zrušit",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "8b512876-fbb8-41a5-b147-679b2818b4f8"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "31c01a95-f6f4-4949-92a9-ce56dc69beda"
+      },
+      "content": [
+        {
+          "text": "Notifikace pacientovi",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ffb2e6d-99eb-4142-aa35-a4e1ff8e41f1"
+      },
+      "content": [
+        {
+          "text": "Portál pacienta umožňuje automatické notifikace:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "fd49f2f4-bb7b-47f5-b4fe-282645d2297b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "26b470a3-d17e-4045-ba02-e13e739162c3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "027c8759-25db-460b-9ae0-ddd9e48ea40f"
+              },
+              "content": [
+                {
+                  "text": "potvrzení objednávky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "52fdcdbb-53c6-4360-af52-1de55489e104"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d79c8026-a8a8-43ac-b3d0-6b564b7c7062"
+              },
+              "content": [
+                {
+                  "text": "změna objednávky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cf02233b-cc33-45db-9bcc-fc4cb9899311"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "71075875-86ae-499b-bf74-e3cfbbaf84ef"
+              },
+              "content": [
+                {
+                  "text": "zrušení objednávky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "babe3ac4-69a1-4d26-a37b-26ac8d98b303"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5e989ada-edbf-4eac-bc68-5e0152697c48"
+              },
+              "content": [
+                {
+                  "text": "připomenutí před termínem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c1bb3607-1a86-4f1c-892f-6eb683eb15d5"
+      },
+      "content": [
+        {
+          "text": "Notifikace se nastavují:",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Správce → Kalendáře → Notifikace a připomínání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "34b05a74-3dce-4df9-8467-8733c0553309"
+      },
+      "content": [
+        {
+          "text": "Kanály:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ce41cd2a-a7dd-433a-8d07-de4ff2db86c1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bbca695e-0342-4217-bde4-1012568fd89b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "113b6889-824c-4c82-9483-2904272400d1"
+              },
+              "content": [
+                {
+                  "text": "SMS",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c1a4370f-5a9c-4246-b45a-feede898ddf0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d49f0330-bbe5-4dcf-9d59-ff780794db57"
+              },
+              "content": [
+                {
+                  "text": "e-mail",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd5e9aab-d0a0-434e-8b31-36dfd649bfb6"
+      },
+      "content": [
+        {
+          "text": "Každý kalendář (a dokonce každá ordinační doba) může mít ",
+          "type": "text"
+        },
+        {
+          "text": "vlastní nastavení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e45c3037-f062-4bd9-a13b-ee659a78511f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7a73a535-1003-4e66-a173-aa0b7c53881e"
+      },
+      "content": [
+        {
+          "text": "Nejčastější problémy a jejich příčina",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "2818d124-dd4a-4019-9fb6-0b37f7f178a3"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a7536654-0790-40ec-9f1b-583570734353"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4aedcf97-069b-4179-a820-8ec3db8502f2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "508346b9-8a0c-458a-a723-914d6f5d469e"
+                  },
+                  "content": [
+                    {
+                      "text": "Problém",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f9a5ce08-10aa-4c31-95db-80d0028ace49"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "be79a455-3d5d-43ce-9df8-69f8fb096f11"
+                  },
+                  "content": [
+                    {
+                      "text": "Pravděpodobná příčina",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6d048c26-3ace-4236-9103-8df039702d37"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "54989817-dc8b-4f6d-8c7c-3ab3a32d1ee1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b90f3f7a-ec28-458c-9fd0-b8cb17fd8935"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient nevidí kalendář",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e0cf2527-7a9d-4294-b85a-cea1596fd9d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "63446b73-e2eb-4587-8108-ab57c852c008"
+                  },
+                  "content": [
+                    {
+                      "text": "Kalendář není veřejný",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "627c1b3f-54a4-4851-af06-8e807ef8a6f0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dd420594-3dc4-49bf-93aa-c41980190ad2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "504f6712-6ed4-4607-9138-0478bc49d49f"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient nevidí termíny",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e2286f8f-ec96-4e37-b040-763dc071e777"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "44519538-8d88-4d93-ae53-cffc07bf9fa0"
+                  },
+                  "content": [
+                    {
+                      "text": "Ordinační doba není veřejná",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e8f4fa14-66f0-4744-9d7e-40431abfb4b2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5a0ebc14-2c41-4b72-89c2-6c95d084758f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "60273c8d-8f67-489a-8be1-6a9a80e65a33"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient nevidí typ objednávky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "45d69281-9512-4fde-9d43-a686c9a49bc6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ba36856f-856d-4356-a263-967a8fc86fdc"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ není povolen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fdf72ab7-f50d-45eb-a09a-18df8bb6af15"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f28cbfbb-3f46-486f-9c7c-494e79571cf6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c61e805-e8b5-4524-bf43-82264c595033"
+                  },
+                  "content": [
+                    {
+                      "text": "Nelze zrušit objednávku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "708b2674-dd99-4968-ae74-bfe5d5fdb59f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "757012f9-db03-4faa-9fcf-6b7f8a16e2a6"
+                  },
+                  "content": [
+                    {
+                      "text": "Je po uzávěrce rezervací",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "4a121e24-a38e-4e0a-9fac-734f598f7c24"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1200115d-d394-489e-95ac-7b7f29c8397b"
+      },
+      "content": [
+        {
+          "text": "Doporučení pro správce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b8711f7-b47a-4510-b1c0-5075b91f64a1"
+      },
+      "content": [
+        {
+          "text": "✔️ Začněte s ",
+          "type": "text"
+        },
+        {
+          "text": "jednoduchým kalendářem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Omezte počet typů objednávek",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Nastavte připomenutí objednávek",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Pravidelně kontrolujte kalendář po nasazení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "4ae942b2-af42-4a03-81d9-293802924b01"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "75e8d507-7264-442e-a4d6-2cd950ee2d22"
+      },
+      "content": [
+        {
+          "text": "Související funkce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "04cc6bd8-7b7b-4c01-b95d-811141d6c7cd"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7a0a091f-686c-4e39-8c5a-1b8cb89e8cf1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "304f8586-9863-48dd-ad07-1c050929d0b7"
+              },
+              "content": [
+                {
+                  "text": "Hlídací pes (upozornění na volný termín)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1fea648-6382-4367-aaf7-0e5cf1b93718"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a5b2e6e9-2cd6-415e-8b3d-e60efd5f010f"
+              },
+              "content": [
+                {
+                  "text": "Moje rezervace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ffe5b837-bf59-4757-b40b-6f4903807ff7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "369efa7b-ac88-49f0-878e-8dadb74df178"
+              },
+              "content": [
+                {
+                  "text": "Notifikace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "38b4a3b0-6635-4c5a-a892-364e3f1139f2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f109e9df-ae36-4a5a-afa3-3d1ae7911e33"
+              },
+              "content": [
+                {
+                  "text": "Nastavení kalendářů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "c5b54825-5258-4b51-8e3e-9a9f25363714"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "bb9da087-f8c9-421e-9d13-d351523d90bd"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "73309f5f-d92a-4851-97dc-b3b03bf7bf63"
+          },
+          "content": [
+            {
+              "text": "Online objednávání:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "attrs": {
+            "localId": "4f7eb6cc-0e2f-4a1f-b621-223909c0b59d"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "2ef86708-8c44-4e33-b9cd-ac6cfbfffc82"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3fa00291-e8c8-43a0-8c4b-1df279e0e85b"
+                  },
+                  "content": [
+                    {
+                      "text": "šetří čas personálu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "5a8798f9-a596-4a82-99b6-b84b6a4fdd1c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a25f1af8-bc08-490e-82ef-75336f657091"
+                  },
+                  "content": [
+                    {
+                      "text": "snižuje počet telefonátů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "e2da81f4-67f3-4517-86a7-985f55a0df5e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "47ebe7ed-882d-4873-b186-551b2abfd843"
+                  },
+                  "content": [
+                    {
+                      "text": "funguje při správném nastavení kalendářů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "17c63cfa-5c24-48a7-be76-00af54cc40f3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9a22598a-1a5e-4ef4-a418-55e7da52f3aa"
+                  },
+                  "content": [
+                    {
+                      "text": "je plně pod kontrolou ordinace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

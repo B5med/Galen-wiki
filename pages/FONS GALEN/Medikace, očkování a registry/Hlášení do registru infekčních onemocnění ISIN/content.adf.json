@@ -1,0 +1,717 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "dc9599ad-e707-42fd-b90f-cab4a396440f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "87763749-71d0-485e-9ce6-f168a48937f6"
+          },
+          "content": [
+            {
+              "text": "Na základě novely vyhlášky č. 306/2012 Sb. o podmínkách předcházení vzniku a šíření infekčních onemocnění a o hygienických požadavcích na provoz zdravotnických zařízení a vybraných zařízení sociálních služeb k 1. 7. 2025, která nařizuje hlášení infekčních chorob odesílat elektronicky (čímž nahrazuje stávající tzv. červenou hlášenku), bylo implementováno toto hlášení do FONS Galen. Hlášení je uživatelům zpřístupněno v rámci placeného modulu. Uživatel, který má vyplněné NRZP na pracovišti, které má přiřazen platný SÚKL certifikát, může u pacienta vystavit toto hlášení a odeslat jej na ÚZIS. Nahlížení na hlášení vystavená jiným pracovištěm (nebo společností) poskytováno není.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "minLevel": {
+              "value": "1"
+            },
+            "maxLevel": {
+              "value": "6"
+            },
+            "outline": {
+              "value": "false"
+            },
+            "style": {
+              "value": "none"
+            },
+            "type": {
+              "value": "list"
+            },
+            "printable": {
+              "value": "true"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "76109e6f-c310-421a-901c-225d1230b097"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "55d9da68-4af5-49f3-aebb-8be623172553"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "42158a6f-f81a-4f1c-a882-dcbb80e6da5f"
+      },
+      "content": [
+        {
+          "text": "Prerekvizity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "cee3cb7d-a58b-4245-a23a-2531643497e9"
+      },
+      "content": [
+        {
+          "text": "Identifikace uživatele",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "890cb117-3cc0-47ca-a461-fad93c6b02bd"
+      },
+      "content": [
+        {
+          "text": "Uživatel, který má mít možnost hlášení do ISIN odesílat, musí mít vyplněné pole ",
+          "type": "text"
+        },
+        {
+          "text": "Číslo NRZP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (číslo uživatele z Národního registru zdravotnických pracovníků). Číslo zadá uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "v modulu Správa organizace – Uživatelé",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 157,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 157,
+            "alt": "image-20250414-095636.png",
+            "id": "63599b95-0b1e-4187-b653-a785b1860e1f",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "2781538b-b19c-4c54-8b68-5221dcdd4c21",
+            "height": 146
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "cfb87e3a-4c7a-479a-8089-ebe9671a9bdc"
+      },
+      "content": [
+        {
+          "text": "Certifikát na pracovišti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0492c848-19d6-4a19-9817-d5a935caf23d"
+      },
+      "content": [
+        {
+          "text": "Pro komunikaci s ISIN je nutné, aby byl na pracovišti, ze kterého se bude ohlášení odesílat, nastaven šifrovací certifikát SÚKL (aktuálně vydává též ÚZIS).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ca8930d-7ebf-4851-9563-98c39b0199a1"
+      },
+      "content": [
+        {
+          "text": "Správa organizace – v rámci stromové struktury vyhledat pracoviště a nastavit platný certifikát.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250414-095739.png",
+            "id": "960e39aa-0624-447a-a42c-f32dce1ecb2a",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "384f1fdd-9d45-42b6-820b-5b0d496eae6c",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "20e86be0-928b-4388-aff3-4131788dadfa"
+      },
+      "content": [
+        {
+          "text": "Vyplněná hodnota PČZ - pořadové číslo zařízení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6916a010-e8db-4cc9-8a01-32cfce91b20f"
+      },
+      "content": [
+        {
+          "text": "Na úrovni pracoviště je dále nutné vyplnit položku PČZ - pořadové číslo zařízení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "21178f65-1884-496f-825f-43f705cc0638"
+      },
+      "content": [
+        {
+          "text": "Správce → Správa organizace →",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " Struktura společnosti ",
+          "type": "text"
+        },
+        {
+          "text": "→",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " úroveň pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 290,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 290,
+            "alt": "image-20250422-045812.png",
+            "id": "8fed078e-c4ef-4de0-9eb7-4449e3b2e79b",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "8f1a9cd5-49d0-4c21-9c6c-5ab118614021",
+            "height": 90
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "585fa88d-49ec-4474-95d7-7b9c5f74e64d"
+      },
+      "content": [
+        {
+          "text": "Číselníky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "11e11b04-5ee3-4700-82eb-01c28ab34034"
+      },
+      "content": [
+        {
+          "text": "Na základě objednávky nadstandardního modulu je uživatelům zpřístupněn modul ISIN – Hlášení infekčního onemocnění. Po zpřístupnění funkcionality je potřeba aktualizovat číselníky, které jsou pro toto hlášení nutné:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b4ae6dbf-52e4-4d36-b615-ef76f3fba310"
+      },
+      "content": [
+        {
+          "text": "Nástroje – ISIN:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "cf9eff6e-0008-4c3f-b7c9-88bd7083ada4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cc053160-8fdd-4c25-a841-9ba87cba03f8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "077131c9-1d09-4a67-99e0-f8b5074c0299"
+              },
+              "content": [
+                {
+                  "text": "Místo izolace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a2471db0-7c3e-4fc0-8880-0110d00a948d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c05ff659-d7df-44c6-ac33-e7645ddc04bb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f071029e-859a-4a1f-8d34-df0d0f22328f"
+              },
+              "content": [
+                {
+                  "text": "Klasifikace zaměstnání",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f30784f1-87a8-4b8b-85df-262f7ba0a83e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "df22e252-ffea-4663-add4-b39828aa32eb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3e1f81a-1d59-4462-a6a6-d28eb312ec9b"
+              },
+              "content": [
+                {
+                  "text": "Diagnózy pro hlášení infekčního onemocnění",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4bf8bf2c-0bbb-4609-a1cb-72c2b1e0d68b"
+      },
+      "content": [
+        {
+          "text": "Uživatel pomocí tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Aktualizovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " načte aktuální číselníky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250414-095825.png",
+            "id": "feef7756-bd8c-4f9f-9b3d-864af0c57f86",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "f1607326-7102-46f9-a673-e61b93e1bbd7",
+            "height": 74
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "71379563-9d07-4ccc-ac7b-20f1a66f8af2"
+      },
+      "content": [
+        {
+          "text": "Vystavení hlášení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3f0bb9dd-b392-4bf0-a29a-ffdb62755b77"
+      },
+      "content": [
+        {
+          "text": "Uživatel v ordinaci označí pacienta v kartotéce a vejde do modulu ",
+          "type": "text"
+        },
+        {
+          "text": "ISIN",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 318,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 318,
+            "alt": "image-20250414-095913.png",
+            "id": "a152139c-ac30-4bf2-a6cd-d1fa7344922f",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "422f01f2-90a7-45f3-b1ba-1b1abf5efeab",
+            "height": 139
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "59ac9bc2-08fd-41b1-8214-379dd7155241"
+      },
+      "content": [
+        {
+          "text": "V okamžiku, kdy se otevírá modul ",
+          "type": "text"
+        },
+        {
+          "text": "ISIN",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", dochází k načtení resortního identifikátoru pacienta (RID). V případě, že se RID nepodaří získat, není možné hlášení vystavit a je nutné podniknout kroky pro získání RID v kartě pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e09d792c-f2e3-4bf5-ab30-96f5b44ea065"
+      },
+      "content": [
+        {
+          "text": "V modulu ",
+          "type": "text"
+        },
+        {
+          "text": "ISIN (1) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je potřeba vybrat záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Hlášení infekčního onemocnění (2) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a stisknout tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Vytvořit hlášení (3).",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250414-100000.png",
+            "id": "790aa34c-795e-4404-9047-31cf5f03fc65",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "c85d4332-4884-4986-9086-5b1e76637e6d",
+            "height": 60
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "74b0f1bb-bc4b-46db-b8a2-9aeb1c648218"
+      },
+      "content": [
+        {
+          "text": "Formulář pro zadání hlášení se otevře v modálním okně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee498d9b-a871-429a-b5c0-48a51e67a517"
+      },
+      "content": [
+        {
+          "text": "Položky, které je povinné pro odeslání vyplnit, jsou označeny *.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6758b56-38b6-40b7-847e-f6f570d312b5"
+      },
+      "content": [
+        {
+          "text": "Hlášení je uloženo až poté, co je úspěšně odesláno na ÚZIS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 571,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 571,
+            "alt": "image-20251118-074728.png",
+            "id": "fb7ae041-d296-4b3d-b9d6-79f1ce78fa2c",
+            "collection": "contentId-16809985",
+            "type": "file",
+            "localId": "707766c2-b924-449d-85d1-1dc8fbdf7d4e",
+            "height": 357
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "76965449-833a-4421-9ac4-fbd9898e6abf"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "58f9387e-a93c-411c-a85f-4c9053196164"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "f46b047d-1a0a-4f3d-a1f3-1cbeb32c1698"
+          },
+          "content": [
+            {
+              "text": "Stav hlášení (podezření nebo potvrzené) není ze strany laboratoře aktualizováno. Po obdržení výsledků z laboratoře si může sám stav aktualizovat, ale tato informace má pouze informační charakter pro lékaře samotného. ÚZIS aktualizaci stavu nevyžaduje, neboť aktuální stav hlášení obdrží přímo z laboratoře.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "32352c06-7d8e-4f06-8b03-d9cea1fd2aed"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a73e8a5e-ba85-4c9e-a774-824cc8083c5f"
+          },
+          "content": [
+            {
+              "text": "Do hlášení se uvádí maximálně jedno zaměstnání pacienta. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

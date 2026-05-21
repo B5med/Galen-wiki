@@ -1,0 +1,123 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při práci s kartou pacienta v rámci upozornění týkající se pacienta probíhá kontrola údajů v kartě s údaji, které jsou u pacienta evidovány v ISIN (ÚZIS).",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pokud má pacient vyplněný resortní identifikátor (RID) probíhá kontrola v kartě pacienta vůči údajům pacienta v ISIN. Uživatel je upozorněn ve chvíli, kdy je položka v ISIN vyplněná, ale ve FONS Galen je prázdná, nebo v případě, kdy se obsah položek neshoduje.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Tato kontrola probíhá u položek: datum úmrtí, jméno, příjmení, pohlaví, státní příslušnost a kontaktní e-mail.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V případě zjištění neshody je uživatel upozorněn:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 799,
+            "alt": "image-20250722-080637.png",
+            "id": "f3a5c83d-e205-4f89-8675-1bd64355bb3f",
+            "collection": "contentId-76972043",
+            "type": "file",
+            "height": 624
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pokud je potřeba údaje ověř znovu, je možné tak učinit pomocí tlačítka „Znovu ověřit“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 624,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 624,
+            "alt": "image-20250722-080924.png",
+            "id": "21b727b5-ed34-4737-b25a-7e1efb2d013c",
+            "collection": "contentId-76972043",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kontakty pacienta je možné navolit stisknutím tlačítka plus. Zároveň je možné po kliknutí na tlačítko „Kontakty pacienta v ISIN“, po komunikaci s ÚZIS, je načíst a následně změnit - přepsat údaje zadané v ISIN po stisknutí tlačítka Aktualizovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 358,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 358,
+            "alt": "image-20250722-080936.png",
+            "id": "c13e4465-d60e-4ac4-a926-8d6a154e97d8",
+            "collection": "contentId-76972043",
+            "type": "file",
+            "height": 263
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

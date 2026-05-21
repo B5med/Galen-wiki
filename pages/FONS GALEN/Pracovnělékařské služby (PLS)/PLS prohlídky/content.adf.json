@@ -1,0 +1,325 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "PLS prohlídku lze založit v okně Prohlídky a vyšetření, po kliku na ikonu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 236,
+            "alt": "image-20250626-135401.png",
+            "id": "8c440871-0da0-4c37-96a0-06a2140dacb5",
+            "collection": "contentId-56885286",
+            "type": "image",
+            "height": 44
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " a výběru PLS prohlídky, která je přiřazena firmě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 948,
+            "alt": "image-20250626-135436.png",
+            "id": "904f2a68-6b91-487e-b54e-46772e6a2e4b",
+            "collection": "contentId-56885286",
+            "type": "file",
+            "height": 506
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při ",
+          "type": "text"
+        },
+        {
+          "text": "vytváření PLS prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se zobrazují všechny prohlídky definované na smlouvě (i ty které jsou jen v rozšiřujících položkách, musí však být ve stejné skupině PLS jako je pacient na kartě zaměstnání zařazen), plus musí být tyto prohlídky zařazeny do sortimentu skupiny Prohlídka",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "o Pokud je prohlídka na smlouvě vícekrát, zobrazí se tento počet i ve výběru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " Pokud je ",
+          "type": "text"
+        },
+        {
+          "text": "pacient s PLS prohlídkou objednán v kalendáři",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", při PLS prohlídce se zobrazí ikona s hodinami).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " o Při vytvoření takové prohlídky se automaticky dotáhnou všechny položky přidané na prohlídku během vytváření PLS objednávky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " o Dotáhne se i reference pracoviště, na které byly položky objednány. Neplatí však na hlavní položku, ta má stále referenci pracoviště, na kterém je prohlídka vytvářena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " o Ikona s hodinami zmizí, pokud byla vytvořena prohlídka s touto ikonou, (nesmí existovat jiná objednávka na téže prohlídce u pacienta) nebo je tato objednávka z kalendáře odstraněna.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 998,
+            "alt": "image-20250626-135455.png",
+            "id": "25901c83-0d4e-455f-9586-29bb8bc92dd3",
+            "collection": "contentId-56885286",
+            "type": "file",
+            "height": 526
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "PLS prohlídka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Datum návštěvy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " na prohlídce nemůže být v budoucnosti. Datum příští prohlídky nemůže být větší než datum návštěvy. Nelze uzavřít žádné položky prohlídky do období, kde již existuje vystavená výkonová faktura. Nelze uzavřít hlavní položku smlouvy s datem menším než začátek prohlídky. Hlavní položka musí být uzavřena jako poslední, a to i pořadím i datumově.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do prohlídky",
+          "type": "text"
+        },
+        {
+          "text": " lze přidat nové položky – ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "ze smlouvy. Nemusí být ze stejné PLS skupiny (nezobrazuje se). Pokud jsou dvě položky shodné na základě kódu sortimentu, ceny bez DPH a DPH, nezobrazují se duplicitně. Musí být hlavní položky Musí vyhovovat filtru věku a pohlaví na zadaného na položce. Navázaný sortiment na položku musí být aktivní a nesmí být ze sortimentu prohlídky nebo služby ze sortimentu. Defaultně jsou zobrazeny položky bez zařazení kategorie.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po rozdělení položek do kategorií, ",
+          "type": "text"
+        },
+        {
+          "text": "lze přidávat i výkony. ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Ceny v tomto seznamu jsou dotaženy podle cen nastavených sortimentu. Po zaplacení v hotovosti se ikoně s penězi objeví zelené potvrzení („fajfka“). Je možné zaplatit za položky i jednotlivě pomocí tlačítka „",
+          "type": "text"
+        },
+        {
+          "text": "Platba",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " výběr“, které bude zobrazeno po označení jedné, případně více položek pomocí klávesových zkratek CTRL + C/SHIFT. Následně má možnost uživatel zvolit, zda byla platba provedena kartou nebo hotovostí. Při zvolení s možností vytvoření dokladu se zobrazí po zaplacení tisk s příjmovým dokladem. Při zvolení možnosti nevytvořit pokladní doklad.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Prohlídku ",
+          "type": "text"
+        },
+        {
+          "text": "lze přiřadit jiné ordinaci",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " pomocí tlačítka s ikonou lékaře (vedle tlačítka uzavřít). Po výběru ordinace, se nabídnou kalendáře navázané na toto IČP a můžeme do kalendáře vytvořit objednávku s přiřazením na danou PLS prohlídku a položku smlouvy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě prohlídky, která podmíněně ovlivňuje lhůtu (zkratka PPOL), je na prohlídce zobrazen ",
+          "type": "text"
+        },
+        {
+          "text": "DUVOD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " s možnostmi výběru hodnot:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o Zdravotní důvod",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o Jiný důvod",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

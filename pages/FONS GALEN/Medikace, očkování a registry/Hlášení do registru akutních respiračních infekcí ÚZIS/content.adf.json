@@ -1,0 +1,721 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee637ff3-5300-4c15-a268-b021116365ef"
+      },
+      "content": [
+        {
+          "text": "Odesílání hlášení do Registru akutních respiračních infekcí je povinný pro praktické lékaře a pediatry. Více informací poskytuje ",
+          "type": "text"
+        },
+        {
+          "text": "stránka ÚZIS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://www.uzis.cz/index.php?pg=registry-sber-dat--ochrana-verejneho-zdravi--registr-akutnich-respiracnich-infekci"
+              }
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46b98d49-b22f-4f62-9de0-7541f74a1ac5"
+      },
+      "content": [
+        {
+          "text": "V rámci FONS Galen se jedná o nadstandardní funkcionalitu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "eff263f9-8a1c-4bd9-ac5e-3e16cbbc78aa"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "58dabc5a-8765-4ad6-a0e2-6fb4cd9c8716"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7be85d44-12e7-44e4-8044-c2a8da4e226c"
+      },
+      "content": [
+        {
+          "text": "Potřebná nastavení ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce053ecf-49d3-4c3d-86b0-ac55ddb85fbe"
+      },
+      "content": [
+        {
+          "text": "Pro zprovoznění funkcionality je potřeba ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3fb38193-8bab-44e6-84c7-8a0a659bb822",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4e2fb880-69ec-496a-8c8c-61129ffc4778"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4cad54f9-7d5e-49a7-8bf6-79ea336cb6f9"
+              },
+              "content": [
+                {
+                  "text": "Zpřístupnění nadstandardní funkcionality Registr ARI ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f13bf9c1-f236-4c98-835d-599e7b80b77d",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f95224c9-37bd-48c2-9769-9d0c65aea50d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f08858f4-5d15-4baf-acbd-c27ce55a6b73"
+              },
+              "content": [
+                {
+                  "text": "Šifrovací certifikát na pracovišti (aktuálně vydává SÚKL, od 1. 11. 2024 vydává ÚZIS) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "26a3261c-e821-4604-b861-70c76b790dd6",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a1722017-53ad-4b6a-90fa-4dd2840f269a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "690f93b0-dd32-4468-bb5f-e0531a9011e8"
+              },
+              "content": [
+                {
+                  "text": "Vyplněná hodnota pole ",
+                  "type": "text"
+                },
+                {
+                  "text": "PČZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " v konfiguraci pracoviště ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "9a27d92d-34ef-458d-afd9-5b3e444201b5",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "47035d9d-4471-43cc-9157-bb2e217431e5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "89263166-c50c-4f99-a3e1-8b6c6d1578ad"
+              },
+              "content": [
+                {
+                  "text": "Stažený číselník ÚZIS Diagnózy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ": Modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nástroje",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " na pracovišti nebo v modulu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "-> ",
+                  "type": "text"
+                },
+                {
+                  "text": "Registr ÚZIS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " -> Diagnózy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dfa0c066-f8e2-4276-a562-ef6b44cc7130"
+      },
+      "content": [
+        {
+          "text": "Naopak není potřeba žádat o žádnou roli na ÚZIS. Dle informace ÚZIS by tato role měla být všem praktikům přidána k certifikátu automaticky.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7b82f334-ae43-49bf-806c-dab9061b65e3"
+      },
+      "content": [
+        {
+          "text": "Postup pro odeslání hlášení z editoru výkonů ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b004860e-270f-4698-81a3-09d30a68c3f3"
+      },
+      "content": [
+        {
+          "text": "Hlášení se primárně odesílají na základě vykázání výkonu, který má jako hlavní diagnózu uvedenou některou z diagnóz, která je uvedena v číselníku ÚZIS Diagnózy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "efd7ca30-baf9-420a-84c6-470243947320"
+      },
+      "content": [
+        {
+          "text": "Pokud lékař vykáže výkon  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "9e03a3e2-8741-4560-a99d-1365e16f100d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0b9a9a86-9cd6-4b71-8413-bd8a807391a7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1b6c61ec-6135-4892-bd38-6d697cabc50e"
+              },
+              "content": [
+                {
+                  "text": "Odb. 001: ",
+                  "type": "text"
+                },
+                {
+                  "text": "01543",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "09557",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "01305",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "72602a53-d666-4cf6-b1bf-8cb795c2d22c",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "214c4d1e-436f-4b13-a9d7-1c04509c3e58"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d50d0667-53f8-4646-8ecc-ae8b1c4b836b"
+              },
+              "content": [
+                {
+                  "text": "Odb. 002: ",
+                  "type": "text"
+                },
+                {
+                  "text": "09555",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "09556",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "09557",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "01543",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "01305",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f189744a-71af-4572-a8fc-9c143d086d0d"
+      },
+      "content": [
+        {
+          "text": "A tento výkon bude mít jako hlavní diagnózu uvedenou diagnózu, která je uvedená v číselníku ÚZIS Diagnózy, pak se při ukládání výkonů bude na pozadí odesílat hlášení do Registru ARI.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7cc00f46-5d34-49f8-9ec3-ae6c5b3ab13b"
+      },
+      "content": [
+        {
+          "text": "Přehled hlášení v modulu Registr ARI v ordinaci ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "80124c10-a88c-4ca7-9c91-9f4b9b4e11b8"
+      },
+      "content": [
+        {
+          "text": "V ordinaci praktického lékaře a pediatra přibyde v hodní modré liště modulu Registr ARI. Modul slouží pro přehled odeslaných hlášení, a zároveň pro možnost ručního zadání hlášení v případě, že nebyl uživatelem vykázán žádný z výše uvedených výkonů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c03260b7-a83a-4290-80bb-ddadf9842ab2"
+      },
+      "content": [
+        {
+          "text": "Často kladené otázky ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ca9ae84e-17bf-4b14-b110-711bd67ad490"
+      },
+      "content": [
+        {
+          "text": "Kdy je nutné hlášení odesílat? ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "757a43b5-0a2a-4864-b3d7-ef2fa6f921d6"
+      },
+      "content": [
+        {
+          "text": "Hlášení se má odeslat při začátku nemoci. Pokud by pacient přišel na kontrolu po ukončení, toto hlášení se už neodesílá. Výjimku tvoří to, že by epizoda nemoci trvala ještě další týden, to by se hlášení odeslat mělo. Stejně by se hlášení mělo odeslat ve chvíli, kdy pacienta přebírá jiný lékař a epizoda nemoci stále trvá.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a86ac556-fb08-4134-afbd-ba8240ba2ead"
+      },
+      "content": [
+        {
+          "text": "Při editaci data vykázaného výkonu se vyšetření v registru ARI automaticky smazalo. Jak postupovat? ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "69accb46-f30c-4094-b93d-6380a501a385"
+      },
+      "content": [
+        {
+          "text": "Vyšetření, nebo též hlášení, se v registru ARI zpracovávají v týdenních cyklech (konkrétně od pátku do čtvrtka). Ve čtvrtek v nočních hodinách jsou vyšetření na straně ÚZIS uzavřena a není možné s nimi dále pracovat (nelze je ani mazat, ani editovat). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "30a0fceb-2495-484d-b46b-2a31f3f915fc"
+      },
+      "content": [
+        {
+          "text": "Pokud u výkonu, na základě kterého bylo odesláno vyšetření do registru ARI, změníte datum do období, kdy už jsou vyšetření na straně ÚZIS uzavřená, stávající hlášení se smaže, protože jste změnili datum výkonu od období, do kterého již není možné vyšetření do registru ARI zadávat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3aed9cce-abb1-4784-a586-fb864df04081"
+      },
+      "content": [
+        {
+          "text": "Při ukládání výkonu se FONS Galen dotazuje, zda si přeji vyšetření v registru ARI editovat. Jak postupovat? ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6bcacbe9-0201-4bd4-80a9-745af5648710"
+      },
+      "content": [
+        {
+          "text": "V rámci jednoho týdne (od pátku do čtvrtka) by se mělo do registru odeslat pouze jedno hlášení. Ve výkonech pravděpodobně ukládáte výkon s diagnózou, na základě kterých by se hlášení odeslat mělo, ale zároveň FONS Galen vidí, že už jste hlášení za daný týden odeslali.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02f97202-51dc-4fec-b524-47e6204f0184"
+      },
+      "content": [
+        {
+          "text": "Tento scénář může nastat např. ve chvíli, kdy jste v pondělí vykázali dotčený výkon s danou diagnózou a vyšetření odeslali. Ve čtvrtek vykazujete dotčený výkon s danou diagnózou proto, že nemoc pacienta již pominula.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad904521-45d1-4bd8-9803-bc8a45f53e77"
+      },
+      "content": [
+        {
+          "text": "Pokud zvolíte možnost editace vyšetření, bude do registru ARI odeslána aktualizace stávajícího vyšetření, která se bude týkat změny data vyšetření nebo jeho diagnózy. Pokud editaci nezvolíte, v registru zůstane vyšetření s původním datem nebo diagnózou.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d280ea9b-e04f-4f80-a267-750c19196523"
+      },
+      "content": [
+        {
+          "text": "Pokud situace nastala z důvodu, který byl popsán výše (v rámci jednoho týdne pátek až čtvrtek byla epizoda zahájena i ukončena), vyšetření needitujte, protože se hlášení má odesílat při zahájení epizody nemoci. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7fb83ca2-073f-44c5-ab60-6f9264dc776c"
+      },
+      "content": [
+        {
+          "text": "Při ukládání výkonu se FONS Galen dotazuje, zda si přeji odeslat vyšetření do registru ARI. Jak postupovat? ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "896c53a1-3368-426e-9849-6394243c9341"
+      },
+      "content": [
+        {
+          "text": "FONS Galen vyhodnotil, že v posledních 14 dnech bylo do registru ARI odesláno hlášení. Jedná se o pojistku, aby nebylo odesláno hlášení např. ve chvíli, kdy epizoda nemoci skočila.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b18db8f5-e286-4cd8-a1a2-169a292ef9d3"
+      },
+      "content": [
+        {
+          "text": "Pokud pacient zahájil novou epizodu nemoci, nebo pokud tato epizoda trvá i další týden, vyšetření do registru ARI odešlete. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2f5c317a-1a7d-41c9-9156-e46d55eff78c"
+      },
+      "content": [
+        {
+          "text": "Pokud vykazujete výkony proto, že epizoda nemoci už skončila, vyšetření do registru ARI neodesílejte. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67e46bc2-bf05-4adf-93f9-c8029a617d62"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

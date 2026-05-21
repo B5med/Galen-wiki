@@ -1,0 +1,721 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "3ea02717-543a-4f6e-a79f-2d5a34b6058d"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "43eec673-7903-4258-8844-808b8992330d"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "af38b01d05ea"
+      },
+      "content": [
+        {
+          "text": "Pacienta je možné notifikovat o vytvoření a smazání objednávky, také je možné nastavit x dní před samotnou objednávkou automatické připomenutí. Notifikace je možné zasílat prostřednictvím SMS, e-mailu, nebo oboje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "91d4e2b98f5d"
+      },
+      "content": [
+        {
+          "text": "Objednávky a notifikace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "9a8c06510d1e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c2b9694c8b57"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cffa50571748"
+              },
+              "content": [
+                {
+                  "text": "Objednávku v kalendáři – jedná se o objednávku, která má vazbu na konkrétního pacienta v kartotéce  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1041,
+            "alt": "image-20250624-114540.png",
+            "id": "bb0849d3-d04f-45cc-9963-84d3d192b27a",
+            "collection": "contentId-54427649",
+            "type": "file",
+            "localId": "8cc370d31aa2",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "04f4ab5907ae",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c1bce7001621"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b20aeea0e15d"
+              },
+              "content": [
+                {
+                  "text": "Záznam v kalendáři – jedná se o objednávku, která nemá vazbu na konkrétního pacienta v kartotéce ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1031,
+            "alt": "image-20250624-114608.png",
+            "id": "ba148647-d9fc-49e5-bfe7-b2be5310a1ae",
+            "collection": "contentId-54427649",
+            "type": "file",
+            "localId": "51ac7184609f",
+            "height": 549
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f3e60657a5fc"
+      },
+      "content": [
+        {
+          "text": "Na objednávku nebo na záznam v kalendáři je možné nastavit tři typy notifikací: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fbbaab0d28b3",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2883407420ae"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b0799f8d2eee"
+              },
+              "content": [
+                {
+                  "text": "Upozornění – zpráva přijde pacientovi ihned po vytvoření objednávky/záznamu v kalendáři, nebo po změně objednávky/ záznamu v kalendáři ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5fb0b73cb404",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8a97c11ac1b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0002f3c282c4"
+              },
+              "content": [
+                {
+                  "text": "Zrušení - zpráva přijde pacientovi ihned po smazání objednávky/záznamu v kalendáři ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1a1feba52190",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "473df3843156"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2129a03df7f6"
+              },
+              "content": [
+                {
+                  "text": "Připomenutí – zpráva přijde pacientovi definovaný počet dní před datem objednávky/záznamu v kalendáři. Zprávy se generují a odesílají hromadně jednou denně.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fed4f9f28863"
+      },
+      "content": [
+        {
+          "text": "Nastavení šablony notifikace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "00a26d5ba9d4"
+      },
+      "content": [
+        {
+          "text": "Aby bylo možné odeslat notifikaci, je nutné na objednávku nebo na záznam v kalendáři a na každý druh notifikace vytvořit šablonu. Celkem se tedy jedná o 6 druhů notifikací. Pokud je potřeba odesílat notifikace jak skrze SMS, tak e-mailem, bude potřeba nastavit celkem 12 druhů notifikací. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "259236a70259"
+      },
+      "content": [
+        {
+          "text": "Šablony se nastavují v modulu Správce -> Nástroje ->  Šablony -> Notifikace ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0af21600bf6c"
+      },
+      "content": [
+        {
+          "text": "V šabloně je možné definovat text a zároveň proměnné položky ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1116,
+            "alt": "image-20250624-114649.png",
+            "id": "7704765f-8646-42aa-a795-34f6f3114035",
+            "collection": "contentId-54427649",
+            "type": "file",
+            "localId": "bbb9c467223d",
+            "height": 236
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9d5d8009f19a"
+      },
+      "content": [
+        {
+          "text": "Šablonu je možné definovat obecně pro všechny pacienty, nebo rozlišovat dle pohlaví pacienta. V tom případě je nutné nastavit šablonu pro muže, ženy a pro pacienty, kteří neuvedli pohlaví.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8f7cd4a58c04"
+      },
+      "content": [
+        {
+          "text": "Použití šablony v nastavení kalendáře ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd6946219bf0"
+      },
+      "content": [
+        {
+          "text": "V nastavení kalendáře (Správce -> Správa organizace -> Agendy -> Kalendáře -> Nastavení -> Notifikace a připomínání) je možné u každého kalendáře nastavit, aby se určitý druh notifikace odesílal. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 986,
+            "alt": "image-20250624-114744.png",
+            "id": "229af920-bf79-4ecf-b1a5-a424ff647710",
+            "collection": "contentId-54427649",
+            "type": "file",
+            "localId": "e4e624e3e132",
+            "height": 701
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d02fa566f44c"
+      },
+      "content": [
+        {
+          "text": "V horní polovině okna (A) se nastavují notifikace týkající se objednávky (tj. záznam v kalendáři s vazbou na konkrétního pacienta v kartotéce). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "370e44127bfe"
+      },
+      "content": [
+        {
+          "text": "Ve spodní polovině okna (B) se nastavují notifikace týkající se záznamu v kalendáři (tj. záznam v kalendáři bez vazby na pacienta v kartotéce). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b6f055dde7c5"
+      },
+      "content": [
+        {
+          "text": "Pro každý druh notifikace se nastavuje šablona pro komunikaci e-mailem (C) a SMS (D).  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "97957e687aa9"
+      },
+      "content": [
+        {
+          "text": "Pro připomínání (E) je možné nastavit až n zpráv jak pro SMS, tak e-maily.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "231e2fafdbf7"
+      },
+      "content": [
+        {
+          "text": "U každé šablony je možné nastavit stav Odesílat, Neodesílat, Zakázat: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4f3f17964e4d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f197d8e3d4e1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c3cf6812f003"
+              },
+              "content": [
+                {
+                  "text": "Odesílat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = při založení objednávky bude odesílání této šablony defaultně zaškrtnuto ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "56ae7bee4f31"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "78564b2c8d85"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b0bf5b00f2c5"
+              },
+              "content": [
+                {
+                  "text": "Neodesílat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = při založení této objednávky bude odesílání této šablony defaultně vypnuto, uživatel může odesílání aktivovat ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "fdc1872bb21b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e9a55b81fca8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "75aa04429c61"
+              },
+              "content": [
+                {
+                  "text": "Zakázat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = tento typ šablony se nebude při vytvoření objednávky nabízet, tento typ notifikace nebude možné aktivovat ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a023ee7b8f55"
+      },
+      "content": [
+        {
+          "text": "Výchozí nastavení se takto promítne při do nastavení při vytvoření objednávky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4d971c81e024"
+      },
+      "content": [
+        {
+          "text": "SMS upozornění na objednávku úplně chybí, protože je nastaveno na „zakázat“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b0ec3e6bbda4"
+      },
+      "content": [
+        {
+          "text": "SMS zrušená objednávka není aktivní, protože je nastaveno na „neodesílat“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3ae22dbfd0aa"
+      },
+      "content": [
+        {
+          "text": "SMS připomenutí objednávky je aktivní, protože je nastaveno „odesílat“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 987,
+            "alt": "image-20250624-114800.png",
+            "id": "74873d81-caff-494d-b10c-47104c7712be",
+            "collection": "contentId-54427649",
+            "type": "file",
+            "localId": "ec07fee53cbb",
+            "height": 533
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d493e28d4c57"
+      },
+      "content": [
+        {
+          "text": "Použití šablony v nastavení ordinačních hodin ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ec94880af989"
+      },
+      "content": [
+        {
+          "text": "Nastavené notifikace je možné používat stejně pro všechny objednávky v daném kalendáři, nebo je možné nastavit na vybrané ordinační doby jiné notifikace. Tento postup se používá např. ve chvíli, kdy má být připomenutí na objednávky na úterý, středu, čtvrtek a na pátek odesláno den předem, ale upozornění na objednávku na pondělí má být odesláno už v pátek.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "338dccbcbdd8"
+      },
+      "content": [
+        {
+          "text": "Na každé ordinační době je defaultně přeneseno nastavení notifikací z kalendáře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "606c5085cacb"
+      },
+      "content": [
+        {
+          "text": "Nastavení kalendáře -> dvojklik na konkrétní ordinační dobu -> Notifikace a připomínání ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4b621dfdb501"
+      },
+      "content": [
+        {
+          "text": "Toto nastavení je možné změnit pouze pro daný konkrétní blok ordinačních hodin. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "43945525fb3e"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

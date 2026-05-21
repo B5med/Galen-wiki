@@ -1,0 +1,55 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1122b8e8ae52"
+      },
+      "content": [
+        {
+          "text": "V této sekci najdete návody na založení karty pojištěnce i samoplátce, ověření údajů, vyhledávání pacientů, práci s čekárnou a archivem. Sekce dále zahrnuje práci s anamnézou, historií pacienta, stavem účtu, elektronickou zdravotní dokumentací (EZD), externími zprávami a sdílením dokumentace mezi pracovišti a další.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "depth": {
+              "value": "3"
+            },
+            "allChildren": {
+              "value": "true"
+            },
+            "style": {
+              "value": ""
+            },
+            "sortAndReverse": {
+              "value": ""
+            },
+            "first": {
+              "value": "0"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "8d9933d1be3f6f8bef5633fe9aafb5c2a554ddc1563762273f8a934d4f97ad6b"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "db1cd315-2961-4467-b161-967ec7d42863"
+      }
+    }
+  ],
+  "version": 1
+}

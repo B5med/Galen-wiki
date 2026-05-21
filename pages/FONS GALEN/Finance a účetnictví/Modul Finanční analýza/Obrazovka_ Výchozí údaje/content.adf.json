@@ -1,0 +1,1766 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a492d1d336b4"
+      },
+      "content": [
+        {
+          "text": "Slouží k zadávání klíčových vstupních údajů, které mají přímý vliv na výpočty a analýzy. Údaje lze definovat obecně, nebo pro konkrétní pojišťovny a IČZ. Některá pole se vyplňují ručně, jiná jsou automaticky dopočítána systémem a zobrazují se jako neaktivní (šedě).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "d473db8379d7"
+      },
+      "content": [
+        {
+          "text": "Záložka: Úhradové parametry",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3de3af774c70"
+      },
+      "content": [
+        {
+          "text": "Záložka Úhradové parametry slouží k zadávání vstupních údajů pro výpočet. Klíčovým polem je ",
+          "type": "text"
+        },
+        {
+          "text": "Vstupní úhrada",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", bez jehož vyplnění není možné provést kompletní výpočet. Ostatní hodnoty lze zadat ručně, nebo je systém v případě prázdných polí automaticky dopočítá.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1910,
+            "alt": "image-20260512-060429.png",
+            "id": "c11a7d93-366b-4e5a-b2f3-de8d846ee842",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "8399c529956e",
+            "height": 415
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e0019f4605fc"
+      },
+      "content": [
+        {
+          "text": "Editace údajů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "aa5116ce8422",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a646c7a83b95"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5573417929ec"
+              },
+              "content": [
+                {
+                  "text": "V seznamu úhradových parametrů vyberte požadovaný řádek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "003ba07ad96f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f3326de15a4c"
+              },
+              "content": [
+                {
+                  "text": "Řádek otevřete:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "feb65efd4a62"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.      dvojklikem, nebo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "984a68f2dd54"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřít nový záznam",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (ikona tužky).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2756b1f45921",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8d0eaf7b1a3b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "62465172251d"
+              },
+              "content": [
+                {
+                  "text": "Zobrazí se obrazovka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Úhradové parametry",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – detail.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86527ab563e8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "90307c1af4be"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte nebo upravte potřebné údaje (např. Vstupní úhrada).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d6f013d29ab9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "19c54bbbc7fd"
+              },
+              "content": [
+                {
+                  "text": "Potvrďte změny tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "OK",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 742,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 742,
+            "alt": "image-20260512-060503.png",
+            "id": "d1b54899-b609-4f7e-a83c-3c14da1b69d9",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "4ba9f00e6362",
+            "height": 358
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "623b924055fb"
+      }
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "f902cdb7-bc77-4ab8-95de-9cdb19e3ebe3"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e0d15de320d4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "66123ef120bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c351bf5aa790"
+                  },
+                  "content": [
+                    {
+                      "text": "Položka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "eefae9c8966f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "52c3ec2cde4c"
+                  },
+                  "content": [
+                    {
+                      "text": "Povinná",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "816cfff7b78b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "532542f6630b"
+                  },
+                  "content": [
+                    {
+                      "text": "Poznámka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a03fe5c80e02"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "774af516ea9e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "991467cb035d"
+                  },
+                  "content": [
+                    {
+                      "text": "Vstupní úhrada",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "37d0ab79cb25"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b139dfaa5a88"
+                  },
+                  "content": [
+                    {
+                      "text": "Ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c5d38b78a18f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1d3b23b3c135"
+                  },
+                  "content": [
+                    {
+                      "text": "Povinné pole",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f44022aa5953"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "059cda15acc9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5ccf7077e5c6"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet bodů (ref. období)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e943e6125d63"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27215489bbd6"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ddb8e4ed1fa6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9f6b54df7d64"
+                  },
+                  "content": [
+                    {
+                      "text": "Lze nechat dopočítat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8bd48c73ea5b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "93ce39435e48"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "136477805588"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet unikátních pojištěnců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a3ef6e5a50b1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2cf9757f977b"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e506034c716a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2fbfa87e3eb0"
+                  },
+                  "content": [
+                    {
+                      "text": "Lze nechat dopočítat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e9f72e45c61f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ac40fe9609ca"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a2b3d7cbe7e7"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO (ref. období)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5618c3f15b24"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eca528c84e39"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "16e9c53391d7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fa753a9021ca"
+                  },
+                  "content": [
+                    {
+                      "text": "Lze nechat dopočítat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "60a33c4f1952"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "408911dc37b8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f5164558b074"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet UOP limitní úhrady",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "27d53d258993"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b78e1b7c3baf"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "58f12997b9a6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "80bb0b1e285f"
+                  },
+                  "content": [
+                    {
+                      "text": "Používá se u limitované péče",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9debd329b211"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "19331eca4a6c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8dcd2e08b903"
+                  },
+                  "content": [
+                    {
+                      "text": "Koeficient navýšení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d2b92d95ed13"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c47af85f2eff"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ff8e386af224"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6b7592fec930"
+                  },
+                  "content": [
+                    {
+                      "text": "Používá se k navýšení koeficientu navýšení. Lze nechat hodnotu stanovenou vyhláškou.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b6bba864409d"
+      },
+      "content": [
+        {
+          "text": "Poznámka:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Položka ",
+          "type": "text"
+        },
+        {
+          "text": "Koeficient navýšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je dostupná pouze pro rok 2026 a novější. Pro rok 2025 a starší není tato položka k dispozici – příslušné nastavení lze pro rok 2025 nalézt pod záložkou ",
+          "type": "text"
+        },
+        {
+          "text": "Koeficient navýšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3864a279e4d5"
+      },
+      "content": [
+        {
+          "text": "Záložka: Hodnota bodu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aea21c975291"
+      },
+      "content": [
+        {
+          "text": "Tato záložka slouží k nastavení či kontrole hodnoty bodu pro jednotlivé segmenty a podsegmenty, případně konkrétní pojišťovny a IČZ.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-065341.png",
+            "id": "c1a341e7-d1ba-4cfb-a4b2-dd98d65173b0",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "c0c66ff2fd82",
+            "height": 102
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2f6997c6f35"
+      },
+      "content": [
+        {
+          "text": "Editace údajů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "98c59c7cadc5",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "83b463bba6b2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d42107157e76"
+              },
+              "content": [
+                {
+                  "text": "V seznamu vyberte požadovaný řádek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3a69ef1391a9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fa573315f2f2"
+              },
+              "content": [
+                {
+                  "text": "Řádek otevřete:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a24bb1ff2f7"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.      dvojklikem, nebo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8a107fb16454"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřít nový záznam",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (ikona tužky).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a6cb5acb9850",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3108fa839171"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dfb1db802ec1"
+              },
+              "content": [
+                {
+                  "text": "Zobrazí se obrazovka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Hodnota bodu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – detail.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7eb0d24a6b20"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c48d3d373af3"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte nebo upravte potřebné údaje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "42f30d659c7d"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.      Kliknutím na tlačítko Přidat nový záznam (ikona plus) se přidá nový řádek, kde lze zadat hodnoty specifické pro pojišťovny a IČZ.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dee2ad8b7509"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (ikona mínus) se vybraný řádek smaže.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "49826007057f",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "20b50358cb70"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cfea8089244e"
+              },
+              "content": [
+                {
+                  "text": "Potvrďte změny tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "OK",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 249,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 249,
+            "alt": "image-20250905-065359.png",
+            "id": "781677a1-801d-4d8a-9cae-6c0ccc337ffc",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "727c27b438f7",
+            "height": 249
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "923d29b7a7a8"
+      },
+      "content": [
+        {
+          "text": "Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "46defc421685"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d5115d86e53a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "03b579091de6"
+              },
+              "content": [
+                {
+                  "text": "Musí být vyplněna minimálně pojišťovna nebo IČZ.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7e29c3d507dd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "190fe69f3eb5"
+              },
+              "content": [
+                {
+                  "text": "Není možné zadat dvě stejné kombinace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b0cc590aacf1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3cafaaec9095"
+              },
+              "content": [
+                {
+                  "text": "Pokud není hodnota zadána, použije se obecná.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1b4b8e1faa0c"
+      },
+      "content": [
+        {
+          "text": "Záložka: Koeficient navýšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ffa571c05b8"
+      },
+      "content": [
+        {
+          "text": "Zde se nastavují nebo kontrolují koeficienty, které ovlivňují celkové ocenění výkonů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 432,
+            "alt": "image-20250905-065424.png",
+            "id": "af7d4e69-c372-4cfc-84a5-ce5d54a61151",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "786f4ad31f6d",
+            "height": 60
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6e27c700a41c"
+      },
+      "content": [
+        {
+          "text": "Editace údajů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "93118409ce2d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b1cefdc8e1ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bc73ed9f066b"
+              },
+              "content": [
+                {
+                  "text": "V seznamu vyberte požadovaný řádek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6e5a2791d1da"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "126e8c5eba36"
+              },
+              "content": [
+                {
+                  "text": "Řádek otevřete:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c0ab03ca2543"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.      dvojklikem, nebo",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fc618f0a8b4e"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřít nový záznam",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (ikona tužky).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0294a0e38c0c",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c319d9eb28bf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0af34b4275b9"
+              },
+              "content": [
+                {
+                  "text": "Zobrazí se obrazovka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Koeficient navýšení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – detail.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d56010768cc5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6d50d54b8985"
+              },
+              "content": [
+                {
+                  "text": "Vyplňte nebo upravte potřebné údaje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d7f6dd764538"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "a.      Kliknutím na tlačítko Přidat nový záznam (ikona plus) se přidá nový řádek, kde lze zadat hodnoty specifické pro pojišťovny a IČZ.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a53caaf49285"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "b.      Vybráním řádku a kliknutím na tlačítko Smazat vybraný záznam (ikona mínus) se vybraný řádek smaže.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a2201fb44555",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "134fbc636883"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b98216f7e490"
+              },
+              "content": [
+                {
+                  "text": "Potvrďte změny tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "OK",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 238,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 238,
+            "alt": "image-20250905-065456.png",
+            "id": "e1781962-fb22-41a0-9d93-698593024e79",
+            "collection": "contentId-113999874",
+            "type": "file",
+            "localId": "601e8f4645bd",
+            "height": 238
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "85fe5d15b199"
+      },
+      "content": [
+        {
+          "text": "Specifické nastavení umožňuje přidat kombinace pojišťovna + IČZ s pravidly:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "204b3e240992"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b83d44a308ce"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9e8f50f08a4f"
+              },
+              "content": [
+                {
+                  "text": "Musí být vyplněna minimálně pojišťovna nebo IČZ.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "49da114d851e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5daedea0b491"
+              },
+              "content": [
+                {
+                  "text": "Není možné zadat dvě stejné kombinace.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "49940922e0cd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f54337013a70"
+              },
+              "content": [
+                {
+                  "text": "Pokud není hodnota zadána, použije se obecná.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4083e9507a15"
+      },
+      "content": [
+        {
+          "text": "Poznámka:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Položky ",
+          "type": "text"
+        },
+        {
+          "text": "Koeficientu navýšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " jsou dostupná pouze pro rok 2025 a starší. Pro rok 2026 a novější se příslušné nastavení nachází pod záložkou ",
+          "type": "text"
+        },
+        {
+          "text": "Úhradové parametry",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

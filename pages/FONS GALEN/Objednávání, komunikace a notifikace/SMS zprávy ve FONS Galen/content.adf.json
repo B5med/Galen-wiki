@@ -1,0 +1,893 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "1f8102397e56"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "42facbc9cd0e"
+          },
+          "content": [
+            {
+              "text": "Napojení na SMS bránu je ",
+              "type": "text"
+            },
+            {
+              "text": "nadstandardní placená funkcionalita",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " – pro její aktivaci kontaktujte tým podpory STAPRO.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "sms-toc-001"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "sms-toc-local-001"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e3331c687990"
+      },
+      "content": [
+        {
+          "text": "1. Odeslání SMS jednotlivému pacientovi z kartotéky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "04dda2232724"
+      },
+      "content": [
+        {
+          "text": "SMS lze odeslat přímo z kartotéky kliknutím ",
+          "type": "text"
+        },
+        {
+          "text": "pravým tlačítkem myši",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " na pacienta. Z kontextového menu zvolte ",
+          "type": "text"
+        },
+        {
+          "text": "Poslat zprávu → Napsat SMS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Napsat e-mail i SMS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "). Zobrazí se okno pro sestavení zprávy, kde lze napsat vlastní text nebo vybrat přednastavenou šablonu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a21efcc31407"
+      },
+      "content": [
+        {
+          "text": "2. Hromadné odeslání SMS z kartotéky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5eaecd5d881c"
+      },
+      "content": [
+        {
+          "text": "V kartotéce lze označit více pacientů najednou a odeslat jim SMS hromadně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ea644229a409",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1e7b73b2568f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b708f29f256"
+              },
+              "content": [
+                {
+                  "text": "V kartotéce označte požadované pacienty pomocí ",
+                  "type": "text"
+                },
+                {
+                  "text": "Ctrl + klik",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "Shift + klik",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6232d5f62e57"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "010da670f7af"
+              },
+              "content": [
+                {
+                  "text": "Klikněte ",
+                  "type": "text"
+                },
+                {
+                  "text": "pravým tlačítkem myši",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " na výběr a zvolte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Poslat zprávu → Napsat SMS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0df7e4a12cfd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73b30af41965"
+              },
+              "content": [
+                {
+                  "text": "Sestavte zprávu nebo vyberte šablonu a potvrďte odeslání.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "599e1c8a53ef"
+      },
+      "content": [
+        {
+          "text": "3. SMS notifikace objednávek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fdab4c5e74aa"
+      },
+      "content": [
+        {
+          "text": "Systém umí automaticky odesílat SMS pacientům v návaznosti na události v kalendáři objednávek. Jedná se o tři typy notifikací:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "543cba5fa224"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2b023bdcfd37"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "42508175804c"
+              },
+              "content": [
+                {
+                  "text": "Potvrzení objednávky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – SMS se odešle ihned po vytvoření objednávky v kalendáři.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6bd50e431b2f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6c6dc8d0efb0"
+              },
+              "content": [
+                {
+                  "text": "Připomenutí termínu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – SMS se odešle definovaný počet dní před termínem. Lze nastavit více připomínek najednou (např. 3 dny předem i 1 den předem). Zprávy se generují a odesílají hromadně jednou denně.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e28717cb17d5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5b116f94dd9d"
+              },
+              "content": [
+                {
+                  "text": "Zrušení objednávky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – SMS se odešle ihned po smazání objednávky z kalendáře.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "46bdd292622c"
+      },
+      "content": [
+        {
+          "text": "Nastavení notifikací objednávek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "98b6e969372b"
+      },
+      "content": [
+        {
+          "text": "Nastavení probíhá na třech místech:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6fa2da991799"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7247277249c6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "80327bdd75e3"
+              },
+              "content": [
+                {
+                  "text": "Šablony zpráv",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – texty SMS se definují v ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Nástroje → Šablony → Notifikace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Šablonu lze nastavit obecně pro všechny pacienty nebo rozlišovat dle pohlaví. Pro každý typ notifikace (potvrzení, připomenutí, zrušení) a každý typ záznamu v kalendáři je potřeba vytvořit samostatnou šablonu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7469eec2a7b2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "674d75900277"
+              },
+              "content": [
+                {
+                  "text": "Nastavení na úrovni kalendáře",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa organizace → Agendy → Kalendáře → Nastavení → Notifikace a připomínání",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Pro každou šablonu lze nastavit stav: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Odesílat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (výchozně zapnuto), ",
+                  "type": "text"
+                },
+                {
+                  "text": "Neodesílat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (výchozně vypnuto, lze ručně aktivovat), ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zakázat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (nelze aktivovat).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "82fe03284b02"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f474b5befe25"
+              },
+              "content": [
+                {
+                  "text": "Nastavení na úrovni ordinačních hodin",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – pro konkrétní bloky ordinačních hodin lze nastavit odlišné notifikace než jsou výchozí pro celý kalendář. Přístup: dvojklik na konkrétní ordinační dobu → ",
+                  "type": "text"
+                },
+                {
+                  "text": "Notifikace a připomínání",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ef07c092173f"
+      },
+      "content": [
+        {
+          "text": "Příklady šablon SMS zpráv",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "416e0364fced"
+      },
+      "content": [
+        {
+          "text": "Následující šablony lze využít jako výchozí bod v ",
+          "type": "text"
+        },
+        {
+          "text": "Správce → Nástroje → Šablony → Notifikace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "48c9a3e78101"
+      },
+      "content": [
+        {
+          "text": "Potvrzení objednávky:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "plaintext",
+        "localId": "c54db09c1142"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Dobrý den, [@P.Jmeno] [@P.Prijmeni], Vaše objednávka na [@ObjednavkaRef.RecordName] dne [@Objednavka.Datum] v [@Objednavka.Time] hod. byla přijata. Těšíme se na Vás. [@Z.RecordName]",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6eb40ca206fe"
+      },
+      "content": [
+        {
+          "text": "Připomenutí termínu:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "plaintext",
+        "localId": "a39fe50a3a7d"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Dobrý den, [@P.Jmeno] [@P.Prijmeni], připomínáme Vám termín [@ObjednavkaRef.RecordName] dne [@Objednavka.Datum] v [@Objednavka.Time] hod. V případě potřeby nás kontaktujte. [@Z.RecordName]",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "91fafbe3316f"
+      },
+      "content": [
+        {
+          "text": "Zrušení objednávky:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "plaintext",
+        "localId": "2d6df3375e1c"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Dobrý den, [@P.Jmeno] [@P.Prijmeni], Vaše objednávka na [@ObjednavkaRef.RecordName] dne [@Objednavka.Datum] v [@Objednavka.Time] hod. byla zrušena. Pro nový termín nás prosím kontaktujte. [@Z.RecordName]",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "aff3aa9c116f"
+      },
+      "content": [
+        {
+          "text": "Předpoklady pro fungování SMS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "49749d51b06f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "12c4a6feca47"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f8aeb928e88e"
+              },
+              "content": [
+                {
+                  "text": "Aktivní napojení na SMS bránu (nadstandardní placená funkcionalita – zajišťuje tým podpory STAPRO)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "afd9d257cd9e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0eb93b09b9f2"
+              },
+              "content": [
+                {
+                  "text": "Vyplněné mobilní číslo pacienta v kartě pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e94f11679f1b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "201462bb68d4"
+              },
+              "content": [
+                {
+                  "text": "Vytvořená šablona notifikace pro daný typ zprávy",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "37b70e812dc6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fef7bac7c7ed"
+              },
+              "content": [
+                {
+                  "text": "Aktivovaná notifikace v nastavení daného kalendáře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "00d5fd4a5b08"
+      },
+      "content": [
+        {
+          "text": "Související stránky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d287a12fd2b8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cdd653add4f7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d707bca521e"
+              },
+              "content": [
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "localId": "13f91559ade1",
+                    "url": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/54427649"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

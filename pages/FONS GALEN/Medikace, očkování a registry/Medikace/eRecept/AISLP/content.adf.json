@@ -1,0 +1,311 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V modulu Medikace mohou nově uživatelé, kteří mají k dispozici aplikaci AISLP, zobrazit informace o léku prostřednictvím nového tlačítka \"Zobrazit v AISLP\". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 860,
+            "alt": "image-20250721-103035.png",
+            "id": "6d74afa5-2d18-4102-a2f2-721adbb8ac36",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 155
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 243,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 243,
+            "alt": "image-20250721-103044.png",
+            "id": "52755cf9-3240-4e5d-af9f-143af156b589",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 406
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Postup konfigurace funkcionality je následující:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V konfiguraci společnosti – cesta k instalaci AISLP. Stejná pro všechny stanice. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 516,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 516,
+            "alt": "image-20250721-103110.png",
+            "id": "1b072649-ce65-4c95-ae1f-55c3009a754f",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 616
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V konfiguraci uživatele – povolit přístup k AISLP. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 835,
+            "alt": "image-20250721-103134.png",
+            "id": "562aa5a9-6d37-4fa3-94d2-e9c5e8f7ef39",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 475
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud bude oboje nastavené, uživateli se v modulu Medikace zobrazí tlačítko pro otevření AISLP. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Informace o léku lze z AISLP získávat také nad číselníkem medikací pomocí výběru ve sloupci AISLP. Zde je možné zobrazit v jednom kroku výstup pro několik vybraných položek. Další položky lze vyhledávat standardním způsobem a ve sloupci následně položky podle příznaku „AISLP“ seřadit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 893,
+            "alt": "image-20250721-103157.png",
+            "id": "26c1721e-e457-42b2-bdd9-64f532a25f34",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 474
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "AISLP v dlaždicovém zobrazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Následující popis odpovídá použití uživatelského nastavení dlaždicového zobrazení (není zatržen parametr “Zobrazovat seznamy v řádkovém zobrazení”) viz obr.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 642,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 642,
+            "alt": "image-20250721-103255.png",
+            "id": "45fd5a1d-df38-49d7-b4f7-126df1facdf4",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 340
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Informace o léku lze z AISLP získávat zatržením checkboxu na dlaždici konkrétní položky. Zde je rovněž možné zobrazit v jednom kroku výstup pro několik vybraných položek současně. Další položky lze vyhledávat standardním způsobem a zatržením checkboxu na další položce bude přidána do seznamu pro hromadné vyhledání v AISLP. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 656,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 656,
+            "alt": "image-20250721-103311.png",
+            "id": "44e714f4-dea0-4b6f-9140-e97bd1c6184d",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 343
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po stisku tlačítka “Zobrazit v AISLP” se otevře nabídka, kde má uživatel možnost vybrat, jaké informace se v aplikaci AISLP budou zobrazovat u první vybrané položky ze zvoleného seznamu. Další práce již v této aplikaci probíhá standardním způsobem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 607,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 607,
+            "alt": "image-20250721-103328.png",
+            "id": "8d0e39d3-ccb1-463a-aa17-fbedb304f930",
+            "collection": "contentId-75694190",
+            "type": "file",
+            "height": 319
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

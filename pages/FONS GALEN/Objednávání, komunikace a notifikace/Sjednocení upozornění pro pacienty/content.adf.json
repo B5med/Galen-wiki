@@ -1,0 +1,309 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Všechna upozornění, která jsou vázaná na pacienta, budou nově zobrazena jednotně, v přehledném okně viz. obrázek 1.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Seznam všech možných upozornění, která se můžou v okně vyskytnout, je na konci popisu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pozn.: Upozornění na provedenou akci, například odeslání SMS nebo eReceptu, budou stále zobrazena pomocí vyskakovacího okna v pravém dolním rohu. V dohledné době jim také upravíme vzhled, aby byla výraznější a byla lépe vidět.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 602,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 602,
+            "alt": "image-20250901-083349.png",
+            "id": "a4ff8e94-032d-403d-8875-83ab24ae05e4",
+            "collection": "contentId-107970584",
+            "type": "file",
+            "height": 709
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Obrázek 1 ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upozornění jsou řazena dle abecedy. Každé upozornění, které je možné zpracovat/splnit, a nepřečtené upozornění je označené červenou tečkou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Upozorňovací okno se zobrazí automaticky po otevření pacienta, nebo je možné okno kdykoliv vyvolat po kliku na ikonu vedle jména pacienta, kde je zobrazen počet nezpracovaných upozornění viz obrázek 1, bod 1. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Automatické zobrazení okna po otevření pacienta, je možné nastavit v UI konfigurace na pracovišti zrušit, viz obrázek 2. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 553,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 553,
+            "alt": "image-20250901-083416.png",
+            "id": "7a8cd6d4-29ca-47b3-abd1-3d65872d0cfe",
+            "collection": "contentId-107970584",
+            "type": "file",
+            "height": 668
+          }
+        },
+        {
+          "type": "caption",
+          "content": [
+            {
+              "text": "Obrázek 2",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Seznam možných upozornění, které se objeví v okně:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kontrola na chybné údaje centrálního registru VZP ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Důležité anamnestické údaje (CAVE) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upozornění na promeškané očkování ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upozornění na aktivní nároky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Kontrola na povinné údaje pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Potvrzení správnosti údajů o pacientovi z migrace ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upozornění na změnu trvalých medikací ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Upozornění na výdeje medikací ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,554 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 88,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 88,
+            "alt": "image-20250721-103648.png",
+            "id": "9ea3613e-4553-43f2-9096-734c9447c515",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 96
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Podmodul podávání léčiv je součástí modulu medikace. Do podmodulu podávání léčiv se z medikací můžeme dostat klávesovou zkratkou ALT+P. Podávání léčiv slouží pro záznam podaných medikací Vytvoření podepsaného pdfa dokumentu . Lze zde zaznamenat podané léčivo, jeho sílu a cestu podání. S podáním léčiva zaznamenáváme i údaje o odpovědné osobě za podání, denní dobu i čas podání. Podávání léčiv se dělí na dvě základní části, a to trvalé medikace a jednorázové podání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Trvalé medikace:  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Trvalé medikace zobrazuji trvalé medikace naordinované lékařem pro daný datum. Následují jednotlivé sloupce pro označení podání, základní denní doby, a pro poznámky k podávání. Naordinované trvalé medikace zobrazují přesnou ordinaci lékařem, které nelze v tomto podmodulu měnit.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1086,
+            "alt": "image-20250721-103741.png",
+            "id": "99b39ea1-2e09-4b89-828c-09cae88ba449",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 143
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Označení podání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybereme lék, u kterého chceme podáni označit. Vyplníme čas, pole pro čas je nepovinné.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 805,
+            "alt": "image-20250721-103801.png",
+            "id": "0f761811-9259-445f-b84a-14e3e931fb75",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 248
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybereme odpovědného pracovníka. A potvrdíme.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 798,
+            "alt": "image-20250721-103821.png",
+            "id": "6230711d-e0c8-4fa1-9cc2-6cb051e6b7ef",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 398
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hromadné označení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro hromadné označení klikneme na checkbox vedle denní doby, vybereme pracovníka a potvrdíme. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1017,
+            "alt": "image-20250721-103851.png",
+            "id": "8360bb50-a27c-4462-8711-c7852739d2a9",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 212
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Jednorázové podání:  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro jednorázové podání vybereme tlačítkem + nový záznam. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1085,
+            "alt": "image-20250721-103924.png",
+            "id": "c1d40449-2faf-433c-8859-51d782581721",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 97
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Z číselníku zvolíme vybrané léčivo. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 997,
+            "alt": "image-20250721-103941.png",
+            "id": "0c170cca-34b1-4233-a42b-1c83ac181ac6",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 441
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vyplníme množství. Pole pro čas zůstává nepovinné, stejně jako k trvalé medikace. Potvrdíme podání.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1090,
+            "alt": "image-20250721-104000.png",
+            "id": "73ec1f18-aa39-475d-9c3b-a06d8a2946da",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 324
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Levý sloupec zobrazuje historii záznamů. Pokud je k danému datu již existující záznam, najdeme je ve sloupci. Chceme-li záznam zadat zpětně, můžeme tak učinit výběrem z kalendáře.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 697,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 697,
+            "alt": "image-20250721-104020.png",
+            "id": "ed3fcd00-c5ae-45fd-9b7d-3ec09fda68de",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 385
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Změna uloženého záznamu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud byl zadán záznam s chybnými údaji, můžeme údaje upravit novým záznamem. Původní záznam bude nahrazen novým. Historii úprav si můžeme dohledat v historii změn. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1084,
+            "alt": "image-20250721-104038.png",
+            "id": "641a06a3-307b-434f-aa56-e1a001445995",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 587
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 930,
+            "alt": "image-20250721-104049.png",
+            "id": "271420f3-8f0f-48f4-ac23-f1e227995e65",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 234
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 933,
+            "alt": "image-20250721-104100.png",
+            "id": "0274d550-2c6d-4ad2-96e0-fd011f67377d",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 483
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Napojení na dashboard",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Když se dostaneme ces seznam vyšetření na den na tabulku léky v ordinaci, po kliknutí na vybraného pacienta, se nám zobrazí jeho tabulka pro podávání léčiv. ",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Když ukončíme práci u vybraného pacienta, potvrdíme tlačítkem OK, a vrátíme se do modulu sestavy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1087,
+            "alt": "image-20250721-104120.png",
+            "id": "86c98d91-8423-4d5b-a1c7-f04e4e789ea4",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 502
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přepis podaných léčiv do dekurzu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Záznam o podání / nepodání léčiv se při pořízení záznamu automaticky přenáší do dekurzu. Záznam lze standardním způsobem s dekurzem tisknout nebo archivovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1009,
+            "alt": "image-20250721-104137.png",
+            "id": "c305a080-99fd-4293-90c2-11add4c25752",
+            "collection": "contentId-75104313",
+            "type": "file",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

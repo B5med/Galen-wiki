@@ -1,0 +1,2196 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "76bb7e18-fdb3-47dd-a885-97322ddb1d1f"
+      },
+      "content": [
+        {
+          "text": " Registrace pacienta do Portálu pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "26f7e2aa-c87f-4ecb-acc7-562f0481f147"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "359b3117-9ba0-4463-98a6-eaffeb33e8c4"
+          },
+          "content": [
+            {
+              "text": "Registrace pacienta umožňuje:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "attrs": {
+            "localId": "8f0564aa-f773-4a42-a5c8-bbaccbc5cdd2"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "1b12ceb2-2c1b-4a70-b769-4e1f64faaa25"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7ce0f9b8-ecf7-45a0-a1bd-e75d23b13c42"
+                  },
+                  "content": [
+                    {
+                      "text": "bezpečný přístup pacienta do Portálu pacienta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "1255ab09-0467-44cf-917e-a4fa859a1184"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "623f0076-8aab-478b-8c1a-f1ddaa352aea"
+                  },
+                  "content": [
+                    {
+                      "text": "používání funkcí jako:",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "bulletList",
+                  "attrs": {
+                    "localId": "ec0013a3-a755-4808-afda-c6afd194457c"
+                  },
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "attrs": {
+                        "localId": "1575f610-d48c-44cf-b9d9-b14f74a7465f"
+                      },
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "attrs": {
+                            "localId": "3c37e220-e536-4559-b7b1-0d47070edf7f"
+                          },
+                          "content": [
+                            {
+                              "text": "online objednávání",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "attrs": {
+                        "localId": "66c1b665-9efa-4a2c-8cad-eb6ef36c0a25"
+                      },
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "attrs": {
+                            "localId": "0df8a92a-dfd9-4fc1-89de-98f772d07c9e"
+                          },
+                          "content": [
+                            {
+                              "text": "hlídací pes",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "attrs": {
+                        "localId": "c6e6770e-e503-4ba7-b99a-431f11f13e0c"
+                      },
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "attrs": {
+                            "localId": "6da6f419-ecee-467f-b293-dc597a0855a9"
+                          },
+                          "content": [
+                            {
+                              "text": "požadavky pacienta",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "attrs": {
+                        "localId": "51bbafc6-a3e9-4d9a-a1e8-2fb797542111"
+                      },
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "attrs": {
+                            "localId": "e347019b-605c-489e-9c53-1b37e381fd05"
+                          },
+                          "content": [
+                            {
+                              "text": "přehled objednávek a dokumentů",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d60e90dc-c470-46fb-80e6-f97bc14bf57c"
+      },
+      "content": [
+        {
+          "text": "Registrace je navržena tak, aby:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2ce970b3-970f-4465-9d95-9ebab06fc54c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "39a8f529-d1c8-4a59-af67-08ad75441aa6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "20256c1d-7801-4e8e-ae3b-bd127ebd8249"
+              },
+              "content": [
+                {
+                  "text": "chránila citlivá zdravotní data",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "18c92e91-abbe-48a2-98f6-5b0b7b6958d1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c5f075eb-c0f2-4da7-8067-e7b2b86ad272"
+              },
+              "content": [
+                {
+                  "text": "zabránila registraci cizí osoby pod identitou pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a7dbcdc8-1952-4d97-9fa3-c7dc2e2d40bc"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ab627510-f1ea-4054-b2d5-ad1be4a55fad"
+      },
+      "content": [
+        {
+          "text": "Kdo se může registrovat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "34ef6e28-2087-498b-87e1-5af25ada24f9"
+      },
+      "content": [
+        {
+          "text": "Registrovat se může:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "869c2769-e5a7-44d3-b631-0791aa375b81"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e7a2af10-dfc8-4a6f-b1ef-703aefeaa6d4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f2e1d1a7-7b88-4080-a894-113a149e4695"
+              },
+              "content": [
+                {
+                  "text": "pacient, který ",
+                  "type": "text"
+                },
+                {
+                  "text": "existuje v kartotéce AIS FONS Galen a má vyplněn RID, číslo OP, kontakt a souhlasí s použitím portálu pacienta.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e32e6ee5-898e-4d57-9b0b-7735d9b35112"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f043bca4-cdff-46ba-b450-f90c37405b66"
+              },
+              "content": [
+                {
+                  "text": "pacient, kterému byla ",
+                  "type": "text"
+                },
+                {
+                  "text": "odeslána pozvánka k registraci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "8454c3d2-6d61-43d8-b8df-6f2cfb9bd770"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1ed45632-9fb6-4163-997a-e05c50bf42ae"
+          },
+          "content": [
+            {
+              "text": "Samostatná registrace bez pozvánky ",
+              "type": "text"
+            },
+            {
+              "text": "není možná",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "492de7bc-a1b6-4010-892e-1dc4c43b531a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7cdd78e8-8613-4c70-a2bc-5bb39d9e9f93"
+      },
+      "content": [
+        {
+          "text": "Jak registrace probíhá",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5d821b88-a079-42a3-81dd-e28a47a6217e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3453a162-6069-48d0-8736-e497aefa2bb0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "96f11ed2-8aa0-4b9a-8c87-1556d0619965"
+              },
+              "content": [
+                {
+                  "text": "Ordinace odešle (předá) pacientovi ",
+                  "type": "text"
+                },
+                {
+                  "text": "pozvánku k registraci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a38b9ec1-65c7-4bf4-9635-5bcc5adc10f1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c5216f4-356b-4071-bbd6-3517c8d18c76"
+              },
+              "content": [
+                {
+                  "text": "Pacient obdrží:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "655a7878-9e37-424f-aca9-e9ddcb24f019"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "eb74795e-c474-4779-9ce8-c4df5fc05366"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9653de7b-71c6-4058-a6f5-c5f587b5ee86"
+                      },
+                      "content": [
+                        {
+                          "text": "registrační kód",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "f0e63de3-c3d3-4172-a522-30355f9578af"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "aa144a75-aab6-459a-8770-efb9665390c2"
+                      },
+                      "content": [
+                        {
+                          "text": "odkaz / QR kód",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f858c2ab-5b40-47aa-aeba-d9b93ec69232"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "451c566a-0774-4db2-abac-870fdfc9420f"
+              },
+              "content": [
+                {
+                  "text": "Pacient zadá kód do Portálu pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "27ce74ee-2233-450e-a301-5c6dd1d60f64"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f1833bbf-2b25-46b0-9d8e-b4b8c778dc58"
+              },
+              "content": [
+                {
+                  "text": "Proběhne ověření identity",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "30ce265d-7553-43b4-b0f7-b01fcadca993"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "879087f4-04db-4ed9-a2eb-f94147d68ffe"
+              },
+              "content": [
+                {
+                  "text": "Pacient si nastaví přístupové údaje",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cd569d22-3956-4568-a939-77bfacf49003"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8234d87f-f838-46a2-bddb-ccad89879242"
+              },
+              "content": [
+                {
+                  "text": "Registrace je dokončena",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a5504d1-fbef-47c1-9d7b-e5d8fa5cfc17"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f4e1af46-08d4-42df-bbab-16f47db0c7b4"
+      },
+      "content": [
+        {
+          "text": "Po úspěšné registraci:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a7499851-58a4-4d5c-9197-7e9119dda2fa"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dafacbc9-8ec7-409a-a979-a30fa8f1e7b7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "637e95fb-783c-42c0-8733-b41f85210192"
+              },
+              "content": [
+                {
+                  "text": "má pacient okamžitý přístup k funkcím",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "307b69ed-cf04-4c6c-abaa-0bfa704a6b6e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d354c3f0-5afe-48d1-ae23-9ba9c47bc309"
+              },
+              "content": [
+                {
+                  "text": "vidí své údaje, objednávky a požadavky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "9708c49d-430f-450e-98bf-482de2bade51"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b6909740-336f-4901-ad83-8fc3ffea9425"
+      },
+      "content": [
+        {
+          "text": "Odeslání pozvánky k registraci (pohled ordinace)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ef7ca7ca-786a-4c36-b806-5170a80cdf2c"
+      },
+      "content": [
+        {
+          "text": "Kdy pozvánku poslat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "664087fb-bd9a-4ce3-9fc4-923337841b9d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7d3abeb4-6905-4e8c-a0ea-0c4113cd327e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "81283a0e-ddb5-4745-a13f-a5412a115473"
+              },
+              "content": [
+                {
+                  "text": "při první návštěvě pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cfee44ee-3744-4699-9162-5bd0a1552115"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6cfc8adf-170c-4a6b-8803-a65f90db4866"
+              },
+              "content": [
+                {
+                  "text": "při telefonickém kontaktu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dd088bf7-c197-4a20-a891-2653c1dfecad"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b167cf4-20a9-4304-9ec0-744fced1cd43"
+              },
+              "content": [
+                {
+                  "text": "při osobní žádosti pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2ea20269-c399-4e63-87af-617246b64d2b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "66d2ec5a-16d2-4cce-9828-fbcacc6b5332"
+      },
+      "content": [
+        {
+          "text": "Jak pozvánku odeslat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "94d3e498-87d0-43b5-a8d6-7f7fbe2b32f4"
+      },
+      "content": [
+        {
+          "text": "V AIS FONS Galen v kartě pacienta:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "cddf9ee8-2742-4759-b2dc-56cb43328878"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "741c9405-7e17-4138-bc58-e7ced9d88627"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0cf16457-32ba-4d02-8216-6c04e86667f1"
+              },
+              "content": [
+                {
+                  "text": "zvolit ",
+                  "type": "text"
+                },
+                {
+                  "text": "Odeslat pozvánku do Portálu pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "49f16000-a547-4cf1-ae32-e679b4843fdf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fc1669d6-2da7-49ba-9557-c932ce65050e"
+              },
+              "content": [
+                {
+                  "text": "vybrat způsob odeslání:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "ff628372-ca4e-40f5-980f-f52c77318212"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "26193c0e-0069-46ed-896c-9540af19da44"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "64c6160f-2ea6-4f55-9743-c720c80ce6ec"
+                      },
+                      "content": [
+                        {
+                          "text": "SMS",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "ae0b11ac-6072-4ca3-9917-7403f4c390fd"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "182197f2-8f1a-4e29-81d7-c6d8fb53e77e"
+                      },
+                      "content": [
+                        {
+                          "text": "e-mail",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "db2285f7-e8e0-4911-8836-062febcec7bb"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "cd51e3ad-73ca-4c68-86e1-61f04954cc6f"
+                      },
+                      "content": [
+                        {
+                          "text": "tisk (QR kód)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9adefaf1-5abb-4560-a94f-7ca8bb6aafd5"
+      },
+      "content": [
+        {
+          "text": "Po odeslání:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c2000f6d-69e3-44a5-9a1a-70065311ca01"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86e70150-6d16-4f8e-9201-80bd2f9dab7b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d88a4d02-daa5-4947-a041-7493226f7c30"
+              },
+              "content": [
+                {
+                  "text": "stav pacienta se změní na ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Pozván do Portálu pacienta“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "bf715fa8-c8ea-4aca-a879-3c0ef745745a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "34b52e97-d642-4eef-b4b1-39c052b3a150"
+      },
+      "content": [
+        {
+          "text": "Stav registrace pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "61c2e833-cb89-4e3e-a9a9-b48c56983db0"
+      },
+      "content": [
+        {
+          "text": "Každý pacient má evidovaný stav registrace:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "40481814-e89e-4378-80b2-8e422525da46"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f89a2870-75c4-4133-bb06-73a761180fe1"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "62611508-939d-4024-b90a-7db9a7036821"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f2dd88a2-7b0c-4899-86a8-ca96366707b2"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c09efc08-ff3f-44f9-b4ef-c244ec5ddfa4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "99f59d6b-9304-4b37-8860-6c264113579e"
+                  },
+                  "content": [
+                    {
+                      "text": "Význam",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d59226d9-49cd-4eea-bf7b-a5edda3bf9d1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "359ce239-1d5c-4c15-8e51-acaeb0fb8427"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "294ef839-1cf2-4cab-bbf8-edbbef9dd739"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozván",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1be58f4e-7be3-4f5f-a5ac-2f900fc3103b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "37cbe1b5-fd49-4032-bd95-2c80f1670396"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozvánka byla odeslána",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "744d6a83-75fa-4f41-ad58-2b745b87cd25"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "00346354-010f-4ec4-b221-6c39563094bb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4876297e-d371-4ade-ae68-641a84080cb4"
+                  },
+                  "content": [
+                    {
+                      "text": "Opětovná pozvánka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c6be6010-1336-4a7b-96a7-90581bc4c068"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "41e0be49-3cdf-49f1-a9ee-6c19176235b7"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozvánka byla odeslána znovu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1e932887-5ab1-4736-b1c3-158e5fa6efe7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6e494886-dffe-42ca-adff-d8d4a37dddf7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2f15a91f-761c-4b30-8f08-19bac131f03f"
+                  },
+                  "content": [
+                    {
+                      "text": "Zahájena registrace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0a4a0414-82a6-402d-95c8-755f6ce20fcb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "30b8f898-9694-49f3-9f55-ba9f599790a5"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient zadal registrační kód",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "652f8c66-5764-416a-a489-a448c3187698"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1ed4abee-8d1c-4216-9c62-61136c5aede8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bcb69603-e004-4f39-a799-5b656a9e1576"
+                  },
+                  "content": [
+                    {
+                      "text": "Dokončená registrace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8a31b03e-aa49-4df2-84e2-4c361eef688d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33d3ec39-11a3-43d5-b5af-75c04591c128"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient je plně registrován",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4477db9b-33f3-46dd-92c3-dd565daa5077"
+      },
+      "content": [
+        {
+          "text": "Tyto stavy jsou ",
+          "type": "text"
+        },
+        {
+          "text": "viditelné v kartě pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "df8643bc-08ed-45d3-ac80-771f0bbb2ab7"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c82d5a63-678c-453b-bbed-b91385593258"
+      },
+      "content": [
+        {
+          "text": "Opětovné zaslání pozvánky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1a63464-b6fa-4740-83b2-513371a68364"
+      },
+      "content": [
+        {
+          "text": "Pozvánku lze odeslat znovu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "07a62c5a-ce47-47ae-af41-a66dcd00309a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "777cf2b2-c2a2-4cfd-aa5f-089fac44fae0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7e2a4c1e-ed77-4bb3-9bef-19f8de6323d8"
+              },
+              "content": [
+                {
+                  "text": "pokud pacient kód ztratil",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f28beee7-1800-4e14-933c-ce4ddf58e7bc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2e26eb41-c44e-46af-b650-834ded5b4a06"
+              },
+              "content": [
+                {
+                  "text": "pokud vypršela jeho platnost",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "752eb591-0fb6-4933-bfe8-8891a7a15290"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a9618e30-c311-4b4c-8db8-4e48e3031ea3"
+              },
+              "content": [
+                {
+                  "text": "pokud se pacient neregistroval včas",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cac57df5-ec1f-4d70-908b-366856b8ea8c"
+      },
+      "content": [
+        {
+          "text": "Opětovné odeslání:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e0ff8823-0b41-4ea9-aca9-840178ffb362"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1983092-ba86-417f-8f1b-f66b82a05f28"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1040853d-9d3d-4c92-9d1b-aa04fa0c4988"
+              },
+              "content": [
+                {
+                  "text": "nevyžaduje mazání pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "57ec5f6a-73f2-4e2b-b3cd-8e9c985837c3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "591cbc83-9473-4a64-ae49-53b6e9dfa881"
+              },
+              "content": [
+                {
+                  "text": "nezakládá duplicitní účet",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d1a77f67-6d25-4266-a1f9-021cf5f5c75d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b172b18d-ea2d-452d-96e3-20052446da5d"
+      },
+      "content": [
+        {
+          "text": "Bezpečnost registrace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "51115ea8-9022-4b4d-becb-99758d486377"
+      },
+      "content": [
+        {
+          "text": "Registrace je chráněna:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "59871815-612c-4a1c-8490-dddf5ceea0f1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "45a2a07e-9b2f-47ba-8a0a-6b6ac14dea26"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d812e935-88ec-4aed-bb1a-b03a0291fc1b"
+              },
+              "content": [
+                {
+                  "text": "jednorázovým registračním kódem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c1d237f1-5870-4449-92b2-66930d6db27e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f5bc669b-f292-44f1-933e-afe9314be9f7"
+              },
+              "content": [
+                {
+                  "text": "časovou platností kódu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "76ea5633-a0c0-401e-a210-d58b155a4ca2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cbf7ff5a-c0a9-47dd-8e33-27a4fdd81da0"
+              },
+              "content": [
+                {
+                  "text": "ověřením údajů pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4c619ff9-fc3e-4a46-97cd-1dfb22556882"
+      },
+      "content": [
+        {
+          "text": "To zajišťuje, že:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "acee276f-3a59-442a-b21b-c19990c36465"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5c9d29b4-adad-4dc6-a57e-3e03d8aa9bd4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e3fd3f50-6640-41d8-aa9f-cc2ce688eb79"
+              },
+              "content": [
+                {
+                  "text": "cizí osoba se nemůže zaregistrovat",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7cc0baf-4f7e-4eda-89df-06e8ee367262"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fad4cbdf-880b-4690-aea9-ff33a3d4f063"
+              },
+              "content": [
+                {
+                  "text": "zdravotní data jsou chráněna",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "ee5c7044-ed04-443d-a38e-e5efb9250c5a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8bc90b7e-03e3-4d03-a872-9941d8b92e4f"
+      },
+      "content": [
+        {
+          "text": "Co registrace neumožňuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "17c5c17b-f860-4d95-9399-2b2260180fc5"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "29739577-3de2-40d6-852b-78b07ee4d944"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "146fcb60-1f32-43fa-9eed-c73058d2184f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a4865c1e-a90f-4ac7-a7a3-c2c611054c2f"
+                  },
+                  "content": [
+                    {
+                      "text": "Omezení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "90c1cb5b-3542-45eb-a0d1-b40469b775a6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "93cf9575-ae22-4c1a-8453-f9a20f8e3b09"
+                  },
+                  "content": [
+                    {
+                      "text": "Důvod",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "56a6fdf8-90be-448e-9fbf-bbddf1ae2a67"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9a3f1f65-1cdd-410d-911d-b3d5e1ced78a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50eb65f9-0a22-49db-a7b8-f8e424e9f949"
+                  },
+                  "content": [
+                    {
+                      "text": "Registrace bez pozvánky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0f3781c5-c95c-471e-a2ab-cf476c6356c2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f96475b8-d206-42e5-8809-0587d04064c5"
+                  },
+                  "content": [
+                    {
+                      "text": "Bezpečnost",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "197e167d-5e76-4cdc-85e6-00c3dafd5ad1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1b0d670a-500f-4b6b-a17e-39b47895e0e5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9eb67682-d542-40d4-8c28-aeb7840366bb"
+                  },
+                  "content": [
+                    {
+                      "text": "Více účtů na jednoho pacienta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d25f3b2d-aeb9-45bf-85cc-2a23aac52cc8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "56947d6b-8f91-4539-9df5-9c8e23a0faaa"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehlednost",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f5602d20-3681-4459-9c16-a47e7d8dd92b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9d57316b-931a-49bb-9823-f7c698133045"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "73c1b6ef-7c24-4337-ae4f-1798a2261732"
+                  },
+                  "content": [
+                    {
+                      "text": "Přístup k jiným pacientům",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ced87cb1-48bb-4b98-9e4d-28267724c58f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "df625c99-68da-42a7-bb5c-f85ff5a8ba09"
+                  },
+                  "content": [
+                    {
+                      "text": "Ochrana dat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f32eef77-a2fa-477b-be0b-2e4f70beb658"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8c260cf2-9fef-44cb-88ed-ea5e6e61cbc0"
+      },
+      "content": [
+        {
+          "text": "Nejčastější problémy a jejich řešení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6957f2ef-35b0-4957-8944-118cd8b84946"
+      },
+      "content": [
+        {
+          "text": "Pacient se nemůže registrovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6ed342a0-8919-4ee0-b63e-8987dd0f920a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fc0f5a2c-3d0b-4642-ac5b-b5ea4d96af42"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a9f0c2b-2c4b-48fb-b788-aad56db31666"
+              },
+              "content": [
+                {
+                  "text": "pozvánka vypršela → poslat znovu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "33561b0f-7767-4e58-b507-b953f52850a4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e5906221-86fe-4656-8c24-6561ad879235"
+              },
+              "content": [
+                {
+                  "text": "špatně zadaný kód → ověřit",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "513c4f05-d5ea-4b69-b087-cb08f9420b9e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0255a955-3fac-4e63-b2d4-06bef259e056"
+              },
+              "content": [
+                {
+                  "text": "pacient není v kartotéce → založit pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "10d71612-2dbf-4a64-9caa-4802426692dc"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "99d51afc-6d95-4bb6-a081-05dfe4744a78"
+      },
+      "content": [
+        {
+          "text": "Pacient tvrdí, že pozvánka nepřišla",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f4eb6dfc-309e-4216-b98c-8b8378f72e0b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "96219242-e5d6-4158-8eda-3aab4d28a446"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a2d08610-ca43-4d83-8f05-6f9a5880de1b"
+              },
+              "content": [
+                {
+                  "text": "zkontrolovat telefon / e-mail",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9550d654-dc5a-4c18-861f-e97828257bf7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8076a908-a334-4729-8d1f-f7716d554953"
+              },
+              "content": [
+                {
+                  "text": "ověřit správnost kontaktu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1bbe0c50-8cb0-4c63-86da-a09e0abcfa76"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2662377a-9250-4f91-977f-935a25792427"
+              },
+              "content": [
+                {
+                  "text": "použít jiný způsob (QR kód)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "93ebc68a-a283-4874-8390-b05c81196fd6"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9a1b2cb5-b29d-4922-bc8c-04a1c338fbbc"
+      },
+      "content": [
+        {
+          "text": "Doporučení pro ordinace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "21c2b242-520c-46c8-8832-a6d82f824080"
+      },
+      "content": [
+        {
+          "text": "✔️ Nabízejte registraci při osobní návštěvě",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Vysvětlete pacientovi výhody Portálu",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Používejte QR kód při registraci na místě",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "✔️ Kontrolujte stav registrace v kartě pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e1e1d09e-7c36-4760-8df1-5f32e211e4a0"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "83e69eaf-2b75-442d-b39a-8152575f43ae"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1152f293-584d-4577-a27f-ec0f3c716a25"
+          },
+          "content": [
+            {
+              "text": "Registrace pacienta:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "attrs": {
+            "localId": "839e7499-9bf6-4627-921f-81103d6eb14b"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "922407cc-93b7-497b-a55c-0fd40871f912"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "14afbf3c-5ba5-445e-b7e2-a8005f33de9b"
+                  },
+                  "content": [
+                    {
+                      "text": "je nutným krokem pro plné využití Portálu pacienta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "d60a3577-7045-49f1-911e-e2baa888e07c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "df62bbbf-43a1-417c-a962-0fec22ac9ada"
+                  },
+                  "content": [
+                    {
+                      "text": "chrání citlivá data",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "6b762d2e-e0d5-4f28-ba44-c2dde640b861"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cf8e9ed5-fa40-47f6-81c8-c71152045f71"
+                  },
+                  "content": [
+                    {
+                      "text": "je řízena ordinací",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "fd5f9539-c9e3-410e-a91f-b006e0ad6b7b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "14d0af72-4806-45c0-9838-964596427250"
+                  },
+                  "content": [
+                    {
+                      "text": "je jednoduchá při správném vysvětlení pacientovi",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

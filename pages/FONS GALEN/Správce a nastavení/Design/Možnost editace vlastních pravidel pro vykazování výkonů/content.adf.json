@@ -1,0 +1,1766 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "7de6f402-95c1-4747-831d-aedde4fec050"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "8df9da4f-b413-492d-b6a0-0a0966c56041"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c85b1e3e97b"
+      },
+      "content": [
+        {
+          "text": "Rozšíření modulu Design o záložku Pravidla uživatelům umožňuje",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "• Vytvářet vlastní pravidla pro vykazování výkonů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1386,
+            "alt": "image-20250627-085637.png",
+            "id": "45634a1c-d83b-4ec5-87bb-25dfbbf6d73b",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "21c3053a2bf0",
+            "height": 248
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "9f3ae421f299"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e9b1a1e573f7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "28bed17e9317"
+              },
+              "content": [
+                {
+                  "text": "Neuplatňovat pro společnost pravidla, která jsou zadávána ze strany správců FONS Galen",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0f057f0bd46a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5bf9adca8021"
+              },
+              "content": [
+                {
+                  "text": "Vytvářet pravidla, která",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "340049ac67ba"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "51f6821db860"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "20ef3052b47b"
+                      },
+                      "content": [
+                        {
+                          "text": "omezují frekvenci vykazování výkonů",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "mediaSingle",
+                      "attrs": {
+                        "layout": "center",
+                        "width": 712,
+                        "widthType": "pixel"
+                      },
+                      "content": [
+                        {
+                          "type": "media",
+                          "attrs": {
+                            "width": 849,
+                            "alt": "image-20250627-085724.png",
+                            "id": "779aa551-18b0-4f49-b8f7-246e748c4158",
+                            "collection": "contentId-57999370",
+                            "type": "file",
+                            "localId": "9a962926cb83",
+                            "height": 179
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "6ad611bcc8fb"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6a35947428a2"
+                      },
+                      "content": [
+                        {
+                          "text": "zakazují vykázat kombinaci výkonů",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "a42baaaf5f25"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "f6fdd4b7267b"
+                      },
+                      "content": [
+                        {
+                          "text": "zakazují vykázat výkon za určité podmínky",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "fff3558a57e1"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "ba09752926a1"
+                      },
+                      "content": [
+                        {
+                          "text": "definují svázané výkony",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b9eb29c91471"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a4b60e25c80"
+              },
+              "content": [
+                {
+                  "text": "Pravidla vytvořená správcem společnosti je možné uplatnit na",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "12ba933405fe"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "0d9e46bf9b5f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "74cdbdfa140b"
+                      },
+                      "content": [
+                        {
+                          "text": "Celou společnost",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "e470cbe76d2e"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9dac1872c715"
+                      },
+                      "content": [
+                        {
+                          "text": "Vybranou podřízenou společnost",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "9a1b59d0e158"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "856bf429f8d4"
+                      },
+                      "content": [
+                        {
+                          "text": "Vybrané IČZ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "63ddfd06c678"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6f331d72fb5d"
+                      },
+                      "content": [
+                        {
+                          "text": "Vybrané IČP",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "0fd2058b3faa"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "fb8e675f4a48"
+                      },
+                      "content": [
+                        {
+                          "text": "Vybranou odbornost",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8283ba63f6f6"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "cf08f050febe"
+                      },
+                      "content": [
+                        {
+                          "text": "Vybranou pojišťovnu",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 436,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 436,
+            "alt": "image-20250627-085911.png",
+            "id": "6e8a98e5-a941-486f-a83e-497cb7a6c967",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "3f55cfa99f61",
+            "height": 373
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a7be50b20043"
+      },
+      "content": [
+        {
+          "text": "Popis pravidel",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ce2ad490ed0"
+      },
+      "content": [
+        {
+          "text": "Všechny typy pravidel mají společný základ, konkrétně se jedná o tato pole",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1384,
+            "alt": "image-20250627-085930.png",
+            "id": "22e1912e-a44e-4af3-b80f-95dc3af58012",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "734a3a93a82b",
+            "height": 213
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9a0292614de4"
+      },
+      "content": [
+        {
+          "text": "Zveřejnit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ead4296da5b5"
+      },
+      "content": [
+        {
+          "text": "Slouží pro zveřejnění pravidla pro uživatele. Dokud není pravidlo zveřejněno, je dostupné pouze jako testovací definice, kterou si uživatel aktivuje v konfiguraci ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 54,
+            "alt": "image-20250627-090003.png",
+            "id": "cf8d9148-a4ef-4a05-ba31-9ffdf21656ad",
+            "collection": "contentId-57999370",
+            "type": "image",
+            "localId": "db4186d89d2b",
+            "height": 48
+          }
+        },
+        {
+          "text": " zatržením položky „Načítat testovací definice“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 800,
+            "alt": "image-20250627-090040.png",
+            "id": "98c5a532-4361-4df8-b2ae-9e8e73f05258",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "f48f1ad4f5a1",
+            "height": 101
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d54cad79282"
+      },
+      "content": [
+        {
+          "text": "Tímto způsobem uživatel otestuje nastavení pravidla před tím, než jej publikuje všem uživatelům společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0cf94aaa64f2"
+      },
+      "content": [
+        {
+          "text": "Historie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f307171b21f3"
+      },
+      "content": [
+        {
+          "text": "Uživatel má možnost se vrátit k předcházející publikované definici.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d6686ca48d66"
+      },
+      "content": [
+        {
+          "text": "Definice",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dce19a89548b"
+      },
+      "content": [
+        {
+          "text": "Zobrazí definici ve formátu xml. Tímto způsobem, pokud je to pro uživatele přívětivější, může pravidlo také definovat. Uživatel však musí dodržovat pravidla syntaxe xml. Zde definované pravidlo podporuje pouze ty vlastnosti, které je možné definovat v uživatelském rozhraní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ec15055c4157"
+      },
+      "content": [
+        {
+          "text": "OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5afc5be2b598"
+      },
+      "content": [
+        {
+          "text": "Tlačítko ukládá práci a opouští detail pravidla. Pravidlo se tímto tlačítkem nezveřejňuje, pouze ukládá.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2f98fd6826c1"
+      },
+      "content": [
+        {
+          "text": "Uložit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d07bb3592646"
+      },
+      "content": [
+        {
+          "text": "Umožňuje průběžné uložení rozpracovaného pravidla. Pravidlo se tímto tlačítkem nezveřejňuje, pouze ukládá.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "db18e74ff01e"
+      },
+      "content": [
+        {
+          "text": "Zpět",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7bd7521dfa6c"
+      },
+      "content": [
+        {
+          "text": "Opouští detail pravidla bez uložení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1a857ad37112"
+      },
+      "content": [
+        {
+          "text": "Aktivní",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "024f9069f1e5"
+      },
+      "content": [
+        {
+          "text": "Určuje dostupnost publikovaného nebo testovacího pravidla pro uživatele. Při deaktivaci zvažte, zda je potřeba pravidlo deaktivovat, nebo pouze ukončit jeho platnost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce09dd25f339"
+      },
+      "content": [
+        {
+          "text": "Název",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "afdfd629fe97"
+      },
+      "content": [
+        {
+          "text": "Uživatelsky definovaný název pravidla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6cc19f62313c"
+      },
+      "content": [
+        {
+          "text": "Verze",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "db88d4c0205b"
+      },
+      "content": [
+        {
+          "text": "Zobrazuje pořadí verze.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c1c6a7614c67"
+      },
+      "content": [
+        {
+          "text": "Typ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7207182f4cfc"
+      },
+      "content": [
+        {
+          "text": "Vychází z uživatelem definovaného typu pravidla. Typ není možné změnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cf034a312008"
+      },
+      "content": [
+        {
+          "text": "Hláška",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživatelem specifikovaný vysvětlující text pro ostatní uživatele, který se zobrazuje v editoru výkonů pod tlačítkem",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 71,
+            "alt": "image-20250627-090316.png",
+            "id": "00a6c84a-bcf1-4aa1-9acf-60df2391b9f1",
+            "collection": "contentId-57999370",
+            "type": "image",
+            "localId": "51a8a7bedf04",
+            "height": 74
+          }
+        },
+        {
+          "text": " .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cfaaa1c7b4e3"
+      },
+      "content": [
+        {
+          "text": "Omezit pro odbornost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2ce0ae9c028e"
+      },
+      "content": [
+        {
+          "text": "Je možné nastavit podmínku pravidla, aby bylo uplatňováno pouze při vykazování na konkrétní odbornosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2eea7e2b9fd"
+      },
+      "content": [
+        {
+          "text": "Podmínka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6855f596959b"
+      },
+      "content": [
+        {
+          "text": "Umožňuje definovat podmínku, která bude platit pro všechna uvedená pravidla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c21a13bad85f"
+      },
+      "content": [
+        {
+          "text": "Frekvenční omezení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "533cc1678e64"
+      },
+      "content": [
+        {
+          "text": "Frekvenční omezení definují, kolikrát za časové období je možné výkon vykázat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "67a3990058be"
+      },
+      "content": [
+        {
+          "text": "Základní definice",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "184ea11d328e"
+      },
+      "content": [
+        {
+          "text": "Základní definice pravidla říká, kolikrát za časové období je možné výkon vykázat. Např. výkon 01543 je možné vykázat pouze jednou za den. Překročení takto definovaného pravidla je tvrdou chybou, tzn. aplikace nedovolí uživateli frekvenci překročit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 902,
+            "alt": "image-20250627-095151.png",
+            "id": "d3b9263b-b96e-4474-8526-f0efae48d12f",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "63921926207a",
+            "height": 90
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "ea7a56a8f9a8"
+      },
+      "content": [
+        {
+          "text": "Přerušení péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67d4ee162ef5"
+      },
+      "content": [
+        {
+          "text": "V případě zaškrtnutí checkboxu „Přerušení péče“ probíhá kontrola nejen na počet výkonů za dané časové období, ale také na to, zda byla v daném období přerušena péče, tzn. zda nebyl v definovaném rozsahu (IČP, IČZ, podřízená společnost, společnost) vykázán jiný výkon.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 906,
+            "alt": "image-20250627-095228.png",
+            "id": "6c22c170-0f2b-437f-acb7-ab7024b937f6",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "1b4c3552065b",
+            "height": 96
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "afd68e7e5059"
+      },
+      "content": [
+        {
+          "text": "V případě takto definované podmínky bude možné výkon vykázat pouze jednou za 2 roky v případě, že byla přerušena péče, tzn. nebyl za poslední 2 roky vykázán jiný výkon.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "4bb9dfef46b8"
+      },
+      "content": [
+        {
+          "text": "Definice s podmínkou",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "68ff5e16a02f"
+      },
+      "content": [
+        {
+          "text": "Definice s podmínkou specifikuje, za kterých podmínek je možné výkon v daném počtu vykázat. Např. výkon 15119 je možné u pacienta ve věku 50-55 let vykázat jednou ročně, u pacienta ve věku nad 55 let je možné výkon vykázat jednou za dva roky. Překročení takto definovaného pravidla je tvrdou chybou, tzn. aplikace nedovolí uživateli frekvenci překročit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 979,
+            "alt": "image-20250627-095313.png",
+            "id": "4061572f-3acd-419a-915f-5ccc4f6f32e9",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "f101d4dc6fbe",
+            "height": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "596b31329fad"
+      },
+      "content": [
+        {
+          "text": "Rozšíření vybraného základního pravidla",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9e21f4c986ef"
+      },
+      "content": [
+        {
+          "text": "Jeden výkon může mít v základním pravidle definován frekvenční omezení, které může být za určité podmínky překročeno. Např. výkon 09113 lze vykázat pouze 1x za den, ale v případě pacientů s respirační insuficiencí před indikací DDOT lze vykázat 6x za den. Při překročení pravidla, které má definovaný tzv. speciální typ, se bude jednat o měkkou chybu. Uživatel bude na překročení frekvence upozorněn, ale systém mu umožní překročenou frekvenci vykazovaného výkonu uložit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 849,
+            "alt": "image-20250627-095339.png",
+            "id": "a6ae7fb6-c4b1-4e9d-8ad3-8c162a5dc48e",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "5368f07ced4e",
+            "height": 179
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "77e3b302c536"
+      },
+      "content": [
+        {
+          "text": "Při vykazování výkonu bude uživatel upozorněn, ale pokud volbu potvrdí, systém mu umožní uložit výkon v počtu 8.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 625,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 625,
+            "alt": "image-20250627-095401.png",
+            "id": "203c4421-073e-4cff-af4e-91d9ea5972eb",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "7e0cb599aba2",
+            "height": 196
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e272ebea7950"
+      },
+      "content": [
+        {
+          "text": "Svázané výkony",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1bcad46f515a"
+      },
+      "content": [
+        {
+          "text": "Svázané výkony definují výkon, který je nutné vykázat v případě vykázání jiného výkonu. Svázané výkony je možné zadat ve dvou režimech.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "58bf6fb56748"
+      },
+      "content": [
+        {
+          "text": "Definice právě jednoho doplňovaného výkonu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4e3cd5afe939"
+      },
+      "content": [
+        {
+          "text": "V případě, že je ve sloupci „Doplňované výkony“ zadán právě jeden výkon, je tento výkon automaticky na pozadí (v případě, že je nasmlouván) vykázán v případě, že je uživatelem vykázán hledaný výkon.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 283,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 283,
+            "alt": "image-20250627-095523.png",
+            "id": "faf8159e-9977-4a88-a6c0-dbaa5433752e",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "3b059a3b2ab2",
+            "height": 119
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5fb747f89553"
+      },
+      "content": [
+        {
+          "text": "Definice více doplňovaných výkonů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3767fbffaeca"
+      },
+      "content": [
+        {
+          "text": "V případě, že je ve sloupci „Doplňované výkony“ zadáno více výkonů, není žádný z uvedených, v případě vykázání hledaného výkonu, vykázán automaticky, ale uživatel je vyzván k výběru jednoho z doplňovaných výkonů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 284,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 284,
+            "alt": "image-20250627-095554.png",
+            "id": "b6b3ad44-cc34-443d-8da0-62e7c5f0b41a",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "80970feda77c",
+            "height": 114
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1362,
+            "alt": "image-20250627-095600.png",
+            "id": "70254d5d-de46-4781-8d87-e2332cbd37de",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "bc8597cce0f9",
+            "height": 346
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ce4525decd80"
+      },
+      "content": [
+        {
+          "text": "Svázané výkony vykazované z vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8aac4296a7d1"
+      },
+      "content": [
+        {
+          "text": "V definici svázaných výkonů, které se vykazují z vyšetření, je možné zadat podmínky, za kterých bude svázaný výkon vykázán.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0cbbad5d95ed"
+      },
+      "content": [
+        {
+          "text": "Nepovolené kombinace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "471498bbf0d1"
+      },
+      "content": [
+        {
+          "text": "Nepovolené kombinace definují kombinace výkonů, které nemohou být zároveň vykázány.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "55b603f9379e"
+      },
+      "content": [
+        {
+          "text": "Definice hlavního výkonu a výkonů, které je možné vykázat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02521a890190"
+      },
+      "content": [
+        {
+          "text": "Hlavní výkon definuje podmínku, kdy v případě, že je v daném časovém období daný výkon vykázán, tak je dále v časovém období možné vykázat pouze výkony dále definované.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 347,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 347,
+            "alt": "image-20250721-083801.png",
+            "id": "12c04cc9-e618-4dcf-8837-699a5b8b9106",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "c661ca88bba7",
+            "height": 63
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d331e34bfe36"
+      },
+      "content": [
+        {
+          "text": "Např. pokud je v jeden den vykázán výkon 01022, tak ten stejný dej je možné vykázat pouze výkon 01543. Žádný jiný výkon vykázat nelze.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "161c64ab78d2"
+      },
+      "content": [
+        {
+          "text": "Definice výkonů, které nelze společně vykázat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dc7fd37ef54e"
+      },
+      "content": [
+        {
+          "text": "Pokud není definován hlavní výkon, funguje pravidlo jinak, než je uvedeno výše. Pokud jsou definovány pouze výkony bez výkonu hlavního, funguje pravidlo tak, že v daný časový úsek není možné zde uvedené výkony vykázat současně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 369,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 369,
+            "alt": "image-20250721-083837.png",
+            "id": "67f7817e-9f5c-4d39-8e78-5179a35076c4",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "3f9504e6ed94",
+            "height": 52
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "10516a48d024"
+      },
+      "content": [
+        {
+          "text": "Např. Pokud je vykázán výkon 01022, tak v ten samý den nelze vykázat výkon 01023, a opačně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "60904873ea86"
+      },
+      "content": [
+        {
+          "text": "Podmínka ",
+          "type": "text"
+        },
+        {
+          "text": "Shoda diagnóz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 699,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 699,
+            "alt": "image-20260309-125056.png",
+            "id": "bab2a7a1-0eaf-4b72-b3ad-fb78dc8e32c8",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "63d298c0fd6a",
+            "height": 117
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f774d32cb34c"
+      },
+      "content": [
+        {
+          "text": "Při zadání výkonů, které nelze společně vykázat, je možné definovat, zda se mají při spuštění pravidla kontrolovat diagnózy zadané u jednotlivých výkonů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bf85a3aed2ff"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "41a06e292b40"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "648119ae3029"
+              },
+              "content": [
+                {
+                  "text": "Nekontrolovat ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "- výkony nebude možné v rámci definovaného období společně vykázat",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "328b12af-d033-4341-ab51-1ec6c67efcc0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "77dcf52b1cdd"
+              },
+              "content": [
+                {
+                  "text": "Hlavní diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, mají-li výkony shodnou hlavní diagnózu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "70aca80a-a71f-4610-81f6-708ab6c8bc9e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f3be2c736fce"
+              },
+              "content": [
+                {
+                  "text": "Řádková diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, mají-li výkony shodnou řádkovou diagnózu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ccd4a4c3-8e95-4cf3-a818-0a8aaa9039d1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8206328bc724"
+              },
+              "content": [
+                {
+                  "text": "Hlavní nebo řádková diagnóza",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kombinace je zakázaná, shoduje-li se hlavní nebo řádková diagnóza",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "642fb55b27ea"
+      },
+      "content": [
+        {
+          "text": "Zakázat výkony",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cdb1fdb4d3cc"
+      },
+      "content": [
+        {
+          "text": "Pravidlo typu ",
+          "type": "text"
+        },
+        {
+          "text": "Zakázat výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " definuje podmínky, za kterých nesmí být určitý výkon vykázán. Např. je možné nastavit pravidlo, aby nebylo možné u odbornosti 002 vykázat výkon preventivní prohlídky u neregistrovaného pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8fedae59b267"
+      },
+      "content": [
+        {
+          "text": "Kombinace výkonu a diagnózy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2985f8c30490"
+      },
+      "content": [
+        {
+          "text": "Pravidlo typu ",
+          "type": "text"
+        },
+        {
+          "text": "Kombinace výkonu a diagnózy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje definovat povolené a nepovolené kombinace výkonů a diagnóz. Pro tento typ pravidla lze definovat množinu povolených a nepovolených kombinaci pro výkon.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2c195a703f2"
+      },
+      "content": [
+        {
+          "text": "Pro přidání nové kombinaci se definuje výkon, pro nej pak povolené diagnózy (může být víc než jedna), nebo nepovolené diagnózy (může být víc než jedna). Pro výkon nelze současně definovat povolené i nepovolené diagnózy. Záleží tak na tom, zda je jednodušší vypsat množinu Diagnóz, které mohou být vykázané, nebo naopak množinu pouze zakázaných.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 484,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 484,
+            "alt": "image-20250721-084008.png",
+            "id": "9c59d41f-7c62-46a3-b6e1-e18e42d2f690",
+            "collection": "contentId-57999370",
+            "type": "file",
+            "localId": "490d9688dd02",
+            "height": 127
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4a8765f30997"
+      },
+      "content": [
+        {
+          "text": "Pokud byla definice pravidla vytvořena pouze s jednou povolenou diagnózou pak je při pořizování výkonu tato diagnóza automaticky doplněna. Pokud byla definice pravidla vytvořena s množinou diagnóz a pokud pak je při pořizování výkonu zadáno více diagnóz pak je otevřeno upozornění, že může být při pořizování výkonu zadána pouze některá z uvedených diagnóz.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c8462efcd7a8"
+      }
+    }
+  ],
+  "version": 1
+}

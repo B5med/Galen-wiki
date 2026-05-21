@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+<meta charset="utf-8"/>
+<title>API: Pacient</title>
+<link href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/65994755" rel="canonical"/>
+<link href="../../../_assets/confluence.css" rel="stylesheet"/>
+</head>
+<body>
+<header><h1>API: Pacient</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/65994755">Source</a> · version 1 · updated 2025-07-08T14:27:58.885Z</small></p></header>
+<main>
+<div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Toto API slouží pro správu základních údajů o pacientech. Umožňuje načítat, zakládat a upravovat kartu pacienta na základě čísla pojištěnce nebo ID pacienta.</p></div></div><h3 id="API:Pacient-Obecnéinformace">Obecné informace</h3><p><strong>Formát data narození:</strong><br/><code>ddMMyyyy</code> (např. <code>08102005</code>)</p><p><strong>Pohlaví:</strong></p><ul><li><p><code>Muz</code></p></li><li><p><code>Zena</code></p></li><li><p><code>Neuvedeno</code></p></li></ul><p><strong>DruhPojištění (DruhPojisteni):</strong><br/>Typ pojištění, obvykle:</p><ul><li><p><code>1</code> – veřejné</p></li><li><p><code>2</code> – komerční</p></li><li><p><code>3</code> – samoplátce</p></li></ul><p><strong>Pojišťovna:</strong><br/>Kód pojišťovny – např.</p><ul><li><p><code>111</code> – VZP</p></li><li><p><code>201</code>, <code>205</code>, ... dle seznamu pojišťoven</p></li><li><p><code>999</code> – samoplátce</p></li></ul><p><strong>Stát:</strong><br/>Dle mezinárodních kódů: <code>CZ</code>, <code>SK</code>, <code>DE</code>, <code>UA</code>, …</p><hr/><h3 id="API:Pacient-POST/api/Pacient/Pacient">POST <code>/api/Pacient/Pacient</code></h3><p><strong>Popis:</strong><br/>Založí novou kartu pacienta.</p><p><strong>Tělo požadavku (JSON):</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{
+  "CisloPojistence": "string",
+  "Prijmeni": "string",
+  "Jmeno": "string",
+  "TitulPred": "string",
+  "TitulZa": "string",
+  "DatumNarozeni": "string",
+  "Pohlavi": "string",
+  "DruhPojisteni": "string",
+  "Pojistovna": "string",
+  "Stat": "string",
+  "RodnePrijmeni": "string",
+  "ObcanskyPrukaz": "string",
+  "HesloProKomunikaci": "string"
+}</pre>
+</div></div><p><strong>Validace:</strong></p><ul><li><p>Povinná pole: <code>CisloPojistence</code>, <code>Prijmeni</code>, <code>Jmeno</code>, <code>DatumNarozeni</code>, <code>Pohlavi</code>, <code>Pojistovna</code>, <code>Stat</code></p></li><li><p><code>CisloPojistence</code>: rodné číslo bez lomítka (např. <code>"0510087336"</code>)</p></li><li><p><code>DatumNarozeni</code>: formát <code>ddMMyyyy</code></p></li><li><p><code>Pohlavi</code>: <code>"Muz"</code>, <code>"Zena"</code>, <code>"Neuvedeno"</code></p></li></ul><p><strong>Kódy odpovědi:</strong></p><ul><li><p><code>200 OK</code> – pacient úspěšně založen</p></li><li><p><code>400 Bad Request</code> – chyba ve vstupních datech</p></li><li><p><code>401 Unauthorized</code> – přístup zamítnut</p></li></ul><p></p><h3 id="API:Pacient-GET/api/Pacient/Pacient?CisloPojistence={cislo}">GET <code>/api/Pacient/Pacient?CisloPojistence={cislo}</code></h3><p><strong>Popis:</strong><br/>Vrací údaje o pacientovi podle zadaného čísla pojištěnce.</p><p><strong>Parametry:</strong></p><ul><li><p><code>CisloPojistence</code> (string) – rodné číslo bez lomítka</p></li></ul><p><strong>Model odpovědi:</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{
+  "ID": 0,
+  "CisloPojistence": "string",
+  "Prijmeni": "string",
+  "Jmeno": "string",
+  "TitulPred": "string",
+  "TitulZa": "string",
+  "DatumNarozeni": "string",
+  "Pohlavi": "string",
+  "DruhPojisteni": "string",
+  "Pojistovna": "string",
+  "Stat": "string",
+  "RodnePrijmeni": "string",
+  "ObcanskyPrukaz": "string",
+  "HesloProKomunikaci": "string"
+}</pre>
+</div></div><h2 id="API:Pacient-Kódyodpovědi:"><strong>Kódy odpovědi:</strong></h2><ul><li><p><code>200 OK</code> – pacient nalezen</p></li><li><p><code>400 Bad Request</code> – chybné parametry</p></li><li><p><code>401 Unauthorized</code> – přístup zamítnut</p></li></ul><h3 id="API:Pacient-PUT/api/Pacient/Pacient/{Id}">PUT <code>/api/Pacient/Pacient/{Id}</code></h3><p><strong>Popis:</strong><br/>Aktualizuje údaje pacienta podle ID.</p><p><strong>Parametry:</strong></p><ul><li><p><code>Id</code> (integer) – ID pacienta</p></li></ul><p><strong>Tělo požadavku:</strong><br/>Stejné jako u POST.</p><p><strong>Kódy odpovědi:</strong></p><ul><li><p><code>200 OK</code> – aktualizace proběhla úspěšně</p></li><li><p><code>400 Bad Request</code> – chyba ve vstupních datech</p></li><li><p><code>401 Unauthorized</code> – přístup zamítnut</p></li></ul>
+</main>
+</body>
+</html>

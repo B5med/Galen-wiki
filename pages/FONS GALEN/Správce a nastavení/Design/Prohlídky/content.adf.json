@@ -1,0 +1,4065 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "de8c00eb-77ab-4036-81e4-d4391b1a7055"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "11c5b7f8-a87c-4d8d-ba86-b831245506db"
+      }
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-062338.png",
+            "id": "fba4b638-f71f-4204-a882-f75c78c04a13",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "ee3aedbc-964a-4344-85b8-7c148b87b3fd",
+            "height": 126
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5f8d9888-0381-4f10-a260-05b0b3c4d096"
+      },
+      "content": [
+        {
+          "text": "Nástroj pro definování prohlídek a vyšetření, které se nabízí u konkrétního pacienta na liště v dolní části obrazovky Prohlídky a vyšetření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 283,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 283,
+            "alt": "image-20250619-062355.png",
+            "id": "2b001d8a-c3af-4c7c-992b-e53c4412e439",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "220aa640-f6a1-4c58-ad71-7d79e9fa0ceb",
+            "height": 75
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "454de9ca-59f7-43d6-9e2f-fe2e711e1acc"
+      },
+      "content": [
+        {
+          "text": "Změna spočívá mj. v tom, že uživatel nyní vidí prohlídky definované ze strany Stapro, které může",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "268b3469-1da2-4238-90c9-2999e8cf493b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6da084d6-17e9-4c4d-98c0-6ad90cdbfa92"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9f62d70e-f377-4507-b2f9-792f69dfcffd"
+              },
+              "content": [
+                {
+                  "text": "pro uživatele své společnosti zakázat",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "88b3f15d-c634-42f7-924c-7e732c452162"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0be55d66-ec58-4324-a800-9caf60747d48"
+              },
+              "content": [
+                {
+                  "text": "kopírovat do uživatelské definice prohlídky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f5a518f1-bf5c-4acb-8e55-956cacaf680d"
+      },
+      "content": [
+        {
+          "text": "Pokud má prohlídka příznak Uživatelské=Ano, pak byla prohlídka vytvořena správcem dané společnosti a tento správce může prohlídku libovolně modifikovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "97701b88-ace6-4f1b-bd7b-7897504d889c"
+      },
+      "content": [
+        {
+          "text": "Pokud má prohlídka příznak Uživatelské=Ne, pak byla prohlídka vytvořena správcem FONS Galen. Takovou prohlídku správce společnosti nemůže měnit, ale může ji zakázat pro uživatele své společnosti, nebo z ní může vytvořit kopii, kterou již bude mít možnost měnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "87fa8a7b-46a5-455a-88de-d79c24441856"
+      },
+      "content": [
+        {
+          "text": "Funkční tlačítka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8f77bb76-b3eb-42ce-9a95-456e321cb87e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6bf3958e-2101-4d03-b9dc-993fef25dd7f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "400e3ccf-8229-44cb-a24d-06145106b4da"
+              },
+              "content": [
+                {
+                  "text": "Zveřejnit",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "b3b8b1b3-7c4b-445d-ad0e-757054eba42e"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "ccce7d89-68a7-4ea8-97b4-eb31ff8e60ca"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "a8c59c49-7ffa-445a-8c73-6c5bc164bdd1"
+                      },
+                      "content": [
+                        {
+                          "text": "slouží ke zveřejnění prohlídky uživatelům dané společnosti",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "cb90783e-c3a3-477a-b66e-e7dc9295f974"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "1c1cb15a-f58e-4a3a-90af-69cbcfbde963"
+                      },
+                      "content": [
+                        {
+                          "text": "Prohlídky pracují stejně jako formuláře s testovacími definicemi. Ve chvíli, kdy uživatel vytváří vyšetření, které ještě nemá být dostupné uživatelům, prohlídku nezveřejňuje. Prohlídka je dostupná pouze po zaškrtnutí checkboxu „Načítat testovací definice“ po kliku na ikonu ",
+                          "type": "text"
+                        },
+                        {
+                          "type": "mediaInline",
+                          "attrs": {
+                            "width": 23,
+                            "alt": "image-20250619-062547.png",
+                            "id": "5ad6a26e-600a-4303-bd0f-4cda2676174d",
+                            "collection": "contentId-50102315",
+                            "type": "image",
+                            "localId": "f51473ab-fb22-4896-87b6-16b316c1f747",
+                            "height": 21
+                          }
+                        },
+                        {
+                          "text": "v záložce Design.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e1b0c75d-83c8-4a6b-b530-2595cf5ab199"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "faa8a1f0-44f4-4f83-836b-10a6f3dc3218"
+              },
+              "content": [
+                {
+                  "text": "Historie",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "fec4824a-c727-4b7b-91a6-fd9dd88e112c"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "35de5afd-e6cf-4648-98ab-791d048e468f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "e57cb021-f0a1-4d79-a90c-b5f02c84c1c0"
+                      },
+                      "content": [
+                        {
+                          "text": "zobrazuje audit změn provedených v definici prohlídky s možností se k dané verzi prohlídky vrátit",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9c5b5873-dbb2-4c80-aa1b-d92bec220691"
+      },
+      "content": [
+        {
+          "text": "Položky definice prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 194,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 194,
+            "alt": "image-20250619-062706.png",
+            "id": "f0434ee1-6f86-419b-a32d-4f52f3d86d21",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "61b617e8-e3db-4a55-8f01-52b09b16657c",
+            "height": 203
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4d0d5b6a-7d42-4f3d-b953-3c5843e927e6"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "da7d252d-9795-42b9-ab43-cc516bbfb0c0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6205f9a9-7d1f-4afd-a4cf-39ec68af7b1c"
+              },
+              "content": [
+                {
+                  "text": "Aktivní",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "a75131af-f994-489e-8159-48d982526de0"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "11363539-ab2b-4c97-a250-8923035aab15"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "61577801-10e8-4071-a0d5-4b28740b171b"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud se prohlídka nemá uživatelům zobrazovat, je potřeba ji označit jako neaktivní",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "e546c11d-5240-4983-bce3-7cf18fa05a6a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "c7314ed2-1915-4a0d-95a2-c3e96e456629"
+                      },
+                      "content": [
+                        {
+                          "text": "prohlídku se nedoporučuje mazat, protože by tím byly smazány všechny již vytvořené prohlídky u pacientů",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ebc12363-dabe-41c3-9a7b-741ece3c4381"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2a5e90bd-0043-4646-9932-e0b092a2fc13"
+              },
+              "content": [
+                {
+                  "text": "Název",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "08383c5e-4364-4873-9fd7-40099ce4812b"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b7fe5902-ef58-4a23-ac51-29d32599383f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "e36426ad-76a2-4dfe-8789-d981d0a6780e"
+                      },
+                      "content": [
+                        {
+                          "text": "název prohlídky, který se zobrazuje uživatelům",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d0af0470-e9b0-4c81-a7a2-ed4794c1636f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f3110a7d-4be2-4419-8fde-343d4183f509"
+              },
+              "content": [
+                {
+                  "text": "Verze",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "05981617-aa6a-4c94-822f-bf39c76b7e94"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "458fcdf4-696e-473e-bd76-17ba8039ebf1"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "0d633950-1890-4f7a-96f8-17e0069d0ae2"
+                      },
+                      "content": [
+                        {
+                          "text": "pořadí právě zobrazené verze prohlídky",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9f7df3a5-d1be-4a7f-872d-8ea58f94e369"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c86ffd7d-2654-4421-b746-9782531b9bd0"
+              },
+              "content": [
+                {
+                  "text": "Doplněk názvu",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "8532a424-839d-4612-9084-69c8492f2c5f"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "d4e77070-4a4d-49e0-be93-5738c277febd"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "82e8641a-4544-41fa-bff9-d71cd7122705"
+                      },
+                      "content": [
+                        {
+                          "text": "odkaz na položku z prohlídky, jejíž hodnota se má zobrazit v seznamu prohlídek pod názvem prohlídky",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "889344e9-d49d-49c4-8fa3-ef1fc9d271b6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8290476b-ee38-41a2-905f-3ea772e2426c"
+              },
+              "content": [
+                {
+                  "text": "Interval (dny)",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "49e90862-7d0c-453c-be09-b0c679ba9428"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c137784c-8705-468c-b021-1e9b26728a80"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "5450ecda-3f58-401b-97ac-b0993a6772b4"
+                      },
+                      "content": [
+                        {
+                          "text": "je možné zadat interval ve dnech mezi jednotlivými vyšetřeními",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "fca4f076-7ec6-4fa3-9365-1a6638f13a80"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "3064d42c-3932-4600-9a2a-f83e19c83005"
+                      },
+                      "content": [
+                        {
+                          "text": "např. u preventivní prohlídky je interval 730 dní, a pokud tento interval neuplyne, uživateli není povoleno toto vyšetření zadat",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3fdd01d9-c8fa-4a8f-87ab-ff44e3c32345"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a0416e22-99ea-4250-938d-493d59221e60"
+              },
+              "content": [
+                {
+                  "text": "Věk od (dny)",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "6fe08b1e-8c49-4d9c-9105-9bbf788ad7c3"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b1f355b6-9542-49a3-949f-96b78bd6c91e"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "bb6e2288-ead7-40a6-b783-c00119d6ea8c"
+                      },
+                      "content": [
+                        {
+                          "text": "prohlídku je možné uskutečnit v minimálním věku, který je uveden ve dnech, např. prohlídka v 6 měsících věku je definována ve věku 180 dní",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8e484d5f-c218-4b3f-91fe-54d20b47719f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "38ade323-616b-4bac-a658-8914527c2a8e"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je potřeba přepočítat věk prohlídky ve dnech u prohlídky, která je definovaná obvykle v letech, pak je potřeba počet let násobit 365,25 a zaokrouhlit na celé číslo nahoru (prohlídka v 15 letech bude mít definovaný počet dnů 5479)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "ae7ef5a6-89da-4fbd-9ade-995c58325d84"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "005f88ed-434b-4264-9b69-ed53b7c18efd"
+                      },
+                      "content": [
+                        {
+                          "text": "v návaznosti na použité bloky prohlídky je nutné definovat věk přesně",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b1aea36b-e966-4104-b0cf-5758ac359728"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "79a9684f-53dc-4782-a0a4-42a39a4d960b"
+              },
+              "content": [
+                {
+                  "text": "Věk do (dny)",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "5d91ca99-a01b-4e8b-b164-31c12e871495"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "063238c7-f829-4108-b908-e6dc659b707e"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "0e6cdb0c-073f-49e5-9bc0-938cf42e1114"
+                      },
+                      "content": [
+                        {
+                          "text": "podobně jako Věk od (dny) definuje věk pacienta ve dnech, do kdy nejpozději je možné pacientovi prohlídku vytvořit",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "549422ef-e649-43b7-b30f-10a16ca22c2a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6ecb014e-52eb-4bd8-b4d5-55372f3016ff"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je potřeba přepočítat věk prohlídky ve dnech u prohlídky, která je definovaná obvykle v letech, pak je potřeba počet let násobit 365,25 a zaokrouhlit na celé číslo dolů (prohlídka v 15 letech bude mít uveden věk do 6209 dní)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "961c9be3-9db4-4437-b64b-5750bfcb03b7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e00d5a06-3898-4cdd-8ed5-32d399299a53"
+              },
+              "content": [
+                {
+                  "text": "Tolerance věku (dny)",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "10e127f0-2d3a-4bc5-b2c1-fe3b97703fad"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "7ff294e9-b0de-40d3-b094-e9e917958dfd"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "2ac1a9c6-cc82-4dd2-81ac-99c6757cc5d4"
+                      },
+                      "content": [
+                        {
+                          "text": "Určuje, o kolik dní před dosažením věku nebo po překročení stanoveného věku, je možné vytvořit pacientovi prohlídku.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f0cd60b7-5bdd-4c1f-9e0d-6c09aed28d0f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8a0b095b-8f98-4df7-96b7-172e94e5ba85"
+              },
+              "content": [
+                {
+                  "text": "Omezit pro odbornost",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "9eacbfee-d4e3-48bf-97ef-8b575c2a6d8a"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "23826713-4d7d-4025-96f0-e2f6f426bb16"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6d15e524-ba93-4431-ba1e-8f7071a28a82"
+                      },
+                      "content": [
+                        {
+                          "text": "pro jakou odbornost je daný formulář zpřístupněn",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c6ca3bc5-d3f7-4c96-b356-0e91383508ee"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "790fc2fd-88ff-4ae2-ab4b-957140e3d263"
+              },
+              "content": [
+                {
+                  "text": "Nezobrazovat v dekurzu",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "4e74f516-3f65-4a56-89cf-c7bacedf1913"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "2c24e7be-3ce6-408a-9d0a-efad4899031c"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "f12e3fe0-9509-40c7-bdf0-d878cc8ff6c8"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je zapnuta, není náhled na prohlídku zobrazován v dekurzu",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250619-063051.png",
+            "id": "0f96412b-cdb6-4d31-8676-5fb2a0a3bfc3",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "0ae0c840-e098-403f-8531-c82edffad304",
+            "height": 56
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d89fe943-082d-44b3-a35b-70f4ce8a3ef8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "14adbcb2-600c-45d3-ab98-afeb9231289c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ffa6ac0d-9531-49f6-b5c9-22a18d84bead"
+              },
+              "content": [
+                {
+                  "text": "Datum bez času",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "bfacbab7-0bdc-4561-9974-98313a63d8ce"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "33abfb2d-b655-4022-a914-0cc0e12a44c1"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "1a859edf-c24b-408c-8720-267130ef76da"
+                      },
+                      "content": [
+                        {
+                          "text": "do tisku prohlídky se generuje datum a čas návštěvy, který je uveden v horní části prohlídky",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a587b0b1-b242-437e-a366-822b17a425d6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6c7a5023-379c-4732-ab8e-4ac59890ad69"
+              },
+              "content": [
+                {
+                  "text": "v případě, že je checkbox zaškrtnut, tak se do tisku bude generovat pouze datum bez uvedeného času",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "363aeba7-00de-409b-9cee-a4e187ad24b2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d2c6eeb-f8aa-4ec3-b01a-c37f6185cfd1"
+              },
+              "content": [
+                {
+                  "text": "Anamnéza, Trvalé medikace, Trvalé diagnózy",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "9c333130-0d59-4cc6-9598-e335f500ea31"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "282ebe43-534e-47c7-a928-7cb9b8007615"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "430558f3-1635-4922-be45-bac61459a337"
+                      },
+                      "content": [
+                        {
+                          "text": "je možné definovat, zda se mají údaje uvedené v těchto kolonkách zobrazovat ve vyšetření a dále generovat do tisku",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a4004c2a-00d1-4436-be30-019c5eafa993"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4b8dd810-5ad5-43c9-a3dc-47a6f8fe6bbe"
+              },
+              "content": [
+                {
+                  "text": "Následná prohlídka",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "aafabfd9-8f0d-4174-9831-5f5d9051660d"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b6a780f3-5dc9-4701-a64f-fe47c262fb1e"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6a074f91-8045-47fc-8861-af8faaccadb5"
+                      },
+                      "content": [
+                        {
+                          "text": "uživatel vybere prohlídku, která na právě definovanou prohlídku navazuje (např. na preventivní prohlídku ve věku 6 měsíců navazuje preventivní prohlídka ve věku 8 měsíců)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7702a394-30b6-4527-9008-768aaa9cf0d6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8c0f13c5-1248-48f7-a0c3-bfe4323ae0a2"
+              },
+              "content": [
+                {
+                  "text": "Přebírat vyšetření",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "18c57cf0-b243-4e6c-a169-9a13934a251a"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "289a1acf-0f76-427f-9341-27a5a6e4255d"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "7745781e-65b6-4cef-bd18-4d0e0af40e5a"
+                      },
+                      "content": [
+                        {
+                          "text": "v samotném vyšetření se zobrazuje tlačítko Převzít ",
+                          "type": "text"
+                        },
+                        {
+                          "type": "mediaInline",
+                          "attrs": {
+                            "width": 49,
+                            "alt": "image-20250619-063204.png",
+                            "id": "f07f63cf-2a66-49c8-89cf-e0efe5a02c96",
+                            "collection": "contentId-50102315",
+                            "type": "image",
+                            "localId": "cdde6e45-d702-4a57-bb6c-1bcefc1f01cb",
+                            "height": 35
+                          }
+                        },
+                        {
+                          "text": " ,které dovoluje převzít údaje z předchozího vyšetření",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8c2f2bae-b487-4b15-9974-3f5d40655d77"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "4e863c36-5f19-4892-9e28-a3566e70f011"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je daná kolonka nevyplněna, přebírají se údaje ze stejného vyšetření",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f5fd49b8-0bd5-4fbe-9989-f41c09bddb81"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9b339959-e72e-416a-b418-8951e8402bff"
+              },
+              "content": [
+                {
+                  "text": "Počet pro přebrání",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "91c6897b-59d6-48f1-a6b0-78ec651af8d6"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "5d083e26-dde3-4b65-ab09-884097fb2f05"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "f31bebc2-030c-4810-b4d8-9726f82dc1ca"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je nastaven počet 1, přebírají se údaje z posledního vyšetření",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "f22de462-58cf-4985-b5ab-7dddcda6920b"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "c22e4c77-04c1-424c-8b4b-08fbc23eda78"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je počet větší než jedna, má uživatel na výběr, ze kterého vyšetření chce údaje přebrat",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d8271f95-79d0-45dc-91d4-3ffdcadebc7f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f56da2bf-8bbb-4cf4-ae8f-e82ae30a9e13"
+              },
+              "content": [
+                {
+                  "text": "Navazující formuláře",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "2a095eb4-8362-48f1-a692-44f095b1b6a5"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "32e3b564-79f6-4742-9af9-b327785671f5"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "e743fe93-c93d-4b27-835e-13928480857b"
+                      },
+                      "content": [
+                        {
+                          "text": "pokud je definován alespoň jeden navazující formulář, zobrazuje se ve vyšetření tlačítko ",
+                          "type": "text"
+                        },
+                        {
+                          "type": "mediaInline",
+                          "attrs": {
+                            "width": 109,
+                            "alt": "image-20250619-063302.png",
+                            "id": "275b3dd9-e503-4422-8020-4dd53224341c",
+                            "collection": "contentId-50102315",
+                            "type": "image",
+                            "localId": "5e697b5a-0bce-4c29-9eaa-7d56e938072a",
+                            "height": 24
+                          }
+                        },
+                        {
+                          "text": ", po jehož stisku se uživateli otevře formulář, kam jsou přeneseny informace zadané do vyšetření (formulář, co kterého se údaje přenáší, uživatel vybírá ze seznamu již existujících formulářů)",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "bulletList",
+                      "attrs": {
+                        "localId": "4ea41f34-d922-408a-82fd-5292feb985bf"
+                      },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "b8acb9be-fb71-4082-99b5-3aff30a5f33a"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "a9f9ae8f-4216-4428-8213-c44e14dd1b39"
+                              },
+                              "content": [
+                                {
+                                  "text": "položky vyšetření a formuláře jsou propojeny na základě uživatelem definované xsl transformace, která je blíže popsána v kapitole ",
+                                  "type": "text"
+                                },
+                                {
+                                  "text": "XSL transformace",
+                                  "type": "text",
+                                  "marks": [
+                                    {
+                                      "type": "link",
+                                      "attrs": {
+                                        "href": "#"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9fba221c-556e-4d99-9611-5ad405cedc06"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4cde3d91-24d1-4d44-a5ea-ef09f0b8e52f"
+              },
+              "content": [
+                {
+                  "text": "Šablona fyz. nález",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "4db4fc68-e47c-4de7-a11d-e201a5e77959"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8be84534-3470-4a35-b20b-c3271915eb1a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "adc2445b-b099-4334-8c3a-2d41691d8ce7"
+                      },
+                      "content": [
+                        {
+                          "text": "vedle tlačítka Převzít může být ve vyšetření tlačítko ",
+                          "type": "text"
+                        },
+                        {
+                          "type": "mediaInline",
+                          "attrs": {
+                            "width": 99,
+                            "alt": "image-20250619-063435.png",
+                            "id": "7c2d1c7b-6095-4deb-9150-b59ba8a2be94",
+                            "collection": "contentId-50102315",
+                            "type": "image",
+                            "localId": "8f0ead3f-eb1d-4892-94bd-eb25a43eaa51",
+                            "height": 30
+                          }
+                        },
+                        {
+                          "text": " ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "91d0c00f-ecc7-4a05-8d79-ab5e1dbc6ed0"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "a81c963a-b422-458c-be72-f7d8f713000f"
+                      },
+                      "content": [
+                        {
+                          "text": "stisknutím tohoto tlačítka se do vyšetření doplní hodnoty, které jsou předdefinované jako fyziologické",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c4a0fc90-fe47-4342-9ac8-774e47e8abf0"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "2c5bc6e3-df77-42d2-a496-9301c85bb095"
+                      },
+                      "content": [
+                        {
+                          "text": "tyto hodnoty se definují v modulu Design po stisknutí tlačítka Upravit",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "25e860bc-33fd-4dd1-92fb-d426f886cdb5"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "79c067e7-95a7-45e0-a2a2-35157b710f8c"
+                      },
+                      "content": [
+                        {
+                          "text": "následně je potřeba vybrat libovolného pacienta (fyziologický nález je definován pro všechny pacienty stejně, vyšetření u tohoto pacienta nebude vytvořené) do vyšetření zadat údaje, které definují fyziologický nález – definice pracuje s kódy položek bloků a jejich hodnotami",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c1067434-6c16-40e4-842a-8f5cdf5dc434"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "a83721dc-337d-4919-910b-0d109bdf629f"
+                      },
+                      "content": [
+                        {
+                          "text": "Např. ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "<VYZ H=\"1\" N=\"přiměřená\" /><KUZ H=\"1\" N=\"normální nález\" /><OKO H=\"1\" N=\"normální nález\" /><BAR H=\"1\" N=\"fyziologický\" /><VISP H=\"1\" N=\"normální nález\" /><VISL H=\"1\" N=\"normální nález\" /><SLCH H=\"1\" N=\"normální nález\" /><REC H=\"1\" N=\"řeč a hlas bez odchylek\" /><ZUB H=\"1\" N=\"chrup sanován\" /><NDU H=\"1\" N=\"normální\" /><KON H=\"1\" N=\"normální nález\" /><PER H=\"1\" N=\"fyziologický nález\" /><PAT H=\"1\" N=\"fyziologický nález\" /><DRZ H=\"1\" N=\"normální nález\" /><LYM H=\"1\" N=\"nezvětšeny\" /><KAR H=\"1\" N=\"souměrné, bez šelestu\" /><STI H=\"1\" N=\"fyziologický nález, struma nezjištěna\" /><HRU H=\"1\" N=\"fyziologický nález\" /><BRI H=\"1\" N=\"fyziologický nález\" /><EKG H=\"1\" N=\"normální nález\" /><PRS H=\"1\" N=\"normální nález\" /><MOC H=\"1\" N=\"normální nález\" /><RCT H=\"1\" N=\"fyziologický nález\" /><HEM H=\"1\" N=\"negativní\" /><SOC H=\"1\" N=\"normální\" /><POS H=\"1\" N=\"žádné\" /><CZS H=\"1\" N=\"stav velmi dobrý\" />",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "code"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2d1149f3-b8c6-49b7-a64c-d90174aeb3c0"
+      },
+      "content": [
+        {
+          "text": "Položky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a2a39605-269b-41b9-884b-fa6faf79b1e4"
+      },
+      "content": [
+        {
+          "text": "V dolní části okna se definují samotné položky vyšetření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "97dc878c-1654-4f1a-b01c-77706ebdd589"
+      },
+      "content": [
+        {
+          "text": "Každé vyšetření se skládá z tzv. bloků. Každý blok obsahuje alespoň jednu položku. Každé vyšetření obsahuje alespoň jeden blok (a proto nelze smazat blok v případě, že je zadefinován pouze jeden).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 325,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 325,
+            "alt": "image-20250619-063616.png",
+            "id": "533001e4-c670-4a0b-b2bc-d9d4c41501f3",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "3a202eca-c64a-4dc7-a93d-b887d550e1b3",
+            "height": 82
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4655ffea-b2b1-41f2-85db-7c581ff1ad0f"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "266312d6-3f11-400d-a65f-8261e10f542c"
+      },
+      "content": [
+        {
+          "text": "Název bloku se v daném vyšetření zobrazuje zvýrazněný modře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 140,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 140,
+            "alt": "image-20250619-063639.png",
+            "id": "4fc4e0dd-8ded-4b25-a972-d9de137deb9d",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "ac61cc16-3049-42f4-87a0-a2b20f6504d3",
+            "height": 27
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "61d27864-b07c-4a23-a4bd-6a8648038a6e"
+      },
+      "content": [
+        {
+          "text": "Do definice vyšetření je možné přidat prázdný blok s jednou položkou pomocí tlačítka „Přidat položku“. Pomocí tlačítka Přidat blok je možné přidat celý již dříve definovaný blok.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "37da4332-e18c-4f25-9a84-822c5284c8e3"
+      },
+      "content": [
+        {
+          "text": "Po výběru konkrétního bloku má uživatel dvě možnosti jeho vložení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 286,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 286,
+            "alt": "image-20250619-063658.png",
+            "id": "87106844-246c-4739-99d2-7fa4325c8231",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "b3e63f0f-b6ca-44f4-862b-37ba492d6b32",
+            "height": 26
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e19ff2f4-09d8-451a-bdf8-581fe34f4982"
+      },
+      "content": [
+        {
+          "text": "Pokud je blok přidán jako odkaz na původní blok, pak přidaný blok není možné měnit. Pokud uživatel přidá blok jako editovatelnou kopii, může blok do vyšetření vložit a následně jej upravovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c638af39-bd9e-414e-a62d-ba44d6097c11"
+      },
+      "content": [
+        {
+          "text": "Na úrovni bloku je také možné definovat měření, které je potřeba do vyšetření zadat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c5ef6fad-e281-4900-8f45-88be6fa6e833"
+      },
+      "content": [
+        {
+          "text": "V definici bloku je možné určit jeho",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3b0efd9a-44ec-4deb-9e07-cb429dd025b2"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ef7ca1d1-4738-4d7c-abd8-eb72526ff0ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f5ce5cff-2034-4e0a-97c9-ca37bd895c56"
+              },
+              "content": [
+                {
+                  "text": "Název",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "54039a2a-c7ab-461f-a73c-60484ba41650"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "01013b2a-e2ab-4e65-9a2c-f029730cb945"
+              },
+              "content": [
+                {
+                  "text": "Typ zobrazení  ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "eee587e9-a8e9-401b-875b-998c8eb98fb5"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "127117f4-15fc-48df-a58e-40512d906d7f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "f064c8fd-7470-4095-af4c-064e085c1ca3"
+                      },
+                      "content": [
+                        {
+                          "text": "Row (textová pole v řádku)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "59d21291-b952-4e3a-b663-3d51ac657144"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "bd25b29d-6d07-43bb-8922-211db421d51f"
+                      },
+                      "content": [
+                        {
+                          "text": "CheckBoxPanel (panel checkboxů, který je oddělen od ostatních bloků horizontální čarou)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "69aaf263-6e70-4861-aa35-e69b9b31cf4a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "6b4e2be9-d0c6-4e5e-8171-558d49293fb1"
+                      },
+                      "content": [
+                        {
+                          "text": "Separator (je zadán před a za blok, který má být zobrazen pouze za daných podmínek",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "ef851861-8dd7-4cab-b387-167d16fcf76e"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "c8118b3e-35d2-4719-b76b-05d88ebd2647"
+                      },
+                      "content": [
+                        {
+                          "text": "DatePanel (panel položek typu datum, data se řadí horizontálně)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0a8c9664-30b8-4a6c-a894-cb8b6afa5380"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d1a48bf-50c7-486d-9236-b4b1c621aac6"
+              },
+              "content": [
+                {
+                  "text": "Omezit pro - obě pravidla je možné vzájemně kombinovat",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "5c43fcf0-8ab5-42cf-acac-750ba6fd5878"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "f0da453e-55da-4b86-a50d-04709b5e3e58"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "888c0e32-e6fc-48f2-af49-475fd0e62d0f"
+                      },
+                      "content": [
+                        {
+                          "text": "Věk - blok se zobrazí pouze u pacienta, jehož věk spadá od definovaného rozmezí",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "d6c2ef76-6209-4df5-9bea-71b1336d76d2"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "e5ffba32-f6fd-4aa0-b82d-52b7255a9d90"
+                      },
+                      "content": [
+                        {
+                          "text": "Pohlaví - blok se zobrazí pouze u pacienta, jehož pohlaví v kartě odpovídá zadanému",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8f4637aa-8959-493d-b959-40226caecab1"
+      },
+      "content": [
+        {
+          "text": "Položky vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fcd059ff-e6ba-43e9-ae22-f6a0826a5c68"
+      },
+      "content": [
+        {
+          "text": "Položky vyšetření lze přidávat pomocí tlačítka plus",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 418,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 418,
+            "alt": "image-20250619-063848.png",
+            "id": "7b21fb4e-c619-4b4e-8907-338e6875b850",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "4ea87af0-b061-4670-97d7-b28647fbcfe6",
+            "height": 31
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "81fe6e01-7f12-4d4b-98ba-8840fff202a5"
+      },
+      "content": [
+        {
+          "text": "U samotné položky lze definovat:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "39ba5f47-e521-4e34-a76a-8c9e02c6a8f8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a1c9e96b-94dc-4cc1-865d-d676b4c962e8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73b84c0e-76e6-4007-8cde-dd6a129fb084"
+              },
+              "content": [
+                {
+                  "text": "Název – pod jakým názvem se položka zobrazí ve vyšetření",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3ef7c98a-ac07-4a72-9254-c03dc3b2c31c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "03f39a9e-ed00-4240-9460-3ba85b200ed1"
+              },
+              "content": [
+                {
+                  "text": "Kód – měl by být v rámci daného vyšetření unikátní",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b1961aa5-fcc9-4535-b3bc-11783f77db9c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6c29b607-f921-47db-9a54-b5e441d70f64"
+              },
+              "content": [
+                {
+                  "text": "ToolTip - vysvětlivka, jejíž text se zobrazí po najetí myši nad položku v dané prohlídce",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "20bd6253-4614-4ac6-9c59-73233685c74f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "01c0bf06-f1d3-4c65-a914-2bfda232395a"
+              },
+              "content": [
+                {
+                  "text": "Převzít hodnotu - indikuje, zda se má v rámci použití tlačítka ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " obsah tohoto pole přebírat",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "530fb2bf-cd02-4099-a31c-3fd4e3669217"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "0ce7b6d4-e872-4d38-90b5-8bc2ecf97a21"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "971be44c-d44c-4ffd-8139-2a79a20636b5"
+                      },
+                      "content": [
+                        {
+                          "text": "Převzít vždy - obsah pole v nové prohlídce se nahradí obsahem pole z přebírané prohlídky bez ohledu na to, zda již bylo pole právě založené prohlídky uživatelem vyplněno",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b0e460ec-c1c0-4a3a-bf6d-12b29d1f6d1a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9211c612-761b-4a35-b9c7-c526509ee849"
+                      },
+                      "content": [
+                        {
+                          "text": "Převzít při prázdné hodnotě - obsah pole v nové prohlídce se nahradí obsahem pole z přebírané prohlídky pouze za předpokladu, že je pole v nově vytvořené prohlídce aktuálně prázdné",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "46bf1982-d3bf-4ff0-88ca-f8fa1398442a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "64d5e240-fd8f-48b6-bee4-e518b6b80bd5"
+                      },
+                      "content": [
+                        {
+                          "text": "Nepřebírat - obsah pole se nikdy z původní prohlídky nepřevezme",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e2bab84e-755d-49c2-9344-5b8ff71d974d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "98392f29-6fa1-41b5-8140-2e0fac52d022"
+              },
+              "content": [
+                {
+                  "text": "Omezení položky podle věku pacienta nebo pohlaví - pokud je zobrazení položky omezeno věkem, pak se položka zobrazuje za těchto podmínek",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "356a1534-d503-4470-aac1-2b36cea82044"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c7a2163a-eba0-4717-96d7-c2d03cc6d7e6"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "02495cc8-4831-440f-8e9b-725b3b8d1c2b"
+                      },
+                      "content": [
+                        {
+                          "text": "Pokud je v definici prohlídky definován Věk od (dny), pak se tento údaj považuje za věk pacienta bez ohledu na jeho aktuální věk. Např. preventivní prohlídka v 15 letech má vyplněn Věk od (dny) 5479. Pokud je pacientovi vystavena tato prohlídka, bere se tento věk jako aktuální věk pacienta pro zobrazení bloků omezených věkem. Není tak nutné pro každou preventivní prohlídku definovat speciální blok. Je možné vytvořit pouze jeden a až jednotlivé položky omezit věkem. Např. blok „Řeč“ je možné vložit do vložit do všech preventivních prohlídek a až na jednotlivých položkách definovat podmínku pro věk, kdy se mají zobrazovat",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 225,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 225,
+            "alt": "image-20250619-063929.png",
+            "id": "6e0778d8-6caa-4e0d-8f40-4e3bf0f0c220",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "37bdafaa-b3b4-4211-b5c8-be62146b23a9",
+            "height": 71
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 204,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 204,
+            "alt": "image-20250619-063946.png",
+            "id": "9fe2302a-f720-4948-8f03-ca50bde862ea",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "306016df-2f9c-4a12-9817-e57764f2c06d",
+            "height": 93
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3137441b-85e8-4fb1-92ec-c3ad21ac10c5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "14883d26-2c1d-4456-8b1f-b66c424ef5c2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e498edd2-7a14-46c8-82dc-7b8a4e4b8dcc"
+              },
+              "content": [
+                {
+                  "text": "Hodnoty – zda se má jednat o varianty, textové pole, checkbox nebo datum",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "806ac0ed-bacf-481d-bc19-2561f9821e28"
+      },
+      "content": [
+        {
+          "text": "Výkony",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d2904342-5339-4422-b039-1b6b9f7c3b08"
+      },
+      "content": [
+        {
+          "text": "V záložce Výkony je možné definovat výkony, které může uživatel vykázat přímo z dané prohlídky po stisku tlačítka ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 86,
+            "alt": "image-20250627-083536.png",
+            "id": "65269641-e929-4b41-bad2-f4034df5add5",
+            "collection": "contentId-50102315",
+            "type": "image",
+            "localId": "78836b39-63aa-4a8d-b8e2-8ef7e349b081",
+            "height": 22
+          }
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250627-083555.png",
+            "id": "a145aa2e-5226-4672-a55c-9ddc1a39676a",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "7a910acb-bc7a-4405-b136-160165e69a7d",
+            "height": 228
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7a78fc08-79b8-4178-98c7-c9e4f0f3b191"
+      },
+      "content": [
+        {
+          "text": "Zadané výkony mohu mít tři různé podmínky, za kterých jsou vykazovány",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "93f44d3e-3710-4d2a-abd2-b40cd26785f0"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bb88fea4-2b4b-4424-ad4b-cbb0e6fa7044"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "567c3c17-7e84-41a5-8c62-d3647248f4c7"
+              },
+              "content": [
+                {
+                  "text": "Hlavní výkony",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "bf8eacc2-20e4-4a1b-918b-10fc64951474"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "3ea47abf-a4ad-46fb-bc99-711ade959304"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "4caead9b-fa2e-4431-ac5d-2eb13e09c826"
+                      },
+                      "content": [
+                        {
+                          "text": "Při vykazování výkonů lze vybrat právě jeden z hlavních výkonů",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4d1713be-9658-428d-8286-dd5e4fa8052e"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 2
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Např. pro preventivní prohlídku budou definované dva hlavní výkony: KOMPLEXNÍ VYŠETŘENÍ PRAKTICKÝM LÉKAŘEM nebo OPAKOVANÉ KOMPLEXNÍ VYŠETŘENÍ PRAKTICKÝM LÉKAŘEM",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "0950f20a-9298-42ea-8ad4-f54e6bd9d22e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a0b007cd-be04-4e50-a49a-27fe622de739"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e079f03-0b35-4794-b59a-ac4a9a3e4f6a"
+              },
+              "content": [
+                {
+                  "text": "Svázané výkony",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "48504d3d-02de-4f26-bb03-a46c868620ca"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "38c9c194-c1c8-41af-8a99-19093965b80b"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "2ca55d7b-bd75-4dfd-b67b-0d1916a74852"
+                      },
+                      "content": [
+                        {
+                          "text": "Uživatel bude mít možnost vybrat žádný až více svázaných výkonů",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7de0ce08-0baa-452f-9c4f-4a48a1cc8fcc"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 2
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Např. pro preventivní prohlídku může být jako svázaný výkon definován Signální výkon 01543",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7e58d4f8-9209-4e31-82b4-019be46809a5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5dc31732-11bb-4766-89ea-865e8bce7937"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1609c8a2-b1d2-4f51-92d8-9b865477101f"
+              },
+              "content": [
+                {
+                  "text": "Volitelné výkony",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "c8cd0a42-2aab-4d4e-bf55-5c25c87d4194"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "d38eaac2-d59e-400c-9897-b328d5de61da"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "e664a3be-2ab6-4382-ab36-d67c4d27b111"
+                      },
+                      "content": [
+                        {
+                          "text": "Uživatel bude mít možnost vybrat žádný až více volitelných výkonů",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "21d8b588-41a3-432c-86ba-624a6f5c94bc"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Např. pro preventivní prohlídku může být jako volitelný výkon definován výkon ČASNÝ ZÁCHYT DEMENCE V ORDINACI PRAKTICKÉHO LÉKAŘE",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bc86d79c-435b-4b2c-94e6-7af76828c81d"
+      },
+      "content": [
+        {
+          "text": "XSL transformace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6ecdb801-aa10-4427-9ac2-9fc7f15fbfea"
+      },
+      "content": [
+        {
+          "text": "Po kliku na tlačítko Navazující formuláře se otevře okno pro definici transformace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250627-083835.png",
+            "id": "6d938316-662f-4688-8b3e-8119f692881d",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "6c5ef442-ef1d-40c3-abb3-85c777771875",
+            "height": 107
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "90ba8f5f-ef8f-4bfd-8d24-8f6c9e536739"
+      },
+      "content": [
+        {
+          "text": "Zeleným tlačítkem Plus je možné přidat formulář, do kterého mají být přeneseny údaje zadané do vyšetření. K jednomu vyšetření může být zadáno více formulářů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5ea98484-7de3-4996-8c27-f19f94c32e37"
+      },
+      "content": [
+        {
+          "text": "V levé části uživatel vybere předlohu tisku (formulář) a jeho konkrétní variantu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5b5ba18-1ae4-44e6-8a47-1be69e8d040c"
+      },
+      "content": [
+        {
+          "text": "Na konkrétním příkladu budou demonstrovány způsoby definice xsl transformace. Jedná se o toto vyšetření:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250627-083958.png",
+            "id": "9f9055c9-e64d-43a4-b6c6-33d9f50cbc95",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "a4af7d82-3045-4e66-9434-6a08fdff90b0",
+            "height": 137
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "12ae15b3-35e6-44a2-86db-036f255f4bba"
+      },
+      "content": [
+        {
+          "text": "Transformace:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1e1d224-e3cb-4ab7-ba41-d82e28be953e"
+      },
+      "content": [
+        {
+          "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "27be0569-7b2b-4915-9915-94475de8ac59"
+      },
+      "content": [
+        {
+          "text": "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "localId": "be53b0f6-9773-4d85-871f-25ac4d0bdeae",
+            "url": "http://www.w3.org/1999/XSL/Transform"
+          }
+        },
+        {
+          "text": " \">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a0d2417a-7a56-457a-b471-784aa513b837"
+      },
+      "content": [
+        {
+          "text": "                <xsl:output method=\"xml\" omit-xml-declaration=\"yes\" indent=\"yes\" />",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "767f86e8-663c-4a90-ab97-36f2b414a68c"
+      },
+      "content": [
+        {
+          "text": "                <xsl:template match=\"/\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0aff3aef-4359-406a-baa4-fb3ce12dd87c"
+      },
+      "content": [
+        {
+          "text": "                               <values>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad1ed508-2a6c-4b60-8bab-df1819c235cd"
+      },
+      "content": [
+        {
+          "text": "                 <xsl:apply-templates select=\"Galen.Vysetreni\" />",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bcbc3fad-7f6e-464c-ba1e-60a73504b91f"
+      },
+      "content": [
+        {
+          "text": "                               </values>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "877a99f6-ea71-4bc3-8c62-698b2bd96460"
+      },
+      "content": [
+        {
+          "text": "                </xsl:template>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b859cb8e-3bfd-4d32-90f7-e9fb74bf991d"
+      },
+      "content": [
+        {
+          "text": "Varianty 1",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "74e3a032-d0ff-48f7-8008-6f4781bf9685"
+      },
+      "content": [
+        {
+          "text": "<!--V  následující části je definovaná transformace této položky vyšetření. Položka má kód „posuzovaný“ a jedná se o položku typu varianty se třemi hodnotami. V konkrétním formuláři se jedná po položku propertyname „posouzeny“. V případě, že uživatel ve vyšetření vybere třetí variantu, tak se do formuláře dotáhne také text u této varianty lékařem zadaný.-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 215,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 215,
+            "alt": "image-20250627-084225.png",
+            "id": "d741a1ed-ba76-4df3-8671-19b4a7e5d3f8",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "c3a347bd-1cf9-4938-b166-6c0b3169480d",
+            "height": 149
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "225bd945-e1eb-452c-9857-f8c9642c648a"
+      },
+      "content": [
+        {
+          "text": "<xsl:template match=\"Galen.Vysetreni\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6f29db0-7ff9-4393-adb6-cc29a82282d9"
+      },
+      "content": [
+        {
+          "text": "<!-- Část A) Posuzované dítě k účasti na zotavovací akci -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "be19cd50-40fb-4845-b1ae-9d8d17453b94"
+      },
+      "content": [
+        {
+          "text": "<xsl:choose>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "73121e64-ed99-4b0e-b20d-6e696b7a497c"
+      },
+      "content": [
+        {
+          "text": "<!-- a)   je zdravotně způsobilé *) -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5fde2cc1-6a0b-49c8-83d2-28d303a7adfb"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<xsl:when test=\"DataProhlidky/posuzovany/@H=1\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5a462346-b5b4-44ae-966b-5cd30667e1aa"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<posouzeny>0</posouzeny>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1fcf50e-c71c-4575-a1dd-5a20c42c5859"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "</xsl:when>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3edeead7-e65d-42af-958e-5b0436454717"
+      },
+      "content": [
+        {
+          "text": "<!-- b)   není zdravotně způsobilé -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "738253fc-f09e-470d-8c77-036d809219f7"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<xsl:when test=\"DataProhlidky/posuzovany/@H=2\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "539d5ac8-732b-4e2f-a3d5-7f27d7cc18cb"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<posouzeny>1</posouzeny>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a82e8f27-51c9-49cf-95c7-237ace300e7a"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "</xsl:when>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f5481b38-0db7-48c5-acf7-92b3d5bb0fa0"
+      },
+      "content": [
+        {
+          "text": "<!-- c)    je zdravotně způsobilé za podmínky (s omezením) a text k tomu -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "42c0f57d-d50a-4b1e-8a9c-9894e836ec13"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<xsl:when test=\"DataProhlidky/posuzovany/@H=3\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ffcac101-0bb5-4746-b1b3-b7f05f2e99f0"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<posouzeny>2</posouzeny>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ec6ebe15-8e4b-48a9-8c4b-3eecee2a63a9"
+      },
+      "content": [
+        {
+          "text": "</xsl:choose>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "d3bd0a9e-3367-49e3-b977-48b5c2579f46"
+      },
+      "content": [
+        {
+          "text": "Varianty 2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3e7d8ec0-de18-4a49-8a95-2b6dd4acaf3e"
+      },
+      "content": [
+        {
+          "text": "<!-- V následující části je definovaná transformace této položky.Opět se jedná o položku typu varianty s kódem „podr“. Položka formuláře má propertyname „ocko“.-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 224,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 224,
+            "alt": "image-20250627-084808.png",
+            "id": "b7a5f275-393b-4884-88d2-6ee9d0d4b198",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "0228067d-316a-4c9d-8ffa-fa1fa8688127",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d61d191d-f24d-4193-ae10-3eaebddf4209"
+      },
+      "content": [
+        {
+          "text": "<!-- a)   se podrobilo stanoveným pravidelným očkováním-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f70464d2-3147-4b80-a131-6cf99776b36d"
+      },
+      "content": [
+        {
+          "text": "<xsl:choose>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f72b29fc-83ca-43cf-8c5d-1a1f703aaec2"
+      },
+      "content": [
+        {
+          "text": "<!-- ano-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c8bc9ed7-bc79-4d2f-88b0-0a75f42a6839"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<xsl:when test=\"DataProhlidky/podr/@H=1\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0cc0f90c-a6b2-446c-9dfb-ea7a22152c1a"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<ocko>0</ocko>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "020b9399-a84a-4381-a94d-6e6f977abeda"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "</xsl:when>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8fbbac62-b55f-437f-896f-5a090095b3c4"
+      },
+      "content": [
+        {
+          "text": "<!-- ne-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4e7f8c47-2abb-40b0-8709-1d1476a4276e"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<xsl:when test=\"DataProhlidky/podr/@H=2\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3b7b728b-08d8-45c9-953b-dc73260d3a1e"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<ocko>1</ocko>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cadb518a-0066-496d-a92f-0bf71dfd58df"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "</xsl:when>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c86df809-dd78-4408-bc8e-9f7d9bc278e7"
+      },
+      "content": [
+        {
+          "text": "</xsl:choose>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ee243357-d7de-410e-8199-a631e93f4028"
+      },
+      "content": [
+        {
+          "text": "Text",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "696f5f3a-ec81-4b4e-a20f-e54399668060"
+      },
+      "content": [
+        {
+          "text": "<!--Dalšími položkami je položka typu text. V prohlídce má položka kód „",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "nak",
+          "type": "text"
+        },
+        {
+          "text": "“, ve formuláři se jedná o položku propertyname „",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "imun",
+          "type": "text"
+        },
+        {
+          "text": "“.-->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 183,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 183,
+            "alt": "image-20250627-084951.png",
+            "id": "2b4a4ec0-b0a6-4b18-970d-16368c7e9162",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "2ea15e09-2e27-49e0-bca6-69e6b6f884e3",
+            "height": 132
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9f6545bf-8e83-4550-8f9f-5c94a2b97c55"
+      },
+      "content": [
+        {
+          "text": "<!--b)    je proti nákaze imunní  -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2b6df156-2487-46cd-a575-f3e135ea293b"
+      },
+      "content": [
+        {
+          "text": "<xsl:if test=\"DataProhlidky/nak\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3398984c-1c97-4df4-afa2-384ddf04191f"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<imun><xsl:value-of select=\"DataProhlidky/nak\"/></imun>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f27795c3-f25a-4fb8-a076-eaa673716e08"
+      },
+      "content": [
+        {
+          "text": "</xsl:if>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c922a7c1-9dac-41f5-8b37-43a1b765fa2e"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e1d3b830-b3a0-4b58-8b8f-8f1dec759b9b"
+      },
+      "content": [
+        {
+          "text": "<!--c)     má trvalou kontraindikaci proti očkování (typ/druh)   -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "16570cd6-ed51-4768-9485-5a728f1ab5d1"
+      },
+      "content": [
+        {
+          "text": "<xsl:if test=\"DataProhlidky/ock\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "262ed236-6189-4524-aa33-3cdeeb0324c7"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<kontra><xsl:value-of select=\"DataProhlidky/ock\"/></kontra>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f5065892-da7e-4489-b8f4-c1fe8df05952"
+      },
+      "content": [
+        {
+          "text": "</xsl:if>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c258f8dc-dc88-4a60-9e0a-fc68613e9560"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4f81d62a-61e0-46ce-808a-75a28949e27b"
+      },
+      "content": [
+        {
+          "text": "<!--d)    je alergické na   -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2042763-ffde-40d2-9c18-e8f4d703ca47"
+      },
+      "content": [
+        {
+          "text": "<xsl:if test=\"DataProhlidky/aler\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a851cbc8-59dc-483c-98d4-971589664f62"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<alerg><xsl:value-of select=\"DataProhlidky/aler\"/></alerg>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "820bc737-54d7-490b-910b-e937bfc1a737"
+      },
+      "content": [
+        {
+          "text": "</xsl:if>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6cbd1d92-53f1-4bfc-9ae4-46c6c76fd25c"
+      },
+      "content": [
+        {
+          "text": "               ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8dd764ca-9211-4948-a1ac-3b77d20827f5"
+      },
+      "content": [
+        {
+          "text": "<!--e)    dlouhodobě užívá léky (typ/druh, dávka) -->",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9f8839b8-0dbf-4661-a4ef-d7ff33a1deef"
+      },
+      "content": [
+        {
+          "text": "<xsl:if test=\"DataProhlidky/leky\">",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9ffeb8f4-592a-4a93-934c-cb84a5ff74dd"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "<leky><xsl:value-of select=\"DataProhlidky/leky\"/></leky>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "327ff3e3-44b9-4c63-b7d5-cd41224067f9"
+      },
+      "content": [
+        {
+          "text": "</xsl:if>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "96d2333e-1a89-4a48-a1b2-476dc3da0203"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f17420a3-116c-4989-acfb-85dd968d1406"
+      },
+      "content": [
+        {
+          "text": "</xsl:template>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e91c025c-e2bf-4cbe-876a-7b5c6db9aee7"
+      },
+      "content": [
+        {
+          "text": "</xsl:stylesheet>",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d45bd01d-d6c1-4395-b4e4-1741d859d2ef"
+      },
+      "content": [
+        {
+          "text": "Informace z vyplněného očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 361,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 361,
+            "alt": "image-20250627-085223.png",
+            "id": "98c6d602-1b73-4a42-8b1a-9e40df7dd06d",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "069cedb2-6a35-4715-97bb-9e30b3cbd63b",
+            "height": 108
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cfb13da8-944d-4d5f-b36f-14c149a08623"
+      },
+      "content": [
+        {
+          "text": "se přenesou do formuláře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 206,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 206,
+            "alt": "image-20250627-085234.png",
+            "id": "47d2bdbe-5520-418f-9c9e-86394d6d4080",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "c70db408-5820-4451-916d-0216f18aa508",
+            "height": 167
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "142819e0-1d71-49c8-87cd-1dc3ce303a41"
+      }
+    }
+  ],
+  "version": 1
+}

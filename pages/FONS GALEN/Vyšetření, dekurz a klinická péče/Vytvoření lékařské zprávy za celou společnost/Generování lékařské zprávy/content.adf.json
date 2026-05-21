@@ -1,0 +1,201 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vytváření lékařské zprávy může uživatel zvolit možnost generovat lékařskou zprávu za celou společnost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250623-084700.png",
+            "id": "55a37f7a-e783-48e2-8188-2e287c0009c1",
+            "collection": "contentId-53379092",
+            "type": "file",
+            "height": 215
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud uživatel tuto možnost zvolí, automaticky se přenastaví hlavička i název na základě názvu definovaného záhlaví tisku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel má v tomto kroku dvě možnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "A)     ",
+          "type": "text"
+        },
+        {
+          "text": "Generovat zprávu za celou společnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do této zprávy budou generovány informace ze všech pracovišť, na které má aktuální pracoviště nastaveno nahlížení a které v organizační struktuře společnosti spadá pod hlavní společnost (nemá podřízenou společnost), nebo má podřízená společnost nastavené stejné IČO jako společnost hlavní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do zprávy budou generovány záznamy pracovišť splňující podmínky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250623-084718.png",
+            "id": "438b5c25-665e-4850-aa57-edc7719cabbe",
+            "collection": "contentId-53379092",
+            "type": "file",
+            "height": 179
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do hlavičky této zprávy se vygenerují informace uvedené ve struktuře společnosti hlavní společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "B)     ",
+          "type": "text"
+        },
+        {
+          "text": "Generovat zprávu za vybranou podřízenou společnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250623-084740.png",
+            "id": "43b3edbe-2ce5-47e5-9d24-eb0e9c3ca641",
+            "collection": "contentId-53379092",
+            "type": "file",
+            "height": 214
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 360,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 360,
+            "alt": "image-20250623-084819.png",
+            "id": "ea6e07ec-a147-402d-b575-03ee4615a732",
+            "collection": "contentId-53379092",
+            "type": "file",
+            "height": 146
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do hlavičky takové zprávy se vygeneruje IČO a adresa uvedené ve správě společnosti u dané podřízené společnosti.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

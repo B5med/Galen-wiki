@@ -1,0 +1,1024 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "38ef7a1b-b600-4766-9cab-7a63334cd20d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "ddb5568c-13cb-4ef6-900b-f1bd41fb8d95"
+          },
+          "content": [
+            {
+              "text": "Popis nastavení, která jsou nutná pro spuštění komunikace FONS Galen s ČSSZ. Dále jsou popsána volitelná nastavení jako je např. možnost nastavení upozornění na blížící se překročení podpůrčí doby pracovní neschopnosti.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "bbe9cae0-f3a7-44fc-879d-d09c3a85e9cc"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "1abebeba-973c-46b2-94eb-16c64ae399b7"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6816e6a6-7e77-494a-bffd-ba7c9a6cbf82"
+      },
+      "content": [
+        {
+          "text": "Nutná nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3db9121b-9699-4b99-90ca-a3a13f9551f1"
+      },
+      "content": [
+        {
+          "text": "Po aktivaci nadstandardního modulu je nutné ze strany uživatele s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "provést tato nastavení:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2aefba97-2710-4241-b2a8-5fdd60c6f14e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "96402da5-c8c6-4ee4-922b-9661daefaa52"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d897200f-ca91-4622-b31a-139695547dbc"
+              },
+              "content": [
+                {
+                  "text": "Správce → Správa organizace → ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "na konkrétním pracovišti nastavit ",
+                  "type": "text"
+                },
+                {
+                  "text": "Kód SÚKL",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fd5a162d-1893-4e18-a608-e3dadc6d87a0"
+      }
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "10cd5b20-41d9-44e5-af1e-f30f012a77d8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0d00a8e4-e0f4-439a-8792-b4271fe07624"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e43f11c3-8e32-4f6b-b2bf-ee7c9d5a6fac"
+              },
+              "content": [
+                {
+                  "text": "Správce → Správa organizace → ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "na konkrétním pracovišti nastavit certifikát SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6467b2ea-c052-40c9-bccc-4460f63a2739"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "70f0f1f1-9578-4bda-87c0-e3dd7fc07dfb"
+      },
+      "content": [
+        {
+          "text": "Poznámka: Jedná se o certifikát, který původně vydával SÚKL, nově jej vydává ÚZIS. Certifikát, i přesto, že je vydaný ÚZIS, je nutné nastavit na pracovišti, nikoli na úrovni společnost.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0328be96-a296-4fcd-8dc1-bcc0c4005815"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "54619201-2fcf-45f8-b041-92228c5fca98"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b90af847-5d4e-437a-bf7f-1c44f459bd21"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "583bd315-1a3c-4a03-b8bb-9e66bfa93fdc"
+              },
+              "content": [
+                {
+                  "text": "Správce → Správa organizace → ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "na konkrétním pracovišti nastavit ",
+                  "type": "text"
+                },
+                {
+                  "text": "Konfiguraci ČSSZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 183,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 105,
+            "alt": "image-20250721-122520.png",
+            "id": "bfb5bc05-aa90-428f-a423-0f99e80ca80c",
+            "collection": "contentId-75694423",
+            "type": "file",
+            "localId": "9bc05ea3-9a3a-4f0f-892b-4e0979823467",
+            "height": 21
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 588,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 270,
+            "alt": "image-20250721-122552.png",
+            "id": "b81e0954-5871-4502-8490-f03f5a0e6435",
+            "collection": "contentId-75694423",
+            "type": "file",
+            "localId": "56dbb841-34ca-4aea-a353-fa9c82cc974e",
+            "height": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b395877-8e23-42d3-94c8-438f82fb5a0c"
+      },
+      "content": [
+        {
+          "text": "(1)   ",
+          "type": "text"
+        },
+        {
+          "text": "IČPE",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b20ae415-84c2-4554-8335-dd4c24b39115"
+      },
+      "content": [
+        {
+          "text": "Vyplňte osmimístné číslo IČPE, které vaše zdravotnické zařízení získalo na základě registrace na ČSSZ. Po uložení již tuto hodnotu není možné měnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2e30c92a-48d2-4615-88d5-4a45657067dc"
+      },
+      "content": [
+        {
+          "text": "(2)   ",
+          "type": "text"
+        },
+        {
+          "text": "Kód územního pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f8d14a82-79f8-49a7-8fa6-dc37ee738c06"
+      },
+      "content": [
+        {
+          "text": "Vyberte hodnotu z číselníku tak, aby odpovídala informacím, které jste obdrželi v rámci vaší registrace na ČSSZ.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5affbae7-e0df-4ffc-b565-41160f097c86"
+      },
+      "content": [
+        {
+          "text": "(3)   ",
+          "type": "text"
+        },
+        {
+          "text": "Název územního pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2b2df6ae-9c1a-4be8-963b-bd03ffb04082"
+      },
+      "content": [
+        {
+          "text": "Není potřeba vyplňovat, vyplní se automaticky po výběru kódu územního pracoviště z číselníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "924b156b-2f2f-46f2-b841-57487f9e6e4a"
+      },
+      "content": [
+        {
+          "text": "(4)   ",
+          "type": "text"
+        },
+        {
+          "text": "Test komunikace s ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a929f3d6-a8af-419c-a829-2098c7c1eab5"
+      },
+      "content": [
+        {
+          "text": "Po zadání údajů otestujte, zda jsou zadané údaje správné.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "82139209-a5e2-45a3-a1cc-6034a93b831d"
+      },
+      "content": [
+        {
+          "text": "Volitelná nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "72c956a3-ed4d-48d2-9b3c-c4f3bf0d523a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "39d6d0b9-65f4-4ece-937b-67d3817990bb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d7cb2611-82d9-4012-aca0-e44c2037f2fd"
+              },
+              "content": [
+                {
+                  "text": "Správa IČPE",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1c88aaa5-d7a1-4ccc-ab4a-377fc102c9a6"
+      },
+      "content": [
+        {
+          "text": "V případě aktivní funkcionality ",
+          "type": "text"
+        },
+        {
+          "text": "Správa IČPE",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné spravovat IČPE vůči ČSSZ přímo z FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e0ede960-3c0c-4d89-9ddc-2b0eb4653d8b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "70484f10-3b4a-4aca-8ec2-342aaa5d16cd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "987af17b-9dec-48cf-a290-69522953d485"
+              },
+              "content": [
+                {
+                  "text": "Vytvořit IČPE",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 522,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 228,
+            "alt": "image-20250721-122958.png",
+            "id": "ae3d160d-afa8-477e-96c3-b31b6ada22f6",
+            "collection": "contentId-75694423",
+            "type": "file",
+            "localId": "b45fab53-3520-415b-b985-1f8e8ad6ee22",
+            "height": 89
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bb362163-3f6f-4fd9-ac0f-56d936dbddbe"
+      },
+      "content": [
+        {
+          "text": "V případě, kdy je na ČSSZ provedena registrace zdravotnického zařízení a je přiřazeno tzv. hlavní IČPE, tak je možno z FONS Galen vytvářet další IČPE pro jednotlivá pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2be8dce6-f8cd-4e00-8ac8-b95e65e220a7"
+      },
+      "content": [
+        {
+          "text": "(1)   Pokud je pole IČPE prázdné, stane se tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Vytvořit IČPE",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " aktivním (2).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b6e1ac9d-1513-44b9-938a-5b01f878cfb7"
+      },
+      "content": [
+        {
+          "text": "(3)   Je nutné zadat právě jedno jméno lékaře, tzv. garanta pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "036dca76-7d3d-4e72-9b89-14c6066432e4"
+      },
+      "content": [
+        {
+          "text": "(4)   Jako název registrace je možné použít název společnosti nebo vepsat název pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "04edb8cd-1a07-4242-b701-c401fedb6452"
+      },
+      "content": [
+        {
+          "text": "(5)   Vyplňte kód územního pracoviště z číselníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "22ee1138-dcb4-4365-a1e5-2846bc965d44"
+      },
+      "content": [
+        {
+          "text": "(6)   Vyplňte odbornost pro práci s IČPE z číselníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2465f1f4-d67f-4eed-b328-a4f4cc6a04c4"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4695f797-5908-4c16-9d28-2474a85015ad"
+      },
+      "content": [
+        {
+          "text": "Stiskem tl. ",
+          "type": "text"
+        },
+        {
+          "text": "Vytvořit IČPE ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "bude na ČSSZ odeslán požadavek se založením nového IČPE. Vytvoření na straně ČSSZ bude potvrzeno .",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ead629f-2913-4aac-a920-4a883c88acd5"
+      },
+      "content": [
+        {
+          "text": "Okno Konfigurace opusťte tl. ",
+          "type": "text"
+        },
+        {
+          "text": "OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " pro uložení zadaných informací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f9426b80-8031-470b-a65d-050ccaf70110"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "75faef57-924b-44cb-9ea1-fc316abd2840"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "10055ab1-edfe-4361-8912-ffee12bba797"
+              },
+              "content": [
+                {
+                  "text": "Přehled IČPE",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dae4eb69-1d54-4afe-b640-42311a7d1965"
+      },
+      "content": [
+        {
+          "text": "Tlačítko zobrazí přehled hlavního a všech podřízených IČPE. Z tabulky je možné pomocí klávesových zkratek Ctrl+C kopírovat zobrazené údaje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7b438511-5a68-4d72-a332-b4703ddec8f4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8faeb235-90ee-4bec-b4b3-efa8c54c8058"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6fded62a-8417-4a7c-946f-4d7f15e00fbc"
+              },
+              "content": [
+                {
+                  "text": "Zneplatnit IČPE",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "39ae4c51-e0e8-4eb8-9ff9-6ca314550bea"
+      },
+      "content": [
+        {
+          "text": "Zneplatní zobrazení IČPE.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5f03d3c2-9d86-4f21-886a-a8024413ede0"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "08b893d2-f543-4f17-a477-5c87f8f537b4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "156e50a1-5699-41ec-9a41-d75e8d9d380a"
+              },
+              "content": [
+                {
+                  "text": "Odeslat změnu jména",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "66e15cd9-9cc7-4aa9-a69b-f30a23cbd799"
+      },
+      "content": [
+        {
+          "text": "Tlačítko odešle požadavek na změnu jména, které je aktuálně u IČPE v přehledu IČPE ČSSZ vedeno.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "93a61ef7-e090-40e7-b56d-830d6cd9b15a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ecf9d34b-eee1-45d7-aa26-0a5e816f1003"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "82788885-909b-44cb-b752-ed36254f9be9"
+              },
+              "content": [
+                {
+                  "text": "Odeslat změnu registrace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7dd491d8-ccf9-4ae2-a8cf-6e4678d083fe"
+      },
+      "content": [
+        {
+          "text": "Tlačítko odešle požadavek na změnu názvu registrace, který je aktuálně u IČPE v přehledu IČPE ČSSZ vedeno.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b6532c69-9b61-48e5-9914-b6a4a6d8bc60"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "38a245b5-c239-48c1-8aa1-daf99e087c9c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "065579ed-2d72-4fad-ac52-62a6c9215698"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0fde5df6-217c-451e-a2fd-6646c9f0fe8a"
+              },
+              "content": [
+                {
+                  "text": "Zvýraznit pacienty v kartotéce, pokud DPN trvá déle než X dnů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d4d99d3e-377e-4b96-a9a1-e0c5c42f02ed"
+      },
+      "content": [
+        {
+          "text": "Pacienti, kteří mají aktivní eDPN, která trvá déle než zadaný počet dnů, budou v kartotéce označeni symbolem ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 19,
+            "alt": "image-20250721-123104.png",
+            "id": "7a0fecb0-398f-422d-9ea3-583578d55d8d",
+            "collection": "contentId-75694423",
+            "type": "image",
+            "localId": "1ac792f3-b79b-4551-b5a5-914318128852",
+            "height": 19
+          }
+        },
+        {
+          "text": " . Obvykle se pole využívá pro zadání 380 dní, což je v tuto chvíli maximální podpůrčí doba pro poskytování nemocenského.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "def9c02c-d94a-485f-8c22-fc37aa2cc98e"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "629a1b52-2220-4ee3-a5fa-9ef44a6ca3fd"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f447154b-e25d-4f33-ac33-e21861b1150a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fbfcfe0d-c618-4c0a-9a0a-b61de4bf1561"
+              },
+              "content": [
+                {
+                  "text": "Upozornit na blížící se překročení podpůrčí doby pracovní neschopnosti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c126b8ce-5221-472a-aa38-b940cfae1367"
+      },
+      "content": [
+        {
+          "text": "Upozornění je zasláno prostřednictvím echo zprávy s přehledem eDPN, které překročily dobu trvání 380 dní. Zprávu obdrží všichni uživatelé, kteří mají přístup na dané pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36a97c75-21c8-4265-a013-9c115bca4b4d"
+      },
+      "content": [
+        {
+          "text": "Zpráva má tuto podobu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 622,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 260,
+            "alt": "image-20250721-123144.png",
+            "id": "70d8aa08-5566-44db-9f3a-c23db103378a",
+            "collection": "contentId-75694423",
+            "type": "file",
+            "localId": "a840e25c-de61-4cc9-a933-eab8b3378b37",
+            "height": 45
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "610c20e5-a0a4-43f1-977b-182f4d4b9fd8"
+      }
+    }
+  ],
+  "version": 1
+}

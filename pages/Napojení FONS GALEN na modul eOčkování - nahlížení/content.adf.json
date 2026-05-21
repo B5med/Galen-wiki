@@ -1,0 +1,415 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "2db46c6f-6329-488a-9534-d7a442d18dad"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "e9828e89-cb58-4281-b3a4-8a0aefe13a86"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d6731fcfbbf7"
+      },
+      "content": [
+        {
+          "text": "Prerekvizity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "70d9e0547820"
+      },
+      "content": [
+        {
+          "text": "Pro zprovoznění funkcionality eOčkování v AIS Galen je potřeba mít stávající nezbytnosti pro odeslání eReceptu, tzn.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "03af4e09-ba24-4d7c-ad7c-c7ac9035d21f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "796d94e7-fdd5-49b4-943e-328e81dc02d3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6bcafb611477"
+              },
+              "content": [
+                {
+                  "text": "Certifikát SÚKL na pracovišti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0a9bd505-615c-44c9-a76a-355241d56273"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9802141918b9"
+              },
+              "content": [
+                {
+                  "text": "Kód SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f946bbcc-692e-4eeb-99ea-9992f7b5e144"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "27df7a6841d1"
+              },
+              "content": [
+                {
+                  "text": "Identitu uživatele SÚKL",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3873633b-05e7-4a4c-92a0-89fab2497564"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7bf3efb549af"
+              },
+              "content": [
+                {
+                  "text": "Podpisový certifikát",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0df7624c-8c1f-45ac-a334-fe52f62ecb27"
+      },
+      "content": [
+        {
+          "text": "Nahlížení na informace zadané v eOčkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c9de0ca-2c3a-43be-8eab-1c3775db8331"
+      },
+      "content": [
+        {
+          "text": " Přístup k informacím se nachází v modulu Ordinace pod ikonou eOčkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1472,
+            "alt": "image-20260317-153536.png",
+            "id": "460edfdf-2e62-4e93-9cba-29a337f00fdd",
+            "collection": "contentId-104104015",
+            "type": "file",
+            "localId": "aee555643569",
+            "height": 247
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "17608d76-55bc-4f90-bea9-72f50acbde42"
+      },
+      "content": [
+        {
+          "text": "Uživatel dle potřeby vyplní filtr (onemocnění, datum od, datum do) a stiskne tlačítko Aplikovat (Poznámka: tlačítko Aplikovat je nutné stisknout vždy, i bez vyplněného filtru).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1497,
+            "alt": "image-20260317-153220.png",
+            "id": "b4fb4d5f-cbec-4c7d-9ea3-5dc6b9bf2966",
+            "collection": "contentId-104104015",
+            "type": "file",
+            "localId": "418a5ad75a95",
+            "height": 184
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3ed297d7-b490-4e6a-a0f7-0fec39c5b60e"
+      },
+      "content": [
+        {
+          "text": "Po stisku tlačítka aplikovat se zobrazí všechna zadaná očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1501,
+            "alt": "image-20260317-153308.png",
+            "id": "8fabb1ac-90da-46a0-9efe-bbd707d2b15c",
+            "collection": "contentId-104104015",
+            "type": "file",
+            "localId": "3490afbc24c1",
+            "height": 311
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2eb42522-05e3-42be-a9f5-c6256e0d43fc"
+      },
+      "content": [
+        {
+          "text": "V případě potřeby je možné kliknout na jednotlivé řádky v přehledu a zobrazit tak podrobnosti dané vakcinace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 913,
+            "alt": "image-20260317-153401.png",
+            "id": "eeddd4ce-cd6b-404a-b42c-722903899ae4",
+            "collection": "contentId-104104015",
+            "type": "file",
+            "localId": "d54d0dd2d77a",
+            "height": 186
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 922,
+            "alt": "image-20250825-140943.png",
+            "id": "cd31f2fc-5dbd-4bce-8893-d5b69ed3a139",
+            "collection": "contentId-104104015",
+            "type": "file",
+            "localId": "f33d2208-9b56-4f8b-8598-24e519020b9c",
+            "height": 272
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "a5a6c9bf-f5da-412f-a692-00fa06c8c61b"
+          },
+          "content": [
+            {
+              "text": "Detail dávky v eOčkování",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "c1b77d3f-a7c9-4407-9551-b8a82a124bc7"
+      },
+      "content": [
+        {
+          "text": "Výpis provedeného očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "ef46ce3f-286a-4338-90ae-fbefeb0d3740"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "d8150b2e-8d69-4054-bf3a-d0fe691dfcaa"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "94f60f58-2bf7-48ec-b5b1-723e6768b945"
+              },
+              "content": [
+                {
+                  "text": "Po kliku na tlačítko Export se nabídne export výpisu očkování, který je právě uživatelem zobrazen. Např. pokud uživatel filtruje pouze očkování proti tetanu, budou ve výpisu provedených očkování uvedena pouze tato očkování. Pokud mají být ve výpisu všechna očkování, je nutné zrušit všechny filtry.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "64fa1afa-420b-454d-8799-74a0db3dc4dc"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 149,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 149,
+                    "alt": "image-20250825-141010.png",
+                    "id": "55f738e0-65d9-45ee-aced-d6327bcadbb2",
+                    "collection": "contentId-104104015",
+                    "type": "file",
+                    "localId": "8800678a-1602-4d3a-9f78-726143952e0d",
+                    "height": 181
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a8e3e5de-2ccb-4cce-9c05-c3cdffdec644"
+      }
+    }
+  ],
+  "version": 1
+}

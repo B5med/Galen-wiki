@@ -1,0 +1,211 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "baa1c2fa-5ac4-43cf-8ec1-6c11ba26991a"
+      },
+      "content": [
+        {
+          "text": "Rozšíření funkcionality Provozovny",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b8589c02-ccd4-4d64-a509-cd3c6dfe29a2"
+      },
+      "content": [
+        {
+          "text": "Provozovny se rozšiřuje o upozornění a filtr pro nepřiřazené pacienty.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V Upozorněních k pacientovi se nově zobrazuje sekce informující o tom, že pacient není přiřazen k žádné provozovně, s možností jej přiřadit.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Tlačítko „Přiřadit k provozovně“ přesměruje do karty pacienta.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V kartotéce byl rozšířen filtr o volbu „Nepřiřazení“, která zobrazí pacienty bez přiřazené provozovny.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Funkce se projeví pouze při aktivním přiřazování pacientů k provozovnám a aktivním upozorňování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "95cdb0a6-81d4-475c-ae80-325b3a71a4e0"
+      },
+      "content": [
+        {
+          "text": "Hromadné smazání záznamů NSP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fcf040b7-4158-4a32-a923-64a51f4079ad"
+      },
+      "content": [
+        {
+          "text": "Hromadné smazání záznamů NSP umožňuje odstranit více NSP najednou v modulu Správce → Nástroje → Seznam NSP.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Více položek lze vybrat pomocí Ctrl + klik.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Po stisku Smazat je zobrazen potvrzovací dialog. Systém ověří, zda některé NSP nejsou nastaveny jako oblíbené, a v případě potřeby zobrazí varování se seznamem těchto NSP.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Stávající pravidla mazání zůstávají zachována, funkce pouze rozšiřuje mazání o hromadný výběr.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c8ee1a50-c617-4f85-8488-c9324bd5caa9"
+      },
+      "content": [
+        {
+          "text": "Specifický symbol ve vyúčtování na pojišťovnu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0efeb79d-9027-437f-871a-e927eecc8319"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřeba do vyúčtování (konkrétně na fakturu) na pojišťovnu uvést specifický symbol, tak je možné tuto hodnotu definovat ve smlouvě s pojišťovnou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "392488c0-8b73-4f99-bf8e-c24b2346c46a"
+      },
+      "content": [
+        {
+          "text": "Správce - Správa organizace - ve stromové struktuře vybrat konkrétní IČZ - ve sloupci vpravo rozkliknout konkrétní pojišťovnu - vyplnit pole Specifický symbol.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "051a090b-2c8c-4b4b-8e91-ab6598b0c821"
+      },
+      "content": [
+        {
+          "text": "Více informací najdete zde ",
+          "type": "text"
+        },
+        {
+          "text": "Zařízení - FONS Galen - Galen Confluence",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/75202672"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "90af8f1e-bee3-45e9-bffa-da27b76dccf9"
+      },
+      "content": [
+        {
+          "text": "Datum signálního kódu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b8e91b11-144c-4549-b369-69338037b178"
+      },
+      "content": [
+        {
+          "text": "Upravena funkcionalita zadávání signálního kódu u poukazů na vlhké krytí. Pokud SÚKL signální kód neeviduje, lze nově doplnit datum signálního kódu ručně.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

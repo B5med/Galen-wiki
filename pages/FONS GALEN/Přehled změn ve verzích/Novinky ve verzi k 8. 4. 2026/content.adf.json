@@ -1,0 +1,623 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "1740bf660cf8"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "988fe3603cc5"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bc9ba921b557"
+      },
+      "content": [
+        {
+          "text": "Modul Nadstandardní péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "c72ea0576ef8"
+      },
+      "content": [
+        {
+          "text": "Rozšíření práce s Poskytovateli PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ba0113e352aa"
+      },
+      "content": [
+        {
+          "text": "V modulu Nadstandardní péče (",
+          "type": "text"
+        },
+        {
+          "text": "Firmy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "PLS Admin",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "PLS Admin Služby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "PLS Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ") byl přidán nový filtr ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", který umožňuje zobrazovat a vyhledávat záznamy podle smluvního poskytovatele pracovnělékařských služeb.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "26e68bbc5a9e"
+      },
+      "content": [
+        {
+          "text": "Firmy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b648e40c27b3"
+      },
+      "content": [
+        {
+          "text": "Po výběru poskytovatele se zobrazí pouze firmy s platnou smlouvou PLS u daného poskytovatele (platnost smlouvy zahrnuje dnešní datum nebo datum do není uvedeno).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3de4afd02d9d"
+      },
+      "content": [
+        {
+          "text": "PLS Admin a PLS Admin Služby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "066f88cf46ce"
+      },
+      "content": [
+        {
+          "text": "Filtr zobrazí prohlídky a služby navázané na firmy s evidovanou smlouvou (včetně neplatných, pro zachování historie). Přibyl také ",
+          "type": "text"
+        },
+        {
+          "text": "reversní filtr",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": výběrem firmy se automaticky zobrazí její poskytovatel PLS a naopak. Přidán nový sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "94b8009da54f"
+      },
+      "content": [
+        {
+          "text": "PLS Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a1fea0f009d6"
+      },
+      "content": [
+        {
+          "text": "Nový sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (umístění: mezi sloupci Popis a Podřízená společnost) a filtr s možností poskytovatele naopak ",
+          "type": "text"
+        },
+        {
+          "text": "vyloučit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (checkbox Vyloučit poskytovatele). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "8bbfe9b3f093"
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "3b9cc593477f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c9c253352bf2"
+      },
+      "content": [
+        {
+          "text": "Oprava zobrazení autora v auditní stopě",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ac8710da4b49"
+      },
+      "content": [
+        {
+          "text": "Byla opravena chyba, kdy se v auditní stopě lékařské zprávy a formuláře zobrazovalo nesprávné jméno autora. Auditní stopa nyní správně uvádí, kdo záznam ",
+          "type": "text"
+        },
+        {
+          "text": "vytvořil",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "upravil",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "smazal",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", včetně správného data a času každé události.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5761e6169434"
+      },
+      "content": [
+        {
+          "text": "Oprava vkládání obrázků v Designeru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0f7f111ebed9"
+      },
+      "content": [
+        {
+          "text": "V nástroji Designer byla opravena chyba, která znemožňovala vložit obrázek do formuláře využívajícího rozložení s bloky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "dad72aa48a25"
+      },
+      "content": [
+        {
+          "text": "Opravy kapitačního modulu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1462578f7022"
+      },
+      "content": [
+        {
+          "text": "Byly odstraněny dvě chyby v oblasti kapitací:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4f9eb3f4747f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b54df0eeecfd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "644c45720bdc"
+              },
+              "content": [
+                {
+                  "text": "Opraven chybný nápoček kapitací DP4 u pojišťovny VZP.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "822bc54da382"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "31fb4f1dc498"
+              },
+              "content": [
+                {
+                  "text": "Opraveno chybné zařazování kapitovaných výkonů do KDAVKA.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "61fdf29f2891"
+      },
+      "content": [
+        {
+          "text": "Oprava úpravy ePoukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ffa1be9a10a4"
+      },
+      "content": [
+        {
+          "text": "Byla odstraněna chyba, která znemožňovala editaci již vystaveného ePoukazu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9dc13444b4d0"
+      },
+      "content": [
+        {
+          "text": "Oprava funkce Přepočíst vše",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "40cefd27c46c"
+      },
+      "content": [
+        {
+          "text": "Odstraněna chyba, která způsobovala selhání při použití funkce pro hromadný přepočet.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "62cdb0f0dc8f"
+      },
+      "content": [
+        {
+          "text": "Oprava naskladňování vakcín pomocí čtečky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9bcc18e5e6c0"
+      },
+      "content": [
+        {
+          "text": "Odstraněna chyba při naskladňování vakcín prostřednictvím čtečky čárových kódů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d65a106d286c"
+      },
+      "content": [
+        {
+          "text": "Oprava nesprávné hodnoty v info panelu měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b32490de68e4"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, kdy se v info panelu pacienta zobrazovala nesprávná hodnota posledního měření. Údaj se nově aktualizuje pouze tehdy, kdy k měření skutečně došlo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "942d14cf3c7e"
+      },
+      "content": [
+        {
+          "text": "Oprava zobrazení stavu eReceptu po odeslání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee6d0d1da22b"
+      },
+      "content": [
+        {
+          "text": "Po odeslání receptu se nyní správně zobrazuje označení eRecept, díky kterému lékař okamžitě vidí, že recept byl úspěšně odeslán elektronicky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "843b0e541e58"
+      },
+      "content": [
+        {
+          "text": "Oprava zamrznutí aplikace při práci s kalendářem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "371255edda5f"
+      },
+      "content": [
+        {
+          "text": "Opravena chyba, při které Galen zamrzl během operací s kalendářem. Příčinou bylo zpracování všech dnů od nejstaršího záznamu, bez ohledu na to, zda v daný den existuje nějaký záznam. Nově se zpracují pouze dny, které skutečně obsahují záznamy.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

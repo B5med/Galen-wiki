@@ -1,0 +1,70 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1335f9d7-5db5-4d52-a19a-3b7e8d0c6721"
+      },
+      "content": [
+        {
+          "text": "Hlášení i",
+          "type": "text"
+        },
+        {
+          "text": "nfekčního onemocnění - obec",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b938044c-e2f3-4525-917e-2c408da87a65"
+      },
+      "content": [
+        {
+          "text": "Nově se v hlášení infekčního onemocnění v části adresa odesílání celá adresa (oproti původní obci a okresu). Adresu je mužné doplnit z trvalé nebo kontaktní adresy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5ddbede2-8066-4221-9f17-20804f47aec4"
+      },
+      "content": [
+        {
+          "text": "Úprava úhrad léčiv podle Metodiky a datového rozhraní VZP (Vyúčtování zdravotní péče)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e1c35df3-c508-4411-8052-f0028bb86117"
+      },
+      "content": [
+        {
+          "text": "Na základě připravovaných změn Metodiky pro pořizování a předávání dokladů a datového rozhraní VZP (sekce Vyúčtování zdravotní péče, účinnost od 1. 1. 2026, předpokládaná verze 6.2.48) jsme rozšířili podporu nových typů úhrad léčiv. Při vyúčtování nyní Galen nabízí nové typy úhrad a kontroluje, které lze pro daný přípravek použít; tomu byly přizpůsobeny i importy a exporty dávek.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

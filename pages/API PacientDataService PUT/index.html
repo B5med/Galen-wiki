@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>API PacientDataService PUT</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/39583745">
+<link rel="stylesheet" href="../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>API PacientDataService PUT</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/39583745">Source</a> · version 7 · updated 2025-06-11T13:29:08.983Z</small></p></header>
+<main>
+<div class="contentLayout2">
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<style type="text/css">/*<![CDATA[*/
+div.rbtoc1779282511047 {padding: 0px;}
+div.rbtoc1779282511047 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1779282511047 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style><div class="toc-macro rbtoc1779282511047">
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-Obecnéinformace">Obecné informace</a>
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-pohlavi">pohlavi</a></li>
+<li><a href="#APIPacientDataServicePUT-pojistovna">pojistovna</a></li>
+<li><a href="#APIPacientDataServicePUT-druhPojisteni">druhPojisteni</a></li>
+<li><a href="#APIPacientDataServicePUT-kodPojisteni">kodPojisteni</a></li>
+<li><a href="#APIPacientDataServicePUT-Obecnálogika">Obecná logika</a></li>
+</ul>
+</li>
+<li><a href="#APIPacientDataServicePUT-Pacient">Pacient</a>
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-Povinnéúdajeprovytvořeníkartypacienta">Povinné údaje pro vytvoření karty pacienta</a></li>
+<li><a href="#APIPacientDataServicePUT-Založenínovékartypacienta/aktualizacestávající">Založení nové karty pacienta/aktualizace stávající</a></li>
+</ul>
+</li>
+<li><a href="#APIPacientDataServicePUT-Návštěva">Návštěva</a>
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-Povinnéúdajeprovytvořenínávštěvy">Povinné údaje pro vytvoření návštěvy</a></li>
+<li><a href="#APIPacientDataServicePUT-Založenínovénávštěvy/aktualizacestávající">Založení nové návštěvy/aktualizace stávající</a></li>
+</ul>
+</li>
+<li><a href="#APIPacientDataServicePUT-Anamnéza">Anamnéza</a>
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-Povinnéúdajeprovytvořeníanamnézy">Povinné údaje pro vytvoření anamnézy</a></li>
+<li><a href="#APIPacientDataServicePUT-Založenínovéanamnézy/aktualizacestávající">Založení nové anamnézy/aktualizace stávající</a></li>
+</ul>
+</li>
+<li><a href="#APIPacientDataServicePUT-Příloha">Příloha</a>
+<ul class="toc-indentation">
+<li><a href="#APIPacientDataServicePUT-Povinnéúdajeprovytvořenípřílohy">Povinné údaje pro vytvoření přílohy</a></li>
+<li><a href="#APIPacientDataServicePUT-Založenínovépřílohy/aktualizacestávající">Založení nové přílohy/aktualizace stávající</a></li>
+</ul>
+</li>
+</ul>
+</div><h2 id="APIPacientDataServicePUT-Obecnéinformace">Obecné informace</h2><h3 id="APIPacientDataServicePUT-pohlavi">pohlavi</h3><p>Muz<br/>Zena<br/>Neuvedeno</p><h3 id="APIPacientDataServicePUT-pojistovna">pojistovna</h3><p>111 = Všeobecná zdravotní pojišťovna České republiky<br/>201 = Vojenská zdravotní pojišťovna České republiky<br/>205 = Česká průmyslová zdravotní pojišťovna<br/>207 = Oborová zdravotní pojišťovna zaměstnanců bank a pojišťoven<br/>209 = Zaměstnanecká pojišťovna ŠKODA<br/>211 = Zdravotní pojišťovna Ministerstva vnitra ČR<br/>213 = RBP, zdravotní pojišťovna<br/>333 = Pojišťovna VZP a.s.<br/>747 = MAXIMA<br/>777 = Slavia pojišťovna a.s.<br/>999 = Samoplátci</p><h3 id="APIPacientDataServicePUT-druhPojisteni">druhPojisteni</h3><p>Může nabývat hodnot</p><p>0 = Bez pojistného vztahu<br/>1 = Veřejné zdravotní<br/>2 = Smluvní připojištění<br/>4 = EU a mezinár. smlouvy</p><h3 id="APIPacientDataServicePUT-kodPojisteni">kodPojisteni</h3><p>A = 1A – Žadatel o mezinárodní ochranu (azyl)</p><p>C = 1C – Cizinec s trvalým pobytem</p><p>E = 1E – Osoba ze země EU pojištěná v ČR dle Nařízení</p><p>F = 1F – Nezaopatřený rodinný příslušník dle Nařízení</p><p>O = 1O – Občan ČR s trvalým pobytem</p><p>S = 1S – Zaměstnaný cizinec ze státu s MS (stát mimo EU mající smlouvu s ČR</p><p>Z = 1Z – Zaměstnaný cizinec ze země mimo EU</p><h3 id="APIPacientDataServicePUT-Obecnálogika">Obecná logika</h3><p>Pokud nezasílám parametr, který není povinný, obsah entity nebude změněn.</p><p style="margin-left: 30.0px;">Např. Pokud ve volání bude vynechán parametr adresaTrvalaPsc, nebude stávající hodnota změněna.</p><p>Pokud zasílám parametr, jehož hodnota se liší od stávající hodnoty, obsah entity bude změněn.</p><p style="margin-left: 30.0px;">Např. Pokud volám "adresaTrvalaUlice": "", bude obsah této entity smazán.</p><h2 id="APIPacientDataServicePUT-Pacient">Pacient</h2><p><code>{</code></p><p><code>cisloPojistence (string): Číslo pojištěnce ,</code></p><p><code>datumNarozeni (string): Datum narození (ddMMyyyy) ,</code></p><p><code>prijmeni (string): Příjmení ,</code></p><p><code>jmeno (string): Jméno ,</code></p><p><code>titul (string, optional): Titul před jménem ,</code></p><p><code>titulZa (string, optional): Titul za jménem ,</code></p><p><code>pohlavi (string): Pohlaví (Muz, Zena, Neuvedeno) ,</code></p><p><code>pojistovna (string): Kód aktuální pojišťovny ,</code></p><p><code>druhPojisteni (string): Druh pojištění ,</code></p><p><code>kodPojisteni (string, optional): Kód pojištění ,</code></p><p><code>email (string, optional): E-mail ,</code></p><p><code>telefon (string, optional): Telefon ,</code></p><p><code>adresaTrvalaUlice (string, optional): Ulice trvalé adresy ,</code></p><p><code>adresaTrvalaCisloOrientacni (string, optional): Číslo orientační trvalé adresy ,</code></p><p><code>adresaTrvalaCisloPopisne (string, optional): Číslo popisné trvalé adresy ,</code></p><p><code>adresaTrvalaCisloEvidencni (string, optional): Číslo evidenční trvalé adresy ,</code></p><p><code>adresaTrvalaObec (string, optional): Obec trvalé adresy ,</code></p><p><code>adresaTrvalaPsc (string, optional): PSČ trvalé adresy</code></p><p><code>}</code></p><h3 id="APIPacientDataServicePUT-Povinnéúdajeprovytvořeníkartypacienta">Povinné údaje pro vytvoření karty pacienta</h3></div>
+</div>
+</div>
+<div class="columnLayout two-equal" data-layout="two-equal">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>cisloPojistence</p><p>datumNarozeni</p><p>prijmeni</p><p>jmeno</p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>pohlavi</p><p>pojistovna</p><p>druhPojisteni</p><p>kodPojisteni </p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<ul><li><p>Pokud je pojišťovna = </p></li></ul><p style="margin-left: 30.0px;">111 = Všeobecná zdravotní pojišťovna České republiky<br/>201 = Vojenská zdravotní pojišťovna České republiky<br/>205 = Česká průmyslová zdravotní pojišťovna<br/>207 = Oborová zdravotní pojišťovna zaměstnanců bank a pojišťoven<br/>209 = Zaměstnanecká pojišťovna ŠKODA<br/>211 = Zdravotní pojišťovna Ministerstva vnitra ČR<br/>213 = RBP, zdravotní pojišťovna</p><p style="margin-left: 30.0px;">tak druhPojisteni = 1 a kodPojisteni musí být vyplněn NEBO druhPojisteni = 4 a kodPojisteni nesmí být vyplněn.</p><ul><li><p>Pokud je pojišťovna = </p></li></ul><p style="margin-left: 30.0px;">333 = Pojišťovna VZP a.s.<br/>747 = MAXIMA<br/>777 = Slavia pojišťovna a.s.</p><p style="margin-left: 30.0px;">tak druhPojisteni = 2 a kodPojisteni nesmí být vyplněn.</p><ul><li><p>Pokud je pojišťovna = </p></li></ul><p style="margin-left: 30.0px;">999 = Samoplátci</p><p style="margin-left: 30.0px;">tak druhPojisteni = 0 a kodPojisteni nesmí být vyplněn.</p><h3 id="APIPacientDataServicePUT-Založenínovékartypacienta/aktualizacestávající">Založení nové karty pacienta/aktualizace stávající</h3><p>Pokud je zasláno číslo pojištěnce pacienta, které není dohledáno v databázi, je založena nová karta pacienta.</p><p>Pokud je dohledáno dané číslo pojištěnce v databázi, je stávající karta pacienta aktualizována.</p><p>Z toho vyplývá, že touto metodou není možné aktualizovat číslo pojištěnce pacienta, neboť by to vedlo k založení nové karty, nikoli k aktualizaci stávající.</p><h2 id="APIPacientDataServicePUT-Návštěva">Návštěva</h2><p><code>cisloPojistence (string): Číslo pojištěnce ,</code></p><p><code>datumCas (string): Datum a čas návštěvy (ddMMyyyyTHH:mm:ss) ,</code></p><p><code>typNavstevy (string): Typ návštěvy (Navsteva/Pristroj) ,</code></p><p><code>diagnozy (Array[string], optional): Diagnózy ,</code></p><p><code>nalez (string): Text nálezu ,</code></p><p><code>poznamka (string, optional): Poznámka ,</code></p><p><code>odpovednyLekarId (string): Odpovědný lékař</code></p><h3 id="APIPacientDataServicePUT-Povinnéúdajeprovytvořenínávštěvy">Povinné údaje pro vytvoření návštěvy</h3></div>
+</div>
+</div>
+<div class="columnLayout two-equal" data-layout="two-equal">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>cisloPojistence</p><p>datumCas </p><p>typNavstevy </p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>nalez </p><p>odpovednyLekarId </p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h3 id="APIPacientDataServicePUT-Založenínovénávštěvy/aktualizacestávající">Založení nové návštěvy/aktualizace stávající</h3><p>Stávající návštěvu není možné aktualizovat. Při provolání metody PUT je vždy založená nová návštěva bez ohledu na to, že u stejného pacienta je na stejném pracovišti již návštěva ke stejnému datu a času založena. </p><h2 id="APIPacientDataServicePUT-Anamnéza">Anamnéza</h2><p><code>{</code></p><p><code>cisloPojistence (string): Číslo pojištěnce,</code></p><p><code>osobniAnamneza (string, optional): Osobní anamnéza,</code></p><p><code>alergologickaAnamneza (string, optional): Alergologická anamnéza,</code></p><p><code>profesniAnamneza (string, optional): Profesní anamnéza,</code></p><p><code>cave (string, optional): CAVE,</code></p><p><code>kurak (string, optional): Kuřák (A – ano / N – ne / B – bývalý),</code></p><p><code>pocetCigaret (integer, optional): Cigaret za den,</code></p><p><code>krevniSkupina (string, optional): Krevní skupina (Ap – A Rh+ / Am – A Rh- / Bp – B Rh+ / Bm – B Rh- / Op – 0 Rh+ / Om – 0 Rh- / ABp – AB Rh+ / ABm – AB Rh- / A1p – A1 Rh+ / A1m – A1 Rh- / A2p – A2 Rh+ / A2m – A2 Rh- / A1Bp – A1B Rh+ / A1Bm – A1B Rh- / A2Bp – A2B Rh+ / A2Bm – A2B Rh-),</code></p><p><code>pozitivni (Array[string], optional): Pozitivní (HIV, HBsAg, BWR, HCV, TBC),</code></p><p><code>demence (string, optional): Demence (BezDemence – Bez demence / KognitivniPorucha – Kognitivní porucha / KognitivniDeficitZmenaOsobnosti – Kognitivní deficit, změna osobnosti / LehciDemece – Lehčí forma demence / StredneTezkaDemence – Středně těžká demence / TezkaDemence – Těžká demence),</code></p><p><code>kategoriePece (string, optional): Kategorie péče (V1 – 1 / V2 – 2 / V3 – 3 / V4 – 4 / V5 – 5 / V6 – 6),</code></p><p><code>mobilita (string, optional): Mobilita (Mobilni – Mobilní / NejistaChuze – Mobilní, nejistá chůze / CastecneMobilni – Částečně mobilní / Imobilni – Imobilní),</code></p><p><code>inkontinence (boolean, optional): Inkontinence,</code></p><p><code>ridicskyPrukaz (boolean, optional): Řidičský průkaz,</code></p><p><code>zbrojniPrukaz (boolean, optional): Zbrojní průkaz</code></p><p><code>}</code></p><h3 id="APIPacientDataServicePUT-Povinnéúdajeprovytvořeníanamnézy">Povinné údaje pro vytvoření anamnézy</h3><p>cisloPojistence </p><h3 id="APIPacientDataServicePUT-Založenínovéanamnézy/aktualizacestávající">Založení nové anamnézy/aktualizace stávající</h3><p>Anamnéza se vztahuje k pacientovi bez vazby na konkrétní pracoviště.</p><p>Anamnéza se verzuje k datu, nikoli k datu a času. To znamená, že v případě první aktualizace daný den je automaticky založená verze anamnézy platná od daného data. V případě další aktualizace stejný den se jedná o editaci téže verze anamnézy. </p><p>Při editaci je potřeba vždy zaslat stávající text, který má být ponechán a k němu přidat nový text. Pokud by byl v rámci aktualizace zaslán pouze nový text, původní text bude dostupný pouze ve starších verzích anamnézy a bude tak považován za aktuálně neplatný.</p><h2 id="APIPacientDataServicePUT-Příloha">Příloha</h2><p><code>{</code></p><p><code>datum (string): Datum (ddMMyyyy),</code></p><p><code>nazevPrilohy (string): Název přílohy,</code></p><p><code>nazevSouboru (string): Název souboru,</code></p><p><code>poznamka (string, optional): Poznámka,</code></p><p><code>cisloPojistence (string): Číslo pojištěnce,</code></p><p><code>icpPracoviste (string): IČP pracoviště,</code></p><p><code>nazevPracoviste (string): Název pracoviště</code></p><p><code>}</code></p><h3 id="APIPacientDataServicePUT-Povinnéúdajeprovytvořenípřílohy">Povinné údaje pro vytvoření přílohy</h3></div>
+</div>
+</div>
+<div class="columnLayout two-equal" data-layout="two-equal">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>datum </p><p>nazevPrilohy </p><p>nazevSouboru </p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>cisloPojistence </p><p>OdpovednyLekarId</p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h3 id="APIPacientDataServicePUT-Založenínovépřílohy/aktualizacestávající">Založení nové přílohy/aktualizace stávající</h3><p>Touto metodou je možné zakládat nové přílohy. Není možné již zaslanou přílohu nahradit za jiný soubor. Odeslané přílohy není možné smazat (smazat je možné smazat přímo v aplikaci, nikoli přes API).</p></div>
+</div>
+</div>
+</div>
+</main>
+</body>
+</html>

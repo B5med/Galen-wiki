@@ -1,0 +1,104 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Předepisující mají volitelnou možnost získávat z centrálního úložiště elektronických poukazů (CÚeP) ke svým předpisům informaci o vydávajícím a případně o konkrétních vydaných zdravotnických prostředcích. Při zapnutí možnosti stahování výdejů v AIS Galen se budou změny ve výdejích, které proběhly během daného dne, stahovat vždy v následujících nočních hodinách.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ve Správě organizace, v UI konfiguraci vybraného pracoviště zapněte parametr Zjišťování stavu ePoukazu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 366,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 366,
+            "alt": "image-20250623-101705.png",
+            "id": "87ce575b-fceb-47cc-8167-a32421294d8a",
+            "collection": "contentId-53084213",
+            "type": "file",
+            "height": 339
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po stáhnutí výdeje se ve formuláři daného ePoukazu zobrazí sekce Výdeje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 472,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 472,
+            "alt": "image-20250623-101718.png",
+            "id": "a557a836-8b19-4aa5-bd68-8192fcd83b26",
+            "collection": "contentId-53084213",
+            "type": "file",
+            "height": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

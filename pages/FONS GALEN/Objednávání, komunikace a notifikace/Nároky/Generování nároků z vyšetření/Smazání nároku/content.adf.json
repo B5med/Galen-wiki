@@ -1,0 +1,54 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s rolí Správce může ručně smazat nároky nad zvolenou definici.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tímto způsobem se nároky smažou hromadně pro všechny pacienty, kdy správce definuje rozsah smazání nároků – pro celou společnost nebo pro pracoviště. Dále je možné zvolit smazání nároků, pro které již byla odeslána nějaká notifikace nebo pro které existuje vazba na objednávku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 353,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 353,
+            "alt": "image-20250710-123300.png",
+            "id": "1c9b107b-a8e7-40b4-9127-558f1c81b730",
+            "collection": "contentId-68517932",
+            "type": "file",
+            "height": 145
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po hromadném smazání nároků je vygenerován soubor obsahující nároky, které byly smazány včetně jejich popisu.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

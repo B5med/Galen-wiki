@@ -1,0 +1,111 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "30680d24-2f4a-4c81-a194-28d272e9ce69"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b6db63ca-5615-4c60-a7ec-d19df3a1471e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "02ef9541-11ad-429c-bc62-ad3bedfc5af5"
+              },
+              "content": [
+                {
+                  "text": "Tlačítko má nově text: ",
+                  "type": "text"
+                },
+                {
+                  "text": "+ Kód 99999XX",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8871c9b9-9603-4a6a-aa2c-9cc47025e5b9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "54965f9a-53a9-46ba-b3ed-eed9be708481"
+              },
+              "content": [
+                {
+                  "text": "Po kliknutí se doplní „99999XX“, uživatel musí doplnit číselné XX.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9256af05-990c-4c2d-8658-83234883020b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4ce504ce-e62c-45d7-83e0-b4a048f40341"
+              },
+              "content": [
+                {
+                  "text": "Pokud kód není číselný nebo vyplnění → hláška: „Vyplňte prosím pole Kód.“",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1140,
+            "alt": "image-20251128-111838.png",
+            "id": "778d37e1-9617-48e5-b6bd-28e0b058330c",
+            "collection": "contentId-173146115",
+            "type": "file",
+            "localId": "c709a451-9752-4964-be57-e186d33becec",
+            "height": 194
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "deeb8583-7be2-4033-83fe-a66e2dfaed1b"
+      }
+    }
+  ],
+  "version": 1
+}

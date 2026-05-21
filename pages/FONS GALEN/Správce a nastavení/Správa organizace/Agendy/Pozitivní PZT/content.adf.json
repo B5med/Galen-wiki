@@ -1,0 +1,82 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "d192bb4b-31e1-4ed9-8ab0-b2ac0275cd81"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "f61e66c7-6ae2-4fd6-bfda-60aa4a331a3e"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tento nástroj slouží správcům společnosti k tomu, aby označili lékařům v ordinacích, které PZT z číselníku mají prioritně předepisovat. Jestliže správce společnosti dle číselníku vyplní u zvoleného PZT jeho výrobce a kategorizaci (sloupce v číselníku, který je nahraný v IS Galen), uživateli se při výběru PZT z číselníku (např. Při předepisování poukazu na ortopedickou pomůcku) ve sloupci Preferované objeví červené +, které určuje prioritní předepsání tohoto PZT. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1100,
+            "alt": "image-20250618-123744.png",
+            "id": "146d6d2e-88b1-46cb-8a23-2a602dde4cd1",
+            "collection": "contentId-48136310",
+            "type": "file",
+            "height": 585
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1352,
+            "alt": "image-20250618-123801.png",
+            "id": "8bd21a42-f62a-4aba-a363-bc9a0203a020",
+            "collection": "contentId-48136310",
+            "type": "file",
+            "height": 704
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

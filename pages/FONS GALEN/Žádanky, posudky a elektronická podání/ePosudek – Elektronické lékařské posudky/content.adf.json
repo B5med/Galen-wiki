@@ -1,0 +1,1540 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d0c23f8a30e8"
+      },
+      "content": [
+        {
+          "text": "Modul ",
+          "type": "text"
+        },
+        {
+          "text": "ePosudek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje vystavovat, odesílat a spravovat elektronické lékařské posudky v souladu s požadavky systému ",
+          "type": "text"
+        },
+        {
+          "text": "ELP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (Elektronické lékařské posudky) provozovaného NCEZ / MZ ČR. Odesílání posudků probíhá přes zabezpečené spojení (HTTPS/TLS, OAuth 2.0) s použitím systémového certifikátu PZS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "23dd73a77598"
+      },
+      "content": [
+        {
+          "text": "Přehled typů posudků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "12efb8c7f683"
+      },
+      "content": [
+        {
+          "text": "Každý typ posudku je popsán v samostatné podstránce:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "children",
+        "parameters": {
+          "macroParams": {
+            "all": {
+              "value": "true"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "b16447c3-eb39-4e1d-ad68-f923862762c8"
+            },
+            "schemaVersion": {
+              "value": "2"
+            },
+            "title": "Podřazené stránky"
+          }
+        },
+        "localId": "72fec4242498"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8f6c6fa16370"
+      },
+      "content": [
+        {
+          "text": "Nastavení před prvním použitím",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "83d8d4f35c85"
+      },
+      "content": [
+        {
+          "text": "Toto nastavení platí pro ",
+          "type": "text"
+        },
+        {
+          "text": "všechny typy posudků",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "4d15d2ec618e"
+      },
+      "content": [
+        {
+          "text": "1. Certifikát PZS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "16a9980cf92a"
+      },
+      "content": [
+        {
+          "text": "PZS musí mít platný systémový autentizační certifikát vydaný Certifikační autoritou MZ ČR (",
+          "type": "text"
+        },
+        {
+          "text": "EZCA II",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "ezca-ez.csez.cz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": "). Více informací zde: ",
+          "type": "text"
+        },
+        {
+          "type": "inlineCard",
+          "attrs": {
+            "localId": "5c6fcc1f48cc",
+            "url": "https://stapro-galen.atlassian.net/wiki/pages/resumedraft.action?draftId=377421825&draftShareId=e6682cc9-dd8d-4164-affe-78efdbf32414&atlOrigin=eyJpIjoiNjFiNmY0Njc1M2NjNGJjZWIxZDhmMjliZmFlNGE2ZTUiLCJwIjoiYyJ9"
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "185e8ef9a8e3"
+      },
+      "content": [
+        {
+          "text": "Správa → Struktura → [název organizace] → Certifikát PZS → Nastavit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "c927e0c908e2"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8f7142e7bfdb"
+          },
+          "content": [
+            {
+              "text": "Bez platného certifikátu PZS není možné posudky odesílat do registru ELP. Podrobnosti o získání certifikátu EZCA II najdete v dokumentaci na stránkách MZ ČR.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "cd09ece22250"
+      },
+      "content": [
+        {
+          "text": "2. Číslo KRZP (alternativně NRZP) lékaře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "681a3d2667c7"
+      },
+      "content": [
+        {
+          "text": "Každý lékař vystavující posudky musí mít v systému vyplněné číslo KRZP(NRZP) – identifikátor v Registru zdravotnických pracovníků.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b83dc0811c97"
+      },
+      "content": [
+        {
+          "text": "Správa → Uživatelé → [detail uživatele] → Číslo KRZP → Ověřit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260424-090251.png",
+            "id": "04e802de-3520-4452-85a9-db3f24b95f04",
+            "collection": "contentId-359006213",
+            "type": "file",
+            "localId": "28e32c96e310",
+            "height": 1028
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "1725cf76caae"
+          },
+          "content": [
+            {
+              "text": "Číslo KRZP uživatele",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8f773258d78f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "053590772a5a"
+      },
+      "content": [
+        {
+          "text": "Přístup k modulu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "71fa6acb7654"
+      },
+      "content": [
+        {
+          "text": "Karta pacienta → ikona eFormulář → ePosudek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "00f639a6fe83"
+      },
+      "content": [
+        {
+          "text": "Popis okna ePosudku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "fb05cbe3acc9"
+      },
+      "content": [
+        {
+          "text": "Nástrojová lišta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "3b18147c9153"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4dc9936be160"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aa1a94d8fa6b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "859c2df44bc3"
+                  },
+                  "content": [
+                    {
+                      "text": "Tlačítko",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ecad78fcc93a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6e9e678351f5"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ff7e80a1918c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e2b81be3d022"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0fc498cd49d4"
+                  },
+                  "content": [
+                    {
+                      "text": "Nový",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a0e52d5d5ff0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4de4e9e2dcf1"
+                  },
+                  "content": [
+                    {
+                      "text": "Otevře dialog pro vytvoření nového posudku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "75ae62a9e5ed"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "46e2d7b8a366"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a13e2c879cd5"
+                  },
+                  "content": [
+                    {
+                      "text": "Kopie",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0da2a6832e94"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e72d02de7da5"
+                  },
+                  "content": [
+                    {
+                      "text": "Vytvoří opakovaný posudek na základě vybraného záznamu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2a9550c2098e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ddebe97dc6cf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "03eb1fe58768"
+                  },
+                  "content": [
+                    {
+                      "text": "Uložit",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e1a744221fb1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0886fd031648"
+                  },
+                  "content": [
+                    {
+                      "text": "Uloží posudek lokálně v IS Galen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3a33bb9586be"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2bd0388daf61"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "46d946a7e252"
+                  },
+                  "content": [
+                    {
+                      "text": "Odeslat",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9c2539db8405"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2267df076f82"
+                  },
+                  "content": [
+                    {
+                      "text": "Odešle posudek do systému ELP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f5dd22159a89"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "48d7c2fdb83a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "da1912ec40ea"
+                  },
+                  "content": [
+                    {
+                      "text": "Export",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9ff8e0d9a0b8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cade02a0ed57"
+                  },
+                  "content": [
+                    {
+                      "text": "Exportuje PDF posudku – nabízí možnosti odeslání, uložení nebo otevření",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "84c5b363d831"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4177f191a51f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "97dfbb204577"
+                  },
+                  "content": [
+                    {
+                      "text": "Zpět",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "791d03020497"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "73315bd5e28b"
+                  },
+                  "content": [
+                    {
+                      "text": "Zavře formulář",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260424-090859.png",
+            "id": "5d07907f-2e20-4799-84ca-5cbcc550fcd3",
+            "collection": "contentId-359006213",
+            "type": "file",
+            "localId": "6f33b11dae5f",
+            "height": 1031
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "d4a6fd4a0ab0"
+          },
+          "content": [
+            {
+              "text": "Okno ePosudku",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5c445898cba"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0d4f40210e52"
+      },
+      "content": [
+        {
+          "text": "Záložky přehledu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "302984b21ccf"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "dd0bddd7a806"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3fda3667778b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5aba51d64d0f"
+                  },
+                  "content": [
+                    {
+                      "text": "Záložka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "43e5877c05e8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1fa99f70837c"
+                  },
+                  "content": [
+                    {
+                      "text": "Obsah",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d6b5f4f9dd34"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e9222fcdc8cc"
+                  },
+                  "content": [
+                    {
+                      "text": "Sloupce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "90fc0083f7d9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f0edcbfc1ecb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "05035c2de0ae"
+                  },
+                  "content": [
+                    {
+                      "text": "Vedené v IS Galen",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e9b973b60e22"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d96dd43e0947"
+                  },
+                  "content": [
+                    {
+                      "text": "Posudky vystavené tímto IS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "51e6120cb400"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2a89d7424ccc"
+                  },
+                  "content": [
+                    {
+                      "text": "Datum vystavení, Typ posudku, Stav, Typ dokumentace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "dc83a81b521d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "63dbb1de9562"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "39e83103469d"
+                  },
+                  "content": [
+                    {
+                      "text": "Vedené mimo IS Galen",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1df532cf9843"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f93402684945"
+                  },
+                  "content": [
+                    {
+                      "text": "Posudky z ELP registru od jiného PZS – pouze ke čtení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "36a1b5bc5700"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f9309ff62065"
+                  },
+                  "content": [
+                    {
+                      "text": "Datum, Typ posudku, Stav, Název PZS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0c61d7cb8bc7"
+      },
+      "content": [
+        {
+          "text": "Volba ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazit zneplatněné záznamy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zahrne do přehledu i zneplatněné posudky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f3c61c28c263"
+      },
+      "content": [
+        {
+          "text": "Stavy posudku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e15a6f7ac860"
+      },
+      "content": [
+        {
+          "text": "Platí pro všechny typy posudků:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "ba900d1db21f"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c536641165de"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "385144a9f381"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b414bcebb9e4"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "53645576f44d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "582476266dc2"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "aa2afde3938e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "10682a220b13"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "28fd64288b4f"
+                  },
+                  "content": [
+                    {
+                      "text": "Připravovaný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "967fa48dd9f8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d7e4e940c6a8"
+                  },
+                  "content": [
+                    {
+                      "text": "Uložen lokálně v IS Galen, nebyl dosud odeslán do ELP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e372bf465e8b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "92667d2517a5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c07d7f3768f3"
+                  },
+                  "content": [
+                    {
+                      "text": "Platný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2ab3e8e78aa4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "df819e1be553"
+                  },
+                  "content": [
+                    {
+                      "text": "ELP potvrdil; posudek je platný, lze zobrazit a exportovat PDF",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "32a73a73bf27"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e8ec44175136"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aef21df9b4fb"
+                  },
+                  "content": [
+                    {
+                      "text": "Částečně znepl.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3aa73732d399"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "30b6298f96e8"
+                  },
+                  "content": [
+                    {
+                      "text": "V rámci jednoho podání byly vytovřeny posudky pro skupinu 1 a skupinu 2. Zneplatněn byl pouze jeden posudek.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "41e9719aa931"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1718d16438f0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c4c6240c512e"
+                  },
+                  "content": [
+                    {
+                      "text": "Zneplatněný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1ff858c839ca"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c666d824513"
+                  },
+                  "content": [
+                    {
+                      "text": "Zneplatněn v ELP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fd428cb28538"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1574cd91ecb2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c288e904232"
+                  },
+                  "content": [
+                    {
+                      "text": "Neplatný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e0ebfff02986"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "479546561b46"
+                  },
+                  "content": [
+                    {
+                      "text": "Zamítnut nebo jinak neplatný",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "032b99307cef"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a5d7710fbd2d"
+          },
+          "content": [
+            {
+              "text": "PDF posudku lze zobrazit a exportovat pouze pro posudky ve stavu ",
+              "type": "text"
+            },
+            {
+              "text": "Platný",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " s platným datem platnosti.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1759,
+            "alt": "obrazek-20260427-063725.png",
+            "id": "78bfde07-721d-4b02-8e42-3e55799f71ec",
+            "collection": "contentId-359006213",
+            "type": "file",
+            "localId": "25d38ebe8481",
+            "height": 943
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "4abe47f57e42"
+          },
+          "content": [
+            {
+              "text": "ePosudek",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e6b4fe9ad9e1"
+      }
+    }
+  ],
+  "version": 1
+}

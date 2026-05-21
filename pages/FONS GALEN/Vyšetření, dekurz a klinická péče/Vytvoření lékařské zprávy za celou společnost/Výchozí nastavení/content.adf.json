@@ -1,0 +1,309 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vytvoření lékařské zprávy za celou společnost jsou nutná tato nastavení:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "A)     ",
+          "type": "text"
+        },
+        {
+          "text": "Zapnutí funkcionality konkrétnímu uživateli",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel s rolí Správce funkcionalitu zpřístupňuje jednotlivým uživatelům v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace -> Uživatelé -> detail konkrétního uživatele -> Zvláštní oprávnění -> checkbox Vytváření lékařské zprávy pro celou společnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 197,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 197,
+            "alt": "image-20250623-084408.png",
+            "id": "55510509-5844-4f63-ae29-9a332068fad2",
+            "collection": "contentId-53182468",
+            "type": "file",
+            "height": 48
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "B)     ",
+          "type": "text"
+        },
+        {
+          "text": "Vytvoření hlavičky pro zprávu za celou společnost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je potřeba, aby zpráva za celou společnost, měla hlavičku, je nutné tuto hlavičku vytvořit. Není možné použít hlavičku standardní lékařské zprávy, protože ta obsahuje údaje týkající se pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě Vyhlášky o zdravotnické dokumentaci č. 98/2012 Sb. musí dokumentace obsahovat:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zdravotnická dokumentace, s ohledem na rozsah poskytovaných zdravotních služeb, obsahuje údaje o zdravotním stavu pacienta a skutečnostech souvisejících s poskytováním zdravotních služeb pacientovi, a to",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "a) identifikační údaje poskytovatele, kterými jsou",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "jméno, popřípadě jména, příjmení poskytovatele,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "adresa místa poskytování zdravotních služeb v případě fyzické osoby,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "obchodní firma nebo název poskytovatele, adresa sídla nebo adresa místa podnikání v případě právnické osoby,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "identifikační číslo osoby, bylo-li přiděleno,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "název oddělení nebo obdobné části, je-li zdravotnické zařízení poskytovatele takto členěno (dále jen „oddělení zdravotnického zařízení“)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Údaje uvedené v bodech 1. a 5. budou automaticky doplněny k jednotlivým záznamům lékařské zprávy. Údaje v bodech 2., 3. a 4. by měly být uvedeny v hlavičce lékařské zprávy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hlavičku lékařské zprávy uživatel s rolí Správce předdefinuje v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje -> Šablony -> Záhlaví tisků ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "vytvoří novou položku typu „Lékařská zpráva za společnost“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 309,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 309,
+            "alt": "image-20250623-084530.png",
+            "id": "dac9f45d-fd13-4922-8f29-4e79903c285f",
+            "collection": "contentId-53182468",
+            "type": "file",
+            "height": 140
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

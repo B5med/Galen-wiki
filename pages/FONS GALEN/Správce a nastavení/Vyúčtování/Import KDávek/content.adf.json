@@ -1,0 +1,375 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Vyúčtování ->  Import KDavek ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 171,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 171,
+            "alt": "image-20250618-131627.png",
+            "id": "155688d6-8700-4947-89ef-30fd80a5139d",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 127
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přes Tlačítko Import KDavek v modulu Vyúčtování vkládáme KDavku obsahující vykázané výkony, tedy přesně takovou, jakou odesíláme do zdravotní pojišťovny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 150,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 150,
+            "alt": "image-20250618-131717.png",
+            "id": "bddba205-81ac-42aa-a359-ed0aff02a8c6",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zeleným + vlevo nahoře vytváříme nový import, klikem na modrou tužku editujeme stávající importovaný soubor a červeným mínusem lze označený naimprotovaný soubor smazat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Nový import KDavek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po stisku zeleného + se zobrazí okno, ve kterém vybíráme soubor s názvem např. KDAVKA.211, pokud se jedná o soubor zdravotní pojišťovny 211.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po vybrání správného souboru se zobrazí okno s obsahem vybraného souboru: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1141,
+            "alt": "image-20250618-131859.png",
+            "id": "0d841201-1186-4a41-962d-47a51b747c8f",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 432
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V tomto místě je vhodné zkontrolovat zejména fakt, zda se jedná o správné IČZ a IČP. Po této kontrole zvolíme tlačítko Importovat. Odtržení zvolených checkboxů lze některé položky z importu vyloučit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1139,
+            "alt": "image-20250618-131919.png",
+            "id": "47febfec-62b0-4207-aff4-5a92bb18f069",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 438
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po úspěšném, importu zvolíme tlačítko Aktivovat. Poté dochází ke kontrole a zobrazení nesouladů, které je nutné před aktivací upravit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1135,
+            "alt": "image-20250618-131936.png",
+            "id": "d12d5771-6e9d-4507-9a03-a7f317a35ce4",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 301
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vlevo před jménem pojištěnce je vždy uvedeno, zda je výkon pro import v pořádku označením zelenou „fajfkou“. V případě potřeby úpravy je před číslem pojištěnce vykřičník ve žlutém poli. Takový řádek je nutné označit a v pravém sloupci se zobrazí důvod problému. Takový výkon lze vyjmout z aktivace či úplně smazat z dávky. Po úpravách je nutné zvolit OK. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1141,
+            "alt": "image-20250618-131951.png",
+            "id": "4a40260a-a117-4df1-92ee-7d76f17fad7a",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 261
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po stisku OK se zobrazí okno, kde v levém horním rohu zvolíme tlačítko Dokončit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1131,
+            "alt": "image-20250618-132010.png",
+            "id": "54e92f53-1c6b-4ece-b838-f7d248ec8e39",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 353
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Import a aktivace importu nemusí být vždy zcela dokončeny. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "IS Galen eviduje tyto stavy Importovaných souborů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Rozpracovaný ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V průběhu aktivace ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktivovaný ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Uzavřený ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po dokončení Aktivace je import označen jako Aktivovaný. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 859,
+            "alt": "image-20250618-132032.png",
+            "id": "db74406b-b18e-4b38-9318-2d508c2a7f4d",
+            "collection": "contentId-75792496",
+            "type": "file",
+            "height": 86
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

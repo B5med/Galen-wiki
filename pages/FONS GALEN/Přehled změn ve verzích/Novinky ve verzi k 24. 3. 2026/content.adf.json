@@ -1,0 +1,460 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "ae4b9ccffc72"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "5e74bc898734"
+      },
+      "content": [
+        {
+          "text": "Konfigurace Info panelu pacienta přímo v Nástrojích",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dcaa721775e4"
+      },
+      "content": [
+        {
+          "text": "Nově můžete upravovat nastavení Info panelu pacienta přímo v modulu Nástroje vašeho pracoviště – bez nutnosti kontaktovat administrátora.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "de6cfa6ad097"
+      },
+      "content": [
+        {
+          "text": "Kde najdete nastavení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a91b05624124"
+      },
+      "content": [
+        {
+          "text": "Přejděte do: Pracoviště → Nástroje → Šablony → Zobrazení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "41092282be66"
+      },
+      "content": [
+        {
+          "text": "V nové záložce Zobrazení najdete položku Info panel pacienta. Kliknutím na ikonu tužky otevřete její konfiguraci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "93ac34ecf770"
+      },
+      "content": [
+        {
+          "text": "Jak to funguje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f9e79629db57"
+      },
+      "content": [
+        {
+          "text": "Nastavení je sdílené pro celé pracoviště – jakákoli změna, kterou provedete, se okamžitě projeví pro všechny uživatele. Zároveň platí, že konfigurace je vždy synchronizována se Správcem, takže změny provedené administrátorem se promítnou i do Nástrojů a naopak.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f4ca40361dc2"
+      },
+      "content": [
+        {
+          "text": "Jak funkci zpřístupnit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e1d5fd4ddef2"
+      },
+      "content": [
+        {
+          "text": "Záložka Zobrazení je ve výchozím stavu skrytá. Administrátor ji může povolit v: Správce → Správa organizace → Pracoviště → UI konfigurace → Info panel pacienta, kde zaškrtne volbu „Zobrazovat konfiguraci v modulu Nástroje pracoviště\".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7f9811fecd6d"
+      },
+      "content": [
+        {
+          "text": "PLS – Rozšíření práce s poskytovateli PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2d61cd7a421d"
+      },
+      "content": [
+        {
+          "text": "Systém nově podporuje filtrování a zobrazení údajů o poskytovateli PLS napříč moduly. Cílem je zjednodušit vyhledávání podle smluvního poskytovatele a zpřehlednit vazby mezi smlouvou, prohlídkami, službami a fakturací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "70a47de341ab"
+      },
+      "content": [
+        {
+          "text": "Modul Firmy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02305a0e46cb"
+      },
+      "content": [
+        {
+          "text": "Přidán nový filtr ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", který zobrazí pouze firmy s platnou smlouvou PLS u vybraného poskytovatele (platnost smlouvy zahrnuje dnešní datum nebo datum do není uvedeno).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d80512b559e5"
+      },
+      "content": [
+        {
+          "text": "Modul PLS Admin ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c170f27dca3c"
+      },
+      "content": [
+        {
+          "text": "Přidán filtr ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zobrazující prohlídky navázané na firmy s evidovanou smlouvou PLS u vybraného poskytovatele – zahrnuje i neplatné smlouvy pro zachování kompletní historie. Filtr funguje obousměrně (reversní filtr): výběrem poskytovatele se zobrazí firmy a jejich prohlídky, výběrem firmy se zobrazí její poskytovatel PLS. Přidán nový sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b357d61ceb44"
+      },
+      "content": [
+        {
+          "text": "Modul PLS Admin Služby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3bfc2a6d20ad"
+      },
+      "content": [
+        {
+          "text": "Analogicky k PLS Admin – přidán filtr ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (evidované smlouvy včetně neplatných), reversní filtr a nový sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "646b72d8e230"
+      },
+      "content": [
+        {
+          "text": "Modul PLS Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c7ebbe2e794c"
+      },
+      "content": [
+        {
+          "text": "Přidán nový sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (umístění: mezi sloupci „Popis\" a „Podřízená společnost\"). Doplněn filtr ",
+          "type": "text"
+        },
+        {
+          "text": "Poskytovatel PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " s možností zaškrtnutí ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyloučit poskytovatele\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – při zaškrtnutí zobrazí všechny položky kromě těch navázaných na vybraného poskytovatele. Filtr lze kombinovat s ostatními filtry modulu (logika AND).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cad5ace4d804"
+      },
+      "content": [
+        {
+          "text": "Nová metoda externího přístupu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "caf1270cb73b"
+      },
+      "content": [
+        {
+          "text": "Do socket JSON rozhraní (externí přístup) byla přidána nová metoda ",
+          "type": "text"
+        },
+        {
+          "text": "OpenPacientOrdinace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ". Umožňuje jedním klikem v externí aplikaci otevřít v FONS Galenu kartu pacienta přímo z ordinace, na které je uživatel aktuálně přihlášen – bez nutnosti pacienta ručně dohledávat.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

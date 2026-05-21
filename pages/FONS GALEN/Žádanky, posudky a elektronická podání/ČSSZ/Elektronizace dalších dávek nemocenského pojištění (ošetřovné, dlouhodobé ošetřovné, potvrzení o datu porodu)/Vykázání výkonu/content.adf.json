@@ -1,0 +1,121 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě úspěšného ",
+          "type": "text"
+        },
+        {
+          "text": "založení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "eDPN, Ošetřovného nebo Dlouhodobého ošetřovného",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je na pozadí automaticky vykázán výkon ",
+          "type": "text"
+        },
+        {
+          "text": "09550",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " s diagnózou, která je v dávce uvedena. V případě, že výkon není pro danou pojišťovnu nasmlouván, je uživatel o tom, že výkon nebude vykázán, informován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě úspěšného ",
+          "type": "text"
+        },
+        {
+          "text": "ukončení ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": "eDPN, Ošetřovného nebo Dlouhodobého ošetřovného",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je na pozadí automaticky vykázán výkon ",
+          "type": "text"
+        },
+        {
+          "text": "09551",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " s diagnózou, která je v dávce uvedena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V případě, že výkon není pro danou pojišťovnu nasmlouván, je uživatel o tom, že výkon nebude vykázán, informován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U ošetřovného se v rámci formuláře nezadává diagnóza. Diagnóza, se kterou výkon bude vykázán, bude dotažena z návštěvy, která bude na daném pracovišti odpovídat datu vystaveno dne/ rozhodnuto dne. Před zadáním vzniku nebo ukončení ošetřovného je tak nutné na daném pracovišti nejdříve vytvořit návštěvu s alespoň jednou diagnózou (s výkonem bude vykázána diagnóza, která je zadána jako první).",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

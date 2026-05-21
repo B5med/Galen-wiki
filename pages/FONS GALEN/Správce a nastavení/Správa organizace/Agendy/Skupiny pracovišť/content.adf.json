@@ -1,0 +1,174 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vytvoření, editace a smazání skupiny pracovišť: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> Skupiny pracovišť",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 33.33
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "align-start",
+                "width": 173,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 173,
+                    "alt": "image-20250618-124017.png",
+                    "id": "5859f38f-70bf-424a-a707-15a78cb00e0a",
+                    "collection": "contentId-75694112",
+                    "type": "file",
+                    "height": 65
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 66.66
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Zeleným + přidáváme novou skupiny pracovišť, u které zadáváme název a kód.  Pro smazání již nastavené skupiny pracovišť zvolíme červené –. Modrá tužka slouží k možnosti editace již vytvořené skupiny pracovišť. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1144,
+            "alt": "image-20250618-124112.png",
+            "id": "a794bab5-5d28-4251-8691-53b06ea170f6",
+            "collection": "contentId-75694112",
+            "type": "file",
+            "height": 322
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vytvořené skupiny pracovišť lze přidělit přímo k jednotlivým pracovištím: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> rozbalit strukturu -> označit vybrané pracoviště -> v pravém sloupci vybereme skupiny pracovišť, ke kterým dané pracoviště přiřadíme. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 665,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 665,
+            "alt": "image-20250618-124128.png",
+            "id": "b436a8bc-71e2-46d6-af39-ce632cca6f3c",
+            "collection": "contentId-75694112",
+            "type": "file",
+            "height": 298
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Skupiny kalendářů vybírá uživatel při objednávání pacientů po volbě Všechna pracoviště. Uživatel společnosti s velkým počtem pracovišť má proto možnost zvolit skupinu pracovišť, aby viděl pouze kalendáře dané skupiny pracovišť. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 860,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1148,
+            "alt": "image-20250618-124143.png",
+            "id": "bc2ee78c-7718-4d56-8314-7d178ef0c55b",
+            "collection": "contentId-75694112",
+            "type": "file",
+            "height": 232
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

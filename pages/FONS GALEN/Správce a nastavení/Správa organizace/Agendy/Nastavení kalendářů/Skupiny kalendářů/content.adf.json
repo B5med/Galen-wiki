@@ -1,0 +1,311 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V ordinaci při objednávání pacientů lze zvolit skupiny skupinu kalendářů, které se zobrazí jako aktivní sloupce polí pro objednávání pacientů. Chceme-li zobrazit i jiný kalendář, je potřeba zaškrtnout checkbox před názvem zvoleného kalendáře. Poté se zobrazí další sloupec polí pro objednávání do zvoleného kalendáře. Stejným způsobem může uživatel odstranit nežádaný sloupec (kalendář) z výběru k objednání pacientů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 756,
+            "alt": "image-20250722-134000.png",
+            "id": "6d553f18-be8d-4802-b063-9893fbbc1015",
+            "collection": "contentId-77332490",
+            "type": "file",
+            "height": 248
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nastavení skupin kalendářů:",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> Kalendáře -> Skupiny kalendáře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 756,
+            "alt": "image-20250722-134016.png",
+            "id": "0d07beff-6d4a-447c-a343-45b12dbe1263",
+            "collection": "contentId-77332490",
+            "type": "file",
+            "height": 326
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Skupině přiřadíme zvolené kalendáře:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 310,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 310,
+            "alt": "image-20250722-134029.png",
+            "id": "2bce3dc1-972c-4634-8424-552f66608beb",
+            "collection": "contentId-77332490",
+            "type": "file",
+            "height": 469
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V ordinaci při objednávání pacientů může uživatel zvolit skupiny skupinu kalendářů, které se zobrazí jako aktivní sloupce polí pro objednávání pacientů. Chceme-li zobrazit i jiný kalendář, je potřeba zaškrtnout checkbox před názvem zvoleného kalendáře. Poté se zobrazí další sloupec polí pro objednávání do zvoleného kalendáře. Stejným způsobem může uživatel odstranit nežádaný sloupec (kalendář) z výběru k objednání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na konkrétním kalendáři je možné nastavit:",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Volné dny",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Lze nastavit volno na celý den nebo pouze vybraný čas.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 756,
+            "alt": "image-20250722-134317.png",
+            "id": "a6a0fdc5-05ea-4438-bde2-2c5a7d7ce030",
+            "collection": "contentId-77332490",
+            "type": "file",
+            "height": 164
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ordinační hodiny",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Ordinační hodiny kalendáře se zakládají dvojklikem do konkrétního dne a času. Nastavený blok je možné posuvníkem zkrátit nebo prodlužit.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Dvojklikem na již založenou ordinační dobu je možné nastavit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 756,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 756,
+            "alt": "image-20250722-134333.png",
+            "id": "4f6cabde-98ab-4fe6-8801-4208e52da3ec",
+            "collection": "contentId-77332490",
+            "type": "file",
+            "height": 267
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Název bloku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", který se zobrazí v kalendáři",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Provozovnu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " daného bloku",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživatele daného bloku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (do bloku mohou objednávat všichni uživatelé, jméno lékaře se může využít při vytváření šablony notifikace)",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Blok CC",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se používá při napojení kalendáře na call centrum",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Veřejný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje, že je možné se do tohoto bloku objednat online",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Povolené typy objednávek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definují, na které typy objednávek je možné da daného bloku objednávat",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

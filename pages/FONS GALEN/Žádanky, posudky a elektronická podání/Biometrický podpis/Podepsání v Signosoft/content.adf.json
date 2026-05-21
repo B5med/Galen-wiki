@@ -1,0 +1,340 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0f8febce92dd",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "94b684550919"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8f25dc58ea90"
+              },
+              "content": [
+                {
+                  "text": "Uživatel otevře stránky Signosoft - ",
+                  "type": "text"
+                },
+                {
+                  "type": "inlineCard",
+                  "attrs": {
+                    "localId": "6d758219d6b3",
+                    "url": "https://app.signosoft.com/"
+                  }
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "923ea7bf93f3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dc974f24b801"
+              },
+              "content": [
+                {
+                  "text": "Uživatel se přihlásí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "229a6bbe0482"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0a361fbb397f"
+              },
+              "content": [
+                {
+                  "text": "Ze seznamu uživatel vybere dokument, který má být podepsán a stiskne tlačítko Podepsat.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "99e850c1bb08",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "daeabbff0eae"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "7ba6fbc23f80"
+                      },
+                      "content": [
+                        {
+                          "text": "Výběr je možný také dvojklikem.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1301,
+            "alt": "image-20260129-135702.png",
+            "id": "7fc5d548-2fb9-46af-9856-a713378378e4",
+            "collection": "contentId-247627788",
+            "type": "file",
+            "localId": "97eefc767c14",
+            "height": 442
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0f43805391e4",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "00e77d579ddf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c6298f775df6"
+              },
+              "content": [
+                {
+                  "text": "Pacient si dokument zkontroluje a podepíše.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "orderedList",
+              "attrs": {
+                "localId": "a6f0cf91976e",
+                "order": 1
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b1ba78a7d82f"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "eb72b944337c"
+                      },
+                      "content": [
+                        {
+                          "text": "Podpis se vkládá tak, že uživatel otevře podpisové okno.",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "mediaSingle",
+                      "attrs": {
+                        "layout": "center",
+                        "width": 557,
+                        "widthType": "pixel"
+                      },
+                      "content": [
+                        {
+                          "type": "media",
+                          "attrs": {
+                            "width": 557,
+                            "alt": "image-20260129-135948.png",
+                            "id": "046dfcbf-35b4-46ce-83a8-53e27931af10",
+                            "collection": "contentId-247627788",
+                            "type": "file",
+                            "localId": "5b5aec9672b4",
+                            "height": 445
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c868ee000178"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "c04195a25eb5"
+                      },
+                      "content": [
+                        {
+                          "text": "Podepíše se a potvrdí tlačítkem Potvrdit.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "7dcea9617caf"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "2f0eb3a55ad2"
+                      },
+                      "content": [
+                        {
+                          "text": "Pokud jsou vloženy všechny podpisy, zobrazí se informace o tom, že dokument je již podepsán a zda si uživatel přeje zůstat v náhledu",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "orderedList",
+                      "attrs": {
+                        "localId": "3364e3958ac5",
+                        "order": 1
+                      },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "8c52a8ca8ddb"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "4cf4ff5d49f5"
+                              },
+                              "content": [
+                                {
+                                  "text": "Ano - uživatel zůstává v náhledu; po opuštění náhledu je dokument odeslán zpět do FONS Galen",
+                                  "type": "text"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "92a18be8ae95"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "c61696474fb6"
+                              },
+                              "content": [
+                                {
+                                  "text": "Ne - uživatel je přesměrován na seznam dokumentů k podpisu a následně je dokument odeslán zpět do FONS Galen",
+                                  "type": "text"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "mediaSingle",
+                              "attrs": {
+                                "layout": "center",
+                                "width": 580,
+                                "widthType": "pixel"
+                              },
+                              "content": [
+                                {
+                                  "type": "media",
+                                  "attrs": {
+                                    "width": 580,
+                                    "alt": "image-20260129-140128.png",
+                                    "id": "3c8c0eda-3cce-4f76-9df4-501c42806877",
+                                    "collection": "contentId-247627788",
+                                    "type": "file",
+                                    "localId": "99ddb04d13eb",
+                                    "height": 258
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d060e8f4802e"
+      },
+      "content": [
+        {
+          "text": "Podepsané dokumenty se zobrazují ve FONS Galen v dekurzu pacienta, ve formuláři a v historii v příloze.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

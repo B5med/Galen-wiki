@@ -1,0 +1,144 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 260,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 208,
+            "alt": "Snímka obrazovky 2026-04-30 121246.png",
+            "id": "294aead2-22be-4526-981e-00c88e3debec",
+            "collection": "contentId-399179778",
+            "type": "file",
+            "localId": "8885ff3a7527",
+            "height": 85
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c7b73fa07fc4"
+      },
+      "content": [
+        {
+          "text": "Modul ",
+          "type": "text"
+        },
+        {
+          "text": "Správa kartoték",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je dostupný v rámci role ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a slouží k centrální správě pacientských karet. Umožňuje rozšířené vyhledávání pacientů, importovat seznamy pojištěnců od zdravotních pojišťoven a slučovat duplicitní karty. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46df18be2a38"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9092f1ac6749"
+      },
+      "content": [
+        {
+          "text": "Vyhledání pacienta ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/76972053"
+              }
+            }
+          ]
+        },
+        {
+          "text": " (popsáno v sekci Karta pacienta a zdravotní dokumentace)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "30bce6f7eeb9"
+      },
+      "content": [
+        {
+          "text": "Import seznamu registrovaných pojištenců ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/46071809"
+              }
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9924b1678e77"
+      },
+      "content": [
+        {
+          "text": "Sloučení karet pacienta ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/399638530"
+              }
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

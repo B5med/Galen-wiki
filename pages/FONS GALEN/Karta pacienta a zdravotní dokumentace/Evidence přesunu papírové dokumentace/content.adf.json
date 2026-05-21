@@ -1,0 +1,117 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je zapnut nadstandardní modul „Evidence přesunu papírové dokumentace“, pak je možné evidovat přesun dokumentace v rámci jedné společnosti FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V kartě pacienta -> Historie je dostupná záložka Přesun dokumentace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zde je dostupná evidence přesunu a je zde také možnost zadat novou položku zeleným tl. Plus.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 303,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 303,
+            "alt": "image-20250917-080006.png",
+            "id": "4bfc2956-2441-4b4b-91e6-7c35fd19297e",
+            "collection": "contentId-120356875",
+            "type": "file",
+            "height": 189
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Datum = datum předání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Typ dokumentace = Kurativa nebo PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pracoviště = povinné pole",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Lékař = nabízí se seznam odpovědných lékařů výše vybraného pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poznámka = volitelné textové pole",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "K přehledu je zároveň pro uživatele s úrovní nahlížení statistik „Společnost“ dostupná statistika „Evidence přesunu papírové dokumentace“.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

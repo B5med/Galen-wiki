@@ -1,0 +1,706 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "347e43f1-e999-4592-af72-1fec4f43e1de"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "ea6ef41e-2bb5-48c9-a0f1-70d4ab02b54e"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4fe57300-327b-4db0-82a7-14bda1cec869"
+      },
+      "content": [
+        {
+          "text": "Sklad",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "85bdeddd-c9f4-44f7-9dee-25050cec636f"
+      },
+      "content": [
+        {
+          "text": "Modul Sklad je určen pro evidenci vakcín. Při očkování automaticky odepisuje vybranou vakcínu, do záznamu o očkování doplňuje šarži a datum expirace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "09791de5-de04-428a-901e-b9c98ca88b39"
+      },
+      "content": [
+        {
+          "text": " Nejdříve je však nutné vyplnit skladovou kartu této očkovací látky. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 954,
+            "alt": "image-20250618-105509.png",
+            "id": "d0c522ef-dc02-47c0-b9d0-5feca4702b66",
+            "collection": "contentId-48136251",
+            "type": "file",
+            "localId": "e4a52637-1aae-43cd-8074-6dfd4f26f7da",
+            "height": 184
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d26635a9-032e-40ac-9dfd-f624c9a99da6"
+      },
+      "content": [
+        {
+          "text": "Pro přidání nové očkovací látky je třeba kliknout na zelené plus. Objeví se formulář pro zadání očkovací látky:  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "839ded9c-e7d4-45a8-b815-9652d3ebc04a"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "b83632af-f371-4dae-908f-f6bbf8386149"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 635,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 635,
+                    "alt": "image-20250618-105527.png",
+                    "id": "59530170-e253-4ad3-a7db-c2a0d6c2a6fa",
+                    "collection": "contentId-48136251",
+                    "type": "file",
+                    "localId": "cf20434c-481f-4878-8a78-8d27ef5199cb",
+                    "height": 394
+                  }
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 325,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 325,
+                    "alt": "image-20250618-105612.png",
+                    "id": "7aa34584-ed2e-4629-aa76-82e0bbddaed5",
+                    "collection": "contentId-48136251",
+                    "type": "file",
+                    "localId": "2dd33164-366f-442b-9078-0780a2995626",
+                    "height": 81
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "ab395c3d-88fa-48a6-bccc-3b95e94ff1de"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3045f088-7c72-475c-846c-621b604b82de"
+              },
+              "content": [
+                {
+                  "text": "Očkovací látku lze vybrat ze seznamu, který se otevře po kliknutí do žlutého políčka. Ještě je nutné zadat počet dávek v balení a min. počet dávek. Tento počet udává, kdy má začít program upozorňovat, že je na skladě málo očkovací látky. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c84df0d-9aa5-4591-afcd-757f9f388263"
+              },
+              "content": [
+                {
+                  "text": "Poté, co je založená karta očkovací látky, je možné zadávat její jednotlivá balení kliknutím na tlačítko „Naskladnit – nová šarže“. Objeví se okno pro zadávání nového balení očkovací látky. Je nutné vyplnit kód SÚKL, šarži očkovací látky, typ, datum expirace (popř. upravit datum naskladnění) a počet balení.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1216,
+            "alt": "image-20250618-105630.png",
+            "id": "c845da9b-1966-4871-8ce7-1898b48087fa",
+            "collection": "contentId-48136251",
+            "type": "file",
+            "localId": "957574ca-a941-4fb3-961b-f89e58aa78da",
+            "height": 255
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "0f3f811b-4821-4fd3-b0b5-16a3fa8d274e"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "da296118-3f5f-4163-a1b4-e8fd269e8538"
+          },
+          "content": [
+            {
+              "text": "Typ ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "812bceee-ed11-4134-b654-a7f9d30b70c7"
+          },
+          "content": [
+            {
+              "text": "Volný prodej ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": "jsou očkovací látky, které nespadají do povinného očkování. Jedná se o volitelné očkování, které ale může pojišťovna plně nebo částečně hradit.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "393b702b-f897-4918-9f73-7a3f62238140"
+          },
+          "content": [
+            {
+              "text": "Látky hrazení státem (clearingové centrum)",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " zahrnuje očkovací látky, které metodika označuje jako povinné, resp. pravidelné očkování.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "26c5488b-8ff5-486f-94cb-1f64fe06daba"
+          },
+          "content": [
+            {
+              "text": "Zvláštní látky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " zahrnují očkování proti hepatitidě A, hepatitidě B, proti vzteklině a proti Covid-19 tak je je specifikuje ",
+              "type": "text"
+            },
+            {
+              "text": "Vyhláška o očkování proti infekčním nemocem",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "73abdc09-88d7-4753-a682-ea0be05cc0ac"
+          },
+          "content": [
+            {
+              "text": "č. 537/2006 Sb., konkrétně §9, §10 a §11.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "505c750a-55a1-4734-a5a8-1643b924842d"
+      },
+      "content": [
+        {
+          "text": "V případě, že není naskladňován celý balíček očkovací látky, je možné zadat i jiný počet dávek, než jsou v originálním balení. Políčko typ udává, zda je očkovací látka vykazována standardně na pojišťovnu nebo je hrazena mandatorně (státem). V případě, že se lékař překlepne v šarži látky nebo udělá nějakou jinou chybu, je možné očkovací látku smazat tlačítkem „Smazat nepoužitou šarži“. Toto tlačítko bude neaktivní ve chvíli, kdy již nějaká vakcína této šarže byla aplikována. Pokud bude třeba naskladnit další vakcíny stejné šarže, stačí kliknout na tlačítko „Naskladnit“ vedle názvu šarže. Naopak, pokud bude třeba z nějakého důvodu (např. prošlá expirace, rozbitá lednice,…) odstranit ze skladu vakcíny nějaké šarže, je třeba kliknout na tlačítko „Vyskladnit“. Toto tlačítko slouží k hromadnému vyskladnění očkovací látky. Po aplikaci očkovací látky pacientovi a zadání očkování do programu je příslušná vakcína rovnou ze skladu odepsána. Při kliknutí na danou šarži je vidět pohyb na její skladové kartě.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5c6c50d0-bc55-4722-aad4-74b165f864a7"
+      },
+      "content": [
+        {
+          "text": "Pozn. Aby bylo možné využívat sklad, je nutné ho mít povolen u uživatele v Organizační struktuře a nadefinován na pracovišti.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "f311e389-4394-446d-8ead-d8b658cad97c"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "5b5805e2-5415-4f6d-809c-7e766a834904"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2abb243c-90c1-4de4-8ecb-bdf5016d3a74"
+              }
+            },
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2,
+                "localId": "ea008b81-7aad-42da-ae10-f080522b04bc"
+              },
+              "content": [
+                {
+                  "text": "Příklad naskladnění Tetavaxu: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "60a634d7-f078-461f-8b85-54c08e3bb2b4"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2adcf3c8-433a-4d45-bbb4-c93f4cb58989"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "38ad24a5-a8f2-445f-a13a-89a688436e88"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a2e3cc02-e1bc-4925-b88b-1eaad4449379"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "51f374bb-a073-4fa9-982b-3027e8b6c89c"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5a50929b-393b-4662-a4c1-707bfc838c0d"
+              }
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "af03b245-8c6f-41dc-875a-194f76865212"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "eab070e7-5a9b-43b5-94a3-c90f15470f25"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "ea6639c0-6dcc-4385-8761-0516fa67add8"
+                      },
+                      "content": [
+                        {
+                          "text": "jako látku hrazenou státem ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1fa18bf7-1309-42e3-818d-b5f9caf65dcf"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "81dee430-47de-4606-aa91-402b1a4ae462"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5bae06c8-fdfc-4348-a088-0bcd4fe74272"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0a2aebab-4296-462c-b97a-6563b66ea765"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8be2194b-793f-451d-8814-6ecc5f7f61d7"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9551d104-d078-430d-84ed-7fa5833dbf54"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2171b953-26b6-476d-ae33-4ed5ca07285a"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4e31de22-1760-40bc-a335-4b765539af29"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "56562b46-3661-478b-8e18-8ae16e24d084"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3e3070d5-64e4-4022-84de-7d69f87c315e"
+              }
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "28ad4012-2fc6-448b-a353-9e7a60a901c1"
+              }
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "12125f50-6ccb-4090-b91a-34bd41ec560b"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8239bd1a-4a1f-4147-8b6e-bfc536c2e839"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "a1d61167-b195-47d2-8e97-7f6a2107e881"
+                      },
+                      "content": [
+                        {
+                          "text": "jako látku na volný prodej",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6dc389c2-f7a7-4be3-a7ac-520dd2efaa06"
+              }
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "c41cb7f4-4f2c-489f-9a6a-56be78a4efc4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6f3348e5-3425-46a4-9769-25d9c84d63ec"
+              }
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 356,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 636,
+                    "alt": "image-20250618-105717.png",
+                    "id": "7a7bdead-b003-44e1-a969-6331d6799204",
+                    "collection": "contentId-48136251",
+                    "type": "file",
+                    "localId": "0ac4c129-17f2-4363-8173-6d61b222a4b7",
+                    "height": 410
+                  }
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 356,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 517,
+                    "alt": "image-20250618-105822.png",
+                    "id": "ec5ced63-79d6-46a5-970f-9bf93fc65f69",
+                    "collection": "contentId-48136251",
+                    "type": "file",
+                    "localId": "e2a027e5-887e-4aa0-8786-c5a750075170",
+                    "height": 693
+                  }
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 356,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 519,
+                    "alt": "image-20250618-105911.png",
+                    "id": "3d8c4879-79ad-4e97-87fb-4a97e233991e",
+                    "collection": "contentId-48136251",
+                    "type": "file",
+                    "localId": "a385221c-1d19-4b67-8858-31f89c591f42",
+                    "height": 690
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "07b0264c-6cc4-4abb-a513-52d8aca7c3d9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ed16f8be-bbc3-430d-ae80-41e017e4185d"
+      },
+      "content": [
+        {
+          "text": "Máme-li naskladněnou očkovací látku na skladové kartě, lze s použitím této očkovací látky očkovat pacienty v kartotéce ve funkcionalitě Očkování na dolní modré liště. Během zadávání konkrétního očkování do záznamu pacienta se nabízí očkovací látka s označením počtu dávek naskladněné očkovací látky. Po dokončení evidence očkování pacienta v IS Galen se použitá dávka očkovací látky automaticky ze skladové karty odečte. Pokud lékař očkování u pacienta z nějakého důvodu smaže, očkovací látka se opět na skladovou kartu vrátí. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1215,
+            "alt": "image-20250618-105959.png",
+            "id": "f98292fe-447e-4e3e-b433-4244a69c8aef",
+            "collection": "contentId-48136251",
+            "type": "file",
+            "localId": "c0082d51-31fc-429b-b619-80fd79f1b620",
+            "height": 638
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "af1a8697-ef5d-4a4b-9e0b-6fb81accf721"
+      }
+    }
+  ],
+  "version": 1
+}

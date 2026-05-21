@@ -1,0 +1,354 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V modulu Nároky je třeba definovat nad kterou prohlídkou budou nároky vznikat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Definici zadává uživatel s oprávněním Správce v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nároky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20250710-122731.png",
+            "id": "57065f0f-2a9c-4a10-a368-049050c586a2",
+            "collection": "contentId-68517899",
+            "type": "file",
+            "height": 94
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po kliknutí na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "+ ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "se objeví okno, kde uživatel nadefinuje, jaké podmínky platí pro generovaní nároků na danou prohlídku a jejich splnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20250710-122747.png",
+            "id": "593f81fa-c635-4a4d-ae91-9a51815c8551",
+            "collection": "contentId-68517899",
+            "type": "file",
+            "height": 273
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Definice nároku se skládá z hlavičky definice a intervalu definice. Počet intervalů může být pod jednou hlavičkou více.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci hlavičky definice je nutné určit:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Definici prohlídky, z které se mají nároky generovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Název definice – přednastaví se název prohlídky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Následná prohlídka – když je definována, po vytvoření aktuální prohlídky (a splnění podmínek), je vytvořen nový nárok na následnou prohlídku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci intervalu definice je nutné určit:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Odbornost – nároky se budou tvořit jenom pro pacienty s danou odborností.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nemusí být vyplněno.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Věk od – minimální věk pacienta, aby mohl být nárok v rámci daného intervalu definice vytvořen/splněn.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Věk do – maximální věk pacienta, aby mohl být nárok v rámci daného intervalu definice vytvořen/splněn.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Interval",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o      Určuje minimální počet dní, který musí uběhnout mezi dvěma vytvořenými nároky v rámci stejné prohlídky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "o      Když má definice určenou následnou prohlídku, určuje minimální počet dní, který musí uběhnout mezi dvěma vytvořenými nároky v rámci aktuální prohlídky a následné prohlídky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tolerance splnění – určuje kolik dní předem je možné nárok splnit, před dosáhnutím jeho platnosti (splnění budoucího nároku).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Záměna za prohlídku – definuje která jiná prohlídka zastupuje aktuální prohlídku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "(zaměněná prohlídka vytváří a splní nároky podle aktuální definice).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Generování dosažením věku – když je zatrhnuté, budou se nároky pacientům generovat 1x v noci, při splnění podmínek v intervalu.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

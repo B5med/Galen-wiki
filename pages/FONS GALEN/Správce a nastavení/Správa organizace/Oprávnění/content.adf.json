@@ -1,0 +1,742 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "854e7e5bc552"
+      },
+      "content": [
+        {
+          "text": "Nahlížení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1129,
+            "alt": "image-20250618-113044.png",
+            "id": "9e844ddc-cd1a-4187-9203-e976e587a103",
+            "collection": "contentId-75628693",
+            "type": "file",
+            "localId": "0bde1059-f4ed-42af-8dd0-d2d2e450142e",
+            "height": 161
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a5f7369b-17f9-491a-a2e7-f89bd93efd7d"
+      },
+      "content": [
+        {
+          "text": "Ikona Oprávnění (Správce -> Správa organizace -> Oprávnění) umožňuje nastavit možnost nahlížení na dokumentaci mezi pracovišti. Nastavení tak umožní, aby uživatel na jednom pracovišti viděl (v režimu pro čtení) záznamy z jiného pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6d3c0985ab21"
+      },
+      "content": [
+        {
+          "text": "Pokud chceme, aby lékař mohl s kartotékou pracovat, musíme v Konfiguraci společnosti zaškrtnout možnost Sdílená kartotéka. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "82839d51a13d"
+      },
+      "content": [
+        {
+          "text": "Uživatel zvolí pracoviště, mezi kterými chce nastavit nahlížení na dokumentaci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1242,
+            "alt": "image-20260204-143814.png",
+            "id": "c82edc40-dfc2-466b-a916-0271487a470c",
+            "collection": "contentId-75628693",
+            "type": "file",
+            "localId": "2ccba78c3bb2",
+            "height": 342
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a858e32c85b"
+      },
+      "content": [
+        {
+          "text": "V tomto konkrétní příkladě pracoviště Gynekologie poskytuje svoje data pracovišti Diabetologie, tzn. Diabetologie uvidí záznamy z pracoviště Gynekologie. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "666903186abb"
+      },
+      "content": [
+        {
+          "text": "Avšak Gynekologie neuvidí záznamy z pracoviště Diabetologie, protože Diabetologie neposkytuje data.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 5,
+        "localId": "4e6e59e0841f"
+      },
+      "content": [
+        {
+          "text": "V rámci nahlížení jsou sdíleny záznamy tohoto typu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bd3e2dfde13e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a689ac1c5aab"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f975e76da95b"
+              },
+              "content": [
+                {
+                  "text": "Anamnéza–EZD – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7cee4ef744a9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c822e5248911"
+              },
+              "content": [
+                {
+                  "text": "Anamnéza–EZD – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "155b36727c3c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5f9cf76dae71"
+              },
+              "content": [
+                {
+                  "text": "ČSSZ – kurativa ČSSZ – PLS Dekurz – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8f352ea742c0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f4a7b50bda9c"
+              },
+              "content": [
+                {
+                  "text": "Dekurz – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "58423b14d783"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0cb4b340eef0"
+              },
+              "content": [
+                {
+                  "text": "ePoukaz – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b5632a666fd7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "741bed0c8156"
+              },
+              "content": [
+                {
+                  "text": "ePoukaz – PLS",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2d74f27d3b97"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "668c1742f4df"
+              },
+              "content": [
+                {
+                  "text": "Externí zpráva – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fe79a4019116"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9b559ab4b1b6"
+              },
+              "content": [
+                {
+                  "text": "Externí zpráva – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5caea5be64b7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "437cc4d7f917"
+              },
+              "content": [
+                {
+                  "text": "Foniatrie ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "96656acb0174"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6acc417cb9b8"
+              },
+              "content": [
+                {
+                  "text": "Formulář – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9e0be96673f5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "69be84d80b4f"
+              },
+              "content": [
+                {
+                  "text": "Formulář – PLS",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9d5fccbb7967"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "015ee095065b"
+              },
+              "content": [
+                {
+                  "text": "Laboratorní výsledky – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fd7cfe39b802"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e9e5eb8aa359"
+              },
+              "content": [
+                {
+                  "text": "Laboratorní výsledky – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6ac44fae1515"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "39a709b50787"
+              },
+              "content": [
+                {
+                  "text": "Lékařská zpráva – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "418d21a17ca9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d335cf292f38"
+              },
+              "content": [
+                {
+                  "text": "Lékařská zpráva – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f5137708afdf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "953c676860de"
+              },
+              "content": [
+                {
+                  "text": "Medikace – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4cffe6dc983e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5b5000fbd9f7"
+              },
+              "content": [
+                {
+                  "text": "Medikace – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1597e238f4af"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "01326f3fab6e"
+              },
+              "content": [
+                {
+                  "text": "Očkování – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b2e1c6774f24"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "129cb2abbf24"
+              },
+              "content": [
+                {
+                  "text": "Očkování – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f949829c2a10"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6f21e30ce6a9"
+              },
+              "content": [
+                {
+                  "text": "Příloha – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a0632727d681"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6c5f053bca40"
+              },
+              "content": [
+                {
+                  "text": "Příloha – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a4c074d77fe4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b0dfe047ffa5"
+              },
+              "content": [
+                {
+                  "text": "Vyšetření – kurativa ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "abaaade27146"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2de5f0584033"
+              },
+              "content": [
+                {
+                  "text": "Vyšetření – PLS ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "67f357184260"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1486566a2b93"
+              },
+              "content": [
+                {
+                  "text": "Žádanka zobrazovacích metod",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "c9b56136f48e"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3dcc18ed9c0f"
+          },
+          "content": [
+            {
+              "text": "Pokud uživatel na pracovišti nastavil ",
+              "type": "text"
+            },
+            {
+              "text": "Zákaz nahlížení",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                },
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/53018691/Anamn+za#Zak%C3%A1zat-nahl%C3%AD%C5%BEen%C3%AD"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ", tak dokumentace daného pacienta pro dané pracoviště není sdílena i přesto, že je zde dokumentace pracoviště nastavena jako sdílená.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1dd109220e59"
+      },
+      "content": [
+        {
+          "text": "Definovat jednotlivé moduly zvlášť",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3de5c3fb245f"
+      },
+      "content": [
+        {
+          "text": "Pokud uživatel zaškrtne checkbox ",
+          "type": "text"
+        },
+        {
+          "text": "Definovat jednotlivé moduly zvlášť",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", může specifikovat která dokumentace bude mezi pracovišti sdílena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1242,
+            "alt": "image-20260204-144210.png",
+            "id": "48be8c89-ac22-40bd-8d60-ae6bb90fdc93",
+            "collection": "contentId-75628693",
+            "type": "file",
+            "localId": "09c1b5dedad9",
+            "height": 560
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2414b56bd38f"
+      },
+      "content": [
+        {
+          "text": "V tomto případě bude pracoviště Gynekologie poskytovat pouze záznamy o vystavených dávkách ČSSZ a ePoukazech. Ostatní záznamy, jako např. dekurz, medikace a další poskytovány nebudou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3fc0734a21f2"
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,2303 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "91af6e77a1b0"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4bd59a061121"
+          },
+          "content": [
+            {
+              "text": "Toto API umožňuje externímu systému zapsat záznam návštěvy přímo do dekurzu pacienta.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ba46e00b2fdc"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2bdcff9e8602"
+      },
+      "content": [
+        {
+          "text": "Přístup vyžaduje platný Bearer token v hlavičce ",
+          "type": "text"
+        },
+        {
+          "text": "Authorization",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "d7ba6b53-90c0-4129-85e6-05c13e95859e"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Authorization: Bearer <token>",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b1d089f2-8061-403c-81ed-30cc2f5a56ca"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "427139964ec3"
+      },
+      "content": [
+        {
+          "text": "Obecné informace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1e9427510343"
+      },
+      "content": [
+        {
+          "text": "Formát datumu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a3be1faaec70"
+      },
+      "content": [
+        {
+          "text": "Pole ",
+          "type": "text"
+        },
+        {
+          "text": "datumCas",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": " používá formát ISO 8601:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "90370347-e09a-4ff9-b348-cc0040a63d2f"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "yyyy-MM-ddTHH:mm:ss",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0b7345c8687a"
+      },
+      "content": [
+        {
+          "text": "Příklad: ",
+          "type": "text"
+        },
+        {
+          "text": "2025-03-18T09:00:00",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "4ef72dd8-ea60-4bd7-a8d9-93840bcb55e3"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d172dc74df39"
+      },
+      "content": [
+        {
+          "text": "Hodnoty pole ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "typNavstevy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "1817107c-49d0-459e-8f8a-a9d95f16c812"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f2670ff7-cf16-4f12-9656-a41a0b203b1d"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c3b50cbf-6023-4d8d-8e17-da462c4cff7b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "17a2e272619a"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ac472284-0649-41dd-879b-a74148871e34"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e92c1581766d"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8d12e120-ca6f-44f7-bea1-17df9fea2cac"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "67351bab-c02a-49f1-a8df-da414a4e479a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33d6e624a122"
+                  },
+                  "content": [
+                    {
+                      "text": "Navsteva",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b939dfd2-8dd9-49cd-8cc9-260b146c06d8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a4f70dfba604"
+                  },
+                  "content": [
+                    {
+                      "text": "Standardní lékařská návštěva",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3e6419aa-3744-4bed-9129-fa54bb7f4d69"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "71e3c22b-f39b-4f4a-8c78-838cab47b9a5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d50e00cf481a"
+                  },
+                  "content": [
+                    {
+                      "text": "Pristroj",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5198a5d8-d19a-44cb-bb89-86bf9dad2ca0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "505cae3149bc"
+                  },
+                  "content": [
+                    {
+                      "text": "Návštěva zaznamenaná přístrojem",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "da340426-a51b-4a1f-b385-894369d451b1"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f0ad9870616d"
+      },
+      "content": [
+        {
+          "text": "Pole ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "diagnozy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "624937e36176"
+      },
+      "content": [
+        {
+          "text": "Pole ",
+          "type": "text"
+        },
+        {
+          "text": "diagnozy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": " je nepovinné pole kódů diagnóz (např. ",
+          "type": "text"
+        },
+        {
+          "text": "[\"J069\", \"Z000\"]",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ").",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b77e06bf-9a1a-480f-b76f-3a16aff42a4f"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "22c1504d80d4"
+      },
+      "content": [
+        {
+          "text": "Pole ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "odpovednyLekarId",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a27dd02a8d57"
+      },
+      "content": [
+        {
+          "text": "ID lékaře v systému FONS Galen. Povinné pole.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "083d900d-b288-4408-ad6d-52140e389e14"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "880d4bcc406f"
+      },
+      "content": [
+        {
+          "text": "POST /api/Pacient/{PacientId}/Navsteva",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "797848042627"
+      },
+      "content": [
+        {
+          "text": "Zapíše nový záznam návštěvy do dekurzu pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f0acf63cde2e"
+      },
+      "content": [
+        {
+          "text": "Autorizace:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "PacientSpravaAPI",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "617fe5e7-1ca4-48e1-a26d-57eef6a18942"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "fd751ae2ecba"
+      },
+      "content": [
+        {
+          "text": "Parametry URL",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "a46d3f57-3c25-49d7-819f-696681c6640c"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "67ddcedf-d49e-4ff7-9c75-021ba7adaf65"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "080d9929-e7d8-454a-9c3e-54da187becd9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5d43cd6054ee"
+                  },
+                  "content": [
+                    {
+                      "text": "Parametr",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "493a4aec-e6e5-4d42-8735-b67352e571e5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9e2dbae3c6e8"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "23f1d110-7692-41e4-aad2-882e0114a1a5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5e4728e6833a"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "73c2b6ac-a980-46c9-99fb-f47641ff400a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6512fd1b-d538-4e8a-9e49-859fb971d8f1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2a014da057a7"
+                  },
+                  "content": [
+                    {
+                      "text": "PacientId",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2e5f07d8-41ce-4dea-9732-e4ce2b3eba03"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c829a01777fa"
+                  },
+                  "content": [
+                    {
+                      "text": "int64",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "99ec29c7-2d51-4b96-b801-14211992005a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "96b8af27137f"
+                  },
+                  "content": [
+                    {
+                      "text": "ID pacienta v systému FONS Galen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "1d920e06-2ab9-49ac-be66-f867e547701d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "19ab217a930a"
+      },
+      "content": [
+        {
+          "text": "Tělo požadavku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "5c91c507-909e-44c7-bfbb-dad5413b1993"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "{\n  \"datumCas\": \"2025-03-18T09:00:00\",\n  \"typNavstevy\": \"Navsteva\",\n  \"diagnozy\": [\"J069\"],\n  \"nalez\": \"Pacient bez obtíží.\",\n  \"mereniId\": null,\n  \"poznamka\": \"Kontrolní návštěva.\",\n  \"odpovednyLekarId\": 42\n}",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "073c4a67-0d46-44f2-8c1f-66c5cf155b5e"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1cdd799d-37a5-4030-b066-282cf0305686"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4cb7120f-dbc1-490c-9973-0b7b305470ff"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0aeabda02828"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "abf01496-6468-48b0-998b-35561b9fb7d0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "62b1a753d993"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a51e4219-123a-4427-94b5-23dc556f7fcc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dc5a2158e4d3"
+                  },
+                  "content": [
+                    {
+                      "text": "Povinné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "862f3e8b-51a9-4c11-bbaf-9bc360b84675"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cd8f6d11ec8a"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b7150e5e-2f87-4827-81f1-1f97a314c67d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b82a6935-c279-49d2-b20e-9ee0e5cf65a8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e74d9d48fad4"
+                  },
+                  "content": [
+                    {
+                      "text": "datumCas",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bf785001-c406-4c7b-96e0-ac2c12cc405f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b7d4cda9b3b4"
+                  },
+                  "content": [
+                    {
+                      "text": "datetime",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "58a30971-18a1-47e8-9001-6597e5868b9f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0f18a556cea7"
+                  },
+                  "content": [
+                    {
+                      "text": "ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "308dbdf8-8c6d-4fe6-bfb1-e3aae68b00f9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "475e4428d7fe"
+                  },
+                  "content": [
+                    {
+                      "text": "Datum a čas návštěvy (ISO 8601)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "27fda3f3-0cb3-4902-9e7c-47f263d8cf30"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "44791669-a1ae-471f-b96f-f8adda242a8a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0b8e970f367a"
+                  },
+                  "content": [
+                    {
+                      "text": "typNavstevy",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "eeaaff8c-e4f0-41d8-a948-b4d132779911"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7bf47d888cea"
+                  },
+                  "content": [
+                    {
+                      "text": "string",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1c4f4240-41e3-4537-a30e-ab094b8d0e5a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "459b3b5eadcb"
+                  },
+                  "content": [
+                    {
+                      "text": "ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ebe0dd72-0e2b-4c92-9b96-7772c4548a91"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bdd77d223b37"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ záznamu: ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Navsteva",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " ",
+                      "type": "text"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "text": "nebo ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Pristroj",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b4ba132a-fbe1-47e9-ab75-0b3a038a501f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d525ab9d-ab90-454b-8cde-4ffb574e8aec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9f736eb618d0"
+                  },
+                  "content": [
+                    {
+                      "text": "diagnozy",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "32a71d88-28e6-4525-bafa-98d58332b030"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c9bc8720cf60"
+                  },
+                  "content": [
+                    {
+                      "text": "string[]",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d998dcf7-522d-415f-857a-95743c8a974d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1ce8e45af3b1"
+                  },
+                  "content": [
+                    {
+                      "text": "ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4c2fe675-4e04-4830-901c-0eaba7c8380a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dcf6ce675728"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole kódů diagnóz",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d709dd9e-dc73-4d45-9897-d5cdfaf4ce4a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a218e229-0523-49ee-bdf5-aee2949f43df"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ad9d9fad0817"
+                  },
+                  "content": [
+                    {
+                      "text": "nalez",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "432bb2f4-1cdd-434d-9d14-3b83fa9d29e9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a2cfa4c37fb6"
+                  },
+                  "content": [
+                    {
+                      "text": "string",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "72014f3d-e9b7-4a7a-88f6-f7c4f2083afa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ef398a5b5e42"
+                  },
+                  "content": [
+                    {
+                      "text": "ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5e9e3028-af6c-4fbb-8bcf-9b116165f44f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "26ad58492331"
+                  },
+                  "content": [
+                    {
+                      "text": "Textový nález",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fd28613f-6011-435e-a5b5-b6ba8b858c05"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0f8ddadd-e574-4a3d-bf9c-48807520b1a9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4e1f4f3b15d4"
+                  },
+                  "content": [
+                    {
+                      "text": "mereniId",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "df89436e-85c0-4f74-8ee9-6cde6885c76e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "765dafa530a1"
+                  },
+                  "content": [
+                    {
+                      "text": "int64",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "75e6bc52-31e7-424b-8480-70f9c947287e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4cc5904b93e2"
+                  },
+                  "content": [
+                    {
+                      "text": "ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "35c175c5-21ab-4868-8efd-581e00ef6b5c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c8cdaa8472f0"
+                  },
+                  "content": [
+                    {
+                      "text": "ID záznamu měření; vyplnit, pokud je návštěva provázána s konkrétním měřením",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5ccaa3f8-1371-4e00-b5cf-8c7707bebf78"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "49bd31ca-46aa-4995-94eb-196e610da518"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27bc296f1a9c"
+                  },
+                  "content": [
+                    {
+                      "text": "poznamka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "32cc7d01-4695-4b23-892d-c8172c62d15b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "afa7910ca08d"
+                  },
+                  "content": [
+                    {
+                      "text": "string",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e17c7105-f822-4d38-8a89-7d59eeb8251e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8198a075a911"
+                  },
+                  "content": [
+                    {
+                      "text": "ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7afd1b86-33c1-4642-b29e-d0ff69f16636"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c81f9f30b839"
+                  },
+                  "content": [
+                    {
+                      "text": "Volná poznámka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "97c8ba5a-c973-41ac-a653-42646d8925af"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "250beaa9-9cdc-4e1f-b04a-b685524e5ff7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4ca8ae7f277d"
+                  },
+                  "content": [
+                    {
+                      "text": "odpovednyLekarId",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cb297aaa-2733-4913-a40a-038f60584f76"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b6d8b5fb591b"
+                  },
+                  "content": [
+                    {
+                      "text": "int32",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5f30ee25-3370-4eb9-8cb3-280db13f5cd5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4330e96fd07"
+                  },
+                  "content": [
+                    {
+                      "text": "ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f92d62ee-1d68-46f8-a2a6-649a4143264e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "330dee933fb5"
+                  },
+                  "content": [
+                    {
+                      "text": "ID odpovědného lékaře",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cb746984-7069-4bf3-8d95-3110f066723a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a6f49e016c6d"
+      },
+      "content": [
+        {
+          "text": "Příklad volání (curl)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "392a4262-40e0-4ba7-9bad-49317c7ed262"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "curl -X POST \"https://<host>/api/Pacient/123/Navsteva\" \\\n  -H \"Authorization: Bearer <token>\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"datumCas\": \"2025-03-18T09:00:00\",\n    \"typNavstevy\": \"Navsteva\",\n    \"diagnozy\": [\"J069\"],\n    \"nalez\": \"Pacient bez obtíží.\",\n    \"odpovednyLekarId\": 42\n  }'",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "7e16d89f-246d-4f68-8696-e747611c6779"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8ebbe1acfe78"
+      },
+      "content": [
+        {
+          "text": "Odpověď",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c01bcad3a06"
+      },
+      "content": [
+        {
+          "text": "HTTP 200 OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "3e01178f-db51-481a-8140-d95b60e1c13e"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "{\n  \"id\": 98765,\n  \"datumCas\": \"2025-03-18T09:00:00\",\n  \"typNavstevy\": \"Navsteva\",\n  \"diagnozy\": [\"J069\"],\n  \"nalez\": \"Pacient bez obtíží.\",\n  \"mereniId\": null,\n  \"poznamka\": null,\n  \"odpovednyLekarId\": 42\n}",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "6f8446a5-972b-4e3c-9f08-adbb4f772acc"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c3eb8ab3-09a8-480d-9971-c845afe76b5f"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cef7bf1e-349d-4a5d-b876-56441ae8ed4e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5538eccef663"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c0673b8a-3906-4f86-bdc9-fd0ec12047a3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "69c9066184d6"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c6328921-b9f7-4406-bdb7-40e1fb404370"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc0401464776"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "92020e8e-ec10-4308-9255-1cb6c7a4157d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "27017c76-54a2-4647-adec-2253d3dc35f3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b6c431953db3"
+                  },
+                  "content": [
+                    {
+                      "text": "id",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e71a91ee-69e9-4298-9bd4-73b28ae01d8c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b204c6dd4b8f"
+                  },
+                  "content": [
+                    {
+                      "text": "int64",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1c34446c-15ba-464a-b1d1-93ebbb7fef60"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ce6c60854694"
+                  },
+                  "content": [
+                    {
+                      "text": "ID nově vytvořeného záznamu návštěvy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "da056891-c16f-44c0-86e4-70e676ad3234"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "4c12467cf0a9"
+      },
+      "content": [
+        {
+          "text": "Kódy odpovědí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "2701ea02-d45c-42fc-88fc-8a3a06b87651"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "67e057f9-40cd-4b90-af24-8d6800f61753"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d3fc3416-b0a2-428a-9cdd-d3c955b5a54f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a7464c8da901"
+                  },
+                  "content": [
+                    {
+                      "text": "Kód",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bf323677-5833-4301-90ba-7bc0a65d9916"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d820cf073c3b"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fcb7385b-873d-4ee7-a64e-19557a7e1a2c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "795840c9c0c5"
+                  },
+                  "content": [
+                    {
+                      "text": "Příklad těla odpovědi",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "adad83c7-3917-463e-9728-f97255406e10"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5d5f020d-a5e9-4c6a-8816-8a24a8c32035"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f82063234cca"
+                  },
+                  "content": [
+                    {
+                      "text": "200",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "82676972-f8cb-46ce-aa0a-0c449826dc23"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "72b70ab355ba"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznam úspěšně vytvořen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "64e55e3e-5b53-4c77-a991-f497486c9746"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0ccf1fafd22d"
+                  },
+                  "content": [
+                    {
+                      "text": "Viz model výše",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "66ed85f9-282b-4d84-9b35-b7ac6b2f7169"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "43f230b9-3013-458b-a312-7246c6774737"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a5260fdc9284"
+                  },
+                  "content": [
+                    {
+                      "text": "400",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c447994f-f860-49a2-82c6-e3377a25b75d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "83323d0f7833"
+                  },
+                  "content": [
+                    {
+                      "text": "Chybí nebo je neplatné povinné pole",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a32cb8be-4067-4e62-bca0-17dbec36ff6c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f42f8f704f9d"
+                  },
+                  "content": [
+                    {
+                      "text": "{ \"errors\": { \"typNavstevy\": [\"The typNavstevy field is required.\"] } }",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4a6d2b71-76c6-40c5-85a4-359e24c35e19"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1f3a7ad1-6b5d-4902-b73f-39d17c8a5799"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "82659f57c640"
+                  },
+                  "content": [
+                    {
+                      "text": "401",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c1a26ea3-7766-46ca-beb9-6830e3947555"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "67c52d0c65c6"
+                  },
+                  "content": [
+                    {
+                      "text": "Neplatný nebo chybějící Bearer token",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "88fb1941-478b-464d-95c6-90b07ad43011"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2f80b7449a9c"
+                  },
+                  "content": [
+                    {
+                      "text": "(prázdné tělo)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6618e3ae-f848-4958-bf2a-9ba424bf7c1c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7a452bd2-a050-48ec-a80c-b51cca50d92f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e94261176111"
+                  },
+                  "content": [
+                    {
+                      "text": "404",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "265e9766-75a0-44bb-b574-4c3c85ddf502"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "70a92d71e167"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient s daným PacientId neexistuje",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d2bad0b9-3319-47a3-bff2-9bb409c8a6b3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c5395b19f0bb"
+                  },
+                  "content": [
+                    {
+                      "text": "{ \"message\": \"Pacient nenalezen.\" }",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

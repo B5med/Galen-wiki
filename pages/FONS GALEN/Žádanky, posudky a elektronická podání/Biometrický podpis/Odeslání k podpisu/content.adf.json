@@ -1,0 +1,612 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "20c7f3643ce7"
+      },
+      "content": [
+        {
+          "text": "Podepisovat lze formuláře, na kterých je biometrický podpis definován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "09cf0f87383e"
+      },
+      "content": [
+        {
+          "text": "Odeslání formuláře k podpisu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eba1cc8db6aa"
+      },
+      "content": [
+        {
+          "text": "Cesta: Vybrat pracoviště -> modul Ordinace -> vybrat pacienta -> Formuláře (horní lišta)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5212b66e0442",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ec7815de8e5d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cbe546852deb"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vybere formulář s možností podepisování",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 424,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 424,
+            "alt": "image-20260129-134708.png",
+            "id": "7bf2ebba-92ae-484c-aabe-c806fbec2552",
+            "collection": "contentId-248053765",
+            "type": "file",
+            "localId": "1f628b6950d6",
+            "height": 214
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "63123872e760",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f493b75a180c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bd2996cc454e"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vybere možnost Podepsat pac. (vpravo nahoře). Po výběru se zobrazí vygenerovaný PDF dokument.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "81bc299d1694",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "77a01e3c44be"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "29d3daca6a4d"
+              },
+              "content": [
+                {
+                  "text": "Pokud je na pracovišti více podpisových zařízení, uživatel vybere podpisové zařízení, na které má být dokument odeslán.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 419,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 419,
+            "alt": "image-20260129-134741.png",
+            "id": "cf45dcd4-6a2e-4787-852c-7d2938c3ccb1",
+            "collection": "contentId-248053765",
+            "type": "file",
+            "localId": "f3405562fc33",
+            "height": 257
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "e3df40a1a084",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c4db0078b634"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "afa444b004f0"
+              },
+              "content": [
+                {
+                  "text": "Uživatel stiskne tlačítko Odeslat k podpisu. Dokument je odeslán na podpisové zařízení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fe04cef2939f",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "96514334abba"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "851778096872"
+              },
+              "content": [
+                {
+                  "text": "Po odeslání dokumentu se PDF soubor zavře a uživatel u formuláře ve spodní části vidí informace o dokumentu včetně stavu a možnosti dokument zobrazit tlačítkem Zobrazit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 264,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 264,
+            "alt": "image-20260129-134807.png",
+            "id": "dd1be036-e560-4507-b078-c87912b1c892",
+            "collection": "contentId-248053765",
+            "type": "file",
+            "localId": "c1d652839805",
+            "height": 12
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "82038b908a2b"
+      },
+      "content": [
+        {
+          "text": "PDF soubory jsou ukládány do cloudu, aby nedošlo k jejich ztrátě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ff775525a653"
+      },
+      "content": [
+        {
+          "text": "Informace o PDF dokumentu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "782ba4802770"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3be7eccec4a7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b46a4123945"
+              },
+              "content": [
+                {
+                  "text": "Datum a čas vytvoření",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d401fc2d8697"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2738ca0dc6da"
+              },
+              "content": [
+                {
+                  "text": "Stav – možné stavy:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "d35b298e621b"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b6d6d5d06c38"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "39b0565f4f16"
+                      },
+                      "content": [
+                        {
+                          "text": "Čeká na odeslání do zařízení Název_zařízení",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "da4dfc06a9d2"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9a080cdb9f29"
+                      },
+                      "content": [
+                        {
+                          "text": "Odesláno k podepsání do zařízení Název_zařízení",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "ead35ccec958"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "04f72ae73bf8"
+                      },
+                      "content": [
+                        {
+                          "text": "Dokument podepsán pacientem",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "1484cecddb8c"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "c58321114b4a"
+                      },
+                      "content": [
+                        {
+                          "text": "Chyba při odesílání do zařízení Název_zařízení – během procesu odesílání došlo k chybě, proces je nutné opakovat",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "6575d263205a"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "8765a9891dcd"
+                      },
+                      "content": [
+                        {
+                          "text": "Smazáno – dokumenty, které jsou smazány, se již nezobrazují.",
+                          "type": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "bulletList",
+                      "attrs": {
+                        "localId": "2db12a75bda5"
+                      },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "attrs": {
+                            "localId": "2f8d5b0c613b"
+                          },
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": {
+                                "localId": "d43d093e682c"
+                              },
+                              "content": [
+                                {
+                                  "text": "Dokumenty jsou natrvalo smazány.",
+                                  "type": "text"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4df75843a799"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2eeec978f3c9"
+              },
+              "content": [
+                {
+                  "text": "Zobrazit – tlačítko sloužící k zobrazení vytvořeného PDF souboru",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "c6655b07b0f4"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "231b73fc36df"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "fecab61a588b"
+                      },
+                      "content": [
+                        {
+                          "text": "V první fázi je zobrazen pouze dokument bez podpisu.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "68837a2aae35"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "440154e48d32"
+                      },
+                      "content": [
+                        {
+                          "text": "Po podepsání dokumentu se zobrazuje podepsaný dokument a původní dokument bez podpisu je smazán.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "67ce4853fb03"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e5a6dec8cf08"
+              },
+              "content": [
+                {
+                  "text": "Smazat dokument – po najetí myši na řádek je možné kliknout pravým tlačítkem a vybrat možnost Smazat dokument",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "533aebb1ef23"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "cc1f8c113270"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "7f00b9adfb85"
+                      },
+                      "content": [
+                        {
+                          "text": "Dokumenty ve stavu „Dokument podepsán pacientem“ již nelze smazat.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "c308a0b4295b"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "d0197f046c8a"
+                      },
+                      "content": [
+                        {
+                          "text": "Před definitivním smazáním se zobrazí informace, jestli si uživatel opravdu přeje soubor smazat.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

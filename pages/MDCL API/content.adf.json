@@ -1,0 +1,27 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "REST API pro práci s pacientem, jeho kontakty a adresami v systému Galen. API obsahuje validace vůči číselníkům a povinným hodnotám. Všechny požadavky (POST/PUT/DELETE) vyžadují autorizaci typu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Authorization: Bearer {token}\nContent-Type: application/json",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

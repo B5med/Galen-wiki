@@ -1,0 +1,192 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Notifikace pacientovi je možné zaslat pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Oslovit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v rámci individuálních notifikací (viz kapitola Funkční tlačítka modulu pro roli Správce), nebo automaticky pomocí hromadných notifikací. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nastavení času odeslání hromadných notifikací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V module Nástroje, v okně Hromadné notifikace, je nejdříve potřeba definovat v které časy budou hromadné notifikace odcházet.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 425,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 425,
+            "alt": "image-20250710-124326.png",
+            "id": "bb9eead6-ff8c-46f9-9eea-8960ef710685",
+            "collection": "contentId-68616209",
+            "type": "file",
+            "height": 94
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Šablony notifikací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro odeslání hromadných notifikací je nutné vytvořit šablonu textu, která se zobrazí pacientovi. Nastavuje se na cestě: správce v modulu Nástroje – Šablony definuje šablony pro notifikace. Nastavení šablony je shodné s nastavením jiných šablon. V kolonce použití uživatel vybere „Nároky (hromadné)“, pokud se má šablona použít při rozesílání hromadných notifikací. Tento typ šablony je možné zvolit také pro individuální nároky, tj. při použití tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Oslovit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve chvíli, kdy je vybráno použití Nároky (hromadné) nebo Nároky (individuální), zobrazí se entita ",
+          "type": "text"
+        },
+        {
+          "text": "Nárok",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", která mj. slouží pro dotažení názvu vyšetření, na které se má pacient objednat, do šablony. Konkrétně se jedná o položku Podtyp.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20250710-124343.png",
+            "id": "7703f417-846d-4cd0-9a48-7877239877e4",
+            "collection": "contentId-68616209",
+            "type": "file",
+            "height": 157
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nastavení odesílaných nároků v hromadných notifikacích",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Správce v modulu Nároky definuje jak často a v jakém počtu se mají hromadné notifikace automaticky rozesílat. Pomocí zeleného tlačítka Plus přidá řádek, ve kterém definuje termín, typ a podtyp(y) nároku, počet notifikací, které se mají rozeslat a případně pracoviště, na kterých nárok vznikl. Správce může také vyjmout pojišťovny pacientů, kterým notifikace nechce odesílat, a definovat rozestup notifikací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 449,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 449,
+            "alt": "image-20250710-124400.png",
+            "id": "95ab262b-a739-424e-b7cf-230d47cc3d7b",
+            "collection": "contentId-68616209",
+            "type": "file",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph"
+    }
+  ],
+  "version": 1
+}

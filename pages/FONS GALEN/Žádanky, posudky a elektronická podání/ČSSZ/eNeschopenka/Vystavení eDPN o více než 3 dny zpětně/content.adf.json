@@ -1,0 +1,218 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1043d7b75cbe"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřeba vystavit eNeschopenku o více než 3 dny zpětně, je potřeba postupovat tímto způsobem:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "c837a71ca109",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "794a54a9-ad59-4606-a963-dfb9ed56a944"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cfd589610c1a"
+              },
+              "content": [
+                {
+                  "text": "Vystavit eNeschopenku klasickým způsobem (",
+                  "type": "text"
+                },
+                {
+                  "text": "neschopen od",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " bude aktuální datum) a odeslat na ČSSZ.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "145a5356f219"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "21d6db29c85b"
+              },
+              "content": [
+                {
+                  "text": "Po úspěšném vystavení eNeschopenky se na detailu zobrazí checkbox Žádost o vystavení DPN o více než 3 dny zpětně. Tento checkbox uživatel zatrhne a vyplní požadované informace vč. přílohy. Poté odesílá žádost na ČSSZ.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 348,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 722,
+                    "alt": "image-20260204-110742.png",
+                    "id": "31d8f851-0aef-43f0-8f53-9e0d5ac09693",
+                    "collection": "contentId-258998273",
+                    "type": "file",
+                    "localId": "088916223db1",
+                    "height": 804
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "787f3504e325"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f23225917886"
+              },
+              "content": [
+                {
+                  "text": "Pokud ČSSZ žádost schválí, je podání “Zolusu” ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zpracováno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Tento stav se do FONS Galen načte automaticky. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1101,
+                    "alt": "image-20260204-112051.png",
+                    "id": "c418960b-ecfa-47ff-8e61-1dc95a898333",
+                    "collection": "contentId-258998273",
+                    "type": "file",
+                    "localId": "df47e8debf91",
+                    "height": 113
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "75d35f0f73d3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0418d4e97737"
+              },
+              "content": [
+                {
+                  "text": "Uživatel ručně změní datum ",
+                  "type": "text"
+                },
+                {
+                  "text": "Neschopen od",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " na požadované datum a odesílá opravu. V tomto případě se neodesílá hlášení HOL, ale oprava vystavení 1. dílu eDPN. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 624,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1059,
+                    "alt": "image-20260204-112330.png",
+                    "id": "dbd74996-751a-4118-b7f4-303a39879993",
+                    "collection": "contentId-258998273",
+                    "type": "file",
+                    "localId": "2b5656cb05f0",
+                    "height": 497
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8e76ab4cc12f"
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,902 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "58125d9c-7277-4567-b627-66ff68b39daa"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "0278f4d5-8d3e-4574-af66-94cb84bcace1"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V modulu Vyúčtování lze také provádět hromadné úpravy výkonů, které uživatelům ulehčí práci při nutnosti změny u více výkonů současně. Správce -> Vyúčtování -> Hromadné úpravy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve třech základních záložkách ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Vytvoření výkonů ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Úprava a odstranění výkonů ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přehled operací ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 924,
+            "alt": "image-20250618-132106.png",
+            "id": "db430f8e-d2a2-4d20-9cff-cce3a7aa111d",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 726
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "lze dle zadaných kritérií ve filtru hromadně vytvořit výkony nové, nebo je možné u stávajících výkonů provést úpravy ve smyslu změny výkonů na výkony jiné, lze také změnit počet vykázaných výkonů, hlavní nebo řádkovou diagnózu nebo navázat či smazat ZUM s možností použití pomocného výkonu. Změny výkonů se zde řídí stejnými pravidly jako v editoru výkonů v kartotéce, tzn. Jsou dodržena platná pravidla, která platí pro svázané výkony, zakázané výkony, zakázané kombinace, frekvenční omezení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dodržení zmíněných pravidel lze zkontrolovat v záložce kontrola Výkonů: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1074,
+            "alt": "image-20250618-132134.png",
+            "id": "200177ce-2254-4940-9018-314193769761",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 449
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V záložce Přehled operací vidíme provedené změny s určením přesného data a času operace, názvu operace a s určením Stavu. Nechybí ani popis průběhu operace a případný popis s přesným určením, proč operace neproběhla dle zadání. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Hromadné vykazování ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita, která slouží k hromadnému vytváření, upravování či odstraňování výkonů pro uživatelem definovanou skupiny pacientů, se nachází v modulu Vyúčtování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1083,
+            "alt": "image-20250618-132212.png",
+            "id": "d128d70a-db15-46e2-9675-5dbb6e7c1d37",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 282
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Definice skupiny pacientů (výkonů) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V prvním kroku je nezbytné definovat skupinu uživatelů, popřípadě jejich výkonů, nad nimiž budou provedeny požadované operace. Skupina je definovaná pomocí filtrů, který jsou děleny do kategorií - Základní, Registrace, Výkony a Dg. Pro zobrazení výsledků filtrování je nutné kliknout na tlačítko Aplikovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 853,
+            "alt": "image-20250618-132238.png",
+            "id": "5c1e7cad-c74e-4b20-b78d-f455dca89d60",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 639
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vytvoření výkonů ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel po kliknutí na tlačítko Vytvořit nebo Vytvořit u všech a následném výběru pracoviště, pod které budou výkony vykázány, přejde do okna, kde definuje datum vykázání, výkon, hlavní a řádkovou diagnózu, pracoviště a odpovědného lékaře. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 861,
+            "alt": "image-20250618-132302.png",
+            "id": "65c85f4c-9e81-4db1-84eb-6834ac0d82c2",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 150
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tlačítkem Z+ lze k příslušným výkonům připojit ZUM. Při výběru ZUMu se uživateli zobrazuje položka Množství pro jednoho pacienta, která je editovatelná. Dále potom Počet pacientů, což odpovídá vzorku, nad kterým provádíme danou operaci. Položka Celkové množství je následně součinem dvou předchozích položek. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 882,
+            "alt": "image-20250618-132316.png",
+            "id": "424c0f64-8570-4006-9158-3f9104fa6e82",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jestliže vybírám ZUM, který má vazbu na sklad, nemůže být celkové množství vyšší než množství, které je skladem. Při hromadné zadání ZUM nelze kombinovat sortimenty z více skladů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1144,
+            "alt": "image-20250618-132348.png",
+            "id": "7283eeb9-0768-4a95-a51d-18d713232f39",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 57
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zaškrtnutím checkboxu povolit pomocný výkon se zajistí, že v situacích, kdy je pro vytvoření ZUM nutné dle metodiky vytvořit pomocný výkon 01999 nebo 09215, se tento výkon automaticky vykáže. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Úprava výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uživatel se po kliknutí na tlačítko Upravit nebo Upravit všechny u všech dostane do okna, kde zaškrtnutím příslušného checkboxu volí jednu či více úprav, které chce provést. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 478,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 478,
+                    "alt": "image-20250618-132413.png",
+                    "id": "0ca89778-20af-467f-93f8-da8b1caf60a6",
+                    "collection": "contentId-75792551",
+                    "type": "file",
+                    "height": 633
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po zatrhnutí checkboxu se objeví pole, kam uživatel zadá hodnotu, na kterou chce danou položku změnit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Odstranění výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odstranění výkonů lze spustit pomocí tlačítek Odstranit nebo Odstranit všechny. Před samotným odstraněním ovšem musí ještě uživatel určit, zda v případě, že některý z odstraňovaných výkonů obsahuje ZUM s vazbou na sklad, má být tato látka nebo prostředek po odstranění příslušného výkonu vrácena na sklad. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 861,
+            "alt": "image-20250618-132742.png",
+            "id": "c44ec702-81e0-4654-9166-a03270dfada3",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 281
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Přehled operací ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jelikož se zadané operace zpracovávají na serveru, může uživatel během zpracování vykonávat kteroukoliv jinou činnost v Galenu nebo dokonce může Galen vypnout. K zjištění podrobností o dané úloze se následně lze vrátit v záložce Přehled operací. Jednotlivé záznamy se zde uchovávají vždy 7 dní od ukončení dané operace. V levé části obrazovky se objevuje přehled operací: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 862,
+            "alt": "image-20250618-132828.png",
+            "id": "10bbabe2-6710-496b-8a9a-dd7e3afef81f",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 308
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V pravé části se poté zobrazuje detail vybrané operace: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 860,
+            "alt": "image-20250618-132841.png",
+            "id": "49402cf3-7e2b-4f9b-913d-5b88cdf4410d",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 378
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Tento ukazatel indikuje, v jakém stavu se daná operace nachází. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Jestliže daná operace stále běží, je možné ji pomocí tlačítka Zastavit ukončit. Opětovné spuštění ovšem není již možné. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "V této části uživatel definuje, jaké typy zpráv chce v detailním přehled zobrazovat. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Detailní přehled uživatele informuje o jednotlivých dílčích krocích operace. Tento přehled se v průběhu běhu operace pravidelně aktualizuje. Přehled lze i exportovat do požadovaného formátu stisknutím ikonky: ",
+                  "type": "text"
+                },
+                {
+                  "type": "mediaInline",
+                  "attrs": {
+                    "width": 65,
+                    "alt": "image-20250618-132904.png",
+                    "id": "377c5bd2-6f12-408b-b47e-d0d3ddd2a982",
+                    "collection": "contentId-75792551",
+                    "type": "image",
+                    "height": 79
+                  }
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vygenerování zprávy o chybných výkonech ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla vytvořena nová funkcionalita pro předávání informací k opravám výkonů, která slouží k vygenerování zprávy o zadání chybných výkonů a její automatické zobrazení uživatelům na příslušném IČP, kde byl původní chybný výkon zadán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalitu lze zapnout na parametru společnosti (checkbox „Předávat informace k opravám výkonů“). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V modulu Vyúčtování – záložka Doklady lze nyní při novém vyúčtování specifikovat chybu a uvést poznámku, která se zobrazí lékaři. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1452,
+            "alt": "image-20250619-072550.png",
+            "id": "8d3f8cbb-877c-4240-8e4b-161b07916b26",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 499
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na existenci položky k opravě je poté lékař upozorněn pomocí standardního oznámení při přihlášení do aplikace: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1110,
+            "alt": "image-20250619-072606.png",
+            "id": "e933e9ce-2336-4431-9807-180dfc95ee1c",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 360
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Všechny položky vyúčtování k opravě lze zobrazit v Dashboardu, odkud je možné přímým proklikem ze seznamu pacientů vstoupit do výkonů: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1345,
+            "alt": "image-20250619-072638.png",
+            "id": "594c44fb-7de3-4da1-ae5d-0d4f0c80e6d6",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 725
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve výkonech jsou tyto položky k opravě označeny stavem opravy \"Předáno k opravě\": ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1350,
+            "alt": "image-20250619-072657.png",
+            "id": "f9f1af69-4379-4b64-a01d-36b31d2182de",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 727
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jakmile lékař provede požadovanou opravu, změní stav opravy na \"Opraveno\": ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1345,
+            "alt": "image-20250619-072721.png",
+            "id": "92344cb8-bff4-4e0b-82c6-a0c1abbff4f0",
+            "collection": "contentId-75792551",
+            "type": "file",
+            "height": 724
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tímto způsobem jsou výkony předány k novému vyúčtování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nová uživatelská role Specialista vyúčtování ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na základě požadavku byla vytvořena nová role Specialista vyúčtování. Jde opět jen o zpřístupnění stávající funkcionality týkající se konfigurace smluv se ZP. Konfigurace tohoto pracovníka je na uživateli ve zvláštních oprávněních checkbox – Specialista vyúčtování. Uživateli potom v modulu Vyúčtování přibude v horním modrém menu tlačítko Smlouvy. Pod tímto tlačítkem se nacházejí funkce konfigurace smluv se ZP. Jedná se opět o již hojně využívanou funkcionalitu, která byla dostupná v modulu Správa organizace.  ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

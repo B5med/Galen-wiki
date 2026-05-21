@@ -1,0 +1,151 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8b098e4c-b19a-4abd-b0f4-159ae018baab"
+      },
+      "content": [
+        {
+          "text": "Pokud jste v rámci pracoviště ve FONS Galen vystavili dávky (eNeschopenka, OČR a další), které nejsou ukončené, ale zároveň dané pracoviště změnilo IČPE, postupujte podle tohoto postupu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5a5d370fe5b1",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a190e41b2b06"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "590a162b5db9"
+              },
+              "content": [
+                {
+                  "text": "Všechny dávky, které jste dosud neukončili, označte příznakem “",
+                  "type": "text"
+                },
+                {
+                  "text": "Předat do péče",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "” a informaci odešlete na ČSSZ. Při předání nemusíte vybírat lékaře, kterému předáváte. Je však nutné, abyste předání uskutečnili ještě ",
+                  "type": "text"
+                },
+                {
+                  "text": "pod původním IČPE",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c9fb1777427a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e5ebdc4e9682"
+              },
+              "content": [
+                {
+                  "text": "Ve chvíli, kdy jsou všechny neukončené dávky ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Předaná, ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "můžete změnit IČPE na pracovišti za nové. Popis nastavení IČPE je uveden ",
+                  "type": "text"
+                },
+                {
+                  "text": "zde ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/75694423/Pot+ebn+nastaven#Nutn%C3%A1-nastaven%C3%AD"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "90e643f2bd7f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e924f2813a20"
+              },
+              "content": [
+                {
+                  "text": "Všechny dávky, které jste převedli do stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Předaná",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " v tuto chvíli můžete převzít.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

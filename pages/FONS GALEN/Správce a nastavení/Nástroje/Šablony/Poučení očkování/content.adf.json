@@ -1,0 +1,123 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poučení očkování je uživatelsky velmi využívaná funkcionalita. Logika této funkcionality spočívá v tom, že k jednotlivým očkovacím látkám (výběrem z číselníku OL) lze nadefinovat text, který se zobrazí pacientovi v dekurzu po aplikaci očkovací látky. Toto poučení je poté součástí v tisku denního záznamu či lékařské zprávy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Poučení očkování nastavujeme v roli Správce společnosti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zeleným + vlevo nahoře vyvoláme tabulku, ve které lze definovat nové poučení očkování.V pravém sloupci ",
+          "type": "text"
+        },
+        {
+          "text": "vybereme očkovací látku ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "(látky), u které se bude toto poučení zobrazovat. V poli",
+          "type": "text"
+        },
+        {
+          "text": " Název poučení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " volíme název, který specifikuje použití této šablony. V poli ",
+          "type": "text"
+        },
+        {
+          "text": "Text",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zvolíme přesné znění textu, které se bude zobrazovat o pacientovi v dekurzu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 961,
+            "alt": "image-20250618-104916.png",
+            "id": "9354535b-52ec-42c5-be8f-7cef0723727d",
+            "collection": "contentId-75595813",
+            "type": "file",
+            "height": 695
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nadefinovaný text Poučení očkování se po aplikaci příslušné OL zobrazí u pacienta v dekurzu: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1245,
+            "alt": "image-20250618-104932.png",
+            "id": "c0964098-4bec-4644-8373-5672903d94ac",
+            "collection": "contentId-75595813",
+            "type": "file",
+            "height": 122
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,109 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c736f5ac-3030-4bfd-9326-9d9ad531ae2c"
+      },
+      "content": [
+        {
+          "text": "Dle novely zákona č. 378/2007 Sb., o léčivech, § 28, odst. 4 je stanoveno, že „Elektronický nebo listinný poukaz lze u výdejce uplatnit do 30 dnů od jeho vystavení, neurčí-li předepisující jinak, nejpozději však do 1 roku.“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1632646a6f42"
+      },
+      "content": [
+        {
+          "text": "Výchozí platnost ePoukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "23fe1ee1748c"
+      },
+      "content": [
+        {
+          "text": "Ve výchozím nastavení je při vystavení ePoukazu nastavena platnost 30 dní. V případě potřeby může uživatel platnost změnit až 1 rok.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7978ad402722"
+      },
+      "content": [
+        {
+          "text": "Nastavení platnosti ePoukazu na pracovišti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a274c5b47d18"
+      },
+      "content": [
+        {
+          "text": "Je možné na pracovišti přednastavit jinou výchozí platnost ePoukazu pro předpis pomůcky bez schválení a se schválením pojišťovnou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5af90fe979a8"
+      },
+      "content": [
+        {
+          "text": "Nastavení provede uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "dle ",
+          "type": "text"
+        },
+        {
+          "text": "návodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/VS/pages/193363969/Z+lo+ka+UI+konfigurace#ePoukaz"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
