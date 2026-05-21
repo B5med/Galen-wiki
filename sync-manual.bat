@@ -4,6 +4,10 @@ setlocal
 set REPO=%~dp0
 set ONEDRIVE=D:\OneDrive - mediclinic.cz\3R Resource\Galen
 set PYTHON=python
+set GIT_AUTHOR_NAME=Vojtech Benada
+set GIT_AUTHOR_EMAIL=vojtech.benada@mediclinic.cz
+set GIT_COMMITTER_NAME=Vojtech Benada
+set GIT_COMMITTER_EMAIL=vojtech.benada@mediclinic.cz
 
 echo.
 echo ================================================
@@ -35,7 +39,8 @@ echo [3/3] Nahravani na GitHub...
 git add -A
 git diff --cached --quiet
 if errorlevel 1 (
-    for /f "tokens=*" %%d in ('powershell -command "Get-Date -Format yyyy-MM-dd"') do set TODAY=%%d
+    for /f "tokens=2 delims==" %%d in ('wmic os get LocalDateTime /value 2^>nul') do set DT=%%d
+    set TODAY=%DT:~0,4%-%DT:~4,2%-%DT:~6,2%
     git commit -m "sync: %TODAY% (rucni spusteni)"
     git push
     echo Hotovo - zmeny nahrane na GitHub.
