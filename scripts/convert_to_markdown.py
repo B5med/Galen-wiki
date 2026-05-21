@@ -69,13 +69,21 @@ def vault_asset_path(src: str, ctx: ConvCtx) -> str:
 
 
 def resolve_internal_link(href: str, resource_id: str, ctx: ConvCtx) -> str | None:
-    """Return page title for wikilink, or None if unresolvable."""
+    """Return safe page stem for wikilink, or None if unresolvable.
+
+    Uses the actual directory name from link_map["path"] (which is the
+    safe_filename-sanitised version) so the wikilink matches the .md file
+    on disk.  e.g. 'API: Adresy' (raw title) -> 'API_ Adresy' (file stem).
+    """
+    def _stem(info: dict) -> str:
+        return Path(info["path"]).name
+
     if resource_id and resource_id in ctx.link_map:
-        return ctx.link_map[resource_id]["title"]
+        return _stem(ctx.link_map[resource_id])
     if href:
         m = CONFLUENCE_PAGE_URL.search(href)
         if m and m.group(1) in ctx.link_map:
-            return ctx.link_map[m.group(1)]["title"]
+            return _stem(ctx.link_map[m.group(1)])
     return None
 
 

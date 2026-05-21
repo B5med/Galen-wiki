@@ -17,7 +17,7 @@ Najdete zde návody na instalaci a první spuštění programu, nastavení přih
 - [[Off-line režim]]
 - [[Vzdálená správa – TeamViewer]]
 - [[Dvoufaktorové ověření (2FA)]]
-- [[Cesta k nastavení používání hesel|Cesta k nastavení používání hesel]]
+- [[Cesta k nastavení používání hesel]]
 - [[Obnovení hesla e-mailem]]
 - [[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]- [[Přegenerování certifikátů]]
 - [[Klávesové zkratky ve FONS Galen]]

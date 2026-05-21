@@ -27,6 +27,6 @@ Najdete zde nastavení kalendářů a skupin kalendářů, modul objednávání 
 - [[Notifikace pacientů ohledně zpracování laboratorních výsledků]]- [[Další úpravy spojené s funkcionalitou]]
 - [[Upozornění pro uživatele]]
 - [[Portál pacienta]]- [[Online objednávání pacientů]]
-   - [[Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]]
-   - [[Hlídací pes: Automatické upozornění na volné termíny pro pacienty]]
+   - [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]]
+   - [[Hlídací pes_ Automatické upozornění na volné termíny pro pacienty|Hlídací pes: Automatické upozornění na volné termíny pro pacienty]]
    - [[Registrace do Portálu pacienta]]

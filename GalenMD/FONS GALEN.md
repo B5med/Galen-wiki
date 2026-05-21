@@ -17,7 +17,7 @@ Vítejte v dokumentaci AIS FONS Galen. Tento manuál a nápověda byly vytvořen
 > [!abstract]
 > ▶️ **Začínám se systémem**
 
-[[Instalace FONS Galen|Instalace]], [[Spuštění programu|přihlášení]], [[Cesta k nastavení používání hesel|hesla]]
+[[Instalace FONS Galen|Instalace]], [[Spuštění programu|přihlášení]], [[Cesta k nastavení používání hesel|hesla]]
 
 > [!abstract]
 > ✉️ **Podpora a kontakt**
@@ -45,7 +45,7 @@ Vítejte v dokumentaci AIS FONS Galen. Tento manuál a nápověda byly vytvořen
 > [!abstract]
 > 💊 **Léky a žádanky**
 >
-> [[eRecept]], [[Vystavení žádanky, posudku apod.|poukaz K, Z, laboratorní žádanky, posudky]]
+> [[eRecept]], [[Vystavení žádanky, posudku apod|poukaz K, Z, laboratorní žádanky, posudky]]
 >
 > → [[Medikace, očkování a registry|Další]]
 
