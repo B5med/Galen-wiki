@@ -37,6 +37,7 @@ if hasattr(sys.stderr, "reconfigure"):
 CONFLUENCE_PAGE_URL = re.compile(
     r"https?://stapro-galen\.atlassian\.net/wiki/spaces/\w+/pages/(\d+)"
 )
+CONFLUENCE_PAGE_RELATIVE = re.compile(r"/wiki/spaces/\w+/pages/(\d+)")
 MULTI_BLANK = re.compile(r"\n{3,}")
 TRAIL_SPACE = re.compile(r"[ \t]+\n")
 ANCHOR_ID = re.compile(r"^[\w%-]+-")        # strip "PageTitle-" prefix from heading IDs
@@ -182,6 +183,9 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
         return ""
     if tag == "header":             # our generated metadata header
         return ""
+    # recently-updated macro helpers: icons, hidden params, "Zobrazit více" footer
+    if "update-item-icon" in cls or "hidden" in cls or "results-container-header" in cls or "more-link" in cls:
+        return ""
 
     # ── Headings ──
     if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
@@ -259,6 +263,14 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
             return f"[[{title}|{text}]]" if text != title else f"[[{title}]]"
         if href.startswith("#"):
             return text
+        # Relative Confluence URLs (/wiki/…): try to resolve via page ID,
+        # otherwise show as plain text (avoids broken links / ghost pages in Obsidian).
+        if href.startswith("/wiki/"):
+            m = CONFLUENCE_PAGE_RELATIVE.search(href)
+            if m and m.group(1) in ctx.link_map:
+                stem = Path(ctx.link_map[m.group(1)]["path"]).name
+                return f"[[{stem}|{text}]]" if text != stem else f"[[{stem}]]"
+            return text   # author profiles, plugin URLs, etc. → plain text
         return f"[{text}]({href})" if href else text
 
     # ── Images ──
@@ -333,6 +345,11 @@ def node_to_md(node, ctx: ConvCtx) -> str:  # noqa: C901
         expand_title = children(ctrl, ctx).strip() if ctrl else "Zobrazit"
         inner = children(body_tag, ctx) if body_tag else children(node, ctx)
         return format_callout("summary", inner.strip(), title=expand_title, collapsed=True)
+
+    # ── Recently-updated meta line (date + author) ──
+    if "update-item-meta" in cls:
+        text = re.sub(r"\s+", " ", children(node, ctx)).strip()
+        return (f"  \n  *{text}*\n") if text else ""
 
     # ── Transparent wrappers ──
     if any(c in cls for c in TRANSPARENT_DIVS):

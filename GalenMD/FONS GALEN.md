@@ -93,23 +93,21 @@ Vítejte v dokumentaci AIS FONS Galen. Tento manuál a nápověda byly vytvořen
 
 ## Nedávné aktualizace
 
-- [Novinky ve verzi k 19. 5. 2026](/wiki/spaces/fg/pages/406781968/Novinky+ve+verzi+k+19.+5.+2026)
+- [[Novinky ve verzi k 19. 5. 2026]]
 
-                   kvě 18, 2026 • přispěl/a [Iva Kratochvílová](/wiki/display/~712020%3Afcf624c0-59d4-4052-8ea9-d29d0208d9b1)
-- [Objednávání, komunikace a notifikace](/wiki/spaces/fg/pages/400097284/Objedn+v+n+komunikace+a+notifikace)
+     *kvě 18, 2026 • přispěl/a Iva Kratochvílová*
+- [[Objednávání, komunikace a notifikace]]
 
-                   kvě 18, 2026 • přispěl/a [Zuzana Chválová](/wiki/display/~712020%3Ae7593c93-ac5f-4ae4-8dbd-5ef512c9ad92)
-- [Správa kartoték](/wiki/spaces/fg/pages/399179778/Spr+va+kartot+k)
+     *kvě 18, 2026 • přispěl/a Zuzana Chválová*
+- [[Správa kartoték]]
 
-                   kvě 15, 2026 • přispěl/a [Zuzana Chválová](/wiki/display/~712020%3Ae7593c93-ac5f-4ae4-8dbd-5ef512c9ad92)
-- [Správce a nastavení](/wiki/spaces/fg/pages/75333741/Spr+vce+a+nastaven)
+     *kvě 15, 2026 • přispěl/a Zuzana Chválová*
+- [[Správce a nastavení]]
 
-                   kvě 15, 2026 • přispěl/a [Zuzana Chválová](/wiki/display/~712020%3Ae7593c93-ac5f-4ae4-8dbd-5ef512c9ad92)
-- [Žádanky, posudky a elektronická podání](/wiki/spaces/fg/pages/398393355/danky+posudky+a+elektronick+pod+n)
+     *kvě 15, 2026 • přispěl/a Zuzana Chválová*
+- [[Žádanky, posudky a elektronická podání]]
 
-                   kvě 15, 2026 • přispěl/a [Zuzana Chválová](/wiki/display/~712020%3Ae7593c93-ac5f-4ae4-8dbd-5ef512c9ad92)
-- [Finance a účetnictví](/wiki/spaces/fg/pages/398491650/Finance+a+etnictv)
+     *kvě 15, 2026 • přispěl/a Zuzana Chválová*
+- [[Finance a účetnictví]]
 
-                   kvě 15, 2026 • přispěl/a [Zuzana Chválová](/wiki/display/~712020%3Ae7593c93-ac5f-4ae4-8dbd-5ef512c9ad92)
-
-[Zobrazit více](/wiki/plugins/recently-updated/changes.action?theme=concise&pageSize=6&startIndex=6&searchToken=1&spaceKeys=VS&contentType=page&cursor=_t_WzE3Nzg4NDcxODgwMDAsIlx0Mzk4NDkxNjUwICdPXilQTHVMbiVUJUgnJTo1OD1WIGNwIl0%3D_h_W10%3D)
+     *kvě 15, 2026 • přispěl/a Zuzana Chválová*
