@@ -1,0 +1,328 @@
+---
+title: "Rejstřík stránek FONS Galen"
+generated: 2026-05-21
+---
+
+# 📚 Rejstřík stránek FONS Galen
+
+> **21. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-21
+
+## Legenda stáří dokumentu
+
+| Emoji | Stáří | Počet |
+|:-----:|-------|:-----:|
+| 🔥 | Do 3 dnů | **2** |
+| ♨️ | Do 14 dnů | **21** |
+| 🌿 | Do 30 dnů | **13** |
+| 📄 | Do 90 dnů | **15** |
+| 🗄️ | Starší než 3 měsíce | **251** |
+| ❓ | Bez data | **0** |
+
+---
+
+## Hierarchický přehled
+
+> `emoji` **Sekce** / stránka  `verze`  ·  datum poslední aktualizace
+
+- ♨️ **[[FONS GALEN]]** `v15` · 15. 5. 2026
+  - ♨️ **[[Finance a účetnictví]]** `v2` · 15. 5. 2026
+    - 🗄️ **[[Modul Finanční analýza]]** `v1` · 5. 9. 2025
+      - 🗄️ [[Doporučení pro práci s modulem]] `v1` · 5. 9. 2025
+      - 🗄️ [[Obecné informace]] `v1` · 5. 9. 2025
+      - 🗄️ [[Obrazovka_ Analytika|Obrazovka: Analytika]] `v1` · 5. 9. 2025
+      - 🗄️ [[Obrazovka_ Finanční přehled|Obrazovka: Finanční přehled]] `v1` · 5. 9. 2025
+      - ♨️ [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
+      - 🗄️ [[Rozdíly mezi verzemi]] `v1` · 5. 9. 2025
+      - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
+    - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
+    - ♨️ [[Modul finance]] `v3` · 13. 5. 2026
+    - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v3` · 7. 11. 2025
+  - ♨️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
+    - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
+    - ♨️ [[Archiv – Přeřazení pacienta do archivu]] `v3` · 13. 5. 2026
+    - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
+    - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
+    - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
+    - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
+    - 🗄️ [[Modul ordinace]] `v5` · 11. 8. 2025
+    - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
+    - 📄 [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
+    - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
+    - 🗄️ [[Stav účtu]] `v2` · 20. 6. 2025
+    - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
+    - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
+    - 🗄️ [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v1` · 22. 7. 2025
+    - 🗄️ [[Založení karty pacienta – pojištěnce]] `v1` · 22. 7. 2025
+    - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
+  - ♨️ **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
+    - 🗄️ **[[Medikace]]** `v1` · 21. 7. 2025
+      - 🗄️ **[[eRecept]]** `v2` · 21. 7. 2025
+        - 🗄️ [[AISLP]] `v1` · 21. 7. 2025
+        - 🗄️ [[eRecept - SÚKL]] `v2` · 21. 7. 2025
+        - 🗄️ [[eRecept – návod k použití]] `v2` · 21. 7. 2025
+      - 🗄️ [[Lékové žádanky]] `v2` · 19. 6. 2025
+      - 🗄️ [[Podávání léčiv]] `v1` · 21. 7. 2025
+      - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
+      - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
+    - ♨️ [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
+    - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
+    - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v1` · 26. 8. 2025
+    - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
+    - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
+  - 🔥 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
+    - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
+      - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
+    - 🗄️ **[[Nároky]]** `v2` · 10. 7. 2025
+      - 🗄️ **[[Generování nároků z očkování]]** `v1` · 10. 7. 2025
+        - 🗄️ [[Konfigurace a vznik nároků]] `v1` · 10. 7. 2025
+      - 🗄️ **[[Generování nároků z vyšetření]]** `v2` · 10. 7. 2025
+        - 🗄️ [[Definice nároku]] `v1` · 10. 7. 2025
+        - 🗄️ [[Notifikace]] `v1` · 10. 7. 2025
+        - 🗄️ [[Smazání nároku]] `v1` · 10. 7. 2025
+        - 🗄️ [[Vznik nároku]] `v1` · 10. 7. 2025
+        - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
+      - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
+      - 🗄️ [[Obecné fungování nároků]] `v1` · 10. 7. 2025
+    - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
+      - 🗄️ [[Hlídací pes_ Automatické upozornění na volné termíny pro pacienty|Hlídací pes: Automatické upozornění na volné termíny pro pacienty]] `v1` · 19. 1. 2026
+      - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
+      - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
+      - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
+    - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
+    - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
+    - 🗄️ [[Objednávání, kalendáře, notifikace]] `v1` · 21. 7. 2025
+    - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
+    - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
+    - 🗄️ [[Upozornění pro uživatele]] `v1` · 22. 7. 2025
+  - ♨️ **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
+    - 🗄️ **[[Ceníky a balíčky]]** `v1` · 7. 11. 2025
+      - 🗄️ [[Balíčky]] `v1` · 26. 6. 2025
+      - 🗄️ [[Kategorie]] `v1` · 26. 6. 2025
+      - 🗄️ [[Sortiment]] `v1` · 26. 6. 2025
+    - 🗄️ **[[Smlouvy PLS]]** `v1` · 7. 11. 2025
+      - 🗄️ [[Editace smlouvy]] `v1` · 26. 6. 2025
+      - 🗄️ [[Hlavní položky smlouvy]] `v1` · 26. 6. 2025
+      - 🗄️ [[Rozšiřující položky smlouvy]] `v1` · 26. 6. 2025
+    - 🗄️ [[Design PLS prohlídky]] `v1` · 26. 6. 2025
+    - 🗄️ [[Import PLS]] `v1` · 26. 6. 2025
+    - 🗄️ [[Konfigurace PLS Očkování]] `v2` · 26. 6. 2025
+    - 🗄️ [[Konfigurace PLS Prohlídky]] `v2` · 26. 6. 2025
+    - 🗄️ [[Kontakty]] `v1` · 26. 6. 2025
+    - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
+    - 🗄️ [[PLS - modul objednávání a recepce]] `v2` · 26. 6. 2025
+    - 🗄️ [[PLS Admin]] `v1` · 26. 6. 2025
+    - 🗄️ [[PLS Admin Služby]] `v1` · 26. 6. 2025
+    - 🗄️ [[PLS Faktury]] `v1` · 26. 6. 2025
+    - 🗄️ [[PLS očkování]] `v1` · 26. 6. 2025
+    - 🗄️ [[PLS prohlídky]] `v1` · 26. 6. 2025
+    - 🗄️ [[PLS Služba]] `v1` · 26. 6. 2025
+    - 🗄️ [[Rizika]] `v1` · 26. 6. 2025
+    - 🗄️ [[Zaměstnání pacienta]] `v1` · 26. 6. 2025
+  - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
+    - 📄 [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
+    - 🗄️ [[Novinky ve verzi k 11. 2. 2026]] `v2` · 9. 2. 2026
+    - 🗄️ [[Novinky ve verzi k 12. 8. 2025]] `v4` · 25. 8. 2025
+    - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
+    - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
+    - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
+    - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
+    - 🔥 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
+    - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
+    - 🌿 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
+    - 📄 [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
+    - 📄 [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
+    - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
+    - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
+    - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
+    - 🌿 [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
+    - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
+    - 📄 [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
+    - 🗄️ [[Novinky ve verzi k 9. 9. 2025]] `v4` · 23. 9. 2025
+  - ♨️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
+    - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
+      - 📄 [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
+      - 🗄️ [[Prohlídky]] `v9` · 11. 12. 2025
+      - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
+      - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
+    - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
+      - 🗄️ **[[Číselníky|Číselníky.]]** `v1` · 21. 7. 2025
+        - 🗄️ [[Lékaři]] `v1` · 21. 7. 2025
+        - 🗄️ [[Seznam NSP]] `v1` · 21. 7. 2025
+        - 🗄️ [[Skupiny pacientů, Dispenzární skupiny]] `v2` · 1. 12. 2025
+        - 🗄️ [[Sledování defektů|Sledování defektů  ]] `v1` · 21. 7. 2025
+      - 🗄️ **[[Šablony]]** `v1` · 21. 7. 2025
+        - 🗄️ [[Formuláře a vyšetření]] `v1` · 21. 7. 2025
+        - 🗄️ [[Fráze]] `v1` · 21. 7. 2025
+        - 🗄️ [[Kategorie upozornění]] `v1` · 21. 7. 2025
+        - 🗄️ [[Notifikace|Notifikace.]] `v1` · 21. 7. 2025
+        - 🗄️ [[Poučení očkování]] `v1` · 21. 7. 2025
+        - 🗄️ [[Styly tisků]] `v1` · 21. 7. 2025
+        - 🗄️ [[Výkony]] `v1` · 21. 7. 2025
+        - 🗄️ [[Záhlaví tisků]] `v1` · 21. 7. 2025
+    - 🗄️ **[[Ostatní]]** `v1` · 17. 9. 2025
+      - 🗄️ [[Žádost o zástup]] `v1` · 17. 9. 2025
+    - ♨️ **[[Správa kartoték]]** `v2` · 15. 5. 2026
+      - 🗄️ [[Import seznamu registrovaných pojištenců]] `v3` · 28. 1. 2026
+      - ♨️ [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
+    - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
+      - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
+        - 🗄️ **[[Nastavení kalendářů]]** `v1` · 22. 7. 2025
+          - 🗄️ [[Nastavení kalendáře]] `v1` · 22. 7. 2025
+          - 🗄️ [[Skupiny kalendářů]] `v1` · 22. 7. 2025
+        - 🗄️ [[Lázně]] `v1` · 18. 6. 2025
+        - 🗄️ [[Operační sály]] `v1` · 21. 7. 2025
+        - 🗄️ [[PACS]] `v1` · 21. 7. 2025
+        - 🗄️ [[Podřízené společnosti]] `v3` · 21. 7. 2025
+        - 🗄️ [[Pokladny]] `v1` · 21. 7. 2025
+        - 🗄️ [[Pozitivní PZT]] `v7` · 21. 7. 2025
+        - 🗄️ [[Preferovaná preskripce]] `v1` · 21. 7. 2025
+        - 🗄️ [[Sdílená kartotéka pro skupiny pracovišť]] `v1` · 21. 7. 2025
+        - 🗄️ [[Skladový sortiment]] `v1` · 21. 7. 2025
+        - 🗄️ [[Sklady]] `v3` · 21. 11. 2025
+        - 🗄️ [[Skupiny pracovišť]] `v1` · 21. 7. 2025
+        - 🗄️ [[Správa API]] `v1` · 21. 7. 2025
+        - 🗄️ [[Zástupy]] `v1` · 17. 9. 2025
+        - 🗄️ [[Číselné řady|Číselné řady.]] `v1` · 21. 7. 2025
+      - 🗄️ **[[Struktura]]** `v3` · 21. 7. 2025
+        - 🗄️ **[[Pracoviště]]** `v5` · 10. 12. 2025
+          - 🗄️ **[[UI konfigurace]]** `v4` · 10. 12. 2025
+            - 🗄️ **[[Info panel pacienta]]** `v2` · 11. 12. 2025
+              - 📄 [[Info panel pacienta v Nástrojích]] `v1` · 19. 3. 2026
+            - 🗄️ [[Záložka UI konfigurace]] `v3` · 29. 1. 2026
+          - 🗄️ [[Předepsání eReceptu pod jiným IČP]] `v1` · 17. 9. 2025
+          - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025
+          - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
+          - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
+        - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
+          - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
+        - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
+          - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
+        - 🗄️ [[Společnost]] `v3` · 21. 7. 2025
+      - 🗄️ [[Návod na přidání pojišťovny a smluvních výkonů]] `v1` · 26. 8. 2025
+      - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
+      - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
+    - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
+      - 🗄️ [[Import KDávek]] `v1` · 21. 7. 2025
+      - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
+    - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
+      - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
+    - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
+    - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
+    - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
+  - ♨️ **[[Vyšetření, dekurz a klinická péče]]** `v4` · 15. 5. 2026
+    - ♨️ **[[Bonifikační a screeningové programy]]** `v9` · 13. 5. 2026
+      - 🗄️ [[Screening kolorektálního karcinomu]] `v1` · 16. 12. 2025
+      - 🗄️ [[Screening zraku u dětí]] `v2` · 16. 12. 2025
+      - 🗄️ [[Screening časného záchytu karcinomu plic]] `v1` · 16. 12. 2025
+      - 🗄️ [[T-skóre]] `v1` · 16. 12. 2025
+      - 🗄️ [[Test mentálních funkcí]] `v1` · 16. 12. 2025
+      - 🗄️ [[Vyšetření karcinomu prostaty]] `v3` · 27. 10. 2025
+      - 🗄️ [[Výpočet KVO dle Score 2]] `v1` · 23. 7. 2025
+      - 🗄️ [[Výpočet percentilu BMI s vazbou na výkony]] `v2` · 16. 7. 2025
+      - 🗄️ [[Výpočet rizika zlomenin dle FRAX]] `v2` · 16. 12. 2025
+    - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
+      - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
+      - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
+      - 🗄️ [[Zkratky a formátování v dekurzu]] `v1` · 23. 6. 2025
+    - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
+      - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
+      - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
+      - 🗄️ [[Výchozí nastavení]] `v1` · 23. 6. 2025
+    - 🗄️ [[Editace vyšetření různými odpovědnými lékaři]] `v1` · 3. 9. 2025
+    - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
+    - 🗄️ [[Lékařská zpráva]] `v1` · 23. 6. 2025
+    - 🗄️ [[Odesílání lékařských zpráv]] `v1` · 23. 6. 2025
+    - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
+    - 🗄️ [[Vyšetření]] `v1` · 23. 6. 2025
+    - ♨️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
+  - ♨️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
+    - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
+      - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
+    - 🗄️ [[Cesta k nastavení používání hesel|Cesta k nastavení používání hesel]] `v1` · 17. 6. 2025
+    - 🗄️ [[Dvoufaktorové ověření (2FA)]] `v5` · 7. 11. 2025
+    - 🗄️ [[Instalace FONS Galen]] `v3` · 9. 12. 2025
+    - 🗄️ [[Klávesové zkratky ve FONS Galen]] `v1` · 21. 7. 2025
+    - 🗄️ [[Obnovení hesla e-mailem]] `v1` · 26. 8. 2025
+    - 🗄️ [[Off-line režim]] `v1` · 18. 6. 2025
+    - 🗄️ [[Spuštění programu]] `v1` · 17. 6. 2025
+    - 🗄️ [[Ukončení programu]] `v1` · 18. 6. 2025
+    - ♨️ [[Vzdálená správa – TeamViewer]] `v1` · 13. 5. 2026
+  - ♨️ **[[Žádanky, posudky a elektronická podání]]** `v2` · 15. 5. 2026
+    - 🗄️ **[[Biometrický podpis]]** `v1` · 29. 1. 2026
+      - 🗄️ [[Doporučená zařízení]] `v1` · 29. 1. 2026
+      - 📄 [[Nastavení pracoviště]] `v2` · 10. 4. 2026
+      - 🗄️ [[Odeslání k podpisu]] `v1` · 29. 1. 2026
+      - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
+      - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
+    - 🌿 **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
+      - 🌿 [[Certifikát PZS]] `v1` · 29. 4. 2026
+      - 🌿 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
+    - ♨️ **[[ePoukaz]]** `v2` · 13. 5. 2026
+      - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
+        - ♨️ [[Další signální kódy]] `v3` · 12. 5. 2026
+        - 🗄️ [[Maximální preskripce]] `v2` · 28. 11. 2025
+        - 🗄️ [[Předpis neregistrovaného prostředku]] `v2` · 28. 11. 2025
+        - 🗄️ [[Přílohy]] `v1` · 28. 11. 2025
+        - 🗄️ [[Signální kód 0082747 – vlhké krytí]] `v2` · 28. 11. 2025
+        - 🗄️ [[Výjimky ze schválení]] `v1` · 28. 11. 2025
+      - 🗄️ **[[Výdej foniatrické pomůcky předepsané na ePoukaz]]** `v10` · 10. 2. 2026
+        - 🗄️ [[Vyúčtování foniatrické pomůcky vydané na ePoukaz]] `v5` · 10. 2. 2026
+      - 🗄️ [[Akce spojené s životní cyklem ePoukazu]] `v1` · 23. 6. 2025
+      - 🗄️ [[Jednotlivé části formuláře ePoukaz]] `v3` · 27. 1. 2026
+      - 🗄️ [[Platnost ePoukazu]] `v3` · 26. 1. 2026
+      - 🗄️ [[Počet položek ePoukazu]] `v1` · 23. 6. 2025
+      - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
+    - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
+      - 🗄️ [[Laboratorní položky]] `v1` · 26. 8. 2025
+      - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
+      - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
+    - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025
+      - 🗄️ **[[Elektronizace dalších dávek nemocenského pojištění (ošetřovné, dlouhodobé ošetřovné, potvrzení o datu porodu)]]** `v1` · 21. 7. 2025
+        - 🗄️ [[Notifikace ČSSZ]] `v1` · 21. 7. 2025
+        - 🗄️ [[Odeslání lístku na peníze]] `v1` · 21. 7. 2025
+        - 🗄️ [[Převzetí do péče]] `v1` · 21. 7. 2025
+        - 🗄️ [[Stavy]] `v1` · 21. 7. 2025
+        - 🗄️ [[Ukončení dávky]] `v1` · 21. 7. 2025
+        - 🗄️ [[Vykázání výkonu]] `v1` · 21. 7. 2025
+        - 🗄️ [[Vytvoření nové dávky]] `v1` · 21. 7. 2025
+        - 🗄️ [[Změna poměrů zobrazených částí obrazovky]] `v1` · 21. 7. 2025
+        - 🗄️ [[Zobrazení jednotlivých dávek]] `v1` · 21. 7. 2025
+      - 🗄️ **[[eNeschopenka]]** `v2` · 20. 6. 2025
+        - 🗄️ [[Hlídání podpůrčí doby eDPN]] `v1` · 18. 6. 2025
+        - 🗄️ [[Individuální vycházky]] `v2` · 4. 2. 2026
+        - 🗄️ [[Vystavení eDPN o více než 3 dny zpětně]] `v1` · 4. 2. 2026
+        - 🗄️ [[Zvýraznění pacienta v dlouhodobé pracovní neschopnosti|Zvýraznění pacienta v dlouhodobé pracovní neschopnosti]] `v2` · 20. 6. 2025
+      - 🗄️ [[Dlouhodobé ošetřovné]] `v4` · 5. 9. 2025
+      - 🗄️ [[Ošetřovné]] `v2` · 21. 7. 2025
+      - 🗄️ [[Postup při změně IČPE]] `v1` · 4. 2. 2026
+      - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
+      - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
+    - 📄 [[Centrová léčba]] `v2` · 24. 2. 2026
+    - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
+    - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
+    - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
+- 🗄️ **[[MDCL API]]** `v2` · 8. 7. 2025
+  - 🗄️ [[API_ Adresy|API: Adresy]] `v1` · 8. 7. 2025
+  - 🗄️ [[API_ Kontakty pacienta|API: Kontakty pacienta]] `v1` · 8. 7. 2025
+  - 📄 [[API_ Měření|API: Měření]] `v1` · 18. 3. 2026
+  - 📄 [[API_ Návštěva|API: Návštěva]] `v1` · 18. 3. 2026
+  - 🗄️ [[API_ Pacient|API: Pacient]] `v1` · 8. 7. 2025
+  - 🗄️ [[API_ PLS Pobočky, Skupiny|API: PLS Pobočky, Skupiny]] `v2` · 28. 7. 2025
+  - 🗄️ [[API_ Zaměstnání|API: Zaměstnání]] `v1` · 28. 7. 2025
+- 🌿 **[[Naskladňování přes čtečky]]** `v3` · 23. 4. 2026
+  - ♨️ **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
+    - 🌿 [[Zebra CS60 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 🌿 [[Zebra DS2278 a DS2208 – konfigurace čtečky]] `v2` · 23. 4. 2026
+    - 🌿 [[Zebra DS4308 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 🌿 [[Zebra DS6878 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 🌿 [[Zebra DS8178 a DS8108 – konfigurace čtečky]] `v2` · 23. 4. 2026
+    - 🌿 [[Zebra DS9308 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 🌿 [[Zebra MP7000 – konfigurace čtečky]] `v1` · 23. 4. 2026
+- 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
+- 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
+- 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
+- 🗄️ [[Modul sklad]] `v3` · 5. 12. 2025
+- 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
+- 📄 [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
+- 🗄️ [[Sklady HVLP a PZT]] `v1` · 1. 9. 2025
+- 📄 [[Zabezpečení API]] `v1` · 2. 4. 2026
