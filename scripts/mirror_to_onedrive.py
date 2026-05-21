@@ -10,7 +10,7 @@ import shutil
 import sys
 from pathlib import Path
 
-MIRROR_DIRS = ("pages", "_meta", "_assets")
+MIRROR_DIRS = ("pages", "_meta", "_assets", "GalenMD")
 
 
 def mirror(src: Path, dst: Path) -> dict:

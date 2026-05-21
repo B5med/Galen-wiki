@@ -29,6 +29,9 @@ jobs:
         id: sync
         run: python scripts/sync_confluence.py --out . --github-output "$GITHUB_OUTPUT"
 
+      - name: Convert to Markdown
+        run: python scripts/convert_to_markdown.py --out .
+
       - name: Commit changes
         env:
           UPDATED: ${{ steps.sync.outputs.updated }}

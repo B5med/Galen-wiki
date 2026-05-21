@@ -26,7 +26,16 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/3] Kopiruji do OneDrive...
+echo [2/3] Konverze do Markdown (GalenMD)...
+%PYTHON% scripts\convert_to_markdown.py --out .
+if errorlevel 1 (
+    echo CHYBA: Konverze selhal.
+    pause
+    exit /b 1
+)
+
+echo.
+echo [3/4] Kopiruji do OneDrive...
 %PYTHON% scripts\mirror_to_onedrive.py --src . --dst "%ONEDRIVE%"
 if errorlevel 1 (
     echo CHYBA: Mirror selhal.
@@ -35,7 +44,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Nahravani na GitHub...
+echo [4/4] Nahravani na GitHub...
 git add -A
 git diff --cached --quiet
 if errorlevel 1 (
