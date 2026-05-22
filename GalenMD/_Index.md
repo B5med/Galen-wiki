@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-21
+generated: 2026-05-22
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **21. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-21
+> **22. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-22
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **21** |
+| 🔥 | Do 3 dnů | **1** |
+| ♨️ | Do 14 dnů | **23** |
 | 🌿 | Do 30 dnů | **13** |
 | 📄 | Do 90 dnů | **15** |
-| 🗄️ | Starší než 3 měsíce | **251** |
+| 🗄️ | Starší než 3 měsíce | **250** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -69,7 +69,7 @@ generated: 2026-05-21
     - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v1` · 26. 8. 2025
     - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
-  - 🔥 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
+  - ♨️ **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
     - 🗄️ **[[Nároky]]** `v2` · 10. 7. 2025
@@ -126,7 +126,7 @@ generated: 2026-05-21
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
-    - 🔥 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
+    - ♨️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🌿 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 📄 [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
@@ -321,7 +321,7 @@ generated: 2026-05-21
 - 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
-- 🗄️ [[Modul sklad]] `v3` · 5. 12. 2025
+- 🔥 [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
 - 📄 [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
 - 🗄️ [[Sklady HVLP a PZT]] `v1` · 1. 9. 2025

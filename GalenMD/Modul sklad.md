@@ -1,7 +1,7 @@
 ---
 title: "Modul sklad"
-version: 3
-updated_at: 2025-12-05
+version: 5
+updated_at: 2026-05-21
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/48136251
 ---
 
@@ -37,7 +37,8 @@ Poté, co je založená karta očkovací látky, je možné zadávat její jedno
 
 V případě, že není naskladňován celý balíček očkovací látky, je možné zadat i jiný počet dávek, než jsou v originálním balení. Políčko typ udává, zda je očkovací látka vykazována standardně na pojišťovnu nebo je hrazena mandatorně (státem). V případě, že se lékař překlepne v šarži látky nebo udělá nějakou jinou chybu, je možné očkovací látku smazat tlačítkem „Smazat nepoužitou šarži“. Toto tlačítko bude neaktivní ve chvíli, kdy již nějaká vakcína této šarže byla aplikována. Pokud bude třeba naskladnit další vakcíny stejné šarže, stačí kliknout na tlačítko „Naskladnit“ vedle názvu šarže. Naopak, pokud bude třeba z nějakého důvodu (např. prošlá expirace, rozbitá lednice,…) odstranit ze skladu vakcíny nějaké šarže, je třeba kliknout na tlačítko „Vyskladnit“. Toto tlačítko slouží k hromadnému vyskladnění očkovací látky. Po aplikaci očkovací látky pacientovi a zadání očkování do programu je příslušná vakcína rovnou ze skladu odepsána. Při kliknutí na danou šarži je vidět pohyb na její skladové kartě.
 
-**Pozn. Aby bylo možné využívat sklad, je nutné ho mít povolen u uživatele v Organizační struktuře a nadefinován na pracovišti.**
+> [!warning]
+> **Aby bylo možné využívat sklad, je nutné ho mít povolen u uživatele v Organizační struktuře a nadefinován na pracovišti.**
 
 ## **Příklad naskladnění Tetavaxu:**
 
@@ -52,3 +53,20 @@ V případě, že není naskladňován celý balíček očkovací látky, je mo�
 Máme-li naskladněnou očkovací látku na skladové kartě, lze s použitím této očkovací látky očkovat pacienty v kartotéce ve funkcionalitě Očkování na dolní modré liště. Během zadávání konkrétního očkování do záznamu pacienta se nabízí očkovací látka s označením počtu dávek naskladněné očkovací látky. Po dokončení evidence očkování pacienta v IS Galen se použitá dávka očkovací látky automaticky ze skladové karty odečte. Pokud lékař očkování u pacienta z nějakého důvodu smaže, očkovací látka se opět na skladovou kartu vrátí.
 
 ![image-20250618-105959.png](<../pages/Modul sklad/assets/image-20250618-105959.png>)
+
+## Export stavu skladu
+
+Pokud potřebujete přehled aktuálního počtu očkovacích látek na sklade můžete na to použít tlačítko **Tisk** v pravé části horní modré lišty se nachází. Zvolte požadovaný rozsah:
+
+- **Celý sklad** – přehled všech skladových karet
+- **Vybraná skladová karta** – přehled konkrétní látky
+
+Zvolte filtr zobrazení:
+
+- **Pouze látky skladem** – zobrazí pouze látky s aktuálně nenulovým stavem
+- jinak Všechny látky – zobrazí i látky vedené ve skladu, které aktuálně nejsou naskladněny
+
+![image-20260521-140821.png](<../pages/Modul sklad/assets/image-20260521-140821.png>)
+Seznam je možné vytisknout nebo exportovat do PDF.
+
+![image-20260521-141553.png](<../pages/Modul sklad/assets/image-20260521-141553.png>)

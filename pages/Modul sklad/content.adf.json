@@ -340,23 +340,32 @@
       ]
     },
     {
-      "type": "paragraph",
+      "type": "panel",
       "attrs": {
-        "localId": "5c6c50d0-bc55-4722-aad4-74b165f864a7"
+        "panelType": "warning",
+        "localId": "1c1a5fa63c60"
       },
       "content": [
         {
-          "text": "Pozn. Aby bylo možné využívat sklad, je nutné ho mít povolen u uživatele v Organizační struktuře a nadefinován na pracovišti.",
-          "type": "text",
-          "marks": [
+          "type": "paragraph",
+          "attrs": {
+            "localId": "e9c235c1745a"
+          },
+          "content": [
             {
-              "type": "strong"
+              "text": "Aby bylo možné využívat sklad, je nutné ho mít povolen u uživatele v Organizační struktuře a nadefinován na pracovišti.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
             }
           ]
-        },
-        {
-          "text": " ",
-          "type": "text"
         }
       ]
     },
@@ -692,6 +701,247 @@
             "localId": "c0082d51-31fc-429b-b619-80fd79f1b620",
             "height": 638
           }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f13a811452a9"
+      },
+      "content": [
+        {
+          "text": "Export stavu skladu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "78d825bd88fc"
+      },
+      "content": [
+        {
+          "text": "Pokud potřebujete přehled aktuálního počtu očkovacích látek na sklade můžete na to použít tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v pravé části horní modré lišty se nachází. Zvolte požadovaný rozsah:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "72510b1e-755e-476d-9cf6-d83c87a75293"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8e14ec05-e5a2-4028-a58c-44c42c241283"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0db9bbf1dbc4"
+              },
+              "content": [
+                {
+                  "text": "Celý sklad",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – přehled všech skladových karet",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2464b05d-b0d2-41ec-a866-00ee5f66c93c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ea7ef2708e14"
+              },
+              "content": [
+                {
+                  "text": "Vybraná skladová karta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – přehled konkrétní látky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "61ff81893c9d"
+      },
+      "content": [
+        {
+          "text": "Zvolte filtr zobrazení: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2135f2bc-95ff-4d72-ba4c-4a0ca3970ff1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "13d81a12-fe40-40a6-8ef4-182093305bc1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2969b8c24323"
+              },
+              "content": [
+                {
+                  "text": "Pouze látky skladem",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – zobrazí pouze látky s aktuálně nenulovým stavem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b863a113-07c4-4a9d-9877-a38798dba0da"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "55241f55cebd"
+              },
+              "content": [
+                {
+                  "text": "jinak Všechny látky – zobrazí i látky vedené ve skladu, které aktuálně nejsou naskladněny",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 407,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 407,
+            "alt": "image-20260521-140821.png",
+            "id": "92f96657-58a7-4f33-badd-22dec3047e41",
+            "collection": "contentId-48136251",
+            "type": "file",
+            "localId": "f075fbada48b",
+            "height": 245
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "adbc99622133"
+      },
+      "content": [
+        {
+          "text": "Seznam je možné vytisknout nebo exportovat do PDF.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 595,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 595,
+            "alt": "image-20260521-141553.png",
+            "id": "463f7585-9eba-4ca3-9806-9067b208fcfb",
+            "collection": "contentId-48136251",
+            "type": "file",
+            "localId": "e59efab54fa5",
+            "height": 494
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "87a3f50305b0"
+          },
+          "content": [
+            {
+              "text": "Náhled na vygenerovaný seznam",
+              "type": "text"
+            }
+          ]
         }
       ]
     },
