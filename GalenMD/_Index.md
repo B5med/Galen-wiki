@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-23
+generated: 2026-05-24
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **23. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-23
+> **24. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-24
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-05-23
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **23** |
-| 🌿 | Do 30 dnů | **13** |
-| 📄 | Do 90 dnů | **15** |
+| 🌿 | Do 30 dnů | **4** |
+| 📄 | Do 90 dnů | **24** |
 | 🗄️ | Starší než 3 měsíce | **250** |
 | ❓ | Bez data | **0** |
 
@@ -128,7 +128,7 @@ generated: 2026-05-23
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - ♨️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
-    - 🌿 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
+    - 📄 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 📄 [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 📄 [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
@@ -309,15 +309,15 @@ generated: 2026-05-23
   - 🗄️ [[API_ Pacient|API: Pacient]] `v1` · 8. 7. 2025
   - 🗄️ [[API_ PLS Pobočky, Skupiny|API: PLS Pobočky, Skupiny]] `v2` · 28. 7. 2025
   - 🗄️ [[API_ Zaměstnání|API: Zaměstnání]] `v1` · 28. 7. 2025
-- 🌿 **[[Naskladňování přes čtečky]]** `v3` · 23. 4. 2026
+- 📄 **[[Naskladňování přes čtečky]]** `v3` · 23. 4. 2026
   - ♨️ **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
-    - 🌿 [[Zebra CS60 – konfigurace čtečky]] `v1` · 23. 4. 2026
-    - 🌿 [[Zebra DS2278 a DS2208 – konfigurace čtečky]] `v2` · 23. 4. 2026
-    - 🌿 [[Zebra DS4308 – konfigurace čtečky]] `v1` · 23. 4. 2026
-    - 🌿 [[Zebra DS6878 – konfigurace čtečky]] `v1` · 23. 4. 2026
-    - 🌿 [[Zebra DS8178 a DS8108 – konfigurace čtečky]] `v2` · 23. 4. 2026
-    - 🌿 [[Zebra DS9308 – konfigurace čtečky]] `v1` · 23. 4. 2026
-    - 🌿 [[Zebra MP7000 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 📄 [[Zebra CS60 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 📄 [[Zebra DS2278 a DS2208 – konfigurace čtečky]] `v2` · 23. 4. 2026
+    - 📄 [[Zebra DS4308 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 📄 [[Zebra DS6878 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 📄 [[Zebra DS8178 a DS8108 – konfigurace čtečky]] `v2` · 23. 4. 2026
+    - 📄 [[Zebra DS9308 – konfigurace čtečky]] `v1` · 23. 4. 2026
+    - 📄 [[Zebra MP7000 – konfigurace čtečky]] `v1` · 23. 4. 2026
 - 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
