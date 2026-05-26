@@ -1,7 +1,7 @@
 ---
 title: "Zkratky a formátování v dekurzu"
-version: 1
-updated_at: 2025-06-23
+version: 2
+updated_at: 2026-05-25
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53444609
 ---
 

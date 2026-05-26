@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-25
+generated: 2026-05-26
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **25. 5. 2026**  ·  Celkem stránek: **302**  ·  Poslední sync z Confluence: 2026-05-25
+> **26. 5. 2026**  ·  Celkem stránek: **304**  ·  Poslední sync z Confluence: 2026-05-26
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **4** |
 | ♨️ | Do 14 dnů | **24** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **23** |
-| 🗄️ | Starší než 3 měsíce | **251** |
+| 📄 | Do 90 dnů | **22** |
+| 🗄️ | Starší než 3 měsíce | **250** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -88,6 +88,7 @@ generated: 2026-05-25
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
+    - 🔥 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🗄️ [[Objednávání, kalendáře, notifikace]] `v1` · 21. 7. 2025
@@ -223,15 +224,16 @@ generated: 2026-05-25
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🗄️ [[Zkratky a formátování v dekurzu]] `v1` · 23. 6. 2025
+      - 🔥 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
+      - 🔥 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
+    - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
+      - 🔥 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
       - 🗄️ [[Výchozí nastavení]] `v1` · 23. 6. 2025
     - 🗄️ [[Editace vyšetření různými odpovědnými lékaři]] `v1` · 3. 9. 2025
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
-    - 🗄️ [[Lékařská zpráva]] `v1` · 23. 6. 2025
-    - 🗄️ [[Odesílání lékařských zpráv]] `v1` · 23. 6. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
     - 🗄️ [[Vyšetření]] `v1` · 23. 6. 2025
     - ♨️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
@@ -297,7 +299,7 @@ generated: 2026-05-25
       - 🗄️ [[Postup při změně IČPE]] `v1` · 4. 2. 2026
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
-    - 📄 [[Centrová léčba]] `v2` · 24. 2. 2026
+    - 🗄️ [[Centrová léčba]] `v2` · 24. 2. 2026
     - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025

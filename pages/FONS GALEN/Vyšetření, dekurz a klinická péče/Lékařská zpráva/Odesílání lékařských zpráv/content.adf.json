@@ -3,9 +3,12 @@
   "content": [
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "91355086279a"
+      },
       "content": [
         {
-          "text": "Lékařskou zprávu (dále LZ) je možné odeslat jinému lékaři přes funkcionalitu Ezpráva. Lze odeslat nově vytvořenou LZ (viz výše - Generování lékařské zprávy) i kteroukoliv dříve vytvořenou LZ.",
+          "text": "Lékařskou zprávu (dále LZ) je možné odeslat jinému lékaři přes funkcionalitu eZpráva. Lze odeslat nově vytvořenou LZ (viz výše - Generování lékařské zprávy) i kteroukoliv dříve vytvořenou LZ.",
           "type": "text"
         }
       ]
@@ -26,6 +29,7 @@
             "id": "e02d639b-8f08-470f-9b69-f255c5deb02d",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "4ae3bc4f089d",
             "height": 243
           }
         }
@@ -47,6 +51,7 @@
             "id": "c3c62203-f1d2-4a1b-82a5-f92f2726634d",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "a637fee4b73b",
             "height": 53
           }
         }
@@ -54,9 +59,12 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "be94374b1c90"
+      },
       "content": [
         {
-          "text": "Před odesláním LZ je nutné označit LZ, kterou chce odeslat a kliknout na tlačítko Odeslat, které najdeme v e stejném okně přehledu lékařských zpráv v pravé části horní lišty. Otevře se okno výběru adresátů, kteří používají eZprávu.  Číselník těchto adresátů se denně aktualizuje v nočních hodinách. Po výběru adresáta a potvrzení tlačítkem OK se objeví potvrzení, že Lékařská zpráva byla odeslána.",
+          "text": "Před odesláním LZ je nutné označit LZ, kterou chce odeslat a kliknout na tlačítko Odeslat, které najdeme ve stejném okně přehledu lékařských zpráv v pravé části horní lišty. Otevře se okno výběru adresátů, kteří používají eZprávu.  Číselník těchto adresátů se denně aktualizuje v nočních hodinách. Po výběru adresáta a potvrzení tlačítkem OK se objeví potvrzení, že Lékařská zpráva byla odeslána.",
           "type": "text"
         }
       ]
@@ -77,6 +85,7 @@
             "id": "77ae4505-88ba-47ce-810a-1f97da1f8baa",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "5deb7b18635a",
             "height": 111
           }
         }
@@ -98,6 +107,7 @@
             "id": "7fc3e571-7624-4fe6-9122-f3c7b13666d5",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "356fdf3ee6af",
             "height": 96
           }
         }
@@ -105,6 +115,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "ced769168029"
+      },
       "content": [
         {
           "text": "Pokud do filtru okna výběru adresátů zadáme větší zdravotnické zařízení, může se nám ukázat jen jedno IČP, které je takzvaným uzlem, ze kterého teprve lze vybrat konkrétního lékaře.",
@@ -116,7 +129,7 @@
       "type": "mediaSingle",
       "attrs": {
         "layout": "center",
-        "width": 360,
+        "width": 760,
         "widthType": "pixel"
       },
       "content": [
@@ -128,6 +141,7 @@
             "id": "d64ffed7-acbe-4fb3-a809-24355624c722",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "91e390e8bd10",
             "height": 40
           }
         }
@@ -135,6 +149,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "d5e059c98d88"
+      },
       "content": [
         {
           "text": "Kliknutím na OK se otevře okno výběru lékařů tohoto zdravotnického zařízení. V záložce Centrální registr lze vyhledat a vybrat konkrétního lékaře zvoleného zdravotnického zařízení, tzv. uzlu. Samotné odeslání LZ probíhá stejným způsobem jako u jiných adresátů. Po označení vybraného adresáta stiskneme tlačítko OK a objeví se hláška, že LZ byla odeslána.",
@@ -146,7 +163,7 @@
       "type": "mediaSingle",
       "attrs": {
         "layout": "center",
-        "width": 382,
+        "width": 760,
         "widthType": "pixel"
       },
       "content": [
@@ -158,19 +175,26 @@
             "id": "dc00f76a-145f-4f7c-b26b-dff2bcffd9e6",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "6b928c548994",
             "height": 100
           }
         }
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "56ab8351db53"
+      }
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b22efbfb0987"
+      },
       "content": [
         {
-          "text": " Odeslání LZ se promítne také přímo v textovém poli v dekurzu pacienta po aktualizaci okna dekurzu. Zelená ikona signalizuje odeslanou LZ,  modrá ikona signalizuje LZ přijatou.",
+          "text": "Odeslání LZ se promítne také přímo v textovém poli v dekurzu pacienta po aktualizaci okna dekurzu. Zelená ikona signalizuje odeslanou LZ,  modrá ikona signalizuje LZ přijatou.",
           "type": "text"
         }
       ]
@@ -191,6 +215,7 @@
             "id": "88b53b46-8c0a-4ea8-b966-a9ed02eb61f6",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "d70d31e18b55",
             "height": 105
           }
         }
@@ -198,6 +223,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "ec19e7c5216c"
+      },
       "content": [
         {
           "text": "V dekurzu lze také otevřít přílohu dané LZ, kterou otevřeme stiskem hypertextového odkazu viz žluté pole v printscreenu výše. Zobrazí se okno, ve kterém lze přílohu jednak otevřít kliknutím na hypertextový odkaz v levé horní části okna nebo lze také přílohu rovnou dát do přílohy dekurzu pacienta kliknutím na sponečku v pravém horním rohu dialogového okna. Po uložení souboru do příloh a výběru typu přílohy se objeví oznámení, že příloha byla uložena.",
@@ -221,6 +249,7 @@
             "id": "b13ae819-6118-4113-af44-b9a45ae464a5",
             "collection": "contentId-52985868",
             "type": "file",
+            "localId": "694b21e73137",
             "height": 175
           }
         }
@@ -228,6 +257,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "4b8629349332"
+      },
       "content": [
         {
           "text": "Pokud Všechny přílohy pacienta lze najít v okně historie pacienta (v dolní modré liště) výběrem položky Přílohy.",

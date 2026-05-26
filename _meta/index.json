@@ -1,7 +1,7 @@
 {
   "space_id": "98309",
   "space_key": "fg",
-  "synced_at": "2026-05-25T08:15:26Z",
+  "synced_at": "2026-05-26T07:41:26Z",
   "pages": {
     "75235333": {
       "title": "Agendy",
@@ -386,6 +386,14 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace"
+    },
+    "420151298": {
+      "title": "eZpráva – příjem a odesílání zpráv v Galenu",
+      "version": 1,
+      "updated_at": "2026-05-25T11:39:55.603Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "400097284",
+      "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/eZpráva – příjem a odesílání zpráv v Galenu"
     },
     "398491650": {
       "title": "Finance a účetnictví",
@@ -1165,11 +1173,19 @@
     },
     "52985868": {
       "title": "Odesílání lékařských zpráv",
+      "version": 3,
+      "updated_at": "2026-05-26T06:26:22.049Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "52920363",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/Odesílání lékařských zpráv"
+    },
+    "419463171": {
+      "title": "Odesílání zpráv z dekurzu",
       "version": 1,
-      "updated_at": "2025-06-23T08:54:34.510Z",
-      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
-      "parent_id": "399802371",
-      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Odesílání lékařských zpráv"
+      "updated_at": "2026-05-25T11:25:25.176Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "52690949",
+      "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Odesílání zpráv z dekurzu"
     },
     "47939696": {
       "title": "Off-line režim",
@@ -2269,9 +2285,9 @@
     },
     "53444609": {
       "title": "Zkratky a formátování v dekurzu",
-      "version": 1,
-      "updated_at": "2025-06-23T08:19:00.507Z",
-      "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
+      "version": 2,
+      "updated_at": "2026-05-25T08:41:16.478Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "52690949",
       "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Dekurz/Zkratky a formátování v dekurzu"
     },
