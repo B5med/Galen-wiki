@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-26
+generated: 2026-05-27
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **26. 5. 2026**  ·  Celkem stránek: **304**  ·  Poslední sync z Confluence: 2026-05-26
+> **27. 5. 2026**  ·  Celkem stránek: **304**  ·  Poslední sync z Confluence: 2026-05-27
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **4** |
-| ♨️ | Do 14 dnů | **24** |
-| 🌿 | Do 30 dnů | **4** |
+| ♨️ | Do 14 dnů | **21** |
+| 🌿 | Do 30 dnů | **7** |
 | 📄 | Do 90 dnů | **22** |
 | 🗄️ | Starší než 3 měsíce | **250** |
 | ❓ | Bez data | **0** |
@@ -31,7 +31,7 @@ generated: 2026-05-26
       - 🗄️ [[Obecné informace]] `v1` · 5. 9. 2025
       - 🗄️ [[Obrazovka_ Analytika|Obrazovka: Analytika]] `v1` · 5. 9. 2025
       - 🗄️ [[Obrazovka_ Finanční přehled|Obrazovka: Finanční přehled]] `v1` · 5. 9. 2025
-      - ♨️ [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
+      - 🌿 [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
       - 🗄️ [[Rozdíly mezi verzemi]] `v1` · 5. 9. 2025
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
@@ -261,7 +261,7 @@ generated: 2026-05-26
       - 🌿 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - ♨️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
-        - ♨️ [[Další signální kódy]] `v3` · 12. 5. 2026
+        - 🌿 [[Další signální kódy]] `v3` · 12. 5. 2026
         - 🗄️ [[Maximální preskripce]] `v2` · 28. 11. 2025
         - 🗄️ [[Předpis neregistrovaného prostředku]] `v2` · 28. 11. 2025
         - 🗄️ [[Přílohy]] `v1` · 28. 11. 2025
@@ -312,7 +312,7 @@ generated: 2026-05-26
   - 🗄️ [[API_ PLS Pobočky, Skupiny|API: PLS Pobočky, Skupiny]] `v2` · 28. 7. 2025
   - 🗄️ [[API_ Zaměstnání|API: Zaměstnání]] `v1` · 28. 7. 2025
 - 📄 **[[Naskladňování přes čtečky]]** `v3` · 23. 4. 2026
-  - ♨️ **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
+  - 🌿 **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
     - 📄 [[Zebra CS60 – konfigurace čtečky]] `v1` · 23. 4. 2026
     - 📄 [[Zebra DS2278 a DS2208 – konfigurace čtečky]] `v2` · 23. 4. 2026
     - 📄 [[Zebra DS4308 – konfigurace čtečky]] `v1` · 23. 4. 2026
