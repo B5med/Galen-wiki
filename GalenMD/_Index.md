@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-28
+generated: 2026-05-29
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **28. 5. 2026**  ·  Celkem stránek: **305**  ·  Poslední sync z Confluence: 2026-05-28
+> **29. 5. 2026**  ·  Celkem stránek: **305**  ·  Poslední sync z Confluence: 2026-05-29
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **5** |
-| ♨️ | Do 14 dnů | **13** |
-| 🌿 | Do 30 dnů | **15** |
+| 🔥 | Do 3 dnů | **2** |
+| ♨️ | Do 14 dnů | **15** |
+| 🌿 | Do 30 dnů | **16** |
 | 📄 | Do 90 dnů | **22** |
 | 🗄️ | Starší než 3 měsíce | **250** |
 | ❓ | Bez data | **0** |
@@ -89,14 +89,14 @@ generated: 2026-05-28
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
       - 🔥 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
-    - 🔥 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
+    - ♨️ [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🗄️ [[Objednávání, kalendáře, notifikace]] `v1` · 21. 7. 2025
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
     - 🗄️ [[Upozornění pro uživatele]] `v1` · 22. 7. 2025
-  - ♨️ **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
+  - 🌿 **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
     - 🗄️ **[[Ceníky a balíčky]]** `v1` · 7. 11. 2025
       - 🗄️ [[Balíčky]] `v1` · 26. 6. 2025
       - 🗄️ [[Kategorie]] `v1` · 26. 6. 2025
@@ -225,8 +225,8 @@ generated: 2026-05-28
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🔥 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
-      - 🔥 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
+      - ♨️ [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
+      - ♨️ [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
       - 🔥 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
