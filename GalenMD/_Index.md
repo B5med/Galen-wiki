@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-05-31
+generated: 2026-06-01
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **31. 5. 2026**  ·  Celkem stránek: **305**  ·  Poslední sync z Confluence: 2026-05-31
+> **1. 6. 2026**  ·  Celkem stránek: **305**  ·  Poslední sync z Confluence: 2026-06-01
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **7** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **8** |
 | 🌿 | Do 30 dnů | **22** |
 | 📄 | Do 90 dnů | **25** |
 | 🗄️ | Starší než 3 měsíce | **250** |
@@ -88,7 +88,7 @@ generated: 2026-05-31
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
-      - 🔥 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
+      - ♨️ [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
     - ♨️ [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
