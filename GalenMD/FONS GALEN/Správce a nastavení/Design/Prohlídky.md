@@ -1,7 +1,7 @@
 ---
 title: "Prohlídky"
-version: 9
-updated_at: 2025-12-11
+version: 10
+updated_at: 2026-06-01
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315
 ---
 
@@ -136,6 +136,27 @@ V definici bloku je možné určit jeho
 
    - Věk - blok se zobrazí pouze u pacienta, jehož věk spadá od definovaného rozmezí
    - Pohlaví - blok se zobrazí pouze u pacienta, jehož pohlaví v kartě odpovídá zadanému
+
+### Jak přidat blok měření
+
+Měření je možné zadat dvěma způsoby
+
+A) **Jako položku**
+
+Ke stávající editovatelné položce vyšetření nebo k nové položce vyšetření je možné připojit položku měření
+
+![image-20260601-113439.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20260601-113439.png>)
+V takovém případě bude ve vyšetření textové pole (nebo checkbox), protože každá položka vyšetření musí mít alespoň jednu položku a k té bude přiřazeno měření. Nejnovější hodnoty zadané v měření v dekurzu se budou dotahovat do nově vytvořené prohlídky do stejnojmenných polí.
+
+B) **Jako měření**
+
+V případě, že je potřeba vytvořit samostatný blok měření bez jakékoli další položky, tak je možné pomocí tlačítka Přidat blok ![image-20260601-113726.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20260601-113726.png>)
+ . Zde vybrat jakoukoli položku Měření a zvolit možnost Přidat jako editovatelnou kopii.
+
+![image-20260601-113841.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20260601-113841.png>)
+Tímto způsobem bude přidána položka měření, kde uživatel dodefinuje konkrétní měření (přidá nebo ubere ze stávajících) hodnot měření.
+
+![image-20260601-114133.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20260601-114133.png>)
 
 ## Položky vyšetření
 

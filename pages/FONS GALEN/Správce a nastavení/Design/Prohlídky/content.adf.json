@@ -1933,6 +1933,203 @@
     {
       "type": "heading",
       "attrs": {
+        "level": 3,
+        "localId": "4e958450987d"
+      },
+      "content": [
+        {
+          "text": "Jak přidat blok měření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "61edf38a86e5"
+      },
+      "content": [
+        {
+          "text": "Měření je možné zadat dvěma způsoby",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ddd54ec3d268"
+      },
+      "content": [
+        {
+          "text": "A) ",
+          "type": "text"
+        },
+        {
+          "text": "Jako položku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8596f4adcff8"
+      },
+      "content": [
+        {
+          "text": "Ke stávající editovatelné položce vyšetření nebo k nové položce vyšetření je možné připojit položku měření ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1611,
+            "alt": "image-20260601-113439.png",
+            "id": "b74e3a24-e787-4e94-aef9-2e4cdc9b711d",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "2a8a910c1b04",
+            "height": 333
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5821d1c549d3"
+      },
+      "content": [
+        {
+          "text": "V takovém případě bude ve vyšetření textové pole (nebo checkbox), protože každá položka vyšetření musí mít alespoň jednu položku a k té bude přiřazeno měření. Nejnovější hodnoty zadané v měření v dekurzu se budou dotahovat do nově vytvořené prohlídky do stejnojmenných polí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aaa55022e928"
+      },
+      "content": [
+        {
+          "text": "B) ",
+          "type": "text"
+        },
+        {
+          "text": "Jako měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "73a9beef39b8"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřeba vytvořit samostatný blok měření bez jakékoli další položky, tak je možné pomocí tlačítka Přidat blok ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 89,
+            "alt": "image-20260601-113726.png",
+            "id": "8738deee-440a-4a82-ba7d-a926ed762317",
+            "collection": "contentId-50102315",
+            "type": "image",
+            "localId": "1b85e87097a2",
+            "height": 35
+          }
+        },
+        {
+          "text": " . Zde vybrat jakoukoli položku Měření a zvolit možnost Přidat jako editovatelnou kopii. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 241,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 505,
+            "alt": "image-20260601-113841.png",
+            "id": "894744d6-77f9-4e93-92b4-c405e64e3a2f",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "78926a8c4664",
+            "height": 604
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9600786af499"
+      },
+      "content": [
+        {
+          "text": "Tímto způsobem bude přidána položka měření, kde uživatel dodefinuje konkrétní měření (přidá nebo ubere ze stávajících) hodnot měření. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1609,
+            "alt": "image-20260601-114133.png",
+            "id": "4bdfe566-cac5-467b-98e2-d3adb2ac329a",
+            "collection": "contentId-50102315",
+            "type": "file",
+            "localId": "75ec3f49341a",
+            "height": 456
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
         "level": 2,
         "localId": "8f4637aa-8959-493d-b959-40226caecab1"
       },

@@ -29,7 +29,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "13881826935c"
       },
       "content": [
         {
@@ -40,6 +41,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "40a62ee8ad2c"
+      },
       "content": [
         {
           "text": "FONS Galen v základní verzi umožňuje evidovat skladové zásoby očkovacích látek. Coby nadstavbovou funkcionalitu je možné zapnout rozšíření skladů o další typy evidovaných komodit.  ",
@@ -49,6 +53,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "401c0ad8901f"
+      },
       "content": [
         {
           "text": "V rámci rozšířených typů skladů je možné evidovat následující typy zboží: ",
@@ -58,12 +65,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "eac5cd781a41"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "7b30955ff43d"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "d87bdcfc8706"
+              },
               "content": [
                 {
                   "text": "HVLP ",
@@ -75,9 +91,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "a6740e8e162d"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "666cd4eb8fab"
+              },
               "content": [
                 {
                   "text": "PZT ",
@@ -89,9 +111,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "2021efe3d682"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "36a6d28895c4"
+              },
               "content": [
                 {
                   "text": "MTZ ",
@@ -103,9 +131,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "b286f119f911"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "61e1c732acc6"
+              },
               "content": [
                 {
                   "text": "Ostatní ",
@@ -119,6 +153,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "567a0a34c064"
+      },
       "content": [
         {
           "text": "V případě HVLP a PZT je realizováno provázání na vykazování ZUM/ZULP v editoru výkonů.",
@@ -129,7 +166,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "5638b2bf67b9"
       },
       "content": [
         {
@@ -141,7 +179,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "de9e47fc75df"
       },
       "content": [
         {
@@ -152,6 +191,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "edb11efaa751"
+      },
       "content": [
         {
           "text": "Rozšířené typy skladů se zapínají na konkrétních pracovištích. ",
@@ -161,6 +203,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "fc38a876786a"
+      },
       "content": [
         {
           "text": "Zapnutí funkcionality na konkrétních pracovištích mohou provádět pouze pracovníci Stapro. ",
@@ -171,7 +216,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "2f3be16c0163"
       },
       "content": [
         {
@@ -182,6 +228,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "874119aa411b"
+      },
       "content": [
         {
           "text": "Je-li alespoň na jednom pracovišti organizace zapnuto rozšíření skladů, je v modulu ",
@@ -231,11 +280,15 @@
             "id": "7f95e00a-c283-400c-a061-df1fa7cf706a",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "052c24831f6b",
             "height": 318
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "ea755364b72e"
+          },
           "content": [
             {
               "text": "Konfigurace skladového sortimentu ",
@@ -252,6 +305,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "bbfcfcc8c5c4"
+      },
       "content": [
         {
           "text": "Definují se zde skladové položky, které má být možné na skladech dané společnosti evidovat. Skladové karty na jednotlivých skladech následně vznikají ve vazbě na skladový sortiment a na základě jeho definice je následně definován způsob práce se skladovou kartou. ",
@@ -261,6 +317,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "8ac3e6cc9ae4"
+      },
       "content": [
         {
           "text": "Základními atributy skladové sortimentu jsou: ",
@@ -270,12 +329,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "f32ce72eab03"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "511f2f479e25"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "e2b359507a39"
+              },
               "content": [
                 {
                   "text": "Název, doplněk názvu",
@@ -299,9 +367,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "fde2eda1dd47"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "6b84e9c3f95d"
+              },
               "content": [
                 {
                   "text": "Typ zboží",
@@ -325,9 +399,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "f0305b72ab8f"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "9c2475f1a98f"
+              },
               "content": [
                 {
                   "text": "Jednotka příjmu, jednotka výdeje",
@@ -351,9 +431,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "84f8f50e89a2"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "e3f8e84cfa79"
+              },
               "content": [
                 {
                   "text": "Přepočet příjmu na výdej",
@@ -390,9 +476,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "bc113e1347cf"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "b71cfc768e30"
+              },
               "content": [
                 {
                   "text": "Povinné zadávání kódu při příjmu",
@@ -432,11 +524,15 @@
             "id": "0d442313-576f-4834-8e18-14e094c81769",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "de1f1acf94c8",
             "height": 692
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "8fa0e1258789"
+          },
           "content": [
             {
               "text": "Definice skladového sortimentu",
@@ -453,6 +549,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "bb389ec473e5"
+      },
       "content": [
         {
           "text": "Pro potřeby další funkcionality (např. v budoucnu plánovaného příjmu elektronických dodacích listů) je k sortimentu možné definovat seznam kódů, které zboží identifikují. Každý kód je definován pomocí těchto atributů: ",
@@ -462,12 +561,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "2614686f31e7"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "5616441fbf9b"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "f9cf3887871d"
+              },
               "content": [
                 {
                   "text": "Druh kódu",
@@ -506,12 +614,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "ccf70ebc3bfc"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "691df2096fe4"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "035598900c4d"
+              },
               "content": [
                 {
                   "text": "Kód",
@@ -537,12 +654,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "d42a73e429d6"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "de6a8864419c"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "d9a458b8dfff"
+              },
               "content": [
                 {
                   "text": "Přepočet příjmu na výdej",
@@ -568,6 +694,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "377fa227c878"
+      },
       "content": [
         {
           "text": "Není možné zadat kódy SÚKL, které odpovídají kódům přiřazeným očkovacím látkám, pro skladovou evidenci těchto látek jsou určeny sklady očkovacích látek ze základní funkcionality programu.",
@@ -578,7 +707,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "9ad6cdee6fce"
       },
       "content": [
         {
@@ -589,6 +719,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f2671852452e"
+      },
       "content": [
         {
           "text": "Práce s rozšířenými sklady probíhá ve stejném okně, jako práce s očkovacími látkami. Základní rozvržení okna je shodné s rozvržením okna u skladů očkovacích látek. ",
@@ -612,11 +745,15 @@
             "id": "7b0b74b3-95e8-45c8-9381-bc70400778f6",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "1bc1903b0483",
             "height": 476
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "b5ab2b7253a3"
+          },
           "content": [
             {
               "text": "Základní rozvržení okna skladu",
@@ -633,6 +770,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "1034d631ac72"
+      },
       "content": [
         {
           "text": "Jsou-li na daném pracovišti zapnuty rozšířené sklady, zobrazuje se nad seznamem skladových karet přepínač ",
@@ -669,11 +809,15 @@
             "id": "d6b5ef2a-8478-4aa3-b8e6-08a706dd42fb",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "fd7cb457a226",
             "height": 329
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "eb82103f359f"
+          },
           "content": [
             {
               "text": "Přepínač Typ skladu u rozšířených typů skladu ",
@@ -691,7 +835,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "98b82b90c442"
       },
       "content": [
         {
@@ -702,6 +847,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "5f982bf15fe7"
+      },
       "content": [
         {
           "text": "Skladová karta se zakládá pomocí tlačítka (+) nad seznamem skladových karet. Při zakládání je nutné určit, podle jakého skladového sortimentu má být skladová karta vytvořena. ",
@@ -725,11 +873,15 @@
             "id": "908d28fc-6cde-4890-9e2c-0b12b60580ef",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "dd256cebd93f",
             "height": 261
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "32225ff6ad87"
+          },
           "content": [
             {
               "text": "Založení skladové karty - výběr skladového sortimentu ",
@@ -746,6 +898,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b8b138acb3b4"
+      },
       "content": [
         {
           "text": "V rámci definice skladové karty se uvádí také minimální množství dané komodity ve výdejových jednotkách. Systém následně upozorňuje, pokud množství na skladě klesne pod tuto hodnotu. ",
@@ -769,11 +924,15 @@
             "id": "f951684b-ecb7-49d6-9f03-0adc327859ff",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "21bb23bb38ce",
             "height": 197
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "8d886457d0ed"
+          },
           "content": [
             {
               "text": "Založení skladové karty - minimální počet",
@@ -790,6 +949,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f130322781ec"
+      },
       "content": [
         {
           "text": "Skladová karta je podle definice sortimentu zařazena na sklad správného typu.  ",
@@ -799,6 +961,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "3b7adf56eed6"
+      },
       "content": [
         {
           "text": "V rámci editace skladové karty je možné skladovou kartu deaktivovat (pokud již nadále nemá být zboží na daném skladu evidováno). ",
@@ -809,7 +974,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "42949589fca9"
       },
       "content": [
         {
@@ -820,6 +986,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "19949152f16a"
+      },
       "content": [
         {
           "text": "Příjem zboží na danou skladovou kartu je možné provést dvojím způsobem: ",
@@ -829,12 +998,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "41924cd90e2d"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "71a861f32b91"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "ab264d4e5737"
+              },
               "content": [
                 {
                   "text": "Tlačítkem ",
@@ -861,12 +1039,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "b514766a6470"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "0d4a02d6dc4e"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "7fd5cf9f4341"
+              },
               "content": [
                 {
                   "text": "Tlačítkem ",
@@ -893,6 +1080,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "bea9bdf09b36"
+      },
       "content": [
         {
           "text": "Rozdíl mezi oběma způsoby spočívá v tom, že při příjmu z konkrétní šarže je předvyplněný kód šarže, exspirace a případně vybraný kód, kterým je zboží identifikováno. ",
@@ -916,11 +1106,15 @@
             "id": "b4977b35-efd4-41be-9300-fc25927c2f79",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "6238fe637956",
             "height": 136
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "00932c5fe651"
+          },
           "content": [
             {
               "text": "Příjem nové šarže ",
@@ -951,11 +1145,15 @@
             "id": "c43e5324-1548-47e1-9490-6956544105dd",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "0d0cb6891397",
             "height": 193
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "ffd6a03844fc"
+          },
           "content": [
             {
               "text": "Příjem již evidované šarže",
@@ -986,11 +1184,15 @@
             "id": "2c159f4f-9f9d-4b2e-9fc5-7e641bf7209f",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "2b118c724240",
             "height": 592
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "3a1daa887227"
+          },
           "content": [
             {
               "text": "Zadání příjmu",
@@ -1007,6 +1209,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f41be871ca81"
+      },
       "content": [
         {
           "text": "Mezi základní informace, které je nutné zadat, patří datum a čas příjmu (automaticky se nastavuje aktuální datum a čas, ale je možné provést změnu), šarže a datum exspirace. ",
@@ -1016,6 +1221,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "4fa988af8d1b"
+      },
       "content": [
         {
           "text": "Podle nastavení skladového sortimentu může být možné nebo povinné kliknutím vybrat kód zboží, které je přijímáno. ",
@@ -1025,6 +1233,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "ee1496f6bada"
+      },
       "content": [
         {
           "text": "Dále je nutné zadat množství, které je naskladňováno. Toto množství se zadává v příjmových jednotkách definovaných na skladovém sortimentu a systém toto množství automaticky přepočítává na výdejové jednotky (ty nelze zadat ručně). ",
@@ -1034,6 +1245,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "73375a6334d1"
+      },
       "content": [
         {
           "text": "Zadání cenových informací je volitelné, zadávají se nákupní ceny pro danou příjmovou jednotku. Po potvrzení tlačítkem ",
@@ -1057,7 +1271,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "676b8d1f6851"
       },
       "content": [
         {
@@ -1068,6 +1283,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f54944a0501e"
+      },
       "content": [
         {
           "text": "V základním stavu se v přehledu šarží zobrazují všechny šarže, které jsou aktivně skladem. To indikuje stav rozbalovacích seznamu ",
@@ -1104,11 +1322,15 @@
             "id": "e855d6f8-d8a8-4a0d-9acb-2d735a06173d",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "bc30bdea1034",
             "height": 74
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "7d15affa8994"
+          },
           "content": [
             {
               "text": "Stavy skladu - všechny šarže ",
@@ -1125,6 +1347,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "aca0d276b638"
+      },
       "content": [
         {
           "text": "Při výběru (jeden klik myši) konkrétní šarže v seznamu šarží se ve spodní části okna zobrazuje informace o realizovaných pohybech (příjmech, výdejích, …) této šarže.",
@@ -1148,11 +1373,15 @@
             "id": "ff6350d5-fc3b-44a3-ad82-c7052e735890",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "275d0d9b44f5",
             "height": 530
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "3bb70d629b89"
+          },
           "content": [
             {
               "text": "Přehled pohybů dané šarže",
@@ -1169,6 +1398,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "07516dac3596"
+      },
       "content": [
         {
           "text": "Systém si pro každou šarži pamatuje příjem a ceny, se kterými byl tento příjem realizován. Výdej (viz dále) pak realizuje s vazbou na příjem. ",
@@ -1178,6 +1410,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "136e2d618e0e"
+      },
       "content": [
         {
           "text": "Při dvojkliku na konkrétní šarži dojde k zobrazení jednotlivých ",
@@ -1213,12 +1448,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "73d418ffe9ff"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "a72d0774df87"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "fe67d7d68964"
+              },
               "content": [
                 {
                   "text": "Jedna šarže za stejnou cenu přijatá dopoledne a odpoledne představuje dvě samostatné cenové věty.  ",
@@ -1232,12 +1476,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "37836be6efd0"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "bdf6b0492897"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "aef485c6b48f"
+              },
               "content": [
                 {
                   "text": "Jedna šarže dodaná na jednom dodacím listu se dvěma různými cenami představuje dvě samostatné cenové věty. ",
@@ -1251,6 +1504,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "7b93b2edb067"
+      },
       "content": [
         {
           "text": "Při výběr konkrétní cenové věty se následně v okně pohyby zobrazují pouze pohyby dané cenové věty",
@@ -1274,11 +1530,15 @@
             "id": "0c3628f0-0e27-4692-8032-ff091e233281",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "357f8bc01b7d",
             "height": 605
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "26e8b9c4843e"
+          },
           "content": [
             {
               "text": "Pohyby konkrétní cenové věty",
@@ -1295,6 +1555,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "bf76c65aa965"
+      },
       "content": [
         {
           "text": "Rozbalovací seznam ",
@@ -1344,7 +1607,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "6a97eb7bb8b7"
       },
       "content": [
         {
@@ -1355,6 +1619,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "4247ef05657c"
+      },
       "content": [
         {
           "text": "Výdej ze skladu je možné realizovat třemi způsoby ",
@@ -1364,12 +1631,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "d2ac40a22552"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "ec1283f8bd42"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "1a04350bf1b3"
+              },
               "content": [
                 {
                   "text": "Ze skladové šarže ",
@@ -1383,12 +1659,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "01cd4b474011"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "bc56229c69e9"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "3a6d42c84537"
+              },
               "content": [
                 {
                   "text": "Z cenové věty ",
@@ -1402,12 +1687,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "e361e7ecf2ef"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "528d60432ed5"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "b2cc0588af7b"
+              },
               "content": [
                 {
                   "text": "Z editoru výkonů v modulu ",
@@ -1435,7 +1729,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 4
+        "level": 4,
+        "localId": "0a23ad2c7aa2"
       },
       "content": [
         {
@@ -1446,6 +1741,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "515e2a9be7da"
+      },
       "content": [
         {
           "text": "Jsou-li v seznamu šarží zobrazeny všechny šarže, je možné vyskladnění provést kliknutím na tlačítko ",
@@ -1482,11 +1780,15 @@
             "id": "09c82a74-63c9-4117-8ad2-375595b50549",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "85605a4aab84",
             "height": 275
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "0db460cc9835"
+          },
           "content": [
             {
               "text": "Vyskladnění šarže",
@@ -1503,6 +1805,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "17a75458bf34"
+      },
       "content": [
         {
           "text": "Informace k výdeji zahrnují především datum výdeje (přednastavený je aktuální okamžik) a množství, které má být vydáno (ve výdejových jednotkách). ",
@@ -1526,11 +1831,15 @@
             "id": "c71e0913-8494-498c-82ce-47f117d1fe7f",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "6cc0af8b12f4",
             "height": 407
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "e61908f2f6ad"
+          },
           "content": [
             {
               "text": "Záznam o výdeji",
@@ -1547,6 +1856,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a2528b238696"
+      },
       "content": [
         {
           "text": "Cenová věta, ze které má být zboží vyskladněno, je určena principem FIFO (dříve naskladněná cenová věta se odepisuje dříve). Pokud je požadováno vyskladnění většího množství, může být výdej realizován z více cenových vět zároveň. Pokud je požadováno vyskladnění většího množství, než kolik je dané šarže na skladě, není vyskladnění realizováno a uživatel je vyzván ke změně množství. ",
@@ -1557,7 +1869,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 4
+        "level": 4,
+        "localId": "c8ea62fb2bb8"
       },
       "content": [
         {
@@ -1568,6 +1881,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "d85904f011c2"
+      },
       "content": [
         {
           "text": "Pokud není žádoucí realizovat výdej s využitím principu FIFO, je možné „rozkliknutím“ šarže zobrazit konkrétní cenové věty, které tuto šarži tvoří. Na každé z nich je následně možné využít tlačítko ",
@@ -1604,11 +1920,15 @@
             "id": "ec3c4e31-fd77-433d-9557-69f1c88ce83c",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "840a588bb4f5",
             "height": 229
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "3988a9830b2c"
+          },
           "content": [
             {
               "text": "Vyskladnění cenové věty ",
@@ -1625,6 +1945,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "9e1b1a48be90"
+      },
       "content": [
         {
           "text": "Z hlediska zadávaných informací se již výdej dále neodlišuje od výdeje šarže. ",
@@ -1635,7 +1958,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 4
+        "level": 4,
+        "localId": "548a34b69f75"
       },
       "content": [
         {
@@ -1646,6 +1970,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "ce9f980c8e37"
+      },
       "content": [
         {
           "text": "Výdej ze skladu je možný i v rámci zadání ZUM/ZULP v editoru výkonů. ",
@@ -1655,6 +1982,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "521aa24089f7"
+      },
       "content": [
         {
           "text": "Editor výkonů je transakční dialog, tzn. až do chvíle, než je definitivně potvrzen (a projdou všechny kontroly), se nic neukládá. Může tak dojít k situaci, že mezi zadáním ZUM a skutečným odpisem ze skladu uplyne určitá chvíle, během které se může stav skladu změnit, apod.  ",
@@ -1664,6 +1994,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "c191f2d07fd9"
+      },
       "content": [
         {
           "text": "Výdej je proto realizován dvoufázově. V okamžiku zadání ZUM si systém pouze zapamatuje, kterou šarži bude vyskladňovat, a teprve v okamžiku skutečného uložení provede vyskladnění. ",
@@ -1673,6 +2006,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a525c8a1aab2"
+      },
       "content": [
         {
           "text": "Při zadávání ZUM (přes tlačítko Z+ vedle výkonu) se zobrazuje stejný dialog, jako obvykle, pouze je tento dialog rozšířen o sloupec ",
@@ -1695,12 +2031,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "bc58e85c3b89"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "03e32a9691f6"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "d45188b3f3b1"
+              },
               "content": [
                 {
                   "text": "Ano",
@@ -1730,12 +2075,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "dfd6f3c5b963"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "ad547ea7d561"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "3fd24a639bc5"
+              },
               "content": [
                 {
                   "text": "Ne",
@@ -1765,12 +2119,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "d000cb8354e2"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "e727e2aa35eb"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "a75c237f42ba"
+              },
               "content": [
                 {
                   "text": "--",
@@ -1800,6 +2163,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b51e61462b05"
+      },
       "content": [
         {
           "text": "V případě zadání ZUM spojeného s výdejem ze skladu je dialog pro zadání ZUM mírně upraven.",
@@ -1823,11 +2189,15 @@
             "id": "47cad8fb-cc9b-4495-a42e-ccfb93515681",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "80517fe31a98",
             "height": 615
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "01d42c0f3deb"
+          },
           "content": [
             {
               "text": "Vykázání ZUM provázané s výdejem ",
@@ -1844,6 +2214,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "84d635addc2a"
+      },
       "content": [
         {
           "text": "Uživatel zde má k dispozici několik přepínačů, pomocí kterých může výdej ovlivnit: ",
@@ -1854,14 +2227,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "8f472ae5c6fa",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "a3670e671eb9"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "d7c972b4b494"
+              },
               "content": [
                 {
                   "text": "Výběr sortimentu",
@@ -1888,14 +2268,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "f400b2f8450d",
         "order": 2
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "a845e7a77c05"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "9f51f062f0ee"
+              },
               "content": [
                 {
                   "text": "Výběr skladu",
@@ -1922,14 +2309,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "a753e3816dd3",
         "order": 3
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "e86223c9aa10"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "8332d3f515e8"
+              },
               "content": [
                 {
                   "text": "Výběr šarže",
@@ -1956,14 +2350,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "1e1de4fbffd7",
         "order": 4
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "062b985e5977"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "3615d5a03ef1"
+              },
               "content": [
                 {
                   "text": "Počet",
@@ -2002,6 +2403,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "cfca89a52294"
+      },
       "content": [
         {
           "text": "Po potvrzení dialogu je vedle řádku se ZUM uvedena informace o tom, že položka je připravena pro výdej ze skladu.",
@@ -2025,6 +2429,7 @@
             "id": "fa259916-a6df-435d-bd49-025b2cfa56df",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "712c72315a72",
             "height": 229
           }
         }
@@ -2046,11 +2451,15 @@
             "id": "fa259916-a6df-435d-bd49-025b2cfa56df",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "96a8205e258c",
             "height": 229
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "eb3989d04a11"
+          },
           "content": [
             {
               "text": "Informace o připravenosti k vyskladnění ",
@@ -2067,6 +2476,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "2f9fc5c77222"
+      },
       "content": [
         {
           "text": "K samotnému výdeji dojde až po uložení celého dialogu. Při vyskladnění se vybere cenová věta s využitím principu FIFO.  ",
@@ -2076,6 +2488,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "d5384ea183f2"
+      },
       "content": [
         {
           "text": "Informace vedle ZUM následně potvrzuje, že k výdeji již došlo.",
@@ -2099,11 +2514,15 @@
             "id": "d7298b35-3a51-4eee-92ee-28c9eee5f5d9",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "e72652345655",
             "height": 244
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "24c81d8992e5"
+          },
           "content": [
             {
               "text": "Informace o realizovaném výdeji ze skladu ",
@@ -2120,6 +2539,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b7da4a2d0db2"
+      },
       "content": [
         {
           "text": "Pokud by mezitím došlo z jiného PC k odepsání zboží ze skladu, bude při ukládání uživatel upozorněn a rovněž informace vedle ZUMu se změní.",
@@ -2143,11 +2565,15 @@
             "id": "dc2684fd-340a-4527-ac56-c58374691100",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "473dac4527ce",
             "height": 223
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "607daf9e1caf"
+          },
           "content": [
             {
               "text": "Kontrola stavu skladu v okamžiku ukládání editoru výkonů ",
@@ -2178,11 +2604,15 @@
             "id": "1122611d-5e6f-4a47-ae95-20b075f007c0",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "ee6d271651c0",
             "height": 384
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "c55a2412035e"
+          },
           "content": [
             {
               "text": "Informace o nedostatečném skladovém množství ",
@@ -2199,6 +2629,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "0a876295d29f"
+      },
       "content": [
         {
           "text": "V takovém případě musí uživatel rozkliknut název ZUM a v dialogu vybrat jinou šarži pro odepsání. ",
@@ -2208,6 +2641,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "674b15add3c6"
+      },
       "content": [
         {
           "text": "Při použití šablony výkonů se v případě, že definovaný ZUM má vazbu na skladu, zobrazí po aplikaci šablony informace, že je nutné určit šarži, která má být ze skladu odepsána. ",
@@ -2231,11 +2667,15 @@
             "id": "9b5b71e8-ec96-4924-a925-562259524574",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "7dccebdbfff5",
             "height": 246
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "4f4b13b3f399"
+          },
           "content": [
             {
               "text": "Informace o nutnosti upřesnit šarži pro výdej",
@@ -2252,6 +2692,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "e5e0e381d011"
+      },
       "content": [
         {
           "text": "V takovém případě musí uživatel rozkliknut název ZUM a v dialogu vybrat šarži pro odepsání. ",
@@ -2262,7 +2705,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 5
+        "level": 5,
+        "localId": "a85b52a3735d"
       },
       "content": [
         {
@@ -2278,6 +2722,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "d8748b6add9b"
+      },
       "content": [
         {
           "text": "Případné mazání ZUM je možné provést standardně pomocí pravého tlačítka myši a volbou ",
@@ -2314,11 +2761,15 @@
             "id": "12199959-1e76-4865-b9f7-e5bd1dd45c2b",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "3c3299ef89b9",
             "height": 137
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "6b57f2d8acde"
+          },
           "content": [
             {
               "text": "Mazání ZUM ",
@@ -2335,6 +2786,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f5fbe274bc17"
+      },
       "content": [
         {
           "text": "Při mazání má uživatel možnost rozhodnout, zda má být zboží vráceno na skladu, nebo zda má zůstat již odepsáno. Pokud zvolí možnost, že má zůstat odepsáno, je u daného výdeje na skladě evidována informace, že k výdeji došlo na základě vydaného ZUM.",
@@ -2358,11 +2812,15 @@
             "id": "a6886291-70ca-42ca-ab83-7f6764edba6f",
             "collection": "contentId-108494849",
             "type": "file",
+            "localId": "eda9195650ae",
             "height": 211
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "5279ce0e290f"
+          },
           "content": [
             {
               "text": "Informace o výdeji realizovaném jako ZUM",
@@ -2378,7 +2836,10 @@
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c95e6745bf2f"
+      }
     }
   ],
   "version": 1
