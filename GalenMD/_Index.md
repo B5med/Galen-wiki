@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-04
+generated: 2026-06-05
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **4. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-04
+> **5. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-05
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **3** |
-| ♨️ | Do 14 dnů | **6** |
-| 🌿 | Do 30 dnů | **23** |
+| 🔥 | Do 3 dnů | **1** |
+| ♨️ | Do 14 dnů | **7** |
+| 🌿 | Do 30 dnů | **24** |
 | 📄 | Do 90 dnů | **25** |
 | 🗄️ | Starší než 3 měsíce | **249** |
 | ❓ | Bez data | **0** |
@@ -144,7 +144,7 @@ generated: 2026-06-04
   - 🌿 **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 📄 [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 🔥 [[Prohlídky]] `v10` · 1. 6. 2026
+      - ♨️ [[Prohlídky]] `v10` · 1. 6. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -325,8 +325,8 @@ generated: 2026-06-04
 - 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
-- ♨️ [[Modul sklad]] `v5` · 21. 5. 2026
+- 🌿 [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
 - 📄 [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
-- 🔥 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
+- ♨️ [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 📄 [[Zabezpečení API]] `v1` · 2. 4. 2026
