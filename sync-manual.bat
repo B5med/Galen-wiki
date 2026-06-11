@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 
 set REPO=%~dp0
 set ONEDRIVE=D:\OneDrive - mediclinic.cz\3R Resource\Galen
@@ -17,6 +17,17 @@ echo.
 
 cd /d "%REPO%"
 
+echo [0/5] Synchronizace s GitHub (pull --rebase --autostash)...
+git pull --rebase --autostash
+if errorlevel 1 (
+    echo.
+    echo CHYBA: git pull --rebase selhal - vyres konflikty rucne.
+    echo Pripadne: git rebase --abort  (a pak: git stash pop)
+    pause
+    exit /b 1
+)
+
+echo.
 echo [1/5] Stahuji z Confluence...
 %PYTHON% scripts\sync_confluence.py --out .
 if errorlevel 1 (
@@ -49,9 +60,16 @@ git add -A
 git diff --cached --quiet
 if errorlevel 1 (
     for /f "tokens=2 delims==" %%d in ('wmic os get LocalDateTime /value 2^>nul') do set DT=%%d
-    set TODAY=%DT:~0,4%-%DT:~4,2%-%DT:~6,2%
-    git commit -m "sync: %TODAY% (rucni spusteni)"
+    set TODAY=!DT:~0,4!-!DT:~4,2!-!DT:~6,2!
+    git commit -m "sync: !TODAY! (rucni spusteni)"
     git push
+    if errorlevel 1 (
+        echo.
+        echo CHYBA: git push selhal - vzdaleny repozitar ma novejsi zmeny.
+        echo Spust: git pull --rebase ^&^& git push
+        pause
+        exit /b 1
+    )
     echo Hotovo - zmeny nahrane na GitHub.
 ) else (
     echo Zadne zmeny - neni co nahravat.
