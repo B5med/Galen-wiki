@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-11
+generated: 2026-06-12
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **11. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-11
+> **12. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-12
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **4** |
-| 🌿 | Do 30 dnů | **28** |
-| 📄 | Do 90 dnů | **23** |
+| ♨️ | Do 14 dnů | **3** |
+| 🌿 | Do 30 dnů | **26** |
+| 📄 | Do 90 dnů | **26** |
 | 🗄️ | Starší než 3 měsíce | **251** |
 | ❓ | Bez data | **0** |
 
@@ -31,7 +31,7 @@ generated: 2026-06-11
       - 🗄️ [[Obecné informace]] `v1` · 5. 9. 2025
       - 🗄️ [[Obrazovka_ Analytika|Obrazovka: Analytika]] `v1` · 5. 9. 2025
       - 🗄️ [[Obrazovka_ Finanční přehled|Obrazovka: Finanční přehled]] `v1` · 5. 9. 2025
-      - 🌿 [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
+      - 📄 [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
       - 🗄️ [[Rozdíly mezi verzemi]] `v1` · 5. 9. 2025
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
@@ -88,7 +88,7 @@ generated: 2026-06-11
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
-      - ♨️ [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
+      - 🌿 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
     - 🌿 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
@@ -263,7 +263,7 @@ generated: 2026-06-11
       - 📄 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🌿 **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
-        - 🌿 [[Další signální kódy]] `v3` · 12. 5. 2026
+        - 📄 [[Další signální kódy]] `v3` · 12. 5. 2026
         - 🗄️ [[Maximální preskripce]] `v2` · 28. 11. 2025
         - 🗄️ [[Předpis neregistrovaného prostředku]] `v2` · 28. 11. 2025
         - 🗄️ [[Přílohy]] `v1` · 28. 11. 2025
@@ -314,7 +314,7 @@ generated: 2026-06-11
   - 🗄️ [[API_ PLS Pobočky, Skupiny|API: PLS Pobočky, Skupiny]] `v2` · 28. 7. 2025
   - 🗄️ [[API_ Zaměstnání|API: Zaměstnání]] `v1` · 28. 7. 2025
 - 📄 **[[Naskladňování přes čtečky]]** `v3` · 23. 4. 2026
-  - 🌿 **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
+  - 📄 **[[Podporované čtečky 2D kódů a konfigurace]]** `v2` · 12. 5. 2026
     - 📄 [[Zebra CS60 – konfigurace čtečky]] `v1` · 23. 4. 2026
     - 📄 [[Zebra DS2278 a DS2208 – konfigurace čtečky]] `v2` · 23. 4. 2026
     - 📄 [[Zebra DS4308 – konfigurace čtečky]] `v1` · 23. 4. 2026
