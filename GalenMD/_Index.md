@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-12
+generated: 2026-06-13
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **12. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-12
+> **13. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-13
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-06-12
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **26** |
-| 📄 | Do 90 dnů | **26** |
+| 🌿 | Do 30 dnů | **18** |
+| 📄 | Do 90 dnů | **34** |
 | 🗄️ | Starší než 3 měsíce | **251** |
 | ❓ | Bez data | **0** |
 
@@ -35,11 +35,11 @@ generated: 2026-06-12
       - 🗄️ [[Rozdíly mezi verzemi]] `v1` · 5. 9. 2025
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
-    - 🌿 [[Modul finance]] `v3` · 13. 5. 2026
+    - 📄 [[Modul finance]] `v3` · 13. 5. 2026
     - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v3` · 7. 11. 2025
   - 🌿 **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
-    - 🌿 [[Archiv – Přeřazení pacienta do archivu]] `v3` · 13. 5. 2026
+    - 📄 [[Archiv – Přeřazení pacienta do archivu]] `v3` · 13. 5. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
@@ -64,7 +64,7 @@ generated: 2026-06-12
       - 🗄️ [[Podávání léčiv]] `v1` · 21. 7. 2025
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
-    - 🌿 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
+    - 📄 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v1` · 26. 8. 2025
     - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
@@ -166,7 +166,7 @@ generated: 2026-06-12
       - 🗄️ [[Žádost o zástup]] `v1` · 17. 9. 2025
     - 🌿 **[[Správa kartoték]]** `v2` · 15. 5. 2026
       - 🗄️ [[Import seznamu registrovaných pojištenců]] `v3` · 28. 1. 2026
-      - 🌿 [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
+      - 📄 [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
     - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
       - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
         - 🗄️ **[[Nastavení kalendářů]]** `v1` · 22. 7. 2025
@@ -213,7 +213,7 @@ generated: 2026-06-12
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
   - 🌿 **[[Vyšetření, dekurz a klinická péče]]** `v4` · 15. 5. 2026
-    - 🌿 **[[Bonifikační a screeningové programy]]** `v9` · 13. 5. 2026
+    - 📄 **[[Bonifikační a screeningové programy]]** `v9` · 13. 5. 2026
       - 🗄️ [[Screening kolorektálního karcinomu]] `v1` · 16. 12. 2025
       - 🗄️ [[Screening zraku u dětí]] `v2` · 16. 12. 2025
       - 🗄️ [[Screening časného záchytu karcinomu plic]] `v1` · 16. 12. 2025
@@ -238,7 +238,7 @@ generated: 2026-06-12
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
     - 🗄️ [[Vyšetření]] `v1` · 23. 6. 2025
-    - 🌿 [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
+    - 📄 [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
   - 🌿 **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
       - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
@@ -250,7 +250,7 @@ generated: 2026-06-12
     - 🗄️ [[Off-line režim]] `v1` · 18. 6. 2025
     - 🗄️ [[Spuštění programu]] `v1` · 17. 6. 2025
     - 🗄️ [[Ukončení programu]] `v1` · 18. 6. 2025
-    - 🌿 [[Vzdálená správa – TeamViewer]] `v1` · 13. 5. 2026
+    - 📄 [[Vzdálená správa – TeamViewer]] `v1` · 13. 5. 2026
   - 🌿 **[[Žádanky, posudky a elektronická podání]]** `v2` · 15. 5. 2026
     - 🗄️ **[[Biometrický podpis]]** `v1` · 29. 1. 2026
       - 🗄️ [[Doporučená zařízení]] `v1` · 29. 1. 2026
@@ -261,7 +261,7 @@ generated: 2026-06-12
     - 📄 **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
       - 📄 [[Certifikát PZS]] `v1` · 29. 4. 2026
       - 📄 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
-    - 🌿 **[[ePoukaz]]** `v2` · 13. 5. 2026
+    - 📄 **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
         - 📄 [[Další signální kódy]] `v3` · 12. 5. 2026
         - 🗄️ [[Maximální preskripce]] `v2` · 28. 11. 2025
