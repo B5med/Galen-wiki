@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-13
+generated: 2026-06-14
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **13. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-13
+> **14. 6. 2026**  ·  Celkem stránek: **306**  ·  Poslední sync z Confluence: 2026-06-14
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-06-13
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **18** |
-| 📄 | Do 90 dnů | **34** |
+| 🌿 | Do 30 dnů | **17** |
+| 📄 | Do 90 dnů | **35** |
 | 🗄️ | Starší než 3 měsíce | **251** |
 | ❓ | Bez data | **0** |
 
@@ -96,7 +96,7 @@ generated: 2026-06-13
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
     - 🗄️ [[Upozornění pro uživatele]] `v1` · 22. 7. 2025
-  - 🌿 **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
+  - 📄 **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
     - 🗄️ **[[Ceníky a balíčky]]** `v1` · 7. 11. 2025
       - 🗄️ [[Balíčky]] `v1` · 26. 6. 2025
       - 🗄️ [[Kategorie]] `v1` · 26. 6. 2025
