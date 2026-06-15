@@ -1,0 +1,42 @@
+---
+title: "Novinky ve verzi k 16. 6. 2026"
+version: 1
+updated_at: 2026-06-15
+source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/453443586
+---
+
+# Novinky ve verzi k 16. 6. 2026
+
+# Novinky a vylepšení
+
+---
+
+### Upozornění na končící platnost certifikátu
+
+Upozornění na blížící se konec platnosti certifikátu je nyní srozumitelnější. Hláška nově uvádí, o jaký typ certifikátu jde (B2B, EET, SÚKL, ÚZIS, PACS, PZS), jeho sériové číslo, datum expirace a také kde je certifikát nastaven (společnost, podřízená společnost nebo konkrétní pracoviště). Díky tomu hned víte, který certifikát je potřeba zkontrolovat a obnovit.
+
+Upozornění se zobrazuje pouze uživatelům s přístupem do modulu „Správa organizace“ – tedy těm, kteří certifikát skutečně mohou změnit.
+
+### Rozšířené zobrazení aktivních hlášení ČSSZ u pacienta
+
+Dosud systém u pacienta zobrazoval především aktivní pracovní neschopnost (PN). Nově u pacienta uvidíte jednotně i další typy hlášení vůči ČSSZ: PN – pracovní neschopnost, O – ošetřovné, DO – dlouhodobé ošetřovné a DP – potvrzení o datu porodu.
+
+Rozšíření se projeví na více místech: v historii pacienta (spodní lišta) a v infopanelu pacienta (zde nově přibývá potvrzení o datu porodu – DP). Stejné typy dávek nově nabízí i filtr a výstup ve statistice Kniha práce neschopných – do filtru i do tabulky přibyl sloupec „Typ dávky“ a původní „Číslo neschopenky“ se přejmenovalo na „Číslo rozhodnutí“. Také ve statistice Neodeslané lístky na peníze lze nově filtrovat podle typu dávky (pracovní neschopnost, ošetřovné, dlouhodobé ošetřovné).
+
+Pokud má vaše pracoviště povoleno nahlížení na data ostatních pracovišť, zobrazí se vám aktivní hlášení PN, O, DO a DP ze všech těchto pracovišť. V opačném případě uvidíte pouze hlášení svého pracoviště.
+
+### Růst pacienta v tooltipu u pole Výška
+
+Po najetí myší na ikonu „i“ vedle pole Výška (cm) se nově zobrazí přehled o růstu pacienta: poslední naměřená výška s datem měření a změna oproti tomuto měření (o kolik pacient vyrostl). Lékař tak má rychlý přehled o růstu přímo v záznamu, aniž by musel dohledávat historii – obdobně, jako to už funguje u hmotnosti. Ikona „i“ se objeví až poté, co je výška vyplněna; pokud žádné starší měření neexistuje, zobrazí se informace, že poslední měření není k dispozici. Tooltip najdete v okně Měření návštěvy i v sekci Měření v prohlídkách.
+
+### Podmínka podle pohlaví v designeru prohlídek
+
+V Designeru, v sekci Prohlídky – Výkony, lze nově použít podmínku podle pohlaví pacienta (muž / žena). Díky tomu můžete u výkonu nastavit, aby se uplatnil pouze pro ženy, nebo pouze pro muže, a rozlišovat tak výkony podle pohlaví přímo při nastavení prohlídek. Podmínku ocení uživatelé, kteří si prohlídky a výkony v Designeru sami nastavují.
+
+# Opravy chyb
+
+---
+
+### Naskladnění injekčních stříkaček a jehel
+
+Opravili jsme chybu, kvůli které nešlo naskladnit injekční stříkačky a jehly navázané na číselník SÚKL – systém u nich neumožňoval zadat kód PZT. Nově lze tyto položky správně naskladnit i vyskladnit. Týká se práce v modulu Sklad.
