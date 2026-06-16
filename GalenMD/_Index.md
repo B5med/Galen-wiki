@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-15
+generated: 2026-06-16
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **15. 6. 2026**  ·  Celkem stránek: **307**  ·  Poslední sync z Confluence: 2026-06-15
+> **16. 6. 2026**  ·  Celkem stránek: **307**  ·  Poslední sync z Confluence: 2026-06-16
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **8** |
+| ♨️ | Do 14 dnů | **1** |
+| 🌿 | Do 30 dnů | **10** |
 | 📄 | Do 90 dnů | **44** |
 | 🗄️ | Starší než 3 měsíce | **251** |
 | ❓ | Bez data | **0** |
@@ -145,7 +145,7 @@ generated: 2026-06-15
   - 📄 **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - ♨️ [[Prohlídky]] `v10` · 1. 6. 2026
+      - 🌿 [[Prohlídky]] `v10` · 1. 6. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -329,5 +329,5 @@ generated: 2026-06-15
 - 🌿 [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
 - 📄 [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
-- ♨️ [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
+- 🌿 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 📄 [[Zabezpečení API]] `v1` · 2. 4. 2026
