@@ -1,7 +1,7 @@
 {
   "space_id": "98309",
   "space_key": "fg",
-  "synced_at": "2026-06-16T09:21:56Z",
+  "synced_at": "2026-06-17T08:18:11Z",
   "pages": {
     "75235333": {
       "title": "Agendy",
@@ -117,8 +117,8 @@
     },
     "75595947": {
       "title": "Archiv – Přeřazení pacienta do archivu",
-      "version": 3,
-      "updated_at": "2026-05-13T13:26:16.539Z",
+      "version": 4,
+      "updated_at": "2026-06-16T11:41:14.855Z",
       "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Archiv – Přeřazení pacienta do archivu"
@@ -765,9 +765,9 @@
     },
     "35684353": {
       "title": "Modul ordinace",
-      "version": 5,
-      "updated_at": "2025-08-11T09:10:52.770Z",
-      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "version": 7,
+      "updated_at": "2026-06-16T13:34:14.923Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Modul ordinace"
     },
@@ -1117,9 +1117,9 @@
     },
     "45842437": {
       "title": "Objednávání, kalendáře, notifikace",
-      "version": 1,
-      "updated_at": "2025-07-21T13:50:01.476Z",
-      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "version": 3,
+      "updated_at": "2026-06-16T12:07:07.819Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "400097284",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Objednávání, kalendáře, notifikace"
     },
@@ -1603,6 +1603,14 @@
       "parent_id": "3866625",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Portál pacienta/Registrace do Portálu pacienta"
     },
+    "457441282": {
+      "title": "Registrace pacienta bez registrační dávky",
+      "version": 1,
+      "updated_at": "2026-06-16T12:27:11.583Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
+      "parent_id": "399179778",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Registrace pacienta bez registrační dávky"
+    },
     "56918042": {
       "title": "Rizika",
       "version": 1,
@@ -1829,8 +1837,8 @@
     },
     "399179778": {
       "title": "Správa kartoték",
-      "version": 2,
-      "updated_at": "2026-05-15T12:22:57.496Z",
+      "version": 3,
+      "updated_at": "2026-06-16T12:30:37.775Z",
       "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "75333741",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték"
@@ -1973,9 +1981,9 @@
     },
     "67305473": {
       "title": "Upozornění pro uživatele",
-      "version": 1,
-      "updated_at": "2025-07-22T07:47:53.919Z",
-      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "version": 2,
+      "updated_at": "2026-06-16T13:30:54.033Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "400097284",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele"
     },
@@ -2205,17 +2213,17 @@
     },
     "76742669": {
       "title": "Založení karty pacienta – bez pojištění (samoplátce, novorozenec)",
-      "version": 1,
-      "updated_at": "2025-07-22T08:03:46.355Z",
-      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "version": 2,
+      "updated_at": "2026-06-16T13:24:58.350Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – bez pojištění (samoplátce, novorozenec)"
     },
     "67665931": {
       "title": "Založení karty pacienta – pojištěnce",
-      "version": 1,
-      "updated_at": "2025-07-22T07:56:04.189Z",
-      "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
+      "version": 2,
+      "updated_at": "2026-06-16T13:26:58.693Z",
+      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce"
     },

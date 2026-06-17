@@ -1,7 +1,7 @@
 ---
 title: "Upozornění pro uživatele"
-version: 1
-updated_at: 2025-07-22
+version: 2
+updated_at: 2026-06-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67305473
 ---
 
@@ -148,16 +148,3 @@ Odstranit upozornění lze klikem pravým tlačítkem myši na upozornění a v�
 
 ![image-20250709-141342.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141342.png>)
 ![image-20250709-141501.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-141501.png>)
-![image-20250709-142108.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142108.png>)
-Ikona Zeměkoule (v pravém horním rohu) signalizuje stav připojení k serveru. Je-li ikona zelená, připojení k serveru je v pořádku. Pokud ikona zčervená, došlo k výpadku připojení. Uživatel při odchodu z rozpracovaného okna bude upozorněn na chybu při síťové komunikaci. Pokud uživatel v tuto chvíli práci ukončí, dojde k ztrátě zapsaných dat.
-
-![image-20250709-142153.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142153.png>)
-Ikona je oranžová do chvíle, pokud připojení není opravdu znova navázáno. Pokud je připojení znovu navázáno, ikona Zeměkoule znovu zezelená. Tento proces lze také iniciovat kliknutím na pole Zeměkoule. Otevře se okno, ve kterém uživatel najde v levém dolním rohu tlačítko *Připojit*.
-
-![image-20250709-142225.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142225.png>)
-Pod těmito ikonami je zobrazeno jméno přihlášeného uživatele, IČP a odbornost pracoviště a jméno odpovědného lékaře (tj. lékaře, který je vykonavatelem zadávaných výkonů).
-
-Pod hlavním panelem se nachází panel určený pro přidání pacienta do kartotéky, filtrování kartotéky (podrobné nebo základní) a pro přepínání mezi kartotékou a archivem.
-
-![image-20250709-142248.png](<../../../pages/FONS GALEN/Objednávání, komunikace a notifikace/Upozornění pro uživatele/assets/image-20250709-142248.png>)
-Číslo na konci řádku (před ikonou filtru) znamená počet záznamů, zde tedy počet pacientů v kartotéce. Pokud je použit filtr, zobrazuje počet vyfiltrovaných záznamů.

@@ -56,16 +56,10 @@
           ]
         },
         {
-          "text": " a slouží k centrální správě pacientských karet. Umožňuje rozšířené vyhledávání pacientů, importovat seznamy pojištěnců od zdravotních pojišťoven a slučovat duplicitní karty. ",
+          "text": " a slouží k centrální správě pacientských karet. Umožňuje rozšířené vyhledávání pacientů, zobrazovat přehled registrací pacienta a historii pojištění, importovat seznamy pojištěnců od zdravotních pojišťoven a slučovat duplicitní karty. ",
           "type": "text"
         }
       ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "localId": "46df18be2a38"
-      }
     },
     {
       "type": "paragraph",
@@ -138,6 +132,36 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "44a468c3b0af"
+      },
+      "content": [
+        {
+          "text": "Registrace pacienta bez vykázaní registrační dávky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/457441282"
+              }
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aa8f340f41dc"
+      }
     }
   ],
   "version": 1

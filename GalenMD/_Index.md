@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-16
+generated: 2026-06-17
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **16. 6. 2026**  ·  Celkem stránek: **307**  ·  Poslední sync z Confluence: 2026-06-16
+> **17. 6. 2026**  ·  Celkem stránek: **308**  ·  Poslední sync z Confluence: 2026-06-17
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **1** |
-| 🌿 | Do 30 dnů | **10** |
-| 📄 | Do 90 dnů | **44** |
-| 🗄️ | Starší než 3 měsíce | **251** |
+| 🔥 | Do 3 dnů | **9** |
+| ♨️ | Do 14 dnů | **0** |
+| 🌿 | Do 30 dnů | **11** |
+| 📄 | Do 90 dnů | **39** |
+| 🗄️ | Starší než 3 měsíce | **249** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -39,20 +39,20 @@ generated: 2026-06-16
     - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v3` · 7. 11. 2025
   - 📄 **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
-    - 📄 [[Archiv – Přeřazení pacienta do archivu]] `v3` · 13. 5. 2026
+    - 🔥 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
-    - 🗄️ [[Modul ordinace]] `v5` · 11. 8. 2025
+    - 🔥 [[Modul ordinace]] `v7` · 16. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
     - 🗄️ [[Stav účtu]] `v2` · 20. 6. 2025
     - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
     - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
-    - 🗄️ [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v1` · 22. 7. 2025
-    - 🗄️ [[Založení karty pacienta – pojištěnce]] `v1` · 22. 7. 2025
+    - 🔥 [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
+    - 🔥 [[Založení karty pacienta – pojištěnce]] `v2` · 16. 6. 2026
     - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
   - 📄 **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Medikace]]** `v1` · 21. 7. 2025
@@ -92,10 +92,10 @@ generated: 2026-06-16
     - 🌿 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
-    - 🗄️ [[Objednávání, kalendáře, notifikace]] `v1` · 21. 7. 2025
+    - 🔥 [[Objednávání, kalendáře, notifikace]] `v3` · 16. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
-    - 🗄️ [[Upozornění pro uživatele]] `v1` · 22. 7. 2025
+    - 🔥 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
   - 📄 **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
     - 🗄️ **[[Ceníky a balíčky]]** `v1` · 7. 11. 2025
       - 🗄️ [[Balíčky]] `v1` · 26. 6. 2025
@@ -131,7 +131,7 @@ generated: 2026-06-16
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 🌿 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
-    - ♨️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
+    - 🌿 [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
     - 📄 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 📄 [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
@@ -165,8 +165,9 @@ generated: 2026-06-16
         - 🗄️ [[Záhlaví tisků]] `v1` · 21. 7. 2025
     - 🗄️ **[[Ostatní]]** `v1` · 17. 9. 2025
       - 🗄️ [[Žádost o zástup]] `v1` · 17. 9. 2025
-    - 📄 **[[Správa kartoték]]** `v2` · 15. 5. 2026
+    - 🔥 **[[Správa kartoték]]** `v3` · 16. 6. 2026
       - 🗄️ [[Import seznamu registrovaných pojištenců]] `v3` · 28. 1. 2026
+      - 🔥 [[Registrace pacienta bez registrační dávky]] `v1` · 16. 6. 2026
       - 📄 [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
     - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
       - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
@@ -309,8 +310,8 @@ generated: 2026-06-16
 - 🗄️ **[[MDCL API]]** `v2` · 8. 7. 2025
   - 🗄️ [[API_ Adresy|API: Adresy]] `v1` · 8. 7. 2025
   - 🗄️ [[API_ Kontakty pacienta|API: Kontakty pacienta]] `v1` · 8. 7. 2025
-  - 📄 [[API_ Měření|API: Měření]] `v1` · 18. 3. 2026
-  - 📄 [[API_ Návštěva|API: Návštěva]] `v1` · 18. 3. 2026
+  - 🗄️ [[API_ Měření|API: Měření]] `v1` · 18. 3. 2026
+  - 🗄️ [[API_ Návštěva|API: Návštěva]] `v1` · 18. 3. 2026
   - 🗄️ [[API_ Pacient|API: Pacient]] `v1` · 8. 7. 2025
   - 🗄️ [[API_ PLS Pobočky, Skupiny|API: PLS Pobočky, Skupiny]] `v2` · 28. 7. 2025
   - 🗄️ [[API_ Zaměstnání|API: Zaměstnání]] `v1` · 28. 7. 2025
@@ -328,6 +329,6 @@ generated: 2026-06-16
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
 - 🌿 [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
-- 📄 [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
+- 🗄️ [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
 - 🌿 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 📄 [[Zabezpečení API]] `v1` · 2. 4. 2026

@@ -1,7 +1,7 @@
 ---
 title: "Založení karty pacienta – pojištěnce"
-version: 1
-updated_at: 2025-07-22
+version: 2
+updated_at: 2026-06-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67665931
 ---
 
@@ -25,6 +25,9 @@ Poznámka: Již uloženou kartu je možné při otevření Identifikace volně e
 Osobní údaje pacienta je také možné načíst do karty pacienta z údajů ČSSZ po kliknutí na Aktualizovat dle ČSSZ, nebo nepřijmout tyto údaje kliknutím na křížek.
 
 ![image-20250722-075455.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce/assets/image-20250722-075455.png>)
+
+## Změna údajů pojišťovny
+
 ![image-20250722-075511.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce/assets/image-20250722-075511.png>)
 Potřebné údaje je pak možné změnit v nabídnutém formuláři (obrázek). Důležité je vybrat období, od kterého bude změna provedena a poté vybrat, jaká změna bude provedena.
 

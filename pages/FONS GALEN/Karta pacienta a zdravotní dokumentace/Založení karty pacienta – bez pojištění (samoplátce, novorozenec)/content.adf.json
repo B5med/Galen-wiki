@@ -3,9 +3,12 @@
   "content": [
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a40bb656de33"
+      },
       "content": [
         {
-          "text": "Nového pacienta lze založit kliknutím na ikonu Nová karta, která se nachází nad kartotékou.",
+          "text": "Nového pacienta lze založit kliknutím na ikonu Nová karta, která se nachází nad kartotékou. Protože pacient nemá identifikační číslo pojišťovny, vyplní se pouze datum narození. V závislosti na datu narození se zobrazí tlačítko Samoplátce případně Novorozenec (u pacientů mladších než 1 měsíc).",
           "type": "text"
         }
       ]
@@ -14,52 +17,134 @@
       "type": "mediaSingle",
       "attrs": {
         "layout": "center",
-        "width": 609,
+        "width": 760,
         "widthType": "pixel"
       },
       "content": [
         {
           "type": "media",
           "attrs": {
-            "width": 501,
-            "alt": "image-20250722-080246.png",
-            "id": "70fdb418-a9fa-40c8-a9eb-f92b5c25c526",
+            "width": 788,
+            "alt": "Snímka obrazovky 2026-06-16 144145.png",
+            "id": "62c0e77e-ebc9-4324-9517-32c4fed83ef9",
             "collection": "contentId-76742669",
             "type": "file",
-            "height": 235
+            "localId": "06e11cc5cfac",
+            "height": 391
           }
         }
       ]
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b30ee361b1a2"
+      },
       "content": [
         {
-          "text": "Protože pacient nemá identifikační číslo pojišťovny, vyplní se pouze datum narození. V závislosti na datu narození se zobrazí tlačítko Samoplátce případně Novorozenec (u pacientů mladších než 1 měsíc).",
+          "text": "Po kliknutí na tlačítko Samoplátce vyberete:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 412,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 412,
+            "alt": "Snímka obrazovky 2026-06-16 144438.png",
+            "id": "4281af89-5964-46b9-b85c-539ce59386e7",
+            "collection": "contentId-76742669",
+            "type": "file",
+            "localId": "8bafa8f5cf99",
+            "height": 144
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cc6bb5a2418f"
+      },
+      "content": [
+        {
+          "text": "Pro Samoplátce/Novorozenec je automaticky vygenerováno Číslo pojištěnce. Pro cizince je nutné napsat. Po zadání je jak novorozencům, tak samoplátcům přidělena fiktivní pojišťovna 999.",
           "type": "text"
         }
       ]
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "00ab4d7f3382"
+      },
       "content": [
         {
-          "text": "Po kliknutí na tlačítko Samoplátce / Novorozenec bude automaticky vygenerováno Číslo pojištěnce. Rozdíl mezi samoplátci a novorozenci je ve vykazování výkonů. Samoplátci nemůže být vykázán výkon, veškeré účtování za ošetření se realizuje přes příjmové doklady. Novorozenci lze výkony vykazovat, ale tyto nejdou do dávky. Do dávky se dostanou až po přidělení RČ, tedy po provedení Změny údajů pojišťovny a zadání standardního čísla pojištěnce a pojišťovny. Po zadání je jak novorozencům, tak samoplátcům přidělena fiktivní pojišťovna 999.",
+          "text": "Rozdíl mezi samoplátci a novorozenci je ve vykazování výkonů. Samoplátci nemůže být vykázán výkon, veškeré účtování za ošetření se realizuje přes příjmové doklady. Novorozenci lze výkony vykazovat, ale tyto nejdou do dávky. Do dávky se dostanou až po přidělení RČ, tedy po provedení Změny údajů pojišťovny a zadání standardního čísla pojištěnce a pojišťovny. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e33806846113"
+      },
+      "content": [
+        {
+          "text": "Změna údajů pojišťovny",
           "type": "text"
         }
       ]
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "04b59a0776d7"
+      },
       "content": [
         {
-          "text": " ",
+          "text": "Pokud se samoplátci registrují k pojišťovně, je možné změnit údaje pojišťovny kliknutím na příslušné tlačítko v kartě pacienta. Následně vyberete, od jakého období registrace platí, a kód typu pojištění – v případě cizinců se kód zadává ručně. Jinak se automaticky načítá kód 1O – Občan ČR s trvalým pobytem.",
           "type": "text"
         }
       ]
     },
     {
-      "type": "paragraph"
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 656,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 656,
+            "alt": "Snímka obrazovky 2026-06-16 151510.png",
+            "id": "06ce67c5-fc64-4c39-8781-dacf0fc0bf58",
+            "collection": "contentId-76742669",
+            "type": "file",
+            "localId": "29ae0d5fa781",
+            "height": 347
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9ec89a893272"
+      }
     }
   ],
   "version": 1

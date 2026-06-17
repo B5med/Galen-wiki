@@ -17,6 +17,7 @@
             "id": "7c51d9b9-6839-42df-a1be-18514cc1eceb",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "5a3a2dafea6e",
             "height": 34
           }
         }
@@ -25,14 +26,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "05c1b3442695",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "fa35a6a23261"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "9081bc374911"
+              },
               "content": [
                 {
                   "text": "Nového pacienta lze založit kliknutím na ikonu Nová karta, která je nad kartotékou.",
@@ -60,6 +68,7 @@
             "id": "2a50cf34-a1dc-4565-b331-f535b2706e93",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "be2e462cd486",
             "height": 503
           }
         }
@@ -68,14 +77,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "5319270e5314",
         "order": 2
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "47fc45cbfa76"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "823b47e5219f"
+              },
               "content": [
                 {
                   "text": "Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm nebudou mít okno s registrací pacientů).Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm ",
@@ -100,9 +116,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "c57ba853d4e8"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "035f3a541075"
+              },
               "content": [
                 {
                   "text": "Zde se vyplňují potřebné údaje. Minimálně je třeba zadat číslo pojištěnce, příjmení, jméno, pojišťovnu a druh pojištění. Číslo pojištěnce se píše bez lomítka. Pokud je zadáno ve správném tvaru, automaticky se doplní datum narození. První písmeno Jména a Příjmení se píše automaticky velké.",
@@ -114,9 +136,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "4fc742cbac04"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "e9e23892f7af"
+              },
               "content": [
                 {
                   "text": "U praktických lékařů, pediatrů, gynekologů je třeba vyplnit i stav registrace, popř. datum registrace.",
@@ -128,9 +156,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "27bd012c7bc9"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "6fdfaa1c445b"
+              },
               "content": [
                 {
                   "text": "Nový pacient se automaticky uloží při vrácení se do kartotéky, popř. pokračováním práce např. psaní v dekurzu.",
@@ -142,9 +176,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "cde94a279d0a"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "f2280782284e"
+              },
               "content": [
                 {
                   "text": "Pokud chce uživatel přidání pacienta zrušit, klikne na ikonu vpravo nahoře. To mu umožní opustit formulář zadání pacienta bez uložení a návrat do hlavního menu programu.",
@@ -156,9 +196,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "71f9a7c036b2"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "bb72978d585e"
+              },
               "content": [
                 {
                   "text": "Správnost zadaných údajů je možné zdarma zkontrolovat oproti Centrálnímu registru pojištěnců.",
@@ -186,6 +232,7 @@
             "id": "a184ee01-c8c3-4af7-a066-1408f9821bd2",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "7c8081b85f25",
             "height": 24
           }
         }
@@ -193,6 +240,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "58e7ae93bfb2"
+      },
       "content": [
         {
           "text": "Poznámka: Již uloženou kartu je možné při otevření Identifikace volně editovat. Jedinou výjimku tvoří změna pojišťovny a změna rodného čísla. Protože zde může být další vazba, např. na doklady, je třeba kliknout na tlačítko:",
@@ -216,6 +266,7 @@
             "id": "53fb3268-6ca0-4b97-8dce-20b71c61fa0b",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "5b9a8ee74e4f",
             "height": 26
           }
         }
@@ -223,6 +274,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "1f2e8b3d280c"
+      },
       "content": [
         {
           "text": "Osobní údaje pacienta je také možné načíst do karty pacienta z údajů ČSSZ po kliknutí na Aktualizovat dle ČSSZ, nebo nepřijmout tyto údaje kliknutím na křížek.",
@@ -246,8 +300,22 @@
             "id": "f336d274-edb6-4e93-86ed-3f0523010ccd",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "4a8cf6c9fffd",
             "height": 702
           }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e33806846113"
+      },
+      "content": [
+        {
+          "text": "Změna údajů pojišťovny",
+          "type": "text"
         }
       ]
     },
@@ -267,6 +335,7 @@
             "id": "31797554-2c4e-455f-882f-701c9d2ea0fd",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "e7789c08beb6",
             "height": 22
           }
         }
@@ -274,15 +343,15 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "008ac0d9ad9c"
+      },
       "content": [
         {
           "text": "Potřebné údaje je pak možné změnit v nabídnutém formuláři (obrázek). Důležité je vybrat období, od kterého bude změna provedena a poté vybrat, jaká změna bude provedena.",
           "type": "text"
         }
       ]
-    },
-    {
-      "type": "paragraph"
     },
     {
       "type": "mediaSingle",
@@ -300,19 +369,29 @@
             "id": "5c7a1b02-b6de-482c-bba2-bcca6afc56ac",
             "collection": "contentId-67665931",
             "type": "file",
+            "localId": "5e29920d5563",
             "height": 385
           }
         }
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5c48f464c986"
+      }
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "146e7f26b590"
+      }
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2f16aaff66db"
+      }
     }
   ],
   "version": 1

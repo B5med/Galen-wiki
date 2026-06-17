@@ -4,31 +4,9 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "baa6a0f99b70"
+        "localId": "b5dc62a22814"
       },
       "content": [
-        {
-          "text": "Pacienta je možné zařadit do archivu tak, že na něj v kartotéce klikneme pravým tlačítkem myši. Objeví se menu „Převést pacienta do archivu“, na které klikneme levým tlačítkem myši. V následujícím dialogu je možné doplnit poznámku k archivaci. Přeřazení pacienta do archivu potvrdíme tlačítkem OK. V případě registrace archivovaného pacienta u praktického lékaře provede program automaticky jeho odregistraci.",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "localId": "05b1679b16b9"
-      },
-      "content": [
-        {
-          "type": "hardBreak"
-        },
-        {
-          "text": "Více pacientů lze označit buď pomocí tlačítka CTRL, kdy držím toto tlačítko a kliknutím na pacienta přidávám dalšího pacienta mezi označené. Pokud mám souvislou skupinu pacientů, stačí kliknout levým tlačítkem myši na prvního pacienta, držet tlačítko Shift a kliknout na posledního pacienta ve skupině. Tím se označí všichni pacienti mezi těmito dvěma. Pak stačí kliknout na kohokoliv v této skupině pravým tlačítkem myši a dát Archivovat.",
-          "type": "text"
-        },
-        {
-          "type": "hardBreak"
-        },
         {
           "text": "Archiv pacientů je možné si prohlížet kliknutím na ikonu Archiv v horní liště uprostřed stránky vedle ikony Kartotéka.",
           "type": "text"
@@ -39,7 +17,7 @@
       "type": "mediaSingle",
       "attrs": {
         "layout": "center",
-        "width": 198,
+        "width": 426,
         "widthType": "pixel"
       },
       "content": [
@@ -51,7 +29,7 @@
             "id": "714c602e-a7af-44b9-ad43-d39af4c11318",
             "collection": "contentId-75595947",
             "type": "file",
-            "localId": "21b061351eeb",
+            "localId": "15cb44f68721",
             "height": 28
           }
         }
@@ -60,11 +38,100 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "7c908a2b6f78"
+        "localId": "ce1f538450e2"
       },
       "content": [
         {
-          "text": " ",
+          "text": "Možnost archivovat/odarchivovat je nutné nastavit v konfiguraci uživatele v správě organizace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b58b27a18343"
+      },
+      "content": [
+        {
+          "text": "Archivovat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ea109fd92587"
+      },
+      "content": [
+        {
+          "text": "Pacienta je možné zařadit do archivu tak, že na něj v kartotéce klikneme pravým tlačítkem myši. Objeví se menu ",
+          "type": "text"
+        },
+        {
+          "text": "Převést pacienta do archivu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", na které klikneme levým tlačítkem myši. V následujícím dialogu je možné doplnit poznámku k archivaci. Přeřazení pacienta do archivu potvrdíme tlačítkem OK. V případě registrace archivovaného pacienta u praktického lékaře provede program automaticky jeho odregistraci.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Více pacientů lze označit buď pomocí tlačítka CTRL, kdy držím toto tlačítko a kliknutím na pacienta přidávám dalšího pacienta mezi označené. Pokud mám souvislou skupinu pacientů, stačí kliknout levým tlačítkem myši na prvního pacienta, držet tlačítko Shift a kliknout na posledního pacienta ve skupině. Tím se označí všichni pacienti mezi těmito dvěma. Pak stačí kliknout na kohokoliv v této skupině pravým tlačítkem myši a dát Archivovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "21206fcb7bec"
+      },
+      "content": [
+        {
+          "text": " Odarchivovat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dedb602c4413"
+      },
+      "content": [
+        {
+          "text": "Pacienta je možné vrátit z archivu obdobným způsobem – v archivu klikněte pravým tlačítkem myši na kartu pacienta a vyberte ",
+          "type": "text"
+        },
+        {
+          "text": "Odarchivovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". V tuto chvíli pacient není zaregistrován, je tedy nutné ho opět zaregistrovat. Aby nedošlo k vykázání registrační dávky, je nutné registraci provést jako Správce ve Správě kartoték.",
           "type": "text"
         }
       ]
