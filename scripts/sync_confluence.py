@@ -139,19 +139,29 @@ def load_cache(out_root: Path) -> dict[str, dict]:
         return {}
 
 
+def _lp(p: Path) -> Path:
+    """Na Windows pouzij prefix \\?\ pro obejiti limitu 260 znaku v cestach."""
+    if sys.platform != "win32":
+        return p
+    s = str(p.resolve())
+    return Path(s) if s.startswith("\\\\?\\") else Path("\\\\?\\" + s)
+
+
 def write_text(path: Path, content: str) -> bool:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and path.read_text(encoding="utf-8") == content:
+    lp = _lp(path)
+    lp.parent.mkdir(parents=True, exist_ok=True)
+    if lp.exists() and lp.read_text(encoding="utf-8") == content:
         return False
-    path.write_text(content, encoding="utf-8", newline="\n")
+    lp.write_text(content, encoding="utf-8", newline="\n")
     return True
 
 
 def write_bytes(path: Path, content: bytes) -> bool:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and path.read_bytes() == content:
+    lp = _lp(path)
+    lp.parent.mkdir(parents=True, exist_ok=True)
+    if lp.exists() and lp.read_bytes() == content:
         return False
-    path.write_bytes(content)
+    lp.write_bytes(content)
     return True
 
 
