@@ -5,13 +5,13 @@ generated: 2026-06-17
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **17. 6. 2026**  ·  Celkem stránek: **308**  ·  Poslední sync z Confluence: 2026-06-17
+> **17. 6. 2026**  ·  Celkem stránek: **309**  ·  Poslední sync z Confluence: 2026-06-17
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **9** |
+| 🔥 | Do 3 dnů | **10** |
 | ♨️ | Do 14 dnů | **0** |
 | 🌿 | Do 30 dnů | **11** |
 | 📄 | Do 90 dnů | **39** |
@@ -40,6 +40,7 @@ generated: 2026-06-17
   - 📄 **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 🔥 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
+    - 🔥 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026

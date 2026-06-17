@@ -1,0 +1,291 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 65,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 65,
+            "alt": "Snímka obrazovky 2026-06-17 103101.png",
+            "id": "62f6f8cc-7b09-41aa-a901-3121b3cebc43",
+            "collection": "contentId-459014145",
+            "type": "file",
+            "localId": "c8266779c3e3",
+            "height": 62
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "294e62687dca"
+      },
+      "content": [
+        {
+          "text": "Dashboard poskytuje lékaři přehled o dění na pracovišti, buď za aktuální den, nebo za zvolené období. Slouží jako centrální bod, ze kterého je možné rychle identifikovat úkoly vyžadující pozornost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1140,
+            "alt": "Snímka obrazovky 2026-06-17 101736.png",
+            "id": "9d96ade4-8cb4-4a3e-aa7d-2079ad4304e2",
+            "collection": "contentId-459014145",
+            "type": "file",
+            "localId": "4e292cc409ae",
+            "height": 775
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bdd40d26e0c2"
+      },
+      "content": [
+        {
+          "text": "V levé části dashboardu se nachází sekce ",
+          "type": "text"
+        },
+        {
+          "text": "Návštěvy za",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kde je možné přepínat mezi zobrazením za:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "35d48398-52ff-4d32-a0c3-6dc6d2370d45"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7bf0e8b5-8a22-40fa-9a5a-52520a75f941"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4ba99c4f2e3e"
+              },
+              "content": [
+                {
+                  "text": "Dnes",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – denní přehled aktuálních návštěv a výkonů",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bf9e5046-58c8-4d8a-a90e-8281dc983e0c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "71be57d2f1e8"
+              },
+              "content": [
+                {
+                  "text": "Vybrané období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – souhrnné statistiky za zadaný časový rozsah (včera, aktuální měsíc, minulý měsíc, posledních 7, 30, 90 dní)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1432,
+            "alt": "Snímka obrazovky 2026-06-17 101825.png",
+            "id": "287eb3fe-9d5f-4d94-947f-a16494ba6d4d",
+            "collection": "contentId-459014145",
+            "type": "file",
+            "localId": "4d656bf04e32",
+            "height": 357
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "d8398584b0ef"
+          },
+          "content": [
+            {
+              "text": "Návštěvy bez výkonu zadané dnes",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ea6bd46256a1"
+      },
+      "content": [
+        {
+          "text": "Sekce ",
+          "type": "text"
+        },
+        {
+          "text": "Celkové přehledy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zobrazuje agregované informace napříč celým pracovištěm, nezávisle na zvoleném období v sekci návštěv.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "wrap-left",
+        "width": 110,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 110,
+            "alt": "image-20260617-083958.png",
+            "id": "9fc1a401-8c25-41a2-8fab-2f450f2a4e47",
+            "collection": "contentId-459014145",
+            "type": "file",
+            "localId": "2cde8a9777b4",
+            "height": 81
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1d68aeca775e"
+      },
+      "content": [
+        {
+          "text": "Referenční data",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b75a42a0853b"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b54ed700b992"
+      },
+      "content": [
+        {
+          "text": "Záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Referenční data",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " slouží k porovnání aktuální výkonnosti pracoviště s historickými hodnotami. Lékař nebo správce do ní ručně zadá hodnoty z předchozího období (počet unikátních pacientů, body, materiál) přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Zadání dat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Systém je pak zobrazuje v grafech jako modrou referenční linii vedle aktuálních výsledků. Díky tomu je na první pohled vidět, zda pracoviště vykazuje více nebo méně než ve srovnatelném období minulého roku.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
