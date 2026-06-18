@@ -1,0 +1,5580 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "509665240860"
+      },
+      "content": [
+        {
+          "text": "Slouží k hromadnému zakládání PLS smluv včetně položek ceníku pro jednotlivé skupiny (pozice). Jeden CSV soubor může obsahovat více smluv pro různé pobočky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "be93b0e31ff6"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "f0d033f88a2e"
+          },
+          "content": [
+            {
+              "text": "Krok 2 z pořadí importů: ",
+              "type": "text"
+            },
+            {
+              "text": "skupiny PLS → smlouvy PLS → pacienti PLS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Skupiny musí existovat před importem smluv.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3cafed2663f9"
+      },
+      "content": [
+        {
+          "text": "Předpoklady",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3c99ef8f9130"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "280c4a6310d0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "47c4a8f85afb"
+              },
+              "content": [
+                {
+                  "text": "Firma a pobočky musí být v systému ",
+                  "type": "text"
+                },
+                {
+                  "text": "již založeny",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4c39482701e6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b52e6a3da6cc"
+              },
+              "content": [
+                {
+                  "text": "Skupiny PLS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (pozice) musí existovat — importují se v předchozím kroku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e56d4cab9096"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9773cb0dff28"
+              },
+              "content": [
+                {
+                  "text": "Sortimentní kódy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " v položkách musí existovat v číselníku Sortiment.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d3fe51e0dea7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f8009e0d4b18"
+              },
+              "content": [
+                {
+                  "text": "Platnost od",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": " nové smlouvy musí být ",
+                  "type": "text"
+                },
+                {
+                  "text": "alespoň o 1 den pozdější",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " než nejnovější existující smlouva pro danou pobočku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "35d473d75eff"
+      },
+      "content": [
+        {
+          "text": "Formát souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "6c9af2a2e672"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "aa55ec5b63c7"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "00accba4957b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dd66d51ad9aa"
+                  },
+                  "content": [
+                    {
+                      "text": "Parametr",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e4923a2518bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a7a3287eb1c1"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3bf800ca436c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4a20ac896be3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3a44e14e3145"
+                  },
+                  "content": [
+                    {
+                      "text": "Přípona",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "efb686100567"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "460e340dfa43"
+                  },
+                  "content": [
+                    {
+                      "text": ".csv",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "60578efcedfe"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "75a37e3f9a70"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4bdbd19eba03"
+                  },
+                  "content": [
+                    {
+                      "text": "Kódování",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c62b16141a96"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "051fd78eb369"
+                  },
+                  "content": [
+                    {
+                      "text": "Windows-1250",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "27bc06104777"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "47bcb60ab719"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b4e504b064f0"
+                  },
+                  "content": [
+                    {
+                      "text": "Oddělovač",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "01b811e211e4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "17873e405a77"
+                  },
+                  "content": [
+                    {
+                      "text": "středník ;",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c214a6b97fa2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e93f5e33c50"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4ba6789993e0"
+                  },
+                  "content": [
+                    {
+                      "text": "Hlavičkový řádek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3c119b3b38f6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cf20df464494"
+                  },
+                  "content": [
+                    {
+                      "text": "povinný (přesně dle vzoru)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1f62773a53ef"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "950f2643e8e1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7a521660a5a"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6d5d175ad921"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0c29e1ab991b"
+                  },
+                  "content": [
+                    {
+                      "text": "34 (každý řádek musí mít přesně 34 polí)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ac461be3591c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3d7d19e793e8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e102f97f041"
+                  },
+                  "content": [
+                    {
+                      "text": "Jeden řádek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5b4701271770"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cad2dcadadd6"
+                  },
+                  "content": [
+                    {
+                      "text": "jedna položka smlouvy — smlouva s více položkami má více řádků se stejnými daty smlouvy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6c058856a73b"
+      },
+      "content": [
+        {
+          "text": "Sloupce (34)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "f936e5c91ad8"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6e1002a1d096"
+          },
+          "content": [
+            {
+              "text": "S = data smlouvy",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " — opakují se na každém řádku. ",
+              "type": "text"
+            },
+            {
+              "text": "P = data položky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " — liší se na každém řádku. ",
+              "type": "text"
+            },
+            {
+              "text": "Pov.: P",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " = povinný, ",
+              "type": "text"
+            },
+            {
+              "text": "V",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " = volitelný.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "8bc32e51e63f"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2878a5319681"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7e9c3cf56cbe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e448efa3927"
+                  },
+                  "content": [
+                    {
+                      "text": "#",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e013d2a1d580"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "634582a438d9"
+                  },
+                  "content": [
+                    {
+                      "text": "Název sloupce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "eb3bb4a4a204"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b532723ff2be"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "921344f1ee50"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "55382b0ffc51"
+                  },
+                  "content": [
+                    {
+                      "text": "Pov.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4d8f049cb34c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "47138bb085b6"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnoty / poznámka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a4b730e35be0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a873f83767da"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "17546feb1bf5"
+                  },
+                  "content": [
+                    {
+                      "text": "1",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3d2d7091ce6b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "17d8462f307c"
+                  },
+                  "content": [
+                    {
+                      "text": "ICO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d7c981ea1fcf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "181b2f247051"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "df08e7fc16d0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "091df8f6a40e"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e204b2d2b431"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "08dd6b5eedbc"
+                  },
+                  "content": [
+                    {
+                      "text": "IČO firmy (bez mezer)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5ff11516ad1b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e30584bd4044"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3b9055fc4c5f"
+                  },
+                  "content": [
+                    {
+                      "text": "2",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dc7655ec9c97"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7d058fc4ea1"
+                  },
+                  "content": [
+                    {
+                      "text": "Pobocka nazev",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9348a0d01de6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "51ac376856ec"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cae27b30e99c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eea19bf08da8"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d06c61e8816c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "98462e5aaf1f"
+                  },
+                  "content": [
+                    {
+                      "text": "Přesný název pobočky v systému",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "65902dcd7e81"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1e280ab5173a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "95ad80d370b6"
+                  },
+                  "content": [
+                    {
+                      "text": "3",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1b9e18b32253"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "959bdc591548"
+                  },
+                  "content": [
+                    {
+                      "text": "Smluva kod",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "421e4790105d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b6e5162a8eea"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fd14d78cd6d3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "91054adc35ca"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "647ea72bc9aa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1c2ee3314cd0"
+                  },
+                  "content": [
+                    {
+                      "text": "Kód smlouvy (max 10 znaků), unikátní v rámci pobočky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "757eaf48c391"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "efb51478dade"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b180d29dc880"
+                  },
+                  "content": [
+                    {
+                      "text": "4",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "348eac8ef386"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bc4de2a7ca85"
+                  },
+                  "content": [
+                    {
+                      "text": "Smluva nazev",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8a7f326e8015"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9e7dab2b17cb"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f5ef61f8bbbc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b3aa84115e4f"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c96f905e59ac"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ca62409bb311"
+                  },
+                  "content": [
+                    {
+                      "text": "Název smlouvy (max 100 znaků)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fe1a32578e68"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "acd6860ae3b9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "00de1a12eef0"
+                  },
+                  "content": [
+                    {
+                      "text": "5",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0b5be837111f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27872a5c8b98"
+                  },
+                  "content": [
+                    {
+                      "text": "Nefakturovat (1-ano, 0-ne)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dd3d063cae0b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "75e73c8fdfcb"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "51ca44256fe1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b1b7ddc48b38"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9f959efb31db"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dd9baab310dd"
+                  },
+                  "content": [
+                    {
+                      "text": "1 nebo 0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e944d79a52b9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f092b6c2a002"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "16d9b5a839b7"
+                  },
+                  "content": [
+                    {
+                      "text": "6",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "164453d0692e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "46caa8feed33"
+                  },
+                  "content": [
+                    {
+                      "text": "Platnost od",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "56cee367d8af"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e396c4d038b2"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a1a0468270b1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1a6902e46729"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "eea94f96d38d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "121e9df5f421"
+                  },
+                  "content": [
+                    {
+                      "text": "Formát dd.MM.yyyy. Musí být alespoň 1 den po nejnovější existující smlouvě pobočky.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "0ab129545e03"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b6f1db35ec79"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1cef9a07f852"
+                  },
+                  "content": [
+                    {
+                      "text": "7",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "858e39d6f8fd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "70e75e67c1f5"
+                  },
+                  "content": [
+                    {
+                      "text": "Platnost do",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f9ca517eed34"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b786d2bde4a5"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4548c5016633"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "642df4de787c"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0526434fd79f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aa330f810b4a"
+                  },
+                  "content": [
+                    {
+                      "text": "Formát dd.MM.yyyy, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "49264fe4e795"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "64ea8747cc97"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "949447d251de"
+                  },
+                  "content": [
+                    {
+                      "text": "8",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a61350878e1a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "24c7bb0c125b"
+                  },
+                  "content": [
+                    {
+                      "text": "Zpusob platby",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "401334827ef7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4cb1124fe64"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "04a9333fe585"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5e81239624fc"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4ec4523fe261"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "26c72f1d8b12"
+                  },
+                  "content": [
+                    {
+                      "text": "P = paušál · V = výkony · K = kombinovaně",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cdf804b96abe"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a69d5fd3ff29"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c289b1fdac26"
+                  },
+                  "content": [
+                    {
+                      "text": "9",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2b66142bc582"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1d7bdd999038"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ pausalu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "822787c35adb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee002f18e6b3"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "15326dbfaa87"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "96ffd665c50a"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e260173bd72c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e6d5e4bed4cb"
+                  },
+                  "content": [
+                    {
+                      "text": "J = jednorázový · P = za 1 pacienta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "db2da3b137f3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "54f0491445ec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9a45199a5fcb"
+                  },
+                  "content": [
+                    {
+                      "text": "10",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8a019e2d68fe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a70d1a25fded"
+                  },
+                  "content": [
+                    {
+                      "text": "Rezim platby",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c51aaf8fc0ce"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c6b425740ed5"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6166748ec9bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "03a38e7f79f3"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8ccdea7a6f91"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eaad5aff23e9"
+                  },
+                  "content": [
+                    {
+                      "text": "Dopredu nebo Zpetne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f3feb693e737"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dc103130cb58"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "59f5f576f00f"
+                  },
+                  "content": [
+                    {
+                      "text": "11",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "514baa640590"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b445a6ee2c9c"
+                  },
+                  "content": [
+                    {
+                      "text": "Pocet mesice pausalu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "62ababcec824"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "81ea62508725"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "37c098dbab71"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bcd9d296cec9"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b387182c0185"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e7af9b6a2fb1"
+                  },
+                  "content": [
+                    {
+                      "text": "Celé číslo, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6d0cedf95d8d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f8a9c114e6e9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "551bea1890f4"
+                  },
+                  "content": [
+                    {
+                      "text": "12",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "789a7dcb01cd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "63818b97cfe5"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena bez DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "40367955c5d8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "20a18aa19804"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e70c9731db97"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e8de6e2469f3"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "61f2655a9942"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "75418ec0244a"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena smlouvy (paušál). Pro výkonovou smlouvu ponech prázdné nebo 0.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4ddb6e19bc5b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8ad3f48e642e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "04559683bb6f"
+                  },
+                  "content": [
+                    {
+                      "text": "13",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b0c1d11a2e16"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bcc859cdde57"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena s DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "209df5d566d7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e1926ff0f046"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "17284f8c6219"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1cea77f8cadf"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9b85f280cc05"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "069d1408bce7"
+                  },
+                  "content": [
+                    {
+                      "text": "Prázdné pokud sazba DPH = 0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "313430eb9117"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bc7506be6760"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "842ed7ba38af"
+                  },
+                  "content": [
+                    {
+                      "text": "14",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7cc21ac2b057"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f265f63809e3"
+                  },
+                  "content": [
+                    {
+                      "text": "Sazba DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a678cf213b02"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e97c96ba9ed"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1c0c8e30f148"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "012670d34f2c"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d91792f77dd4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5198c08dc3fd"
+                  },
+                  "content": [
+                    {
+                      "text": "Číslo (např. 0, 10, 21)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "547ab08dbe6c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0977a4ebcbaa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "defab4552421"
+                  },
+                  "content": [
+                    {
+                      "text": "15",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "00d992f6a6b7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c3b90dd7c428"
+                  },
+                  "content": [
+                    {
+                      "text": "Sleva",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "218d2f853e22"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2025f548ba75"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4f75dc667867"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2d7ff02bdc63"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "be4a9a55eec3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bcddd1e91a91"
+                  },
+                  "content": [
+                    {
+                      "text": "Procento slevy, celé číslo (např. 0)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9f087558e76e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "339476333e90"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "102decf8fb18"
+                  },
+                  "content": [
+                    {
+                      "text": "16",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1c0f402687ad"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "68798752998c"
+                  },
+                  "content": [
+                    {
+                      "text": "Fakturovat nedostavil se (1-ano, 0-ne)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2911711d360c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "95f6df3cf23d"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5e21fbd57ed0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e01e13008614"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "caf17a9ca862"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "053bf5b03f92"
+                  },
+                  "content": [
+                    {
+                      "text": "1 nebo 0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8bac43ac3617"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3831b0e32927"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c13ac54ac3a"
+                  },
+                  "content": [
+                    {
+                      "text": "17",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8f1906d95927"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a14779d2f3d9"
+                  },
+                  "content": [
+                    {
+                      "text": "Procento ceny za nedostavil se",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9ba159d3aa82"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e2c621b637ed"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1765dbd36533"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8fb6b60ea000"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1056d224bad8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "813842fba940"
+                  },
+                  "content": [
+                    {
+                      "text": "0–100, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2afa712ab677"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "758b0255c9ac"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fb00aa8f90db"
+                  },
+                  "content": [
+                    {
+                      "text": "18",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "68e96faf55a7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "451ac97527bc"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena za nedostavil se",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "619adad1ad82"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c7cca719cf11"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5d16fd401ac1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "205f821956bf"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7e966245d89d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "07bc4a1ee45f"
+                  },
+                  "content": [
+                    {
+                      "text": "Pevná částka bez DPH, nebo 0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "54b3023fa9d3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "245f2704f9f2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b036fb9528f7"
+                  },
+                  "content": [
+                    {
+                      "text": "19",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "52e2ae584b35"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "45e9f1975e1f"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka sortiment kod",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5c668b956d26"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "86c52d83f9b8"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "20170de9fd41"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "29e7f4e7562e"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "16086eeafa2c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "df9a494682c3"
+                  },
+                  "content": [
+                    {
+                      "text": "Kód ze Sortimentu — musí existovat v systému",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9913e04ece70"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ea7998dbcb18"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e2c88bda4263"
+                  },
+                  "content": [
+                    {
+                      "text": "20",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cfcdc7104c7b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6e4bfd2590d4"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka pozice PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "62a928f07d2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3f0b699a1ac7"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4f1a1158a8e8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6ad5c99bf8f2"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bca8be0e132d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e96e3f0a88a1"
+                  },
+                  "content": [
+                    {
+                      "text": "Název skupiny PLS — musí existovat pro danou firmu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "311a197c6b07"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c98dc9a9d25e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "61bed3f51156"
+                  },
+                  "content": [
+                    {
+                      "text": "21",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dcdcc08f467c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3209ea0e4828"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka cena bez DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "345fb4671d68"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4d2d7c766ad9"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "27183b954c29"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1157b79f2f50"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fd531c0c8ed1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ec0ac56405c8"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena položky bez DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "bb0e112fccf1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f9d84aef2384"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "23bd4ac7a712"
+                  },
+                  "content": [
+                    {
+                      "text": "22",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d6cee0b2ce16"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "89920604dcf7"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka cena s DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f16bf84ebb9b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "52f591a5b93c"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f47d2e4e9410"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc440ce2504b"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d749f8bbfde7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc861ab9b3b9"
+                  },
+                  "content": [
+                    {
+                      "text": "Prázdné pokud sazba DPH = 0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d487fff91789"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dd2c16a8c8ab"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1ceb7b0f9528"
+                  },
+                  "content": [
+                    {
+                      "text": "23",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c71be2fcee59"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d8456122fb7f"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka sazba DPH",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4bf18955e5b6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b0d717c9f1c"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "28672c4b2ec5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b1dbfef48a2a"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9d2987d42b2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e53b67825e39"
+                  },
+                  "content": [
+                    {
+                      "text": "Číslo (např. 0)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "87a611c9ee77"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e9a2a492103a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "65081c4453e5"
+                  },
+                  "content": [
+                    {
+                      "text": "24",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2b016bcc305b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "882a77788b22"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka sleva",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9f179975cd80"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2a8f23873663"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6db3e677af47"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "410a8ac1c026"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4f2714ba2a44"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "58e39e6ef6af"
+                  },
+                  "content": [
+                    {
+                      "text": "Procento slevy, celé číslo",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3bdfdfd60d47"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "35d96e09c22d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6610c118ec9a"
+                  },
+                  "content": [
+                    {
+                      "text": "25",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c09927ce3667"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d9625e3f1177"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka zpusob uhrady",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7bd574275a72"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "193424b59036"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1954dc30e39f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7b140ea645e7"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f1732ff9093a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4b08418c0474"
+                  },
+                  "content": [
+                    {
+                      "text": "Hotovost nebo Faktura",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "de849f93a777"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8c06a3f79fbe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c743121b7a50"
+                  },
+                  "content": [
+                    {
+                      "text": "26",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3a761ea473b0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b98639e2fbb5"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka vazba",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "662f9dd8e6c1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "95d1dc12db9e"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d49b6fda7ecf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ce545c3c967a"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f23a4b484b69"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b971b3491655"
+                  },
+                  "content": [
+                    {
+                      "text": "Vykon nebo PSmlouva (v paušálu smlouvy)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fda33a40cf70"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0931adb6063d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "10a0f1e39920"
+                  },
+                  "content": [
+                    {
+                      "text": "27",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "afb2d7b74f81"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f657e7e00bd7"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka limit",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4bbc17926365"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "752acc43d945"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "acf01a2204fa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bdf57420c655"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3e8a7a1222db"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0638468dd913"
+                  },
+                  "content": [
+                    {
+                      "text": "Celé číslo, 0 = bez limitu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a8fa1c7b1837"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "76789aaa3ef2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6a333b96fd3d"
+                  },
+                  "content": [
+                    {
+                      "text": "28",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1db02efdf146"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "05df3d5cd87c"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka rozsiruje prohlidku sortiment kod",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1464a9a375d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7950347c862"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cf538f25663b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "61abe2280d28"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "64688470162e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c4c1b3590467"
+                  },
+                  "content": [
+                    {
+                      "text": "Kód sortimentu rozšiřující prohlídky, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9007a171a1a7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2db657517fa2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "80d2c1b08da1"
+                  },
+                  "content": [
+                    {
+                      "text": "29",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5b6521b91a97"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ae4549c75d6e"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka poznamka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b9f3f7cabf2a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8469d8ea3394"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aa2acf05e013"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "30eb30833dda"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6b0c652984d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e43e0f22944"
+                  },
+                  "content": [
+                    {
+                      "text": "Volný text, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cbc0b7112a20"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e19f3dde3a83"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a6006a0529c4"
+                  },
+                  "content": [
+                    {
+                      "text": "30",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2759888a3529"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a376118d069d"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka vek od",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "08b9b683dd75"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "937a6cdf913f"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1d5acfc2fcb7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "feb1128a1599"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e3441382fed6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5da63a717ef9"
+                  },
+                  "content": [
+                    {
+                      "text": "Celé číslo (věk v letech), nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "0d89eabc3a94"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "37820561f797"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a5ce2183ae28"
+                  },
+                  "content": [
+                    {
+                      "text": "31",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1604dbeeb140"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5677b6871a82"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka vek do",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e0470621bebb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "652399bfa834"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7c7b69e9fadc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "681b66c57f4b"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c5aaa45d98ef"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e29ccb37bd49"
+                  },
+                  "content": [
+                    {
+                      "text": "Celé číslo (věk v letech), nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fe4c5f5e8d00"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "05c01543de58"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "beb095747a90"
+                  },
+                  "content": [
+                    {
+                      "text": "32",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "11b7d99afc92"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d93bf09366e6"
+                  },
+                  "content": [
+                    {
+                      "text": "Polozka pohlavi",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9222d68309be"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c2f71f166ed8"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ce0c3de11d95"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2d29efd8f381"
+                  },
+                  "content": [
+                    {
+                      "text": "V",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bccdf1e1a8ec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9e66da1468da"
+                  },
+                  "content": [
+                    {
+                      "text": "muz · zena · neuvedeno, nebo prázdné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "028be7b67c6f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "069d57d83aba"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "62183119cbb6"
+                  },
+                  "content": [
+                    {
+                      "text": "33",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dee992d1607b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2af8bbdc4cf8"
+                  },
+                  "content": [
+                    {
+                      "text": "Smlouva fakturovat nedostavil se vcetne rozsirujucich polozek (1-ano, 0-ne)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d49ae516758e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ea6e6e931d87"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0caae6abb372"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b8380d50064"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "83a8c2a3ce87"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "757471dca90f"
+                  },
+                  "content": [
+                    {
+                      "text": "1 nebo 0 — nesmí být prázdné!",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "81b8940992c6"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e32f3c312f3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "83bd22ac3ff0"
+                  },
+                  "content": [
+                    {
+                      "text": "34",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "20488509f343"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8b8b7070272d"
+                  },
+                  "content": [
+                    {
+                      "text": "Zpusob fakturace nedostavil se",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "846d530d3af4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "184df6f38d88"
+                  },
+                  "content": [
+                    {
+                      "text": "S",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aabff099f6f5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6e5772cca1a6"
+                  },
+                  "content": [
+                    {
+                      "text": "P",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e26912d1b72a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "16ffae44e86b"
+                  },
+                  "content": [
+                    {
+                      "text": "ProcentoZCeny nebo PevnaCastka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "c643dcb9693b"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b05b49ece8ad"
+          },
+          "content": [
+            {
+              "text": "Pozor na počet středníků!",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Každý řádek musí mít přesně 34 polí (33 středníků). Sloupce 28–32 jsou volitelné, ale musí být přítomny jako prázdná pole — středníky vynechat nelze.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4d4dad45ee9a"
+          },
+          "content": [
+            {
+              "text": "Kontrola konce řádku: ",
+              "type": "text"
+            },
+            {
+              "text": "limit;;;;;;fakturovat_vcetne;zpusob_fakturace",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            },
+            {
+              "text": " — mezi limitem a koncem musí být přesně 7 středníků.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "66890a25467a"
+      },
+      "content": [
+        {
+          "text": "Vzor souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "none",
+        "localId": "4b04165e6d97"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "ICO;Pobocka nazev;Smluva kod;Smluva nazev;Nefakturovat (1-ano, 0-ne);Platnost od;Platnost do; Zpusob platby (P-pausal, V-vykony, K-kombinovane);Typ pausalu (J-jednorazovy, P-za 1 pacienta);Rezim platby (Dopredu, Zpetne);Pocet mesice pausalu;Cena bez DPH;Cena s DPH;Sazba DPH; Sleva;Fakturovat nedostavil se (1-ano, 0-ne);Procento ceny za nedostavil se;Cena za nedostavil se;Polozka sortiment kod;Polozka pozice PLS;Polozka cena bez DPH;Polozka cena s DPH;Polozka sazba DPH;Polozka sleva;Polozka zpusob uhrady (Hotovost, Faktura);Polozka vazba (Vykon, PSmlouva - v pausalu smlouvy);Polozka limit;Polozka rozsiruje prohlidku sortiment kod;Polozka poznamka;Polozka vek od;Polozka vek do;Polozka pohlavi (muz, zena, neuvedeno);Smlouva fakturovat nedostavil se vcetne rozsirujucich polozek (1-ano, 0-ne);Zpusob fakturace nedostavil se (ProcentoZCeny, PevnaCastka)\n00637327;Obec Kotvrdovice;TEST01;Testovaci smlouva 01;0;02.01.2026;;V;J;Zpetne;;0;;0;0;0;;0;PLS001;Skladník;1000;;0;0;Faktura;Vykon;0;;;;;;0;ProcentoZCeny\n00637327;Obec Kotvrdovice;TEST01;Testovaci smlouva 01;0;02.01.2026;;V;J;Zpetne;;0;;0;0;0;;0;PLS002;Řidič;1000;;0;0;Faktura;Vykon;0;;;;;;0;ProcentoZCeny\n00637327;Obec Kotvrdovice;TEST01;Testovaci smlouva 01;0;02.01.2026;;V;J;Zpetne;;0;;0;0;0;;0;PLS003;Administrativa;1100;;0;0;Faktura;Vykon;0;;;;;muz;0;ProcentoZCeny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2932853a947c"
+      },
+      "content": [
+        {
+          "text": "Postup importu v aplikaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "30963c71a5b2",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "af7f61c5a9b4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9efd573c227a"
+              },
+              "content": [
+                {
+                  "text": "Otevři detail firmy → tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Import",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ae44a7a16175"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "15ecfc46b856"
+              },
+              "content": [
+                {
+                  "text": "Zvol typ importu: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Import smluv PLS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a82403f83186"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "054de33cfc57"
+              },
+              "content": [
+                {
+                  "text": "Klikni na ",
+                  "type": "text"
+                },
+                {
+                  "text": "„…“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a vyber připravený CSV soubor.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "43c65142bf26"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5fedfd3735b5"
+              },
+              "content": [
+                {
+                  "text": "Stiskni ",
+                  "type": "text"
+                },
+                {
+                  "text": "Importovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4045832ac9d1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c1077d77ff79"
+              },
+              "content": [
+                {
+                  "text": "Zkontroluj výsledek — systém zobrazí potvrzení nebo seznam chyb s číslem řádku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b97c4947dd73"
+      },
+      "content": [
+        {
+          "text": "Časté chyby",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "51f7c38f8166"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "546b260e0023"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f23155303c64"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a6caba9456e3"
+                  },
+                  "content": [
+                    {
+                      "text": "Chybová hláška",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "17354bda5018"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a731c360af76"
+                  },
+                  "content": [
+                    {
+                      "text": "Příčina",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e7ea781d3cbb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a40f34bcfee9"
+                  },
+                  "content": [
+                    {
+                      "text": "Řešení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a540a1fab057"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b84eacde8f6f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ae6833d6fd02"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubor/řádek obsahuje nesprávný počet sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a5673fece28f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0f70fe06b1dc"
+                  },
+                  "content": [
+                    {
+                      "text": "Řádek nemá přesně 34 polí",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "262035d322cf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8a9be56d1a63"
+                  },
+                  "content": [
+                    {
+                      "text": "Ověř počet středníků (musí být 33). Volitelné sloupce 28–32 musí být přítomny jako prázdná pole.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e69f727f8779"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2c981decc847"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cf7cec3f77c1"
+                  },
+                  "content": [
+                    {
+                      "text": "Chybí hodnota pole Fakturovat „Nedostavil se“ vč. rozšiřujících položek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8a15cddade03"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c30440a52c49"
+                  },
+                  "content": [
+                    {
+                      "text": "Sloupec 33 je prázdný — chyba v počtu středníků za sloupcem 27",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7a7d9ebb33f7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "01ddebfcb08a"
+                  },
+                  "content": [
+                    {
+                      "text": "Zkontroluj: sloupce 27–34 musí mít 7 středníků: limit;;;;;;fakturovat_vcetne;zpusob_fakturace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c7db4e413133"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d984c3d6bf44"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "588d5302d82d"
+                  },
+                  "content": [
+                    {
+                      "text": "Smlouva s kódem X má stejné nebo novější datum platnosti",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cf02eb3493a9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4322de5a8c17"
+                  },
+                  "content": [
+                    {
+                      "text": "Existující smlouva pobočky má PlatnostOd stejné nebo pozdější",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ba9790ca952f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fb40426c3df6"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastav Platnost od alespoň o 1 den pozdější než nejnovější existující smlouva.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "24b6cc14459c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fcf6ff33c1e4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c62a0728b6a6"
+                  },
+                  "content": [
+                    {
+                      "text": "Sortimentní kód nenalezen",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b2ecf8a06e58"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e1eb0a461988"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota v sloupci 19 nebo 28 neexistuje v číselníku Sortiment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1424d35ce252"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b49beca8d847"
+                  },
+                  "content": [
+                    {
+                      "text": "Ověř kód v číselníku Sortiment v systému.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f930470caa6f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9e779b3e2733"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ef0a86f09cb2"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozice PLS nenalezena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "73aa05b34859"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b8b34d18c1be"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota v sloupci 20 neexistuje jako skupina PLS pro danou firmu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e1c0e004932c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9917db5fa481"
+                  },
+                  "content": [
+                    {
+                      "text": "Nejprve proveď import skupin PLS, nebo zkontroluj název skupiny v systému.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "9152e9132fe5"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "064faf210fd9"
+          },
+          "content": [
+            {
+              "text": "Úspěšný import zobrazí hlášení ",
+              "type": "text"
+            },
+            {
+              "text": "„Import úspěšně dokončen“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " bez seznamu chyb.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,1170 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "61ab412600a6"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "862cfbf01a62"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b7b7463e21d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "83fdede9937e"
+                  },
+                  "content": [
+                    {
+                      "text": "Pojem",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b1b722a0c301"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "846f7ac7e5a7"
+                  },
+                  "content": [
+                    {
+                      "text": "Vysvětlení",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "773b0b6c2402"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2b5066eca908"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0fcc057aee59"
+                  },
+                  "content": [
+                    {
+                      "text": "Balíček (nadstandardní péče)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "eab39f487c5d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d5a9459acd58"
+                  },
+                  "content": [
+                    {
+                      "text": "Pojmenovaná skupina položek NP nabízená pacientům. Evidován v Galen.Balicek.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4b2d997814cb"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c7f16d4fad8d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "81215761a4e7"
+                  },
+                  "content": [
+                    {
+                      "text": "Sortiment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8fcb7e73c6fb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dacb6428a09f"
+                  },
+                  "content": [
+                    {
+                      "text": "Položka zboží, materiálu nebo výkonu; typy: S (sortiment), P (prohlídka), O (očkování). Evidován v Galen.Sortiment.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "950d0ad6e01e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b721758af6ce"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a3705466e05d"
+                  },
+                  "content": [
+                    {
+                      "text": "Položka balíčku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dda0e18013f5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "32752c95b57c"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiřazení sortimentu do balíčku s parametry (počet, sleva, typ účtování). Evidována v Galen.NadstandardPolozka.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c0775422c033"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "955acb62db93"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a769f9bc6b61"
+                  },
+                  "content": [
+                    {
+                      "text": "Ceník",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "681940b9e727"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d9290aabe5bd"
+                  },
+                  "content": [
+                    {
+                      "text": "Cena sortimentu s platností od–do, sazbou DPH a vazbou na pracoviště. Evidován v Galen.Cenik.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ba83a2182ba0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "93b3d21c3c11"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a0da8727ba33"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie ceníku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c306c7ccfbaa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9a85709731a8"
+                  },
+                  "content": [
+                    {
+                      "text": "Pojmenovaná skupina ceníkových záznamů pro přehledné přiřazení k položkám balíčku. Evidována v Galen.KategorieCeniku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1546f85c3760"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f5775b5426f1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "03301cfb2e90"
+                  },
+                  "content": [
+                    {
+                      "text": "Závazek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "838d0710b7dc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eb62c914b9ca"
+                  },
+                  "content": [
+                    {
+                      "text": "Finanční pohledávka vůči pacientovi vzniklá vyučtováním balíčku. Evidován v Galen.Zavazek.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9cb9af75236f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d9d01f9c2b45"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8adac19455c3"
+                  },
+                  "content": [
+                    {
+                      "text": "Plně hrazeno",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ab21d501ff5b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bb1b4144b896"
+                  },
+                  "content": [
+                    {
+                      "text": "Příznak: pacient za položku nic nedoplácí — je zahrnuta v ceně balíčku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2cb5e9f3c8c5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "227c4e77e04d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "df4c9eb7148d"
+                  },
+                  "content": [
+                    {
+                      "text": "Hromadně",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "42c3a6f31bb0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8a49df767a74"
+                  },
+                  "content": [
+                    {
+                      "text": "Příznak: položku lze vykázat pro více pacientů najednou.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5e6a8b6f7b50"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cc4bcfc213a0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "04d2528f5888"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracoviště",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e6744212749"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5a85981c1b3e"
+                  },
+                  "content": [
+                    {
+                      "text": "V aplikaci Galen odpovídá DB entitě Lekar. Určuje, pro které pracoviště je ceník platný.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4ba6b21d3763"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f6855af970bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "24d5368cb177"
+                  },
+                  "content": [
+                    {
+                      "text": "PLS (Pracovnělékařské služby)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e8095e62cef5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33e2af877aaf"
+                  },
+                  "content": [
+                    {
+                      "text": "Část modulu pro evidenci a fakturaci pracovnělékařských prohlídek pro zaměstnavatele.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "93b8bbc0299d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fb7a43227f4a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "080bd90085c4"
+                  },
+                  "content": [
+                    {
+                      "text": "Smlouva PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "004f37bbd739"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "53b08b3dc603"
+                  },
+                  "content": [
+                    {
+                      "text": "Smluvní dohoda s firmou (zaměstnavatelem). Evidována v Galen.SmlouvaPLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a9d8a8d028a3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "78bc59c2713b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c5f29f359491"
+                  },
+                  "content": [
+                    {
+                      "text": "Položka smlouvy PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1030440f21e5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9cd81eca4ed8"
+                  },
+                  "content": [
+                    {
+                      "text": "Konkrétní typ prohlídky nebo sortimentu ve smlouvě s cenou, slevou, limitem a omezením. Evidována v Galen.PolozkaSmlouvyPLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6877cb5898cb"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9cbb7785d669"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9d84387678aa"
+                  },
+                  "content": [
+                    {
+                      "text": "Skupina PLS (Pozice PLS)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dc6267c60d59"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f39b7286f8e1"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracovní skupina zaměstnanců u firmy s prohlídkovou povinností. Evidována v Galen.PozicePLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5071f4e47edc"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4d0d9a495af8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "892ff847e9e5"
+                  },
+                  "content": [
+                    {
+                      "text": "Akce PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "07ebb5b77864"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0395966efec4"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznam konkrétní prohlídky s workflow stavů od plánování po fakturaci. Evidována v Galen.PLSAkce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "31ff5664f98f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ae7cdc37f356"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "44c258652f07"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7817fa012526"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "24c0a19888c4"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura pro zaměstnavatele za realizované PLS akce. Evidována v Galen.FakturaPLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a507187908bf"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e44d1307522b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d74ebe9e8fbc"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav akce PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f821a020cd67"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c2eef659b231"
+                  },
+                  "content": [
+                    {
+                      "text": "Fáze: Nová plánovaná akce → Přiděleno dalšími IČP → Vráceno → Uzavřena fakturovat/nefakturovat → Faktura vystavena.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "87a8b46a2546"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0d016cae97fd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fe6dc35b3de8"
+                  },
+                  "content": [
+                    {
+                      "text": "Výsledek posudku PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c9b048545605"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ced09cb2f065"
+                  },
+                  "content": [
+                    {
+                      "text": "Závěr posudku po prohlídce: Z / N / K / M / D / B / X. Enumerace PLSResult.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "95f12e844c68"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b4555d39bafa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "715b84b58b4d"
+                  },
+                  "content": [
+                    {
+                      "text": "Vazba položky smlouvy PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d41ad3ef8b7f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "73a49cf06547"
+                  },
+                  "content": [
+                    {
+                      "text": "Způsob fakturace: Výkon (zvlášť nad paušál) nebo V paušálu smlouvy. Enumerace VazbaPLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "66ed684ef220"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c47d1b0d4d6d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "80dd62bf0c28"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ faktury PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "638c22451ec1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c150c7549c5a"
+                  },
+                  "content": [
+                    {
+                      "text": "Paušál (pevná cena) nebo Výkony (dle skutečnosti). Enumerace TypFakturyPLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1255314da552"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6fd494e132f2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "efbb5d429010"
+                  },
+                  "content": [
+                    {
+                      "text": "Identifikace pacientů na faktuře",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e7002d21a0d3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "43ca5165ad8b"
+                  },
+                  "content": [
+                    {
+                      "text": "Jméno/příjmení/datum nar. nebo Osobní číslo — volí se při vystavení faktury dle dohody se zaměstnavatelem.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "bfa057adc015"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "94014a412874"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7ecbb3ddbcb9"
+                  },
+                  "content": [
+                    {
+                      "text": "Rizika skupiny PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b817a4f9ed0d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b6a9d4a9ce2f"
+                  },
+                  "content": [
+                    {
+                      "text": "Druhy rizik (pracovní zátěž) dle § 37 zák. 373/2011 Sb. Evidována v Galen.PozicePLSRizika.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

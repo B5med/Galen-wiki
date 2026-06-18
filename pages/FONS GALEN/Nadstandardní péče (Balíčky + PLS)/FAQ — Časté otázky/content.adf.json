@@ -1,0 +1,1045 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "149e255d3df8"
+      },
+      "content": [
+        {
+          "text": "Často kladené otázky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "694c05a78418",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "51f4998b3557"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "41c7ea61151b"
+              },
+              "content": [
+                {
+                  "text": "Co je to balíček nadstandardní péče?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "81cbff259335"
+      },
+      "content": [
+        {
+          "text": "Balíček je pojmenovaná skupina položek (sortiment, prohlídky, očkování) nehrazených zdravotní pojišťovnou, nabízená pacientům jako soubor nadstandardních služeb za definovanou cenu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a568a89af71f"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bcb4be1c0706",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5928eaba52fd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7cdb765531fe"
+              },
+              "content": [
+                {
+                  "text": "Mohu do jednoho balíčku přidat různé typy položek?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6ad29ee61113"
+      },
+      "content": [
+        {
+          "text": "Ano. Jeden balíček může kombinovat Sortiment, Prohlídku i Očkování. Typ se volí při přidávání každé položky zvlášť.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "ab08beb10b31"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bf0c1bc63d46",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6aa6b31c7156"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4fcb615add9c"
+              },
+              "content": [
+                {
+                  "text": "Nemám přístup k modulu Nadstandardní péče — co mám dělat?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a72eaf8bda3"
+      },
+      "content": [
+        {
+          "text": "Přístup závisí na nastavení role Vašeho uživatelského účtu. Kontaktujte správce systému Vaší ordinace a požádejte o přidělení příslušného oprávnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "89dac05840e5"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5133687a5f3a",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7e248fb87403"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f0b8120f57f8"
+              },
+              "content": [
+                {
+                  "text": "Jaký je rozdíl mezi přepínači „Plně hrazeno“ a „Sleva (%)“?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9dee3460fcf8"
+      },
+      "content": [
+        {
+          "text": "Plně hrazeno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " znamená, že pacient za tuto konkrétní položku nic nedoplácí — je zcela v ceně balíčku. ",
+          "type": "text"
+        },
+        {
+          "text": "Sleva (%)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je procentuální sleva z ceníkové ceny položky. Pokud je položka plně hrazena, sleva se neuplatní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "6de60d320bf3"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fe14f3fb80e7",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "933cc76e3959"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dd44671bd191"
+              },
+              "content": [
+                {
+                  "text": "Proč se při ukládání závazku zobrazuje chyba „Nenalezena platná cena“?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49fafde5418c"
+      },
+      "content": [
+        {
+          "text": "Systém nedókázal dohledat platný ceník pro dané datum. Zkontrolujte, zda má sortiment zadanou cenu s platností pokrývající aktuální datum. Pokud cena chybí nebo je platnost ukončena, přidejte nový záznam ceníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5dbbed23ae46"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2621ded5b132",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b773a53b9e2b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "570bbbe74663"
+              },
+              "content": [
+                {
+                  "text": "Jak provedu storno vyúčtovaného závazku?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "137036c39ba0"
+      },
+      "content": [
+        {
+          "text": "Otevřete kartu pacienta → záložku Závazky. Vyberte závazek, který chcete stornovat, a klikněte na ",
+          "type": "text"
+        },
+        {
+          "text": "Storno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Systém vytvoří opravný záznam. Původní záznam zůstane v historii zachován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f30713989a84"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3b89c78f7033",
+        "order": 7
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6ffc0aa5cc9a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d92656957e2"
+              },
+              "content": [
+                {
+                  "text": "Lze tisk pokladního dokladu provést přímo z modulu?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cf96d7ee7b38"
+      },
+      "content": [
+        {
+          "text": "Ano. Po uložení závazku se způsobem platby „Hotově“ nabídne systém automaticky tisk pokladního dokladu. Tisk lze opakovat kdykoliv později ze záložky Závazky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2d04205f7780"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a7a606e5a19b",
+        "order": 8
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "24c7c7d4f89a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "975a185689a5"
+              },
+              "content": [
+                {
+                  "text": "Jak nastavím, aby cena platila jen pro konkrétní pracoviště?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "acc8f2da1aca"
+      },
+      "content": [
+        {
+          "text": "Při zadávání záznamu ceníku vyplněte pole ",
+          "type": "text"
+        },
+        {
+          "text": "Pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Cena pak bude platit výlučně pro toto pracoviště. Pokud pracoviště nevyplníte, cena platí globálně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d38ec0e06153"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "581f7922229b",
+        "order": 9
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "520b6dda9322"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "76db35653eb4"
+              },
+              "content": [
+                {
+                  "text": "Mohu exportovat přehled závazků pacienta?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "162af0031559"
+      },
+      "content": [
+        {
+          "text": "Přehled závazků je dostupný na kartě pacienta v záložce Závazky. Export (tisk, PDF) zajištíte přes funkci ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk přehledu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v panelu nástrojů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "ed960aa76712"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "23a0d50e43e2",
+        "order": 10
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "780bcf97cbf2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b15666e629b3"
+              },
+              "content": [
+                {
+                  "text": "Jak zjištím, kdo a kdy balíček vytvořil nebo naposledy upravil?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8c080b4c6345"
+      },
+      "content": [
+        {
+          "text": "V detailu záznamu klikněte na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Auditní informace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nebo záložku ",
+          "type": "text"
+        },
+        {
+          "text": "Historie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cd3a108b86b2"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "57cdcc33b3e4",
+        "order": 11
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8ce0365c76f8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "653a14686efb"
+              },
+              "content": [
+                {
+                  "text": "Co se stane s historickými závazky, když deaktivuji položku sortimentu?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "257305622e56"
+      },
+      "content": [
+        {
+          "text": "Deaktivace položky neovlivní existující závazky. Všechna historická data zůstávají zachována. Deaktivovaná položka se pouze přestane nabízet při nových vyúčtováních.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "806df2ad244c"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "91a40dec3053",
+        "order": 12
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "361ffd295433"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f337146015f5"
+              },
+              "content": [
+                {
+                  "text": "Lze jeden sortiment zařadit do více balíčků?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f5e202e2be39"
+      },
+      "content": [
+        {
+          "text": "Ano. Jedna položka sortimentu může být součástí libovolného počtu různých balíčků, vždy s vlastním nastavením počtu, slevy a způsobu účtování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "cbac0fd5cba3"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "63a86901c78e",
+        "order": 13
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dfa936855a60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a629fcfd971a"
+              },
+              "content": [
+                {
+                  "text": "Jaký je rozdíl mezi způsoby platby smlouvy PLS — paušál, výkony a kombinovaně?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d5beb099d43"
+      },
+      "content": [
+        {
+          "text": "Paušál",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — firma platí pevně dohodnutou částku za sledované období. ",
+          "type": "text"
+        },
+        {
+          "text": "Výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — firma platí pouze za skutečně realizované prohlídky dle ceníku. ",
+          "type": "text"
+        },
+        {
+          "text": "Kombinovaně",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — část nákladů je kryta paušálem, zbytek se fakturuje jako výkony.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "2421afd510bc"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "addccf6cc5e2",
+        "order": 14
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6dac73e9ce02"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "61dead47c286"
+              },
+              "content": [
+                {
+                  "text": "Co se stane, když zaměstnanec na prohlídku nepřijde?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2b50dcde210f"
+      },
+      "content": [
+        {
+          "text": "Záleží na nastavení smlouvy PLS. Pokud je zaškrtnuto „Fakturovat stav Nedostavil se“, systém akci zahrne do faktury. Jinak akci uzavřete se stavem „Uzavřena, nefakturovat“.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d14ebff3d110"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "95e44af4de93",
+        "order": 15
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3bb580549a39"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ee1944e92b43"
+              },
+              "content": [
+                {
+                  "text": "Jak přiřadím zaměstnance ke skupině PLS?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "22d0c8a6e13d"
+      },
+      "content": [
+        {
+          "text": "Na kartě pacienta v části ",
+          "type": "text"
+        },
+        {
+          "text": "Zaměstnání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — vyberte skupinu PLS příslušnou pro pracovní pozici zaměstnance.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "bf1e5d9ca3cd"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "33a909a4b46c",
+        "order": 16
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4a3bfca0ecad"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "278557f4a2af"
+              },
+              "content": [
+                {
+                  "text": "Lze v rámci jedné smlouvy PLS nastavit různé ceny pro různé skupiny zaměstnanců?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6514e2e19876"
+      },
+      "content": [
+        {
+          "text": "Ano. Každá položka smlouvy PLS má vlastní nastavení ceny a slevy a lze ji omezit na konkrétní skupinu (pozici) PLS.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b377dcc95a8c"
+      }
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "94a118914a83",
+        "order": 17
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "644458e207b1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2266d37f880d"
+              },
+              "content": [
+                {
+                  "text": "Jak opravím fakturu PLS, která již byla vystavena?",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e95cfe681a4f"
+      },
+      "content": [
+        {
+          "text": "Vystavená faktura PLS je uzamčena. Opravu provede správce systému pomocí funkce ",
+          "type": "text"
+        },
+        {
+          "text": "„Smazat fakturu PLS“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Po smazání se akce PLS vrátí do stavu „Uzavřena, fakturovat“ a je možné fakturu znovu vystavit.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,7 +1,7 @@
 {
   "space_id": "98309",
   "space_key": "fg",
-  "synced_at": "2026-06-17T13:08:10Z",
+  "synced_at": "2026-06-18T08:40:53Z",
   "pages": {
     "75235333": {
       "title": "Agendy",
@@ -123,14 +123,6 @@
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Archiv – Přeřazení pacienta do archivu"
     },
-    "57180187": {
-      "title": "Balíčky",
-      "version": 1,
-      "updated_at": "2025-06-26T13:37:26.771Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150372363",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Balíčky"
-    },
     "120487956": {
       "title": "Bezpečnostní logy",
       "version": 1,
@@ -163,13 +155,13 @@
       "parent_id": "398393355",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba"
     },
-    "150372363": {
-      "title": "Ceníky a balíčky",
-      "version": 1,
-      "updated_at": "2025-11-07T15:05:13.094Z",
+    "436699137": {
+      "title": "Ceník a sortiment",
+      "version": 2,
+      "updated_at": "2026-06-18T06:42:23.090Z",
       "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky"
+      "parent_id": "436305922",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Nadstandardní péče — Balíčky/Ceník a sortiment"
     },
     "377421825": {
       "title": "Certifikát PZS",
@@ -235,14 +227,6 @@
       "parent_id": "75333741",
       "path": "pages/FONS GALEN/Správce a nastavení/Design"
     },
-    "56918054": {
-      "title": "Design PLS prohlídky",
-      "version": 1,
-      "updated_at": "2025-06-26T14:11:27.358Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Design PLS prohlídky"
-    },
     "79724546": {
       "title": "Dlouhodobé ošetřovné",
       "version": 4,
@@ -274,14 +258,6 @@
       "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
       "parent_id": "398983170",
       "path": "pages/FONS GALEN/Začínam se systémem/Dvoufaktorové ověření (2FA)"
-    },
-    "57376772": {
-      "title": "Editace smlouvy",
-      "version": 1,
-      "updated_at": "2025-06-26T13:32:09.172Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150110227",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Editace smlouvy"
     },
     "111017986": {
       "title": "Editace vyšetření různými odpovědnými lékaři",
@@ -403,6 +379,22 @@
       "parent_id": "400097284",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/eZpráva – příjem a odesílání zpráv v Galenu"
     },
+    "435945474": {
+      "title": "Fakturace PLS",
+      "version": 1,
+      "updated_at": "2026-06-17T13:46:01.528Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Fakturace PLS"
+    },
+    "436011024": {
+      "title": "FAQ — Časté otázky",
+      "version": 1,
+      "updated_at": "2026-06-17T13:47:10.922Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/FAQ — Časté otázky"
+    },
     "398491650": {
       "title": "Finance a účetnictví",
       "version": 2,
@@ -483,14 +475,6 @@
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Historie pacienta"
     },
-    "57016341": {
-      "title": "Hlavní položky smlouvy",
-      "version": 1,
-      "updated_at": "2025-06-26T13:34:04.236Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150110227",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Hlavní položky smlouvy"
-    },
     "167641089": {
       "title": "Hlášení do registru akutních respiračních infekcí ÚZIS",
       "version": 2,
@@ -523,6 +507,14 @@
       "parent_id": "48168963",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Hlídání podpůrčí doby eDPN"
     },
+    "436731905": {
+      "title": "Import dat PLS",
+      "version": 2,
+      "updated_at": "2026-06-17T13:49:46.012Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Import dat PLS"
+    },
     "75792496": {
       "title": "Import KDávek",
       "version": 1,
@@ -531,13 +523,13 @@
       "parent_id": "75792385",
       "path": "pages/FONS GALEN/Správce a nastavení/Vyúčtování/Import KDávek"
     },
-    "57180205": {
-      "title": "Import PLS",
+    "435617798": {
+      "title": "Import pacientů PLS",
       "version": 1,
-      "updated_at": "2025-06-26T13:53:40.639Z",
+      "updated_at": "2026-06-17T13:46:41.704Z",
       "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Import PLS"
+      "parent_id": "436731905",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Import dat PLS/Import pacientů PLS"
     },
     "46071809": {
       "title": "Import seznamu registrovaných pojištenců",
@@ -546,6 +538,22 @@
       "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
       "parent_id": "399179778",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Import seznamu registrovaných pojištenců"
+    },
+    "435912707": {
+      "title": "Import skupin PLS",
+      "version": 1,
+      "updated_at": "2026-06-17T13:46:22.142Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "436731905",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Import dat PLS/Import skupin PLS"
+    },
+    "436535298": {
+      "title": "Import smluv PLS",
+      "version": 1,
+      "updated_at": "2026-06-17T13:46:32.204Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "436731905",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Import dat PLS/Import smluv PLS"
     },
     "257916930": {
       "title": "Individuální vycházky",
@@ -595,14 +603,6 @@
       "parent_id": "98420",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace"
     },
-    "57081883": {
-      "title": "Kategorie",
-      "version": 1,
-      "updated_at": "2025-06-26T13:38:22.506Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150372363",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Kategorie"
-    },
     "75366514": {
       "title": "Kategorie upozornění",
       "version": 1,
@@ -626,30 +626,6 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "68190247",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/Nároky/Generování nároků z očkování/Konfigurace a vznik nároků"
-    },
-    "56918022": {
-      "title": "Konfigurace PLS Očkování",
-      "version": 2,
-      "updated_at": "2025-06-26T13:57:15.936Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Očkování"
-    },
-    "57180176": {
-      "title": "Konfigurace PLS Prohlídky",
-      "version": 2,
-      "updated_at": "2025-06-26T13:57:32.412Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Konfigurace PLS Prohlídky"
-    },
-    "57311234": {
-      "title": "Kontakty",
-      "version": 1,
-      "updated_at": "2025-06-26T13:32:03.235Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Kontakty"
     },
     "53313549": {
       "title": "Kopírování textu předchozí návštěvy",
@@ -811,6 +787,22 @@
       "parent_id": "75333741",
       "path": "pages/FONS GALEN/Správce a nastavení/Nadstandardní péče"
     },
+    "414679042": {
+      "title": "Nadstandardní péče (Balíčky + PLS)",
+      "version": 4,
+      "updated_at": "2026-06-18T06:39:12.607Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "98420",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)"
+    },
+    "436305922": {
+      "title": "Nadstandardní péče — Balíčky",
+      "version": 1,
+      "updated_at": "2026-06-17T13:43:59.382Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Nadstandardní péče — Balíčky"
+    },
     "104104015": {
       "title": "Napojení FONS GALEN na modul eOčkování - nahlížení",
       "version": 9,
@@ -850,6 +842,14 @@
       "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
       "parent_id": "398983170",
       "path": "pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL"
+    },
+    "436305934": {
+      "title": "Nastavení PLS — smlouvy a skupiny",
+      "version": 2,
+      "updated_at": "2026-06-18T06:40:47.318Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Nastavení PLS — smlouvy a skupiny"
     },
     "248545281": {
       "title": "Nastavení pracoviště",
@@ -1080,8 +1080,8 @@
       "version": 2,
       "updated_at": "2025-07-21T10:23:29.647Z",
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Nákladová střediska"
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Nákladová střediska"
     },
     "68452353": {
       "title": "Nároky",
@@ -1122,6 +1122,14 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "113704961",
       "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Obecné informace"
+    },
+    "436666381": {
+      "title": "Objednávky a akce PLS",
+      "version": 1,
+      "updated_at": "2026-06-17T13:45:51.903Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Objednávky a akce PLS"
     },
     "45842437": {
       "title": "Objednávání, kalendáře, notifikace",
@@ -1251,6 +1259,14 @@
       "parent_id": "75694084",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Oprávnění"
     },
+    "435486723": {
+      "title": "Orientace v modulu",
+      "version": 1,
+      "updated_at": "2026-06-17T13:43:45.459Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Orientace v modulu"
+    },
     "120291330": {
       "title": "Ostatní",
       "version": 1,
@@ -1306,62 +1322,6 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "52756523",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Platnost ePoukazu"
-    },
-    "57016366": {
-      "title": "PLS - modul objednávání a recepce",
-      "version": 2,
-      "updated_at": "2025-06-26T14:02:47.915Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS - modul objednávání a recepce"
-    },
-    "57147399": {
-      "title": "PLS Admin",
-      "version": 1,
-      "updated_at": "2025-06-26T13:47:54.382Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin"
-    },
-    "57442361": {
-      "title": "PLS Admin Služby",
-      "version": 1,
-      "updated_at": "2025-06-26T13:48:42.289Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Admin Služby"
-    },
-    "57507855": {
-      "title": "PLS Faktury",
-      "version": 1,
-      "updated_at": "2025-06-26T13:52:12.484Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Faktury"
-    },
-    "57376809": {
-      "title": "PLS očkování",
-      "version": 1,
-      "updated_at": "2025-06-26T13:57:47.809Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS očkování"
-    },
-    "56885286": {
-      "title": "PLS prohlídky",
-      "version": 1,
-      "updated_at": "2025-06-26T13:57:40.890Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS prohlídky"
-    },
-    "57344037": {
-      "title": "PLS Služba",
-      "version": 1,
-      "updated_at": "2025-06-26T13:50:03.571Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/PLS Služba"
     },
     "247627788": {
       "title": "Podepsání v Signosoft",
@@ -1475,13 +1435,13 @@
       "parent_id": "75694398",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště"
     },
-    "150339588": {
+    "434667522": {
       "title": "Pracovnělékařské služby (PLS)",
-      "version": 5,
-      "updated_at": "2026-05-14T08:04:40.752Z",
-      "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
-      "parent_id": "98420",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)"
+      "version": 3,
+      "updated_at": "2026-06-18T08:36:19.205Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)"
     },
     "79593473": {
       "title": "Preferovaná medikace VZP – nezaměňovat",
@@ -1506,6 +1466,22 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "49446923",
       "path": "pages/FONS GALEN/Správce a nastavení/Design/Prohlídky"
+    },
+    "461012994": {
+      "title": "Prohlídky a očkování PLS",
+      "version": 1,
+      "updated_at": "2026-06-18T06:37:14.176Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Prohlídky a očkování PLS"
+    },
+    "435290119": {
+      "title": "Průvodce: Od založení firmy k první faktuře PLS",
+      "version": 1,
+      "updated_at": "2026-06-17T13:46:51.460Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Průvodce_ Od založení firmy k první faktuře PLS"
     },
     "179994625": {
       "title": "Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek",
@@ -1546,6 +1522,14 @@
       "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
       "parent_id": "109248514",
       "path": "pages/FONS GALEN/Začínam se systémem/Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL/Přegenerování certifikátů"
+    },
+    "435126277": {
+      "title": "Přehled PLS a datový tok",
+      "version": 1,
+      "updated_at": "2026-06-17T13:45:32.572Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Přehled PLS a datový tok"
     },
     "78675976": {
       "title": "Přehled změn ve verzích",
@@ -1603,6 +1587,14 @@
       "parent_id": "398393355",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/RDG žádanky"
     },
+    "461045761": {
+      "title": "Recepce a objednávání PLS",
+      "version": 1,
+      "updated_at": "2026-06-18T06:38:27.606Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "434667522",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Recepce a objednávání PLS"
+    },
     "229736451": {
       "title": "Registrace do Portálu pacienta",
       "version": 1,
@@ -1619,14 +1611,6 @@
       "parent_id": "399179778",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Registrace pacienta bez registrační dávky"
     },
-    "56918042": {
-      "title": "Rizika",
-      "version": 1,
-      "updated_at": "2025-06-26T13:52:43.663Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Rizika"
-    },
     "113705011": {
       "title": "Rozdíly mezi verzemi",
       "version": 1,
@@ -1634,14 +1618,6 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "113704961",
       "path": "pages/FONS GALEN/Finance a účetnictví/Modul Finanční analýza/Rozdíly mezi verzemi"
-    },
-    "57049103": {
-      "title": "Rozšiřující položky smlouvy",
-      "version": 1,
-      "updated_at": "2025-06-26T13:34:11.460Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150110227",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS/Rozšiřující položky smlouvy"
     },
     "108494849": {
       "title": "Rozšířené sklady – HVLP, PZT",
@@ -1779,6 +1755,14 @@
       "parent_id": "399179778",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa kartoték/Sloučení karet pacienta"
     },
+    "436273154": {
+      "title": "Slovník pojmů",
+      "version": 1,
+      "updated_at": "2026-06-17T13:47:01.473Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Slovník pojmů"
+    },
     "68517932": {
       "title": "Smazání nároku",
       "version": 1,
@@ -1794,14 +1778,6 @@
       "author_id": "712020:17e0f1ad-c5ad-47e4-9535-f2cf15de507d",
       "parent_id": "75694084",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Smlouvy"
-    },
-    "150110227": {
-      "title": "Smlouvy PLS",
-      "version": 1,
-      "updated_at": "2025-11-07T14:53:34.377Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Smlouvy PLS"
     },
     "75464891": {
       "title": "Smluvní výkony",
@@ -1819,14 +1795,6 @@
       "parent_id": "400097284",
       "path": "pages/FONS GALEN/Objednávání, komunikace a notifikace/SMS zprávy ve FONS Galen"
     },
-    "57507841": {
-      "title": "Sortiment",
-      "version": 1,
-      "updated_at": "2025-06-26T13:35:33.443Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150372363",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Ceníky a balíčky/Sortiment"
-    },
     "75202656": {
       "title": "Společnost",
       "version": 3,
@@ -1842,6 +1810,14 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "75235333",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Správa API"
+    },
+    "436666369": {
+      "title": "Správa balíčků a položek",
+      "version": 1,
+      "updated_at": "2026-06-17T13:44:09.881Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "436305922",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Nadstandardní péče — Balíčky/Správa balíčků a položek"
     },
     "399179778": {
       "title": "Správa kartoték",
@@ -1946,6 +1922,14 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "78544916",
       "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Bonifikační a screeningové programy/Test mentálních funkcí"
+    },
+    "435224579": {
+      "title": "Tiskové výstupy",
+      "version": 1,
+      "updated_at": "2026-06-17T13:47:21.282Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "414679042",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Tiskové výstupy"
     },
     "74940440": {
       "title": "Trvalé medikace a Receptář",
@@ -2099,6 +2083,14 @@
       "parent_id": "247857153",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/Výdej foniatrické pomůcky předepsané na ePoukaz/Vyúčtování foniatrické pomůcky vydané na ePoukaz"
     },
+    "434798596": {
+      "title": "Vyúčtování pacienta",
+      "version": 1,
+      "updated_at": "2026-06-17T13:44:46.797Z",
+      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
+      "parent_id": "436305922",
+      "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Nadstandardní péče — Balíčky/Vyúčtování pacienta"
+    },
     "75792551": {
       "title": "Vyúčtování – hromadné úpravy výkonů",
       "version": 1,
@@ -2234,14 +2226,6 @@
       "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce"
-    },
-    "57180217": {
-      "title": "Zaměstnání pacienta",
-      "version": 1,
-      "updated_at": "2025-06-26T13:58:27.598Z",
-      "author_id": "712020:fcf624c0-59d4-4052-8ea9-d29d0208d9b1",
-      "parent_id": "150339588",
-      "path": "pages/FONS GALEN/Pracovnělékařské služby (PLS)/Zaměstnání pacienta"
     },
     "113704976": {
       "title": "Zapnutí modulu pro uživatele",

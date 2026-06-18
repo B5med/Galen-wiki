@@ -1,0 +1,746 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "369a9e8bb757"
+      },
+      "content": [
+        {
+          "text": "3. Hlavní funkce modulu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0d727c1e7102"
+      },
+      "content": [
+        {
+          "text": "Nadstandardní péče — balíčky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "c75990a4-edfc-4cb5-83e9-80dd136bdfa6"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "96574408-be06-4a63-9552-2cda4450d47d"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f286d3e7-728a-4761-96da-5823941900d3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bce1f580a7cd"
+                  },
+                  "content": [
+                    {
+                      "text": "#",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d8710c12-cc13-471a-999a-cf0a4e729940"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dc733f68c681"
+                  },
+                  "content": [
+                    {
+                      "text": "Funkce",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0844006b-2f29-400d-8aa8-8b1a1a430071"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee0192f7a8cd"
+                  },
+                  "content": [
+                    {
+                      "text": "Stručný popis",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ed61468f-6df3-49c8-9b8b-6081e82f5460"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b66ed0bffc0a"
+                  },
+                  "content": [
+                    {
+                      "text": "Pro koho",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "79ece78e-b8b2-4522-95f5-b3b6640b87c4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "384e636c-4bb8-4f70-b2bc-64e8816a780a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33134d7e63f1"
+                  },
+                  "content": [
+                    {
+                      "text": "1",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a808bd58-b3fa-4bee-b9d6-5b49b7750631"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8a02167ad111"
+                  },
+                  "content": [
+                    {
+                      "text": "Správa balíčků",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6e98cee1-4944-40f5-8500-a74c77dd0d0c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e7274b19fdff"
+                  },
+                  "content": [
+                    {
+                      "text": "Vytváření, úprava a mazání balíčků nadstandardní péče. Každý balíček má kód a název.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "04cb03b6-2cc8-49ac-bdef-e9a35d32a446"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "48b4869860ff"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "05a345ed-9b1c-4cd0-84ef-b9064b6d09d8"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "43458cc0-265a-417f-a73b-c1d633c47244"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c125fb706e66"
+                  },
+                  "content": [
+                    {
+                      "text": "2",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e93ddbba-ecca-4a63-af37-ff4aa4c63b91"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "da7fcc1269d9"
+                  },
+                  "content": [
+                    {
+                      "text": "Správa položek balíčku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0425f83d-5864-4abd-8b6f-9bb5893c82bb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f0896ff947cc"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiřazení sortimentu (zboží), prohlídky nebo očkování do balíčku, nastavení počtu kusů, slevy a způsobu účtování.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5d06e9db-fc14-4d28-a484-78ca5e793742"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a37546db0346"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2df3681f-d613-4cdf-9f43-fad9dde10be3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c9363bc9-7786-4451-a5dd-a5477592b5b4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a412bc524a05"
+                  },
+                  "content": [
+                    {
+                      "text": "3",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "94f75a9b-dac2-4796-a77e-c1579af1578f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7deb99d8287e"
+                  },
+                  "content": [
+                    {
+                      "text": "Správa sortimentu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c4aa3137-ff42-4974-b270-5c4d3d04ecbd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "70dee3798688"
+                  },
+                  "content": [
+                    {
+                      "text": "Evidence zboží, materiálu a výkonů, jejich aktivace/deaktivace, přiřazení do balíčku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ed0633a0-91dc-4552-8b99-895a75b13790"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4a1356d80460"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2488d96c-899c-48b7-a84e-9fb46406bdc0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e759804-6436-448c-9e50-61e48c7696ab"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0dd9422cbe73"
+                  },
+                  "content": [
+                    {
+                      "text": "4",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5f6814b2-fb19-4b03-bcf3-93098ca0cd84"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27e28600dd13"
+                  },
+                  "content": [
+                    {
+                      "text": "Ceník",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "39ce5ab8-989f-4e8c-a336-6c2da77e1c2a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "80783f8131da"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastavení ceny (bez DPH / vč. DPH), sazby DPH, platnosti od–do a vazby na pracoviště.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8545c421-4266-4910-996a-e370ed98b736"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ab1e960c15cf"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4afed5f3-ff1a-43b1-b2ce-271ef4909762"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "81dfdae6-7f4c-4c28-9a45-1e48e637f749"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e786d178bdc2"
+                  },
+                  "content": [
+                    {
+                      "text": "5",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aca83968-c8e6-4126-86db-ca68dde0d386"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f78310a6e1b2"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie ceníku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "99ff4dbc-7bdc-4bfe-b21a-f532d97bd658"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f97db84a1e3b"
+                  },
+                  "content": [
+                    {
+                      "text": "Seskupování ceníkových položek do kategorií pro přehledné přiřazení k balíčkům.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e679dcea-ed91-4111-993b-46bcedd02207"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0489f69fd8ae"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d6accc42-399c-40b2-ba99-22d0cfc1a867"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1eb803f5-abd5-44ee-a8d0-8ed058614919"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "47cf50860f4c"
+                  },
+                  "content": [
+                    {
+                      "text": "6",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3e3b03d6-b676-4cdd-aa14-2189dac82ae5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0f451e45c73c"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyúčtování a závazky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "591c0cde-9318-49f8-b830-d1a63c93ce3b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50dceea79b2c"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiřazení balíčku pacientovi, evidování závazku (platba hotově nebo fakturou), sledování částky, DPH a množství.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "46f89311-ad07-4c54-bc66-c1ffea376cfc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "badd005cace8"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotník, recepce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "152c72a561aa"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ff529be112e"
+      }
+    }
+  ],
+  "version": 1
+}

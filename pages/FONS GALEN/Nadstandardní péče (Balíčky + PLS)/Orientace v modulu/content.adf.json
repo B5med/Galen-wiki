@@ -1,0 +1,1613 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2e39293a4898"
+      },
+      "content": [
+        {
+          "text": "1. Úvod",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "79bfc0de2721"
+      },
+      "content": [
+        {
+          "text": "1.1 K čemu modul slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ded0f923a4b5"
+      },
+      "content": [
+        {
+          "text": "Modul Nadstandardní péče pokrývá dvě hlavní oblasti:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ccead48bf52a",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "09a91343c918"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9c470b744254"
+              },
+              "content": [
+                {
+                  "text": "Nadstandardní péče (balíčky)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — správa a účtování služeb a zboží, které nejsou hrazeny zdravotní pojišťovnou. Pracuje se systémem balíčků — pojmenovaných skupin položek (sortimentu, prohlídek a očkování), které lze přiřadit pacientovi a vyúčtovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5725da567ac6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6d167876920b"
+              },
+              "content": [
+                {
+                  "text": "Pracovnělékařské služby (PLS)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — evidence a fakturace pracovnělékařských prohlídek a služeb pro zaměstnavatele na základě smluvního vztahu. Zahrnuje správu smluv s firmami, skupin zaměstnanců, objednávek prohlídek a vystavování faktur.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3aaf3ce890ae"
+      },
+      "content": [
+        {
+          "text": "📋 Legislativní rámec: Povinnost zajistit pracovnělékařské prohlídky pro zaměstnance vyplývá ze zákona č. 373/2011 Sb. o specifických zdravotních službách a z prováděcí vyhlášky č. 79/2013 Sb. Zaměstnavatel je povinen hradit náklady na pracovnělékařské prohlídky.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7fa6bdc8123d"
+      },
+      "content": [
+        {
+          "text": "Modul podporuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3a311643-8d13-4660-b6ef-b87b6ca5f1e1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ad01fb99-3a34-4180-8f13-ee258283e350"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b37e2b9b89bb"
+              },
+              "content": [
+                {
+                  "text": "Definici balíčků nadstandardní péče s libovolným počtem položek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "06ccfa67-b073-4fd1-947c-f5ec4f7cd718"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ffaac77677e3"
+              },
+              "content": [
+                {
+                  "text": "Přiřazení sortimentu (zboží, materiál, administrativa), prohlídek a očkování do balíčků.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9fdfb388-c70e-4e49-a89e-57be25194361"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "081f579544b7"
+              },
+              "content": [
+                {
+                  "text": "Správu ceníku s platností od/do, sazbou DPH a vazbou na pracoviště.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d3265b10-4a42-4981-8a92-5e0e5f9b1246"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f7fadec5f526"
+              },
+              "content": [
+                {
+                  "text": "Evidenci závazků pacientů (platba hotově nebo fakturou).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "81ada51d-3add-4e6a-a969-482a0ecfac4c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fb56d3e8ba43"
+              },
+              "content": [
+                {
+                  "text": "Nastavení slev a hromadného výdeje na úrovni jednotlivých položek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "49d19c85-53e5-4fd6-aba3-23411cc615af"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bb33c496d8b1"
+              },
+              "content": [
+                {
+                  "text": "Vedení smluv PLS se zaměstnavateli (způsoby platby: paušál, výkony, kombinovaně).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "111f5383-c0c4-497c-a513-ebdddf142f59"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6fd568a12f8c"
+              },
+              "content": [
+                {
+                  "text": "Správu skupin (pozic) PLS a přiřazení zaměstnanců k prohlídkovým povinnostem.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5fd7f3ef-f06a-46b6-8d9e-0ab713bc469b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "65ab8ae5c1d4"
+              },
+              "content": [
+                {
+                  "text": "Evidenci akcí PLS (konkrétních prohlídek) s workflow stavů od plánování po fakturaci.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "72a6c75c-d0b8-45aa-b5ac-eaffd1fc6f89"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "407982b6ec82"
+              },
+              "content": [
+                {
+                  "text": "Vystavování faktur PLS firmám za realizované prohlídky a služby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1ddecaee025e"
+      },
+      "content": [
+        {
+          "text": "1.2 Komu je modul určen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "c51c4bf8-d9f3-4a5b-8d50-403ba219c2d3"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "59bf0da5-be60-4a65-acf8-81979c935bae"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5a7d9f82-2780-49ca-9d5c-3019f9893214"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4d940d38a3cf"
+                  },
+                  "content": [
+                    {
+                      "text": "Role",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a2fc8d82-4db8-48a5-b100-75b5a7f83d18"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4363e8d19af2"
+                  },
+                  "content": [
+                    {
+                      "text": "Oprávnění v modulu",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5402b490-7075-41a2-8683-63c569d35a7b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0f025384-067c-4b72-850f-2a10e01d4757"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "130a43fedee1"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotnický personál (sestra, lékař)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3df3593b-2c31-47dd-ba10-6e663cf75d01"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aff042699212"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlížení balíčků, přiřazení balíčku pacientovi, evidování platby, uzavírání a předávání akcí PLS k fakturaci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c36fafe9-a511-4297-a341-e2f95c8f3f14"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9beffd3b-190f-411b-a4c6-f9452d299585"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e61dff349009"
+                  },
+                  "content": [
+                    {
+                      "text": "Koordinátor PLS / recepce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8bf8579d-3409-49b1-a07c-feedf80b05ec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "01f96de8e13d"
+                  },
+                  "content": [
+                    {
+                      "text": "Správa objednávek PLS, komunikace se zaměstnavateli",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "22cdfc98-321c-4b4a-b6a9-475cbb6cb4b7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "784b1d0b-b280-496e-9f72-f341fb609291"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d0996a6acbc7"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce ordinace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8d74e955-6036-43ec-a8bb-d28bb78c2b12"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2b9a2cf50211"
+                  },
+                  "content": [
+                    {
+                      "text": "Vytváření a úprava balíčků, správa sortimentu a ceníku, zakládání smluv PLS a skupin PLS, import dat PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1e6ba7d6-d35b-4d2b-bf1f-2ac974ba6d97"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0a841e1b-aa15-49aa-be44-381384f25c98"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7f7d69f0df39"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce systému",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fb29774f-b45e-475a-b758-4c0c55f2aab7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ede6a12bef1c"
+                  },
+                  "content": [
+                    {
+                      "text": "Veškerá nastavení, konfigurace kategorií ceníku, import dat PLS, správa uživatelů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "24ecb0271ede"
+      },
+      "content": [
+        {
+          "text": "Pro zdravotníky: Části dokumentu označené symbolem 🔧 jsou určeny správcům systému a nemusí být pro každodenní práci relevantní.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "4ddda21d9471"
+      },
+      "content": [
+        {
+          "text": "1.3 Předpoklady použití",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f04b3018-0ebc-4914-9952-bf7e60debd4d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bc0f1803-a298-4dff-9dc5-6d2ec4a75d4a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "34cbbfc2b1fd"
+              },
+              "content": [
+                {
+                  "text": "Přihlášení do aplikace Galen — platné uživatelské jméno a heslo.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d1d5ed00-8405-4a98-b04c-edb4e0e6bbd5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f3453cbe63dd"
+              },
+              "content": [
+                {
+                  "text": "Oprávnění k modulu — přístup musí být povolen správcem systému v nastavení rolí uživatelů.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "48c42841-e989-4bd7-9b53-389b2dcd2818"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d996d04f4b00"
+              },
+              "content": [
+                {
+                  "text": "Nastavená společnost — každý balíček a sortiment je vázán na konkrétní společnost (ordinaci).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d5fabc51-062e-42e6-9d18-0ae87a415f3a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a594389ecdad"
+              },
+              "content": [
+                {
+                  "text": "🔧 Definovaný sortiment — před vytvořením balíčků musí být v systému evidovány položky sortimentu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "43b7f6d7-7228-4aee-bb09-97cf1375bbe4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5ed2ea4ba5b7"
+              },
+              "content": [
+                {
+                  "text": "🔧 Nastavené kategorie ceníku — pro přiřazení cen k položkám jsou potřeba kategorie ceníku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "178d38c577b2"
+      },
+      "content": [
+        {
+          "text": "Další předpoklady pro část Pracovnělékařské služby (PLS):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2fa0fbe2-2b43-43b1-b55c-f40eff11458e",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "48e97381-a62a-498a-b179-0ed48162fe14"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7f5ecedf59bb"
+              },
+              "content": [
+                {
+                  "text": "🔧 Evidovaná firma (zaměstnavatel) — smlouva PLS se vždy váže na konkrétní firmu a její pobočku. Firma musí být v systému předem založena.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5e874a58-87be-4324-82be-10b971bf5b93"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "df6ae61808f2"
+              },
+              "content": [
+                {
+                  "text": "🔧 Definované skupiny PLS — pracovní skupiny/pozice zaměstnanců u firmy, ke kterým se přiřazují příslušné typy prohlídek ze smlouvy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4acfe80e-f206-491d-aaed-29ebf1e46a65"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4e182a6015b5"
+              },
+              "content": [
+                {
+                  "text": "🔧 Sortiment typu Prohlídka — pro PLS akce je vyžadován sortiment s typem „Prohlídka\" (P) přiřazený jako položka smlouvy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cc7b9f0e28a0"
+      },
+      "content": [
+        {
+          "text": "🔧 Hromadný import PLS dat: Při prvním nasazení PLS nebo při přechodu od jiného systému je možné hromadně importovat zaměstnance, skupiny pozic a smlouvy pomocí csv souborů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e87213b0-2ebd-41b2-b0c3-3d83e7400e1c"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "873a03abc838"
+      },
+      "content": [
+        {
+          "text": "2. První kroky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5b28cead8bca"
+      },
+      "content": [
+        {
+          "text": "2.1 Spuštění modulu Nadstandardní péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1761,
+            "alt": "obrazek-20260526-063802.png",
+            "id": "03e15db0-0b96-46e0-9817-4dd12a757838",
+            "collection": "contentId-435486723",
+            "type": "file",
+            "localId": "db4483fb35d1",
+            "height": 945
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "1767f803bdbd"
+          },
+          "content": [
+            {
+              "text": "Hlavní nabídka aplikace s navigací k modulu Nadstandardní péče. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2b47edc2-00a2-48c2-845c-5d4112434a01",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "baf35b5d-2ba5-4c0f-8732-9f2b79047b81"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e64cdbbadd3"
+              },
+              "content": [
+                {
+                  "text": "V nabídce vyhledejte a klikněte na dlaždici Nadstandardní péče.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "55bf2bf9-9c19-4800-8a36-f19824d67c26"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "00e4e36b3c02"
+              },
+              "content": [
+                {
+                  "text": "Otevře se hlavní okno modulu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5f376569446f"
+      },
+      "content": [
+        {
+          "text": "2.2 Orientace v hlavním okně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1760,
+            "alt": "obrazek-20260601-071153.png",
+            "id": "9b195353-b362-4406-8dd2-d649f32402c8",
+            "collection": "contentId-435486723",
+            "type": "file",
+            "localId": "7f3c6db29fb1",
+            "height": 948
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "4a82544f7805"
+          },
+          "content": [
+            {
+              "text": "Hlavní okno modulu Nadstandardní péče.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "3de02b2a-b5f2-4419-9e90-2cfd550fd2d5"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "502a1b07-326c-40c3-9621-769e97df0541"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d21c6ae3-d68d-495d-9148-ad4442ae6330"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2b6a835ac556"
+                  },
+                  "content": [
+                    {
+                      "text": "Oblast",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0c17ff63-ca7d-4fdc-9259-77ed71bb82e0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "04725d0445a0"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f1feaf91-2aaa-4ce2-9fe2-6fa6f2052e79"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6b000da3-f70f-4c63-8a0c-ae326637f13b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee3ad53fef34"
+                  },
+                  "content": [
+                    {
+                      "text": "Firmy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0841980f-f689-4422-8ffb-c4263524146d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b29ae436ee19"
+                  },
+                  "content": [
+                    {
+                      "text": "Obecná evidence firem ve FONS Galen. Příznak PLS označuje firmu jako odběratele péče pro zaměstnance. K firmě se váže smlouva PLS, pobočky, kontaktní osoby a faktury.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "53662a03-07f4-47bc-8607-30c1c61e1e99"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "af7056c8-2cb0-4a93-8a0e-bb4f2347f151"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "23065b38b971"
+                  },
+                  "content": [
+                    {
+                      "text": "Ceníky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "66711438-b319-44c1-9359-bf299465ad1e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ab9b3b1e80a4"
+                  },
+                  "content": [
+                    {
+                      "text": "Definice cen pro jednotlivé typy služeb (sortiment) s vazbou na pracoviště. Podporují časovou platnost (platnost od/do) a sazbu DPH. Smluvní ceny pro konkrétní firmu se nastavují v položkách smlouvy PLS.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "651dab3d-28ae-4190-82b9-f4f7376f3352"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5059eddd-a200-439e-b4b9-58e289a86698"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c47b93870a0d"
+                  },
+                  "content": [
+                    {
+                      "text": "Balíčky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9289268a-b28d-40e3-8b47-aee863faceab"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c03b0b0ec7b3"
+                  },
+                  "content": [
+                    {
+                      "text": "Číselník balíčků, do kterých se sdružují položky sortimentu (typy služeb). Balíček slouží jako logická skupina sortimentu pro přehledné nabízení a objednávání péče.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c76049e2-c198-4a3c-a083-869b1d02fb7c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2dd3f0c7-496e-43c7-a6d6-6c9ebb8d675e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7c5143e3fefc"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "47107d5b-2496-44ee-93c5-fcf5d1d11732"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "498ccaec4d59"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie pro třídění položek sortimentu (typů služeb). Slouží k přehledné organizaci nabídky a filtrování v seznamech.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "42a349c85de1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2c65b50eb278"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "58415e544384"
+                  },
+                  "content": [
+                    {
+                      "text": "PLS Admin",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "98a970e998e4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1a83a9413607"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehled provedených prohlídek a očkování s možností rozšířeného filtrování.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b614e792e5a4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "91db8022e6e0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc8c8ab0acdb"
+                  },
+                  "content": [
+                    {
+                      "text": "PLS Admin služby",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e01033869fe2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "da5a937599fb"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehled provedených služeb s možností rozšířeného filtrování.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "7466f990de6a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "65c887372256"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c060bed4aa07"
+                  },
+                  "content": [
+                    {
+                      "text": "PLS Faktury",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0a94cf18d306"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aedccabbd241"
+                  },
+                  "content": [
+                    {
+                      "text": "Evidence a generování faktur za nadstandardní péči. Propojení s firmami, balíčky a odčerpaným plněním.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1e13144e8aeb"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bc33e530738c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "34da99847b5f"
+                  },
+                  "content": [
+                    {
+                      "text": "Rizika",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "71bf96f59b9b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c23ec9091c14"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiřazení rizikových faktorů (DruhRizika) ke skupinám zaměstnanců (Skupina PLS / PozicePLS). Definuje, s jakými pracovními riziky daná skupina pracuje, a ovlivňuje výběr sortimentu při vytváření smluv.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a22ce8c1ed4f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c5824695d434"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "faa43eacf5d3"
+                  },
+                  "content": [
+                    {
+                      "text": "Import",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3aafa0808aed"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "39a089569de0"
+                  },
+                  "content": [
+                    {
+                      "text": "Hromadný import skupin zaměstnanců, smluv a pacientů do modulu PLS — načítání ze vstupního souboru (CSV) s validací dat, mapováním na existující firmu/pobočku a protokolem o výsledku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "614761610bb7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a79747574fb7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d985f5a390c2"
+                  },
+                  "content": [
+                    {
+                      "text": "Služby",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4a4c1bd535bc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "416b16e3d430"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehled a zadávání provedené PLS služby správcem.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "9eeca708-1759-478b-9796-89b976c3f053"
+      }
+    }
+  ],
+  "version": 1
+}

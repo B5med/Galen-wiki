@@ -1,0 +1,657 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4c08c9c5a965"
+      },
+      "content": [
+        {
+          "text": "Modul Nadstandardní péče pokrývá správu a účtování služeb nehrazených pojišťovnou (balíčky) a evidenci pracovnělékařských prohlídek pro zaměstnavatele (PLS). Dokumentace je rozdělena podle tématu — vyberte sekci odpovídající vaší roli nebo aktuálnímu úkolu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 759.0,
+        "localId": "9d600c71f8e7"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8cfee117fbe8"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "18932ec82d04"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33e9824704ac"
+                  },
+                  "content": [
+                    {
+                      "text": "Sekce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "2b8c55f7d5b7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b53071250aaa"
+                  },
+                  "content": [
+                    {
+                      "text": "Obsah",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "85e1d414eea0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8caa812f1e42"
+                  },
+                  "content": [
+                    {
+                      "text": "Pro koho",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "bf45cf8c482d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "81ba62e6d36d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1af679b9a33c"
+                  },
+                  "content": [
+                    {
+                      "text": "Orientace v modulu",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/435486723"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "6889df27b57f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4a4c3a5f4bb"
+                  },
+                  "content": [
+                    {
+                      "text": "Spuštění, popis hlavního okna, předpoklady",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "b8e27d174518"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6927aaa69fd7"
+                  },
+                  "content": [
+                    {
+                      "text": "Všichni",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cbb2ac14b9c2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "0889449badb0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "88092fd00a87"
+                  },
+                  "content": [
+                    {
+                      "text": "Nadstandardní péče — Balíčky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/436305922"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "d9ef7004031f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7697c9370033"
+                  },
+                  "content": [
+                    {
+                      "text": "Balíčky, ceník, sortiment, vyúčtování pacienta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "e7294c6e241d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2085a1c70278"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce, Zdravotník",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "7b21c2592a11"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "e18f36a5e14b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "29e83017ba5f"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracovnělékařské služby (PLS)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/434667522"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "045fb8dd345d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ef5dee9ed859"
+                  },
+                  "content": [
+                    {
+                      "text": "Firmy, smlouvy, skupiny, akce, fakturace, import",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "069123c9967b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27e5d80801ee"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce, Zdravotník",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4e7b2ce97fdf"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "426e16000458"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "882b190be3e1"
+                  },
+                  "content": [
+                    {
+                      "text": "Slovník pojmů",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/436273154"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "3ac2ac63268d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cfadbac5b446"
+                  },
+                  "content": [
+                    {
+                      "text": "Vysvětlení termínů a datových entit",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "fed411339a8b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c5f21a490470"
+                  },
+                  "content": [
+                    {
+                      "text": "Všichni",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d763322630c7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "84bd010b0016"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8ecabdc31608"
+                  },
+                  "content": [
+                    {
+                      "text": "FAQ — Časté otázky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/436011024"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "7a53666e5467"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fd323557b1cb"
+                  },
+                  "content": [
+                    {
+                      "text": "Odpovědi na nejčastější problémy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "2dcd468560fa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "63b6557d02c0"
+                  },
+                  "content": [
+                    {
+                      "text": "Všichni",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2981c7c672ab"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "0a432e745916"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee9a2e196163"
+                  },
+                  "content": [
+                    {
+                      "text": "Tiskové výstupy",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/435224579"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "582c5c885089"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6c4283206286"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehled sestav a kde je spustit",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "colwidth": [
+                  253.0
+                ],
+                "localId": "86575db49e7d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "caf7a4f35c8d"
+                  },
+                  "content": [
+                    {
+                      "text": "Všichni",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,666 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ac9c6725fe76"
+      },
+      "content": [
+        {
+          "text": "4.1 Vytvoření nového balíčku nadstandardní péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c748388dddc1"
+      },
+      "content": [
+        {
+          "text": "Cíl:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Vytvořit nový pojmenovaný balíček, do nějž bude možné přidávat položky nadstandardní péče.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kdo:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Správce ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "162449f8-a27b-4d60-ba62-d1d7ad5f6fae",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "124774f7-9fba-4eee-9001-a9cd94ce557c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1f0dfbb6b139"
+              },
+              "content": [
+                {
+                  "text": "Otevřete modul Nadstandardní péče (viz kapitola 2.2).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2e31cf30-ddd1-454b-8cdf-5a9ae816f243"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "183fba9df9bf"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ikonu “Balíčky”",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dc3ca1a0-f320-4c5b-9e35-c1f27de67a80"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "17c0ebd5ecd3"
+              },
+              "content": [
+                {
+                  "text": "Do pole Kód ② zadejte unikátní kód (max. 50 znaků, např. PREMIA2026).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ed28ac1b-9679-4d11-8830-34ddac922449"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "488e432ec537"
+              },
+              "content": [
+                {
+                  "text": "Do pole Název ③ zadejte název balíčku (max. 255 znaků, např. Prémiový balíček 2026).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "78c393eb-3513-42f0-b904-331d4db5ada5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5c9f45ace2f1"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na Uložit ④ nebo stiskněte Ctrl+S.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1760,
+            "alt": "obrazek-20260601-074305.png",
+            "id": "b089f357-77c0-45d8-b5af-c45177bf7820",
+            "collection": "contentId-436666369",
+            "type": "file",
+            "localId": "e7d683c97f1e",
+            "height": 944
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "494686d0ee28"
+          },
+          "content": [
+            {
+              "text": "Formulář pro vytvoření nového balíčku. Anotace: ① tlačítko Nový balíček, ② pole Kód, ③ pole Název",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ee053398893"
+      },
+      "content": [
+        {
+          "text": "Výsledek:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Nový balíček se zobrazí v seznamu balíčků a je připraven k naplnění položkami.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d6151f1cb69"
+      },
+      "content": [
+        {
+          "text": "⚠️ Upozornění: Kód balíčku musí být unikátní v rámci ordinace. Pokus o uložení duplicitního kódu skončí chybovou hláškou.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "4f13ed54-67de-4a87-8261-4f634310459a"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "fc314c73ee76"
+      },
+      "content": [
+        {
+          "text": "4.2 Přidání položek do balíčku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ed4d874c60be"
+      },
+      "content": [
+        {
+          "text": "Cíl:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Naplnit balíček konkrétními položkami se zadanými parametry.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kdo:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Správce ordinace.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Předpoklady: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Existující balíček, evidovaný sortiment v systému, nastavená kategorie ceníku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "1f15a8e6-1d80-45b0-a832-769fd5fbf1e8",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "15a46cf6-b2bc-4b35-8b6a-f8a8a0ba86b5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "67d277e0a30c"
+              },
+              "content": [
+                {
+                  "text": "V seznamu balíčků klikněte na balíček, do nějž chcete přidat položku.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1faf3402-2ddc-4c35-ae77-87ba1d14bbfa"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e39c849fcd4e"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na Nová položka ①.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bde5e898-0635-4ad4-922f-e12d2b846962"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "657da6b4a87b"
+              },
+              "content": [
+                {
+                  "text": "V poli Typ sortimentu ② vyberte typ: Sortiment, Prohlídka nebo Očkování.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c78ca117-721b-408e-b300-477f0fc4e820"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0cb181929e31"
+              },
+              "content": [
+                {
+                  "text": "V poli Sortiment ③ vyberte konkrétní položku z číselníku.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d901d824-955c-4b6a-ae6b-1598f7d9a61e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "03f4fc26c30f"
+              },
+              "content": [
+                {
+                  "text": "V poli Kategorie ceníku ④ přiřaďte kategorii (povinné pole).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5dfa4a15-ba8c-42da-9a05-9a69c6263a1a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "97309051dfb1"
+              },
+              "content": [
+                {
+                  "text": "Zadejte Počet ⑤ (celé číslo ≥ 1).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e7b36355-f045-4d02-ada0-86011ebe69bc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "14dbdaf1988a"
+              },
+              "content": [
+                {
+                  "text": "Zadejte Slevu (%) ⑥ (0,00–100,00).",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1d827b21-0a1f-4a77-8b36-37c0c1ea2fce"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4b843fe2f8e0"
+              },
+              "content": [
+                {
+                  "text": "Nastavte přepínač Plně hrazeno ⑦ — zaškrtnuto = pacient nic nedoplácí.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bc595079-fa07-4924-9ab4-e97625efc82f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "350454d9fe35"
+              },
+              "content": [
+                {
+                  "text": "Nastavte přepínač Hromadně ⑧ — hromadné vykázání pro více pacientů najednou.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "47d4dc29-3f4c-4ced-8f1a-923a95fe09bf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "45357dfb0169"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na Uložit.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1759,
+            "alt": "obrazek-20260601-074656.png",
+            "id": "c3b45410-40f1-43e4-a25d-cf61424567f7",
+            "collection": "contentId-436666369",
+            "type": "file",
+            "localId": "10a53c0cbb83",
+            "height": 944
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "b4e5fa560e0c"
+          },
+          "content": [
+            {
+              "text": "Formulář položky balíčku. Anotace: ① Nová položka, ② Typ sortimentu, ③ Sortiment, ④ Kategorie ceníku, ⑤ Počet, ⑥ Sleva (%), ⑦ Plně hrazeno, ⑧ Hromadně.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9a424c7974f9"
+      },
+      "content": [
+        {
+          "text": "Výsledek: ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Položka se zobrazí v seznamu položek balíčku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "17fdbfeb4277"
+      },
+      "content": [
+        {
+          "text": "💡 Tip: Do jednoho balíčku lze přidávat neomezený počet položek různých typů — prohlídky, sortiment i očkování lze kombinovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e5242ce9-ca5c-4ea9-aa6b-cace76ab99e7"
+      }
+    }
+  ],
+  "version": 1
+}

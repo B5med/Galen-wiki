@@ -1,0 +1,609 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "952db416a028"
+      },
+      "content": [
+        {
+          "text": "4.6 Vyúčtování pacienta — tvorba závazku NP",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c48ca78897e8"
+      },
+      "content": [
+        {
+          "text": "Tato kapitola popisuje, jak vyučtovat pacientovi položky z balíčku nadstandardní péče a vytvořit závazek. Závazek je finanční pohledávka vůči pacientovi evidovaná v entitě ",
+          "type": "text"
+        },
+        {
+          "text": "Galen.Zavazek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "eba16302aa44"
+      },
+      "content": [
+        {
+          "text": "4.6.1 Vytvoření nového závazku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "d8b39c0bb4f3",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2c734e83e056"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1698f78a9b25"
+              },
+              "content": [
+                {
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "kartu pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8b5d7fc0d726"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "22be377d8642"
+              },
+              "content": [
+                {
+                  "text": "Přejděte na záložku ",
+                  "type": "text"
+                },
+                {
+                  "text": "Závazky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7c02f8778acc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5d83b1adc844"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nový",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ab4ba98e4206"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f6d91c128a08"
+              },
+              "content": [
+                {
+                  "text": "V dialogu vyberte ",
+                  "type": "text"
+                },
+                {
+                  "text": "balíček NP",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", ze kterého chcete položky vyučtovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9a70e900d3bc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ce8b259fde2d"
+              },
+              "content": [
+                {
+                  "text": "Systém automaticky načte položky balíčku s cenami z platného ceníku (ke dni vyučtování). U položek s příznakem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Plně hrazeno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " je cena pro pacienta nulová.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d99dabb7701b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "82c88243d76a"
+              },
+              "content": [
+                {
+                  "text": "Zkontrolujte seznam položek, jejich počty a ceny.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d3653ddb671f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d79e7c5f9d84"
+              },
+              "content": [
+                {
+                  "text": "Zvolte ",
+                  "type": "text"
+                },
+                {
+                  "text": "způsob platby",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ": ",
+                  "type": "text"
+                },
+                {
+                  "text": "Hotově",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "Bezhotovostně",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86d7a8c6f9d5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a855fb03b7f8"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Uložit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "b83d00233cb8"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1d0710ade575"
+          },
+          "content": [
+            {
+              "text": "Při platbě ",
+              "type": "text"
+            },
+            {
+              "text": "Hotově",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " systém automaticky nabídne tisk ",
+              "type": "text"
+            },
+            {
+              "text": "pokladního dokladu (stvrzenky)",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Tisk lze opakovat kdykoliv ze záložky Závazky pomocí tlačítka ",
+              "type": "text"
+            },
+            {
+              "text": "Tisk",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3c87e956e99d"
+      },
+      "content": [
+        {
+          "text": "4.6.2 Storno závazku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "c831121a40e9",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7f9b7c12c208"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "df2110c9ff8b"
+              },
+              "content": [
+                {
+                  "text": "Na záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Závazky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " vyberte závazek, který chcete stornovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6a1bf7fab60c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "86cff9b832bf"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Storno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "acbdc5979645"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5a28030b618b"
+              },
+              "content": [
+                {
+                  "text": "Systém vytvoří opravný záznam s účelem „Storno“. Původní záznam zůstane v historii zachován.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "ac66dccd7f1b"
+      },
+      "content": [
+        {
+          "text": "4.6.3 Tisk přehledu závazků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5c67b24df235"
+      },
+      "content": [
+        {
+          "text": "Plný přehled závazků pacienta (včetně plateb) exportujte ze záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Závazky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Tisk přehledu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "1d69de0e266f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "7bf62c021054"
+          },
+          "content": [
+            {
+              "text": "Pokud se při ukládání závazku zobrazí chyba ",
+              "type": "text"
+            },
+            {
+              "text": "„Nenalezena platná cena“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", ověřte, zda má sortiment zadanou cenu s platností pokrývající aktuální datum (",
+              "type": "text"
+            },
+            {
+              "text": "Nastavení → Sortiment → Ceník",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": "). Podrobnosti viz kapitola 4.3.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

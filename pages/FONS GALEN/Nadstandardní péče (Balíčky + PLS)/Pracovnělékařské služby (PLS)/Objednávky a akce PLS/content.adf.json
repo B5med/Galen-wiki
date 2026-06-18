@@ -1,0 +1,1480 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "a1b2c3d4e5f6"
+      },
+      "content": [
+        {
+          "text": "4.6 Vytvoření objednávky PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b2c3d4e5f6a1"
+      },
+      "content": [
+        {
+          "text": "Cíl: Naplánovat pracovnelékařskou prohlídku pro konkrétního zaměstnance a vložit ji do systému jako nové PLS akce.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kdo: Koordinátor PLS, správce ordinace.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Předpoklady: Pacient (zaměstnanec) je zaevidován v systému, existuje platná smlouva PLS s příslušnou skupinou PLS.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "41c57d80db7f",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8a6bf50ed79"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "81bead8b61a2"
+              },
+              "content": [
+                {
+                  "text": "Přejděte do sekce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Pracovnelékařské služby → Objednávky PLS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fb716959651b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ee9ea2febf91"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nová objednávka",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (+).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f049a67f64ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e681119dd09b"
+              },
+              "content": [
+                {
+                  "text": "Vyberte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (zaměstnance) ze seznamu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8cc64949c7b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d73bc9248d52"
+              },
+              "content": [
+                {
+                  "text": "Vyberte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Firmu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a ",
+                  "type": "text"
+                },
+                {
+                  "text": "Pobocku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaměstnavatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "063b69d9b76f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a5776d631552"
+              },
+              "content": [
+                {
+                  "text": "Vyberte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Skupinu PLS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " odpovídající pracovní pozici zaměstnance.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "202270465873"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "23220efb8a40"
+              },
+              "content": [
+                {
+                  "text": "Zvolte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Typ prohlídky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (Vstupní, Periodická, Výstupní, Mimoperiodická nebo jiná dle smlouvy).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d7e718dcfe4e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a5e400b040f"
+              },
+              "content": [
+                {
+                  "text": "Zadejte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Plánované datum",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " prohlídky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "38c9a759e646"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5cc499f80974"
+              },
+              "content": [
+                {
+                  "text": "Volitelně doplňte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Poznámku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (max. 1024 znaků).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c875be9d6c66"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2e0469746888"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Uložit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — systém vytvoří novou akci PLS ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nová plánovaná akce",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c3d4e5f6a1b2"
+      },
+      "content": [
+        {
+          "text": "Výsledek: V systému je vytvořena objednávka PLS, která se zobrazí v seznamu Akcí PLS a v lhůtníku.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "d4e5f6a1b2c3"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "e5f6a1b2c3d4"
+          },
+          "content": [
+            {
+              "text": "Objednávky lze hromadně generovat přímo z ",
+              "type": "text"
+            },
+            {
+              "text": "Lhůtníku",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " (sekce Pracovnelékařské služby → Lhůtník) — systém zobrazí všechny zaměstnance, kteří mají prohlídku po lhůtě nebo se blíží termín jejich periodické prohlídky.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "f6a1b2c3d4e5"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7ca59da2e4c4"
+      },
+      "content": [
+        {
+          "text": "4.7 Uzavření akce PLS a příprava k fakturaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cbd725a02011"
+      },
+      "content": [
+        {
+          "text": "Cíl: Po realizaci pracovnelékařské prohlídky správně uzavřít akci PLS a připravit ji k fakturaci zaměstnavateli.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kdo: Koordinátor PLS, zdravotnický personál.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Předpoklady: Prohlídka pacienta byla provedena a zapsána v systému, akce PLS je ve stavu „Nová plánovaná akce“ nebo „Přiděleno dalšími IČP“.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ab73ea61f7cd",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0ce9c51b29cb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "99b35620b17d"
+              },
+              "content": [
+                {
+                  "text": "Přejděte do části Pracovnelékařské služby → Akce PLS.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "53eaf590683b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "11fadc9d7d34"
+              },
+              "content": [
+                {
+                  "text": "Vyhledejte příslušnou akci pacienta (filtr podle firmy, data nebo stavu).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bbd7d1ab6c40"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4dd086675e70"
+              },
+              "content": [
+                {
+                  "text": "V detailu akce zkontrolujte pole Vyšetření a Datum návštěvy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "29660ef4a3b4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6b9253614560"
+              },
+              "content": [
+                {
+                  "text": "Zkontrolujte Cenu a Způsob úhrady (Hotově / Faktura).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d67a1202743f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b15215e645b7"
+              },
+              "content": [
+                {
+                  "text": "Volitelně doplňte Poznámku (max. 1024 znaků).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "135542f1272d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4f40a55cdc4c"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na Uzavřít akci — zvolte stav Uzavřena, fakturovat nebo Uzavřena, nefakturovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "27b277f200ca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "37f48dca8ac6"
+              },
+              "content": [
+                {
+                  "text": "Spusťte funkci Vyúčtování PLS pro hromadnou přípravu faktur za dané období.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bfae4553d43b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3f60e805c53c"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na Vystavit fakturu PLS a vyplňte: číslo faktury, datum vystavení, datum plnění, období od/do, typ faktury (Paušál nebo Výkony), identifikaci pacientů, popis.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3103dc805d7e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7335ee41e7bf"
+              },
+              "content": [
+                {
+                  "text": "Fakturu vytiskněte přes Tisk vyúčtování PLS.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "866ebb559dd2"
+      },
+      "content": [
+        {
+          "text": "Stavy akce PLS — přehled workflow:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "69303ac3-0573-4254-99e2-0cc00765c525"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4841b848-7522-49b7-9576-6191b631231a"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3791bb48-5e3c-49b9-bba4-4ac0b73cf4b4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "882a446bb157"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "41290b61-f070-4f12-b510-ac7265c68a2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fda8e9e2d98a"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "409add1d-d951-450a-a81e-8a412aee84b7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aafe7aae4bc4"
+                  },
+                  "content": [
+                    {
+                      "text": "Přechod do",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "06453a7d-0f1c-447a-bee1-43f7172eabff"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5d8b92ae-468f-4296-b0ee-6b6d03a556fd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7369625b768a"
+                  },
+                  "content": [
+                    {
+                      "text": "Nová plánovaná akce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "28c0ab4b-6b8d-4377-989b-7e736c53219c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e7d0edd1e8db"
+                  },
+                  "content": [
+                    {
+                      "text": "Akce je naplánována, prohlídka dosud neproběhla",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4b74aa77-569b-42e6-aab0-dccb59c46667"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8718665ba3dd"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiděleno dalšími IČP / uzavřena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6616de03-0084-43a1-b0bb-d3336e07076e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c06059df-3b57-42c8-9eef-33ea48bc9662"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "90fb8a884f99"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiděleno dalšími IČP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6ab735c1-1ee7-437a-be4b-ff7d9d30a239"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4d62a41a0179"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlídka přidělena k provedení externím poskytovatelem",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1614e9c4-7161-4d1b-9e2a-66fa1a04d57e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "48a154899370"
+                  },
+                  "content": [
+                    {
+                      "text": "Vráceno / uzavřena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "da3ddcc4-06fd-40f8-a2d0-c9adcb986f47"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6e0931f4-f553-4140-9e9e-7fd4fb882e2c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2d0913e49b45"
+                  },
+                  "content": [
+                    {
+                      "text": "Vráceno",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f7bd0190-9005-4128-8fdf-f23682fa3014"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5779741b85f6"
+                  },
+                  "content": [
+                    {
+                      "text": "Akce vrácena k přepracování",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "743fc48c-97d8-4236-91c6-d5e96182dbde"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "55372ce0588e"
+                  },
+                  "content": [
+                    {
+                      "text": "Nová plánovaná akce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fc67259a-5164-4ad5-a8eb-6457423b7ae1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b329bbfb-748b-4f80-9909-8eb33137f59f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50e9bab06986"
+                  },
+                  "content": [
+                    {
+                      "text": "Uzavřena, fakturovat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2f125c70-edac-4b62-9bf8-9318739336b4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dbfa444fb7d9"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlídka proběhla, bude zahrnuta do faktury",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9719e33c-c034-4401-81cf-19e50fc373a9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f95c17e1769a"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura vystavena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b8eacd07-9be4-4210-acec-e3d1243b3e93"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "260bf471-ee22-4e4c-a490-5c3de8c401db"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b59101f3ec86"
+                  },
+                  "content": [
+                    {
+                      "text": "Uzavřena, nefakturovat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3996848c-e9e4-4161-be4c-92497007e7af"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "878352a12b1f"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlídka uzavřena bez nároku na fakturaci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "339695ec-ad7c-4a12-8119-0390b310b97c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "99709abf3f66"
+                  },
+                  "content": [
+                    {
+                      "text": "—",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2105b4e3-8793-4146-8372-27b234837600"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "64057570-d2cc-48c3-8dab-9da87c18cde1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bba9d1acde81"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura vystavena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4ffcc86a-6cde40df-8485-eaa20572519a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4fd6dae439b4"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura pro zaměstnavatele byla vystavena",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "864cab28-3553-4df9-a93e-6195f8d7ffcb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a50819ee8edb"
+                  },
+                  "content": [
+                    {
+                      "text": "—",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aa514f987647"
+      },
+      "content": [
+        {
+          "text": "Výsledek: Akce PLS je uzavřena a faktura vystavena zaměstnavateli.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8e57c843b7e8"
+      },
+      "content": [
+        {
+          "text": "⚠️ Upozornění: Uzavřenou akci ve stavu „Faktura vystavena“ nelze zpětně editovat. Pokud je nutná oprava, kontaktujte správce systému — faktura musí být nejprve stornována funkcí „Smazat fakturu PLS“.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "5dbc7e48-bce5-4f9d-9565-104851b8590d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "99f888e5fa84"
+      },
+      "content": [
+        {
+          "text": "4.8 Zapsání výsledku pracovnelékařského posudku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1f2bbb33dc61"
+      },
+      "content": [
+        {
+          "text": "Cíl: Po provedení pracovnelékařské prohlídky zapsat výsledek posudku do systému.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Kdo: Lékař.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Předpoklady: V systému existuje akce PLS ve stavu „Nová plánovaná akce“ nebo „Přiděleno dalšími IČP“.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0cd9c23fa957",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ad9ffb129ff3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ac2453c1498a"
+              },
+              "content": [
+                {
+                  "text": "Na kartě pacienta přejděte na záložku PLS → Akce PLS a vyhledejte příslušnou akci.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4fedc773138f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7368610f3373"
+              },
+              "content": [
+                {
+                  "text": "Otevřete detail akce a zkontrolujte propojení s Vyšetřením.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "97fbb1c01f60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bf1a0522615f"
+              },
+              "content": [
+                {
+                  "text": "V poli Výsledek posudku vyberte odpovídající hodnotu (Z / N / K / M / D / B / X).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7f4b3fa50e2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a6dab7a916de"
+              },
+              "content": [
+                {
+                  "text": "Doplňte Poznámku (max. 1024 znaků) a klikněte na Uložit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e5d3f433ad46"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "db0d04600459"
+              },
+              "content": [
+                {
+                  "text": "Pokud má být prohlídka fakturována, změňte stav na Uzavřena, fakturovat (podrobný postup viz kapitola 4.7).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "14b7e8a566a2"
+      },
+      "content": [
+        {
+          "text": "Výsledek: Výsledek posudku je zapsán a propojen s akcí PLS a vyšetřením pacienta.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5f2c55811bdd"
+      },
+      "content": [
+        {
+          "text": "⚠️ Upozornění: Výsledek X — Nedostavil/a se nevyžaduje propojení s vyšetřením. Zkontrolujte nastavení smlouvy ohledně fakturace tohoto stavu.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "43c2de6e-8496-49ea-ba71-de439c20a191"
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,552 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "11392780cf90"
+      },
+      "content": [
+        {
+          "text": "Přehled datového toku PLS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f7af8ef9f0b9"
+      },
+      "content": [
+        {
+          "text": "Pořadí kroků při práci s pracovnělékařskými službami — od nastavení až po fakturaci:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "599bfc83-2a80-40ca-b562-2fa63df5329e"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "  1. Firma (zaměstnavatel) + Pobočka        ← předpoklad, zakládá správce\n  2. Skupiny PLS (pozice zaměstnanců)\n       └─ Rizika skupiny (druhy rizik)\n  3. Smlouva PLS  ─────────────────────────  platnost, způsob platby\n       └─ Položky smlouvy PLS              ← typ prohlídky/sortimentu,\n            └─ Skupina PLS                   cena, limit, vazba (výkon/paušál)\n  4. Objednávka PLS (od zaměstnavatele)\n       └─ Položky objednávky + Přílohy\n  5. Akce PLS (plánovaná prohlídka)         ← stav: Nová plánovaná akce\n       └─ Pacient + Pracoviště\n       └─ Vyšetření (po provedení)          ← stav: → Uzavřena, fakturovat\n       └─ Výsledek posudku (PLSResult)\n  6. Vyúčtování PLS (hromadná příprava)\n       └─ Faktura PLS                       ← číslo, období, typ, identifikace pac.\n            └─ Položky faktury PLS",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "112fd2a7-a7ca-40ad-b8eb-b2f4d85831c8"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b1b9404b60f4"
+      },
+      "content": [
+        {
+          "text": "Výsledky pracovnělékařského posudku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "54a87a99fc08"
+      },
+      "content": [
+        {
+          "text": "Po provedení prohlídky lékař zaznamená výsledek posudku. Systém nabízí tyto hodnoty:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "8ea7bfd4-67f3-4396-be5b-75a41da49276"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5eed7425-a4a7-4797-8b4f-e8cd1eb6c0cf"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "750195d0-3039-4d68-88d2-bc02930c47b6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "542682449352"
+                  },
+                  "content": [
+                    {
+                      "text": "Kód",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "97375608-c772-48bc-b9ac-42640e018ca5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d7c06233ff70"
+                  },
+                  "content": [
+                    {
+                      "text": "Výsledek posudku",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b1e0d4ba-a967-4156-9622-0a614c1ef307"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0c598ba2-9015-4351-9507-c709a2caec38"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b141b2ecf15e"
+                  },
+                  "content": [
+                    {
+                      "text": "Z",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "98e6a740-f875-4ddb-bc9f-83c327015859"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ffd15479361e"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotně způsobilý/á",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8b72821e-d858-4317-9b73-f0e048e34456"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "62eb5c36-0bea-481a-82c7-28375d8b30fe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6089cd57ad7d"
+                  },
+                  "content": [
+                    {
+                      "text": "N",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a89090fd-0264-4b6f-af71-155f89c03237"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "22fd96a14723"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotně nezpůsobilý/á",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "7483b78a-ba35-429d-9836-4a52c812a97a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cb90567c-05ae-4830-a49a-9cbbfaa0d1c2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "105211f157d6"
+                  },
+                  "content": [
+                    {
+                      "text": "K",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f874f7cf-505d-4641-bf52-d9b242c7b673"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f6c398f7147c"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotně způsobilý/á s podmínkou s kompenzací",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8e84671f-bc3f-4eaa-ae52-28b4978fd365"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "29ff05e9-3842-4a73-9ca1-7d2da96b10c9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "74f9792982fc"
+                  },
+                  "content": [
+                    {
+                      "text": "M",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "53d99227-cf9b-4fa9-bce6-2ca01efcdf11"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4d6f300734b"
+                  },
+                  "content": [
+                    {
+                      "text": "Zdravotně způsobilý/á s podmínkou mimo kompenzaci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "720bc24b-bce3-48cb-ac54-eb962bf48974"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d318544e-6c42-42c3-a8e0-47752655d4d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7640b73d24f0"
+                  },
+                  "content": [
+                    {
+                      "text": "D",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ca7d44f5-2518-4cdf-b3e4-c0be0519ceaf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9cff193b4370"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozbyl/a dlouhodobě zdravotní způsobilost",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "566db106-37cf-47f9-89c8-3d45ad407cbb"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a2956dd5-c629-45a1-ad92-e00ac634a0af"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "919e83b8012f"
+                  },
+                  "content": [
+                    {
+                      "text": "B",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1b5a223f-9e58-4793-a2e4-9ad2c12dba5a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c95fdbe0cf67"
+                  },
+                  "content": [
+                    {
+                      "text": "Prohlídka uzavřena bez vydání posudku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9d15fcd7-6d75-4505-bcd8-6d4a6404602a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5df076ed-772b-4164-bdd2-f69f00d67d79"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d01b4b81a413"
+                  },
+                  "content": [
+                    {
+                      "text": "X",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5348ac30-4cc2-450c-ad93-c4909b989e2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d9ba603980ea"
+                  },
+                  "content": [
+                    {
+                      "text": "Nedostavil/a se",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3abdfbe18ecf"
+      },
+      "content": [
+        {
+          "text": "📌 Poznámka: Výsledek X — Nedostavil/a se je klíčový pro fakturaci: pokud má smlouva PLS nastaveno „Fakturovat stav Nedostavil se\", bude i tato akce zahrnuta do faktury pro zaměstnavatele (viz nastavení smlouvy, kapitola 4.5).",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "a51df540-d061-486f-a20a-8874f9f45333"
+      }
+    }
+  ],
+  "version": 1
+}

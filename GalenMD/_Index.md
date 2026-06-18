@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-17
+generated: 2026-06-18
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **17. 6. 2026**  ·  Celkem stránek: **309**  ·  Poslední sync z Confluence: 2026-06-17
+> **18. 6. 2026**  ·  Celkem stránek: **307**  ·  Poslední sync z Confluence: 2026-06-18
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **10** |
+| 🔥 | Do 3 dnů | **31** |
 | ♨️ | Do 14 dnů | **0** |
-| 🌿 | Do 30 dnů | **11** |
+| 🌿 | Do 30 dnů | **9** |
 | 📄 | Do 90 dnů | **39** |
-| 🗄️ | Starší než 3 měsíce | **249** |
+| 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -70,7 +70,29 @@ generated: 2026-06-17
     - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v1` · 26. 8. 2025
     - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
-  - 🌿 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
+  - 🔥 **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
+    - 🔥 **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
+      - 🔥 [[Ceník a sortiment]] `v2` · 18. 6. 2026
+      - 🔥 [[Správa balíčků a položek]] `v1` · 17. 6. 2026
+      - 🔥 [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
+    - 🔥 **[[Pracovnělékařské služby (PLS)]]** `v3` · 18. 6. 2026
+      - 🔥 **[[Import dat PLS]]** `v2` · 17. 6. 2026
+        - 🔥 [[Import pacientů PLS]] `v1` · 17. 6. 2026
+        - 🔥 [[Import skupin PLS]] `v1` · 17. 6. 2026
+        - 🔥 [[Import smluv PLS]] `v1` · 17. 6. 2026
+      - 🔥 [[Fakturace PLS]] `v1` · 17. 6. 2026
+      - 🔥 [[Nastavení PLS — smlouvy a skupiny]] `v2` · 18. 6. 2026
+      - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
+      - 🔥 [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
+      - 🔥 [[Prohlídky a očkování PLS]] `v1` · 18. 6. 2026
+      - 🔥 [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
+      - 🔥 [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
+      - 🔥 [[Recepce a objednávání PLS]] `v1` · 18. 6. 2026
+    - 🔥 [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
+    - 🔥 [[Orientace v modulu]] `v1` · 17. 6. 2026
+    - 🔥 [[Slovník pojmů]] `v1` · 17. 6. 2026
+    - 🔥 [[Tiskové výstupy]] `v1` · 17. 6. 2026
+  - 📄 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
     - 🗄️ **[[Nároky]]** `v2` · 10. 7. 2025
@@ -97,30 +119,6 @@ generated: 2026-06-17
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
     - 🔥 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
-  - 📄 **[[Pracovnělékařské služby (PLS)]]** `v5` · 14. 5. 2026
-    - 🗄️ **[[Ceníky a balíčky]]** `v1` · 7. 11. 2025
-      - 🗄️ [[Balíčky]] `v1` · 26. 6. 2025
-      - 🗄️ [[Kategorie]] `v1` · 26. 6. 2025
-      - 🗄️ [[Sortiment]] `v1` · 26. 6. 2025
-    - 🗄️ **[[Smlouvy PLS]]** `v1` · 7. 11. 2025
-      - 🗄️ [[Editace smlouvy]] `v1` · 26. 6. 2025
-      - 🗄️ [[Hlavní položky smlouvy]] `v1` · 26. 6. 2025
-      - 🗄️ [[Rozšiřující položky smlouvy]] `v1` · 26. 6. 2025
-    - 🗄️ [[Design PLS prohlídky]] `v1` · 26. 6. 2025
-    - 🗄️ [[Import PLS]] `v1` · 26. 6. 2025
-    - 🗄️ [[Konfigurace PLS Očkování]] `v2` · 26. 6. 2025
-    - 🗄️ [[Konfigurace PLS Prohlídky]] `v2` · 26. 6. 2025
-    - 🗄️ [[Kontakty]] `v1` · 26. 6. 2025
-    - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
-    - 🗄️ [[PLS - modul objednávání a recepce]] `v2` · 26. 6. 2025
-    - 🗄️ [[PLS Admin]] `v1` · 26. 6. 2025
-    - 🗄️ [[PLS Admin Služby]] `v1` · 26. 6. 2025
-    - 🗄️ [[PLS Faktury]] `v1` · 26. 6. 2025
-    - 🗄️ [[PLS očkování]] `v1` · 26. 6. 2025
-    - 🗄️ [[PLS prohlídky]] `v1` · 26. 6. 2025
-    - 🗄️ [[PLS Služba]] `v1` · 26. 6. 2025
-    - 🗄️ [[Rizika]] `v1` · 26. 6. 2025
-    - 🗄️ [[Zaměstnání pacienta]] `v1` · 26. 6. 2025
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
     - 🗄️ [[Novinky ve verzi k 11. 2. 2026]] `v2` · 9. 2. 2026
@@ -130,7 +128,7 @@ generated: 2026-06-17
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 🔥 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
-    - 🌿 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
+    - 📄 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🌿 [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
     - 📄 [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
@@ -193,7 +191,7 @@ generated: 2026-06-17
         - 🗄️ **[[Pracoviště]]** `v5` · 10. 12. 2025
           - 🗄️ **[[UI konfigurace]]** `v4` · 10. 12. 2025
             - 🗄️ **[[Info panel pacienta]]** `v2` · 11. 12. 2025
-              - 📄 [[Info panel pacienta v Nástrojích]] `v1` · 19. 3. 2026
+              - 🗄️ [[Info panel pacienta v Nástrojích]] `v1` · 19. 3. 2026
             - 🗄️ [[Záložka UI konfigurace]] `v3` · 29. 1. 2026
           - 🗄️ [[Předepsání eReceptu pod jiným IČP]] `v1` · 17. 9. 2025
           - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025

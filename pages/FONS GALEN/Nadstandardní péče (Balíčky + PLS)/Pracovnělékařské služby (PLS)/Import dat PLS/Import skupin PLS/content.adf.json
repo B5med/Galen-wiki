@@ -1,0 +1,2290 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "310aeec1c921"
+      },
+      "content": [
+        {
+          "text": "Slouží k hromadnému zakládání pracovních pozic (skupin) pro danou firmu včetně přiřazení rizik. Alternativou je ruční zadání přímo v detailu firmy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "54eac1cd1db0"
+      },
+      "content": [
+        {
+          "text": "Předpoklady",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e63888d83c20"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7020ddc0337c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "eeb3b5e6ad15"
+              },
+              "content": [
+                {
+                  "text": "Firma musí být v systému ",
+                  "type": "text"
+                },
+                {
+                  "text": "již založena",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (včetně IČO).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6d1247acde60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "00f0d42c4aa3"
+              },
+              "content": [
+                {
+                  "text": "Firma musí mít ",
+                  "type": "text"
+                },
+                {
+                  "text": "alespoň jednu pobočku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "aa5fa1365f71"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a92512afcd8f"
+              },
+              "content": [
+                {
+                  "text": "Import skupin se provádí ",
+                  "type": "text"
+                },
+                {
+                  "text": "vždy před importem smluv",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a pacientů.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c8853a429778"
+      },
+      "content": [
+        {
+          "text": "Formát souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "b36413a816da"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ed257d187730"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b1b92e5a9b80"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f4b9e1ba138b"
+                  },
+                  "content": [
+                    {
+                      "text": "Parametr",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9e3b129cf8c6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c59f7669cdba"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "56a709701b30"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "05bcd7f37483"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e7f2c5e4d0c7"
+                  },
+                  "content": [
+                    {
+                      "text": "Přípona",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b9d4457db7b7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "85a44e6e7380"
+                  },
+                  "content": [
+                    {
+                      "text": ".csv",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "138e48f9acf9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "72c40d7958fd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1ff6d251f660"
+                  },
+                  "content": [
+                    {
+                      "text": "Kódování",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6548b0aaf703"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "38f10803491a"
+                  },
+                  "content": [
+                    {
+                      "text": "Windows-1250",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "68daf4be03c3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "308fd1039acd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7ef30df66aca"
+                  },
+                  "content": [
+                    {
+                      "text": "Oddělovač",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "994790ad798a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2d6bae2035ff"
+                  },
+                  "content": [
+                    {
+                      "text": "středník ;",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "69d76d2b755d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d98612308cd0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "24f517c4e009"
+                  },
+                  "content": [
+                    {
+                      "text": "Hlavičkový řádek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f3e8e587a43b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "488f78552c70"
+                  },
+                  "content": [
+                    {
+                      "text": "povinný (přesně dle vzoru)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "730ca2986896"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "78b46cb69d20"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "321ad519489b"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "61918a339149"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "651de74d469c"
+                  },
+                  "content": [
+                    {
+                      "text": "6",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3d1bfa550bd6"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "928c6ba46c35"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "08c88abb8736"
+                  },
+                  "content": [
+                    {
+                      "text": "Jeden řádek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "26a181d10002"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "600313296db6"
+                  },
+                  "content": [
+                    {
+                      "text": "jedna pracovní pozice (skupina)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "71d2a8115899"
+      },
+      "content": [
+        {
+          "text": "Sloupce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "5a62d99c1b07"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "66a79581884a"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e34ecb90bb03"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ecdc6b5baab9"
+                  },
+                  "content": [
+                    {
+                      "text": "#",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b8bb4e11044f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "024ab0c7ee8e"
+                  },
+                  "content": [
+                    {
+                      "text": "Název sloupce v hlavičce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7a6203ec1478"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5f5f66604a05"
+                  },
+                  "content": [
+                    {
+                      "text": "Povinnost",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5a6876e9eca2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8382c1acbe1f"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "878e3fee0139"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "704e26b9a646"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "43b399f7c6e1"
+                  },
+                  "content": [
+                    {
+                      "text": "1",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3e37413d9cb0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8e4e292c2142"
+                  },
+                  "content": [
+                    {
+                      "text": "ICO",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "24aa12d5be57"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c167dff95e20"
+                  },
+                  "content": [
+                    {
+                      "text": "povinný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4ddfb400d3e6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "389631cb5b88"
+                  },
+                  "content": [
+                    {
+                      "text": "IČO firmy v systému (bez mezer, bez teček)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4c38540e0da2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a7ebfcda9bef"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f499bc31af35"
+                  },
+                  "content": [
+                    {
+                      "text": "2",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d016a1dbaeaa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ff6ac86506de"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozice",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "87683e318b16"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0478fc4935e7"
+                  },
+                  "content": [
+                    {
+                      "text": "povinný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9601bbd9772b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e45cd0c74ade"
+                  },
+                  "content": [
+                    {
+                      "text": "Název skupiny PLS / pracovní pozice (max 100 znaků)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "564582b11264"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1e0df5b915fd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "35bf0cf879dd"
+                  },
+                  "content": [
+                    {
+                      "text": "3",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b59cba7a1f48"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "af4a648caf05"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie název",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b69c6cdb85c4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6d8c6caa4462"
+                  },
+                  "content": [
+                    {
+                      "text": "povinný",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1249ff077d2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c14e03048999"
+                  },
+                  "content": [
+                    {
+                      "text": "Přesný název kategorie z číselníku Rizika → záložka Kategorie",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9d7998fd38bf"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8ae5e31196a1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "320650f6924d"
+                  },
+                  "content": [
+                    {
+                      "text": "4",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e4905fd0f586"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "90e5b3939775"
+                  },
+                  "content": [
+                    {
+                      "text": "Rizikový faktor pracovních podmínek název (volitelné)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "933513a898e2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1db1264f25c4"
+                  },
+                  "content": [
+                    {
+                      "text": "volitelný",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "090321b532a3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "37834b870c74"
+                  },
+                  "content": [
+                    {
+                      "text": "Přesný název z číselníku Rizika → záložka Rizikové faktory pracovních podmínek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "57db73884194"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "73b4cbf6371a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4dcd8c1049fd"
+                  },
+                  "content": [
+                    {
+                      "text": "5",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8cee46d1536a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "73d27e6764a1"
+                  },
+                  "content": [
+                    {
+                      "text": "Profesní riziko název (volitelné)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "47a4acb23912"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5578d1e1139d"
+                  },
+                  "content": [
+                    {
+                      "text": "volitelný",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7763b587f51a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9b0735e59618"
+                  },
+                  "content": [
+                    {
+                      "text": "Přesný název z číselníku Rizika → záložka Profesní rizika",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "498eb19975fc"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c044cb4cd8c5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8f9515ac2619"
+                  },
+                  "content": [
+                    {
+                      "text": "6",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3814054a8266"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e86d15d368be"
+                  },
+                  "content": [
+                    {
+                      "text": "Speciální název (volitelné)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "45eb0c9d0195"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50ce5bd9c512"
+                  },
+                  "content": [
+                    {
+                      "text": "volitelný",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a0100c78faa2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2d8a653beabb"
+                  },
+                  "content": [
+                    {
+                      "text": "Přesný název z číselníku Rizika → záložka Speciální",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "e5754e922e5f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4acf6b4c80e5"
+          },
+          "content": [
+            {
+              "text": "Volitelné sloupce se vyplníují pouze tehdy, je-li riziko relevantní. Pokud ne, pole se ponechá prázdné — středníky zůstávají.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e6ff9f8e1be7"
+      },
+      "content": [
+        {
+          "text": "Vzor souboru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "none",
+        "localId": "2c7886146d22"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "ICO;Pozice;Kategorie název;Rizikový faktor pracovních podmínek název (volitelné);Profesní riziko název (volitelné);Speciální název (volitelné)\n00637327;Skladník;Kategorie II;Prašné prostředí;Práce ve výškách;\n00637327;Řidič;Kategorie III;Hluk;Řidič referent;\n00637327;Administrativa;Kategorie I;;;\n00637327;Svářeč;Kategorie III;Ionizující záření;Nakládání s výbušninami;\n00637327;Technik;Kategorie II;Zraková zátěž;;",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ec5cd97dddf5"
+      },
+      "content": [
+        {
+          "text": "Postup importu v aplikaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "bcba88b799f5",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "19ccb188dd90"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dfb6b8f16367"
+              },
+              "content": [
+                {
+                  "text": "Otevři detail firmy → záložka nebo sekce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Import",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ff061d64a9da"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4c061a4a7dd6"
+              },
+              "content": [
+                {
+                  "text": "Zvol typ importu: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Import skupin PLS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6d35750d39c7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "011a677f3c36"
+              },
+              "content": [
+                {
+                  "text": "Klikni na ",
+                  "type": "text"
+                },
+                {
+                  "text": "„…“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a vyber připravený CSV soubor.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "48e5f7b13cfd"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8af475c8f32f"
+              },
+              "content": [
+                {
+                  "text": "Zkontroluj, že je zvolen správný ",
+                  "type": "text"
+                },
+                {
+                  "text": "Režim",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (standardně „Pouze doplňení“).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4c2ed8437b2d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3e1cb9d32831"
+              },
+              "content": [
+                {
+                  "text": "Stiskni ",
+                  "type": "text"
+                },
+                {
+                  "text": "Importovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f3044a6b2a80"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a52f865b665e"
+              },
+              "content": [
+                {
+                  "text": "Zkontroluj výsledek — systém zobrazí potvrzení nebo seznam chyb s číslem řádku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "26bce8fb7a78"
+      },
+      "content": [
+        {
+          "text": "Chování systému",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "01f7695ba6c4"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "aaf14761c75a"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0329906a9743"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c2eef649b1f1"
+                  },
+                  "content": [
+                    {
+                      "text": "Situace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "13de002c2b57"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "695553246aa9"
+                  },
+                  "content": [
+                    {
+                      "text": "Co systém udělá",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "34615b30ef64"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5236a7693da2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "578b9add0e61"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozice se stejným názvem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "neexistuje",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5a1b2684d343"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8c8c9466dac3"
+                  },
+                  "content": [
+                    {
+                      "text": "Založí novou skupinu PLS a přiřadí jí rizika z CSV.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6f795ab002a6"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f9e24959db54"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2cf56c86819a"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozice se stejným názvem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "existuje",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e06683a2cc9b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "67500c60dccb"
+                  },
+                  "content": [
+                    {
+                      "text": "Název ponechá beze změny. Rizika ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "přepíše",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " — odstraní stávající a zapíše nová dle CSV.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2149fe663780"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b03b9b6eb940"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d8fe9af99e62"
+                  },
+                  "content": [
+                    {
+                      "text": "Shoda názvu se vyhodnocuje",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bbb59ff66cb5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b0bdb6369195"
+                  },
+                  "content": [
+                    {
+                      "text": "Case-insensitive, diakritika se ignoruje (např. „skladnik“ = „Skladník“).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cca1fe1affc5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "10e8f4facc40"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e8641b8fcd5e"
+                  },
+                  "content": [
+                    {
+                      "text": "Název rizika ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "nenalezen",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " v číselníku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "50c85fc88ba0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eb5a9b24e75c"
+                  },
+                  "content": [
+                    {
+                      "text": "Chyba importu — zobrazí se číslo řádku a popis chyby.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "1f0e05debcd7"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "33e6a7483c9a"
+          },
+          "content": [
+            {
+              "text": "Rizika existující skupiny jsou při reimportu ",
+              "type": "text"
+            },
+            {
+              "text": "celá přepsána",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Před reimportem zkontroluj, zda CSV obsahuje kompletní sadu rizik pro danou pozici.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b42fd98375e1"
+      },
+      "content": [
+        {
+          "text": "Platné hodnoty rizik",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "09ec04363d09"
+      },
+      "content": [
+        {
+          "text": "Hodnoty musí přesně odpovídat názvům v číselníku ",
+          "type": "text"
+        },
+        {
+          "text": "Rizika práce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v systému. Níže jsou hodnoty z testovacího prostředí — v produkci ověř aktuální číselník.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "40dfc5448d91"
+      },
+      "content": [
+        {
+          "text": "Kategorie (povinná):",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Kategorie I · Kategorie II · Kategorie III · Kategorie IV · Kategorie IIR · Kat I · Kat II · Kat. 2R · J_Kategorie_I · Největší",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f3cc4f479ca4"
+      },
+      "content": [
+        {
+          "text": "Rizikový faktor pracovních podmínek (volitelný):",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Atmosférický přetlak · Hluk · Ionizující záření · Prašné prostředí · Prašnost · Zraková zátěž",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd33adff874a"
+      },
+      "content": [
+        {
+          "text": "Profesní riziko (volitelné):",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Nakládání s výbšninami · Obsluha nebo opravy tlakových nádob · Obsluha řídících center a velínů · Práce ve výškách · Řidič referent",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e2971bf8d1b2"
+      },
+      "content": [
+        {
+          "text": "Speciální (volitelné):",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " V testovacím prostředí bez aktivních hodnot. Ověř aktuální číselník v produkci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "080af01c73e6"
+      },
+      "content": [
+        {
+          "text": "Časté chyby",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "fc3a5abcb790"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fe0bdfad10b5"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "80d80b09a296"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "717abc528c11"
+                  },
+                  "content": [
+                    {
+                      "text": "Chybová hláška",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6d0a75ace96e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "56b7ad2e2d81"
+                  },
+                  "content": [
+                    {
+                      "text": "Příčina",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4b234006952a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "06216d892372"
+                  },
+                  "content": [
+                    {
+                      "text": "Řešení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2f979719b413"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "058ad4d3421c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cf9fc39312b3"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubor obsahuje nesprávný počet sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8bd374d9524d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d5b5c249016d"
+                  },
+                  "content": [
+                    {
+                      "text": "Chybí nebo přebývá sloupec, chybí hlavičkový řádek, špatný oddělovăč",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "49064434a1f7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1ba6f69290aa"
+                  },
+                  "content": [
+                    {
+                      "text": "Zkontroluj, zda soubor má přesně 6 sloupců oddělených ; a hlavičkový řádek.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fcc5e8b6c5ed"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "69ecca8f0f53"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d2b4d1113a91"
+                  },
+                  "content": [
+                    {
+                      "text": "Chyba na řádku X — riziko nenalezeno",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "dce930e0e0d8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c5ceb0a33a82"
+                  },
+                  "content": [
+                    {
+                      "text": "Název kategorie, FP nebo OZ neodpovídá žádné hodnotě v číselníku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "79c680f55a57"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4fa148f3a931"
+                  },
+                  "content": [
+                    {
+                      "text": "Ověř přesný název v Rizika práce a oprav CSV.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "0115eccbe709"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "5bcabfc806ae"
+          },
+          "content": [
+            {
+              "text": "Úspěšný import zobrazí hlášení ",
+              "type": "text"
+            },
+            {
+              "text": "„Import úspěšně dokončen“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " bez seznamu chyb.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

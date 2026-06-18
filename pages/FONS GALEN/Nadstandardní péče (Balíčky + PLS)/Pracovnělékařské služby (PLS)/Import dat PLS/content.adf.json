@@ -1,0 +1,503 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1757,
+            "alt": "obrazek-20260617-134928.png",
+            "id": "fd926079-c7b3-450e-aa04-f00afbaf4c5b",
+            "collection": "contentId-436731905",
+            "type": "file",
+            "localId": "9b51a3ef80ff",
+            "height": 212
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "0b547a88c5e2"
+          },
+          "content": [
+            {
+              "text": "PLS Import",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2bf386d0e04e"
+      },
+      "content": [
+        {
+          "text": "Importy PLS slouží k hromadnému naplnění dat modulu Pracovnělékařské služby pro novou firmu — skupin pracovních pozic, smluvního rámce a seznamu zaměstnanců.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "b76d8b7c74a3"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "0b9dda926d9c"
+          },
+          "content": [
+            {
+              "text": "Importy se musí provádět v tomto pořadí:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " skupiny → smlouvy → pacienti. Každý krok závisí na předchozím.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "e05cb8a63564"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "644d7043acb7"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "18fccc69bc73"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "849695da90b9"
+                  },
+                  "content": [
+                    {
+                      "text": "Krok",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "869c70b3a4bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7190b55724de"
+                  },
+                  "content": [
+                    {
+                      "text": "Import",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3a7994003ca8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5d3c83c86c4c"
+                  },
+                  "content": [
+                    {
+                      "text": "Co se importuje",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6dc81f821b41"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eefecc64f1d1"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubor (vzor)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c89e6e9c1c7b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2c028bbb9a07"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7920533dadb1"
+                  },
+                  "content": [
+                    {
+                      "text": "1",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "13a0e04e3412"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6017b9429872"
+                  },
+                  "content": [
+                    {
+                      "text": "Import skupin PLS",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d0eb468c445b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1bd7a6c930e3"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracovní pozice (skupiny) firmy včetně přiřazených rizik. Musí existovat před importem smluv.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d7203158f669"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ec6638a09c4c"
+                  },
+                  "content": [
+                    {
+                      "text": "import_skupin_PLS.csv — 6 sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fb2dbcca6a7d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "81b103a1a52b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d24f2ad4141f"
+                  },
+                  "content": [
+                    {
+                      "text": "2",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7d6ae2f40eee"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "78a5bec0fe16"
+                  },
+                  "content": [
+                    {
+                      "text": "Import smluv PLS",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a0b9bdb2d144"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "77fa0fc25d74"
+                  },
+                  "content": [
+                    {
+                      "text": "Smluvní rámec pobočky včetně ceníkových položek pro jednotlivé skupiny.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "35b07dc0c4ef"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "547ce22c953a"
+                  },
+                  "content": [
+                    {
+                      "text": "import_smluv_PLS.csv — 34 sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1f8cf7b91bce"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2107b379c560"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f0774ce922d3"
+                  },
+                  "content": [
+                    {
+                      "text": "3",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "18e940993dd4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "15250730a284"
+                  },
+                  "content": [
+                    {
+                      "text": "Import pacientů PLS",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6d4adebb7049"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0998d8d4e464"
+                  },
+                  "content": [
+                    {
+                      "text": "Zaměstnanci firmy přiřazení do skupin PLS. Vytvoří nebo aktualizuje záznamy zaměstnání.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "35ae0bf41bc8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cec364ce3c60"
+                  },
+                  "content": [
+                    {
+                      "text": "import_pacientu_PLS.csv — 25 nebo 23 sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2620069ec79a"
+      },
+      "content": [
+        {
+          "text": "Podrobné návody pro každý typ importu jsou dostupné v podstránkách níže.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

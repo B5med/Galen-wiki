@@ -1,0 +1,1494 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "a4b1acfb73c4"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a077f8b24be4"
+          },
+          "content": [
+            {
+              "text": "Fakturaci PLS provádí uživatel s rolí ",
+              "type": "text"
+            },
+            {
+              "text": "správce",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ". Zahrnuje kontrolu stavů uzavřených akcí v PLS Adminu, generování faktur a správu číselné řady.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "b02faebae9dc"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ea72e41594b8"
+      },
+      "content": [
+        {
+          "text": "📊 PLS Admin — přehled akcí před fakturací",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2efd0b3eff2b"
+      },
+      "content": [
+        {
+          "text": "Okno ",
+          "type": "text"
+        },
+        {
+          "text": "PLS Admin",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " slouží k celkovému přehledu všech PLS akcí (prohlídky a očkování). Záznamy lze filtrovat a připravit k fakturaci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "1177668862a9"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "02ae9354a8ed"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8e5fb2718f39"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "266fd5df4f14"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav akce",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "08e46e87a9a4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4f018843c889"
+                  },
+                  "content": [
+                    {
+                      "text": "Význam",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "08519c4bca02"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aa7fc6198918"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7cfd7956bb28"
+                  },
+                  "content": [
+                    {
+                      "text": "Nová naplánovaná akce",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "443c6a6e3957"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "56a9ed5dd0d3"
+                  },
+                  "content": [
+                    {
+                      "text": "Nově založená PLS prohlídka nebo očkování, dosud neuzavřená",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1838fafb8aab"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "260a83505d96"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fa8914918c3a"
+                  },
+                  "content": [
+                    {
+                      "text": "Přiděleno dalšími IČP",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2f2f5e90b40e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5e95dfaeeb24"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastává pouze u nehlavních položek smlouvy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ec47b16713c4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2a0e79a0f779"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9ccf8ce290b9"
+                  },
+                  "content": [
+                    {
+                      "text": "Vráceno",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bab4ca331b3f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "22a57891e0ba"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastává pouze u nehlavních položek smlouvy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "91dfbca44039"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "42d8ede5e5a8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a350bf5e052e"
+                  },
+                  "content": [
+                    {
+                      "text": "Uzavřena, fakturovat",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b636f511a997"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f3468f0e2bed"
+                  },
+                  "content": [
+                    {
+                      "text": "Uzavřená akce, fakturace dosud neproběhla — ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "připraveno k fakturaci",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a6054cf78f2b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "816c3771fde4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4a52323aa965"
+                  },
+                  "content": [
+                    {
+                      "text": "Uzavřena, nefakturovat",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7989457d6c5f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "065ca2e5edb4"
+                  },
+                  "content": [
+                    {
+                      "text": "Výsledek prohlídky je „Nedostavil/a se“ a smlouva nemá zapnuté fakturování tohoto stavu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "7e3a97964558"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2c5592e9ac15"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c2010084de0d"
+                  },
+                  "content": [
+                    {
+                      "text": "Faktura vystavena",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "41f08853e5ba"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6777068bf41e"
+                  },
+                  "content": [
+                    {
+                      "text": "Fakturace proběhla",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b07a64a07bb9"
+      },
+      "content": [
+        {
+          "text": "Další možnosti v PLS Adminu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "cd89d6cd8be2"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8f3d1c8ef1ca"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "60b74c143d5c"
+              },
+              "content": [
+                {
+                  "text": "Uzavřené položky lze ",
+                  "type": "text"
+                },
+                {
+                  "text": "znovu otevřít",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4357d6787c8e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "39bd15131e58"
+              },
+              "content": [
+                {
+                  "text": "U neuzavřených položek lze měnit ",
+                  "type": "text"
+                },
+                {
+                  "text": "způsob úhrady",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (hotovost ↔ faktura).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3eabf50d5921"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "12227128f83a"
+              },
+              "content": [
+                {
+                  "text": "Dodatečně přidané položky na prohlídce (mimo smlouvu) lze ",
+                  "type": "text"
+                },
+                {
+                  "text": "odstranit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "563dfddf65cf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e668c860c88"
+              },
+              "content": [
+                {
+                  "text": "Přes kontextové menu (pravé tlačítko myši) lze určit ",
+                  "type": "text"
+                },
+                {
+                  "text": "datum příští prohlídky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " i s poznámkou. Změna je viditelná v recepci a PLS aplikaci (za datem se zobrazí „určeno správcem“).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "dbc6509ba9c2"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "83676e0dc359"
+      },
+      "content": [
+        {
+          "text": "📄 PLS Admin Služby — přehled služeb",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e170df146a2f"
+      },
+      "content": [
+        {
+          "text": "Okno ",
+          "type": "text"
+        },
+        {
+          "text": "PLS Admin Služby",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zobrazuje přehled vytvořených PLS služeb. Služby lze filtrovat, uzavřené znovu otevřít a u neuzavřených měnit způsob úhrady. Stavy odpovídají stavům z PLS Adminu (stavy Přiděleno dalšími IČP, Vráceno a Uzavřena, nefakturovat u služeb nenastávají).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "0af8db83d810"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f96bd048a651"
+      },
+      "content": [
+        {
+          "text": "🧾 Generování PLS faktur",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "90d095a47ae9"
+      },
+      "content": [
+        {
+          "text": "Faktury se generují v okně ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování PLS faktur",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (sekce PLS Faktury).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "8934602e6cb4"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "bb83ff43f259"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c20c04106e45"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9f441e07f8a5"
+                  },
+                  "content": [
+                    {
+                      "text": "Prvek",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "edbf2af07e75"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a70995baba29"
+                  },
+                  "content": [
+                    {
+                      "text": "Funkce",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5c3fd8a11aa3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "40a4ccfd175c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "02a4784a744d"
+                  },
+                  "content": [
+                    {
+                      "text": "Období",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "18fcadfa8995"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4304c9b9665c"
+                  },
+                  "content": [
+                    {
+                      "text": "Filtr ve formátu RRMM (např. 2506 = červen 2025). Určuje, které faktury se zobrazí nebo smají.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3e6642a103c4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0711fc6d3c3b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "36f83b492b13"
+                  },
+                  "content": [
+                    {
+                      "text": "Datum vystavení",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d8b1bace9c94"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "936f5072b732"
+                  },
+                  "content": [
+                    {
+                      "text": "Určuje, od jakého data mají být faktury vystaveny. Akce vytvořené po tomto datu do faktur nevstoupí.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "18f2b00c0c42"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f788c492bf66"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9ff6c3a32c13"
+                  },
+                  "content": [
+                    {
+                      "text": "Tlačítko Nové",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b5f4fe2df8ce"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27b5dce876fd"
+                  },
+                  "content": [
+                    {
+                      "text": "Vygeneruje nové faktury pro uzavřené akce se stavem „Uzavřena, fakturovat“.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ca9aeff35b61"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5b4d7eaecabd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2bd9e909bd12"
+                  },
+                  "content": [
+                    {
+                      "text": "Tlačítko Smazat",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "260ebb398483"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c9fc368e645b"
+                  },
+                  "content": [
+                    {
+                      "text": "Odstraňuje stávající faktury podle zadaného období (na základě data jejich vytvoření).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5209f87a720e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4b0e895007e0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "61da866d8aa0"
+                  },
+                  "content": [
+                    {
+                      "text": "Hlavní prohlídky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a2cdaf00cac3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9011cf455a7d"
+                  },
+                  "content": [
+                    {
+                      "text": "Checkbox — zobrazí v přehledu položek pouze prohlídky definované jako hlavní položky smlouvy.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "6f2e7902949f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1df804057e94"
+      },
+      "content": [
+        {
+          "text": "🔢 Číselná řada PLS faktur",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d9467c7de40"
+      },
+      "content": [
+        {
+          "text": "Fakturace PLS používá automaticky generovanou ",
+          "type": "text"
+        },
+        {
+          "text": "desetimístné číselné označení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "bb579b9d9be2"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "812f0be52372"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9d9947534ab9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc0710f55672"
+                  },
+                  "content": [
+                    {
+                      "text": "Pozice",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b609e9662af3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d8e0b46af16c"
+                  },
+                  "content": [
+                    {
+                      "text": "Význam",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "715aaaffaf14"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f99658d336e7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a0f120488ac5"
+                  },
+                  "content": [
+                    {
+                      "text": "1. číslice",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a269dd076e67"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ecfef954d642"
+                  },
+                  "content": [
+                    {
+                      "text": "Vždy ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "1",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "7f0df8707f85"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "483dd2c58279"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d32e65c1c9de"
+                  },
+                  "content": [
+                    {
+                      "text": "2.–3. číslice",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2d33212394c9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3e2e14f90740"
+                  },
+                  "content": [
+                    {
+                      "text": "Rok minus 2000 (např. rok 2025 → ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "25",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ")",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1f39f3872bfa"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4dd9cac9dc88"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "269042d2e3bf"
+                  },
+                  "content": [
+                    {
+                      "text": "4.–5. číslice",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "01aca1053cf9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "404bdc4743a5"
+                  },
+                  "content": [
+                    {
+                      "text": "Vždy ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "00",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f4edcf53263e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ce359b389dad"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "016b6c5736d4"
+                  },
+                  "content": [
+                    {
+                      "text": "6.–10. číslice",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "184cd0451078"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "53ec84d0bd7b"
+                  },
+                  "content": [
+                    {
+                      "text": "Pořadové číslo od ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "00001",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", zvyšuje se o 1 u každé nové faktury",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e27b000cc06b"
+      },
+      "content": [
+        {
+          "text": "Příklad:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " 1250000001, 1250000002, …, 1250000014",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
