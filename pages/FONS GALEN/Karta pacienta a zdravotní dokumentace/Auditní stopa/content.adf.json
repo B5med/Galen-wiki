@@ -1,0 +1,624 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9cbc20a439f0"
+      },
+      "content": [
+        {
+          "text": "Auditní stopa je nadstandardní placená funkce systému FONS Galen, která v souladu s požadavky vyhlášky č. 98/2012 Sb. o zdravotnické dokumentaci zaznamenává, kdo a kdy s každým záznamem zdravotnické dokumentace pracoval — tedy kdo záznam vytvořil, upravil nebo smazal.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1cadd791855f"
+      },
+      "content": [
+        {
+          "text": "Kde je auditní stopa k dispozici",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5a4665955072"
+      },
+      "content": [
+        {
+          "text": "Auditní stopa pokrývá všechny části systému, které tvoří zdravotnickou dokumentaci pacienta. Konkrétně je dostupná u těchto záznamů:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3488673eef4e"
+      },
+      "content": [
+        {
+          "text": "Pacient a jeho základní údaje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pacient, adresa pacienta, doklady pacienta, pojištění, registrace, zaměstnání, jazyk, dispenzární skupina, události pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1923,
+            "alt": "image-20260618-113716.png",
+            "id": "1ea738a1-37d5-4ebe-a8ad-bd138eda0499",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "47b4505cbad5",
+            "height": 1031
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1439,
+            "alt": "image-20260618-113831.png",
+            "id": "491c9ba9-9023-4518-93d3-0d640afcc29b",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "aa75a43f9216",
+            "height": 752
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a41218d79b52"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1e7510d499c8"
+      },
+      "content": [
+        {
+          "text": "Návštěva a vyšetření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Návštěva, zařazení do skupiny, vyšetření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260618-114012.png",
+            "id": "9e56718c-e858-4ae4-9217-092f2395d901",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "f4048d6d0981",
+            "height": 1031
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1441,
+            "alt": "image-20260618-114048.png",
+            "id": "8b5797f6-2b88-4121-8472-7b3026c3d68a",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "40f505830078",
+            "height": 753
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1921,
+            "alt": "image-20260618-114207.png",
+            "id": "e20e8fe8-f945-44ab-9a6a-38f63c217a0f",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "5859475625c7",
+            "height": 1029
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1441,
+            "alt": "image-20260618-114239.png",
+            "id": "88c692d7-1341-4c68-b217-a94648555ff9",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "08d557124816",
+            "height": 753
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9c83f4fe67d8"
+      },
+      "content": [
+        {
+          "text": "Lékařská dokumentace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Lékařská zpráva, anamnéza.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1919,
+            "alt": "image-20260618-114703.png",
+            "id": "98922234-2af6-4147-bfe7-6aa732e4dd99",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "33d156fc16d8",
+            "height": 1031
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260618-114837.png",
+            "id": "4e029e43-0b01-48cd-9bf6-391c821a3ae2",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "bb182e7c43ca",
+            "height": 1033
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9506426a3fa5"
+      },
+      "content": [
+        {
+          "text": "Poukazy a žádanky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "ePoukaz (základní, foniatrický, léčebný, optický, položky, přílohy, výdej), žádanka RDG (včetně EZD varianty), poukaz FT – EZD, externí žádanka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260618-115203.png",
+            "id": "ae392e09-7f77-48fb-9466-e23426e81077",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "cfe1cc78f861",
+            "height": 569
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1921,
+            "alt": "image-20260618-115401.png",
+            "id": "cd634b6b-5b4c-47b1-94ef-99d530f7a660",
+            "collection": "contentId-463175681",
+            "type": "file",
+            "localId": "143b5a08899c",
+            "height": 1034
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c66a13d20f42"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f231385913e1"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b9f2e5f6cfbd"
+      },
+      "content": [
+        {
+          "text": "Ostatní zdravotnická dokumentace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Očkování, recept, kontakt, přesun papírové dokumentace, významný chirurgický výkon, dopravní výkon, dopravní žádanka a řidič na žádance, dokladová položka ZUM, eZpráva, přístup API.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d403e1b9f9d7"
+      },
+      "content": [
+        {
+          "text": "Provoz a správa",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Pracovník, pracovník – nastavení, uživatel, uživatel – nastavení a údaje, lekar (pracoviště), politika hesel, přístupový klíč API, přístupový token API, dokladová položka ZUM.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9e5e9954f45c"
+      },
+      "content": [
+        {
+          "text": "Co auditní stopa zobrazuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3cb10d0e24f9"
+      },
+      "content": [
+        {
+          "text": "U každého záznamu lze zobrazit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "03f0c092-ba99-4928-b062-f1aef6aa1d9b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4a7063ea-1fc1-45f0-a2b2-231bdce60087"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "331eb3c4a1a4"
+              },
+              "content": [
+                {
+                  "text": "kdo záznam ",
+                  "type": "text"
+                },
+                {
+                  "text": "vytvořil",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a kdy,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4f7af2ae-adf0-496b-bc9e-4ffcd3ab0132"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c2823a406e27"
+              },
+              "content": [
+                {
+                  "text": "kdo záznam ",
+                  "type": "text"
+                },
+                {
+                  "text": "naposledy upravil",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a kdy,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9bacef59-41bd-4a14-9dcd-bfcae8ab4477"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6287f299dc78"
+              },
+              "content": [
+                {
+                  "text": "kdo záznam ",
+                  "type": "text"
+                },
+                {
+                  "text": "smazal",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a kdy (u smazaných záznamů).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3ee25619e05a"
+      },
+      "content": [
+        {
+          "text": "Způsoby zobrazení auditní stopy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "73e26fe47e08"
+      },
+      "content": [
+        {
+          "text": "Auditní stopa se v systému zobrazuje dvěma způsoby podle typu záznamu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a401a8c072b3"
+      },
+      "content": [
+        {
+          "text": "Přehled změněných položek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — u záznamů jako je anamnéza je v pravém horním rohu záznamu dostupná ikona, po jejímž kliknutí se zobrazí seznam konkrétních polí, která byla změněna, včetně původní a nové hodnoty a informace o tom, kdo změnu provedl a kdy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b9e0f8d8bd2"
+      },
+      "content": [
+        {
+          "text": "Listování verzemi",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " — u dokumentů jako jsou formuláře, poukazy nebo žádanky je v levém panelu dostupná „Historie\" se seznamem všech verzí záznamu. Jednotlivými verzemi lze procházet pomocí šipek v dolní části obrazovky a porovnávat tak stav dokumentu v různých časových okamžicích.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
