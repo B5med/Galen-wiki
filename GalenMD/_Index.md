@@ -5,16 +5,16 @@ generated: 2026-06-18
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **18. 6. 2026**  ·  Celkem stránek: **307**  ·  Poslední sync z Confluence: 2026-06-18
+> **18. 6. 2026**  ·  Celkem stránek: **309**  ·  Poslední sync z Confluence: 2026-06-18
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **31** |
+| 🔥 | Do 3 dnů | **34** |
 | ♨️ | Do 14 dnů | **0** |
 | 🌿 | Do 30 dnů | **9** |
-| 📄 | Do 90 dnů | **39** |
+| 📄 | Do 90 dnů | **38** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -61,6 +61,7 @@ generated: 2026-06-18
         - 🗄️ [[AISLP]] `v1` · 21. 7. 2025
         - 🗄️ [[eRecept - SÚKL]] `v2` · 21. 7. 2025
         - 🗄️ [[eRecept – návod k použití]] `v2` · 21. 7. 2025
+      - 🔥 [[Lékové interakce]] `v1` · 18. 6. 2026
       - 🗄️ [[Lékové žádanky]] `v2` · 19. 6. 2025
       - 🗄️ [[Podávání léčiv]] `v1` · 21. 7. 2025
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
@@ -117,7 +118,7 @@ generated: 2026-06-18
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🔥 [[Objednávání, kalendáře, notifikace]] `v3` · 16. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
-    - 📄 [[SMS zprávy ve FONS Galen]] `v2` · 13. 4. 2026
+    - 🔥 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - 🔥 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
@@ -208,6 +209,7 @@ generated: 2026-06-18
     - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
       - 🗄️ [[Import KDávek]] `v1` · 21. 7. 2025
       - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
+      - 🔥 [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025

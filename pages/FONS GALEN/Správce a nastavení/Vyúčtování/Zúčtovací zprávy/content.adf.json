@@ -1,0 +1,3304 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a06594976466"
+      },
+      "content": [
+        {
+          "text": "Projekt zúčtovacích zpráv má za cíl zajistit kompletní evidenci záznamů ze zúčtovacích zpráv v programu Galen, porovnání s odeslanými fakturami a dávkami, ke kterým se zúčtovací zpráva vztahuje, přiložení této zúčtovací zprávy k faktuře v Galen. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4b333ae2c1c5"
+      },
+      "content": [
+        {
+          "text": "Modul zúčtovacích zprávy je nadstandardním placeným modulem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ebd1fbe57fcc"
+      },
+      "content": [
+        {
+          "text": "Typy zúčtovacích zpráv ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9b24f92a70c9"
+      },
+      "content": [
+        {
+          "text": "V AIS Galen je možné evidovat více typů zúčtovacích zpráv ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2c5268ae-2ee4-4e3c-866e-227a3581ab41"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f1bbb0b1-6fc9-40c6-ac5a-f44a93d4a59a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6fa6d5556246"
+              },
+              "content": [
+                {
+                  "text": "Měsíční ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3ce94bb3-951c-4b82-8187-997eb884f808"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b0086dc5-b33c-47d5-b049-b2f1f8aabdf4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e3e6e6aaabe9"
+              },
+              "content": [
+                {
+                  "text": "Kvartální ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2edb74bb-2c8f-4807-9322-671d372a6f5d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7ac0623a-9d90-419e-90f8-60cd568eedfc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "257a377a8e7e"
+              },
+              "content": [
+                {
+                  "text": "Roční ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "adcae2c8-f14f-4247-aefa-726d1e3426ac"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c8843ce8-6c67-45fe-b73f-85543a205f60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d1728e254a6b"
+              },
+              "content": [
+                {
+                  "text": "Revizní ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e4bb87a58da1"
+      },
+      "content": [
+        {
+          "text": "Měsíční",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zúčtovací zpráva slouží jako centrální místo pro opravu chybných dokladů, výkonů, atp.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ddc882b2c7ac"
+      },
+      "content": [
+        {
+          "text": "Ostatní typy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zúčtovacích zpráv existují bez vazby na fakturu či podání. Význam ostatních typů zúčtovacích zpráv je pouze evidenční, tzn. nemají vazbu na doklady, výkony v AIS Galen.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "908e1bedc94d"
+      },
+      "content": [
+        {
+          "text": "Manipulace se zúčtovacími zprávami  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "df892a127d03"
+      },
+      "content": [
+        {
+          "text": "Pro zúčtovací zprávy je vytvořen nový modul, který se otevírá pomocí ikony ",
+          "type": "text"
+        },
+        {
+          "text": "Zúčtovací zprávy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "63856c734c1e"
+      },
+      "content": [
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 53,
+            "alt": "image-20260618-090427.png",
+            "id": "ef42c477-09a4-45d9-87e6-dc741519b760",
+            "collection": "contentId-461045784",
+            "type": "image",
+            "localId": "ca4b03937f61",
+            "height": 48
+          }
+        },
+        {
+          "text": " v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správce->Vyúčtování.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c15dcae7e284"
+      },
+      "content": [
+        {
+          "text": "Z tohoto seznamu je možné pracovat se všemi typy zúčtovacích zpráv.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 355,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 355,
+            "alt": "image-20260618-090449.png",
+            "id": "6e07e53e-bd7a-47a0-a3be-377b0d132d23",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "dbe5fcf121ad",
+            "height": 170
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7fde6ec827b7"
+      },
+      "content": [
+        {
+          "text": "Výjimkou je zakládání měsíční zúčtovací zprávy, které bude možné pouze ze seznamu faktur nebo ze seznamu podání.  ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "56dc7b3495a4"
+      },
+      "content": [
+        {
+          "text": "Zakládání a úprava měsíčních zúčtovacích zpráv ze seznamu faktur ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eb8cfd1a3863"
+      },
+      "content": [
+        {
+          "text": "Pro založení zúčtovací zprávy s vazbou na fakturu je nutné vstoupit do modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správce->Vyúčtování->Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". V zobrazeném seznamu faktur uživatel vybere fakturu/faktury, nad kterými chce založit zúčtovací zprávu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260618-090512.png",
+            "id": "0869702c-1a7f-49f5-94d6-24c8285f9c72",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "3c0f91b38dbc",
+            "height": 72
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1016765b4fff"
+      },
+      "content": [
+        {
+          "text": "Uživatel vybírá ty faktury, kterých se týká zúčtovací zpráva od pojišťovny, kterou chce zpracovat. Jedná o ty faktury, které mají společné období, pojišťovnu, pobočku pojišťovny, vyúčtovací skupinu a IČZ. Faktura může být navázána na právě jednu zúčtovací zprávu, a proto není možné vybrat fakturu, která již je v jiné zúčtovací zprávě v AIS Galen zahrnuta. Pokud vybrané faktury pravidlo splňují, zobrazuje se nad seznamem faktur aktivní tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Založit ZZp",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "65ccf12862bf"
+      },
+      "content": [
+        {
+          "text": "Tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazit ZZp",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bude aktivní v případě, kdy je vybrána alespoň jedna faktura, která již na je zúčtovací zprávu navázána.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260618-090535.png",
+            "id": "2df26677-3d2a-4454-b4ca-3e05ddd650e6",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "b9bfbbb0ab22",
+            "height": 72
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "25469d1630bf"
+      },
+      "content": [
+        {
+          "text": "Obě tlačítka zobrazí na detail ",
+          "type": "text"
+        },
+        {
+          "text": "měsíční",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zúčtovací zprávy.   ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "09445f81-dcf7-4725-ae13-209c041e524e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a28d1853-e6c9-4f5a-9f40-2f8e7db9ce39"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9e33a375cc2c"
+              },
+              "content": [
+                {
+                  "text": "V případě ",
+                  "type": "text"
+                },
+                {
+                  "text": "Založit ZZp ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "se vytvoří nová měsíční zúčtovací zpráva (zatím jen v paměti).   ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3c09ac8b-37cf-4ac3-8c99-7b77aa23f477"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2dca0664-c18d-44cc-83d3-088be7df4048"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cc20a62cd729"
+              },
+              "content": [
+                {
+                  "text": "V případě ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zobrazit ZZp ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "se načte již existující zúčtovací zpráva, včetně případných změn vyznačených uživatelem.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05681e2c9530"
+      },
+      "content": [
+        {
+          "text": "Poznámka: Pokud by bylo uživatelem označeno více faktur vázaných na různé zúčtovací zprávy, zobrazí se zúčtovací zpráva k poslední označené faktuře.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ee71870a647d"
+      },
+      "content": [
+        {
+          "text": "Pokud detail zúčtovací zprávy uživatel opustí tlačítkem OK, budou provedené změny uloženy. Pokud detail zúčtovací zprávy uživatel opustí tlačítkem Storno, nebudou provedené změny uloženy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd9afc46e82c"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "32558a92abfa"
+      },
+      "content": [
+        {
+          "text": "Zakládání a úprava měsíčních zúčtovacích zpráv ze seznamu podání ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "201edb6791d3"
+      },
+      "content": [
+        {
+          "text": "Pro založení zúčtovací zprávy s vazbou na podání je nutné vstoupit do modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správce->Vyúčtování->Přehled->záložka Podání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e4ddb4472211"
+      },
+      "content": [
+        {
+          "text": "Uživatel vybírá ta podání, kterých se týká zúčtovací zpráva od pojišťovny, kterou chce zpracovat. Jedná o ta podání, která mají společné období, pojišťovnu, pobočku pojišťovny, vyúčtovací skupinu, IČZ a nejsou vázány k žádné zúčtovací zprávě. Pokud vybraná podání pravidlo splňují, zobrazuje se nad seznamem podání aktivní tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Založit ZZp",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 450,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 450,
+            "alt": "image-20260618-090611.png",
+            "id": "4c5e1a81-e974-4fd2-b28c-2ca982a310ca",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "4146ee9f3d40",
+            "height": 66
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5767caad5680"
+      },
+      "content": [
+        {
+          "text": "Pokud je aspoň jedno z podání již navázáno na zúčtovací zprávu v AIS Galen, zobrazí se tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Zobrazit ZZp",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 450,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 450,
+            "alt": "image-20260618-090630.png",
+            "id": "c4fb78ea-4a81-44ce-a7d2-80e4f3356245",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "a86081b02da2",
+            "height": 66
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0a7342993445"
+      },
+      "content": [
+        {
+          "text": "Obě tlačítka zobrazí na detail ",
+          "type": "text"
+        },
+        {
+          "text": "měsíční",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zúčtovací zprávy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8c974e16-5d94-4ec2-98b5-e8776c2cd277"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4d48c49b-fb47-4b17-93a3-deb55c3bf870"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c96960362bad"
+              },
+              "content": [
+                {
+                  "text": "V případě ",
+                  "type": "text"
+                },
+                {
+                  "text": "Založit ZZp ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "se vytvoří nová měsíční zúčtovací zpráva (zatím jen v paměti).  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1f671c00-f550-4ad3-97bc-f5f184cc0c2e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b485fec3-91fd-4f09-a0db-39b507c0f0c1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "237bb3642af5"
+              },
+              "content": [
+                {
+                  "text": "V případě ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zobrazit ZZp ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "se načte již existující zúčtovací zpráva, včetně případných změn vyznačených uživatelem. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "51287ad02a73"
+      },
+      "content": [
+        {
+          "text": "Poznámka: Pokud by bylo uživatelem označeno více podání vázaných na různé zúčtovací zprávy, zobrazí se zúčtovací zpráva k poslednímu označenému podání. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2592a0ed874"
+      },
+      "content": [
+        {
+          "text": "Pokud detail zúčtovací zprávy uživatel opustí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "OK",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", budou provedené změny uloženy. Pokud detail zúčtovací zprávy uživatel opustí tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Storno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", nebudou provedené změny uloženy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8a04ef656371"
+      },
+      "content": [
+        {
+          "text": "Zakládání ostatních typů zúčtovacích zpráv ze seznamu zúčtovacích zpráv ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "88284217d9bb"
+      },
+      "content": [
+        {
+          "text": "Základní scénář použití je: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "af320120-ac4c-4211-9462-0f29f4341569",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1d2374f7-9ad8-4453-9812-88812ebd895b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "83551d5fdec4"
+              },
+              "content": [
+                {
+                  "text": "Uživatel vstoupí do modulu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce -> Vyúčtování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", v horní liště klikne na ikonu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Zúčtovací zprávy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ". ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "eb8bc806-a6c7-45c5-803a-2ab49f2b0974",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4b36911f-b550-4a93-b31e-f94f76907a41"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "61da72f3641e"
+              },
+              "content": [
+                {
+                  "text": "Systém zobrazí seznam evidovaných zúčtovaných zpráv. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 355,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 355,
+                    "alt": "image-20260618-090703.png",
+                    "id": "d24131a6-dc8c-419c-af52-831882a6e5df",
+                    "collection": "contentId-461045784",
+                    "type": "file",
+                    "localId": "41895c1263ca",
+                    "height": 170
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "78bc3889-2709-4bc4-bafc-b86de81dc44a",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1494ed2f-020b-4ba0-b0fe-e6d5037504ab"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8f0d041ae49e"
+              },
+              "content": [
+                {
+                  "text": "Uživatel použije tlačítko pro vytvoření zúčtovací zprávy požadovaného typu (",
+                  "type": "text"
+                },
+                {
+                  "text": "Kvartální",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", ",
+                  "type": "text"
+                },
+                {
+                  "text": "Roční",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", Revizní). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "eb6ae15f-8d75-49de-b7cf-a8dcefce714d",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ca5fa1c0-595d-4afa-bb11-3378dc0b7009"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "55ccc3aac48b"
+              },
+              "content": [
+                {
+                  "text": "Zobrazí se prázdná zúčtovací zpráva, uživatel vyplní základní identifikační údaje. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "6ce12238-1f89-4687-b438-a9b390aa4d91",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2655b025-d6bc-4cbb-a473-14e10ea43476"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a1b42cfc0d95"
+              },
+              "content": [
+                {
+                  "text": "Pokud detail zúčtovací zprávy uživatel opustí tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "OK",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", budou provedené změny uloženy. Pokud detail zúčtovací zprávy uživatel opustí tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Storno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", nebudou provedené změny uloženy. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "be5ea5d91c9b"
+      },
+      "content": [
+        {
+          "text": "Zobrazování, editace zúčtovacích zpráv ze seznamu zúčtovacích zpráv ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f6489a62d664"
+      },
+      "content": [
+        {
+          "text": "Již založené zúčtovací zprávy vč. Zúčtovacích zpráv měsíčních, je možné vyhledat a zobrazit v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Zúčtovací zprávy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 53,
+            "alt": "image-20260618-090726.png",
+            "id": "c4adace3-ba07-4a08-acd2-a7d8c6444cc3",
+            "collection": "contentId-461045784",
+            "type": "image",
+            "localId": "b1ebac7b30df",
+            "height": 48
+          }
+        },
+        {
+          "text": " . Pomocí filtru uživatel vyhledá konkrétní zúčtovací zprávu, může zobrazit její detail a v závislosti na jejím stavu může provádět úpravy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0004c8091edb"
+      },
+      "content": [
+        {
+          "text": "Detail měsíční zúčtovací zprávy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a08a7cd11ef8"
+      },
+      "content": [
+        {
+          "text": "Detail měsíční zúčtovací zprávy vypadá takto ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 450,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 450,
+            "alt": "image-20260618-090757.png",
+            "id": "a6750169-438e-4044-b5d2-2178c213bc6e",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "cb8eada8e35e",
+            "height": 248
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2034c2d8f99"
+      },
+      "content": [
+        {
+          "text": "Okno je rozděleno do několika částí, které na sebe vzájemně reagují. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "72f4b1f3-3002-4003-a483-1beb798a342c",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6acf47bc-e263-45ba-bb85-efa29c1b9ea0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9e3763622ee8"
+              },
+              "content": [
+                {
+                  "text": "Stav zúčtovací zprávy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9ba01fa8c6e6"
+      },
+      "content": [
+        {
+          "text": "Zúčtovací zprávy může nabývat stavů ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "753190cc-d2ed-48c3-95a0-0605512c1bca"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "04ac082a-e924-47de-a9b3-f49ba0f1574c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "12c45298066c"
+              },
+              "content": [
+                {
+                  "text": "Ke zpracování – jedná se o novou zúčtovací zprávu, na které je nutné provést takové úpravy, aby byl rozdíl na zúčtovací zprávě roven nule. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "9af8bddd-5409-4824-ac7a-55ca368b226f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a0d09696-cd22-4da7-9758-403b9a60eda9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "36a12c565f9e"
+              },
+              "content": [
+                {
+                  "text": "Zpracovaná – rozdíl na zúčtovací zprávě je roven nule, ale zpráva ještě nebyla uzavřená. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3194ab80-b670-4016-8265-8540b6bff95b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0aeefa45-54cc-4ea7-bbd6-489a5777b559"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "930884dcc8e8"
+              },
+              "content": [
+                {
+                  "text": "Uzavřená – rozdíl na zúčtovací zprávě je roven nule a zpráva byla uzavřena. Nyní už na ní nelze provádět změny. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "478f0473-0e95-4ac9-a5d3-500e02c1ded5",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "960947c2-8567-4656-b262-18199187c186"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "710c18abb2bd"
+              },
+              "content": [
+                {
+                  "text": "Možnost přidat ke zúčtovací zprávě přílohy, např. originál zúčtovací zprávy. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "604234e7-17c4-402d-9b7a-36d28aa65228",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f61a5d97-c0b5-4836-ac91-3cd11173cfb5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a4e08c3b4e7f"
+              },
+              "content": [
+                {
+                  "text": "Seznam faktur/Seznam podání, ze kterých byla zúčtovací zpráva v AIS Galen vytvořena.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad5c447337a3"
+      },
+      "content": [
+        {
+          "text": "Pomocí tlačítka PLUS je možné přidat další faktury/podání, které splňují pravidla uvedená v kapitole Zakládání a úprava měsíčních zúčtovacích zpráv ze seznamu podání/faktur. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0642822f-2cbe-4e80-8861-d94bb959b399",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8d55f871-04a1-4573-9197-aa8d918a8fc4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3040d1a8be65"
+              },
+              "content": [
+                {
+                  "text": "Rekapitulace ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1d5270fb-359b-43ea-a4f3-de81135c91af"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a5a123fa-3bf4-41b0-8678-bfbf5dfe2897"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cbb9a7247d83"
+              },
+              "content": [
+                {
+                  "text": "Požadováno",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = Celkem za faktury/podání ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "fa10a123-4dd8-4c8e-b575-8a19ad3b036a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f24cb030-e412-4717-b1d4-2d79ed41b115"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c846f2a6a86"
+              },
+              "content": [
+                {
+                  "text": "Uznáno ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= uživatel vyplní částku, kterou mu pojišťovna na zúčtovací zprávě uznala ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "cd4c41f9-78a8-4417-a4ac-d1f26bae36d3"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "561a927c-eb87-493f-afec-4898dd2f7864"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ff62c98f38f0"
+              },
+              "content": [
+                {
+                  "text": "Rozdíl ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= rozdíl mezi celkovou požadovanou a uznanou platbou ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "45820d56-95ce-46a8-a644-2aa54f6532f9"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "657c3a5e-c5b9-4488-a48d-77df2f00bba8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "292e8c14e107"
+              },
+              "content": [
+                {
+                  "text": "K opravě ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= částka, kterou je nutné v rámci zúčtovací zprávy v AIS Galen opravit. Rozdíl – suma za rozšiřující položky – suma rozdílů za kapitační dávky – suma za doklady ve stavech Odmítnutý/K opravě/K novému zúčtování/Opravený ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4cddc98b-3d74-4446-841e-79b854379a84"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a4677fe0-231f-492e-a282-c8abd6afe802"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f65c2467ae92"
+              },
+              "content": [
+                {
+                  "text": "Z toho kapitace uznáno ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "= uživatel vyplní částku, kterou mu pojišťovna na zúčtovací zprávě uznala za kapitace ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c564f99c-e325-44f6-a556-3bbb295681ad"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b2ba50af-0a48-457e-aab1-414353210a18"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9dc6733abc71"
+              },
+              "content": [
+                {
+                  "text": "Z toho kapitace rozdíl",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = rozdíl mezi celkovou požadovanou částkou za kapitaci a uznanou platbou za kapitaci ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "00ebeb82-3ee4-433c-a38c-c04cea449997"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a99f2ee9-37b3-46f1-8cf0-2107aa6d2c2e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6bf5bce74a5d"
+              },
+              "content": [
+                {
+                  "text": "Rozpočítat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = rozpočítání rozdílu mezi kapitační dávky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "52ee8c59-5b0b-47a8-92ac-86c2c160ff47",
+        "order": 5
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d010a186-e75c-4993-8fac-a1c6ade77d20"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "35ba428ea1d9"
+              },
+              "content": [
+                {
+                  "text": "Rozšiřující položky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6d120cb21370"
+      },
+      "content": [
+        {
+          "text": "Umožňují korigovat rozdíl v částce k opravě. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ec83a24d-c4f8-406c-aa85-66e254d9adb5",
+        "order": 6
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d931ce0b-9d72-4d14-a94d-e9d84363ff3f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8258673a53ae"
+              },
+              "content": [
+                {
+                  "text": "Dávky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1ed5d46ce161"
+      },
+      "content": [
+        {
+          "text": "Seznam dávek z faktur/podání, ze kterých je zúčtovací zpráva vytvořena. Je možné označit právě jednu dávku a zobrazit tak doklady a výkony v ní obsažené. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "86d9bf73-f328-4f48-b281-0019b6e2e678",
+        "order": 7
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0a4d3793-3b13-42da-a582-e669067395d9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c29fa27b09bb"
+              },
+              "content": [
+                {
+                  "text": "Doklady ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b437ad38fc6a"
+      },
+      "content": [
+        {
+          "text": "Jsou zobrazené pouze ty doklady, které patří do dávky, která je v sekci Dávky označena. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "19774b1e13ee"
+      },
+      "content": [
+        {
+          "text": "Nad doklady je možné v této části provádět opravy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "24305556a6ac"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "15b9c1ae8525"
+      },
+      "content": [
+        {
+          "text": "Pro změnu stavu dokladu slouží tlačítka nazvaná podle stavu, do kterého mají doklad převést. Aktivní jsou vždy pouze ta tlačítka, která provádí realizovatelný přechod stavu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "68ab1b4d1f51"
+      },
+      "content": [
+        {
+          "text": "Pomocí multiselectu lze označit více dokladů. V tom případě jsou aktivní pouze ta tlačítka, která jsou realizovatelná u všech vybraných dokladů.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1d2bb04ac734"
+      },
+      "content": [
+        {
+          "text": "Změny provedené na dokladech (změna stavu, kód chyby) se následně promítnou do navázaných výkonů",
+          "type": "text"
+        },
+        {
+          "text": " ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "subsup",
+              "attrs": {
+                "type": "sup"
+              }
+            }
+          ]
+        },
+        {
+          "text": " a projeví se v hodnotách rozdílu v hlavičce.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20260618-090847.png",
+            "id": "2d231693-167e-4a88-b0cd-90263f65460b",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "2168ee6ff494",
+            "height": 65
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e3ccab6c-a62b-484f-b8ae-397ef1aaa120"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b750b8e7-a421-4b1b-8d69-0452414474eb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "762ba906c488"
+              },
+              "content": [
+                {
+                  "text": "Vyk. = vykázaný",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "de01e726-fbdd-400a-98a7-3047376dce29"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3ebf7b992e8"
+              },
+              "content": [
+                {
+                  "text": "Odm. = odmítnutý",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ffb54b3e701d"
+      },
+      "content": [
+        {
+          "text": "K dokladu ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "odmítnutý",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné zadat kód chyby výběrem z číselníku a případně poznámku k chybě (ruční zápis). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "be0243997898"
+      },
+      "content": [
+        {
+          "text": "S dokladem ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "odmítnutý",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " se již v dalším případném vyúčtování nepracuje. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 366,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 366,
+            "alt": "image-20260618-090900.png",
+            "id": "e4059ab6-f9be-4deb-8844-09d2f2c0ac6a",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "9d0944327887",
+            "height": 126
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eefe0af8ecd5"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "df4fee6c-15f3-42fd-90c2-fcdde08541a1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d55db813-2738-49b6-bb12-1f1bf5935b35"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d0060120d727"
+              },
+              "content": [
+                {
+                  "text": "KO = K opravě",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f3749d863c20"
+      },
+      "content": [
+        {
+          "text": "Dokladům ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K opravě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " budou po uzavření zúčtovací zprávy automaticky vytvořeny kopie ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Opravný",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a tyto kopie budou připraveny k zařazení do opravného vyúčtování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ca3e80952b8d"
+      },
+      "content": [
+        {
+          "text": "K dokladu ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K opravě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné zadat kód chyby výběrem z číselníku a případně poznámku k chybě (ruční zápis). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f72cb9d052ff"
+      },
+      "content": [
+        {
+          "text": "Dále je možné změnit datum, ke kterému má být nově vzniklý opravný doklad vykázán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 366,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 366,
+            "alt": "image-20260618-090911.png",
+            "id": "0094e0e2-bd7f-40e3-a3d6-e3a2b9cc4f0c",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "c84b3850d5a8",
+            "height": 87
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8fa74725a606"
+      },
+      "content": [
+        {
+          "text": "V rámci opravy dokladu je možné ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c920b8ac-6739-4499-a745-ded07e2a774d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "328881ce-2f76-4212-9e23-fbe19b4004c6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4c318c93d079"
+              },
+              "content": [
+                {
+                  "text": "Upravit kartu pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5dda3b98-41ff-4fe9-b819-a23639452656"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6a881e7f-1655-4ae5-adba-fbeb370f06da"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8a746c11853b"
+              },
+              "content": [
+                {
+                  "text": "Změnit pacienta, kterému výkony na dokladu budou vykázány ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7539675c-00bf-47ec-824d-f220b8a52e87"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5c1b18ae-b9de-472f-8d89-ecccd84023ea"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d3d442375882"
+              },
+              "content": [
+                {
+                  "text": "Upravit registraci daného pacienta ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 454,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 454,
+                    "alt": "image-20260618-090927.png",
+                    "id": "df13142e-db4e-40ac-a48e-831ac886480a",
+                    "collection": "contentId-461045784",
+                    "type": "file",
+                    "localId": "d79a3048d570",
+                    "height": 101
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "674f39d86fee"
+      },
+      "content": [
+        {
+          "text": "Dále je možné u dokladu ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K opravě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " změnit typ dokladu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260618-090935.png",
+            "id": "f0e06fcc-43d7-419c-809d-90819562fea9",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "8f1efabac374",
+            "height": 97
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "799ce1f4-3b32-480d-9ef0-877523e87e95"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fe339549-36f2-4006-8ad2-ab0ce6a00e99"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e7a96fd807cf"
+              },
+              "content": [
+                {
+                  "text": "KNV = K novému vyúčtování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d364942c2cd5"
+      },
+      "content": [
+        {
+          "text": "Dokladům převedeným do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K novému vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " budou automaticky po uzavření zúčtovací zprávy vytvořeny kopie ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Nový",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Tyto kopie ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Nový",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " budou připraveny k zařazení do řádného vyúčtování.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a502ca38aa3"
+      },
+      "content": [
+        {
+          "text": "K dokladu ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K novému vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné zadat kód chyby výběrem z číselníku a případně poznámku k chybě (ruční zápis). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "24c195535179"
+      },
+      "content": [
+        {
+          "text": "Dále je možné změnit datum, ke kterému má být nově vzniklý doklad vykázán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 366,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 366,
+            "alt": "image-20260618-090945.png",
+            "id": "a395a57c-3bf8-406f-bbdf-a4d384d609f1",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "5e2631833e34",
+            "height": 88
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2cfa10567890"
+      },
+      "content": [
+        {
+          "text": "V rámci změny ",
+          "type": "text"
+        },
+        {
+          "text": "K novému vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je možné ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4475dadb-65f8-45e4-a8a7-558858e90275"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "abf062d6-d11f-4092-96e9-4353136e8a33"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "adea613d620d"
+              },
+              "content": [
+                {
+                  "text": "Upravit kartu pacienta ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f670bc00-6509-4503-84f9-8f6a3aa9f339"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5b624a07-4298-411d-970c-6be3e955bcb5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "17922e221762"
+              },
+              "content": [
+                {
+                  "text": "Změnit pacienta, kterému výkony na dokladu budou vykázány ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c01ef8af-9941-420d-9275-514d087eabe5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "36b1307a-03a8-49a7-9891-2b7ac83f2d6c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a366dada921"
+              },
+              "content": [
+                {
+                  "text": "Upravit registraci daného pacienta ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 454,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 454,
+                    "alt": "image-20260618-090956.png",
+                    "id": "291766f5-95b2-48a1-9e07-72f694ebfe05",
+                    "collection": "contentId-461045784",
+                    "type": "file",
+                    "localId": "35eee9cb486e",
+                    "height": 84
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1a93b540986d"
+      },
+      "content": [
+        {
+          "text": "Dále je možné u dokladu ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "K novému vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " změnit typ dokladu ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260618-091007.png",
+            "id": "3f06e5b1-9fb7-4f49-a895-a22dc5902f7e",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "2e89ca268707",
+            "height": 83
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "c3fc373e-e1bb-475a-8e4c-afc7a4b59c22",
+        "order": 8
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5ab65876-6eab-4125-abcf-a96638517a3d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cec93de5f871"
+              },
+              "content": [
+                {
+                  "text": "Výkony/ZUM/Cesty/Foniatrické záznamy ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fdd162edcf25"
+      },
+      "content": [
+        {
+          "text": "Úpravy je možné dělat na úrovni dokladů tak, jak bylo popsaná v předchozí kapitole, nebo až na úrovní jednotlivých výkonů/ZUM/cest/foniatrických záznamů, které jsou na jednotlivých dokladech obsaženy.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c8e11ead5d32"
+      },
+      "content": [
+        {
+          "text": "Uživatel v přehledu dokladů vybere doklad, na kterém je obsažen výkon, který je potřeba upravit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a67d8bf5004"
+      },
+      "content": [
+        {
+          "text": "Opravy na úrovní výkonů poskytují stejné možnosti jako na úrovni dokladů, i když mírně omezené. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b7f1614674b0"
+      },
+      "content": [
+        {
+          "text": "Výkony mohou nabývat stavů: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7387146a-e0b2-4327-8fae-f58cc351b8e5"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2e0510c0-d542-4c9d-9e12-4c8700ed0e26"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6f24bf87bea8"
+              },
+              "content": [
+                {
+                  "text": "Vykázaný ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "61ab7523-52a2-4c8a-9ac4-e063159ccb2f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "757bfefb-9fd5-4342-8444-60e068401323"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f8087cd9285b"
+              },
+              "content": [
+                {
+                  "text": "Odmítnutý – s výkonem v tomto stavu se v případných dalších vyúčtování nepracuje. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "641ef39b-0e5e-4446-bcfe-d03fb1f6449c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4bc09538-4c3f-4cf1-a3c9-c5c73b474f0d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b002df67b067"
+              },
+              "content": [
+                {
+                  "text": "K novému vyúčtování – výkon v tomto stavu bude po uzavření zúčtovací zprávy převeden do stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Opravený",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a zároveň bude vytvořena jeho kopie ve stavu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nový",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " připravená k zařazení do řádného vyúčtování.  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8d991d1f52de"
+      },
+      "content": [
+        {
+          "text": "Tlačítko pro změnu stavů opět reagují na základě stavu vybraného výkonu/ů. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260618-091030.png",
+            "id": "52ec5477-e704-4c27-a589-5d8b13586762",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "17f54e60e3b0",
+            "height": 65
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5e8908cce1ca"
+      },
+      "content": [
+        {
+          "text": "U výkonu ve stavu K novému vyúčtování je možné upravit ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20260618-091041.png",
+            "id": "7295aeb1-4c2c-4337-9605-536116599c50",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "64e66fe7c48c",
+            "height": 84
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6f5f0a4cff8e"
+      },
+      "content": [
+        {
+          "text": "A – Údaje v kartě stávajícího pacienta nebo výkon vykázat k jinému pacientovi. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4ccc07243196"
+      },
+      "content": [
+        {
+          "text": "B – Změnit stav dokladu, na kterém bude výkon vykázán. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "90715f2ee80a"
+      },
+      "content": [
+        {
+          "text": "C – Zadat kód chyby výběrem z číselníku a případně připsat textovou poznámku k chybě. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4b2949f31ead"
+      },
+      "content": [
+        {
+          "text": "D – Změnit datum, ke kterému bude nově vytvořený výkon vykázán. Nahradit původní výkon novým výkonem. Změnit počet nově vykazovaných výkonů. Změnit diagnózu, se kterou je nově vzniklý výkon vykazován. Pokud budou pole ponechána prázdná, budou použity údaje z původního výkonu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "420bf95c662f"
+      },
+      "content": [
+        {
+          "text": "Uzavření zúčtovací zprávy ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c879a3509465"
+      },
+      "content": [
+        {
+          "text": "Po uzavření zúčtovací zprávy budou vytvořeny kopie dokladů a výkonů, které ve zúčtovací zprávě byly označeny stavem ",
+          "type": "text"
+        },
+        {
+          "text": "K opravě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebo k ",
+          "type": "text"
+        },
+        {
+          "text": "Novému vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a tyto kopie budou automaticky převedeny do příslušných stavů a připraveny k novému (řádnému)/opravnému vyúčtování, které uživatel následně provede standardním způsobem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b7a2e29391a0"
+      },
+      "content": [
+        {
+          "text": "Uzavřít zúčtovací zprávu je možné ve chvíli, kdy je zúčtovací zpráva ve stavu Zpracovaná. To znamená, že hodnota v poli ",
+          "type": "text"
+        },
+        {
+          "text": "K opravě",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je rovna nule.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 454,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 454,
+            "alt": "image-20260618-091100.png",
+            "id": "6677828e-0fcf-4a04-ab1d-dcab1b320c98",
+            "collection": "contentId-461045784",
+            "type": "file",
+            "localId": "622c45af1bce",
+            "height": 58
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "346f5faa81c1"
+      },
+      "content": [
+        {
+          "text": "Uživatel uzavře zúčtovací zprávu tlačítkem Uzavřít ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 40,
+            "alt": "image-20260618-091108.png",
+            "id": "0af9b42c-2ecb-4d16-bd1d-7a384476a989",
+            "collection": "contentId-461045784",
+            "type": "image",
+            "localId": "2e0319f861de",
+            "height": 44
+          }
+        },
+        {
+          "text": " . ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "91eaa12b3212"
+      },
+      "content": [
+        {
+          "text": "Po uzavření zúčtovací zprávy si uživatel může zobrazit opravy provedené v rámci dané zúčtovací zprávy stisknutím tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Opravy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 39,
+            "alt": "image-20260618-091125.png",
+            "id": "a8c18797-2f02-4d05-ad7f-6c28a2a80c4f",
+            "collection": "contentId-461045784",
+            "type": "image",
+            "localId": "cda72f5b3707",
+            "height": 50
+          }
+        },
+        {
+          "text": " . ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5f3207d710d5"
+      },
+      "content": [
+        {
+          "text": "Pokud v zúčtovací zprávě vznikly opravy, je potřeba je znovu odeslat na pojišťovnu standardním způsobem, tzn. stisknutím tlačítka Vyúčtovat ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 43,
+            "alt": "image-20260618-091142.png",
+            "id": "efcdede6-30b4-4f40-8095-2a0216bcfc9e",
+            "collection": "contentId-461045784",
+            "type": "image",
+            "localId": "96556ea0bdaa",
+            "height": 46
+          }
+        },
+        {
+          "text": " v modulu Vyúčtování.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a8380007f37c"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "85cf3fb19201"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c41836b7e9a5"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

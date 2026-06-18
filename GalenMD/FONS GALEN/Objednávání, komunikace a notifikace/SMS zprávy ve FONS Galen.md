@@ -1,14 +1,14 @@
 ---
 title: "SMS zprávy ve FONS Galen"
-version: 2
-updated_at: 2026-04-13
+version: 3
+updated_at: 2026-06-18
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/341704706
 ---
 
 # SMS zprávy ve FONS Galen
 
 > [!info]
-> Napojení na SMS bránu je **nadstandardní placená funkcionalita** – pro její aktivaci kontaktujte tým podpory STAPRO.
+> Napojení na SMS bránu je **nadstandardní placená funkcionalita**.
 
 ## 1. Odeslání SMS jednotlivému pacientovi z kartotéky
 

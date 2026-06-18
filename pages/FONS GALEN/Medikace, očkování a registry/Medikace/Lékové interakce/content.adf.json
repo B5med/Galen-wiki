@@ -1,0 +1,1250 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e064c26fc42f"
+      },
+      "content": [
+        {
+          "text": "Co je modul Lékové interakce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "922ef9e83b54"
+      },
+      "content": [
+        {
+          "text": "Modul Lékové interakce je nadstavbová funkce systému FONS Galen, která lékaři v reálném čase zobrazuje informace o potenciálně problematických kombinacích léků předepsaných pacientovi. Systém automaticky sleduje aktuálně rozepsané recepty a upozorňuje na dvojice léků, které mohou navzájem ovlivnit svůj účinek, zvýšit riziko nežádoucích účinků nebo být jinak klinicky relevantní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5978f692ee5e"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eb19ad7c0e91"
+      },
+      "content": [
+        {
+          "text": "Modul je dostupný pouze uživatelům, kterým byl přístup aktivován správcem systému (viz kapitola 5).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b080233fdc9"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4954b7ecc41f"
+      },
+      "content": [
+        {
+          "text": "Princip fungování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "62c3e8344835"
+      },
+      "content": [
+        {
+          "text": "Kdy systém interakce kontroluje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "09048e4cf7fe"
+      },
+      "content": [
+        {
+          "text": "Systém kontroluje lékové interakce automaticky vždy, když dojde ke změně v sestavě receptů aktuálního dne. Konkrétně:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bb650008e55f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9bea2cdee943"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dc3b4a357a5b"
+              },
+              "content": [
+                {
+                  "text": "při přidání nového léku na recept,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1fd64eced3f8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bd328694b3cc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f1b5dd179142"
+              },
+              "content": [
+                {
+                  "text": "při odebrání léku z receptu,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e98e2c552bac"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "75deb8a5f99f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f58b842af66d"
+              },
+              "content": [
+                {
+                  "text": "při každém otevření záložky Medikace s aktivním modulem interakcí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "94743bf4cc81"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "26577bee50a4"
+      },
+      "content": [
+        {
+          "text": "Jaké léky systém zahrnuje do kontroly",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c804717f13bf"
+      },
+      "content": [
+        {
+          "text": "Do kontroly jsou zahrnuty tyto skupiny léků:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "7540e571bb4b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9baf5206235c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d9cd519f6855"
+              },
+              "content": [
+                {
+                  "text": "Léky na receptech aktuálního dne – primární sada.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8c851ef9c3bb"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5f65f63cea1b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f4e3726469bd"
+              },
+              "content": [
+                {
+                  "text": "Léky předepsané v posledních 30 dnech – zahrnují se jako doplňkový kontext (starší záznamy).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c68f515ce535"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7b0548214f4f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "accbefdb0066"
+              },
+              "content": [
+                {
+                  "text": "Trvalé medikace pacienta – léky zadané v záložce Trvalé, které jsou v danou dobu platné.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7dc01c82fb7b"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d4123d52c9dd"
+      },
+      "content": [
+        {
+          "text": "Magistraliter přípravky (individuálně namíchané léky) nejsou do kontroly interakcí zahrnuty, neboť nemají kód z číselníku léčivých přípravků. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9147a113c22b"
+      },
+      "content": [
+        {
+          "text": "Zobrazení varování uživateli",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7873735f9cb5"
+      },
+      "content": [
+        {
+          "text": "Kde se varování zobrazuje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1633d395cc2d"
+      },
+      "content": [
+        {
+          "text": "Přehled lékových interakcí se zobrazuje přímo v záložce Medikace v dolní části obrazovky, vedle sestavy receptů aktuálního dne. Panel je viditelný po celou dobu práce s recepty – lékař tak má přehled o interakcích přímo před sebou, aniž by musel otevírat další okno.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "4661df0c3c42"
+      },
+      "content": [
+        {
+          "text": " Charakter varování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0eebbe29d3ca"
+      },
+      "content": [
+        {
+          "text": "Varování má informativní charakter – lékař může recept uložit a odeslat i v případě, že systém detekuje interakci. Zobrazení interakce slouží jako podpora rozhodování, nikoliv jako tvrdý blok předpisu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cae6f877f335"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "012fff149b71"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b935279f812a"
+          },
+          "content": [
+            {
+              "text": "Systém lékaře informuje, konečné rozhodnutí o předpisu léku je vždy na lékaři samotném. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b7aed5a4ec6d"
+      },
+      "content": [
+        {
+          "text": "Typy zobrazovaných interakcí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "48588fc87f05"
+      },
+      "content": [
+        {
+          "text": "Systém rozlišuje typy interakcí dle tříd závažnosti. U každé detekované kombinace lze zobrazit detail obsahující:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bcbb91da67e1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "342fd75f39ab"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "80705672de21"
+              },
+              "content": [
+                {
+                  "text": "názvy obou léků (resp. jejich ATC kódy),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "60e152ca3dbf"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c930ce162ebf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2d5207f57174"
+              },
+              "content": [
+                {
+                  "text": "popis mechanismu interakce,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3f47e300c4a4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "35539e9318f5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7141f6a779f2"
+              },
+              "content": [
+                {
+                  "text": "doporučené klinické opatření.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a089e1b21501"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b445e263c5d8"
+      },
+      "content": [
+        {
+          "text": "Zvláštním případem je upozornění na shodnou ATC skupinu – pokud dva léky na receptu patří do stejné ATC skupiny, systém na tuto duplicitu upozorní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1da635c3b213"
+      },
+      "content": [
+        {
+          "text": "Chybový stav panelu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b15d6a99df4e"
+      },
+      "content": [
+        {
+          "text": "Pokud se nepodaří načíst data z externího serveru interakcí (např. výpadek připojení), panel zobrazí chybový stav s možností zopakovat načítání pomocí tlačítka Opakovat. Práce s recepty v takovém případě pokračuje normálně bez omezení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d348d2e43c32"
+      },
+      "content": [
+        {
+          "text": " Napojení na předpis léku a chorobopis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "69bed51cc270"
+      },
+      "content": [
+        {
+          "text": "Kde v systému se interakce zobrazují",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a9e4118572d"
+      },
+      "content": [
+        {
+          "text": "Lékové interakce jsou součástí záložky Medikace, která je přístupná z dekurzu pacienta. Interakce se vztahují vždy ke konkrétnímu pacientovi a aktuálně otevřenému záznamu – systém zobrazuje interakce pro léky tohoto pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "09246ffdbfc3"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "153c33dedca3"
+      },
+      "content": [
+        {
+          "text": "Vazba na aktuální recept",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3c1ad0ecf0de"
+      },
+      "content": [
+        {
+          "text": "Panel interakcí se automaticky aktualizuje při každé změně receptů aktuálního dne – přidání nebo odebrání léku spustí nový dotaz na server interakcí. Lékař tak vidí aktuální stav bez nutnosti ručního obnovování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3446c4059476"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "fe2091674627"
+      },
+      "content": [
+        {
+          "text": "Trvalé medikace v kontextu interakcí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c60275caa8d"
+      },
+      "content": [
+        {
+          "text": "Trvalé medikace pacienta (léky zadané v záložce Trvalé, platné k aktuálnímu datu) jsou automaticky zahrnuty do kontroly interakcí. To umožňuje detekovat potenciální rizika i při předpisu nového léku, který by mohl interagovat s dlouhodobou medikací pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b28c57f4ed5f"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3713423c8318"
+      },
+      "content": [
+        {
+          "text": "Nastavení a konfigurace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "51c8dff7a603"
+      },
+      "content": [
+        {
+          "text": "Aktivace modulu pro uživatele",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b0bfaf75102f"
+      },
+      "content": [
+        {
+          "text": "Modul Lékové interakce musí být pro každého uživatele samostatně aktivován. Provádí to správce systému (administrátor) v nastavení uživatelů. Pokud příznak není aktivní, panel interakcí se v záložce Medikace nezobrazí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dcde4055afc2"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "7252902ce355"
+      },
+      "content": [
+        {
+          "text": "Omezení počtu aktivních uživatelů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "209ebe21f66f"
+      },
+      "content": [
+        {
+          "text": "Přístup k lékovým interakcím je licencován – každá ordinace má sjednán maximální počet uživatelů, kteří mohou mít modul aktivní současně. Při pokusu o aktivaci dalšího uživatele nad tento limit systém zobrazí chybové hlášení. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9099efbd6b16"
+      },
+      "content": [
+        {
+          "text": "V takovém případě kontaktujte svého obchodního zástupce STAPRO pro rozšíření licence.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "9fbfd36f96cb"
+      },
+      "content": [
+        {
+          "text": " Deaktivace při zneaktivnění uživatele",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7616b919ff79"
+      },
+      "content": [
+        {
+          "text": "Pokud je uživatelský účet v systému deaktivován, přístup k lékovým interakcím se automaticky odebere.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1d0f85f8dccb"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0739556fba6d"
+      },
+      "content": [
+        {
+          "text": "Konfigurace přihlašovacích údajů k serveru interakcí",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3dd5677cf26f"
+      },
+      "content": [
+        {
+          "text": "Připojení k externímu serveru lékových interakcí (URL, přihlašovací jméno a heslo) konfiguruje správce systému nebo technik STAPRO v konfiguraci aplikačního serveru Galen. Toto nastavení je společné pro celou instalaci, uživatelé je nenastavují.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dd6d541e07fe"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "df96a8d52d61"
+      },
+      "content": [
+        {
+          "text": "Časté dotazy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "2e54c913-c8c2-4687-b32e-b93cbeaa18bc"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d8c99d6a-aba8-48b3-8c0b-a7c8c5005ba2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#1f3864",
+                "rowspan": 1,
+                "localId": "ec8060b3-1744-4494-b338-ba404e261259"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e766b49dc7b0"
+                  },
+                  "content": [
+                    {
+                      "text": "Otázka",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#1f3864",
+                "rowspan": 1,
+                "localId": "db145176-edab-4224-9f7b-54ee01e3c4da"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b1b6d4ba64df"
+                  },
+                  "content": [
+                    {
+                      "text": "Odpověď",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e40d41f2-643c-4131-ad3e-eaee36318ca4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#eef2fa",
+                "rowspan": 1,
+                "localId": "c919e9fa-28b9-46a3-8cdd-ed9f73f4b600"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9ee90921502f"
+                  },
+                  "content": [
+                    {
+                      "text": "Panel interakcí se mi nezobrazuje, přestože mám otevřenou záložku Medikace.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#eef2fa",
+                "rowspan": 1,
+                "localId": "7fa80e0f-1f99-41a3-99d2-b5151e016a85"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fc26123f43b5"
+                  },
+                  "content": [
+                    {
+                      "text": "Pravděpodobně nemáte aktivován přístup k lékovým interakcím. Obraťte se uživatele ve vaší společnosti, který má ve FONS Galen přiřazenou roli ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Správce",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1cb60d84-7c50-4e9a-9f24-4a1a1dc09c8e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "68cb0140-e329-4cc3-be9c-ea7d2862a41c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "99051349140c"
+                  },
+                  "content": [
+                    {
+                      "text": "Proč systém hlásí interakci, ale přesto mohu recept uložit?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "892fa1c0-9c86-4210-8f23-5389828b5494"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a8a7d079019f"
+                  },
+                  "content": [
+                    {
+                      "text": "Varování je informativní. Konečné rozhodnutí je vždy na lékaři – systém Vás upozorňuje, neblokuje.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cd4af230-e82a-4f37-9a43-1c9e3c07d436"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#eef2fa",
+                "rowspan": 1,
+                "localId": "581399b1-9c20-43d0-9bbe-955d2a987d54"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c1d6e22b9e48"
+                  },
+                  "content": [
+                    {
+                      "text": "Zahrnuje kontrola i léky, které pacient bere dlouhodobě?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#eef2fa",
+                "rowspan": 1,
+                "localId": "c19416f8-cb21-48d8-86d4-a594d24db2cc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "00efc0e024aa"
+                  },
+                  "content": [
+                    {
+                      "text": "Ano – trvalé medikace pacienta jsou do kontroly automaticky zahrnuty.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "38c3ed1a-23bd-4194-bf70-ea5d14095da2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "c1016674-f02c-4717-86be-099ed0643e8f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e2e7586c99f2"
+                  },
+                  "content": [
+                    {
+                      "text": "Mohu se spolehnout, že databáze interakcí je aktuální?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "f1381d76-f0ba-42cc-b5c8-698b14b8e8f8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7eb3e3f9ba15"
+                  },
+                  "content": [
+                    {
+                      "text": "Data jsou poskytována externím dodavatelem a průběžně aktualizována. FONS Galen vždy stahuje aktuální verzi.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "57a8caf3-a7da-4042-8700-d67e3e86409e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "8bb8ad55-ac99-4c56-9822-5c8acd6d5db4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3b36f7b9dcc6"
+                  },
+                  "content": [
+                    {
+                      "text": "Jak rozšíříme licenci na více uživatelů?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "e5f0df38-0aae-4946-8f0e-8b0def369e4b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2ef154c56d79"
+                  },
+                  "content": [
+                    {
+                      "text": "Uživatel s rolí ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Objednavatel",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " provede objednávku dalších přístupů v modulu eShop.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
