@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-18
+generated: 2026-06-19
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **18. 6. 2026**  ·  Celkem stránek: **310**  ·  Poslední sync z Confluence: 2026-06-18
+> **19. 6. 2026**  ·  Celkem stránek: **312**  ·  Poslední sync z Confluence: 2026-06-19
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **35** |
-| ♨️ | Do 14 dnů | **0** |
+| 🔥 | Do 3 dnů | **36** |
+| ♨️ | Do 14 dnů | **1** |
 | 🌿 | Do 30 dnů | **9** |
 | 📄 | Do 90 dnů | **38** |
 | 🗄️ | Starší než 3 měsíce | **228** |
@@ -47,6 +47,7 @@ generated: 2026-06-18
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 🔥 [[Modul ordinace]] `v7` · 16. 6. 2026
+    - 🔥 [[Odložení pacienta]] `v1` · 18. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -108,6 +109,8 @@ generated: 2026-06-18
         - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
       - 🗄️ [[Obecné fungování nároků]] `v1` · 10. 7. 2025
+    - 🔥 **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
+      - 🔥 [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
       - 🗄️ [[Hlídací pes_ Automatické upozornění na volné termíny pro pacienty|Hlídací pes: Automatické upozornění na volné termíny pro pacienty]] `v1` · 19. 1. 2026
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
@@ -117,7 +120,6 @@ generated: 2026-06-18
     - 🌿 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
-    - 🔥 [[Objednávání, kalendáře, notifikace]] `v3` · 16. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 🔥 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - 🔥 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
@@ -128,7 +130,7 @@ generated: 2026-06-18
     - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
-    - 🔥 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
+    - ♨️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 📄 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025

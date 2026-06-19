@@ -1,0 +1,349 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0bb91503c654"
+      },
+      "content": [
+        {
+          "text": "Funkce ",
+          "type": "text"
+        },
+        {
+          "text": "Odložení pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje dočasně přerušit práci s aktuálně otevřeným pacientem a uložit ho do schránky, aniž by se ztratil rozpracovaný kontext. Kdykoli se uživatel potřebuje věnovat jinému pacientovi nebo úkonu, může se k odloženému pacientovi jednoduše vrátit a pokračovat přesně tam, kde přestal.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e095f4680715"
+      },
+      "content": [
+        {
+          "text": "Jak funkce funguje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8095f6b3688a"
+      },
+      "content": [
+        {
+          "text": "Tlačítko schránky je zobrazeno v horním panelu modulu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 736,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1919,
+            "alt": "image-20260618-131936.png",
+            "id": "18d00fb2-30e2-48ff-a925-216a6c6238a6",
+            "collection": "contentId-462028809",
+            "type": "file",
+            "localId": "584bcf6559bb",
+            "height": 226
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2b2360bdabe7"
+      },
+      "content": [
+        {
+          "text": "Jeho dostupnost závisí na aktuálně otevřeném pohledu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "20b5b884-7e4d-45b1-82bd-008a40bb512d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5c194541-c49b-4551-a3c1-acc6143b1fac"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "aa6ca4dcc164"
+              },
+              "content": [
+                {
+                  "text": "Uložení pacienta do schránky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – pokud je aktivní pacient a uživatel dosud žádného nemá uloženého, kliknutí na tlačítko přesune aktuálního pacienta do schránky. Zobrazení se přepne zpět na kartotéku, takže je možné vyhledat a otevřít jiného pacienta. Název uloženého pacienta je zobrazen v tooltipu tlačítka.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6a52fcef-2603-4c78-8f2c-6fd7e9c9ada5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3a3361fe5264"
+              },
+              "content": [
+                {
+                  "text": "Návrat k odloženému pacientovi",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – pokud je ve schránce uložen pacient, kliknutí na tlačítko obnoví jeho kontext – systém nastaví daného pacienta jako aktivního a vrátí se na detail (záložku), který byl otevřen v okamžiku odložení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "bd53bcc650b1"
+      },
+      "content": [
+        {
+          "text": "Kde je funkce dostupná",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "79e982c0e7da"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "22cb3866-9577-49f4-a733-84b03f3902d4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "be4fb0bb70a7"
+              },
+              "content": [
+                {
+                  "text": "Ordinace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – funkce je dostupná v modulu Ordinace (např. při psaní dekurzu)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6d9a3bbb-4834-460b-9974-008934a93726"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "37bc481f502f"
+              },
+              "content": [
+                {
+                  "text": "Objednávání",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – funkce je dostupná v modulu Objednávání (recepce)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ccf76f6d91b7"
+      },
+      "content": [
+        {
+          "text": "Aktivace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0cd8e0714c34"
+      },
+      "content": [
+        {
+          "text": "Jedná se o nadstandardní placenou funkcionalitu. Po objednání ze strany zákazníka je funkcionalita zpřístupněna.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "137a7da2409d"
+      },
+      "content": [
+        {
+          "text": "Zákazník si následně sám v administraci Galenu v nastavení společnosti (záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", sekce ",
+          "type": "text"
+        },
+        {
+          "text": "Odložení pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ") zvolí, ve kterých modulech funkci využívá – zaškrtnutím příslušných checkboxů ",
+          "type": "text"
+        },
+        {
+          "text": "Ordinace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Objednávání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c121cba0f5d3"
+      },
+      "content": [
+        {
+          "text": "Jakmile je příznak pro daný modul zapnutý, funkce je okamžitě dostupná ",
+          "type": "text"
+        },
+        {
+          "text": "všem uživatelům",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " tohoto modulu – bez jakéhokoli dalšího nastavení na straně lékaře nebo uživatele.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
