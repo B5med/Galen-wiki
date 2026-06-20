@@ -1,0 +1,1547 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "7da546263152"
+      },
+      "content": [
+        {
+          "text": "Co jsou přílohy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "04f5f8cf0d55"
+      },
+      "content": [
+        {
+          "text": "Přílohy slouží k ukládání souborů (dokumentů, obrázků, výsledků z přístrojů apod.) přímo v kartě pacienta. Přílohy jsou součástí zdravotnické dokumentace a jsou přístupné oprávněným uživatelům ze všech pracovišť.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fefc8bb98957"
+      },
+      "content": [
+        {
+          "text": " Typicky se přikládají PDF dokumenty, obrázky (JPG, PNG), RTF soubory nebo výstupy z přístrojů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "30b21a55d00d"
+      },
+      "content": [
+        {
+          "text": "Každá příloha má nastavenou ",
+          "type": "text"
+        },
+        {
+          "text": "maximální povolenou velikost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", která je určena administrátorem v nastavení společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6efa1cb75707"
+      },
+      "content": [
+        {
+          "text": "Kam se přílohy ukládají",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9ebd0df92674"
+      },
+      "content": [
+        {
+          "text": "Ve výchozím nastavení se přílohy ukládají lokálně. Uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " na úrovni ",
+          "type": "text"
+        },
+        {
+          "text": "Společnost ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Pracoviště ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nastaví složku, kam se budou přílohy ukládat. Může se jednat o umístění v počítači uživatele nebo o cestu ke sdílenému disku. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a981569cc7b4"
+      },
+      "content": [
+        {
+          "text": "V rámci nadstandardní funkcionality je možné aktivovat ukládání příloh do cloudu. Každá příloha tak bude přístupná na všech počítačích, na kterých Galen spustíte.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "6758aca55695"
+      },
+      "content": [
+        {
+          "text": "Kde lze přílohy v Galenu vkládat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "47547eb6f63c"
+      },
+      "content": [
+        {
+          "text": "Přílohy lze připojit na více místech v systému, vždy v kontextu konkrétního záznamu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9601bdfb9748"
+      },
+      "content": [
+        {
+          "text": "Návštěva",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – příloha je vázána ke konkrétní návštěvě (dekurzu). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3730e47d982b"
+      },
+      "content": [
+        {
+          "text": "Těhotenství",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – přílohy lze vkládat v rámci záznamu o těhotenství.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "60e79325f014"
+      },
+      "content": [
+        {
+          "text": "Poukaz FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – příloha k poukazům na fyzioterapii.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9dbb47ab2384"
+      },
+      "content": [
+        {
+          "text": "Upozornění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – příloha v rámci modulu upozornění pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fcd46d46b9b6"
+      },
+      "content": [
+        {
+          "text": "Kde lze přílohy zobrazit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c804d5d22116"
+      },
+      "content": [
+        {
+          "text": "Přílohy vložené k pacientovi jsou dostupné na několika místech v systému, a to v závislosti na kontextu jejich vložení a nastavení pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "109245f6dcc1"
+      },
+      "content": [
+        {
+          "text": "Historie v kartě pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je hlavním místem pro přehled veškeré přílohové dokumentace pacienta. Zobrazují se zde přílohy vázané přímo na pacienta, ale i přílohy z návštěv, žádanek a dalších záznamů. Seznam lze filtrovat podle kategorie, data vložení. Každou přílohu lze z tohoto seznamu otevřít, stáhnout nebo smazat (v závislosti na pravidlech editace).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "caf350721633"
+      },
+      "content": [
+        {
+          "text": "V rámci návštěvy (dekurzu)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se přílohy přiložené ke konkrétní návštěvě zobrazují přímo v záznamu návštěvy. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cf48b9b4540c"
+      },
+      "content": [
+        {
+          "text": "V kontextu konkrétního záznamu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – přílohy vázané na žádanku, těhotenství, poukaz FT nebo upozornění jsou dostupné vždy přímo v daném záznamu, nikoliv v globálním seznamu příloh pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f37b65e42059"
+      },
+      "content": [
+        {
+          "text": "Kategorie příloh",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0501443ceb82"
+      },
+      "content": [
+        {
+          "text": "Každá příloha musí být zařazena do ",
+          "type": "text"
+        },
+        {
+          "text": "kategorie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Kategorie slouží k přehledné organizaci a umožňují filtrování. Správce společnosti může seznam kategorií upravovat v nastavení Galenu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "88e96c061d78"
+      },
+      "content": [
+        {
+          "text": "Výchozí kategorie v systému:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "f61938eb-64fb-4183-9209-e41c703ecfd9"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b5398130-c05f-4a08-88d9-e5860cc5b3c8"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5b235b34-66d0-4dfa-a7f5-d0919060f2bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "030a0f5e0d98"
+                  },
+                  "content": [
+                    {
+                      "text": "Kategorie",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1a6bb50a-695a-4711-9ede-a0e958595dc4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a8fd0fd1bf06"
+                  },
+                  "content": [
+                    {
+                      "text": "Účel / poznámka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6a57ed79-b81d-4602-9450-a4acad2c7c6e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "239128e9-ea14-429a-aa2b-26d040cd0971"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "68fe89ce5de4"
+                  },
+                  "content": [
+                    {
+                      "text": "Laboratorní výsledky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "29503a89-8499-477e-8569-9354f4c203e2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cdd543721b05"
+                  },
+                  "content": [
+                    {
+                      "text": "Výsledky z laboratoře",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "06d1ec3e-680b-47be-b139-4b33a19864ac"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b52697a8-e31e-4a26-8f15-70223d14a259"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bec64a3ddeb6"
+                  },
+                  "content": [
+                    {
+                      "text": "Lékařská zpráva",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "70306c4f-744b-434e-b35a-5d86b66f910d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "72c78a6c7b25"
+                  },
+                  "content": [
+                    {
+                      "text": "Zprávy od jiných lékařů, propouštěcí zprávy apod.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2413e858-2e10-4139-9209-29eca8e4400f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "44abeb7b-5d28-4bcd-b7e7-36b4b4317ddd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "39888ec72193"
+                  },
+                  "content": [
+                    {
+                      "text": "EKG",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7c9999b3-43f3-4a35-afda-9d81b4b005ad"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "47aac7b2662d"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy EKG",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5a8a505a-52f9-4c5d-80f1-d7379bbc8c4d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "453cfff2-3388-4ba5-9e6a-015061ae9517"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "84ed8ad10c14"
+                  },
+                  "content": [
+                    {
+                      "text": "Ultrazvuk",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ee7445d0-ed66-4a75-95ab-e6b9ee7004ad"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e42f93810c58"
+                  },
+                  "content": [
+                    {
+                      "text": "Ultrazvukové snímky a zprávy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8e4c2963-0667-4e6d-b793-e69b1751d6e4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6a18b978-8f82-4285-a049-fff8a798ec89"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cddfd27d7c92"
+                  },
+                  "content": [
+                    {
+                      "text": "RTG",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b964f7c9-51a8-4f4a-a3c5-a83d11b22483"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ad55a50e5adc"
+                  },
+                  "content": [
+                    {
+                      "text": "Rentgenové snímky a nálezy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "826561dd-bacb-4b8f-b3f8-c74baafcc598"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "11bbcb6a-db16-4b30-9a26-7a94c342855d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4fcebf82b8f8"
+                  },
+                  "content": [
+                    {
+                      "text": "Obrazová dokumentace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "852dd285-85cc-46cd-b66e-0b91b3f720c0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9fb8f37d51b5"
+                  },
+                  "content": [
+                    {
+                      "text": "Fotografie, obrázky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "aa4294fa-e768-4571-a0be-a4fb1fc559fe"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8d5e0d8d-293f-4111-98ec-5cdbbe028b84"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dbed111dc862"
+                  },
+                  "content": [
+                    {
+                      "text": "Hospitalizace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "21581714-3fd7-46c4-aaf0-333bf2ac907d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cdc5885fd7b8"
+                  },
+                  "content": [
+                    {
+                      "text": "Dokumentace z hospitalizace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4fd5d1db-8271-4499-b2f0-25d7e65b6368"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "995a5ba1-52d7-4a2a-ab67-b0ed87df9e2f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "39771a57b9b5"
+                  },
+                  "content": [
+                    {
+                      "text": "Přístroj",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "597d4f37-2615-470f-8e84-e0dfb1902eec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "46202b2ac8dc"
+                  },
+                  "content": [
+                    {
+                      "text": "Výstupy z diagnostických přístrojů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9cf2c014-0f05-4285-8745-20458d37fb7a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "30552289-cfdb-4898-ae01-6b303b6ab659"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d80b064b3ed4"
+                  },
+                  "content": [
+                    {
+                      "text": "Žádanka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "251e843f-540b-47b8-afeb-82e28e2e1596"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "526b54fe8c13"
+                  },
+                  "content": [
+                    {
+                      "text": "Přílohy k žádankám",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8c649d67-ccc7-432e-a9fd-44c8008deff0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e25d6042-18f4-444e-91d0-7dd684adaf3c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "80042b6d4f34"
+                  },
+                  "content": [
+                    {
+                      "text": "Upozornění",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4a772661-d772-4255-94fb-ad7ba54ab1a4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "900f2559a030"
+                  },
+                  "content": [
+                    {
+                      "text": "Přílohy k upozorněním",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "530c95ca-2837-4dfc-b04d-d84a66e96822"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "42e624ea-d694-45a0-a00e-a9398b8b9567"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1a444af4137d"
+                  },
+                  "content": [
+                    {
+                      "text": "Sledování defektů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1b3bba75-3998-419e-9754-c148b405262f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "181d61eb2594"
+                  },
+                  "content": [
+                    {
+                      "text": "Fotodokumentace defektů (ran, kožních lézí apod.)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fd56d58c-dac0-4638-928f-20bc8e2da3a7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d4be4ec0-ecbc-40a8-b5d4-6bfc9113df9b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c144cf505009"
+                  },
+                  "content": [
+                    {
+                      "text": "PLS",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1e298389-ae71-44fe-ac7d-b2a312381818"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "42eb1cac642e"
+                  },
+                  "content": [
+                    {
+                      "text": "Přílohy pro modul PLS (pracovnělékařské služby)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "137d2edc-e358-4ca8-a59a-691705ac8131"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "57cd1637-93af-4038-a094-50a5b89e9353"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9851cb6ff8ec"
+                  },
+                  "content": [
+                    {
+                      "text": "Jiné",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e0f0516f-4a88-4f43-9114-d08b27c44142"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "25d0d5b69fa9"
+                  },
+                  "content": [
+                    {
+                      "text": "Obecná kategorie pro ostatní dokumenty",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "055d6b78-052d-47b2-b3fc-8192d0de6084"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3bf904b3bd44"
+          },
+          "content": [
+            {
+              "text": "Kategorie označené speciálním účelem (Ultrazvuk, Sledování defektů, PLS) jsou provázány s konkrétními moduly Galenu a mohou ovlivňovat dostupnost přílohy v daném kontextu. Tyto kategorie nelze deaktivovat.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "ea169277-0e95-4c82-bd6d-447993299161"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "542afac027f3"
+      },
+      "content": [
+        {
+          "text": "Vlastnosti přílohy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c4e48795d445"
+      },
+      "content": [
+        {
+          "text": "Při vkládání přílohy uživatel vyplňuje nebo systém automaticky doplní:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "624dc6a26ea3"
+      },
+      "content": [
+        {
+          "text": "Název",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – popisný název přílohy, který se zobrazuje v seznamu. Název odpovídá jménu souboru bez přípony a lze ho před vložením upravit. Galen při uložení automaticky odstraní znaky, které nejsou v názvech souborů povoleny – konkrétně řídicí znaky a znaky ",
+          "type": "text"
+        },
+        {
+          "text": "\\ / : * ? \" < > |",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ". Pokud název po odstranění těchto znaků zůstane prázdný, Galen ho nahradí aktuálním datem a časem ve formátu ",
+          "type": "text"
+        },
+        {
+          "text": "RRRR-MM-DD_HH-mm",
+          "type": "text",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "text": ". O provedené úpravě názvu Galen uživatele upozorní hlášením.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3ee86dbc2749"
+      },
+      "content": [
+        {
+          "text": "Kategorie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – povinné zařazení přílohy (viz výše).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "00c3c06f9085"
+      },
+      "content": [
+        {
+          "text": "Datum",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – datum přílohy (výchozí je dnešní den).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e6e6f38768bb"
+      },
+      "content": [
+        {
+          "text": "Poznámka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – volitelný textový komentář k příloze.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3ca8f7b8c13c"
+      },
+      "content": [
+        {
+          "text": "Vkládání příloh",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dcb2508d2f67"
+      },
+      "content": [
+        {
+          "text": "Přílohy lze vložit několika způsoby:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b42d20203d9f"
+      },
+      "content": [
+        {
+          "text": "Manuální vložení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – uživatel klikne na tlačítko pro přidání přílohy, vybere soubor ze svého počítače a potvrdí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5717a26f4cbf"
+      },
+      "content": [
+        {
+          "text": "Skenování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – pokud je nakonfigurován skener, lze dokument naskenovat přímo z rozhraní Galenu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e5dfc77a5cda"
+      },
+      "content": [
+        {
+          "text": "Automatické přiložení ze zařízení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – u přístrojů (EKG, ultrazvuk apod.) lze nakonfigurovat automatické přebírání výstupních souborů. Galen sleduje nastavený adresář a soubory nabídne k přiložení do přílohy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "496c71862a2c"
+      },
+      "content": [
+        {
+          "text": "Práce s přílohami",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a6395827a10b"
+      },
+      "content": [
+        {
+          "text": "Zobrazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – přílohu lze otevřít kliknutím. Galen ji zobrazí v interním prohlížeči nebo předá operačnímu systému ke spuštění příslušnou aplikací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "69d2d61165ad"
+      },
+      "content": [
+        {
+          "text": "Stažení / uložení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – přílohu lze uložit na lokální disk.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9d660f6b7d03"
+      },
+      "content": [
+        {
+          "text": "Smazání",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – přílohu může smazat oprávněný uživatel. Smazaná příloha je označena jako odstraněná, ale z databáze se fyzicky nevymaže (soft delete).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f0bbaff25a20"
+      },
+      "content": [
+        {
+          "text": "Filtrování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – v seznamu příloh je možné filtrovat podle kategorie, data a dalších parametrů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bee98a5c9dab"
+      },
+      "content": [
+        {
+          "text": "Zamčení dokumentace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – pokud je na kartě pacienta aktivní zámek dokumentace, může být editace (včetně vkládání příloh) omezena.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "70aea4577082"
+      },
+      "content": [
+        {
+          "text": "Podpisování příloh",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4865309d490f"
+      },
+      "content": [
+        {
+          "text": "Některé kategorie příloh podporují ",
+          "type": "text"
+        },
+        {
+          "text": "elektronický podpis pacientem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (biometrický podpis). Přílohy, které byly podepsány, jsou v systému označeny příznakem „Podepsáno pacientem\". Tato funkce vyžaduje aktivovaný modul biometrického podpisu.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,7 +1,7 @@
 {
   "space_id": "98309",
   "space_key": "fg",
-  "synced_at": "2026-06-19T09:03:06Z",
+  "synced_at": "2026-06-20T07:45:47Z",
   "pages": {
     "75235333": {
       "title": "Agendy",
@@ -354,6 +354,22 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "398065676",
       "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Evidence přesunu papírové dokumentace"
+    },
+    "464846849": {
+      "title": "Export dat",
+      "version": 1,
+      "updated_at": "2026-06-19T12:39:06.079Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "75235333",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Export dat"
+    },
+    "463699974": {
+      "title": "Export dat pro Power BI (dávkový)",
+      "version": 2,
+      "updated_at": "2026-06-19T12:56:29.703Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "464846849",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Export dat/Export dat pro Power BI (dávkový)"
     },
     "130809857": {
       "title": "Export dokladů do účetního systému POHODA",
@@ -1499,6 +1515,14 @@
       "parent_id": "434667522",
       "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Pracovnělékařské služby (PLS)/Prohlídky a očkování PLS"
     },
+    "421396481": {
+      "title": "Průběžný export dat (RabbitMQ)",
+      "version": 3,
+      "updated_at": "2026-06-19T12:42:54.730Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "464846849",
+      "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Agendy/Export dat/Průběžný export dat (RabbitMQ)"
+    },
     "435290119": {
       "title": "Průvodce: Od založení firmy k první faktuře PLS",
       "version": 1,
@@ -1602,6 +1626,14 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "173309953",
       "path": "pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePoukaz/ePoukaz – změny platné od 1. 1. 2026/Přílohy"
+    },
+    "463699982": {
+      "title": "Přílohy v kartě pacienta",
+      "version": 4,
+      "updated_at": "2026-06-19T15:17:15.958Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "398065676",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Přílohy v kartě pacienta"
     },
     "60850197": {
       "title": "RDG žádanky",
@@ -1821,8 +1853,8 @@
     },
     "75202656": {
       "title": "Společnost",
-      "version": 3,
-      "updated_at": "2025-07-21T12:03:41.087Z",
+      "version": 4,
+      "updated_at": "2026-06-19T15:11:05.047Z",
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "75694398",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Společnost"
@@ -1978,6 +2010,14 @@
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
       "parent_id": "75694407",
       "path": "pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Pracoviště/UI konfigurace"
+    },
+    "465338369": {
+      "title": "Ukládání příloh do cloudového úložiště",
+      "version": 1,
+      "updated_at": "2026-06-19T15:13:16.315Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "463699982",
+      "path": "pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Přílohy v kartě pacienta/Ukládání příloh do cloudového úložiště"
     },
     "75628769": {
       "title": "Ukončení dávky",

@@ -1,0 +1,1945 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "86927cd7ca8d"
+      },
+      "content": [
+        {
+          "text": "Co je průběžný export dat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3cfe4149ff45"
+      },
+      "content": [
+        {
+          "text": "Průběžný export dat je funkce IS Galen, která umožňuje automaticky odesílat vybrané záznamy do externího systému zákazníka v reálném čase – ihned v okamžiku, kdy dojde ke změně dat v Galenu. Na rozdíl od dávkového exportu, který data přenáší hromadně v naplánovaných intervalech, průběžný export reaguje na každou jednotlivou událost (vytvoření, změnu nebo smazání záznamu) a přenáší ji okamžitě.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4f240c9625a3"
+      },
+      "content": [
+        {
+          "text": "Přenos probíhá prostřednictvím message brokeru RabbitMQ. Galen publikuje zprávy ve formátu JSON na definovaný RabbitMQ Exchange, odkud si je přebírá systém zákazníka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "081ab1e1038b"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fb80a99771e4"
+      },
+      "content": [
+        {
+          "text": "K čemu slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f9d0f98dabfe"
+      },
+      "content": [
+        {
+          "text": "Funkce je určena zákazníkům, kteří potřebují data z Galenu průběžně synchronizovat s jiným systémem – například s vlastním informačním systémem, BI platformou, CRM nebo jiným softwarem třetí strany. Typické využití zahrnuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "53ef517a8a73"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "69556abe28e3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8c1ad1730a3c"
+              },
+              "content": [
+                {
+                  "text": "okamžitou synchronizaci eReceptů do externího systému po jejich vystavení nebo změně,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "66e664087327"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1892611825d5"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b25dd4ad569b"
+              },
+              "content": [
+                {
+                  "text": "průběžný přenos objednávek a kalendářních záznamů pro potřeby plánování nebo zákaznických portálů,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a74de9a5bebc"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "27f410bc4cb4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "54bbca9d37db"
+              },
+              "content": [
+                {
+                  "text": "automatický přenos příloh (dokumentů) přidaných k záznamu pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7f7bebc20194"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "39379ddb8f1f"
+      },
+      "content": [
+        {
+          "text": "Exportované agendy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "32e7df098259"
+      },
+      "content": [
+        {
+          "text": "V rámci průběžného exportu lze nakonfigurovat export těchto agend:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9b2d94d35a03"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "9384979d-fd71-4204-b088-c9c393bb6c85"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d04f39be-4dd0-457a-8720-436e0700f235"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "06090a68-d069-42a5-8311-bb83d51ac1be"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b9700742722"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "4f46ebd2-6724-4202-9bb0-bc4ecb136ebb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2938d2e35807"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3769d834-fc05-43e8-8039-fba44860ea55"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "7cfa8f11-bd0f-4ca9-801f-74eb3eb0c18b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "86416d74b065"
+                  },
+                  "content": [
+                    {
+                      "text": "eRecept",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "54f474ea-f9dd-4724-a6b8-cfcfa1de448f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "283f1b5dc0ad"
+                  },
+                  "content": [
+                    {
+                      "text": "Exportují se eRecepty – každé vytvoření, změna nebo smazání eReceptu.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "93399bed-44a1-4252-b0d4-665cdc9a2a40"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "e6c86e14-b355-437e-9672-b11dba7a3ec1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "edbc3f73e4c3"
+                  },
+                  "content": [
+                    {
+                      "text": "Objednávka",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "5378e6d0-acac-43dc-93a5-f043d3ccf573"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0c55fd08c4fc"
+                  },
+                  "content": [
+                    {
+                      "text": "Exportují se objednávky a kalendářní záznamy.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6d03278c-b26b-4d6d-81a0-add727bf52d0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "43d2c0e6-3be1-455f-ac66-4cbad61305a5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "deb03e5ddd02"
+                  },
+                  "content": [
+                    {
+                      "text": "Příloha",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "f2f08e1f-4429-4bfc-8e4b-f86a4b4b646f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "53d70a15b114"
+                  },
+                  "content": [
+                    {
+                      "text": "Exportují se přílohy přidané k záznamu pacienta.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "56aa424ced97"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f47f01d71382"
+      },
+      "content": [
+        {
+          "text": "Je možné aktivovat export jedné nebo více agend současně. Alespoň jedna agenda musí být vybrána.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a30d3cedbf87"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ce65f56dbcb1"
+      },
+      "content": [
+        {
+          "text": "Jak přenos funguje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b3a822dbec6"
+      },
+      "content": [
+        {
+          "text": "Při každé změně exportovaného záznamu Galen sestaví zprávu ve formátu JSON a odešle ji na nakonfigurovaný RabbitMQ Exchange. Zpráva obsahuje informaci o tom, zda byl záznam vytvořen, změněn nebo smazán, a příslušná data záznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c00ca27d484a"
+      },
+      "content": [
+        {
+          "text": "Zprávy jsou odesílány s potvrzením doručení (publisher confirms). Pokud RabbitMQ zprávu nepotvrdit ve stanoveném čase, Galen zaznamená chybu přenosu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b35d979490d"
+      },
+      "content": [
+        {
+          "text": "Routing key zprávy má formát galen.{agenda}, například galen.erecept nebo galen.objednavka. Přijímající systém zákazníka si nastaví odběr zpráv z příslušné fronty navázané na tento Exchange.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dd908a45bc4a"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e4cfc8a8eb00"
+      },
+      "content": [
+        {
+          "text": "Nastavení ve FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4215140e4422"
+      },
+      "content": [
+        {
+          "text": "Průběžný export se nastavuje ve dvou krocích: nejprve je nutné funkci zapnout na úrovni společnosti, poté vytvořit konfiguraci exportu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "998a0d1968a8"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "030707237d47"
+      },
+      "content": [
+        {
+          "text": "Krok 1 – Zapnutí funkce na společnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4fcc774568a0"
+      },
+      "content": [
+        {
+          "text": "Funkci průběžného exportu zapíná na společnosti dodavatel systému (Stapro). Na záznamu společnosti musí být nastaven příznak Průběžný export dat. Bez tohoto nastavení není konfigurace exportu dostupná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "52a80841c978"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "111b7a68204c"
+      },
+      "content": [
+        {
+          "text": "Krok 2 – Konfigurace exportu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4e2dfa65aa12"
+      },
+      "content": [
+        {
+          "text": "Po zapnutí funkce je v administraci Galenu dostupná sekce Konfigurace exportu dat (správce - Správa organice - Agendy - Export dat). Zde se vytvoří nový záznam konfigurace typu Průběžný s následujícími parametry:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67dd7497c7a9"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "fbca2607-6242-4649-a20a-8423a462a670"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4369dddc-c1e9-458f-95b7-71e97709a1dd"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "07850a4a-d69f-4051-9107-5ce4eeec4140"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fa41a1d18a71"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "b42e1eac-2156-484e-ada1-ac31f09f7acf"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f42dac7cf46b"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "996ac2c6-875b-40f3-aba0-9c1466bf8fa0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "720befe3-ca09-4bf6-a902-13b0846f2fe2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "477107fa5220"
+                  },
+                  "content": [
+                    {
+                      "text": "Označení exportu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "0025e84d-365f-4d10-845b-1f5d6b89b123"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a640d0ccf1d1"
+                  },
+                  "content": [
+                    {
+                      "text": "Libovolný název konfigurace (max. 30 znaků), slouží k identifikaci záznamu.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "17d29b92-2fde-4fdf-a633-d15ee68d217f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "cde48862-c928-4c6e-8965-71d1aaa9c81a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5006ecbc4ce5"
+                  },
+                  "content": [
+                    {
+                      "text": "Aktivní",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "81b160c3-7e91-4306-a4c3-2e13824f3fa4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1de51d3da770"
+                  },
+                  "content": [
+                    {
+                      "text": "Určuje, zda je konfigurace aktivní. Může existovat pouze jedna aktivní konfigurace průběžného exportu na společnost.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ae1f0d10-80b4-4583-ae50-eeaa5b4d57a3"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "c97f8ec8-4c9a-440a-bdf5-1ad5711b3755"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ea6913ccd6d8"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ přenosu dat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "54679cc8-0ff0-49d3-96dd-a7278c4e7dd2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33a75f4a1c83"
+                  },
+                  "content": [
+                    {
+                      "text": "Pro průběžný export se vybere hodnota RabbitMQ.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a1246b82-988c-4bf7-ab28-4dd55bcc470c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "401c40a7-3a04-47b8-bbf3-65d2b3a294a7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "14c45d266c4a"
+                  },
+                  "content": [
+                    {
+                      "text": "Průběžně exportované agendy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "f8dd45fa-c6a7-41af-be85-7cd322ccc655"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ed68e0072bfd"
+                  },
+                  "content": [
+                    {
+                      "text": "Výběr agend určených k exportu: eRecept, Objednávka, Příloha. Musí být vybrána alespoň jedna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9190984f-6ab1-4fec-9e4a-b54f32633b56"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "045c9ff9-78d9-4180-951e-deca8e70f068"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9d263de652cf"
+                  },
+                  "content": [
+                    {
+                      "text": "Adresa",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "5cfd0574-2af0-4ed2-aaf3-84809609e7b6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1d6ea0767a8e"
+                  },
+                  "content": [
+                    {
+                      "text": "Hostname nebo IP adresa RabbitMQ serveru.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "14e7a67d-2837-4cbb-829d-de26a05d6dbd"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "a78cbcc4-323c-40e1-9b2c-57d9c731ab06"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eb47d48aff8c"
+                  },
+                  "content": [
+                    {
+                      "text": "Port",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "5ae7a191-cb03-493f-9e7f-9fcf5b162b34"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1013430bc16d"
+                  },
+                  "content": [
+                    {
+                      "text": "Port RabbitMQ serveru. Výchozí hodnota: 5671 (SSL).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "64d073e2-c85e-48ed-939b-c8fbfa2a8c0c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "56da4d73-6f3d-43c7-a5bc-eee13aecee20"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "68c1e2b3b1ec"
+                  },
+                  "content": [
+                    {
+                      "text": "Virtual host",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "ffa99592-451c-489e-8ba7-7debea5a5cde"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6bbb519c784d"
+                  },
+                  "content": [
+                    {
+                      "text": "Virtual host na RabbitMQ serveru.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "850fdae0-024b-4123-8219-79f1dfb5c275"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "5411a4c5-96c2-4c9a-9d4b-36a8dba7ed85"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9ec3b6a98f1e"
+                  },
+                  "content": [
+                    {
+                      "text": "Exchange název",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "cff87b43-3624-4c49-8fae-f3c5c8bc3ef3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8f0efe9d1027"
+                  },
+                  "content": [
+                    {
+                      "text": "Název Exchange, na který Galen publikuje zprávy.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "446a09f5-ef71-4ff6-bc3f-6f835c80b577"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "9f43fa25-7749-4e58-b913-1641598ec1c6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7aa7d20dbfb"
+                  },
+                  "content": [
+                    {
+                      "text": "Exchange durable",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "2b801860-ec4f-4941-a7b7-53bf77991b0a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8b3b77deeac4"
+                  },
+                  "content": [
+                    {
+                      "text": "Určuje, zda je Exchange trvalý (přežije restart RabbitMQ). Výchozí hodnota: ne.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "47d5a9f5-86cb-46bd-8deb-ee8eed1fcd8e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "04529abf-4494-4bc3-a5f1-0916100ca527"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3f0fc9cd8d8b"
+                  },
+                  "content": [
+                    {
+                      "text": "Exchange auto delete",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "cae0d7a3-8c50-4544-86e5-27a1e14f4a81"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2c371e5fbef2"
+                  },
+                  "content": [
+                    {
+                      "text": "Určuje, zda se Exchange automaticky smaže, když nemá žádné odběratele. Výchozí hodnota: ne.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "99f710c9-2b45-4150-b011-3cfc33cb9885"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "7ef0b85b-b726-4aee-ac20-32fc346e7bd4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "310686bb580c"
+                  },
+                  "content": [
+                    {
+                      "text": "Uživatelské jméno",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "befb781d-ad7a-4058-b7aa-4850fbb07e3b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "390471004f6f"
+                  },
+                  "content": [
+                    {
+                      "text": "Přihlašovací jméno pro připojení k RabbitMQ.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c8092f54-3d36-4efb-a6ce-d58bc83a4ca9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "974da3dc-cbfb-4c49-9c02-892ac39b0698"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "56cf72b30152"
+                  },
+                  "content": [
+                    {
+                      "text": "Heslo",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "cdfdc631-10e9-4cbd-bdb7-7de8eb8de3dd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bafc8e21eebe"
+                  },
+                  "content": [
+                    {
+                      "text": "Heslo pro připojení k RabbitMQ. Hodnota je v systému šifrována.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "682df7818cfa"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "79b47a945111"
+      },
+      "content": [
+        {
+          "text": "Volitelné: Notifikace při selhání přenosu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "784d4ec75cfb"
+      },
+      "content": [
+        {
+          "text": "Je možné zapnout automatické upozornění při opakovaném selhání přenosu dat. Upozornění se odesílá prostřednictvím Telegram Bota. Pro aktivaci je nutné vyplnit:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7c415bd617b2"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "b4e08029-b211-41a0-8e74-3bb3a49dc2fb"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "cc0f2589-1498-42b7-9ec9-01d3e2ad1d18"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "5c1f6760-3782-4970-81d8-67fcd5dc2c37"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "22327cd2e6b3"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#d5e8f0",
+                "rowspan": 1,
+                "localId": "1a361693-e855-4390-ab96-d5894472ebe7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3f67986cff74"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3d59b209-0c1d-41a4-8826-204206658a42"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "d90da839-fdfb-4911-8806-21f5ce6f9b9e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "edf81f2b0a46"
+                  },
+                  "content": [
+                    {
+                      "text": "Notifikace selhání přenosu dat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "34a1ed1f-f9b4-4c38-ad84-3c15b15d81af"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3078bfea6534"
+                  },
+                  "content": [
+                    {
+                      "text": "Zapíná odesílání upozornění při selhání.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ea584b76-421a-42dc-b2c6-1f8a2208f1c9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "c18c9442-ed3b-4d25-9d76-b86d8316506c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4178773b425e"
+                  },
+                  "content": [
+                    {
+                      "text": "Interval (min)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "83ca7008-06b2-44c3-ae4e-cf63ea853849"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f4936095da80"
+                  },
+                  "content": [
+                    {
+                      "text": "Časový interval sledování selhání v minutách. Výchozí hodnota: 10. Hodnota 0 znamená okamžité odeslání při každém selhání.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "52a6790a-dfe6-4d8d-bd79-4fad7fecb6d0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "1ebbd2de-3696-4ce9-a386-86de1e232de5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4ed4005a3bbb"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet neprovedených pokusů",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "5d9f1f1a-1d2e-41ec-bada-07ce725f08b7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "992d2fd1e772"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet selhání v intervalu, po kterém se odešle upozornění. Výchozí hodnota: 5.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "95b59c8a-602c-433e-948b-195a9ae5d2fa"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "816256ac-a451-4d2a-b037-031438099bd1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "25dcbda3075f"
+                  },
+                  "content": [
+                    {
+                      "text": "Telegram Bot Token",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "ebcb0e06-16b5-468e-80e5-a396f3cde86e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7d1f45fc6c3"
+                  },
+                  "content": [
+                    {
+                      "text": "Token Telegram Bota, přes který se odesílá upozornění.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4203e442-3507-4aca-9873-6c991eb867d1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "whitesmoke",
+                "rowspan": 1,
+                "localId": "ce2cb8d4-c51a-4f27-8419-9adee1bdf706"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3ca799c59a70"
+                  },
+                  "content": [
+                    {
+                      "text": "Chat Id",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "white",
+                "rowspan": 1,
+                "localId": "566b18ff-c773-438e-8d07-04b2ac5c609c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e612f2118922"
+                  },
+                  "content": [
+                    {
+                      "text": "ID Telegram chatu nebo skupiny, do které se upozornění odesílá.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05c70425f189"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ef8235f3b3c0"
+      },
+      "content": [
+        {
+          "text": "Správnost nastavení Telegram upozornění lze ověřit tlačítkem Odeslat testovací notifikaci přímo v administraci.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "772485c37c9c"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "426a4d366768"
+      },
+      "content": [
+        {
+          "text": "Důležité poznámky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "c962ee90b376"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "961da1cc5d86"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d4859dbe92dc"
+              },
+              "content": [
+                {
+                  "text": "Na jednu společnost může být aktivní vždy jen jedna konfigurace průběžného exportu. Při pokusu o aktivaci druhé konfigurace Galen nabídne deaktivaci té stávající.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2c26e9bdffc4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "15694fa6531c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e5ed36b0b041"
+              },
+              "content": [
+                {
+                  "text": "Komunikace s RabbitMQ probíhá vždy přes SSL (šifrované připojení).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a01d865ff06c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "023913a786ee"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "63f0bd07e257"
+              },
+              "content": [
+                {
+                  "text": "Funkci průběžného exportu (příznak na společnosti) aktivuje dodavatel systému Stapro – zákazník nemůže toto nastavení provést sám.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "267138808465"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "67c0fbc88d6e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5640b3f28ca8"
+              },
+              "content": [
+                {
+                  "text": "Samotnou konfiguraci exportu (přihlašovací údaje, exchange, agendy) spravuje zákazník v administraci Galenu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "51b8b218d1a2"
+      },
+      "content": [
+        {
+          "text": " ",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

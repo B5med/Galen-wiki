@@ -1,0 +1,134 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "48d3dd639867"
+      },
+      "content": [
+        {
+          "text": "Jak to funguje v praxi",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fd10e431a132"
+      },
+      "content": [
+        {
+          "text": "Pokud je ve vaší ordinaci zapnuto ukládání příloh do cloudu, funguje práce s přílohami stejně jako dosud – žádná změna ovládání nevzniká. Jedná se o nadstandardní funkcionalitu, která je zpřístupněna na základě objednávky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c81dc61fa850"
+      },
+      "content": [
+        {
+          "text": "Při přiložení nového dokumentu (foto, PDF, výsledek z přístroje apod.) Galen soubor automaticky nahraje do cloudového úložiště. Po dobu nahrávání se příloha zobrazí s indikátorem průběhu. Jakmile je nahrávání dokončeno, je příloha plně dostupná pro zobrazení, tisk i sdílení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9be1aad194e3"
+      },
+      "content": [
+        {
+          "text": "Hlavní výhody pro uživatele:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d84249eb-2bf2-4fdb-886d-e2ae9516b1af"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9807c3cc-bfee-4399-b683-be6f967b124c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "aec4d52ef1d1"
+              },
+              "content": [
+                {
+                  "text": "Přílohy jsou dostupné ze všech přihlášených stanic okamžitě, bez nutnosti přístupu ke sdílenému disku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c5311a1c-0d88-4dac-8e63-311de07c5e84"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8799525e50f2"
+              },
+              "content": [
+                {
+                  "text": "Odpadají chyby způsobené nedostupností síťové složky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d848860e-5469-4915-a53a-a8802dbf9a2d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c4e8f5644524"
+              },
+              "content": [
+                {
+                  "text": "Kapacita úložiště není omezena lokálním diskem.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0beee3709a66"
+      }
+    }
+  ],
+  "version": 1
+}

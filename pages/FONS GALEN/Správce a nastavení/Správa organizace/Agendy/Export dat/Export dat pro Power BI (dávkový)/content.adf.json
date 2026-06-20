@@ -1,0 +1,1871 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "00c0e04edb50"
+      },
+      "content": [
+        {
+          "text": "Co je dávkový export dat",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c311b0aea425"
+      },
+      "content": [
+        {
+          "text": "Dávkový export dat je placená funkce IS FONS Galen, která umožňuje automaticky přenášet vybrané záznamy do externího systému zákazníka. Na rozdíl od průběžného exportu, který reaguje na každou jednotlivou změnu v reálném čase, dávkový export přenáší vždy kompletní aktuální data hromadně – každou noc ve ",
+          "type": "text"
+        },
+        {
+          "text": "3:00 ráno",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0007dabeae0c"
+      },
+      "content": [
+        {
+          "text": "Přenos probíhá prostřednictvím FTP, SFTP nebo přímým zápisem do databáze SQL Server zákazníka. Exportovaná data slouží typicky jako zdroj pro vytváření reportů a dashboardů v nástroji Microsoft Power BI nebo jiném analytickém prostředí zákazníka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "76374eb5268b"
+      },
+      "content": [
+        {
+          "text": "K čemu slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c94178349d0f"
+      },
+      "content": [
+        {
+          "text": "Funkce je určena zákazníkům, kteří potřebují pravidelně synchronizovat data z Galenu do vlastního analytického prostředí nebo datového skladu. Typické využití zahrnuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "2f8f59ea-ff3a-4d11-af1d-2d11bc416526"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b32cc696-e263-4c9a-9c77-ecb24412df89"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "273f126dd584"
+              },
+              "content": [
+                {
+                  "text": "pravidelný přenos klinických a provozních dat do Power BI pro manažerské reporty,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8a165dc3-4ff3-44c0-9b24-7a5c813d3bba"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0d4134365714"
+              },
+              "content": [
+                {
+                  "text": "plnění vlastního datového skladu zákazníka pro potřeby statistik a analýz,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9316340d-59af-485d-9c28-3cd005ef86f8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "549ff2796ce2"
+              },
+              "content": [
+                {
+                  "text": "export dat do externího SQL Serveru zákazníka pro další zpracování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ebb816c577da"
+      },
+      "content": [
+        {
+          "text": "Exportované agendy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "98dce2bb5fd3"
+      },
+      "content": [
+        {
+          "text": "Konkrétní obsah exportu je stanoven při aktivaci funkcionality dodavatelem systému na základě potřeb zákazníka. Standardně export zahrnuje tyto agendy:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "3889ce86-6576-4f64-aa00-a207febfdb14"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "de40c951-b3b8-4585-815b-46361147e1e5"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3cf68295-2e15-4ec5-a50f-57d0c31e6dd7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ab62f1660c8b"
+                  },
+                  "content": [
+                    {
+                      "text": "Agenda",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4f6a9868-bc7e-40e6-8e37-394a4595e1e0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e0c30f0893cd"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "00263c5b-8df6-4950-bcaa-ff1ab209161d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c9a06b0a-33e4-495e-a2e7-d4a30a283c5c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a62670fa55ba"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacienti",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "749d0ff5-4e14-409a-bbb5-461312f5a0f2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "70d114c44a2c"
+                  },
+                  "content": [
+                    {
+                      "text": "Základní demografické údaje pacientů – jméno, příjmení, číslo pojištěnce, pojišťovna, pohlaví.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "560633cb-f456-4fbd-91ba-1d957a3d1dc2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "01c37831-dee8-49e1-8c01-ff73e01dd6cc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "20153a275fa4"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracoviště / Zařízení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a18790fe-a27b-4e20-bb17-10867e2e7877"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6708c03fd2c1"
+                  },
+                  "content": [
+                    {
+                      "text": "Seznam pracovišť – IČP, odbornost, adresa.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "83cf9fdd-6351-400c-9b33-e30f1545b001"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3e23122f-135b-4e02-be33-55ac76e661a3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "30e4a0dfbb4b"
+                  },
+                  "content": [
+                    {
+                      "text": "Návštěvy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c387d786-2de9-447e-8b9a-665cd167901c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "10b7dcfd286f"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy návštěv členěné po rocích – datum, diagnózy, nález.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "00778033-cccc-4ab6-a561-c3f0003022a0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "befd5ca7-27de-4e80-bc1a-60f1e6b6a1bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2ad4a3e307a4"
+                  },
+                  "content": [
+                    {
+                      "text": "Výkony",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f87f7ac7-2aaa-42a3-827d-22364deaf924"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "62c0e735bdb7"
+                  },
+                  "content": [
+                    {
+                      "text": "Vykázané výkony členěné po rocích – kód výkonu, počet, body, cena, stav, diagnóza.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b084994e-f551-4d79-8167-cc5789bf5b29"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5420b277-737c-4c26-8472-82aa950f49e1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "61343b6e8fff"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyšetření",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fd41ea09-b290-478c-9c55-83f2102d8fed"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "383a0b677a1f"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy vyšetření členěné po rocích – druh, diagnóza, datum příští prohlídky.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a8ac320d-dd2c-4814-81b5-02ba1ee48364"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "59b2168f-ffaa-4484-af6e-889dfecb2a9f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eb29a6d004e3"
+                  },
+                  "content": [
+                    {
+                      "text": "Medikace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bb8e6768-b1d3-4861-8100-2fcd4aeee56b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c888925aec1d"
+                  },
+                  "content": [
+                    {
+                      "text": "Předepsané léky – přípravek, dávkování, diagnóza, datum.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "01e156dc-da43-480d-8fbb-816532b2f56a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e98afd33-44da-4324-8c27-c34f601fd7d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6faf2f85f42c"
+                  },
+                  "content": [
+                    {
+                      "text": "Anamnéza",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "60776fde-e5e6-4112-8bd1-5e0a3470eb3a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "33d939304490"
+                  },
+                  "content": [
+                    {
+                      "text": "Anamnestické záznamy pacientů – alergologická, osobní, profesní anamnéza, CAVE.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "fc68a9df-a0ac-4f6e-8616-cb8f731e1ba6"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e02c0a28-2b09-490b-b15f-69f3d0c1958a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "432bcb2e39d6"
+                  },
+                  "content": [
+                    {
+                      "text": "Dávky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "36e6c3cd-af37-41d8-9435-f6a159ef8d9c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0c57759fefdb"
+                  },
+                  "content": [
+                    {
+                      "text": "Vyúčtovací dávky odesílané pojišťovnám.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1d2d3dc6-6ee3-4b3b-abda-bf12976f2134"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bc949a0b-e3db-471e-b9f1-98f43ee987cc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7f3a2bbec829"
+                  },
+                  "content": [
+                    {
+                      "text": "Objednávky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c2bf813c-a34a-46c8-845c-75b7db5938f4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4325ed0c386f"
+                  },
+                  "content": [
+                    {
+                      "text": "Kalendářní záznamy objednávek pacientů.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d726ee9e-ce71-47dc-93c4-3f17959d372e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c5ce8772-2054-4bf6-84b2-a15f31c2ae16"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "182811edf984"
+                  },
+                  "content": [
+                    {
+                      "text": "Fronta",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "638a7a64-3970-45b5-9aad-3179378e4fce"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4e21b4272d7c"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy čekárny.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "06f13163-2c38-46ad-9c72-f4a6201da3c5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ab17a56f-d8a0-426a-a12a-80e427ea6c6d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "88fb41f79ffe"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracovníci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "36574662-1fd2-4f44-9ac3-e7da1e87400d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dd1d98e7df93"
+                  },
+                  "content": [
+                    {
+                      "text": "Seznam pracovníků (uživatelů) ordinace.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5e9c5f55-eb61-4058-b0a1-514df797ea2e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "63d6b992-8ad2-405f-b299-adf354cfdd8b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1bebb9493c9d"
+                  },
+                  "content": [
+                    {
+                      "text": "Číselníky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "727841f1-c5d2-419e-9651-f294dc0dd545"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5ebce2075cb3"
+                  },
+                  "content": [
+                    {
+                      "text": "Referenční číselníky – HVLP, výkony, léčivé přípravky, zdravotnické prostředky.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b55d6cd676ac"
+      },
+      "content": [
+        {
+          "text": "Jak přenos funguje",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "013817b61608"
+      },
+      "content": [
+        {
+          "text": "Každou noc ve 3:00 ráno Galen spustí export a přenese kompletní aktuální data do cílového úložiště zákazníka. Při každém spuštění se přenášejí vždy ",
+          "type": "text"
+        },
+        {
+          "text": "všechna data",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", nikoli pouze změny od posledního exportu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f36df0f25653"
+      },
+      "content": [
+        {
+          "text": "V případě přenosu přes FTP nebo SFTP jsou data odesílána jako soubory do vzdáleného adresáře na serveru zákazníka. V případě přenosu přes SQL Server jsou data zapsána přímo do tabulek v databázi zákazníka – stávající tabulky jsou před zápisem vždy smazány a znovu vytvořeny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d390f40f626d"
+      },
+      "content": [
+        {
+          "text": "Nastavení ve FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d60fc75a0c62"
+      },
+      "content": [
+        {
+          "text": "Dávkový export se nastavuje ve dvou krocích: nejprve je nutné funkci zapnout na úrovni společnosti, poté vytvořit konfiguraci exportu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8434ecb167b2"
+      },
+      "content": [
+        {
+          "text": "Krok 1 – Zapnutí funkce na společnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a9298d82007c"
+      },
+      "content": [
+        {
+          "text": "Funkci dávkového exportu zapíná na společnosti dodavatel systému (STAPRO). Bez tohoto nastavení není konfigurace exportu dostupná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "095c83a5-9b6c-4303-9a31-b3bd1ea9bf4b"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2a857abe78bc"
+      },
+      "content": [
+        {
+          "text": "Krok 2 – Konfigurace exportu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "70c6227d30a9"
+      },
+      "content": [
+        {
+          "text": "Po zapnutí funkce je v administraci Galenu dostupná sekce konfigurace exportu dat (",
+          "type": "text"
+        },
+        {
+          "text": "Správce → Správa organizace → Agendy → Export dat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "). Zde se vytvoří nový záznam konfigurace s následujícími parametry:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "fa93c236-131a-4277-ae7a-890b2ed48727"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b6bf6bc4-2e00-4485-a560-3500b985bea4"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "61e68f91-4eea-4eaa-80b4-fc08f6f5e610"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7e20fd0d86cc"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "747e27a0-3566-4cd4-b748-96d53b4b726a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d46c5ed3b599"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "99199b10-e186-4c1e-a3a7-90c5bd87f3a5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5a5a3969-9452-41b7-b342-ec80a3d16da4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "82061f7af5e7"
+                  },
+                  "content": [
+                    {
+                      "text": "Označení exportu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "18b2e293-55f3-4bae-95dc-f0599b2e4b1f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8fb2c9159047"
+                  },
+                  "content": [
+                    {
+                      "text": "Libovolný název konfigurace (max. 30 znaků), slouží k identifikaci záznamu.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "4fb1ef1c-831f-4438-8c59-3f6aded8f11f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ea2f6263-3f18-4e04-8f1e-e3c2fc194abe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7a4ad3d6c4c5"
+                  },
+                  "content": [
+                    {
+                      "text": "Aktivní",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "db5e2a0a-d02f-4b82-84a5-c19c8219352a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0302484d2864"
+                  },
+                  "content": [
+                    {
+                      "text": "Určuje, zda je konfigurace aktivní. Může existovat pouze jedna aktivní konfigurace dávkového exportu na společnost.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f75124c3-dad5-4df4-8b38-96db6fc70718"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5fda27cd-7c58-4ec6-a775-1b11629a9772"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "20ee621c4a09"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ přenosu dat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "09befe14-612a-4825-bcbd-03b593a27b76"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ba688cc9e866"
+                  },
+                  "content": [
+                    {
+                      "text": "Volba způsobu přenosu: ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "FTP",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "S-FTP",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " nebo ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "SQL Server",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a59dca13dccd"
+      },
+      "content": [
+        {
+          "text": "Pro typ přenosu FTP nebo S-FTP:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "74d3e139-d1b6-4380-9d7b-e4096318e88d"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f69dabb7-d91a-422e-b66c-fd8ba8d68d85"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f544a753-f641-4bbf-ba34-86639a37e372"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "66fb8efeab8d"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7f2cece2-5908-46ff-970e-68f3c6a6fb49"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c3dba97d5b9d"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e6621ec6-587b-4d26-8b4e-64acb29249cc"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4b3dc856-6176-4ed9-a1d1-7bfaf59e51eb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1205781e7838"
+                  },
+                  "content": [
+                    {
+                      "text": "Název serveru FTP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bf874c95-f9d3-4187-a97c-2fcdc748fa5a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ac9e6ebe3661"
+                  },
+                  "content": [
+                    {
+                      "text": "Hostname nebo IP adresa FTP/SFTP serveru.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f92ae205-b7b1-45ee-b06f-db2d90f56112"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "74d46990-f159-4579-86bb-fc78298b77d3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "35ece77b4b99"
+                  },
+                  "content": [
+                    {
+                      "text": "Port FTP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b726bf19-c2ff-437b-accc-255f70e059c6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8ab3806ed343"
+                  },
+                  "content": [
+                    {
+                      "text": "Port serveru.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1392eac6-7c61-4e8b-94e5-c8b049e94425"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fde42f5b-9315-4637-b504-edce2fb2d6fe"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "45ecf0520eff"
+                  },
+                  "content": [
+                    {
+                      "text": "Vzdálený adresář FTP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c90a1d28-c651-4eab-a76f-ba03d6db99bd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b0f969c54ee2"
+                  },
+                  "content": [
+                    {
+                      "text": "Cesta k adresáři na serveru, kam se soubory ukládají.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8a974204-b609-45aa-9798-b6bffffc2f2f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8d60f351-f2a6-4f1b-80d4-7929ebd324e4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f50b79220a81"
+                  },
+                  "content": [
+                    {
+                      "text": "Uživatelské jméno FTP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e7ba401a-0503-4303-941b-c76c4e77590c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "62778487140b"
+                  },
+                  "content": [
+                    {
+                      "text": "Přihlašovací jméno pro připojení k serveru. Hodnota je v systému šifrována.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "0561b035-f4f5-4990-aa3d-394501a1584a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6b71b85d-7568-4216-b774-50b406030c42"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b00ee857b1de"
+                  },
+                  "content": [
+                    {
+                      "text": "Heslo FTP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a68f886c-9601-4be6-8002-45b803c26d3b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aa92324a21cd"
+                  },
+                  "content": [
+                    {
+                      "text": "Heslo pro připojení k serveru. Hodnota je v systému šifrována.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46d077716f62"
+      },
+      "content": [
+        {
+          "text": "Pro typ přenosu SQL Server:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "dcac2e19-7502-4f94-a21f-f6efb93b4b43"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ad03fb85-2fe7-4daf-9e3d-cebaa95f4868"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "19aa7b40-2286-4dcb-8c69-c3da5a48d1e3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b836bb68a940"
+                  },
+                  "content": [
+                    {
+                      "text": "Pole",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "450824b7-107e-4dc8-ace5-055b37b319f6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "749b4baebc00"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis / hodnota",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "13f325f8-bef6-4e2f-83d8-3bcdf0b607fe"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "38ff1e46-9c13-4514-bbc7-8682516e5d6a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6fe4405bbb04"
+                  },
+                  "content": [
+                    {
+                      "text": "Připojovací řetězec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9a14dddb-4972-431a-839b-960ac527cd49"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "61bcd6386a19"
+                  },
+                  "content": [
+                    {
+                      "text": "Connection string pro připojení k databázi SQL Server zákazníka. Hodnota je v systému šifrována.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "308d20e60f7a"
+      },
+      "content": [
+        {
+          "text": "Důležité poznámky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "92a67d8b-6a97-46cc-ac55-fcabc8e36046"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7f5c427-e409-4c9b-8981-fa74c47db0a3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d196e92309ff"
+              },
+              "content": [
+                {
+                  "text": "Na jednu společnost může být aktivní vždy jen jedna konfigurace dávkového exportu. Při pokusu o aktivaci druhé konfigurace Galen nabídne deaktivaci té stávající.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9c334421-2f54-4e6f-be27-0ca2da929bb0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1b0f61d2c95f"
+              },
+              "content": [
+                {
+                  "text": "Při každém spuštění jsou přenášena vždy kompletní data – nedochází k přenosu pouze změn.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e95f9c52-24e5-4441-ac00-3031bc95b813"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cefbbe922831"
+              },
+              "content": [
+                {
+                  "text": "Funkci dávkového exportu (příznak na společnosti) aktivuje dodavatel systému STAPRO – zákazník nemůže toto nastavení provést sám.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "91d8b67d-a957-4d01-a618-9de1ed11f16d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ec8ae8a17ebb"
+              },
+              "content": [
+                {
+                  "text": "Samotnou konfiguraci exportu (typ přenosu, přihlašovací údaje) spravuje zákazník v administraci Galenu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
