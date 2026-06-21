@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-20
+generated: 2026-06-21
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **20. 6. 2026**  ·  Celkem stránek: **317**  ·  Poslední sync z Confluence: 2026-06-20
+> **21. 6. 2026**  ·  Celkem stránek: **317**  ·  Poslední sync z Confluence: 2026-06-21
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **34** |
-| ♨️ | Do 14 dnů | **9** |
-| 🌿 | Do 30 dnů | **9** |
-| 📄 | Do 90 dnů | **38** |
+| 🔥 | Do 3 dnů | **18** |
+| ♨️ | Do 14 dnů | **25** |
+| 🌿 | Do 30 dnů | **8** |
+| 📄 | Do 90 dnů | **39** |
 | 🗄️ | Starší než 3 měsíce | **227** |
 | ❓ | Bez data | **0** |
 
@@ -43,7 +43,7 @@ generated: 2026-06-20
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - ♨️ [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🔥 [[Auditní stopa]] `v1` · 18. 6. 2026
-    - 🔥 [[Dashboard]] `v1` · 17. 6. 2026
+    - ♨️ [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
@@ -76,27 +76,27 @@ generated: 2026-06-20
     - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
   - 🔥 **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
-    - 🔥 **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
+    - ♨️ **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
       - 🔥 [[Ceník a sortiment]] `v2` · 18. 6. 2026
-      - 🔥 [[Správa balíčků a položek]] `v1` · 17. 6. 2026
-      - 🔥 [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
+      - ♨️ [[Správa balíčků a položek]] `v1` · 17. 6. 2026
+      - ♨️ [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
     - 🔥 **[[Pracovnělékařské služby (PLS)]]** `v3` · 18. 6. 2026
-      - 🔥 **[[Import dat PLS]]** `v2` · 17. 6. 2026
-        - 🔥 [[Import pacientů PLS]] `v1` · 17. 6. 2026
-        - 🔥 [[Import skupin PLS]] `v1` · 17. 6. 2026
-        - 🔥 [[Import smluv PLS]] `v1` · 17. 6. 2026
-      - 🔥 [[Fakturace PLS]] `v1` · 17. 6. 2026
+      - ♨️ **[[Import dat PLS]]** `v2` · 17. 6. 2026
+        - ♨️ [[Import pacientů PLS]] `v1` · 17. 6. 2026
+        - ♨️ [[Import skupin PLS]] `v1` · 17. 6. 2026
+        - ♨️ [[Import smluv PLS]] `v1` · 17. 6. 2026
+      - ♨️ [[Fakturace PLS]] `v1` · 17. 6. 2026
       - 🔥 [[Nastavení PLS — smlouvy a skupiny]] `v2` · 18. 6. 2026
       - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
-      - 🔥 [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
+      - ♨️ [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
       - 🔥 [[Prohlídky a očkování PLS]] `v1` · 18. 6. 2026
-      - 🔥 [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
-      - 🔥 [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
+      - ♨️ [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
+      - ♨️ [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
       - 🔥 [[Recepce a objednávání PLS]] `v1` · 18. 6. 2026
-    - 🔥 [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
-    - 🔥 [[Orientace v modulu]] `v1` · 17. 6. 2026
-    - 🔥 [[Slovník pojmů]] `v1` · 17. 6. 2026
-    - 🔥 [[Tiskové výstupy]] `v1` · 17. 6. 2026
+    - ♨️ [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
+    - ♨️ [[Orientace v modulu]] `v1` · 17. 6. 2026
+    - ♨️ [[Slovník pojmů]] `v1` · 17. 6. 2026
+    - ♨️ [[Tiskové výstupy]] `v1` · 17. 6. 2026
   - 📄 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
@@ -336,7 +336,7 @@ generated: 2026-06-20
 - 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
-- 🌿 [[Modul sklad]] `v5` · 21. 5. 2026
+- 📄 [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
 - 🗄️ [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
 - 🌿 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
