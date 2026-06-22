@@ -1,0 +1,2878 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "25097a83cf6d"
+      },
+      "content": [
+        {
+          "text": "SEIVA",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je externí čekárenský systém (samoobslužný kiosk), který umožňuje pacientům zaregistrovat se do čekárny přiložením kartičky pojištěnce. Přístroj načte identifikační údaje pacienta (jméno, příjmení, číslo pojištěnce) a uloží je do souboru ve formátu ",
+          "type": "text"
+        },
+        {
+          "text": "GDT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36445bfa592c"
+      },
+      "content": [
+        {
+          "text": "Integrace zajišťuje, že FONS Galen automaticky sleduje tyto soubory a zobrazuje přihlášené pacienty přímo v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Čekárna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Recepce tak vidí příchozí pacienty bez nutnosti ručního zadávání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "c9da7acde3d5"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "3e3e7fa37bf2"
+          },
+          "content": [
+            {
+              "text": "Integrace je jednosměrná — SEIVA posílá data do Galenu (přes soubory GDT). Galen na přístroj žádná data neposílá zpět.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4278dc738077"
+      },
+      "content": [
+        {
+          "text": "Jak integrace funguje – princip",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a145a889a9f3"
+      },
+      "content": [
+        {
+          "text": "Celý tok od příchodu pacienta po zobrazení v čekárně:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f342d54b175e",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3f60624a427b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e0c05875ab0"
+              },
+              "content": [
+                {
+                  "text": "Pacient přiloží kartičku pojištěnce k přístroji SEIVA v čekárně.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f09998408d22"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "feb473e7b1e3"
+              },
+              "content": [
+                {
+                  "text": "SEIVA vytvoří GDT soubor s údaji pacienta do nastavené sdílené složky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0e1c4aa211e6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a1843ab0cd65"
+              },
+              "content": [
+                {
+                  "text": "Galen sleduje složku pomocí ",
+                  "type": "text"
+                },
+                {
+                  "text": "FileSystemWatcher",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — zachytí každý nový soubor okamžitě (i při startu aplikace zpracuje soubory, které přišly mezidobí).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "09030d6d08db"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7e4b80e6dc11"
+              },
+              "content": [
+                {
+                  "text": "Galen se pokusí najít pacienta v databázi podle ",
+                  "type": "text"
+                },
+                {
+                  "text": "čísla pojištěnce",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8b4141b5b149"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "40172a58146a"
+              },
+              "content": [
+                {
+                  "text": "Výsledek se zobrazí v modulu Čekárna — spárovaný nebo nespárovaný záznam.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "96da697fcd27"
+      },
+      "content": [
+        {
+          "text": "Přiřazení pacienta ke kalendáři",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "de84f653f12d"
+      },
+      "content": [
+        {
+          "text": "Každý záznam ze SEIVY musí být přiřazen ke konkrétnímu kalendáři. Galen to určí podle těchto pravidel:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fc8c1af50b3c",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "735be8d7d874"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "92b4ab8c6ddb"
+              },
+              "content": [
+                {
+                  "text": "Jedinečná cesta:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " pokud má daný kalendář nastavenou cestu, která nepatří žádnému jinému kalendáři, pacient je přiřazen automaticky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "280a90deeb33"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "580308be81e4"
+              },
+              "content": [
+                {
+                  "text": "Sdílená cesta + Důvod příchodu:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " pokud více kalendářů sdílí stejnou složku, Galen porovná pole ",
+                  "type": "text"
+                },
+                {
+                  "text": "Důvod příchodu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " (nastavené v přístroji SEIVA) s ",
+                  "type": "text"
+                },
+                {
+                  "text": "přesným názvem kalendáře",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " v Galenu (včetně diakritiky a velikosti písmen).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "433c13f28d60"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8b20d2f9db99"
+              },
+              "content": [
+                {
+                  "text": "Více informací v Důvodu:",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " pokud přístroj vyplní do důvodu i další text (např. ",
+                  "type": "text"
+                },
+                {
+                  "text": "MUDr. Novák|Odběr",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": "), hodnoty jsou odděleny znakem ",
+                  "type": "text"
+                },
+                {
+                  "text": "|",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "text": " — první část je název kalendáře. Díky tomu lze více kiosků nebo vstupů směrovat do jedné fronty.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "eee284ce9bd0"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "763705335813"
+          },
+          "content": [
+            {
+              "text": "Neshoda názvů = ztráta záznamu.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Pokud se název tlačítka na SEIVA kiosku neshoduje s názvem kalendáře v Galenu a jsou současně otevřeny dva nebo více kalendářů se SEIVA, záznam pacienta je zahozen — pacient se nikde v čekárně nezobrazí. Při jediném otevřeném kalendáři se pacient přiřadí zdánlivě správně, ale chyba se projeví hned jak se přihlásí druhý uživatel. Toto je nejčastější příčina hlášení „pacient se v čekárně nezobrazil\".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "833182c1cdd7"
+      },
+      "content": [
+        {
+          "text": "Konfigurace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "694027f15b71"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "fddd18b7f2cf"
+          },
+          "content": [
+            {
+              "text": "Předpoklad:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Technická podpora musí mít předem aktivovánu integraci SEIVA na úrovni společnosti (",
+              "type": "text"
+            },
+            {
+              "text": "Čekárenský systém = SEIVA",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": "). Bez tohoto nastavení kroky níže nemají efekt. Pokud integrace nefunguje, ověřte s technickou podporou, zda bylo toto provedeno.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0b08f4b3a7fb"
+      },
+      "content": [
+        {
+          "text": "Po aktivaci technickou podporou nastavte v Galenu každý zapojený kalendář ve dvou krocích.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "91ced190c83d"
+      },
+      "content": [
+        {
+          "text": "Krok 1 – Správa čekárny na každém zapojeném kalendáři",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d86484cdf02c"
+      },
+      "content": [
+        {
+          "text": "Na každém kalendáři, který má být součástí SEIVA fronty, nastavte pole:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "1cae27984216"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a6e69ffc33be"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d8762815d83d"
+              },
+              "content": [
+                {
+                  "text": "Správa čekárny",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " = ",
+                  "type": "text"
+                },
+                {
+                  "text": "Evidence stavů",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "758754338e6a"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "6dc925fcf7f1"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "70fce42a0d41"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b543f0cf87ca"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnota",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d1c7d86679e6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c4f5d1af28f6"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "be0d22f00260"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "48f7cb2920c7"
+                  },
+                  "content": [
+                    {
+                      "text": "Kdy použít",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c276f166533a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b597ab35a418"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1c09f73a2574"
+                  },
+                  "content": [
+                    {
+                      "text": "Ruční odstranění ",
+                      "type": "text"
+                    },
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "neutral",
+                        "style": "bold",
+                        "text": "výchozí",
+                        "localId": "92417d18-76e6-482a-b5be-69ebdb274eab"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "41786b3562e8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "24f33703a720"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy se mažou ručně",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3c34b3a27ab5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "68c85b39971c"
+                  },
+                  "content": [
+                    {
+                      "text": "Bez čekárny nebo bez SEIVA",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "543a54251229"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "55086495af3a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8d21c57ab699"
+                  },
+                  "content": [
+                    {
+                      "text": "Evidence stavů ",
+                      "type": "text"
+                    },
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "green",
+                        "style": "bold",
+                        "text": "pro SEIVA",
+                        "localId": "9943a942-8c74-4370-ae4e-a352b60f7db9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f4ed70c9c60a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "211c579ec9f7"
+                  },
+                  "content": [
+                    {
+                      "text": "Sledování stavů, záznamy zůstávají",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e41ec550eb92"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e4d8b0a13546"
+                  },
+                  "content": [
+                    {
+                      "text": "Vždy při SEIVA integraci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "339ea727afb7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b0d5b58699f3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "42869df3f56e"
+                  },
+                  "content": [
+                    {
+                      "text": "Automatické odstranění",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e8ae2433812"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5df6f0059bac"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznamy mizí automaticky po vyřízení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4cccdd28fd21"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "45fd3cc18df6"
+                  },
+                  "content": [
+                    {
+                      "text": "Jen pokud zákazník explicitně chce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "15b517faff0a"
+      },
+      "content": [
+        {
+          "text": "Krok 2 – Cesta ke složce GDT souborů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6e3c95d22802"
+      },
+      "content": [
+        {
+          "text": "Na jednom z zapojených kalendářů (zpravidla hlavním) vyplňte pole:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ff8072368e4d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e02895cdf1db"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e43431015ea6"
+              },
+              "content": [
+                {
+                  "text": "Čekárna SEIVA – cesta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — lokální nebo síťová cesta ke složce, kde SEIVA ukládá GDT soubory (max. 255 znaků)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6309a5934613"
+      },
+      "content": [
+        {
+          "text": "Ostatní zapojené kalendáře mají nastavenu ",
+          "type": "text"
+        },
+        {
+          "text": "Evidenci stavů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", ale pole cesty mohou mít prázdné. Více kalendářů může sdílet stejnou cestu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "01c8a4b7ef3e"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ba4039157512"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "01de086cc504"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "625d07618ff2"
+                  },
+                  "content": [
+                    {
+                      "text": "Příklad cesty",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2ad9411bd24e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3d25aebdea95"
+                  },
+                  "content": [
+                    {
+                      "text": "Typ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "01e444b2d83f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "82589f6bc368"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2c22b301c413"
+                  },
+                  "content": [
+                    {
+                      "text": "C:\\SEIVA\\Sdilena",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "55ae1291479d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d20fbc04ffb2"
+                  },
+                  "content": [
+                    {
+                      "text": "Lokální disk (jen jeden PC)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1e0fb9af31f6"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d94c9a225601"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f8657472454f"
+                  },
+                  "content": [
+                    {
+                      "text": "\\\\server01\\seiva",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a0707fac37b1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "364a5e3114ea"
+                  },
+                  "content": [
+                    {
+                      "text": "UNC — doporučeno pro více stanic",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "199737fff08d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "69cebe6fbb30"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e949c1fa47a4"
+                  },
+                  "content": [
+                    {
+                      "text": "Z:\\SEIVA",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bbac58b431fb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "542037052700"
+                  },
+                  "content": [
+                    {
+                      "text": "Mapovaný síťový disk",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "8198a1180f5d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "0c6da1ed4bb5"
+          },
+          "content": [
+            {
+              "text": "Více kalendářů se sdílenou cestou:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " v přístroji SEIVA musí být nastaven ",
+              "type": "text"
+            },
+            {
+              "text": "Důvod příchodu",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": ", jehož hodnota přesně odpovídá názvu kalendáře v Galenu (velikost písmen se počítá). Před nasazením ověřte přesné znění tlačítek na kiosku.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "64c634ad423e"
+      },
+      "content": [
+        {
+          "text": "Čekárna – zobrazení v Galenu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d815d64f2807"
+      },
+      "content": [
+        {
+          "text": "Pacienti přihlášení přes SEIVA se zobrazují v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Čekárna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " spolu s pacienty přidanými ručně. Každý záznam ze SEIVY je označen ikonou párování:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "cf7a36d9e8da"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c6de5212d4f6"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3c50b3d77d8e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a7032ee77cb4"
+                  },
+                  "content": [
+                    {
+                      "text": "Ikona",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1dcbeb0867fb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7365aaf01265"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e7019002aaa8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cd8418bb9d0c"
+                  },
+                  "content": [
+                    {
+                      "text": "Zobrazené údaje",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5ee53ac5109b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1961a8ad4cf7"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "858f46ee2ad1"
+                  },
+                  "content": [
+                    {
+                      "text": "✔ zelená",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "422d00e2f118"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "eb8e5a30402b"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient byl úspěšně spárován s kartou v Galenu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ac8ebac3354f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "71ac189e4736"
+                  },
+                  "content": [
+                    {
+                      "text": "Údaje z karty pacienta (pole ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Pacient",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " je vyplněno)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d5bbee14dedc"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "41564b004731"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fe116cc90771"
+                  },
+                  "content": [
+                    {
+                      "text": "! oranžová",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "826799bd7fe9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee25ac3e81cf"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient nebyl automaticky spárován",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bb1d33b92b7a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0de3b26fc3e2"
+                  },
+                  "content": [
+                    {
+                      "text": "Jméno, příjmení a číslo pojištěnce převzaty přímo z GDT souboru (pole ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Pacient",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " je prázdné)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0bb032acc6b8"
+      },
+      "content": [
+        {
+          "text": "Párování pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e947dd07340f"
+      },
+      "content": [
+        {
+          "text": "Pokud pacient nebyl spárován automaticky, lze ho spárovat ručně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "2e26f17f27d4",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4efde9c4b98b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "26a3ce8b8148"
+              },
+              "content": [
+                {
+                  "text": "V čekárně najděte záznam s ",
+                  "type": "text"
+                },
+                {
+                  "text": "oranžovou ikonou",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (nespárovaný).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2c71ae72d3a4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "71239ef9fc36"
+              },
+              "content": [
+                {
+                  "text": "Poklepejte",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " na záznam — otevře se okno ",
+                  "type": "text"
+                },
+                {
+                  "text": "Párování pacienta s objednávacím systémem",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2854d7c9c8ea"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "56066caf0c4c"
+              },
+              "content": [
+                {
+                  "text": "Zadejte do pole hledání jméno, příjmení nebo číslo pojištěnce. Seznam níže se průběžně filtruje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "317eb394b9c8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a530b7a84ca9"
+              },
+              "content": [
+                {
+                  "text": "Najdete-li shodu, označte pacienta a klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Spárovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "99f613ca43ec"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e2a95cc5c46a"
+              },
+              "content": [
+                {
+                  "text": "Nenajdete-li pacienta v databázi, klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Založit novou kartu pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — Galen otevře formulář nové karty a předvyplní dostupné údaje z GDT souboru.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "b2672c08833b"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "2c68240f74b2"
+          },
+          "content": [
+            {
+              "text": "Tlačítko ",
+              "type": "text"
+            },
+            {
+              "text": "Založit novou kartu pacienta",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " se zpřístupní až po zadání alespoň 1 znaku do pole vyhledávání.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3a504b06a20b"
+      },
+      "content": [
+        {
+          "text": "Proč pacient není spárovaný – to nemusí být chyba",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "67dcdf3b2886"
+      },
+      "content": [
+        {
+          "text": "Nespárování (oranžová ikona) je normální stav v těchto případech:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8605aeba8d72"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "db4d7c1e00a2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "61de86e4516d"
+              },
+              "content": [
+                {
+                  "text": "Nový nebo cizí pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — není v kartotéce, spárovat nelze; použijte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Založit novou kartu pacienta",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3965884a354f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "384eaa03f280"
+              },
+              "content": [
+                {
+                  "text": "Nesoulad čísla pojištěnce",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — pacient zadal na kiosku jiné RČ než je v kartotéce.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "43f6d1eb2a63"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fe207bb0fdfa"
+              },
+              "content": [
+                {
+                  "text": "Neúplná data z kiosku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " — čtečka karet nenačetla všechny údaje (prázdné jméno nebo RČ).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "5192a2a40148"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "41f80a15fa8c"
+          },
+          "content": [
+            {
+              "text": "Nespárování není chyba integrace — je to datový problém na straně pacienta nebo kartotéky. Řeší se ručním párováním nebo založením nové karty.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b021b1b4acca"
+      },
+      "content": [
+        {
+          "text": "Stavy pacienta v čekárně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "3bfd5af595ff"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a4a14154911d"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "796c98c66c35"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "34780d42d89e"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "469a8a6472e6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4cceb7062336"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "136e6a7c3071"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e12067208931"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9a5ca715c990"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "red",
+                        "style": "bold",
+                        "text": "Nový",
+                        "localId": "c75e56ef-48c4-4d6a-b40a-6d6ad0548d5a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6a749f4fb274"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dad8d569b32f"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient právě dorazil — dosud ho nikdo nezpracoval.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5ef04c378ee5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "68cba37bdbed"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cc8ca55ac161"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "yellow",
+                        "style": "bold",
+                        "text": "V řešení",
+                        "localId": "58ce32f9-3bfa-4855-a54d-696193a9469d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "22b6157725f9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee84ed086e99"
+                  },
+                  "content": [
+                    {
+                      "text": "Recepce nebo lékař záznam otevřeli a pracují s ním.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "779777e42d26"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bbaca3c24834"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "331a57081564"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "green",
+                        "style": "bold",
+                        "text": "Vyřešený",
+                        "localId": "11f58ceb-3d73-4e5a-b9ec-ed2ffb51d8d1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "628dce449339"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0730b34b0aed"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient byl vyšetřen, návštěva ukončena.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b7e89b27ce91"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "003e475cb7db"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "26d9b5c16198"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "blue",
+                        "style": "bold",
+                        "text": "Přeřazen",
+                        "localId": "8f3ffac1-cdf6-4af8-906a-8cf6f4de3fef"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "14f3215279ee"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "81654c86ae78"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient byl přesunut na jiný kalendář.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c1a9e4d2a3d7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4e7750130248"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "19c190c30ca9"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "neutral",
+                        "style": "bold",
+                        "text": "Předčasný odchod",
+                        "localId": "d0a18e6a-c3f2-4f01-b7ec-4c6a0ecb9edd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d12cd90b8009"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f347c4a69f6f"
+                  },
+                  "content": [
+                    {
+                      "text": "Pacient odešel ještě před vyšetřením.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ec64f3262e71"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4f4109bc5800"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8c9e65bdaee3"
+                  },
+                  "content": [
+                    {
+                      "type": "status",
+                      "attrs": {
+                        "color": "neutral",
+                        "style": "bold",
+                        "text": "Odstraněný",
+                        "localId": "1821cfb6-cd0d-4f95-9842-05d326cd2b1d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cc6678989cd1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1d4e5da03852"
+                  },
+                  "content": [
+                    {
+                      "text": "Záznam byl ručně odstraněn z čekárny.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a79706574c82"
+      },
+      "content": [
+        {
+          "text": "Signalizace nových pacientů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "23f6d1731f03"
+      },
+      "content": [
+        {
+          "text": "Pokud se v čekárně nachází alespoň jeden pacient se stavem ",
+          "type": "text"
+        },
+        {
+          "type": "status",
+          "attrs": {
+            "color": "red",
+            "style": "bold",
+            "text": "Nový",
+            "localId": "5fa67ae9-ccd5-4d76-8fcd-2b1105b13197"
+          }
+        },
+        {
+          "text": ", zobrazí se nad ikonou Čekárna v hlavním panelu Galenu ",
+          "type": "text"
+        },
+        {
+          "text": "červené kolečko s počtem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " takových pacientů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "a9a4745483e4"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "79f0a7e0bd26"
+          },
+          "content": [
+            {
+              "text": "Podmínka zobrazení: pacient musí být přiřazen ke kalendáři vašeho aktuálního pracoviště, nebo ke kalendáři, ke kterému máte právo přístupu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f6013ac71578"
+      },
+      "content": [
+        {
+          "text": "Ověření funkčnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "57724d58cad1"
+      },
+      "content": [
+        {
+          "text": "Po konfiguraci lze ověřit, že integrace běží správně, přímým pohledem do sdílené složky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "localId": "c7a9e691d331"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8731264f2598"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8c1f9d0315c4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "91531585c31d"
+                  },
+                  "content": [
+                    {
+                      "text": "Co vidím ve složce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2150ac765269"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1b7f2d6471a1"
+                  },
+                  "content": [
+                    {
+                      "text": "Co to znamená",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b7a7a38fc4ef"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e29b2c1199b0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c3661220f473"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubory ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "!CEKAJICI_*.csv",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " s dnešním datem",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b4b14bc5556f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4d66ae70ce9b"
+                  },
+                  "content": [
+                    {
+                      "text": "SEIVA funguje a zapisuje snapshoty čekárny — integrace na straně SEIVA je v pořádku",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "1210cff8130f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6a0334c5a636"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b4640fe7f8ec"
+                  },
+                  "content": [
+                    {
+                      "text": "Žádné CSV soubory",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0392fcf5af3a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e3655268bbb"
+                  },
+                  "content": [
+                    {
+                      "text": "SEIVA nepíše — problém na straně SEIVA nebo špatná cesta v nastavení kalendáře",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e6455ffdfca8"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8880054410cd"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e5152d509eb1"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubory ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "AMB_CEK*.001",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (nebo .002, .003…)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d1146b841afc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "919de79cd661"
+                  },
+                  "content": [
+                    {
+                      "text": "Galen soubor přečetl, ale zpracování selhalo.",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " Zkontrolovat ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Seiva.log",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " pro důvod odmítnutí (nejčastěji neshoda názvu kalendáře nebo prázdné jméno pacienta)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5f3c25a003a8"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "51abe194ab4c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d452db05854c"
+                  },
+                  "content": [
+                    {
+                      "text": "Soubory ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "AMB_CEK*.GDT",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "code"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " zůstávají déle než minutu",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d6cda31b43c6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "02700b29e65d"
+                  },
+                  "content": [
+                    {
+                      "text": "Galen soubory nečte — pravděpodobně neběží nebo nemá práva ke čtení složky",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0c656ab51a6b"
+      },
+      "content": [
+        {
+          "text": "Chybový log",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ccd204428c3e"
+      },
+      "content": [
+        {
+          "text": "Pokud při zpracování GDT souborů dojde k chybě (soubor nelze přečíst, neplatný formát, neshoda názvu kalendáře apod.), Galen zapíše chybu do lokálního logu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "language": "plaintext",
+        "localId": "c1bd99d99201"
+      },
+      "content": [
+        {
+          "text": "C:\\ProgramData\\Galen\\Seiva.log",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "104282e06cd6"
+      },
+      "content": [
+        {
+          "text": "Log je uložen na každé Galen stanici zvlášť. Je to první místo k prozkoumání, pokud pacienti ze SEIVY přestali přicházet do čekárny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "da1f484c9ed5"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8da92f730853"
+          },
+          "content": [
+            {
+              "text": "V případě opakovaných problémů s párováním zkontrolujte, zda hodnota ",
+              "type": "text"
+            },
+            {
+              "text": "Důvod příchodu",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " nastavená v přístroji SEIVA přesně odpovídá názvu kalendáře v Galenu (včetně diakritiky a velikosti písmen).",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
