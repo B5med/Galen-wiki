@@ -140,7 +140,7 @@ def load_cache(out_root: Path) -> dict[str, dict]:
 
 
 def _lp(p: Path) -> Path:
-    """Na Windows pouzij prefix \\?\ pro obejiti limitu 260 znaku v cestach."""
+    r"""Na Windows pouzij prefix \\?\ pro obejiti limitu 260 znaku v cestach."""
     if sys.platform != "win32":
         return p
     s = str(p.resolve())
