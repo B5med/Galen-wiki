@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-24
+generated: 2026-06-25
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **24. 6. 2026**  ·  Celkem stránek: **318**  ·  Poslední sync z Confluence: 2026-06-24
+> **25. 6. 2026**  ·  Celkem stránek: **318**  ·  Poslední sync z Confluence: 2026-06-25
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-06-24
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **43** |
-| 🌿 | Do 30 dnů | **8** |
-| 📄 | Do 90 dnů | **38** |
+| 🌿 | Do 30 dnů | **5** |
+| 📄 | Do 90 dnů | **41** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -119,7 +119,7 @@ generated: 2026-06-24
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
       - 🌿 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
-    - 🌿 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
+    - 📄 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🔥 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
@@ -238,8 +238,8 @@ generated: 2026-06-24
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🌿 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
-      - 🌿 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
+      - 📄 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
+      - 📄 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
       - 🌿 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
