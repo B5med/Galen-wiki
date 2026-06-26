@@ -1,7 +1,7 @@
 ---
 title: "Odložení pacienta"
-version: 1
-updated_at: 2026-06-18
+version: 2
+updated_at: 2026-06-25
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/462028809
 ---
 
@@ -28,6 +28,7 @@ Jeho dostupnost závisí na aktuálně otevřeném pohledu:
 
 Jedná se o nadstandardní placenou funkcionalitu. Po objednání ze strany zákazníka je funkcionalita zpřístupněna.
 
-Zákazník si následně sám v administraci Galenu v nastavení společnosti (záložka **Konfigurace**, sekce **Odložení pacienta**) zvolí, ve kterých modulech funkci využívá – zaškrtnutím příslušných checkboxů **Ordinace** a **Objednávání**.
+Zákazník si **následně sám v administraci** Galenu v nastavení společnosti (záložka **Konfigurace**, sekce **Odložení pacienta**) zvolí, ve kterých modulech funkci využívá – zaškrtnutím příslušných checkboxů **Ordinace** a **Objednávání**.
 
+![image-20260625-164946.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Odložení pacienta/assets/image-20260625-164946.png>)
 Jakmile je příznak pro daný modul zapnutý, funkce je okamžitě dostupná **všem uživatelům** tohoto modulu – bez jakéhokoli dalšího nastavení na straně lékaře nebo uživatele.

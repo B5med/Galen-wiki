@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-25
+generated: 2026-06-26
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **25. 6. 2026**  ·  Celkem stránek: **318**  ·  Poslední sync z Confluence: 2026-06-25
+> **26. 6. 2026**  ·  Celkem stránek: **318**  ·  Poslední sync z Confluence: 2026-06-26
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-06-25
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **43** |
-| 🌿 | Do 30 dnů | **5** |
-| 📄 | Do 90 dnů | **41** |
+| 🌿 | Do 30 dnů | **4** |
+| 📄 | Do 90 dnů | **42** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -49,7 +49,7 @@ generated: 2026-06-25
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - ♨️ [[Modul ordinace]] `v7` · 16. 6. 2026
-    - ♨️ [[Odložení pacienta]] `v1` · 18. 6. 2026
+    - 🔥 [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -122,7 +122,7 @@ generated: 2026-06-25
     - 📄 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
-    - 🔥 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
+    - ♨️ [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - ♨️ [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - ♨️ [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
@@ -241,7 +241,7 @@ generated: 2026-06-25
       - 📄 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
       - 📄 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
-      - 🌿 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
+      - 📄 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025

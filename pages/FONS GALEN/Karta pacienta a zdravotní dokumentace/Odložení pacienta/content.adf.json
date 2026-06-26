@@ -262,7 +262,20 @@
       },
       "content": [
         {
-          "text": "Zákazník si následně sám v administraci Galenu v nastavení společnosti (záložka ",
+          "text": "Zákazník si ",
+          "type": "text"
+        },
+        {
+          "text": "následně sám v administraci",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Galenu v nastavení společnosti (záložka ",
           "type": "text"
         },
         {
@@ -318,6 +331,34 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 550,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 550,
+            "alt": "image-20260625-164946.png",
+            "id": "aecb412d-5206-4f17-8b64-a1955e2a9eb7",
+            "collection": "contentId-462028809",
+            "type": "file",
+            "localId": "4d0d48637a52",
+            "height": 168
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "165464754dba"
+      }
     },
     {
       "type": "paragraph",
