@@ -1,0 +1,461 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "01e7968414d7"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b2e2cecd39a8"
+          },
+          "content": [
+            {
+              "text": "Informace o očkování pacienta do ISIN probíhá v rámci zadání očkování. Je však nutné, aby byla vytvořena ",
+              "type": "text"
+            },
+            {
+              "text": "uživatelská varianta očkování",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", která má vyplněné údaje, které je potřeba odeslat do ISIN.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "344a45dc8943"
+      },
+      "content": [
+        {
+          "text": "Postup zadávání očkování s odesláním do ISIN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f7d97d180235"
+      },
+      "content": [
+        {
+          "text": "Do ISIN je možné odeslat informaci o očkování pouze ve chvíli, kdy je očkování zadáno do Galenu pomocí tlačítka Očkovat ",
+          "type": "text"
+        },
+        {
+          "type": "mediaInline",
+          "attrs": {
+            "width": 84,
+            "alt": "image-20260628-134433.png",
+            "id": "72c3c562-c158-44c6-8ae6-289a465c28c2",
+            "collection": "contentId-475267096",
+            "type": "image",
+            "localId": "e6f7253e5b87",
+            "height": 51
+          }
+        },
+        {
+          "text": " Očkování do ISIN nelze odeslat pouze při doplnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e0588793e48b"
+      },
+      "content": [
+        {
+          "text": "V prvním kroku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " uživatel vybere očkovací látku. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 165,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 165,
+            "alt": "image-20260628-134545.png",
+            "id": "c5e781c5-9770-41a4-8e78-4369089cfbb0",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "bd76ca15c812",
+            "height": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4850b644fc06"
+      },
+      "content": [
+        {
+          "text": "V druhém kroku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " uživatel musí zvolit očkovací schéma (očkování, které se má odeslat do ISIN nelze",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "očkovat bez schématu). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 146,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 146,
+            "alt": "image-20260628-134631.png",
+            "id": "91b419f2-6517-49c3-838d-b09a2e07ca2b",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "d0368b47e307",
+            "height": 168
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c03bbd2be92f"
+      },
+      "content": [
+        {
+          "text": "Ve třetím kroku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – výběr varianty zvolí uživatelsky vytvořenou variantu, která má příznak „Odesílat do",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "ISIN“. Očkovací varianta, které se má odesílat do ISIN je rozšířená o položky, které se do ISIN odesílají. Uživateli se přednastaví položky, které vyplnil při vytváření varianty.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Položky Indikace, Jiná indikace, Poznámka, Aplikační cesta, Místo aplikace je možné změnit nebo",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "doplnit.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Hodnota pole Typ výkonu se přednastavuje na základě toho, zda byla v předchozím kroku vybrána první nebo druhá dávka očkování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 573,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 573,
+            "alt": "image-20260628-134745.png",
+            "id": "13e371ec-7eae-45dd-bb56-39c20264a1b7",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "10c7a431e3c0",
+            "height": 415
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1a61ad72e925"
+      },
+      "content": [
+        {
+          "text": "Ve čtvrtém kroku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " uživatel buď vybere šarží ze skladu, nebo v případě, že sklady nepoužívá, zadá šarži a expiraci ručně.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Po stisknutí tlačítka očkovat se očkování uloží a zároveň odešle do ISIN.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "67b524e5f03e"
+      },
+      "content": [
+        {
+          "text": "Oprava údajů zaslaných do ISIN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "77a765912db0"
+      },
+      "content": [
+        {
+          "text": "Údaje zaslané do ISIN je možné upravit a zaslat znovu do ISIN. V přehledu očkování je potřeba",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "rozkliknut řádek s dávkou, kterou je potřeba upravit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 576,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 576,
+            "alt": "image-20260628-134935.png",
+            "id": "409be184-e949-4ee6-85c8-b005403eb2bb",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "3dd112f54925",
+            "height": 342
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "754b41c8ace7"
+      },
+      "content": [
+        {
+          "text": "Po editaci příslušného pole se spolu se stisknutím tlačítka OK odešlou informace do ISIN.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "c95b7a207ed1"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "ad188707da0a"
+          },
+          "content": [
+            {
+              "text": "Pole Typ výkonu nelze editovat. Pokud uživatel zadal špatné pořadí dávky vakcinace, je nutné řádek očkování smazat a zadat znovu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fbb29dd51b50"
+      },
+      "content": [
+        {
+          "text": "Stažení certifikátu o provedeném očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7821790979d6"
+      },
+      "content": [
+        {
+          "text": "V případě, že je očkování ukončeno, tzn. jsou do ISIN odeslány všechny dávky dle očkovacího",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "schématu, tak je možné z ISIN stáhnout certifikát pro pacienta o provedeném očkování.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Je potřeba označit řádek, ve kterém je uvedená vakcinace ve stavu „Ukončená“. Následně se v Přehledu očkování zobrazí tlačítko pro stažení certifikátu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 579,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 579,
+            "alt": "image-20260628-135107.png",
+            "id": "be121d5c-5434-42a3-9a9c-a0c143f55bda",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "72341f767ae9",
+            "height": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f9b9605238d8"
+      },
+      "content": [
+        {
+          "text": "Následně uživatel vybere způsob exportu certifikátu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 477,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 477,
+            "alt": "image-20260628-135130.png",
+            "id": "d6c25729-497b-41f1-9f26-25df5303fdec",
+            "collection": "contentId-475267096",
+            "type": "file",
+            "localId": "93b6895ceadc",
+            "height": 196
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "054b37874cb8"
+      }
+    }
+  ],
+  "version": 1
+}

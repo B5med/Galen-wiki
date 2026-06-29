@@ -1,0 +1,175 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a70f385a5a9"
+      },
+      "content": [
+        {
+          "text": "Tato sekce se týká uživatelů, kteří využívají modul ",
+          "type": "text"
+        },
+        {
+          "text": "Sklad",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3d76c0d3b926"
+      },
+      "content": [
+        {
+          "text": "Stávající proces naskladnění očkovacích látek je rozšířen o položku ",
+          "type": "text"
+        },
+        {
+          "text": "kód SÚKL",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " dané očkovací látky. Kód SÚKL je pro odeslání záznamu do ISIN povinný. Doporučujeme kód SÚKL vyplnit již při naskladnění – uživateli to ušetří práci při každém zadávání očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "4b6acecb2923"
+      },
+      "content": [
+        {
+          "text": "Výběr kódu SÚKL při naskladnění",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0acfc6cabfb3"
+      },
+      "content": [
+        {
+          "text": "Uživatel vybere kód SÚKL z číselníku. Je nutné zvolit správný kód, který rozlišuje velikost balení nebo sílu léčivého přípravku. Při odeslání do ISIN je kód SÚKL porovnáván se zadanou šarží – ",
+          "type": "text"
+        },
+        {
+          "text": "tyto údaje musí souhlasit s číselníkem.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fb69d1317eb6"
+      },
+      "content": [
+        {
+          "text": "Pokud při naskladnění kód SÚKL vyplněn nebyl, musí uživatel kód doplnit při každém zadávání očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a348fc4c22e6"
+      },
+      "content": [
+        {
+          "text": "Výběr šarže ze skladu při zadávání očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8d972d2f2385"
+      },
+      "content": [
+        {
+          "text": "Při zadávání očkování se nabídnou šarže ze skladu dle vybraného schématu a varianty:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "5ecf0546f74c"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7ffa98db0a03"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "36647505634d"
+              },
+              "content": [
+                {
+                  "text": "Šarže s vyplněným správným kódem SÚKL – nevyžaduje další ověření, lze pokračovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "df65d09a21eb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "84ef74032f5f"
+              },
+              "content": [
+                {
+                  "text": "Šarže bez kódu SÚKL – uživatel musí kód doplnit a šarži ověřit při každém očkování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-28
+generated: 2026-06-29
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **28. 6. 2026**  ·  Celkem stránek: **318**  ·  Poslední sync z Confluence: 2026-06-28
+> **29. 6. 2026**  ·  Celkem stránek: **321**  ·  Poslední sync z Confluence: 2026-06-29
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **43** |
+| 🔥 | Do 3 dnů | **6** |
+| ♨️ | Do 14 dnů | **44** |
 | 🌿 | Do 30 dnů | **3** |
 | 📄 | Do 90 dnů | **43** |
-| 🗄️ | Starší než 3 měsíce | **228** |
+| 🗄️ | Starší než 3 měsíce | **225** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -49,7 +49,7 @@ generated: 2026-06-28
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - ♨️ [[Modul ordinace]] `v7` · 16. 6. 2026
-    - 🔥 [[Odložení pacienta]] `v2` · 25. 6. 2026
+    - ♨️ [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -70,10 +70,15 @@ generated: 2026-06-28
       - 🗄️ [[Podávání léčiv]] `v1` · 21. 7. 2025
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
+    - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
+      - 🔥 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
+        - 🔥 [[Nahlížení na záznamy eOčkování]] `v2` · 28. 6. 2026
+        - 🔥 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
+        - 🔥 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
+        - 🔥 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
+        - 🔥 [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
     - 📄 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
-    - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v1` · 26. 8. 2025
-    - 🗄️ [[Očkování]] `v1` · 23. 6. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
   - ♨️ **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
     - ♨️ **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
@@ -338,7 +343,5 @@ generated: 2026-06-28
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
 - 📄 [[Modul sklad]] `v5` · 21. 5. 2026
-- 🗄️ [[Nadstandardní modul eOčkování]] `v1` · 19. 6. 2025
-- 🗄️ [[Napojení FONS GALEN na modul eOčkování - nahlížení]] `v9` · 18. 3. 2026
 - 🌿 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 📄 [[Zabezpečení API]] `v1` · 2. 4. 2026

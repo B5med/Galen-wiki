@@ -1,7 +1,7 @@
 {
   "space_id": "98309",
   "space_key": "fg",
-  "synced_at": "2026-06-28T07:46:29Z",
+  "synced_at": "2026-06-29T08:54:26Z",
   "pages": {
     "75235333": {
       "title": "Agendy",
@@ -803,13 +803,13 @@
       "parent_id": "49446923",
       "path": "pages/FONS GALEN/Správce a nastavení/Design/Možnost editace vlastních pravidel pro vykazování výkonů"
     },
-    "50298914": {
-      "title": "Nadstandardní modul eOčkování",
-      "version": 1,
-      "updated_at": "2025-06-19T10:56:19.651Z",
-      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
-      "parent_id": "103776281",
-      "path": "pages/Nadstandardní modul eOčkování"
+    "475889687": {
+      "title": "Nadstandardní modul ISIN – odesílání a nahlížení očkování",
+      "version": 2,
+      "updated_at": "2026-06-28T12:43:41.500Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "53149737",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování"
     },
     "50495507": {
       "title": "Nadstandardní péče",
@@ -835,13 +835,13 @@
       "parent_id": "414679042",
       "path": "pages/FONS GALEN/Nadstandardní péče (Balíčky + PLS)/Nadstandardní péče — Balíčky"
     },
-    "104104015": {
-      "title": "Napojení FONS GALEN na modul eOčkování - nahlížení",
-      "version": 9,
-      "updated_at": "2026-03-18T12:54:31.251Z",
+    "475889697": {
+      "title": "Nahlížení na záznamy eOčkování",
+      "version": 2,
+      "updated_at": "2026-06-28T13:20:47.257Z",
       "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
-      "parent_id": "103776281",
-      "path": "pages/Napojení FONS GALEN na modul eOčkování - nahlížení"
+      "parent_id": "475889687",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování/Nahlížení na záznamy eOčkování"
     },
     "83001345": {
       "title": "Naskladňování přes čtečky",
@@ -1229,11 +1229,11 @@
     },
     "104824874": {
       "title": "Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)",
-      "version": 1,
-      "updated_at": "2025-08-26T11:57:03.696Z",
-      "author_id": "712020:b052757d-b14f-4ba8-b755-e7c41208342e",
-      "parent_id": "398688271",
-      "path": "pages/FONS GALEN/Medikace, očkování a registry/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)"
+      "version": 4,
+      "updated_at": "2026-06-28T14:01:12.346Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "475889687",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování/Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)"
     },
     "52985868": {
       "title": "Odesílání lékařských zpráv",
@@ -1242,6 +1242,14 @@
       "author_id": "712020:e7593c93-ac5f-4ae4-8dbd-5ef512c9ad92",
       "parent_id": "52920363",
       "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/Odesílání lékařských zpráv"
+    },
+    "475267096": {
+      "title": "Odesílání očkování do ISIN - očkování proti Covid-19",
+      "version": 3,
+      "updated_at": "2026-06-28T13:52:06.681Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "475889687",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování/Odesílání očkování do ISIN - očkování proti Covid-19"
     },
     "419463171": {
       "title": "Odesílání zpráv z dekurzu",
@@ -1763,6 +1771,14 @@
       "parent_id": "75333741",
       "path": "pages/FONS GALEN/Správce a nastavení/Skartace pacientů"
     },
+    "475267117": {
+      "title": "Skladová evidence očkovacích látek",
+      "version": 2,
+      "updated_at": "2026-06-28T13:54:27.878Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "475889687",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování/Skladová evidence očkovacích látek"
+    },
     "75628653": {
       "title": "Skladový sortiment",
       "version": 1,
@@ -2226,6 +2242,14 @@
       "author_id": "712020:56861c88-4cef-4235-84b7-76336c69e238",
       "parent_id": "53313560",
       "path": "pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vytvoření lékařské zprávy za celou společnost/Výchozí nastavení"
+    },
+    "475627544": {
+      "title": "Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování",
+      "version": 7,
+      "updated_at": "2026-06-28T13:36:18.806Z",
+      "author_id": "712020:c90ac90b-0472-4ffe-837b-fb78302145bb",
+      "parent_id": "475889687",
+      "path": "pages/FONS GALEN/Medikace, očkování a registry/Očkování/Nadstandardní modul ISIN – odesílání a nahlížení očkování/Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování"
     },
     "247857153": {
       "title": "Výdej foniatrické pomůcky předepsané na ePoukaz",

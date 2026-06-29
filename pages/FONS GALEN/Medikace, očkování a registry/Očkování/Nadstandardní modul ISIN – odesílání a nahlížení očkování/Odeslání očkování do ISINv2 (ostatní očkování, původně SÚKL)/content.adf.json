@@ -1,0 +1,941 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "c276f8e7-3e2c-4723-87b5-4bb0f5ce3528"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "27aedc32-a4cd-4fc1-b971-0b59a3d7d5e2"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "19dd76998725"
+      },
+      "content": [
+        {
+          "text": "Popis procesu odeslání očkování do ISINv2. Jedná se o všechna očkování kromě očkování proti covid-19, která se původně odesílala do SÚKL. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "57d1e9fb3612"
+      },
+      "content": [
+        {
+          "text": "Výchozí nastavení ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "65c33cf86a85"
+      },
+      "content": [
+        {
+          "text": "Pro odeslání informací o očkování do ISIN je nutné ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "cdee6cfaa184"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "14b527f9ca5b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fb699c9f4acb"
+              },
+              "content": [
+                {
+                  "text": "Mít na společnosti aktivní nadstandardní modul Odesílání očkování do ISINv2 ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6db00864271e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ab6f54992352"
+              },
+              "content": [
+                {
+                  "text": "Mít na pracovišti nastavený ",
+                  "type": "text"
+                },
+                {
+                  "text": "platný certifikát SÚKL",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (stejný, který se využívá pro odeslání eReceptu a eNeschopenky). Případně na společnosti  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 686,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 688,
+            "alt": "image-20250826-115234.png",
+            "id": "371002ac-c942-4c7a-a2af-d63866835444",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "eb51af70fe19",
+            "height": 289
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "582ce5d72677"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c62bc0580663"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "77d7c6d6686f"
+              },
+              "content": [
+                {
+                  "text": "Mít na pracovišti vyplněné ",
+                  "type": "text"
+                },
+                {
+                  "text": "PČZ (pořadové číslo zařízení). ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tento údaj je možné získat ",
+                  "type": "text"
+                },
+                {
+                  "text": "zde",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "underline"
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://nrpzs.uzis.cz/"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": " (detail v záložce Detailní záznamy ÚZIS ČR)  ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 684,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 684,
+            "alt": "image-20250826-115254.png",
+            "id": "2123fd7c-5cf1-4141-8b19-3af8134b4e8e",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "3d7259e2a893",
+            "height": 192
+          }
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "306c67cde704"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7567a778daed"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3cb68a636973"
+              },
+              "content": [
+                {
+                  "text": "Mít na uživateli vyplněné pole „",
+                  "type": "text"
+                },
+                {
+                  "text": "NRZP",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "“ ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8c29967cef21"
+      },
+      "content": [
+        {
+          "text": "Číselník Národního registru zdravotnických pracovníků lze stáhnout v modulu Nástroje -> ISIN -> Registr zdravotnických pracovníků ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a6bdd2168bf0"
+      },
+      "content": [
+        {
+          "text": "Po stažení certifikátu uživatel s rolí Správce přiřadí položku z číselníku v detailu uživatele Správa organizace -> Uživatelé  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 489,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 489,
+            "alt": "image-20250826-115315.png",
+            "id": "59a84100-5259-405f-bd52-0d312be8f779",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "a3568fc1e2b4",
+            "height": 470
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e52985cbc716"
+      },
+      "content": [
+        {
+          "text": "Poznámka: pro odeslání očkování není nutné vyplňovat podpisový certifikát. Očkování do ISINv2 tedy odesílá z FONS Galen každý zdravotnický pracovník, který očkování ukládá. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a4384c6b815e"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9053bdb4d16b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9466a0bfbe76"
+              },
+              "content": [
+                {
+                  "text": "Mít ",
+                  "type": "text"
+                },
+                {
+                  "text": "stažené potřebné číselníky v modulu Nástroje -> ISIN",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Konkrétně se jedná o číselníky:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "28b9e97759bd",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d9bae8f44bf7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b2d696c9777c"
+              },
+              "content": [
+                {
+                  "text": "Očkovací látky (Ostatní očkování) ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "08532bd8c0b9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4a22493982a5"
+              },
+              "content": [
+                {
+                  "text": "Pojišťovny ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3712e42ac3cf"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "149c651b0d22"
+              },
+              "content": [
+                {
+                  "text": "Typy vakcinancí ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fa7bfdedf9e5"
+      },
+      "content": [
+        {
+          "text": "Odeslání očkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eae4d02cf5a7"
+      },
+      "content": [
+        {
+          "text": "Záznamy o všech provedených očkování je dle legislativy povinné odeslat do ISIN. V rámci FONS Galen budou do ISIN odeslána očkování, u kterých není zaškrtnuto „bez schématu“ nebo „doplnit bez vykázání výkonu“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7ab48644f471"
+      },
+      "content": [
+        {
+          "text": "V případě, že uživatel zaškrtne „bez schématu“ nebo „doplnit bez vykázání výkonu“, bude upozorněn, že takové očkování nebude možné ani v budoucnu do ISIN odeslat.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aa4107c68b40"
+      },
+      "content": [
+        {
+          "text": "Údaje odesílané do ISIN se uživateli zobrazují v okně výběru očk. varianty: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1023,
+            "alt": "image-20250826-115417.png",
+            "id": "486c4d23-681a-49f3-a8ff-29ee18554ad6",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "67951ceaa7cc",
+            "height": 444
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e8d6d8ade6ee"
+      },
+      "content": [
+        {
+          "text": "Údaje se automaticky předvyplní na základě vybrané ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "624a13dc5ad3"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8acec67b9ddb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "aefd7d6832d8"
+              },
+              "content": [
+                {
+                  "text": "Očkovací látky ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8d96c1fc8d41"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3179260a1f67"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c24771910e24"
+              },
+              "content": [
+                {
+                  "text": "Pořadí dávky/přeočkování ve schématu očkování ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "426e90cb79a9"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f74cefbfa37a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "57299208b64f"
+              },
+              "content": [
+                {
+                  "text": "Očkovací varianty ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6e541f287d8f"
+      },
+      "content": [
+        {
+          "text": "Poznámka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ": Pole Pojišťovna se automaticky vyplňuje na základě toho, kdo platí očkovací variantu. Nemusí tedy odpovídat stavu pojištění pacienta. Např. Pacient je pojištěn u poj 111, ale aplikuje se očkování, které hradí pacient. Tím pádem se do pole pojišťovna uvádí „samoplátce“. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d16481636d97"
+      },
+      "content": [
+        {
+          "text": "Pro odeslání očkování je nutné, aby měl pacient vyplněn RID (resortní identifikátor). Pokud se tento nepodaří získat, očkování bude možné v rámci FONS Galen uložit, ale očkování nebude možné odeslat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "97dc0e52a6e8"
+      },
+      "content": [
+        {
+          "text": "Stiskem tl. Očkovat se očkování zároveň odesílá do ISIN. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02c43f2fa88f"
+      },
+      "content": [
+        {
+          "text": "Úspěšně odeslané očkování má v přehledu stav Přijato ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1030,
+            "alt": "image-20250826-115447.png",
+            "id": "3e1cf19c-3476-4b08-a7b0-e9db2783079f",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "bc2a875ca889",
+            "height": 214
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "66796ad8eb6b"
+      },
+      "content": [
+        {
+          "text": "Editace očkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "02c37fb78766"
+      },
+      "content": [
+        {
+          "text": "V případě potřeba editace již odeslaného očkování je možné zobrazit detail očkování. Zde je ale možné editovat pouze pole Poznámka, ostatní položky jsou vyplněny na základě výběru výše uvedených položek.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1023,
+            "alt": "image-20250826-115512.png",
+            "id": "bc6358eb-eb03-48d8-919d-3549885be803",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "f0606940eecf",
+            "height": 526
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ff810dc8374b"
+      },
+      "content": [
+        {
+          "text": "Pokud je nutné změnit pole „očkovací látka“, „typ vakcinace“ nebo „pojišťovna“, pak je nutné celé očkování smazat a zadat znovu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5aae66de240c"
+      },
+      "content": [
+        {
+          "text": "Smazání očkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2934ee17c15c"
+      },
+      "content": [
+        {
+          "text": "V případě smazání očkování v rámci FONS Galen, které bylo úspěšně odesláno do ISIN, bude požadavek na smazání zároveň odeslán do ISIN.  ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f78094766b08"
+      },
+      "content": [
+        {
+          "text": "Neodeslaná očkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8b29fcd35f93"
+      },
+      "content": [
+        {
+          "text": "Modul Dashboard poskytuje přehled očkování, která byl měla být od ISIN odeslána, ale nebyla. Očkování může odeslat pouze ten odpovědný lékař, který očkování do FONS Galen zadal, nebo uživatel, který není odpovědným lékařem. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "528494d7306b"
+      },
+      "content": [
+        {
+          "text": "Z dashboardu se uživatel dostane na detail konkrétního neodeslaného očkování. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 669,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 669,
+            "alt": "image-20250826-115559.png",
+            "id": "071b501c-6bcd-4476-a699-0b558b525075",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "b68197c5a481",
+            "height": 585
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 671,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 671,
+            "alt": "image-20250826-115611.png",
+            "id": "bb85f4ec-5cca-4bfd-809a-b01a53c4b2a1",
+            "collection": "contentId-104824874",
+            "type": "file",
+            "localId": "681d1a0f0eac",
+            "height": 337
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "da56479a4eea"
+      },
+      "content": [
+        {
+          "text": "Poznámka k modulu eOčkování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "603dc4d93583"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "d6aaf7f6d1ac"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b2e4cbab0199"
+              },
+              "content": [
+                {
+                  "text": "Modul eOčkování (k dispozici v horní liště nebo v záložce modulu Očkování) zobrazuje informace, které jsou poskytovány ze strany SÚKL. Tam se původně záznamy o očkování odesílaly. Po změně legislativy se záznamy odesílají do ISIN, ale správcem poskytující informace o provedených očkování je stále SÚKL. Propojení mezi SÚKL a ISIN není v tuto chvíli realizované, a proto očkování odeslaná z FONS Galen do ISIN, nebudou v tuto chvíli v modulu eOčkování viditelná. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 50.0,
+            "localId": "54e75654e93e"
+          },
+          "content": [
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 214,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 122,
+                    "alt": "image-20250826-115637.png",
+                    "id": "32a516c1-ab6b-4d88-9d03-6558d3d81ddd",
+                    "collection": "contentId-104824874",
+                    "type": "file",
+                    "localId": "587b6e499218",
+                    "height": 130
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6cd4591b8714"
+      }
+    }
+  ],
+  "version": 1
+}

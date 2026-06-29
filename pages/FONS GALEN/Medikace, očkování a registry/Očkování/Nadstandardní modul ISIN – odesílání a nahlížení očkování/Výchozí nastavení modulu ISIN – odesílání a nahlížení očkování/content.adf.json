@@ -1,0 +1,1357 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "72c277b5dab4"
+      },
+      "content": [
+        {
+          "text": "Pro aktivaci modulu ",
+          "type": "text"
+        },
+        {
+          "text": "FONS Galen - ISIN odesílání a nahlížení očkování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je potřeba splnit následující podmínky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "8853c199-7944-4a09-9817-bbf4d3f11c61"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "96f77d2e-73e0-4473-8e57-52965757b395"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "031a0cc259b0"
+      },
+      "content": [
+        {
+          "text": "Údaje potřebné pro komunikaci s ISIN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "b2e02ae05fa1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "916e9d117f23"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5acde8b877f9"
+              },
+              "content": [
+                {
+                  "text": "Mít na ",
+                  "type": "text"
+                },
+                {
+                  "text": "společnosti",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " aktivní nadstandardní modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "FONS Galen - ISIN odesílání a nahlížení očkování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "057de5a24815"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5845133f8919"
+              },
+              "content": [
+                {
+                  "text": "Mít na ",
+                  "type": "text"
+                },
+                {
+                  "text": "pracovišti",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " nastavený platný ",
+                  "type": "text"
+                },
+                {
+                  "text": "certifikát SÚKL",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (stejný jako pro eRecept a eNeschopenku). ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 250,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 522,
+                    "alt": "image-20250619-101400.png",
+                    "id": "f2345003-61d4-4edc-bbca-61eee92b4aa7",
+                    "collection": "contentId-475627544",
+                    "type": "file",
+                    "localId": "4f98e7845e74",
+                    "height": 218
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ab817e7cb59a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2ade87d9c213"
+              },
+              "content": [
+                {
+                  "text": "Mít na ",
+                  "type": "text"
+                },
+                {
+                  "text": "pracovišti",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " vyplněné ",
+                  "type": "text"
+                },
+                {
+                  "text": "PČZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (pořadové číslo zařízení). Tento údaj lze zjistit na stránkách UZIS (Detailní záznamy ÚZIS ČR). ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 250,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 492,
+                    "alt": "image-20250619-101433.png",
+                    "id": "c4ae2a6f-040d-4293-8eb0-ee239053055c",
+                    "collection": "contentId-475627544",
+                    "type": "file",
+                    "localId": "f71516783af8",
+                    "height": 139
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4a22dfff27e4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dcc0b2dd2451"
+              },
+              "content": [
+                {
+                  "text": "Mít na ",
+                  "type": "text"
+                },
+                {
+                  "text": "uživateli",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " vyplněné pole ",
+                  "type": "text"
+                },
+                {
+                  "text": "NRZP",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (ID zdravotnického pracovníka z Národního registru zdravotnických pracovníků). ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 750,
+                    "alt": "image-20260628-125720.png",
+                    "id": "d84c89d7-dff6-4131-be51-1497f9fea53e",
+                    "collection": "contentId-475627544",
+                    "type": "file",
+                    "localId": "daf280c473ed",
+                    "height": 263
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "95ebe6b6f9f8"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "fc18e9653426"
+          },
+          "content": [
+            {
+              "text": "Pro odeslání očkování do ISINv2 není nutné vyplňovat podpisový certifikát. Záznamy odesílá každý zdravotnický pracovník, který očkování v systému ukládá.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5e0000e7bda9"
+      },
+      "content": [
+        {
+          "text": "Stažení číselníků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f0bbc7b40935"
+      },
+      "content": [
+        {
+          "text": "Pro vytvoření uživatelské varianty očkování, kterou je nutné odeslat do ISIN, je nejdříve nutné, aby",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "uživatel s AIS Galen s rolí Správce stáhnul číselníky, které poskytuje ÚZIS.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Modul Nástroje – ISIN – v jednotlivých záložkách jsou dostupné jednotlivé číselníky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3e33b5490751"
+      },
+      "content": [
+        {
+          "text": "Stažení číselníku ručně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9af8f1d26cf4"
+      },
+      "content": [
+        {
+          "text": "V každé ze záložek je nutné stáhnout každý číselník zvlášť pomocí tlačítka aktualizovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 341,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 341,
+            "alt": "image-20260628-132842.png",
+            "id": "4ba187b9-50ef-49fd-ab61-a62a586a2d4d",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "8fa61c8ad3d0",
+            "height": 191
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "13474c8c3777"
+          },
+          "content": [
+            {
+              "text": "Stažení číselníku pomocí tlačítka Aktualizovat",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f77e351429e7"
+      },
+      "content": [
+        {
+          "text": "Po stisku tlačítka se zobrazí okno pro výběr certifikátu, který se má pro aktualizaci použít. Dostupné",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "jsou až tyto tři možnosti, které závisí na tom, zda je ve FONS Galen nahrán platný certifikát. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6b86354464d1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a8a8575a4b83"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "82e05d2c1787"
+              },
+              "content": [
+                {
+                  "text": "Společnost – certifikát ÚZIS vložený ve struktuře společnosti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "732ea6179e80"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d9c91e87d7aa"
+              },
+              "content": [
+                {
+                  "text": "Podřízená společnost – certifikát ÚZIS vložený ve struktuře podřízené společnosti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b923e02e718e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "38ba1635b442"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště – certifikát SÚKL vložený ve struktuře pracoviště – v případě výběru tohoto",
+                  "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "certifikátu je nutné také vybrat pracoviště.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c48463ceb117"
+      },
+      "content": [
+        {
+          "text": "Každou položku číselníku je možné ručně editovat. Zároveň je možné položky přidat nebo odebrat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3173ea836395"
+      },
+      "content": [
+        {
+          "text": "Automatická aktualizace číselníků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c7bd8e7eeddb"
+      },
+      "content": [
+        {
+          "text": "Zároveň je naplánována úloha na automatickou aktualizaci číselníku každou sobotu v 01:00.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "875a78b51757"
+      },
+      "content": [
+        {
+          "text": "Přiřazení ID zdravotnického pracovníka (NRZP) k uživateli",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "25987edb1297"
+      },
+      "content": [
+        {
+          "text": "Uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zadá ID zdravotnického pracovníka k uživateli v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace – Uživatelé",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "36669cb7941d"
+      },
+      "content": [
+        {
+          "text": "Pokud Správce číslo NRZP nezná, může ho vybrat z číselníku. Číselník je nutné nejprve načíst z NRZP.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "5768a2041cc7"
+      },
+      "content": [
+        {
+          "text": "Postup pro získání seznamu pracovníků NRZP společnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "20b809798014"
+      },
+      "content": [
+        {
+          "text": "Uživatel s rolí Správce může stáhnout seznam zdravotnických pracovníků dané společnosti v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje – Číselníky – ISIN – záložka Registr zdravotnických pracovníků",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1722,
+            "alt": "image-20260628-125914.png",
+            "id": "39c25565-758a-43dd-bbdc-5190efddb3bb",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "38a8a1569e58",
+            "height": 210
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "29165578c31b"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "206bb5fe4165"
+      },
+      "content": [
+        {
+          "text": "Po kliknutí na tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Načíst z NRZP",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " bude zavolána služba ÚZIS, která zašle seznam zdravotnických pracovníků společnosti. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 408,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 408,
+            "alt": "image-20260628-130059.png",
+            "id": "8a0b7b6a-f60c-4333-bdd7-2b2072bd4add",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "b6e8727df09d",
+            "height": 290
+          }
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "a1c2bde9ed66"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "993b63848539"
+          },
+          "content": [
+            {
+              "text": "Volání této služby je časově náročné – získání seznamu může trvat až 10 minut.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "60353af6a110"
+      },
+      "content": [
+        {
+          "text": "Uživatel je vyzván k výběru certifikátu, který se má k volání použít:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "8b4719bf4ad4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c9771d8f5fb2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c76e018b176a"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – uživatel zvolí certifikát SÚKL přiřazený na pracovišti.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "294fe1c341dd"
+      },
+      "content": [
+        {
+          "text": "Po stažení seznamu lze zdravotnického pracovníka přiřadit k uživateli ve FONS Galen. Do číselníku je také možné zadat pracovníka ručně přes tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f79f35a8b735"
+      },
+      "content": [
+        {
+          "text": "Vytvoření uživatelské varianty očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "433bb17ed185"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1cd46bf5972d"
+          },
+          "content": [
+            {
+              "text": "Společnost, která chce odesílat informace o očkování proti Covid-19 do ISIN, musí vytvořit ",
+              "type": "text"
+            },
+            {
+              "text": "uživatelskou očkovací variantu",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "66ed15f51999"
+      },
+      "content": [
+        {
+          "text": "Uživatelskou variantu vytvoří uživatel s rolí Správce v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace – Agendy – Varianty očkování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7b855d4002e6"
+      },
+      "content": [
+        {
+          "text": "V tomto okně uživatel vidí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "719a5b654a2b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f23b2013e8d8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "eb34c6c7dd58"
+              },
+              "content": [
+                {
+                  "text": "v ",
+                  "type": "text"
+                },
+                {
+                  "text": "levé části",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " varianty očkování vytvořené správci AIS Galen na základě platné metodiky (základní varianty),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9bec15bfb463"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fbd12aa16d73"
+              },
+              "content": [
+                {
+                  "text": "v ",
+                  "type": "text"
+                },
+                {
+                  "text": "pravé části",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " varianty vytvořené správcem dané společnosti (uživatelské varianty). ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1920,
+                    "alt": "image-20260628-130457.png",
+                    "id": "b930c100-fc8e-4f47-a041-1a8617c40b05",
+                    "collection": "contentId-475627544",
+                    "type": "file",
+                    "localId": "a3f2e9625415",
+                    "height": 346
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "382153ff6c95"
+      },
+      "content": [
+        {
+          "text": "Vytvoření uživatelské varianty kopií ze základní varianty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f98cad319d25"
+      },
+      "content": [
+        {
+          "text": "Tento způsob použijte, pokud v základních variantách vidíte variantu, kterou chcete pouze doplnit nebo pozměnit. Z levého sloupce vyberte variantu a stiskněte tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Kopírovat",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Otevře se okno pro editaci – přenesené položky lze změnit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1644,
+            "alt": "image-20260628-131442.png",
+            "id": "7b53946f-25ea-4462-b3af-b49ad8210e13",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "6ea80578ad09",
+            "height": 369
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "889ef0ca20f7"
+      },
+      "content": [
+        {
+          "text": "Vytvoření nové uživatelské varianty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "117c7d58a9b2"
+      },
+      "content": [
+        {
+          "text": "Tento způsob použijte, pokud v základních variantách požadovaná varianta chybí. Novou variantu vytvoříte stisknutím zeleného tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v části uživatelských variant. Vyžaduje vyplnění všech položek. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20260628-131539.png",
+            "id": "0f5f643d-f11e-472d-b608-ccdba72f5d85",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "a81f5a1c649a",
+            "height": 329
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "55cc52f493eb"
+      },
+      "content": [
+        {
+          "text": "Jednotlivé položky uživatelské varianty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "89ab395dde2b"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "e9f04914eb1f"
+          },
+          "content": [
+            {
+              "text": "Pokud má být očkovací varianta odesílána do ISIN - očkování proti Covid-19, zaškrtněte checkbox ",
+              "type": "text"
+            },
+            {
+              "text": "Odesílat do ISIN",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 499,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 499,
+            "alt": "image-20260628-131722.png",
+            "id": "7f2718ac-9482-4fe2-91ba-208c2a80bdce",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "73f08079e029",
+            "height": 751
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "786b0990eb39"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ed6cc2c6b332"
+      },
+      "content": [
+        {
+          "text": "V případě, že je potřeba, aby se informace z této očkovací varianty odesílaly do ISIN, zaškrtne uživatel checkbox Odesílat do ISIN ",
+          "type": "text"
+        },
+        {
+          "text": "(1.)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "151ddbc9a706"
+      },
+      "content": [
+        {
+          "text": "V první části okna se vyplňují položky, které jsou společné pro všechny očkovací varianty, ať už se odesílají do ISIN, či nikoliv. Specifikují, jakým způsobem se bude dané očkování vykazovat pojišťovně.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Položka název ",
+          "type": "text"
+        },
+        {
+          "text": "(2.)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " definuje, pod jakým názvem se uživateli bude očkovací varianta nabízet. Záleží tak na uživateli, zda si chce vytvořit jednu obecnou variantu pro každou očkovací látku, např. Hradí stát – ISIN, kterou bude při každém očkování pacienta měnit, nebo zda vytvoří více očkovacích variant pro nejčastější indikace, které zohlední v názvu očkovací varianty.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "V druhé části okna ",
+          "type": "text"
+        },
+        {
+          "text": "(3.) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "je nutné vyplnit informace, které se odesílají do ISIN. Pole očkovací látka a typ očkování je nutné vyplnit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2dd470ba2e06"
+      },
+      "content": [
+        {
+          "text": "Další pole (indikace, jiná indikace, aplikační cesta, místo aplikace) uživatel může vyplnit, aby se mu tyto možnosti při zadávání očkování nabízely, ale zároveň bude možné při zadání očkování hodnoty těchto polí změnit.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 394,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 394,
+            "alt": "image-20260628-133321.png",
+            "id": "f70bf4df-19d5-4b22-b991-4e55b302e638",
+            "collection": "contentId-475627544",
+            "type": "file",
+            "localId": "26697b07b2f1",
+            "height": 562
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e7c35f5683a1"
+      }
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "e28b58d6ca31"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b89411e5ee51"
+          },
+          "content": [
+            {
+              "text": "Jakmile je očkovací varianta použita pro zadání očkování konkrétnímu pacientovi, všechna pole přestanou být editovatelná. Pokud je nutné variantu změnit, je třeba ji deaktivovat a vytvořit novou.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

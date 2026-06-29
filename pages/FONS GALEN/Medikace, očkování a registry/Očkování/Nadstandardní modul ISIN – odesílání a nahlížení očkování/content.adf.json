@@ -1,0 +1,114 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9bce87ae9814"
+      },
+      "content": [
+        {
+          "text": "Lékaři mají ze zákona povinnost bezodkladně zaznamenat každé provedené očkování do ISIN (Informační systém infekčních nemocí). FONS Galen podporuje tuto povinnost prostřednictvím nadstandardního modulu, který umožňuje:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "0e690049-9fc1-46c9-8e3e-06f1bdb2572f"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "41f07a0f-ebd2-4a89-8220-cc1655ed3a69"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8fc82ca17bcf"
+              },
+              "content": [
+                {
+                  "text": "odesílat záznamy o očkování přímo do ISIN",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (ISINv1 = očkování proti Covid-19 a ISINv2 = ostatní provedená očkování),",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4c656eeb-3c5f-4af5-ae24-71fefd71822d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "83b7da449a22"
+              },
+              "content": [
+                {
+                  "text": "nahlížet na záznamy o provedených očkováních",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", která jsou vedena v SÚKL a poskytována prostřednictvím modulu eOčkování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "7e3ff998a332"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "7384f0bc0d80"
+          },
+          "content": [
+            {
+              "text": "Poznámka:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Modul eOčkování zobrazuje informace poskytované SÚKL. Záznamy odeslané z FONS Galen do ISIN nejsou v modulu eOčkování viditelné – propojení mezi SÚKL a ISIN není v současnosti realizováno.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
