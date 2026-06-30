@@ -1,7 +1,7 @@
 ---
 title: "Import KDávek"
-version: 1
-updated_at: 2025-07-21
+version: 3
+updated_at: 2026-06-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75792496
 ---
 
@@ -46,3 +46,20 @@ Import a aktivace importu nemusí být vždy zcela dokončeny.
 Po dokončení Aktivace je import označen jako Aktivovaný.
 
 ![image-20250618-132032.png](<../../../../pages/FONS GALEN/Správce a nastavení/Vyúčtování/Import KDávek/assets/image-20250618-132032.png>)
+
+#### **Přiřazení ZUM k výkonu při aktivaci dávky**
+
+Při importu K-dávky se ZUM z dokladů typu Z (samostatný doklad ZUM bez výkonu) navazuje na skutečný výkon z dokladu A takto:
+
+1. ZUM z dokladu se naváže na výkon z bezprostředně předcházejícího dokladu (doklady seřazené dle pořadového čísla).
+2. Pokud je takových výkonů více, naváže se na první v pořadí.
+3. Pomocný výkon 01999 se vytváří až jako poslední možnost – jen když na dokladu žádný vhodný nosný výkon není.
+
+**Registrovaný vs. neregistrovaný pacient:**
+
+- **Registrovaný pacient** – logika kapitačních / nekapitačních výkonů funguje i při importu. ZUM se nenavazuje přímo na kapitační výkon (např. 09215), ale vytváří se pomocný výkon 01999.
+- **Neregistrovaný pacient** (doklad 05, nepravidelná péče) – ZUM je navázán přímo na nosný výkon (např. 09215), pomocný výkon 01999 se v tomto případě nevytváří.
+
+**Ruční přeřazení ZUM**
+
+Na obrazovce Aktivace výkonů lze ZUM ručně přeřadit k jinému výkonu metodou drag & drop. Řádek ZUM má na začátku úchopovou ikonu (tooltip „Přetáhněte k jinému výkonu"); při tažení se zvýrazní povolené cílové výkony. Slouží jako manuální korekce tam, kde automatické přiřazení neodpovídá potřebě.

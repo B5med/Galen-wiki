@@ -3,6 +3,9 @@
   "content": [
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b392a4f11a5b"
+      },
       "content": [
         {
           "text": "Správce -> Správa organizace -> Vyúčtování ->  Import KDavek ",
@@ -26,6 +29,7 @@
             "id": "155688d6-8700-4947-89ef-30fd80a5139d",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "3e368d66a005",
             "height": 127
           }
         }
@@ -33,6 +37,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "7e6b4ea2c0c0"
+      },
       "content": [
         {
           "text": "Přes Tlačítko Import KDavek v modulu Vyúčtování vkládáme KDavku obsahující vykázané výkony, tedy přesně takovou, jakou odesíláme do zdravotní pojišťovny.",
@@ -41,10 +48,16 @@
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "130abffe8fae"
+      }
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "64feea976fdf"
+      }
     },
     {
       "type": "mediaSingle",
@@ -62,6 +75,7 @@
             "id": "bddba205-81ac-42aa-a359-ed0aff02a8c6",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "66d00e2a1786",
             "height": 47
           }
         }
@@ -69,6 +83,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "4a0a47a4b5cf"
+      },
       "content": [
         {
           "text": "Zeleným + vlevo nahoře vytváříme nový import, klikem na modrou tužku editujeme stávající importovaný soubor a červeným mínusem lze označený naimprotovaný soubor smazat.",
@@ -79,7 +96,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 4
+        "level": 4,
+        "localId": "f321773af6e5"
       },
       "content": [
         {
@@ -95,6 +113,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "6c902f7ed1fc"
+      },
       "content": [
         {
           "text": "Po stisku zeleného + se zobrazí okno, ve kterém vybíráme soubor s názvem např. KDAVKA.211, pokud se jedná o soubor zdravotní pojišťovny 211.  ",
@@ -104,6 +125,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "2cc642990d88"
+      },
       "content": [
         {
           "text": "Po vybrání správného souboru se zobrazí okno s obsahem vybraného souboru: ",
@@ -127,6 +151,7 @@
             "id": "0d841201-1186-4a41-962d-47a51b747c8f",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "ccb92c7c4a50",
             "height": 432
           }
         }
@@ -134,6 +159,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "4602ac98f5e8"
+      },
       "content": [
         {
           "text": "V tomto místě je vhodné zkontrolovat zejména fakt, zda se jedná o správné IČZ a IČP. Po této kontrole zvolíme tlačítko Importovat. Odtržení zvolených checkboxů lze některé položky z importu vyloučit.",
@@ -157,6 +185,7 @@
             "id": "47febfec-62b0-4207-aff4-5a92bb18f069",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "956ff7d5f31c",
             "height": 438
           }
         }
@@ -164,6 +193,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "26ba44fac767"
+      },
       "content": [
         {
           "text": "Po úspěšném, importu zvolíme tlačítko Aktivovat. Poté dochází ke kontrole a zobrazení nesouladů, které je nutné před aktivací upravit:",
@@ -187,6 +219,7 @@
             "id": "d12d5771-6e9d-4507-9a03-a7f317a35ce4",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "be4265d35f83",
             "height": 301
           }
         }
@@ -194,6 +227,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "28b5619ebcbb"
+      },
       "content": [
         {
           "text": "Vlevo před jménem pojištěnce je vždy uvedeno, zda je výkon pro import v pořádku označením zelenou „fajfkou“. V případě potřeby úpravy je před číslem pojištěnce vykřičník ve žlutém poli. Takový řádek je nutné označit a v pravém sloupci se zobrazí důvod problému. Takový výkon lze vyjmout z aktivace či úplně smazat z dávky. Po úpravách je nutné zvolit OK. ",
@@ -217,6 +253,7 @@
             "id": "4a40260a-a117-4df1-92ee-7d76f17fad7a",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "49344fc5d3a6",
             "height": 261
           }
         }
@@ -224,6 +261,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a93cdec009fb"
+      },
       "content": [
         {
           "text": "Po stisku OK se zobrazí okno, kde v levém horním rohu zvolíme tlačítko Dokončit. ",
@@ -247,6 +287,7 @@
             "id": "54e92f53-1c6b-4ece-b838-f7d248ec8e39",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "cb50386b7d68",
             "height": 353
           }
         }
@@ -254,6 +295,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "3bf1af11c75b"
+      },
       "content": [
         {
           "text": "Import a aktivace importu nemusí být vždy zcela dokončeny. ",
@@ -263,6 +307,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "ccb09fb118ef"
+      },
       "content": [
         {
           "text": "IS Galen eviduje tyto stavy Importovaných souborů",
@@ -281,12 +328,21 @@
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "444358dc5a35"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "6b1113d35cf1"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "2ce9c427d2bb"
+              },
               "content": [
                 {
                   "text": "Rozpracovaný ",
@@ -298,9 +354,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "3e125bf2a511"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "13efd3dfe7af"
+              },
               "content": [
                 {
                   "text": "V průběhu aktivace ",
@@ -312,9 +374,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "7cbaa066db60"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "8abe6b9c040b"
+              },
               "content": [
                 {
                   "text": "Aktivovaný ",
@@ -326,9 +394,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "c5e6b91a1db5"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "cb086d5a4336"
+              },
               "content": [
                 {
                   "text": "Uzavřený ",
@@ -342,6 +416,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "8d35bda37ee7"
+      },
       "content": [
         {
           "text": "Po dokončení Aktivace je import označen jako Aktivovaný. ",
@@ -365,8 +442,220 @@
             "id": "db74406b-b18e-4b38-9318-2d508c2a7f4d",
             "collection": "contentId-75792496",
             "type": "file",
+            "localId": "fb56f5be60d9",
             "height": 86
           }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4,
+        "localId": "998a43510947"
+      },
+      "content": [
+        {
+          "text": "Přiřazení ZUM k výkonu při aktivaci dávky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "375dc1d41230"
+      },
+      "content": [
+        {
+          "text": "Při importu K-dávky se ZUM z dokladů typu Z (samostatný doklad ZUM bez výkonu) navazuje na skutečný výkon z dokladu A takto:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "f2f7d81829b9",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c0e0dfbfa174"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "100399abfb96"
+              },
+              "content": [
+                {
+                  "text": "ZUM z dokladu se naváže na výkon z bezprostředně předcházejícího dokladu (doklady seřazené dle pořadového čísla).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3490a5e66b38"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "00913964f75f"
+              },
+              "content": [
+                {
+                  "text": "Pokud je takových výkonů více, naváže se na první v pořadí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a9c082605b7a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "85774afe4f0a"
+              },
+              "content": [
+                {
+                  "text": "Pomocný výkon 01999 se vytváří až jako poslední možnost – jen když na dokladu žádný vhodný nosný výkon není.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b1076107d3c9"
+      },
+      "content": [
+        {
+          "text": "Registrovaný vs. neregistrovaný pacient:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "a72882bd0b14"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "69098f630116"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "09e4903e49e7"
+              },
+              "content": [
+                {
+                  "text": "Registrovaný pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – logika kapitačních / nekapitačních výkonů funguje i při importu. ZUM se nenavazuje přímo na kapitační výkon (např. 09215), ale vytváří se pomocný výkon 01999.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3fab5c0c7c29"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c9423e5ca333"
+              },
+              "content": [
+                {
+                  "text": "Neregistrovaný pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (doklad 05, nepravidelná péče) – ZUM je navázán přímo na nosný výkon (např. 09215), pomocný výkon 01999 se v tomto případě nevytváří.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0401b06070fa"
+      },
+      "content": [
+        {
+          "text": "Ruční přeřazení ZUM",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c1232ba096f9"
+      },
+      "content": [
+        {
+          "text": "Na obrazovce Aktivace výkonů lze ZUM ručně přeřadit k jinému výkonu metodou drag & drop. Řádek ZUM má na začátku úchopovou ikonu (tooltip „Přetáhněte k jinému výkonu\"); při tažení se zvýrazní povolené cílové výkony. Slouží jako manuální korekce tam, kde automatické přiřazení neodpovídá potřebě.",
+          "type": "text"
         }
       ]
     }

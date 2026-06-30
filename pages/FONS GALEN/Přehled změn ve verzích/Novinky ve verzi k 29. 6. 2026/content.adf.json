@@ -1,0 +1,607 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Společné",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Formátovaný dekurz – zjednodušení nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci této úpravy bylo nastavení formátovaného dekurzu přesunuto výhradně na úroveň jednotlivého uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Formátovaný dekurz umožňuje psát záznamy z návštěvy jako formátovaný text – tedy s možností tučného písma, kurzívy, odrážek a dalšího vizuálního členění, místo prostého nečleněného textu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Každý uživatel si může formátovaný dekurz zapnout nebo vypnout sám v ",
+          "type": "text"
+        },
+        {
+          "text": "Konfiguraci Galen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Nastavení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ") zaškrtnutím volby ",
+          "type": "text"
+        },
+        {
+          "text": "„Formátovat dekurz\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vypnout odřádkování vyšetření v dekurzu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V nastavení pracoviště byla přidána nová konfigurační volba ",
+          "type": "text"
+        },
+        {
+          "text": "„Vypnout odřádkování vyšetření\"",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Po jejím zapnutí se vyšetření i těhotenské prohlídky zobrazí v dekurzu, denním záznamu, tisku vyšetření i v EZD PDF jako jeden souvislý řádek – obdobně jako u laboratorních výsledků. Součástí úpravy je také doplnění tlačítka Tisk DZ u těhotenské prohlídky v dekurzu a sjednocení jeho umístění vedle jména odpovědného lékaře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Přístup k EZPR (externím zprávám) na úrovni pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zpracování nových a nezpracovaných EZPR je nově povoleno i jinému než původně odpovědnému lékaři. Lékař vidí a může zpracovat všechny nezpracované EZPR adresované libovolnému lékaři se stejným pracovištěm (IČP) jako on.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Kalendáře a objednávání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Storno objednávky v kalendáři – důvod storna a rozšíření statistiky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Funkcionalita „Storno objednávek v kalendáři\" je nově dostupná pro všechny uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dialog stornování objednávky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při stornu objednávky v kalendáři se v dialogu „Stornovat vybranou objednávku?\" pole Důvod stornování mění z volného textu na nepovinný výběr z číselníku s těmito hodnotami:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pacient se nedostavil",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nemoc pacienta",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Nemoc / nepřítomnost lékaře",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přeobjednání na jiný termín",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Chybná objednávka",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Jiný důvod – po výběru se zobrazí textové pole pro zadání vlastního popisu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vybraný důvod se ukládá k objednávce a zobrazuje se u objednávky, v historii objednávek a ve statistice. U pole je tooltip vysvětlující výběr ze seznamu a možnost zvolit „Jiný důvod\".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Statistika Přehled objednávek – pacient",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do statistiky přibyly tři nové prvky, vždy se sloupcem a odpovídajícím filtrem (hodnoty se načítají z existujících polí objednávky):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Storno (ano/ne)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – filtr checkbox zobrazí jen stornované, seskupování celkem / s detailem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Stornoval (jméno uživatele)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – filtr výběr uživatele, seskupování celkem / s detailem",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Storno důvod",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – filtr výběr ze seznamu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Přiřazení ZUM k výkonu při importu dávky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při importu K-dávky se ZUM z dokladů typu Z (samostatný doklad ZUM bez výkonu) chybně navazoval na automaticky vytvořený pomocný výkon 01999 místo na skutečný výkon z dokladu A. Po opravě se ZUM přiřazuje správně:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "ZUM z dokladu Z se naváže na výkon z bezprostředně předcházejícího dokladu A (doklady seřazené dle pořadového čísla).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud je takových výkonů více, naváže se na první v pořadí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pomocný výkon 01999 se vytváří až jako poslední možnost – jen když na dokladu A žádný vhodný nosný výkon není.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Registrovaný vs. neregistrovaný pacient:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Registrovaný pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – logika kapitačních / nekapitačních výkonů nyní funguje i při importu (dříve byla pouze při ručním zadávání). ZUM se nenavazuje přímo na kapitační výkon (např. 09215), ale vytváří se pomocný výkon 01999.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Neregistrovaný pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (doklad 05, nepravidelná péče) – ZUM je navázán přímo na nosný výkon (např. 09215), pomocný výkon 01999 se v tomto případě nevytváří.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ruční přeřazení ZUM (nová funkce)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na obrazovce Aktivace výkonů lze ZUM ručně přeřadit k jinému výkonu metodou drag & drop. Řádek ZUM má na začátku úchopovou ikonu (tooltip „Přetáhněte k jinému výkonu\"); při tažení se zvýrazní povolené cílové výkony. Slouží jako manuální korekce tam, kde automatické přiřazení neodpovídá potřebě.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

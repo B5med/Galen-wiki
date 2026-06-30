@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-06-29
+generated: 2026-06-30
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **29. 6. 2026**  ·  Celkem stránek: **321**  ·  Poslední sync z Confluence: 2026-06-29
+> **30. 6. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-06-30
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **6** |
-| ♨️ | Do 14 dnů | **44** |
-| 🌿 | Do 30 dnů | **3** |
+| 🔥 | Do 3 dnů | **8** |
+| ♨️ | Do 14 dnů | **43** |
+| 🌿 | Do 30 dnů | **4** |
 | 📄 | Do 90 dnů | **43** |
-| 🗄️ | Starší než 3 měsíce | **225** |
+| 🗄️ | Starší než 3 měsíce | **224** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -138,7 +138,7 @@ generated: 2026-06-29
     - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
-    - ♨️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
+    - 🌿 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 📄 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
@@ -148,6 +148,7 @@ generated: 2026-06-29
     - 🗄️ [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
+    - 🔥 [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 📄 [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
@@ -221,7 +222,7 @@ generated: 2026-06-29
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
     - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
-      - 🗄️ [[Import KDávek]] `v1` · 21. 7. 2025
+      - 🔥 [[Import KDávek]] `v3` · 29. 6. 2026
       - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
       - ♨️ [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
