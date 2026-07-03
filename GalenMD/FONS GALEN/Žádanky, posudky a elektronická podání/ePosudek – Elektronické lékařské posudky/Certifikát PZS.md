@@ -1,7 +1,7 @@
 ---
 title: "Certifikát PZS"
-version: 1
-updated_at: 2026-04-29
+version: 5
+updated_at: 2026-07-02
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/377421825
 ---
 
@@ -10,7 +10,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/377421825
 > [!info]
 > Aby FONS Galen mohl odesílat **ePosudky** (elektronické lékařské posudky), musí mít nastavený **Certifikát PZS**. Vydavá ho **EZCA II**, Portál certifikační autority Ministerstva zdravotnictví ČR.
 >
-> **Celý postup má 3 fáze:** přihlášení na národní portál → vystavení certifikátu v EZCA → nastavení v FONS Galen.
+> **Celý postup má 3 fáze:** [[Certifikát PZS|přihlášení na národní portál]] →[[Certifikát PZS|vystavení certifikátu v EZCA]] → [[Certifikát PZS|nastavení v FONS Galen]].
 
 ![obrazek-20260429-123156.png](<../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ePosudek – Elektronické lékařské posudky/Certifikát PZS/assets/obrazek-20260429-123156.png>)
 
@@ -87,8 +87,8 @@ Nastavení provádí administrátor (role **Správce**). Certifikát se nastavuj
 5. Klikněte na **Uložit**.
 6. **Restartujte FONS Galen** — bez restartu se certifikát neaktivuje.
 
-> [!tip]
-> **Ověření funkčnosti**
+> [!warning]
+> **Ověření funkčnosti (Připravujeme, ještě není v produkci!)**
 >
 > Po restartu klikněte na **Ověřit PZS** v detailu organizace. Zelená ikona = certifikát funguje správně.
 
