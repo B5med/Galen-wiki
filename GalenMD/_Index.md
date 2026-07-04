@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-03
+generated: 2026-07-04
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **3. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-03
+> **4. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-04
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **16** |
-| 🌿 | Do 30 dnů | **36** |
+| ♨️ | Do 14 dnů | **10** |
+| 🌿 | Do 30 dnů | **42** |
 | 📄 | Do 90 dnů | **44** |
 | 🗄️ | Starší než 3 měsíce | **225** |
 | ❓ | Bez data | **0** |
@@ -38,8 +38,8 @@ generated: 2026-07-03
     - 📄 [[Modul finance]] `v3` · 13. 5. 2026
     - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v3` · 7. 11. 2025
   - 📄 **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
-    - ♨️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
-      - ♨️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
+    - 🌿 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
+      - 🌿 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 🌿 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🌿 [[Auditní stopa]] `v1` · 18. 6. 2026
@@ -183,9 +183,9 @@ generated: 2026-07-03
       - 📄 [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
     - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
       - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
-        - ♨️ **[[Export dat]]** `v1` · 19. 6. 2026
-          - ♨️ [[Export dat pro Power BI (dávkový)]] `v2` · 19. 6. 2026
-          - ♨️ [[Průběžný export dat (RabbitMQ)]] `v3` · 19. 6. 2026
+        - 🌿 **[[Export dat]]** `v1` · 19. 6. 2026
+          - 🌿 [[Export dat pro Power BI (dávkový)]] `v2` · 19. 6. 2026
+          - 🌿 [[Průběžný export dat (RabbitMQ)]] `v3` · 19. 6. 2026
         - 🗄️ **[[Nastavení kalendářů]]** `v1` · 22. 7. 2025
           - 🗄️ [[Nastavení kalendáře]] `v1` · 22. 7. 2025
           - 🗄️ [[Skupiny kalendářů]] `v1` · 22. 7. 2025
@@ -217,7 +217,7 @@ generated: 2026-07-03
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
-        - ♨️ [[Společnost]] `v4` · 19. 6. 2026
+        - 🌿 [[Společnost]] `v4` · 19. 6. 2026
       - 🗄️ [[Návod na přidání pojišťovny a smluvních výkonů]] `v1` · 26. 8. 2025
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
