@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-06
+generated: 2026-07-07
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **6. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-06
+> **7. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-07
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **11** |
-| 🌿 | Do 30 dnů | **42** |
-| 📄 | Do 90 dnů | **44** |
-| 🗄️ | Starší než 3 měsíce | **225** |
+| ♨️ | Do 14 dnů | **10** |
+| 🌿 | Do 30 dnů | **43** |
+| 📄 | Do 90 dnů | **43** |
+| 🗄️ | Starší než 3 měsíce | **226** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -127,7 +127,7 @@ generated: 2026-07-06
     - 📄 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
-    - ♨️ [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
+    - 🌿 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 🌿 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - 🌿 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
@@ -152,7 +152,7 @@ generated: 2026-07-06
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 📄 [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
-    - 📄 [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
+    - 🗄️ [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
     - 🗄️ [[Novinky ve verzi k 9. 9. 2025]] `v4` · 23. 9. 2025
   - 📄 **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
