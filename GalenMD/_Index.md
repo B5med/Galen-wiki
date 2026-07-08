@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-07
+generated: 2026-07-08
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **7. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-07
+> **8. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-08
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **10** |
 | 🌿 | Do 30 dnů | **43** |
-| 📄 | Do 90 dnů | **43** |
+| 📄 | Do 90 dnů | **42** |
 | 🗄️ | Starší než 3 měsíce | **226** |
 | ❓ | Bez data | **0** |
 
@@ -245,7 +245,7 @@ generated: 2026-07-07
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
       - 📄 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
-      - 📄 [[Zkratky a formátování v dekurzu]] `v2` · 25. 5. 2026
+      - 🔥 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
       - 📄 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
