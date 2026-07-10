@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-09
+generated: 2026-07-10
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **9. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-09
+> **10. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-10
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **10** |
-| 🌿 | Do 30 dnů | **43** |
-| 📄 | Do 90 dnů | **42** |
-| 🗄️ | Starší než 3 měsíce | **226** |
+| ♨️ | Do 14 dnů | **9** |
+| 🌿 | Do 30 dnů | **44** |
+| 📄 | Do 90 dnů | **41** |
+| 🗄️ | Starší než 3 měsíce | **227** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -49,7 +49,7 @@ generated: 2026-07-09
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 🌿 [[Modul ordinace]] `v7` · 16. 6. 2026
-    - ♨️ [[Odložení pacienta]] `v2` · 25. 6. 2026
+    - 🌿 [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -272,7 +272,7 @@ generated: 2026-07-09
   - 📄 **[[Žádanky, posudky a elektronická podání]]** `v2` · 15. 5. 2026
     - 🗄️ **[[Biometrický podpis]]** `v1` · 29. 1. 2026
       - 🗄️ [[Doporučená zařízení]] `v1` · 29. 1. 2026
-      - 📄 [[Nastavení pracoviště]] `v2` · 10. 4. 2026
+      - 🗄️ [[Nastavení pracoviště]] `v2` · 10. 4. 2026
       - 🗄️ [[Odeslání k podpisu]] `v1` · 29. 1. 2026
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
