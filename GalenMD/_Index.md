@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-12
+generated: 2026-07-13
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **12. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-12
+> **13. 7. 2026**  ·  Celkem stránek: **322**  ·  Poslední sync z Confluence: 2026-07-13
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **10** |
-| 🌿 | Do 30 dnů | **44** |
-| 📄 | Do 90 dnů | **41** |
-| 🗄️ | Starší než 3 měsíce | **227** |
+| ♨️ | Do 14 dnů | **4** |
+| 🌿 | Do 30 dnů | **50** |
+| 📄 | Do 90 dnů | **40** |
+| 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -71,12 +71,12 @@ generated: 2026-07-12
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
     - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
-      - ♨️ **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
-        - ♨️ [[Nahlížení na záznamy eOčkování]] `v2` · 28. 6. 2026
-        - ♨️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
-        - ♨️ [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
-        - ♨️ [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
-        - ♨️ [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
+      - 🌿 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
+        - 🌿 [[Nahlížení na záznamy eOčkování]] `v2` · 28. 6. 2026
+        - 🌿 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
+        - 🌿 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
+        - 🌿 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
+        - 🌿 [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
     - 📄 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
@@ -126,7 +126,7 @@ generated: 2026-07-12
       - 📄 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
     - 📄 [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
-    - 📄 [[Notifikace objednávek]] `v4` · 13. 4. 2026
+    - 🗄️ [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🌿 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 🌿 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
