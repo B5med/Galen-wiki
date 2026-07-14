@@ -1,0 +1,298 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Kalendář",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nový filtr kalendáře – zobrazení pouze bloků CC",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V kalendáři přibyla nová možnost filtrování – zobrazení pouze bloků CC. Tyto bloky jsou nyní navíc odlišeny šrafováním, takže je uživatel v kalendáři snadno rozpozná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Dekurz – přílohy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Úprava data u příloh v dekurzu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vkládání a úpravě přílohy v dekurzu je nyní možné upravit i její datum. Zároveň byla odstraněna chyba se zdvojeným zobrazením přílohy a přílohy již nelze vkládat do uzamčených dnů dekurzu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Poukazy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Rozšíření filtrování zdravotnických prostředků v poukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Bylo rozšířeno filtrování zdravotnických prostředků (dle skupiny UHS) pro předpis skupiny 09.04, takže je nyní možné vystavit poukaz i v případech, kdy dříve odpovídající položka v číselníku chyběla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Doplnění kódu náhrady dle metodiky VZP",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Do zadávání výkonů byla doplněna možnost uvést kód náhrady dle aktuální metodiky VZP (např. úraz zaviněný jinou osobou, pracovní úraz apod.). Kód náhrady je nově možné zadávat i u externích žádanek, FT poukazu a očkování. Kód náhrady se nově správně přenáší i do vyúčtování odesílaného na pojišťovnu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava chyby v dashboardu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla opravena chyba, která se zobrazovala v dashboardu uživatelům bez dostatečných oprávnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava úpravy uživatelského nastavení z recepce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla opravena chyba, kvůli které nebylo možné z modulu recepce upravit nastavení uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava načítání textu ze šablony",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla opravena chyba, kdy se po vložení textu ze šablony výkonu nenačetl správně text do dekurzu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava filtru Otevřená neschopenka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla opravena chyba, kdy filtr „Otevřená neschopenka\" zobrazoval i neodeslané eDPN.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava zobrazení tlačítka pro formátování dekurzu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Bylo opraveno chování tlačítka pro zapnutí/vypnutí formátování dekurzu – tlačítko je nyní dostupné všem uživatelům bez ohledu na jejich nastavení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava stahování příloh z cloudu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Byla opravena chyba, při které se mohla příloha z cloudu stáhnout neúplně a následně ji nebylo možné otevřít.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
