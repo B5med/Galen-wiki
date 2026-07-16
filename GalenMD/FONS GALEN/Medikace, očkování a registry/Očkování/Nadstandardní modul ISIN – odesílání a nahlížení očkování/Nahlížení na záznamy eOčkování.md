@@ -1,11 +1,14 @@
 ---
 title: "Nahlížení na záznamy eOčkování"
-version: 2
-updated_at: 2026-06-28
+version: 3
+updated_at: 2026-07-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/475889697
 ---
 
 # Nahlížení na záznamy eOčkování
+
+> [!info]
+> Očkování provedená do 31. 12. 2022 odeslaná do ÚZIS (ISIN) nebudou v tomto přehledu zobrazena. ÚZIS nemá legislativní mandát na předání těchto očkování, a proto se v přehledu zobrazují pouze očkování provedená po 1. 1. 2023.
 
 Přístup k nahlížení na záznamy eOčkování se nachází v modulu **Ordinace** pod ikonou **eOčkování**.
 

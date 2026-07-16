@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-15
+generated: 2026-07-16
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **15. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-15
+> **16. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-16
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **2** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **52** |
-| 📄 | Do 90 dnů | **40** |
+| 🌿 | Do 30 dnů | **50** |
+| 📄 | Do 90 dnů | **41** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -72,7 +72,7 @@ generated: 2026-07-15
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
     - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
       - 🌿 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
-        - 🌿 [[Nahlížení na záznamy eOčkování]] `v2` · 28. 6. 2026
+        - 🔥 [[Nahlížení na záznamy eOčkování]] `v3` · 16. 7. 2026
         - 🌿 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
         - 🌿 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
         - 🌿 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
@@ -139,7 +139,7 @@ generated: 2026-07-15
     - 🔥 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
-    - 🌿 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
+    - 📄 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 📄 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
