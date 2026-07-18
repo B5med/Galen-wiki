@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-17
+generated: 2026-07-18
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **17. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-17
+> **18. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-18
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **2** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **43** |
-| 📄 | Do 90 dnů | **49** |
+| 🌿 | Do 30 dnů | **26** |
+| 📄 | Do 90 dnů | **65** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -43,7 +43,7 @@ generated: 2026-07-17
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 📄 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🌿 [[Auditní stopa]] `v1` · 18. 6. 2026
-    - 🌿 [[Dashboard]] `v1` · 17. 6. 2026
+    - 📄 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
@@ -81,27 +81,27 @@ generated: 2026-07-17
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
   - 🌿 **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
-    - 🌿 **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
+    - 📄 **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
       - 🌿 [[Ceník a sortiment]] `v2` · 18. 6. 2026
-      - 🌿 [[Správa balíčků a položek]] `v1` · 17. 6. 2026
-      - 🌿 [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
+      - 📄 [[Správa balíčků a položek]] `v1` · 17. 6. 2026
+      - 📄 [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
     - 🌿 **[[Pracovnělékařské služby (PLS)]]** `v3` · 18. 6. 2026
-      - 🌿 **[[Import dat PLS]]** `v2` · 17. 6. 2026
-        - 🌿 [[Import pacientů PLS]] `v1` · 17. 6. 2026
-        - 🌿 [[Import skupin PLS]] `v1` · 17. 6. 2026
-        - 🌿 [[Import smluv PLS]] `v1` · 17. 6. 2026
-      - 🌿 [[Fakturace PLS]] `v1` · 17. 6. 2026
+      - 📄 **[[Import dat PLS]]** `v2` · 17. 6. 2026
+        - 📄 [[Import pacientů PLS]] `v1` · 17. 6. 2026
+        - 📄 [[Import skupin PLS]] `v1` · 17. 6. 2026
+        - 📄 [[Import smluv PLS]] `v1` · 17. 6. 2026
+      - 📄 [[Fakturace PLS]] `v1` · 17. 6. 2026
       - 🌿 [[Nastavení PLS — smlouvy a skupiny]] `v2` · 18. 6. 2026
       - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
-      - 🌿 [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
+      - 📄 [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
       - 🌿 [[Prohlídky a očkování PLS]] `v1` · 18. 6. 2026
-      - 🌿 [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
-      - 🌿 [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
+      - 📄 [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
+      - 📄 [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
       - 🌿 [[Recepce a objednávání PLS]] `v1` · 18. 6. 2026
-    - 🌿 [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
-    - 🌿 [[Orientace v modulu]] `v1` · 17. 6. 2026
-    - 🌿 [[Slovník pojmů]] `v1` · 17. 6. 2026
-    - 🌿 [[Tiskové výstupy]] `v1` · 17. 6. 2026
+    - 📄 [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
+    - 📄 [[Orientace v modulu]] `v1` · 17. 6. 2026
+    - 📄 [[Slovník pojmů]] `v1` · 17. 6. 2026
+    - 📄 [[Tiskové výstupy]] `v1` · 17. 6. 2026
   - 📄 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
@@ -278,7 +278,7 @@ generated: 2026-07-17
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 📄 **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
-      - 🌿 [[Certifikát PZS]] `v5` · 2. 7. 2026
+      - 🔥 [[Certifikát PZS]] `v7` · 17. 7. 2026
       - 📄 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 📄 **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025

@@ -1613,12 +1613,6 @@
       ]
     },
     {
-      "type": "paragraph",
-      "attrs": {
-        "localId": "6ee481e5d87f"
-      }
-    },
-    {
       "type": "heading",
       "attrs": {
         "level": 2,
@@ -1678,6 +1672,54 @@
                 {
                   "text": "Vystavte nový certifikát v EZCA stejným postupem jako v části 3.",
                   "type": "text"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "text": "V případě použití testovacího systémového certifikátu Krajské zdravotní a.s. je nutné při jeho expiraci zajistit výměnu za nový certifikát. Aktuální testovací systémový certifikát Krajské zdravotní a.s. je k dispozici v dokumentaci: ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#97a0af"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Autentizace k API gateway - Manuál EZ pro PZS - Confluence",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#97a0af"
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "https://mzcr.atlassian.net/wiki/spaces/EPZS/pages/160530443/Autentizace+k+API+gateway"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textColor",
+                      "attrs": {
+                        "color": "#97a0af"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -1770,6 +1812,12 @@
           ]
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6433bdec9467"
+      }
     },
     {
       "type": "heading",
@@ -2003,6 +2051,12 @@
           ]
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5bab6468eae3"
+      }
     }
   ],
   "version": 1

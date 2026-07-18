@@ -1,7 +1,7 @@
 ---
 title: "Certifikát PZS"
-version: 5
-updated_at: 2026-07-02
+version: 7
+updated_at: 2026-07-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/377421825
 ---
 
@@ -99,6 +99,8 @@ Nastavení provádí administrátor (role **Správce**). Certifikát se nastavuj
 Certifikát PZS má platnost **3 měsíce**. Bez platného certifikátu přestanou fungovat ePosudky.
 
 1. Vystavte nový certifikát v EZCA stejným postupem jako v části 3.
+
+   V případě použití testovacího systémového certifikátu Krajské zdravotní a.s. je nutné při jeho expiraci zajistit výměnu za nový certifikát. Aktuální testovací systémový certifikát Krajské zdravotní a.s. je k dispozici v dokumentaci: [Autentizace k API gateway - Manuál EZ pro PZS - Confluence](https://mzcr.atlassian.net/wiki/spaces/EPZS/pages/160530443/Autentizace+k+API+gateway).
 2. Stáhněte nový soubor `.pfx`.
 3. V Galenu: Správa organizace → Struktura → organizace → Certifikát PZS → **Nastavit** → nahrajte nový soubor.
 4. Restartujte Galen.
