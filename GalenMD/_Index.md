@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-18
+generated: 2026-07-19
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **18. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-18
+> **19. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-19
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-07-18
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **2** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **26** |
-| 📄 | Do 90 dnů | **65** |
+| 🌿 | Do 30 dnů | **15** |
+| 📄 | Do 90 dnů | **76** |
 | 🗄️ | Starší než 3 měsíce | **228** |
 | ❓ | Bez data | **0** |
 
@@ -42,7 +42,7 @@ generated: 2026-07-18
       - 🌿 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 📄 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
-    - 🌿 [[Auditní stopa]] `v1` · 18. 6. 2026
+    - 📄 [[Auditní stopa]] `v1` · 18. 6. 2026
     - 📄 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
@@ -65,7 +65,7 @@ generated: 2026-07-18
         - 🗄️ [[AISLP]] `v1` · 21. 7. 2025
         - 🗄️ [[eRecept - SÚKL]] `v2` · 21. 7. 2025
         - 🗄️ [[eRecept – návod k použití]] `v2` · 21. 7. 2025
-      - 🌿 [[Lékové interakce]] `v1` · 18. 6. 2026
+      - 📄 [[Lékové interakce]] `v1` · 18. 6. 2026
       - 🗄️ [[Lékové žádanky]] `v2` · 19. 6. 2025
       - 🗄️ [[Podávání léčiv]] `v1` · 21. 7. 2025
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
@@ -80,24 +80,24 @@ generated: 2026-07-18
     - 📄 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
-  - 🌿 **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
+  - 📄 **[[Nadstandardní péče (Balíčky + PLS)]]** `v4` · 18. 6. 2026
     - 📄 **[[Nadstandardní péče — Balíčky]]** `v1` · 17. 6. 2026
-      - 🌿 [[Ceník a sortiment]] `v2` · 18. 6. 2026
+      - 📄 [[Ceník a sortiment]] `v2` · 18. 6. 2026
       - 📄 [[Správa balíčků a položek]] `v1` · 17. 6. 2026
       - 📄 [[Vyúčtování pacienta]] `v1` · 17. 6. 2026
-    - 🌿 **[[Pracovnělékařské služby (PLS)]]** `v3` · 18. 6. 2026
+    - 📄 **[[Pracovnělékařské služby (PLS)]]** `v3` · 18. 6. 2026
       - 📄 **[[Import dat PLS]]** `v2` · 17. 6. 2026
         - 📄 [[Import pacientů PLS]] `v1` · 17. 6. 2026
         - 📄 [[Import skupin PLS]] `v1` · 17. 6. 2026
         - 📄 [[Import smluv PLS]] `v1` · 17. 6. 2026
       - 📄 [[Fakturace PLS]] `v1` · 17. 6. 2026
-      - 🌿 [[Nastavení PLS — smlouvy a skupiny]] `v2` · 18. 6. 2026
+      - 📄 [[Nastavení PLS — smlouvy a skupiny]] `v2` · 18. 6. 2026
       - 🗄️ [[Nákladová střediska]] `v2` · 21. 7. 2025
       - 📄 [[Objednávky a akce PLS]] `v1` · 17. 6. 2026
-      - 🌿 [[Prohlídky a očkování PLS]] `v1` · 18. 6. 2026
+      - 📄 [[Prohlídky a očkování PLS]] `v1` · 18. 6. 2026
       - 📄 [[Průvodce_ Od založení firmy k první faktuře PLS|Průvodce: Od založení firmy k první faktuře PLS]] `v1` · 17. 6. 2026
       - 📄 [[Přehled PLS a datový tok]] `v1` · 17. 6. 2026
-      - 🌿 [[Recepce a objednávání PLS]] `v1` · 18. 6. 2026
+      - 📄 [[Recepce a objednávání PLS]] `v1` · 18. 6. 2026
     - 📄 [[FAQ — Časté otázky]] `v1` · 17. 6. 2026
     - 📄 [[Orientace v modulu]] `v1` · 17. 6. 2026
     - 📄 [[Slovník pojmů]] `v1` · 17. 6. 2026
@@ -117,7 +117,7 @@ generated: 2026-07-18
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
       - 🗄️ [[Obecné fungování nároků]] `v1` · 10. 7. 2025
     - 📄 **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
-      - 🌿 [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
+      - 📄 [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
       - 🗄️ [[Hlídací pes_ Automatické upozornění na volné termíny pro pacienty|Hlídací pes: Automatické upozornění na volné termíny pro pacienty]] `v1` · 19. 1. 2026
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
@@ -129,7 +129,7 @@ generated: 2026-07-18
     - 🗄️ [[Notifikace objednávek]] `v4` · 13. 4. 2026
     - 🌿 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
-    - 🌿 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
+    - 📄 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - 📄 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
@@ -225,7 +225,7 @@ generated: 2026-07-18
     - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
       - 🌿 [[Import KDávek]] `v3` · 29. 6. 2026
       - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
-      - 🌿 [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
+      - 📄 [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
