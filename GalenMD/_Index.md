@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-20
+generated: 2026-07-21
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **20. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-20
+> **21. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-21
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **3** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **4** |
 | 🌿 | Do 30 dnů | **9** |
 | 📄 | Do 90 dnů | **82** |
 | 🗄️ | Starší než 3 měsíce | **228** |
@@ -278,7 +278,7 @@ generated: 2026-07-20
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 📄 **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
-      - 🔥 [[Certifikát PZS]] `v7` · 17. 7. 2026
+      - ♨️ [[Certifikát PZS]] `v7` · 17. 7. 2026
       - 📄 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 📄 **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
