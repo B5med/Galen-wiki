@@ -246,7 +246,70 @@
                   "type": "text"
                 }
               ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9643be49c9f8"
+      },
+      "marks": [
+        {
+          "type": "indentation",
+          "attrs": {
+            "level": 1
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "Pole ",
+          "type": "text"
+        },
+        {
+          "text": "Datum od",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je povinné, pole ",
+          "type": "text"
+        },
+        {
+          "text": "Datum do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je nepovinné (lze ho nechat prázdné).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ffd2334758b7",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7ea0fd4467dd"
+          },
+          "content": [
             {
               "type": "mediaSingle",
               "attrs": {

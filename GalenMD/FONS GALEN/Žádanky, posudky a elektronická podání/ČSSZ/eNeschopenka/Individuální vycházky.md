@@ -1,7 +1,7 @@
 ---
 title: "Individuální vycházky"
-version: 2
-updated_at: 2026-02-04
+version: 6
+updated_at: 2026-07-23
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/257916930
 ---
 
@@ -24,5 +24,7 @@ Postup v případě, kdy je pacientovi potřeba povolit individuální vycházky
       ![image-20260204-103622.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Individuální vycházky/assets/image-20260204-103622.png>)
 4. V případě schválení žádosti uživatel vyplní informace o individuální vycházce a odesílá hlášení HOL na ČSSZ.
 
-   ![image-20260204-104353.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Individuální vycházky/assets/image-20260204-104353.png>)
+Pole **Datum od** je povinné, pole **Datum do** je nepovinné (lze ho nechat prázdné).
+
+1. ![image-20260204-104353.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Individuální vycházky/assets/image-20260204-104353.png>)
    ![image-20260204-104533.png](<../../../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/ČSSZ/eNeschopenka/Individuální vycházky/assets/image-20260204-104533.png>)

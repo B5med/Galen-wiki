@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-23
+generated: 2026-07-24
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **23. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-23
+> **24. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-24
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **3** |
 | 🌿 | Do 30 dnů | **9** |
 | 📄 | Do 90 dnů | **74** |
-| 🗄️ | Starší než 3 měsíce | **237** |
+| 🗄️ | Starší než 3 měsíce | **236** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -312,7 +312,7 @@ generated: 2026-07-23
         - 🗄️ [[Zobrazení jednotlivých dávek]] `v1` · 21. 7. 2025
       - 🗄️ **[[eNeschopenka]]** `v2` · 20. 6. 2025
         - 🗄️ [[Hlídání podpůrčí doby eDPN]] `v1` · 18. 6. 2025
-        - 🗄️ [[Individuální vycházky]] `v2` · 4. 2. 2026
+        - 🔥 [[Individuální vycházky]] `v6` · 23. 7. 2026
         - 🗄️ [[Vystavení eDPN o více než 3 dny zpětně]] `v1` · 4. 2. 2026
         - 🗄️ [[Zvýraznění pacienta v dlouhodobé pracovní neschopnosti|Zvýraznění pacienta v dlouhodobé pracovní neschopnosti]] `v2` · 20. 6. 2025
       - 🗄️ [[Dlouhodobé ošetřovné]] `v4` · 5. 9. 2025
