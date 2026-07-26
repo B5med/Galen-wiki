@@ -1,0 +1,208 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "aa6aa2212cf3"
+      },
+      "content": [
+        {
+          "text": "Umístění:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Uživatel → sekce ",
+          "type": "text"
+        },
+        {
+          "text": "Zvláštní oprávnění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2928118ac55"
+      },
+      "content": [
+        {
+          "text": "Co oprávnění dělá:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Uživateli s tímto zaškrtnutým oprávněním se v modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zpřístupní záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Smlouvy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kde lze spravovat nastavení smluv pro vyúčtování (pracoviště, zařízení, hromadná správa). Bez tohoto oprávnění se záložka v menu modulu vůbec nezobrazí.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9aa32938310d"
+      },
+      "content": [
+        {
+          "text": "Rozdíl mezi záložkou ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Smlouvy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v modulech ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Vyúčtování ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Správa organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            },
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "db84ec6c609b"
+      },
+      "content": [
+        {
+          "text": "V obou modulech záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Smlouvy",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " poskytuje stejné informace. Toto zvláštní oprávnění umožňuje editovat smlouvy s pojišťovnami s smluvní výkony přímo z modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyúčtování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " bez nutnosti, aby uživatel měl přístup do modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Správa organizace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

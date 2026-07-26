@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-25
+generated: 2026-07-26
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **25. 7. 2026**  ·  Celkem stránek: **323**  ·  Poslední sync z Confluence: 2026-07-25
+> **26. 7. 2026**  ·  Celkem stránek: **325**  ·  Poslední sync z Confluence: 2026-07-26
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **3** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **9** |
-| 📄 | Do 90 dnů | **74** |
+| 🌿 | Do 30 dnů | **8** |
+| 📄 | Do 90 dnů | **75** |
 | 🗄️ | Starší než 3 měsíce | **236** |
 | ❓ | Bez data | **0** |
 
@@ -49,7 +49,7 @@ generated: 2026-07-25
     - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 📄 [[Modul ordinace]] `v7` · 16. 6. 2026
-    - 🌿 [[Odložení pacienta]] `v2` · 25. 6. 2026
+    - 📄 [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -215,6 +215,8 @@ generated: 2026-07-25
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
+          - 🔥 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
+            - 🔥 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
