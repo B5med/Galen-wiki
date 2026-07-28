@@ -1,0 +1,133 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "2ef70025a24f"
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "e26df2959a76"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2ad0aa41273f"
+      },
+      "content": [
+        {
+          "text": "Anamnéza – výpočet balíčkoroků (kalkulačka)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "49b425396f2b"
+      },
+      "content": [
+        {
+          "text": "V souvislosti se změnami v preventivních prohlídkách (od 1. 1. 2026) přibyl v Anamnéze automatický výpočet balíčkoroků. Hodnoty potřebné pro výpočet nyní zadáte přímo v Anamnéze a systém hlídá jejich správné vyplnění.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "e8c95ebefae9"
+      },
+      "content": [
+        {
+          "text": "Fráze – zrušen limit pro počet znaků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "193c344121f8"
+      },
+      "content": [
+        {
+          "text": "Při vytváření a editaci frází byl odstraněn limit počtu 5000 znaků. Fráze je tak nově bez omezení. Omezení počtu znaků je tak kontrolováno až při konkrétním použití, kde v případě, že entita má omezení na počet znaků, je o tom uživatel informován.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "aa4864992b78"
+      },
+      "content": [
+        {
+          "text": "Vyúčtování – zvláštní oprávnění uživatele „Specialista vyúčtování\"",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "18f8378aec09"
+      },
+      "content": [
+        {
+          "text": "Umístění: Uživatel → sekce Zvláštní oprávnění. Uživateli s tímto zaškrtnutým oprávněním se v modulu Vyúčtování zpřístupní záložka Smlouvy, kde lze spravovat nastavení smluv pro vyúčtování (pracoviště, zařízení, hromadná správa). Bez tohoto oprávnění se záložka v menu modulu vůbec nezobrazí. Oprávnění umožňuje editovat smlouvy s pojišťovnami a smluvní výkony přímo z modulu Vyúčtování, bez nutnosti přístupu do modulu Správa organizace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1141b343223b"
+      },
+      "content": [
+        {
+          "text": "Správa společností – kontrola duplicitního IČO",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f07f445235db"
+      },
+      "content": [
+        {
+          "text": "Galen nově kontroluje, aby se stejné IČO nevyskytovalo u dvou různých společností nebo podřízených společností. Kontrola se spouští jen při skutečné změně IČO. Pokud je zadané IČO již použité u jiného aktivního subjektu, zobrazí se hláška „Zadané IČO je v systému již použito. Zkontrolujte prosím správnost zadaného IČO. Požadovaná změna nebyla uložena.\" a změna se neuloží.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

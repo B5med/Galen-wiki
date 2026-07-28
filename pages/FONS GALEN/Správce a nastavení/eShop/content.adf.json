@@ -1,0 +1,995 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "extension",
+      "attrs": {
+        "layout": "default",
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "toc",
+        "parameters": {
+          "macroParams": {
+            "style": {
+              "value": "none"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "cb00960a-a1cf-4dc9-a0c2-76cfeb8c5dbe"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "title": "Obsah"
+          }
+        },
+        "localId": "29ff9aa4-1b92-450d-ad6b-ea231b46698d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "8312a0920f50"
+      },
+      "content": [
+        {
+          "text": "K čemu eShop slouží",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ef387ef4f26f"
+      },
+      "content": [
+        {
+          "text": "eShop je nové místo přímo v prostředí FONS Galen, kde si jako objednavatel můžete sami vybrat a objednat doplňkové funkcionality systému – bez nutnosti kontaktovat obchodní zástupce nebo čekat na zpracování poptávky e-mailem. Cílem je Vám zjednodušit a zrychlit celý proces objednávání a nabídnout okamžitý přehled o tom, jaké funkcionality jsou ve FONS Galen k dispozici, včetně srozumitelné ceny, stručného popisu a odkazu na podrobný popis v Confluence FONS Galen.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "00dbc216348a"
+      },
+      "content": [
+        {
+          "text": "Co v eShopu najdete",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "56444412-888d-4342-9822-f03f073be22a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ed5482cb-e8a0-4dc5-b057-5a9ede3bc8e7"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b5cd93a9168a"
+              },
+              "content": [
+                {
+                  "text": "Přehled dostupných funkcionalit a doplňkových modulů k FONS Galen",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "37744bd2-56d4-4be5-aab8-dace7d1ad9b1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f27e75bc1db7"
+              },
+              "content": [
+                {
+                  "text": "Stručný popis přínosu a fungování každé položky",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0dff34fa-afb5-405a-b7ed-63b8506ef480"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1544fcc14e2d"
+              },
+              "content": [
+                {
+                  "text": "Cenu a možnost rovnou zadat objednávku",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d8c1d981-d02b-4aba-8d0d-d7485d654dac"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7dd876c9ac07"
+              },
+              "content": [
+                {
+                  "text": "Přehled Vašich dosavadních objednávek a jejich stavu",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1083315cc83a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "622ead3a8e0a"
+              },
+              "content": [
+                {
+                  "text": "Přehled vystavených faktur",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d2a46ec9f4c1"
+      },
+      "content": [
+        {
+          "text": "Stručný postup objednání",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "0114023c26db",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9e5d9ef6bde0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c2d4fb87266a"
+              },
+              "content": [
+                {
+                  "text": "Na stránce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přehled ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "zvolené funkcionality vložíte do košíku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "fdf9a74de273"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "5c0c897fdbaa"
+          },
+          "content": [
+            {
+              "text": "Doporučujeme všechny požadované funkcionality objednávat v rámci jedné souhrnné objednávky. Odeslání další objednávky je podmíněno vyfakturováním té předchozí, a proto bude možné další objednávku odeslat až v řádu dní.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1919,
+            "alt": "image-20260727-171640.png",
+            "id": "f477aaff-68b8-432c-b5d7-9277db3d4916",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "1fcc9d0798de",
+            "height": 727
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5f7f98a252b"
+      },
+      "content": [
+        {
+          "text": "Přidání funkcionality do košíku indikuje počet zobrazený na ikoně košíku ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 72,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 72,
+            "alt": "image-20260727-172409.png",
+            "id": "3617da16-3a2f-4896-bf87-da4783de9199",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "4f3d9d8237da",
+            "height": 85
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ee97be9f8a88",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "32c1bb19442f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a90b29219f08"
+              },
+              "content": [
+                {
+                  "text": "V košíku uživatel zkontroluje",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 950,
+            "alt": "image-20260727-172523.png",
+            "id": "f4522258-4a81-49c4-8121-ec1d37553b2c",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "70d1e4a3e863",
+            "height": 905
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "382b4023f535"
+      },
+      "content": [
+        {
+          "text": "(1)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Aktuální cena služby - přehled v současné chvíli hrazených služeb FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0b934eb473fe"
+      },
+      "content": [
+        {
+          "text": "(2)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Závazně objednávám a žádám o aktivaci následujících služeb - přehled právě objednávaných služeb",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "6933279c238d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4e87db0f0923"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b673080583f6"
+              },
+              "content": [
+                {
+                  "text": "název funkcionality",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fb45a2aad7b1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "430cd7ad2c6f"
+              },
+              "content": [
+                {
+                  "text": "v případě, že se objednává na konkrétní pracoviště, tak pracoviště",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f8336ac87529"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "db77e6945b30"
+              },
+              "content": [
+                {
+                  "text": "v počtu požadovaný počet pracovišť, uživatelů nebo zařízení",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "45eddac3c8d6"
+      },
+      "content": [
+        {
+          "text": "(3)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Nová cena služby FONS Galen po objednání - přehled pravidelných platem po objednání, cena za aktivaci a v případě roční platby také poměrnou část úhrady za stávající rok",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "265e9bb906e8"
+      },
+      "content": [
+        {
+          "text": "(4)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " Uživatel potvrdí, že se seznámil v podmínkami závazné objednávky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e943ba5d82ed"
+      },
+      "content": [
+        {
+          "text": "(5) ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "Stiskem tlačítka Závazně objednávám odesílá objednávku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5fc060d274cd",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "31f5c0331da0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d80ee426711f"
+              },
+              "content": [
+                {
+                  "text": "Další postup bude uveden ",
+                  "type": "text"
+                },
+                {
+                  "text": "v e-mailu s potvrzením objednávky, ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "který přijde na e-mail objednatele ihned po odeslání objednávky. Mohou nastat dvě situace",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "102986f16053"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "331457427a30"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1c6495c848a3"
+              },
+              "content": [
+                {
+                  "text": "Objednaná funkcionalita byla odesláním objednávky ihned aktivována. V takovém případě je po restartu aplikace FONS Galen funkcionalita přístupná a uživatel postupuje tak, jak je uvedeno v dokumentaci dané funkcionality (dokumentace je přístupná v eShopu v části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Přehled)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Funkcionalitu může začít ihned využívat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 404,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 404,
+            "alt": "image-20260727-175830.png",
+            "id": "cbca44ea-52db-4ae3-9a5a-8c9cbdedab98",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "5bd7fe9152b3",
+            "height": 150
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1356cc35c300"
+      }
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4acd90af0d53"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "422bdf0ce6a9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d3c81e88c7f9"
+              },
+              "content": [
+                {
+                  "text": "Objednanou funkcionalitu je potřeba zprovoznit pracovníkem Stapro. Pracovník Stapro je o objednávce informován a spojí se s objednatelem, aby se domluvili na dalším postupu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 442,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 442,
+            "alt": "image-20260727-175535.png",
+            "id": "675b5fe1-1e18-468c-b43f-016cbada48c4",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "bcbb45b93bb8",
+            "height": 165
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "508b2ae4f559",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ba9df7bbb19d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8fc04e58b91a"
+              },
+              "content": [
+                {
+                  "text": "Stav své objednávky může uživatel sledovat v záložce Objednávky ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 86,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 86,
+                    "alt": "image-20260727-174920.png",
+                    "id": "b6b2c2fb-534e-4ad9-9195-bc756252ec81",
+                    "collection": "contentId-506527745",
+                    "type": "file",
+                    "localId": "dad3b17483c0",
+                    "height": 84
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "171af912eb17"
+      },
+      "content": [
+        {
+          "text": "Často kladené dotazy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2a1dbba9226e"
+      },
+      "content": [
+        {
+          "text": "V nabídce modulů nevidím modul eShop",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ece1cda99a38"
+      },
+      "content": [
+        {
+          "text": "Pokud váš uživatel má mít možnost objednávat nadstandardní funkcionality, je nutné, aby uživatel s rolí ",
+          "type": "text"
+        },
+        {
+          "text": "Správce",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (může se jednat o totožného uživatele) danému uživateli přiřadil roli ",
+          "type": "text"
+        },
+        {
+          "text": "Objednavatel ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "a zároveň nastavil přístup do modulu ",
+          "type": "text"
+        },
+        {
+          "text": "eShop.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 750,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 750,
+            "alt": "image-20260727-165318.png",
+            "id": "fc2555ad-d9b1-470d-9dea-c1d86264358b",
+            "collection": "contentId-506527745",
+            "type": "file",
+            "localId": "68f73f8d44d0",
+            "height": 671
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e9773313e09d"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "70890cd9f384"
+      },
+      "content": [
+        {
+          "text": "V eShopu nevidím v nabídce všechny funkcionality, o kterých ale vím, že jsou v nabídce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4312a0cd93c3"
+      },
+      "content": [
+        {
+          "text": "Ano, ne všechny nadstandardní funkcionality, které FONS Galen nabízí, jsou v nabídce eShopu. V tuto chvíli se nabídka eShopu postupně doplňuje. I později však k této situaci může dojít. V takovém případě kontaktujte svého obchodního zástupce, který bude schopen nabídku pro vás připravit. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1274d2790361"
+      },
+      "content": [
+        {
+          "text": "Na jaký e-mail mi jako objednateli přijde potvrzení o odeslané objednávce?",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6d2492b85948"
+      },
+      "content": [
+        {
+          "text": "Potvrzení o odeslané objednávce přijde objednateli na e-mail, který má zadaný v nastavení uživatele (Správa organizace - záložka Uživatelé - rozkliknout konkrétního uživatele).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3937f2b4395d"
+      },
+      "content": [
+        {
+          "text": "Nemohu odeslat objednávku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "41a49a3a196d"
+      },
+      "content": [
+        {
+          "text": "Objednávku je možné odeslat až ve chvíli, kdy byla předchozí objednávka vyfakturovaná. Doporučujeme proto všechny požadované funkcionality objednat v rámci jedné objednávky. V opačném případě je odeslání objednávky podmíněno vystavením faktury, které může trvat v řádu dní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "085d3b252991"
+      },
+      "content": [
+        {
+          "text": "Chci zrušit objednávku / část své objednávky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "48d25f8a6ae4"
+      },
+      "content": [
+        {
+          "text": "V případě, že si přejete zrušit celou objednávku, případně její část, je nutné kontaktovat svého obchodního zástupce, aby objednávku stornoval. Celou objednávku je nutné zrušit i v případě, kdy si přejete zrušit pouze část objednávky, a následně vytvořit objednávku novou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "254669f56e10"
+      },
+      "content": [
+        {
+          "text": "Mohu prostřednictvím eShopu funkcionalitu zrušit, nebo snížit počet pracovišť nebo uživatelů?",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a3451ba63259"
+      },
+      "content": [
+        {
+          "text": "V tuto chvíli je možné v eShopu pouze objednávat nové funkcionality nebo přikupovat další přístupy. V případě, že si přejete snížit počet přístupů nebo funkcionalitu zrušit, kontaktujte svého obchodního zástupce.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
