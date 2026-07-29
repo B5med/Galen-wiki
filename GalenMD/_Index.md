@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-28
+generated: 2026-07-29
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **28. 7. 2026**  ·  Celkem stránek: **327**  ·  Poslední sync z Confluence: 2026-07-28
+> **29. 7. 2026**  ·  Celkem stránek: **327**  ·  Poslední sync z Confluence: 2026-07-29
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **4** |
-| ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **9** |
-| 📄 | Do 90 dnů | **75** |
-| 🗄️ | Starší než 3 měsíce | **236** |
+| 🔥 | Do 3 dnů | **2** |
+| ♨️ | Do 14 dnů | **5** |
+| 🌿 | Do 30 dnů | **4** |
+| 📄 | Do 90 dnů | **78** |
+| 🗄️ | Starší než 3 měsíce | **238** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -71,12 +71,12 @@ generated: 2026-07-28
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
     - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
-      - 🌿 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
+      - 📄 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
         - ♨️ [[Nahlížení na záznamy eOčkování]] `v3` · 16. 7. 2026
-        - 🌿 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
-        - 🌿 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
-        - 🌿 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
-        - 🌿 [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
+        - 📄 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
+        - 📄 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
+        - 📄 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
+        - 📄 [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
     - 📄 [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
@@ -216,8 +216,8 @@ generated: 2026-07-28
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
-          - 🔥 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
-            - 🔥 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
+          - ♨️ **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
+            - ♨️ [[Specialista vyúčtování]] `v1` · 25. 7. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
@@ -281,9 +281,9 @@ generated: 2026-07-28
       - 🗄️ [[Odeslání k podpisu]] `v1` · 29. 1. 2026
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
-    - 📄 **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
+    - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
       - ♨️ [[Certifikát PZS]] `v7` · 17. 7. 2026
-      - 📄 [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
+      - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 📄 **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
         - 📄 [[Další signální kódy]] `v3` · 12. 5. 2026
