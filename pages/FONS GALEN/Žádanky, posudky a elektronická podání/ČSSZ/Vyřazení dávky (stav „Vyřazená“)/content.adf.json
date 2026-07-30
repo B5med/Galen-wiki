@@ -1,0 +1,1256 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0c308743897d"
+      },
+      "content": [
+        {
+          "text": "Stav ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyřazená“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " je interní stav systému FONS Galen, kterým lze označit neschopenku, ošetřovné nebo dlouhodobé ošetřovné, jež ČSSZ ve svém systému neeviduje. Do tohoto stavu převádí dávku uživatel ručně; slouží k tomu, aby dávky bez protějšku na straně ČSSZ nezatěžovaly běžné přehledy, ale zůstaly dohledatelné.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "5ce812c132b7"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "1a188c1568e6"
+          },
+          "content": [
+            {
+              "text": "Stav ",
+              "type": "text"
+            },
+            {
+              "text": "„Vyřazená“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " je pouze interní stav systému FONS Galen. Jeho použití nemění evidenci na straně ČSSZ.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "14c5f8fa0cf9"
+      },
+      "content": [
+        {
+          "text": "Chování stavu „Vyřazená“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "da5769d99ce9"
+      },
+      "content": [
+        {
+          "text": "Dávka ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyřazená“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se chová stejně jako dávka ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Ukončená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f5debf9f174d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0f2d30529e7b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2c4326d3ea8f"
+              },
+              "content": [
+                {
+                  "text": "Nezobrazuje se v dlaždici pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "723c8afeb240"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d6fad5650175"
+              },
+              "content": [
+                {
+                  "text": "Nezobrazuje se v přehledu neodeslaných lístků na peníze.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "eb9ac6910565"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "430db9643e0b"
+              },
+              "content": [
+                {
+                  "text": "Není aktivní pro další zpracování; k vyřazené dávce není možné odesílat podání na ČSSZ.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "c4dfdbb9f03d"
+      },
+      "content": [
+        {
+          "text": "Vyřazení dávky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a9e7e34afedd"
+      },
+      "content": [
+        {
+          "text": "Do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyřazená“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze dávku převést ",
+          "type": "text"
+        },
+        {
+          "text": "pouze ručně",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "7118eac95661",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "56fb9354f1f4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c9b56ff0344e"
+              },
+              "content": [
+                {
+                  "text": "V přehledu dávek klikněte pravým tlačítkem myši na konkrétní dávku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f62dbe2628a2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8e3db647303b"
+              },
+              "content": [
+                {
+                  "text": "V kontextovém menu zvolte možnost ",
+                  "type": "text"
+                },
+                {
+                  "text": "Změnit stav na Vyřazená",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1526,
+            "alt": "image-20260729-095954.png",
+            "id": "f5e4b13a-798a-45d5-9260-f3a2482612a5",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "a6765265e65c",
+            "height": 430
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "b7e65ade7b33",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "69a12996221e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "80ca865e57e1"
+              },
+              "content": [
+                {
+                  "text": "Systém zobrazí dotaz ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Změnit stav dávky na Vyřazená?“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". V dialogu lze vyplnit nepovinnou ",
+                  "type": "text"
+                },
+                {
+                  "text": "poznámku k vyřazení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20260729-100029.png",
+            "id": "fba240f1-f441-459a-a328-cbcd942ef484",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "390f3c9a74ee",
+            "height": 188
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "87c2ba6de3a5",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e66a9661d242"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a375d30c1efc"
+              },
+              "content": [
+                {
+                  "text": "Po potvrzení se stav okamžitě aktualizuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "d8361924453d"
+      },
+      "content": [
+        {
+          "text": "Obnovení původního stavu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b83ce52cee8b"
+      },
+      "content": [
+        {
+          "text": "Dávku lze ze stavu ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyřazená“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " vrátit do původního stavu, například ",
+          "type": "text"
+        },
+        {
+          "text": "Otevřená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nebo ",
+          "type": "text"
+        },
+        {
+          "text": "Ukončená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", dvěma způsoby. V obou případech jde pouze o interní změnu; obnovením se ",
+          "type": "text"
+        },
+        {
+          "text": "neaktivuje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " opětovné odesílání dat na ČSSZ.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "445427e98d07"
+      },
+      "content": [
+        {
+          "text": "Ručně uživatelem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3479efc7c69a"
+      },
+      "content": [
+        {
+          "text": "Klikněte pravým tlačítkem myši na dávku a zvolte ",
+          "type": "text"
+        },
+        {
+          "text": "Obnovit původní stav",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Tato volba je v kontextovém menu viditelná pouze tehdy, je-li dávka ve stavu ",
+          "type": "text"
+        },
+        {
+          "text": "„Vyřazená“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Systém zobrazí dotaz ",
+          "type": "text"
+        },
+        {
+          "text": "„Obnovit původní stav dávky?“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", v němž lze vyplnit nepovinnou ",
+          "type": "text"
+        },
+        {
+          "text": "poznámku k obnovení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1534,
+            "alt": "image-20260729-100140.png",
+            "id": "0ea3934f-791a-4a32-895d-de73d9f3ecdb",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "dac3a3ac9b75",
+            "height": 393
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 596,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 596,
+            "alt": "image-20260729-100516.png",
+            "id": "b013cf85-28b7-4577-9502-cc774aa2febb",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "e7ab64a9063b",
+            "height": 194
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "32c8033b1f2c"
+      },
+      "content": [
+        {
+          "text": "Automaticky systémem",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e4339bfb92ff"
+      },
+      "content": [
+        {
+          "text": "Systém vrátí dávku do původního stavu ve chvíli, kdy k ní přijde notifikace z ČSSZ. Současně s obnovením stavu se přijatá notifikace zpracuje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "334b63342c1f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "9b09f6cda797"
+          },
+          "content": [
+            {
+              "text": "Obnovení původního stavu neznamená automatické znovuzapojení dávky do odesílání na ČSSZ. Jde pouze o interní změnu stavu v systému.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "e8948f0f91c5"
+      },
+      "content": [
+        {
+          "text": "Historie vyřazení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fcf3e3bd2551"
+      },
+      "content": [
+        {
+          "text": "Každá změna stavu, tedy vyřazení i obnovení, se zaznamenává do samostatné evidence ",
+          "type": "text"
+        },
+        {
+          "text": "Historie vyřazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kterou si uživatel může zobrazit na detailu dávky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7fd91cef37f6"
+      },
+      "content": [
+        {
+          "text": "U každého záznamu je uveden:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "29974ef12b60"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "38378622a43b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2856f64690b9"
+              },
+              "content": [
+                {
+                  "text": "zdroj změny",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – zda ji provedl ",
+                  "type": "text"
+                },
+                {
+                  "text": "Uživatel",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ", nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "Notifikace ČSSZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " při automatickém obnovení,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b318463e01b2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "226062f54474"
+              },
+              "content": [
+                {
+                  "text": "poznámka",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zadaná při vyřazení nebo obnovení,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7c04566d8a93"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "56ba5b835bc3"
+              },
+              "content": [
+                {
+                  "text": "datum změny a uživatel, který ji provedl.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 898,
+            "alt": "image-20260729-100321.png",
+            "id": "a01a2f06-7b56-4d9f-a7f5-253cad530d30",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "baf592a3589f",
+            "height": 170
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "cd929359e026"
+      },
+      "content": [
+        {
+          "text": "Filtrování vyřazených dávek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "40a408c0634e"
+      },
+      "content": [
+        {
+          "text": "Vyřazené dávky jsou ve výchozím stavu skryté. Zobrazíte je pomocí checkboxu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyřazené",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1529,
+            "alt": "image-20260729-100421.png",
+            "id": "126921ad-b11a-43fb-86a5-be2f85343938",
+            "collection": "contentId-518717444",
+            "type": "file",
+            "localId": "50591de62286",
+            "height": 388
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "57513d79ff0c"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c67f5f5e9fab"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a61c0c7feb69"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "c4389dcf6338"
+                  },
+                  "content": [
+                    {
+                      "text": "Oblast",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "59f5e3498264"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3787b533f839"
+                  },
+                  "content": [
+                    {
+                      "text": "Umístění filtru",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "03ede01007ed"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9dbeff2668f1"
+                  },
+                  "content": [
+                    {
+                      "text": "Chování",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "41e09aba6078"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1be5a0824754"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a37bb72617df"
+                  },
+                  "content": [
+                    {
+                      "text": "Přehledy dávek ČSSZ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0d2788c99e4a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "258c396e6b08"
+                  },
+                  "content": [
+                    {
+                      "text": "Checkbox ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Vyřazené",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " je součástí filtru dávek.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8e3ddc2bb723"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9923acbb084e"
+                  },
+                  "content": [
+                    {
+                      "text": "Po zatržení se v přehledu zobrazí i dávky ve stavu ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "„Vyřazená“",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "097a34788c37"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fa062b9dc562"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6f3a61b7a41f"
+                  },
+                  "content": [
+                    {
+                      "text": "Historie pacienta, sekce ČSSZ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ea7405712420"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a3ae52bd634b"
+                  },
+                  "content": [
+                    {
+                      "text": "Checkbox ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Vyřazené",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " je v hlavní liště za checkboxem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Ukončené",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "136273a4e712"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27d5d9aeb5a4"
+                  },
+                  "content": [
+                    {
+                      "text": "Po zatržení se v přehledu zobrazí i dávky ve stavu ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "„Vyřazená“",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2a56bde49ccd"
+      },
+      "content": [
+        {
+          "text": "V obou případech je výchozí stav checkboxu nezatržený, takže se vyřazené dávky standardně nezobrazují. Filtr zároveň funguje v kombinaci s ostatními filtry.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "dd7327822025"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6de47df9c084"
+          },
+          "content": [
+            {
+              "text": "Pokud hledáte dávku, která se standardně nezobrazuje v přehledech, nejprve ověřte, zda není zapotřebí zapnout filtr ",
+              "type": "text"
+            },
+            {
+              "text": "Vyřazené",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

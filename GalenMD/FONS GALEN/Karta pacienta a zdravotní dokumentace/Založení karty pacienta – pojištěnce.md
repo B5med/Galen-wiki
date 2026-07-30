@@ -1,7 +1,7 @@
 ---
 title: "Založení karty pacienta – pojištěnce"
-version: 2
-updated_at: 2026-06-16
+version: 3
+updated_at: 2026-07-29
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67665931
 ---
 
@@ -11,7 +11,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/67665931
 1. Nového pacienta lze založit kliknutím na ikonu Nová karta, která je nad kartotékou.
 
 ![074c9167-ad0d-4151-afd7-59da49cb1e8b.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Založení karty pacienta – pojištěnce/assets/074c9167-ad0d-4151-afd7-59da49cb1e8b.png>)
-2. Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm nebudou mít okno s registrací pacientů).Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm **nebudou mít**okno s registrací pacientů).
+2. Otevře se formulář pro zadání údajů nového pacienta (Zobrazený formulář je určen pro praktiky a pediatry, specialisté na něm nebudou mít okno s registrací pacientů).
 3. Zde se vyplňují potřebné údaje. Minimálně je třeba zadat číslo pojištěnce, příjmení, jméno, pojišťovnu a druh pojištění. Číslo pojištěnce se píše bez lomítka. Pokud je zadáno ve správném tvaru, automaticky se doplní datum narození. První písmeno Jména a Příjmení se píše automaticky velké.
 4. U praktických lékařů, pediatrů, gynekologů je třeba vyplnit i stav registrace, popř. datum registrace.
 5. Nový pacient se automaticky uloží při vrácení se do kartotéky, popř. pokračováním práce např. psaní v dekurzu.

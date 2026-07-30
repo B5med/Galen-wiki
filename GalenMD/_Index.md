@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-07-29
+generated: 2026-07-30
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **29. 7. 2026**  ·  Celkem stránek: **327**  ·  Poslední sync z Confluence: 2026-07-29
+> **30. 7. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-07-30
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
+| 🔥 | Do 3 dnů | **4** |
 | ♨️ | Do 14 dnů | **5** |
-| 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **78** |
+| 🌿 | Do 30 dnů | **2** |
+| 📄 | Do 90 dnů | **79** |
 | 🗄️ | Starší než 3 měsíce | **238** |
 | ❓ | Bez data | **0** |
 
@@ -57,7 +57,7 @@ generated: 2026-07-29
     - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
     - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
     - 📄 [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
-    - 📄 [[Založení karty pacienta – pojištěnce]] `v2` · 16. 6. 2026
+    - 🔥 [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
     - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
   - 📄 **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Medikace]]** `v1` · 21. 7. 2025
@@ -150,7 +150,7 @@ generated: 2026-07-29
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
     - 🔥 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
-    - 🌿 [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
+    - 📄 [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 📄 [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
@@ -226,7 +226,7 @@ generated: 2026-07-29
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
     - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
-      - 🌿 [[Import KDávek]] `v3` · 29. 6. 2026
+      - 📄 [[Import KDávek]] `v3` · 29. 6. 2026
       - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
       - 📄 [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
@@ -324,6 +324,7 @@ generated: 2026-07-29
       - 🗄️ [[Postup při změně IČPE]] `v1` · 4. 2. 2026
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
+      - 🔥 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 🗄️ [[Centrová léčba]] `v2` · 24. 2. 2026
     - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
