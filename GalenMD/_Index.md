@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-04
+generated: 2026-08-05
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **4. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-04
+> **5. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-05
 
 ## Legenda stáří dokumentu
 
