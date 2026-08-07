@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-06
+generated: 2026-08-07
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **6. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-06
+> **7. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-07
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **7** |
+| ♨️ | Do 14 dnů | **6** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **78** |
+| 📄 | Do 90 dnů | **79** |
 | 🗄️ | Starší než 3 měsíce | **239** |
 | ❓ | Bez data | **0** |
 
@@ -250,7 +250,7 @@ generated: 2026-08-06
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
       - 📄 [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
-      - 🌿 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
+      - 📄 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
       - 📄 [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
@@ -316,7 +316,7 @@ generated: 2026-08-06
         - 🗄️ [[Zobrazení jednotlivých dávek]] `v1` · 21. 7. 2025
       - 🗄️ **[[eNeschopenka]]** `v2` · 20. 6. 2025
         - 🗄️ [[Hlídání podpůrčí doby eDPN]] `v1` · 18. 6. 2025
-        - ♨️ [[Individuální vycházky]] `v6` · 23. 7. 2026
+        - 🌿 [[Individuální vycházky]] `v6` · 23. 7. 2026
         - 🗄️ [[Vystavení eDPN o více než 3 dny zpětně]] `v1` · 4. 2. 2026
         - 🗄️ [[Zvýraznění pacienta v dlouhodobé pracovní neschopnosti|Zvýraznění pacienta v dlouhodobé pracovní neschopnosti]] `v2` · 20. 6. 2025
       - 🗄️ [[Dlouhodobé ošetřovné]] `v4` · 5. 9. 2025
