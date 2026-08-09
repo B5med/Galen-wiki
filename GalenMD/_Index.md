@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-08
+generated: 2026-08-09
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **8. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-08
+> **9. 8. 2026**  ·  Celkem stránek: **328**  ·  Poslední sync z Confluence: 2026-08-09
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **6** |
-| 🌿 | Do 30 dnů | **4** |
+| ♨️ | Do 14 dnů | **4** |
+| 🌿 | Do 30 dnů | **6** |
 | 📄 | Do 90 dnů | **79** |
 | 🗄️ | Starší než 3 měsíce | **239** |
 | ❓ | Bez data | **0** |
@@ -216,8 +216,8 @@ generated: 2026-08-08
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
-          - ♨️ **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
-            - ♨️ [[Specialista vyúčtování]] `v1` · 25. 7. 2026
+          - 🌿 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
+            - 🌿 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
