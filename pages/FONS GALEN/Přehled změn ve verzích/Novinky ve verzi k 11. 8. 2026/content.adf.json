@@ -1,0 +1,223 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Společné",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Dávky ČSSZ - nový stav „Vyřazená\"",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U neschopenky, ošetřovného a dlouhodobého ošetřovného lze nově dávku ručně označit jako ",
+          "type": "text"
+        },
+        {
+          "text": "Vyřazená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Tento stav slouží k označení dávek, které ČSSZ ve svém systému neeviduje. Vyřazená dávka se chová obdobně jako ukončená – nezobrazuje se v dlaždici pacienta ani v přehledu neodeslaných lístků na peníze a není aktivní pro další zpracování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Dávku vyřadíte v přehledu dávek pravým tlačítkem myši → ",
+          "type": "text"
+        },
+        {
+          "text": "Změnit stav na vyřazená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Zpět do původního stavu ji vrátíte volbou ",
+          "type": "text"
+        },
+        {
+          "text": "Obnovit původní stav",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nebo akcí ",
+          "type": "text"
+        },
+        {
+          "text": "Aktualizovat dle ČSSZ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "; systém dávku obnoví také automaticky, jakmile k ní přijde notifikace z ČSSZ. Obnovení stavu ",
+          "type": "text"
+        },
+        {
+          "text": "neaktivuje",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " opětovné odesílání dat na ČSSZ, jde pouze o interní změnu. Každá změna stavu se zaznamenává do nové tabulky ",
+          "type": "text"
+        },
+        {
+          "text": "Historie vyřazení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Vyřazené dávky si zobrazíte zatržením nového checkboxu ",
+          "type": "text"
+        },
+        {
+          "text": "Vyřazené",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ve filtru dávek i v historii pacienta (sekce ČSSZ). Ve výchozím stavu je checkbox nezatržený a vyřazené dávky se nezobrazují.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Detailní popis a práci se stavem vyřazená naleznete zde: ",
+          "type": "text"
+        },
+        {
+          "text": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/518717444/Vy+azen+d+vky+stav+Vy+azen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/518717444"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Prohlídky a vyšetření",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Prohlídky a vyšetření - tlačítka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V části Prohlídky a vyšetření se mohla tlačítka „Fyziologický nález\" a „Převzít\" skrýt poté, co uživatel formulář opustil (např. za účelem doplnění anamnézy) a vrátil se zpět.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nyní je dostupnost tlačítek řízena tím, zda je prohlídku možné editovat, a ne tím, zda je vyšetření již vyplněné. U editovatelné prohlídky jsou tlačítka „Fyziologický nález\" a „Převzít\" k dispozici i po opětovném otevření formuláře. U uzavřené nebo uzamčené prohlídky zůstávají tlačítka nedostupná, čímž je zachována ochrana proti zápisu do uzamčených záznamů.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
