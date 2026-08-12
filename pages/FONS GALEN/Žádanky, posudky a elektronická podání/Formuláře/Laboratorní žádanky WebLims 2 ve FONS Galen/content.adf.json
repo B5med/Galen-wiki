@@ -1,0 +1,2143 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a465ba03d853"
+      },
+      "content": [
+        {
+          "text": "1. K čemu integrace slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c8343cc44def"
+      },
+      "content": [
+        {
+          "text": "FONS Galen (FG) umožňuje lékaři otevřít a vyplnit elektronickou laboratorní žádanku systému ",
+          "type": "text"
+        },
+        {
+          "text": "WebLims 2 (WL2)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " přímo z karty pacienta, bez přepínání do jiné aplikace. Žádanku lékař vyplní a odešle v prostředí WL2; FG si po jejím odeslání automaticky založí vlastní záznam se seznamem vyžádaných metod. Kromě zakládání nových žádanek nabízí FG i živý přehled již odeslaných žádanek přímo z WL2.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "25f18625-c349-47f3-ba20-005c5fe0a7cf"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f3d902500686"
+      },
+      "content": [
+        {
+          "text": "2. Podmínky použití",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "ddea79fc-63fe-4be5-8f15-176cf01b5ff4"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86067aa5-daa5-40f6-9ab0-afb9a171dca4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a5c2af48d170"
+              },
+              "content": [
+                {
+                  "text": "Každý lékař musí mít vlastní individuální přístup do WL2.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Sdílený účet za pracoviště podporován není (v souladu s NIS2). K pracovišti lze ve WL2 přiřadit více lékařů, kteří se pak v žádance nabízí k výběru.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fb8e4d34-d224-4b08-9477-b87b515e809c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6dc855f482c6"
+              },
+              "content": [
+                {
+                  "text": "Zákazník musí mít u dané laboratoře zřízen přístup na portál ",
+                  "type": "text"
+                },
+                {
+                  "text": "WebLims",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – nejde o stávající zákaznický portál FG.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "1bba49d9b9e0"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "9ad88be0c3ac"
+          },
+          "content": [
+            {
+              "text": "Důležité:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " FG zprostředkovává ",
+              "type": "text"
+            },
+            {
+              "text": "pouze",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " předání kontextu pacienta a otevření okna. ",
+              "type": "text"
+            },
+            {
+              "text": "Samotné přihlášení do WL2 a jeho správa je vždy záležitostí zákazníka a administrátora dané laboratoře – FG do tohoto procesu nijak nezasahuje ani ho nezajišťuje.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "4123ed1c-e454-4c3f-9269-74a07adc800a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "63a94c7f-7f92-4ea4-9e06-0d7ba3ab0103"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ec1e2b8dfc9d"
+              },
+              "content": [
+                {
+                  "text": "Prohlížeč, ve kterém se WL2 otevírá, si drží přihlašovací relaci – lékař se nemusí přihlašovat při každém otevření žádanky, pokud relace nevypršela.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "de61472e-41d1-4171-97b0-927a550f688c"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a19c19bf0007"
+      },
+      "content": [
+        {
+          "text": "3. Nastavení integrace (role Správce)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d5e05e86f60e"
+      },
+      "content": [
+        {
+          "text": "Než se laboratoř WL2 objeví lékařům v modulu Formuláře, musí ji administrátor pracoviště nakonfigurovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "e7b14fec-c3b6-4924-b8f8-d1baa64c21fb",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b6fcb89d-9ecb-4372-814b-2bf6626a33b9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fb465d66fbf8"
+              },
+              "content": [
+                {
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "detail pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (role Správce).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4c4f0995-e1eb-453e-8c71-ad34f7b23a51"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e2b020bcc470"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na modré tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Konfigurace lab. žádanek“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "33dab9bb-e599-45af-8140-df65ff2bea77"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c1d95a0c5f5f"
+              },
+              "content": [
+                {
+                  "text": "V modálním okně vidíte seznam existujících konfigurací (aktivních i neaktivních) pro dané pracoviště. Pro přidání nové zvolte možnost přidat konfiguraci a vyplňte:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "c65ae394-8f75-4ed8-9b8b-4737a68a5928"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "8f594774-d334-480e-a2a6-e8b35d4b2f08"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "837a34245a2c"
+                      },
+                      "content": [
+                        {
+                          "text": "Formulář",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " – vyberte laboratoř, kterou chcete napojit. V případě, že v seznamu chybí požadovaná laboratoř, zadejte požadavek na FONS Galen prostřednictvím helpdesku ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "https://helpdesk.stapro.cz/",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "link",
+                              "attrs": {
+                                "href": "https://helpdesk.stapro.cz/"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "text": ".",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "b9a17317-2ed9-4e1c-a8a1-b1bd0361d3d9"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "24059df23377"
+                      },
+                      "content": [
+                        {
+                          "text": "URL WebLims",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " – adresa instalace WL2 dané laboratoře (včetně ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "/fol_weblims2/",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "code"
+                            }
+                          ]
+                        },
+                        {
+                          "text": ").",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "47a1322e-217d-429b-8e4d-ae650353a0eb"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "9c7c7ad2d4ec"
+                      },
+                      "content": [
+                        {
+                          "text": "Client ID",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " a ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "Client Secret",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " – přístupové údaje přidělené laboratoří pro OAuth komunikaci.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "5b10d4e3-fc0f-43ba-ad97-159c9c9ab4df"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "296b31a7d856"
+                      },
+                      "content": [
+                        {
+                          "text": "Aktivní",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " – zaškrtnutím konfiguraci zapnete.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "50213b1b-020e-4ea4-895c-9fd758709216"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4a41bd02a90f"
+              },
+              "content": [
+                {
+                  "text": "Konfiguraci lze kdykoli upravit nebo deaktivovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "e789cb70-c8bf-427d-b529-0d0b8c826325"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "bcd302e480f2"
+          },
+          "content": [
+            {
+              "text": "Poznámka:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Jedno pracoviště může mít nakonfigurováno více laboratoří WL2 současně – každá se pak v modulu Formuláře zobrazí jako samostatná karta.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "d07a8a54-2565-4755-9608-f5707bcc0d50"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1da26f74c4fd"
+      },
+      "content": [
+        {
+          "text": "4. Vytvoření nové žádanky (role Lékař)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "ae1fcdd0-1421-48e5-8a5c-088308fa9a51",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3bed6084-dabb-482a-9cc1-1f2daed35fe2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "07ff320785a3"
+              },
+              "content": [
+                {
+                  "text": "Otevřete kartu pacienta a přejděte do modulu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Formuláře",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "227bfc9b-5e5f-4247-9694-98f5820a4f17"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5201b136086f"
+              },
+              "content": [
+                {
+                  "text": "Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající šabloně formuláře (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "3c7dfe21-53c7-4530-9fd8-48ef482d1990"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d8fa28bde360"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na kartu vybrané laboratoře. FG na pozadí připraví kontext žádanky (pacient, diagnózy, pojišťovna atd.).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "03f085c3-88a8-4218-bdaf-5333645f161f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d27f142f3d0b"
+              },
+              "content": [
+                {
+                  "text": "Otevře se okno WL2 s předvyplněnými údaji pacienta. V prostředí WL2 vyberete konkrétní typ žádanky (např. biochemie, mikrobiologie) a doplníte požadované metody.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b748267c-9b65-4026-83a7-77be52d62d1a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3458c2e60c55"
+              },
+              "content": [
+                {
+                  "text": "Žádanku můžete ",
+                  "type": "text"
+                },
+                {
+                  "text": "odeslat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", nebo ",
+                  "type": "text"
+                },
+                {
+                  "text": "odeslat a vytisknout průvodku",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". V případě potřeby můžete rovněž vytisknout štítek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "40d3fefa-699c-47d6-b4c1-c57800968f70"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "01ff29c63731"
+              },
+              "content": [
+                {
+                  "text": "Okno WL2 se po odeslání ",
+                  "type": "text"
+                },
+                {
+                  "text": "nezavírá automaticky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – po dokončení je nutné jej zavřít tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Zpět“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9ef59df3-6044-4a69-a4c9-5a13f1dd3720"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dd4065112b0b"
+              },
+              "content": [
+                {
+                  "text": "Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky (Galen.Zadanka) – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "8178d17166dd"
+      },
+      "content": [
+        {
+          "text": "Možné chybové hlášky po odeslání žádanky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "efd09b05-feb7-4508-a235-0b81cf25ddd6"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "44fd4353-b171-471d-94fe-02c2e428bbe8"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6e026dc5-caa1-4c86-9ad8-6bde7e1cea77"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a2c2c52c2084"
+                  },
+                  "content": [
+                    {
+                      "text": "Situace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f02fa0d8-8ff9-402b-8fd6-7d681adb3bb5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "66221d6f49b0"
+                  },
+                  "content": [
+                    {
+                      "text": "Hláška",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b0c7d5c8-cb34-4757-a823-2fe3401315c1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a908f7b3d722"
+                  },
+                  "content": [
+                    {
+                      "text": "Žádanka se založí?",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ce070a10-1315-49c1-a93e-e5bfa25b212f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "19bc8e29-d2bc-4ada-ad60-b6d2ef704656"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8ff6d9550a36"
+                  },
+                  "content": [
+                    {
+                      "text": "Metody se podařilo načíst",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6c511099-fca5-4e9f-83c8-92464bc89727"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "42c4b30e376b"
+                  },
+                  "content": [
+                    {
+                      "text": "– (žádanka se založí automaticky)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5be4a100-7006-4798-9eb7-1ae7136ff9c9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d028deea5964"
+                  },
+                  "content": [
+                    {
+                      "text": "Ano",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3329acc0-0821-4c21-bb68-0712d045760f"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d76bbbee-74a0-4134-9a45-067136c630f1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3bec80625c10"
+                  },
+                  "content": [
+                    {
+                      "text": "K žádance nebyly nalezeny žádné metody",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bb50e330-c509-46ff-98b4-5764ac7102a1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "101f891574b1"
+                  },
+                  "content": [
+                    {
+                      "text": "„K odeslané žádance nebyly nalezeny žádné vyžádané metody.“",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3f0b2339-f66f-4c3b-82fd-18e4d85a6e61"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "23b9832f75be"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9514b276-3d48-4899-9cf4-529ddf6d9e6d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0c46071c-0b1d-4508-b4ab-d4246b26e751"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cc9096f2f6e9"
+                  },
+                  "content": [
+                    {
+                      "text": "Odkaz na žádanku vypršel",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4e41e2d4-7f6d-4e6d-ad3a-12ef18d9793f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "512164ca4712"
+                  },
+                  "content": [
+                    {
+                      "text": "„Odkaz na žádanku již není platný, seznam metod nelze načíst.“",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "07ba94b9-021c-43f2-bc18-d41a65bfb6d4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "15a7d2e1ff61"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9ac3cd6f-e1c7-4d80-890c-38802650a333"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c984dba3-e8b2-47f8-ad43-43bbb9a58c71"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "380a442cbe7f"
+                  },
+                  "content": [
+                    {
+                      "text": "Chyba na straně WebLims",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a6229a65-2fb9-4cb5-b32b-3f4cd68a93a3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dbc552a06c3a"
+                  },
+                  "content": [
+                    {
+                      "text": "„Při načítání seznamu metod došlo k chybě na straně WebLims. Zkuste to prosím znovu.“",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bcb67d0b-0fc6-41bb-8dd2-419ea3ddd02f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8f17a0c290e2"
+                  },
+                  "content": [
+                    {
+                      "text": "Ne",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ce00a97bf189"
+      },
+      "content": [
+        {
+          "text": "Pokud se žádanka nezaložila, zkontrolujte, zda byla ve WL2 skutečně odeslána (uložena), a zkuste ji vytvořit znovu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "1fa647178755"
+      },
+      "content": [
+        {
+          "text": "Pole „odebráno na oddělení“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7216173ead48"
+      },
+      "content": [
+        {
+          "text": "Tato volba se ",
+          "type": "text"
+        },
+        {
+          "text": "nezapamatovává",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – při každém vytváření žádanky je potřeba ji nastavit znovu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "9ef8e5f4-62f3-45db-b284-1c8a60cf590f"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "347f7ed5fd03"
+      },
+      "content": [
+        {
+          "text": "5. Živý přehled odeslaných žádanek WL2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9d3e6f1557fa"
+      },
+      "content": [
+        {
+          "text": "Kromě záznamu, který FG založí automaticky po odeslání žádanky, si lékař i správce mohou kdykoli zobrazit aktuální seznam žádanek přímo z WL2.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "80d20668-4b5c-4955-b4eb-ccdb1369d019",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "56714a77-9671-4c5e-b276-f4324afef8f8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "51eef36a2de2"
+              },
+              "content": [
+                {
+                  "text": "Otevřete modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Komunikace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (Log elektronické komunikace).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b945d511-057e-4aae-9950-2719bdedc545"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "87fe26eaf619"
+              },
+              "content": [
+                {
+                  "text": "Pokud máte přístup k alespoň jedné aktivní konfiguraci WL2, uvidíte novou záložku ",
+                  "type": "text"
+                },
+                {
+                  "text": "„WebLims“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " vedle ostatních (Notifikace, eRecepty, ČSSZ, Elektronické žádanky, Očkování apod.).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7292dfa7-1164-4e2a-9781-201c244f5954"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "825283e95982"
+              },
+              "content": [
+                {
+                  "text": "Chování po kliknutí na záložku se liší podle role a počtu nakonfigurovaných laboratoří:",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "0f460210-1187-4a80-922a-d154da148a68"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9dd5b2bf-259e-4085-9aab-c422a50c14e7"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cd44da81-cd94-4b91-b866-9f67b1e97b71"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b3701781c093"
+                  },
+                  "content": [
+                    {
+                      "text": "Role",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ed5b88cb-01e0-465e-9d50-d2e7192620d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b4936b084d35"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet aktivních konfigurací",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4becba98-128b-459a-be16-663352578086"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cabd80d13e0e"
+                  },
+                  "content": [
+                    {
+                      "text": "Co se stane",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "60091705-596a-498c-8aca-53a9b8df4755"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6c72baf9-01a2-45a7-a9d0-ae713027eae3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "01b188ba3af5"
+                  },
+                  "content": [
+                    {
+                      "text": "Lékař",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "98ecf345-c72b-405c-8b31-3696ef4b299a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "27ba0bcad12e"
+                  },
+                  "content": [
+                    {
+                      "text": "0",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8652f336-1040-4d89-a6e7-8b3be39cc0cc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3dbbc617c132"
+                  },
+                  "content": [
+                    {
+                      "text": "Záložka se nezobrazuje",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b082b0d5-c656-4f93-bf22-a44ff9e1c198"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "af0c7377-0366-4bb5-a50c-2c41253eb8aa"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "39d3bdaeba32"
+                  },
+                  "content": [
+                    {
+                      "text": "Lékař",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f4e130ac-9d81-4059-82d8-5bf96b6a8c75"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "45f8aa79407c"
+                  },
+                  "content": [
+                    {
+                      "text": "1",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "23457833-f5a1-4bc6-9199-4940bcadd00d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a3b16e451d91"
+                  },
+                  "content": [
+                    {
+                      "text": "Rovnou se otevře přehled žádanek dané laboratoře",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "06b14a3a-490a-49e4-bffc-7ea2fcfa29fa"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d2fa513b-e110-4012-880e-afad9ef8412f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6ae91954566d"
+                  },
+                  "content": [
+                    {
+                      "text": "Lékař",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ef2efeb9-20d5-4ca7-bb82-83b80cafb359"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9fcd9837bdd1"
+                  },
+                  "content": [
+                    {
+                      "text": "2 a více",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d46d1db5-7f86-4446-bcd7-2f453b101949"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6844cbc37d4e"
+                  },
+                  "content": [
+                    {
+                      "text": "Zobrazí se okno s výběrem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "laboratoře",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (pracoviště je dané přihlášením)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "dcc4717e-6e8f-4a3f-9399-23cc1b0fac77"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e1c3fbf-af0d-4041-9a79-83391d264bac"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9cbf2efd75f7"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "26eaa771-33d0-4f84-a535-fc460adf9954"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6276723c3f79"
+                  },
+                  "content": [
+                    {
+                      "text": "1 (napříč pracovišti)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "30f780d3-0cee-47eb-8238-181c4fce01fc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a3084d99a9af"
+                  },
+                  "content": [
+                    {
+                      "text": "Rovnou se otevře přehled žádanek",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "8f6e4fc5-d789-4b56-bc71-6d792b9cf88a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "67f1d239-95f5-4bd1-b559-59cb6f24a398"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a33edfe30c84"
+                  },
+                  "content": [
+                    {
+                      "text": "Správce",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d88f576b-a831-4f70-810c-dc1dbb4386b9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3fa9380e612d"
+                  },
+                  "content": [
+                    {
+                      "text": "2 a více",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0e4446b8-b752-40ca-952b-edf1658e1cc8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7a342931b2d2"
+                  },
+                  "content": [
+                    {
+                      "text": "Zobrazí se okno s výběrem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "pracoviště",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " i ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "laboratoře",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (nabídka laboratoří se řídí zvoleným pracovištěm)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "fe0af4e4-392c-44c9-bbc6-f9ef3dfe5f72",
+        "order": 4
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7bbd71ea-1878-422d-bf88-07ae1bc1de8a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fd959d8943b0"
+              },
+              "content": [
+                {
+                  "text": "Ve výběrovém okně potvrďte tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Zobrazit“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (nebo zrušte tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Storno“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "). Otevře se okno s aktuálním seznamem žádanek přímo z prostředí WL2.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "880f351adcea"
+      },
+      "content": [
+        {
+          "text": "Pokud se přehled nepodaří načíst, zobrazí se srozumitelná chybová hláška a okno s přehledem se neotevře.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "9241bfe8815d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6b14d1c1ce78"
+          },
+          "content": [
+            {
+              "text": "Důležité upozornění:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Pokud si obsah žádanky později změníte nebo ji v tomto přehledu žádanek stornujete přímo ve WL2, ",
+              "type": "text"
+            },
+            {
+              "text": "záznam žádanky ve FG (formulář v kartě pacienta) se o této změně nedozví a jeho obsah se neaktualizuje.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " V kartě pacienta lze pouze založit novou žádanku a zobrazit seznam vyžádaných metod ve formuláři, ke kterému se dostanete proklikem z dekurzu nebo z historie formulářů. ",
+              "type": "text"
+            },
+            {
+              "text": "FG neřeší obsah samotné žádanky (jaké metody byly vyžádány, jejich případnou změnu apod.) – v těchto případech je nutné se obrátit přímo na laboratoř.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "67776e04-73df-486c-9c9d-9cfd216122f3"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "e33fc4d5707a"
+      },
+      "content": [
+        {
+          "text": "6. Shrnutí – co integrace řeší a co ne",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bd1b7a05fe22"
+      },
+      "content": [
+        {
+          "text": "Řeší:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "37e22522-fe61-4a2f-a4b2-58c68a89bda1"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "13524115-5f78-4a8a-a044-33ce86a6451c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "60596cf2a78d"
+              },
+              "content": [
+                {
+                  "text": "Otevření předvyplněné žádanky WL2 přímo z karty pacienta ve FG.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8e64ebf0-6962-4197-a3b5-4e221b78f31c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0c446def4321"
+              },
+              "content": [
+                {
+                  "text": "Automatické založení záznamu žádanky ve FG po jejím odeslání (vč. seznamu metod).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7dc6342d-9ae6-4feb-a31e-bd957ae74243"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a33a0d52c63b"
+              },
+              "content": [
+                {
+                  "text": "Živý přehled odeslaných žádanek přímo z WL2 bez nutnosti se do WL2 zvlášť přihlašovat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ec5fc076f219"
+      },
+      "content": [
+        {
+          "text": "Neřeší:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "21683ebf-d8d6-4494-a72a-690f1b13cbe3"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "504a5499-c8cc-4bb1-a9cf-0cfc50d00f12"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7f1bf5140998"
+              },
+              "content": [
+                {
+                  "text": "FG nijak neřídí ani neukládá vlastní přihlašovací údaje uživatele do WL2 – přihlášení probíhá přímo v embedded okně WL2 a je plně v gesci zákazníka a laboratoře.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "77c47579-5790-47e7-97d3-9c39509e237e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3caf88956c54"
+              },
+              "content": [
+                {
+                  "text": "FG neřeší obsah žádanky (vyžádané metody, jejich změny, storno) – jakékoli změny provedené přímo ve WL2 se do záznamu ve FG nepromítnou. V případě potřeby úpravy obsahu žádanky je nutné kontaktovat laboratoř.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "31239233588b"
+      }
+    }
+  ],
+  "version": 1
+}
