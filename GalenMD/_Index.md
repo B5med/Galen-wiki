@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-12
+generated: 2026-08-13
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **12. 8. 2026**  ·  Celkem stránek: **330**  ·  Poslední sync z Confluence: 2026-08-12
+> **13. 8. 2026**  ·  Celkem stránek: **330**  ·  Poslední sync z Confluence: 2026-08-13
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **8** |
-| 📄 | Do 90 dnů | **69** |
+| ♨️ | Do 14 dnů | **0** |
+| 🌿 | Do 30 dnů | **9** |
+| 📄 | Do 90 dnů | **70** |
 | 🗄️ | Starší než 3 měsíce | **249** |
 | ❓ | Bez data | **0** |
 
@@ -57,7 +57,7 @@ generated: 2026-08-12
     - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
     - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
     - 📄 [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
-    - ♨️ [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
+    - 🌿 [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
     - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
   - 📄 **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Medikace]]** `v1` · 21. 7. 2025
@@ -137,7 +137,7 @@ generated: 2026-08-12
     - 🔥 [[Novinky ve verzi k 11. 8. 2026]] `v1` · 10. 8. 2026
     - 🗄️ [[Novinky ve verzi k 12. 8. 2025]] `v4` · 25. 8. 2025
     - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
-    - 🌿 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
+    - 📄 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 📄 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
@@ -326,7 +326,7 @@ generated: 2026-08-12
       - 🗄️ [[Postup při změně IČPE]] `v1` · 4. 2. 2026
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
-      - ♨️ [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
+      - 🌿 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 🗄️ [[Centrová léčba]] `v2` · 24. 2. 2026
     - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
