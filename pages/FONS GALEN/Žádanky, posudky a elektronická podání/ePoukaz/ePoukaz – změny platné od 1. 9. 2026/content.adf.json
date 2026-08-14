@@ -1,0 +1,183 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tento dokument shrnuje všechny změny v systému ePoukaz, které vstupují v platnost od 1. 9. 2026. Cílem je poskytnout přehlednou a srozumitelnou informaci o úpravách funkcí, nových polích a doplněných možnostech tak, aby uživatelé mohli systém používat efektivně a v souladu s aktuální legislativou SÚKL.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Párový orgán u ePoukazu – léčebný, foniatrický a optický",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U ePoukazu pro léčebné, foniatrické a optické pomůcky je nově k dispozici pole ",
+          "type": "text"
+        },
+        {
+          "text": "„Párový orgán“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " s možnostmi ",
+          "type": "text"
+        },
+        {
+          "text": "Pravý / Levý / Oba",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Slouží k upřesnění, zda je předepisovaný zdravotnický prostředek určen pro pravou, levou, nebo obě strany párové tělesné části pacienta – typicky například u pooperační nebo odlehčovací obuvi (pro jednu nohu, nebo pro obě), u pomůcek pro koleno, nebo u sluchadel (pro jedno ucho, nebo pro obě).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pole najdete přímo ve formuláři daného typu poukazu (léčebný/foniatrický/optický) – vyplňuje se jednou za celý poukaz, ne zvlášť pro každou položku v seznamu. U pole je k dispozici nápovědná ikonka s vysvětlením: „Vyplňte, pokud je zdravotnický prostředek určen pro pravou, levou, nebo obě strany párové tělesné části (např. koleno, ucho).“ Vyplnění je dobrovolné – pokud párový orgán u dané pomůcky není potřeba rozlišovat, pole jednoduše necháte prázdné a na vystavení ani odeslání poukazu to nemá žádný vliv. Vyplněná hodnota se odesílá i načítá spolu s ostatními údaji poukazu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Šířka a hloubka sedu invalidního vozíku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na ePoukazu – léčebný přibyla u vozíků dvě nová pole: ",
+          "type": "text"
+        },
+        {
+          "text": "„Šířka sedu (cm)“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "„Hloubka sedu (cm)“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Týkají se úhradových skupin 07.01.01.* a 07.01.02.* (mechanické a elektrické vozíky) a zadávají se v centimetrech, včetně jednomístných desetinných hodnot (např. 42,5 cm).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Jakmile do poukazu vyberete položku z těchto úhradových skupin, pole se automaticky zobrazí pod tabulkou položek. Na rozdíl od párového orgánu jsou tato pole ",
+          "type": "text"
+        },
+        {
+          "text": "povinná",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – pokud u relevantní pomůcky šířku a hloubku sedu nevyplníte, tlačítko „Odeslat“ zůstane zašedlé a po najetí myší se zobrazí nápověda, které pole ještě chybí doplnit (např. „Vyplňte prosím Šířka sedu (cm)“). Poukaz tedy nelze odeslat bez těchto údajů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Ověření množstevního a úhradového limitu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U položky ePoukazu je nově k dispozici tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "„Ověřit limity“",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", umístěné vedle tlačítka pro odebrání položky. Slouží k rychlému ověření, zda vydávané množství nebo výše úhrady zdravotnického prostředku nepřekračuje limit stanovený pro dané období – systém se v takovém případě přímo dotáže SÚKL a zobrazí odpověď.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Aby bylo možné limit ověřit, musí být na položce vyplněné alespoň číslo pojištěnce, datum narození pacienta, SÚKL kód a množství – pokud některý z těchto údajů chybí, je tlačítko neaktivní a po najetí myší se zobrazí nápověda s konkrétním výčtem toho, co je potřeba doplnit (např. „Pro ověření limitu je nutné mít vyplněné: SÚKL kód, Množství.“). Po úspěšném ověření systém zobrazí buď informaci, že limit není překročen, nebo – v případě jeho překročení – chybovou zprávu s popisem a doporučením a přehled předchozích výdejů, které se do limitu započítávají. Jde čistě o informativní dotaz – žádná data se při tomto ověření na naší straně neukládají.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

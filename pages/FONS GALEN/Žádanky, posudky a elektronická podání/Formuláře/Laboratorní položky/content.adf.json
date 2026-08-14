@@ -22,15 +22,14 @@
             },
             "title": "Obsah"
           }
-        },
-        "localId": "84feff71-7fe2-4e62-b89a-f4c668b117e9"
+        }
       }
     },
     {
       "type": "paragraph",
       "content": [
         {
-          "text": "Pro vytvoření formuláře typu eŽádanka, tj. laboratorní žádanka, která je elektronicky lab. klientem odeslána do laboratoře, je nutné vytvořit soubor laboratorních metod, které bude žádanka obsahovat. ",
+          "text": "Pro vytvoření formuláře typu eŽádanka, tj. laboratorní žádanka, která je elektronicky lab. klientem odeslána do laboratoře, je nutné vytvořit soubor laboratorních metod, které bude žádanka obsahovat. ",
           "type": "text"
         }
       ]
@@ -42,7 +41,7 @@
       },
       "content": [
         {
-          "text": "Dostupnost souborů lab. položky ",
+          "text": "Dostupnost souborů lab. položky ",
           "type": "text"
         }
       ]
@@ -51,7 +50,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Soubory pro jednotlivé žádanky jsou vytvořeny ze strany Stapro, jedná se o tzv. neuživatelské soubory. Uživatel je v přehledu vytvořených souborů vidí, ale nemůže editovat.  ",
+          "text": "Soubory pro jednotlivé žádanky jsou vytvořeny ze strany Stapro, jedná se o tzv. neuživatelské soubory. Uživatel je v přehledu vytvořených souborů vidí, ale nemůže editovat.  ",
           "type": "text"
         }
       ]
@@ -68,7 +67,6 @@
           "type": "media",
           "attrs": {
             "width": 1265,
-            "alt": "image-20250826-071646.png",
             "id": "253cfd47-e07f-4a06-b87c-5acd04be106b",
             "collection": "contentId-105086977",
             "type": "file",
@@ -81,7 +79,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pomocí tlačítka Zakázat pro uživatele je může zakázat pro uživatele své společnosti (funkcionalita je stejná jako v ostatních entitách: formuláře atd.) ",
+          "text": "Pomocí tlačítka Zakázat pro uživatele je může zakázat pro uživatele své společnosti (funkcionalita je stejná jako v ostatních entitách: formuláře atd.) ",
           "type": "text"
         }
       ]
@@ -90,7 +88,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Uživatel může editovat pouze ty soubory lab. položek, které vytvořil sám, tj. jsou uživatelské.  ",
+          "text": "Uživatel může editovat pouze ty soubory lab. položek, které vytvořil sám, tj. jsou uživatelské.  ",
           "type": "text"
         }
       ]
@@ -102,7 +100,7 @@
       },
       "content": [
         {
-          "text": "Import souboru laboratorních položek ",
+          "text": "Import souboru laboratorních položek ",
           "type": "text"
         }
       ]
@@ -111,7 +109,172 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Soubor lab. metod, konkrétně názvů položek a jejich NČLP kódů dodá laboratoř. Tento soubor je následně nahrán v modulu Design -> Lab. položky pomocí tlačítka Import z CSV",
+          "text": "Soubor lab. metod, konkrétně názvů položek a jejich NČLP kódů dodá laboratoř. Tento soubor se nahrává v modulu Design -> Lab. položky pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Import",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", které podporuje jak soubory .csv, tak soubory Excel (.xls, .xlsx, .xlsm). ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Mezikrok importu – definice listů a sloupců ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Po výběru souboru se zobrazí mezikrok, ve kterém uživatel určí: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Který list obsahuje ",
+                  "type": "text"
+                },
+                {
+                  "text": "laboratorní metody",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – tento výběr je povinný, bez něj nelze import dokončit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Který list obsahuje ",
+                  "type": "text"
+                },
+                {
+                  "text": "parametry",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – volitelné. Pokud list není určen, u laboratorních metod pak nelze žádné parametry nastavit ani zobrazit. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Který list obsahuje ",
+                  "type": "text"
+                },
+                {
+                  "text": "odběrový materiál",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – volitelné, analogicky jako u parametrů. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Přiřazení ",
+                  "type": "text"
+                },
+                {
+                  "text": "názvu žádanky",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " k jednotlivým listům s metodami – jeden soubor tak může obsahovat metody pro víc žádanek najednou (např. list Biochemie a list Mikrobiologie ve stejném souboru). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U listu s laboratorními metodami uživatel dále namapuje jednotlivé sloupce na: název skupiny, název metody, NČLP kód, kód(y) parametrů, kód(y) odběrového materiálu a volitelně kód položky (property name). U listu s parametry se mapuje NČLP kód, název parametru a jednotka, u listu s materiálem kód, název a barva. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud import obsahuje chyby na více listech současně (např. neplatný NČLP kód na jednom listu a neplatný kód položky na jiném), zobrazí se chybové hlášení seskupené podle jednotlivých listů. ",
           "type": "text"
         }
       ]
@@ -137,7 +300,6 @@
                   "type": "media",
                   "attrs": {
                     "width": 122,
-                    "alt": "image-20250826-071800.png",
                     "id": "511315f9-76fa-4cfb-9468-100da404c8ee",
                     "collection": "contentId-105086977",
                     "type": "file",
@@ -166,7 +328,6 @@
                   "type": "media",
                   "attrs": {
                     "width": 255,
-                    "alt": "image-20250826-071748.png",
                     "id": "32d8e96d-cb4f-4a96-9fc3-06507354988e",
                     "collection": "contentId-105086977",
                     "type": "file",
@@ -183,7 +344,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Soubor ve formátu .csv musí mít tuto strukturu, tj. 6 sloupců. ",
+          "text": "Struktura listu s laboratorními metodami (příklad se 6 sloupci): ",
           "type": "text"
         }
       ]
@@ -191,8 +352,7 @@
     {
       "type": "table",
       "attrs": {
-        "layout": "default",
-        "localId": "d81b9008-7e39-45ac-b7c7-1b080fff8f3a"
+        "layout": "default"
       },
       "content": [
         {
@@ -210,7 +370,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "#Skupina ",
+                      "text": "#Skupina ",
                       "type": "text"
                     }
                   ]
@@ -229,7 +389,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "KOD ",
+                      "text": "KOD ",
                       "type": "text"
                     }
                   ]
@@ -248,7 +408,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "NCLP ",
+                      "text": "NCLP ",
                       "type": "text"
                     }
                   ]
@@ -267,7 +427,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "LCLP ",
+                      "text": "LCLP ",
                       "type": "text"
                     }
                   ]
@@ -286,7 +446,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Parametr ",
+                      "text": "Parametr ",
                       "type": "text"
                     }
                   ]
@@ -305,126 +465,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Nazevpolozky ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "tableRow",
-          "content": [
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "#LESO ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "LESO ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Ledvinový soubor ",
+                      "text": "Nazevpolozky ",
                       "type": "text"
                     }
                   ]
@@ -448,7 +489,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "LESO ",
+                      "text": "#LESO ",
                       "type": "text"
                     }
                   ]
@@ -467,7 +508,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "UREA ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -486,7 +527,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "03086 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -505,7 +546,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -524,7 +565,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -543,126 +584,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Urea ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "tableRow",
-          "content": [
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "LESO ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "KREA ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "01512 ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Kreatinin ",
+                      "text": "Ledvinový soubor ",
                       "type": "text"
                     }
                   ]
@@ -686,7 +608,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "LESO ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -705,7 +627,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "KMOC ",
+                      "text": "UREA ",
                       "type": "text"
                     }
                   ]
@@ -724,7 +646,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "03078 ",
+                      "text": "03086 ",
                       "type": "text"
                     }
                   ]
@@ -743,7 +665,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -762,7 +684,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -781,126 +703,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Kys. močová ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "tableRow",
-          "content": [
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "LESO ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "CYSC ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "12137 ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Cystatin C ",
+                      "text": "Urea ",
                       "type": "text"
                     }
                   ]
@@ -924,7 +727,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "LESO ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -943,7 +746,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MDRD ",
+                      "text": "KREA ",
                       "type": "text"
                     }
                   ]
@@ -962,7 +765,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "17341 ",
+                      "text": "01512 ",
                       "type": "text"
                     }
                   ]
@@ -981,7 +784,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1000,7 +803,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1019,126 +822,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MDRD ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "tableRow",
-          "content": [
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "#MOC ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "MOC ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": " ",
-                      "type": "text"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "tableCell",
-              "attrs": {
-                "colspan": 1,
-                "background": "transparent",
-                "rowspan": 1
-              },
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "text": "Screening drog ",
+                      "text": "Kreatinin ",
                       "type": "text"
                     }
                   ]
@@ -1162,7 +846,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -1181,7 +865,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MEFE ",
+                      "text": "KMOC ",
                       "type": "text"
                     }
                   ]
@@ -1200,7 +884,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11577 ",
+                      "text": "03078 ",
                       "type": "text"
                     }
                   ]
@@ -1219,7 +903,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1238,7 +922,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1257,7 +941,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Metamfetamin ",
+                      "text": "Kys. močová ",
                       "type": "text"
                     }
                   ]
@@ -1281,7 +965,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -1300,7 +984,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "AMFE ",
+                      "text": "CYSC ",
                       "type": "text"
                     }
                   ]
@@ -1319,7 +1003,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11450 ",
+                      "text": "12137 ",
                       "type": "text"
                     }
                   ]
@@ -1338,7 +1022,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1357,7 +1041,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1376,7 +1060,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Amfetamin ",
+                      "text": "Cystatin C ",
                       "type": "text"
                     }
                   ]
@@ -1400,7 +1084,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "LESO ",
                       "type": "text"
                     }
                   ]
@@ -1419,7 +1103,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "KOK ",
+                      "text": "MDRD ",
                       "type": "text"
                     }
                   ]
@@ -1438,7 +1122,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11541 ",
+                      "text": "17341 ",
                       "type": "text"
                     }
                   ]
@@ -1457,7 +1141,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1476,7 +1160,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1495,7 +1179,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Kokain ",
+                      "text": "MDRD ",
                       "type": "text"
                     }
                   ]
@@ -1519,7 +1203,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "#MOC ",
                       "type": "text"
                     }
                   ]
@@ -1538,7 +1222,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOHE ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -1557,7 +1241,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11583 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1576,7 +1260,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1595,7 +1279,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1614,7 +1298,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Morfin/Heroin ",
+                      "text": "Screening drog ",
                       "type": "text"
                     }
                   ]
@@ -1638,7 +1322,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -1657,7 +1341,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MARI ",
+                      "text": "MEFE ",
                       "type": "text"
                     }
                   ]
@@ -1676,7 +1360,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11535 ",
+                      "text": "11577 ",
                       "type": "text"
                     }
                   ]
@@ -1695,7 +1379,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1714,7 +1398,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1733,7 +1417,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Marihuana ",
+                      "text": "Metamfetamin ",
                       "type": "text"
                     }
                   ]
@@ -1757,7 +1441,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -1776,7 +1460,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "META ",
+                      "text": "AMFE ",
                       "type": "text"
                     }
                   ]
@@ -1795,7 +1479,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11579 ",
+                      "text": "11450 ",
                       "type": "text"
                     }
                   ]
@@ -1814,7 +1498,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1833,7 +1517,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1852,7 +1536,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Metadon ",
+                      "text": "Amfetamin ",
                       "type": "text"
                     }
                   ]
@@ -1876,7 +1560,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -1895,7 +1579,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "BEDI ",
+                      "text": "KOK ",
                       "type": "text"
                     }
                   ]
@@ -1914,7 +1598,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "11526 ",
+                      "text": "11541 ",
                       "type": "text"
                     }
                   ]
@@ -1933,7 +1617,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1952,7 +1636,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": " ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -1971,7 +1655,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Benzodiazepiny ",
+                      "text": "Kokain ",
                       "type": "text"
                     }
                   ]
@@ -1995,7 +1679,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -2014,7 +1698,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_CAS ",
+                      "text": "MOHE ",
                       "type": "text"
                     }
                   ]
@@ -2033,7 +1717,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "02994 ",
+                      "text": "11583 ",
                       "type": "text"
                     }
                   ]
@@ -2052,7 +1736,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "2004 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2071,7 +1755,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_CAS ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2090,7 +1774,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Doba sběru ",
+                      "text": "Morfin/Heroin ",
                       "type": "text"
                     }
                   ]
@@ -2114,7 +1798,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -2133,7 +1817,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_OBJEM ",
+                      "text": "MARI ",
                       "type": "text"
                     }
                   ]
@@ -2152,7 +1836,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "03142 ",
+                      "text": "11535 ",
                       "type": "text"
                     }
                   ]
@@ -2171,7 +1855,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "2003 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2190,7 +1874,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_OBJEM ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2209,7 +1893,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Objem/ml ",
+                      "text": "Marihuana ",
                       "type": "text"
                     }
                   ]
@@ -2233,7 +1917,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -2252,7 +1936,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_VAHA ",
+                      "text": "META ",
                       "type": "text"
                     }
                   ]
@@ -2271,7 +1955,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "12429 ",
+                      "text": "11579 ",
                       "type": "text"
                     }
                   ]
@@ -2290,7 +1974,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "2002 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2309,7 +1993,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_VAHA ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2328,7 +2012,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Hmotnost/kg ",
+                      "text": "Metadon ",
                       "type": "text"
                     }
                   ]
@@ -2352,7 +2036,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "MOC ",
+                      "text": "MOC ",
                       "type": "text"
                     }
                   ]
@@ -2371,7 +2055,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_VYSKA ",
+                      "text": "BEDI ",
                       "type": "text"
                     }
                   ]
@@ -2390,7 +2074,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "12422 ",
+                      "text": "11526 ",
                       "type": "text"
                     }
                   ]
@@ -2409,7 +2093,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "2001 ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2428,7 +2112,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "P_VYSKA ",
+                      "text": " ",
                       "type": "text"
                     }
                   ]
@@ -2447,7 +2131,483 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Výka/cmva ",
+                      "text": "Benzodiazepiny ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MOC ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_CAS ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "02994 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "2004 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_CAS ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Doba sběru ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MOC ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_OBJEM ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "03142 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "2003 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_OBJEM ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Objem/ml ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MOC ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_VAHA ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "12429 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "2002 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_VAHA ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Hmotnost/kg ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "MOC ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_VYSKA ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "12422 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "2001 ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "P_VYSKA ",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "transparent",
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Výka/cmva ",
                       "type": "text"
                     }
                   ]
@@ -2465,7 +2625,7 @@
       },
       "content": [
         {
-          "text": "Sloupec Skupina ",
+          "text": "Sloupec Skupina ",
           "type": "text"
         }
       ]
@@ -2474,7 +2634,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Vytváří vazby mezi názvem skupiny a jednotlivými položkami/metodami.  ",
+          "text": "Vytváří vazby mezi názvem skupiny a jednotlivými položkami/metodami.  ",
           "type": "text"
         }
       ]
@@ -2483,7 +2643,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Může obsahovat pouze písmena a číslice, nesmí začínat číslicí. ",
+          "text": "Může obsahovat pouze písmena a číslice, nesmí začínat číslicí. ",
           "type": "text"
         }
       ]
@@ -2492,7 +2652,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pokud řádek označuje název skupiny metod, obsah sloupce Skupina začíná znakem #. ",
+          "text": "Pokud řádek označuje název skupiny metod, obsah sloupce Skupina začíná znakem #. ",
           "type": "text"
         }
       ]
@@ -2501,7 +2661,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pokud řádek označuje název skupiny metod, nesmí obsahovat NČLP, LCLP kód nebo parametr. ",
+          "text": "Pokud řádek označuje název skupiny metod, nesmí obsahovat NČLP, LCLP kód nebo parametr. ",
           "type": "text"
         }
       ]
@@ -2510,7 +2670,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Každá metoda musí být zařazena do právě jedné skupiny. ",
+          "text": "Každá metoda musí být zařazena do právě jedné skupiny. ",
           "type": "text"
         }
       ]
@@ -2522,7 +2682,7 @@
       },
       "content": [
         {
-          "text": "Sloupec Kód ",
+          "text": "Sloupec Kód ",
           "type": "text"
         }
       ]
@@ -2531,7 +2691,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Může obsahovat pouze písmena, číslice a znak „_“, nesmí začínat číslicí. ",
+          "text": "Může obsahovat pouze písmena, číslice a znak „_“, nesmí začínat číslicí. ",
           "type": "text"
         }
       ]
@@ -2540,7 +2700,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Musí být v rámci jedné žádanky unikátní. ",
+          "text": "Musí být v rámci jedné žádanky unikátní. ",
           "type": "text"
         }
       ]
@@ -2549,7 +2709,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Každá metoda má právě jeden kód. ",
+          "text": "Každá metoda má právě jeden kód. ",
           "type": "text"
         }
       ]
@@ -2558,7 +2718,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pokud začíná P_, pak indikuje to, že se bude jednat o textovou položku, která se v rámci žádanky přenáší jiným elementem (lip), než položky typu checkbox (lop). ",
+          "text": "Pokud začíná P_, pak indikuje to, že se bude jednat o textovou položku, která se v rámci žádanky přenáší jiným elementem (lip), než položky typu checkbox (lop). ",
           "type": "text"
         }
       ]
@@ -2567,7 +2727,37 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pokud je potřeba, aby se obsah textové položky přesto přenášel v elementu lop, pak kód položky (i když je textová) nesmí začínač P_. ",
+          "text": "Pokud je potřeba, aby se obsah textové položky přesto přenášel v elementu lop, pak kód položky (i když je textová) nesmí začínač P_. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 4
+      },
+      "content": [
+        {
+          "text": "Import kódu položky vs. automatické vygenerování ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je v souboru sloupec s kódem položky vyplněný a v mezikroku namapovaný, položky po importu převezmou kódy přímo ze souboru. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud tento sloupec vyplněný/namapovaný není, Galen kód vygeneruje automaticky (10 znaků, první znak písmeno, zbývající znaky písmena nebo číslice). ",
           "type": "text"
         }
       ]
@@ -2579,7 +2769,7 @@
       },
       "content": [
         {
-          "text": "Sloupec NČLP ",
+          "text": "Sloupec NČLP ",
           "type": "text"
         }
       ]
@@ -2588,7 +2778,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Musí obsahovat právě 5 číslic.  ",
+          "text": "Musí obsahovat právě 5 číslic.  ",
           "type": "text"
         }
       ]
@@ -2597,7 +2787,16 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Řádek označující skupinu nesmí NČLP kód obsahovat. ",
+          "text": "Řádek označující skupinu nesmí NČLP kód obsahovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V rámci jedné žádanky musí být NČLP kód unikátní. ",
           "type": "text"
         }
       ]
@@ -2609,7 +2808,7 @@
       },
       "content": [
         {
-          "text": "Sloupec LCLP ",
+          "text": "Sloupec LCLP ",
           "type": "text"
         }
       ]
@@ -2618,7 +2817,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Aktuálně se nevyužívá. ",
+          "text": "Aktuálně se nevyužívá. ",
           "type": "text"
         }
       ]
@@ -2639,7 +2838,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Jeho vyplnění indikuje, že se jedná v rámci žádanky o textovou položku. Musí začínat znaky P_. ",
+          "text": "Jeho vyplnění indikuje, že se jedná v rámci žádanky o textovou položku. Musí začínat znaky P_. ",
           "type": "text"
         }
       ]
@@ -2660,7 +2859,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Obsahuje textový název položky. ",
+          "text": "Obsahuje textový název položky. ",
           "type": "text"
         }
       ]
@@ -2669,28 +2868,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Muže obsahovat max. 256 znaků.  ",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "level": 3
-      },
-      "content": [
-        {
-          "text": "Vytvoření nového souboru lab. položek ",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "text": "Po importu dokumentu ve formátu .csv se vytvoří nový soubor lab. metod",
+          "text": "Muže obsahovat max. 256 znaků.  ",
           "type": "text"
         }
       ]
@@ -2702,7 +2880,7 @@
       },
       "content": [
         {
-          "text": "Vytvoření nového souboru lab. položek ",
+          "text": "Vytvoření nového souboru lab. položek ",
           "type": "text"
         }
       ]
@@ -2711,7 +2889,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Po importu dokumentu ve formátu .csv se vytvoří nový soubor lab. metod  ",
+          "text": "Po importu dokumentu se vytvoří nový soubor lab. metod  ",
           "type": "text"
         }
       ]
@@ -2728,7 +2906,6 @@
           "type": "media",
           "attrs": {
             "width": 1263,
-            "alt": "image-20250826-072218.png",
             "id": "ab7c63b0-b2f8-4c4e-8691-cb4b68515422",
             "collection": "contentId-105086977",
             "type": "file",
@@ -2750,7 +2927,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Uživatel doplní název souboru. Protože každý soubor odpovídá jedné žádance jedná laboratoře, doporučujeme použít jmennou konvenci ",
+                  "text": "Uživatel doplní název souboru. Protože každý soubor odpovídá jedné žádance jedná laboratoře, doporučujeme použít jmennou konvenci ",
                   "type": "text"
                 },
                 {
@@ -2763,7 +2940,7 @@
                   ]
                 },
                 {
-                  "text": ", např. SYNLAB Mikrobiologie. S ohledem na množství metod v jedné žádance, kde každá laboratoř může pro „stejnou“ metodu použít jiný NČLP kód, nedoporučujeme pro různé žádanky používat stejné soubory lab. metod, i když je to samozřejmě možné. ",
+                  "text": ", např. SYNLAB Mikrobiologie. S ohledem na množství metod v jedné žádance, kde každá laboratoř může pro „stejnou“ metodu použít jiný NČLP kód, nedoporučujeme pro různé žádanky používat stejné soubory lab. metod, i když je to samozřejmě možné. ",
                   "type": "text"
                 }
               ]
@@ -2777,7 +2954,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Uživatel upraví dostupnost. Nastaví, na kterých společnostech má být daný soubor dostupný. ",
+                  "text": "Uživatel upraví dostupnost. Nastaví, na kterých společnostech má být daný soubor dostupný. ",
                   "type": "text"
                 }
               ]
@@ -2791,7 +2968,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Typ položky se načetl na základě struktury souboru .csv. Uživatel zkontroluje, zda typ položky odpovídá dané metodě. ",
+                  "text": "Typ položky se načetl na základě struktury importovaného souboru. Uživatel zkontroluje, zda typ položky odpovídá dané metodě. ",
                   "type": "text"
                 }
               ]
@@ -2805,7 +2982,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Skupiny se načetly na základě struktury souboru .csv. Uživatel zkontroluje, zda odpovídají požadovanému a zároveň, zda se metody načetly do správné skupiny. ",
+                  "text": "Skupiny se načetly na základě struktury importovaného souboru. Uživatel zkontroluje, zda odpovídají požadovanému a zároveň, zda se metody načetly do správné skupiny. ",
                   "type": "text"
                 }
               ]
@@ -2821,7 +2998,7 @@
       },
       "content": [
         {
-          "text": "Další možnosti souboru lab. položek ",
+          "text": "Další možnosti souboru lab. položek ",
           "type": "text"
         }
       ]
@@ -2830,7 +3007,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Položky do souboru lab. položek se načetly na základě struktury souboru .csv, ale v souboru lab. položek je možné doplnit další vlastnosti tohoto souboru ručně. ",
+          "text": "Parametry a odběrový materiál je možné namapovat přímo při importu (viz mezikrok importu výše). Pokud nebyly importem nastaveny, je možné je v souboru lab. položek doplnit i ručně. ",
           "type": "text"
         }
       ]
@@ -2842,7 +3019,7 @@
       },
       "content": [
         {
-          "text": "Parametry ",
+          "text": "Parametry ",
           "type": "text"
         }
       ]
@@ -2864,7 +3041,7 @@
           ]
         },
         {
-          "text": " indikuje, že se v rámci žádanky jedná o textovou položku. Druhý sloupec ",
+          "text": " indikuje, že se v rámci žádanky jedná o textovou položku. Druhý sloupec ",
           "type": "text"
         },
         {
@@ -2877,7 +3054,7 @@
           ]
         },
         {
-          "text": " (1.) označuje povinné vyplněný polí v případě požadovaní konkrétní metody. ",
+          "text": " (1.) označuje povinné vyplněný polí v případě požadovaní konkrétní metody. ",
           "type": "text"
         }
       ]
@@ -2894,7 +3071,6 @@
           "type": "media",
           "attrs": {
             "width": 1264,
-            "alt": "image-20250826-072336.png",
             "id": "f89f473b-d3e8-4385-a652-da5372a0e146",
             "collection": "contentId-105086977",
             "type": "file",
@@ -2920,7 +3096,7 @@
           ]
         },
         {
-          "text": "musí v žádance vyplnit pole Výška a Hmotnost (bez jejich vyplnění nebude možné žádanku odeslat). Výška a Hmotnost jsou tedy parametry položky Kreatinin. Výška a hmotnost jsou v uvedeny v žádance jako metody, ale uživatel je také uvede do části Parametry (2.). Kód položky a kód parametru (3.) se musí shodovat. ",
+          "text": "musí v žádance vyplnit pole Výška a Hmotnost (bez jejich vyplnění nebude možné žádanku odeslat). Výška a Hmotnost jsou tedy parametry položky Kreatinin. Výška a hmotnost jsou v uvedeny v žádance jako metody, ale uživatel je také uvede do části Parametry (2.). Kód položky a kód parametru (3.) se musí shodovat. ",
           "type": "text"
         }
       ]
@@ -2929,7 +3105,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Následně uživatel přiřadí zadané parametry do řádku konkrétní metody, jak je znázorněno v řádku Kreatinin. ",
+          "text": "Následně uživatel přiřadí zadané parametry do řádku konkrétní metody, jak je znázorněno v řádku Kreatinin. ",
           "type": "text"
         }
       ]
@@ -2941,7 +3117,7 @@
       },
       "content": [
         {
-          "text": "Odběrový materiál ",
+          "text": "Odběrový materiál ",
           "type": "text"
         }
       ]
@@ -2950,7 +3126,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "U každé metody je možné zadat, v jakém typu odběrového materiálu bude vzorek do laboratoře zaslán. ",
+          "text": "U každé metody je možné zadat, v jakém typu odběrového materiálu bude vzorek do laboratoře zaslán. ",
           "type": "text"
         }
       ]
@@ -2967,7 +3143,6 @@
           "type": "media",
           "attrs": {
             "width": 1265,
-            "alt": "image-20250826-072405.png",
             "id": "d6b28e1d-362a-492e-9d75-cf0341b7b465",
             "collection": "contentId-105086977",
             "type": "file",
@@ -2980,7 +3155,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Uživatel zadá odběrový materiál (1.), kde ",
+          "text": "Uživatel zadá odběrový materiál (1.), kde ",
           "type": "text"
         }
       ]
@@ -2995,7 +3170,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Kód je unikátní značení daného materiálu, může obsahovat číslice ",
+                  "text": "Kód je unikátní značení daného materiálu, může obsahovat číslice ",
                   "type": "text"
                 }
               ]
@@ -3009,7 +3184,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Název odpovídá názvu, který se bude následně tisknout na průvodce ",
+                  "text": "Název odpovídá názvu, který se bude následně tisknout na průvodce ",
                   "type": "text"
                 }
               ]
@@ -3023,7 +3198,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Barva v tuto chvíli není dále zpracovávána, pole je připraveno pro případné další využití. Zadává se kódem typu hexa bez znaku #, např. EEAA33. ",
+                  "text": "Barva v tuto chvíli není dále zpracovávána, pole je připraveno pro případné další využití. Zadává se kódem typu hexa bez znaku #, např. EEAA33. ",
                   "type": "text"
                 }
               ]
@@ -3036,7 +3211,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Vytvořený odběrový materiál uživatel přiřadí k jednotlivým metodám (2.). Jedna metoda může 0 – n odběrových materiálů. ",
+          "text": "Vytvořený odběrový materiál uživatel přiřadí k jednotlivým metodám (2.). Jedna metoda může 0 – n odběrových materiálů. ",
           "type": "text"
         }
       ]
@@ -3048,7 +3223,7 @@
       },
       "content": [
         {
-          "text": "Poznámka k polím Skupina, Parametry a Odběrový materiál ",
+          "text": "Poznámka k polím Skupina, Parametry a Odběrový materiál ",
           "type": "text"
         }
       ]
@@ -3057,7 +3232,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pokud uživatel zadá nový řádek do částí Skupina, Parametry nebo Odběrový materiál, není už možné tento řádek odstranit. Uživatel je však k metodám nemusí přiřadit. ",
+          "text": "Pokud uživatel zadá nový řádek do částí Skupina, Parametry nebo Odběrový materiál, není už možné tento řádek odstranit. Uživatel je však k metodám nemusí přiřadit. ",
           "type": "text"
         }
       ]
@@ -3066,7 +3241,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Skupina, parametry ani odběrový materiál se nepřenáší do laboratoře v rámci xml.   ",
+          "text": "Skupina, parametry ani odběrový materiál se nepřenáší do laboratoře v rámci xml.   ",
           "type": "text"
         }
       ]
@@ -3075,7 +3250,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Skupiny slouží ke grafickému rozřazení metod v rámci žádanky a dále k tisku průvodky, kde se metody seskupují do konkrétních skupin. ",
+          "text": "Skupiny slouží ke grafickému rozřazení metod v rámci žádanky a dále k tisku průvodky, kde se metody seskupují do konkrétních skupin. ",
           "type": "text"
         }
       ]
@@ -3084,7 +3259,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Parametry slouží k vynucení správného vyplnění žádanky ze strany uživatele před jejím odesláním. ",
+          "text": "Parametry slouží k vynucení správného vyplnění žádanky ze strany uživatele před jejím odesláním. ",
           "type": "text"
         }
       ]
@@ -3093,7 +3268,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Odběrový materiál slouží k přehledu zaslaného materiálu do laboratoře na průvodce žádanky, kde každý typ použitého odběrového materiálu se uvádí právě jednou. ",
+          "text": "Odběrový materiál slouží k přehledu zaslaného materiálu do laboratoře na průvodce žádanky, kde každý typ použitého odběrového materiálu se uvádí právě jednou. ",
           "type": "text"
         }
       ]
@@ -3105,7 +3280,7 @@
       },
       "content": [
         {
-          "text": "Přenášet do textu žádosti ",
+          "text": "Přenášet do textu žádosti ",
           "type": "text"
         }
       ]
@@ -3114,7 +3289,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Funguje pouze u formátu dat DASTA4. Je možné zaškrtnout pouze u metody typu text. Pokud je checkbox zaškrtnutý, přenáší se uživatelem vyplnění text nikoli jako metoda v elementu „lop“, ale jako text žádosti (váže se k celé žádance) v elementu „text_zadosti“. ",
+          "text": "Funguje pouze u formátu dat DASTA4. Je možné zaškrtnout pouze u metody typu text. Pokud je checkbox zaškrtnutý, přenáší se uživatelem vyplnění text nikoli jako metoda v elementu „lop“, ale jako text žádosti (váže se k celé žádance) v elementu „text_zadosti“. ",
           "type": "text"
         }
       ]
@@ -3126,7 +3301,7 @@
       },
       "content": [
         {
-          "text": "Ruční vytvoření souboru lab. metod/editace ",
+          "text": "Aktualizace souboru importem (nová verze)",
           "type": "text"
         }
       ]
@@ -3135,7 +3310,165 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Soubor lab. metod je samozřejmě možné vytvořit také ručně, bez importu souboru ve formátu xml.",
+          "text": "Existující soubor lab. položek je možné aktualizovat opětovným importem – tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Aktualizovat importem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " u vybrané položky. Postup mezikroku (výběr listů, mapování sloupců) je stejný jako u prvního importu. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktualizovat importem lze najednou pouze jednu vybranou položku. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud má metoda ve zdrojovém souboru stejný NČLP kód jako v předchozí verzi, zachová se stejný kód položky (property name) – šablony v žádankách, které na položku odkazují, tak zůstanou funkční. Pokud je NČLP kód nový, vytvoří/přiřadí se nový kód položky. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Datum platnosti nové verze odpovídá datu, kdy byla aktualizace importem provedena. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pokud uživatel při aktualizaci importem znovu nenastaví listy s parametry nebo odběrovým materiálem, hodnoty z předchozí verze se automaticky nepřenesou – je potřeba je nastavit znovu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vyhledávání v přehledu laboratorních položek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V přehledu souborů/položek je možné vyhledávat: ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Podle NČLP kódu. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Podle názvu, včetně použití znaku % jako zástupného znaku (např. „%glukóza%“). ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V detailu konkrétní laboratorní položky je navíc k dispozici filtr pro vyhledávání souvisejících metod podle NČLP kódu i podle názvu metody. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Ruční vytvoření souboru lab. metod/editace ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Soubor lab. metod je samozřejmě možné vytvořit také ručně, bez importu souboru.",
           "type": "text"
         }
       ]
@@ -3156,7 +3489,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Nový soubor je možné vytvořit pomocí zeleného tlačítka plus . V tom případě uživatel neimportuje soubor .csv, ale ručně vyplňuje skupiny a jednotlivé metody. Import je možný pouze pomocí stejnojmenného tlačítka. ",
+                  "text": "Nový soubor je možné vytvořit pomocí zeleného tlačítka plus . V tom případě uživatel neimportuje soubor, ale ručně vyplňuje skupiny a jednotlivé metody. Import je možný pouze pomocí stejnojmenného tlačítka. ",
                   "type": "text"
                 }
               ]
@@ -3181,7 +3514,6 @@
                   "type": "media",
                   "attrs": {
                     "width": 105,
-                    "alt": "image-20250826-072521.png",
                     "id": "9adfcf0a-2d2e-478c-8721-e027edbff833",
                     "collection": "contentId-105086977",
                     "type": "file",
@@ -3198,7 +3530,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Editace stávajícího souboru lab. metod je možná po otevření detailu konkrétního souboru. V případě editace je nutné mít na paměti, že všechny změny provedené v souboru lab. metod je následně nutné ze strany uživatele provést také v lab. žádance (formuláři), na kterou je daný soubor lab. metod navázán. Např. ",
+          "text": "Editace stávajícího souboru lab. metod je možná po otevření detailu konkrétního souboru. V případě editace je nutné mít na paměti, že všechny změny provedené v souboru lab. metod je následně nutné ze strany uživatele provést také v lab. žádance (formuláři), na kterou je daný soubor lab. metod navázán. Např. ",
           "type": "text"
         }
       ]
@@ -3213,7 +3545,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Pokud uživatel změní název skupiny nebo název metody, je následně nutné název skupiny nebo metody také změnit v konkrétní žádance (formuláři).  ",
+                  "text": "Pokud uživatel změní název skupiny nebo název metody, je následně nutné název skupiny nebo metody také změnit v konkrétní žádance (formuláři).  ",
                   "type": "text"
                 }
               ]
@@ -3227,7 +3559,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Pokud uživatel změní hodnotu v poli kód lab. metody nebo parametru, je nutné tento kód změnit také v property name checkboxu nebo textového pole žádanky, na kterou je soubor lab. metod navázán.  ",
+                  "text": "Pokud uživatel změní hodnotu v poli kód lab. metody nebo parametru, je nutné tento kód změnit také v property name checkboxu nebo textového pole žádanky, na kterou je soubor lab. metod navázán.  ",
                   "type": "text"
                 }
               ]
@@ -3243,7 +3575,7 @@
       },
       "content": [
         {
-          "text": "Použití souboru lab. metod v konkrétní žádance ",
+          "text": "Použití souboru lab. metod v konkrétní žádance ",
           "type": "text"
         }
       ]
@@ -3252,7 +3584,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Žádanku, kterou uživatelé budou vyplňovat v rámci FONS Galen, uživatel vytvoří jako formulář v části ",
+          "text": "Žádanku, kterou uživatelé budou vyplňovat v rámci FONS Galen, uživatel vytvoří jako formulář v části ",
           "type": "text"
         },
         {
@@ -3265,7 +3597,7 @@
           ]
         },
         {
-          "text": ". Může vytvořit novu předlohu, nebo pouze novou variantu formuláře.  ",
+          "text": ". Může vytvořit novu předlohu, nebo pouze novou variantu formuláře.  ",
           "type": "text"
         }
       ]
@@ -3274,7 +3606,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "V detailu prázdné varianty formuláře zvolí možnost Lab. položky a vybere soubor, který chce do formuláře nahrát. ",
+          "text": "V detailu prázdné varianty formuláře zvolí možnost Lab. položky a vybere soubor, který chce do formuláře nahrát. Pokud má soubor lab. položek víc verzí, uživatel zvolí konkrétní verzi, kterou chce do formuláře nahrát – nemusí jít vždy o poslední verzi. ",
           "type": "text"
         }
       ]
@@ -3291,7 +3623,6 @@
           "type": "media",
           "attrs": {
             "width": 569,
-            "alt": "image-20250826-072608.png",
             "id": "4bdd93e4-c249-40a1-a668-393d8d71db49",
             "collection": "contentId-105086977",
             "type": "file",
@@ -3304,7 +3635,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Po výběru konkrétního souboru lab. položek se zobrazí okno pro možnou specifikaci konkrétních polí, které se do formuláře nahrají. ",
+          "text": "Po výběru konkrétního souboru lab. položek se zobrazí okno pro možnou specifikaci konkrétních polí, které se do formuláře nahrají. ",
           "type": "text"
         }
       ]
@@ -3321,7 +3652,6 @@
           "type": "media",
           "attrs": {
             "width": 1266,
-            "alt": "image-20250826-072624.png",
             "id": "ad036c4f-f661-4ada-9e63-7f3a152a97e0",
             "collection": "contentId-105086977",
             "type": "file",
@@ -3334,7 +3664,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Po stisku tl. OK se hlavička a metody přenesou do formuláře ",
+          "text": "Po stisku tl. OK se hlavička a metody přenesou do formuláře ",
           "type": "text"
         }
       ]
@@ -3351,7 +3681,6 @@
           "type": "media",
           "attrs": {
             "width": 773,
-            "alt": "image-20250826-072653.png",
             "id": "f5d855bd-794e-48c4-bf0a-32f89ce63abc",
             "collection": "contentId-105086977",
             "type": "file",
@@ -3367,7 +3696,7 @@
       },
       "content": [
         {
-          "text": "Hlavička ",
+          "text": "Hlavička ",
           "type": "text"
         }
       ]
@@ -3376,7 +3705,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Položky v hlavičce žádanky není možné přidávat, resp. nepřenesly by se do xml odeslané do laboratoře. ",
+          "text": "Položky v hlavičce žádanky není možné přidávat, resp. nepřenesly by se do xml odeslané do laboratoře. ",
           "type": "text"
         }
       ]
@@ -3385,7 +3714,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Do xml se v rámci žádanky přenáší ",
+          "text": "Do xml se v rámci žádanky přenáší ",
           "type": "text"
         }
       ]
@@ -3397,7 +3726,7 @@
       },
       "content": [
         {
-          "text": "Žádající lékař a pracoviště ",
+          "text": "Žádající lékař a pracoviště ",
           "type": "text",
           "marks": [
             {
@@ -3411,7 +3740,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Přenáší se údaje o pracovišti a odpovědném lékaři, který žádanku vystavuje. Tyto údaje se přenáší na pozadí, tzn. bez ohledu na tom co je vyplněno ve formuláři. ",
+          "text": "Přenáší se údaje o pracovišti a odpovědném lékaři, který žádanku vystavuje. Tyto údaje se přenáší na pozadí, tzn. bez ohledu na tom co je vyplněno ve formuláři. ",
           "type": "text"
         }
       ]
@@ -3423,7 +3752,7 @@
       },
       "content": [
         {
-          "text": "Pacient ",
+          "text": "Pacient ",
           "type": "text",
           "marks": [
             {
@@ -3437,7 +3766,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Údaje o pacientovi (jméno, příjmení, číslo pojištěnce, pojišťovna) se přenáší také na pozadí z karty pacienta, tzn. bez ohledu na to, co je vyplněno v žádance. ",
+          "text": "Údaje o pacientovi (jméno, příjmení, číslo pojištěnce, pojišťovna) se přenáší také na pozadí z karty pacienta, tzn. bez ohledu na to, co je vyplněno v žádance. ",
           "type": "text"
         }
       ]
@@ -3449,7 +3778,7 @@
       },
       "content": [
         {
-          "text": "Diagnóza ",
+          "text": "Diagnóza ",
           "type": "text",
           "marks": [
             {
@@ -3463,7 +3792,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Kolonka pro vyplnění první diagnózy musí mít propertyname „Diagnoza“. Druhá diagnóza musí mít propertyname „DalsiDiagnoza“. Je možné přidat třetí diagnózu s propertyname „DalsiDiagnoza2“.  ",
+          "text": "Kolonka pro vyplnění první diagnózy musí mít propertyname „Diagnoza“. Druhá diagnóza musí mít propertyname „DalsiDiagnoza“. Je možné přidat třetí diagnózu s propertyname „DalsiDiagnoza2“.  ",
           "type": "text"
         }
       ]
@@ -3475,7 +3804,7 @@
       },
       "content": [
         {
-          "text": "Seznam metod ",
+          "text": "Seznam metod ",
           "type": "text"
         }
       ]
@@ -3484,7 +3813,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Metody na nahrály z připraveného souboru lab. metod. V případě editace je nutné  ",
+          "text": "Metody na nahrály z připraveného souboru lab. metod. V případě editace je nutné  ",
           "type": "text"
         }
       ]
@@ -3517,7 +3846,7 @@
                       "type": "paragraph",
                       "content": [
                         {
-                          "text": "Neměnit polohu názvu metody a checkboxu/textového pole. Název metody (položka typu MLabel) a checkbox nebo textové pole pro vyplnění hodnoty metody (MData) spolu nejsou nijak svázané. Jejich vazbu tvoří pouze to, že jsou zobrazeny vedle sebe. Pokud by uživatel polohu těchto dvou checkboxů  změnil bez toho, aby také změnit polohu položek s názvem (Urea, Kreatinin), lékař by při zaškrtnutí checkboxu vedle pole Urea do laboratoře odesílal požadavek na metodu Kreatinin. ",
+                          "text": "Neměnit polohu názvu metody a checkboxu/textového pole. Název metody (položka typu MLabel) a checkbox nebo textové pole pro vyplnění hodnoty metody (MData) spolu nejsou nijak svázané. Jejich vazbu tvoří pouze to, že jsou zobrazeny vedle sebe. Pokud by uživatel polohu těchto dvou checkboxů  změnil bez toho, aby také změnit polohu položek s názvem (Urea, Kreatinin), lékař by při zaškrtnutí checkboxu vedle pole Urea do laboratoře odesílal požadavek na metodu Kreatinin. ",
                           "type": "text"
                         }
                       ]
@@ -3551,7 +3880,6 @@
                   "type": "media",
                   "attrs": {
                     "width": 357,
-                    "alt": "image-20250826-073010.png",
                     "id": "0ac1d6f7-d822-44b9-a5d6-ef96b1409a86",
                     "collection": "contentId-105086977",
                     "type": "file",
@@ -3580,7 +3908,6 @@
                   "type": "media",
                   "attrs": {
                     "width": 356,
-                    "alt": "image-20250826-073019.png",
                     "id": "242d8a8b-e3b7-479a-bcb7-2ee2d3ed1b8c",
                     "collection": "contentId-105086977",
                     "type": "file",
@@ -3603,7 +3930,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "V případě změny propertyname checkboxu nebo textového pole pro vyplnění metody musí tuto změnu také promítnout do pole Kód u dané metody v souboru lab. položek. ",
+                  "text": "V případě změny propertyname checkboxu nebo textového pole pro vyplnění metody musí tuto změnu také promítnout do pole Kód u dané metody v souboru lab. položek. ",
                   "type": "text"
                 }
               ]
@@ -3622,7 +3949,7 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "V případě změny názvu metody nebo skupiny musí tuto změnu promítnout do názvu metody nebo skupiny metod v souboru lab. položek. ",
+                  "text": "V případě změny názvu metody nebo skupiny musí tuto změnu promítnout do názvu metody nebo skupiny metod v souboru lab. položek. ",
                   "type": "text"
                 }
               ]
@@ -3638,7 +3965,7 @@
       },
       "content": [
         {
-          "text": "eKomunikace ",
+          "text": "Parametry a odběrový materiál ve formuláři",
           "type": "text"
         }
       ]
@@ -3647,7 +3974,58 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Pro vytvoření eŽádanky, tj. zobrazení tlačítka Odeslat v žádance, je nutné nastavit eKomunikaci ve stejnojmenné záložce. ",
+          "text": "Pokud má načtená laboratorní položka přiřazené parametry, zobrazí se na konci žádanky jako název (včetně jednotky v závorce) a textové pole pro vyplnění. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Odběrový materiál se na konci žádanky zobrazí souhrnně jako přehled (název + barevný panýlek) a zároveň u jednotlivé metody jako barevný panýlek. Pokud má metoda přiřazeno více druhů odběrového materiálu, barvy jednotlivých materiálů se u metody skládají nad sebou. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Import z jednoho souboru s více žádankami",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud zdrojový soubor obsahoval více listů s přiřazenými různými názvy žádanek (viz mezikrok importu), metody se po nahrání do formuláře zařadí pod odpovídající žádanku – pro každý název žádanky vznikne samostatná položka a pod ní příslušné metody. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "eKomunikace ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro vytvoření eŽádanky, tj. zobrazení tlačítka Odeslat v žádance, je nutné nastavit eKomunikaci ve stejnojmenné záložce. ",
           "type": "text"
         }
       ]
@@ -3664,7 +4042,6 @@
           "type": "media",
           "attrs": {
             "width": 519,
-            "alt": "image-20250826-073137.png",
             "id": "a127264b-c980-4e2d-91c0-10b681d15317",
             "collection": "contentId-105086977",
             "type": "file",
@@ -3677,7 +4054,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Typ přenášených dat = laboratorní žádanka, jiná možnost není dostupná ",
+          "text": "Typ přenášených dat = laboratorní žádanka, jiná možnost není dostupná ",
           "type": "text"
         }
       ]
@@ -3686,7 +4063,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Adresace = Pevná volba, jiná možnost není dostupná ",
+          "text": "Adresace = Pevná volba, jiná možnost není dostupná ",
           "type": "text"
         }
       ]
@@ -3695,7 +4072,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Název laboratoře = textový název, např. Synlab nebo Unilabs ",
+          "text": "Název laboratoře = textový název, např. Synlab nebo Unilabs ",
           "type": "text"
         }
       ]
@@ -3704,7 +4081,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Cesta nebo složka = tvoří prvních pět písmen z názvu laboratoře bez diakritiky \\Zadanky. Např. SYNLA\\Zadanky nebo AESKU\\Zadanky. ",
+          "text": "Cesta nebo složka = tvoří prvních pět písmen z názvu laboratoře bez diakritiky \\Zadanky. Např. SYNLA\\Zadanky nebo AESKU\\Zadanky. ",
           "type": "text"
         }
       ]
@@ -3713,7 +4090,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Formát dat = DASTA3 nebo DASTA4. ",
+          "text": "Formát dat = DASTA3 nebo DASTA4. ",
           "type": "text"
         }
       ]
@@ -3722,7 +4099,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Mapovací soubor = nevyplňuje se ",
+          "text": "Mapovací soubor = nevyplňuje se ",
           "type": "text"
         }
       ]
@@ -3731,7 +4108,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Laboratorní položky = název souboru lab. metod ",
+          "text": "Laboratorní položky = název souboru lab. metod ",
           "type": "text"
         }
       ]
@@ -3740,7 +4117,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Kódování = volba dle domluvy s laboratoří ",
+          "text": "Kódování = volba dle domluvy s laboratoří ",
           "type": "text"
         }
       ]
