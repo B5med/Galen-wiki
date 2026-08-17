@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-16
+generated: 2026-08-17
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **16. 8. 2026**  ·  Celkem stránek: **331**  ·  Poslední sync z Confluence: 2026-08-16
+> **17. 8. 2026**  ·  Celkem stránek: **331**  ·  Poslední sync z Confluence: 2026-08-17
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **8** |
-| 📄 | Do 90 dnů | **63** |
-| 🗄️ | Starší než 3 měsíce | **256** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **4** |
+| 🌿 | Do 30 dnů | **7** |
+| 📄 | Do 90 dnů | **62** |
+| 🗄️ | Starší než 3 měsíce | **258** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -102,7 +102,7 @@ generated: 2026-08-16
     - 📄 [[Orientace v modulu]] `v1` · 17. 6. 2026
     - 📄 [[Slovník pojmů]] `v1` · 17. 6. 2026
     - 📄 [[Tiskové výstupy]] `v1` · 17. 6. 2026
-  - 📄 **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
+  - 🗄️ **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
     - 🗄️ **[[Nároky]]** `v2` · 10. 7. 2025
@@ -142,7 +142,7 @@ generated: 2026-08-16
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 📄 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
-    - 📄 [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
+    - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 📄 [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
@@ -283,7 +283,7 @@ generated: 2026-08-16
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
-      - 🌿 [[Certifikát PZS]] `v7` · 17. 7. 2026
+      - 📄 [[Certifikát PZS]] `v7` · 17. 7. 2026
       - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🗄️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
@@ -296,13 +296,13 @@ generated: 2026-08-16
       - 🗄️ **[[Výdej foniatrické pomůcky předepsané na ePoukaz]]** `v10` · 10. 2. 2026
         - 🗄️ [[Vyúčtování foniatrické pomůcky vydané na ePoukaz]] `v5` · 10. 2. 2026
       - 🗄️ [[Akce spojené s životní cyklem ePoukazu]] `v1` · 23. 6. 2025
-      - 🔥 [[ePoukaz – změny platné od 1. 9. 2026]] `v1` · 13. 8. 2026
+      - ♨️ [[ePoukaz – změny platné od 1. 9. 2026]] `v1` · 13. 8. 2026
       - 🗄️ [[Jednotlivé části formuláře ePoukaz]] `v3` · 27. 1. 2026
       - 🗄️ [[Platnost ePoukazu]] `v3` · 26. 1. 2026
       - 🗄️ [[Počet položek ePoukazu]] `v1` · 23. 6. 2025
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
-      - 🔥 [[Laboratorní položky]] `v2` · 13. 8. 2026
+      - ♨️ [[Laboratorní položky]] `v2` · 13. 8. 2026
       - ♨️ [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v1` · 11. 8. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
