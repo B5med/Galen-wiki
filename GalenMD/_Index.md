@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-19
+generated: 2026-08-20
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **19. 8. 2026**  ·  Celkem stránek: **331**  ·  Poslední sync z Confluence: 2026-08-19
+> **20. 8. 2026**  ·  Celkem stránek: **331**  ·  Poslední sync z Confluence: 2026-08-20
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-08-19
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **4** |
 | 🌿 | Do 30 dnů | **7** |
-| 📄 | Do 90 dnů | **62** |
-| 🗄️ | Starší než 3 měsíce | **258** |
+| 📄 | Do 90 dnů | **61** |
+| 🗄️ | Starší než 3 měsíce | **259** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -352,6 +352,6 @@ generated: 2026-08-19
 - 🗄️ [[API PacientDataService GET]] `v4` · 11. 6. 2025
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
-- 📄 [[Modul sklad]] `v5` · 21. 5. 2026
+- 🗄️ [[Modul sklad]] `v5` · 21. 5. 2026
 - 📄 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 🗄️ [[Zabezpečení API]] `v1` · 2. 4. 2026
