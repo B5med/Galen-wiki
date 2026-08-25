@@ -1,0 +1,334 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "ePoukaz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "ePoukaz – nová verze rozhraní",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Od 1. 9. 2026 FONS Galen komunikuje se SÚKL v nové verzi datového rozhraní ePoukaz. Nové rozhraní zahrnuje tyto změny:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Párový orgán",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            },
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na položce ePoukazu přibyla nová možnost „Párový orgán“ (Pravý/Levý/Oba) – vyplňuje se u úhradových skupin, kde to vyžaduje legislativa (např. 04.07.01.01 – Obuv pooperační a odlehčovací).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Šířka a hloubka sedu invalidního vozíku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            },
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na ePoukazu – léčebný lze pro úhradové skupiny 07.01.01.* a 07.01.02.* nově zadat šířku a hloubku sedu v cm; bez vyplnění nelze ePoukaz odeslat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ověření množstevního/úhradového limitu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            },
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U položky ePoukazu přibylo tlačítko „Ověřit limity“ – zavolá novou službu SÚKL a zobrazí odpověď (upozornění na překročení limitu i seznam předchozích výdejů).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Více informací: ",
+          "type": "text"
+        },
+        {
+          "text": "ePoukaz – změny platné od 1. 9. 2026",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/542146561/ePoukaz+zm+ny+platn+od+1.+9.+2026"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vyúčtování a fakturace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Zobrazení názvu banky a předvyplnění bankovního účtu při vystavování externí faktury",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V dialogu pro vystavení externí faktury se nyní u výběru bankovního spojení v rozbalovacím seznamu zobrazuje i název banky, nejen číslo účtu – díky tomu lze účet bezpečně rozpoznat na první pohled, aniž by bylo nutné ho dohledávat podle čísla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pole s bankovním účtem se navíc automaticky předvyplní podle následující priority:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "účet naposledy použitý přihlášeným pracovníkem na daném pracovišti,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "pokud takový není, účet naposledy použitý kýmkoli na daném pracovišti,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "jinak se předvyplní první aktivní bankovní účet společnosti ze seznamu bankovních spojení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výběr účtu zůstává i nadále zcela volný – předvyplněná hodnota slouží jen jako usnadnění, uživatel si může vybrat kterýkoli jiný účet ze seznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Stav účtu pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Celkový součet útraty pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na kartě Stav účtu pacienta se v seznamech ",
+          "type": "text"
+        },
+        {
+          "text": "Příjmové doklady",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " nově v hlavičce sloupce ",
+          "type": "text"
+        },
+        {
+          "text": "Částka",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zobrazuje součet všech nestornovaných dokladů. Celkovou útratu pacienta tak vidíte na první pohled, bez ručního sčítání jednotlivých dokladů.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
