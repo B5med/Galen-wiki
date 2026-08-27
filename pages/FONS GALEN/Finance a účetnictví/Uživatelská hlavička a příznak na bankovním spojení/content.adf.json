@@ -29,11 +29,15 @@
     {
       "type": "panel",
       "attrs": {
-        "panelType": "info"
+        "panelType": "info",
+        "localId": "e27076dbe296"
       },
       "content": [
         {
           "type": "paragraph",
+          "attrs": {
+            "localId": "59ad5343fb87"
+          },
           "content": [
             {
               "text": "Tato funkce umožňuje:",
@@ -43,12 +47,21 @@
         },
         {
           "type": "bulletList",
+          "attrs": {
+            "localId": "149d4b25e6b4"
+          },
           "content": [
             {
               "type": "listItem",
+              "attrs": {
+                "localId": "0990d1811619"
+              },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "f254ae71e26a"
+                  },
                   "content": [
                     {
                       "text": "přiřadit ",
@@ -73,9 +86,15 @@
             },
             {
               "type": "listItem",
+              "attrs": {
+                "localId": "e6ca0521668f"
+              },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "2751f77b2e3d"
+                  },
                   "content": [
                     {
                       "text": "a upravovat ",
@@ -105,7 +124,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "099acbfd5c28"
       },
       "content": [
         {
@@ -113,7 +133,8 @@
           "attrs": {
             "id": "1f4b3",
             "text": "💳",
-            "shortName": ":credit_card:"
+            "shortName": ":credit_card:",
+            "localId": "37f9f2288a83"
           }
         },
         {
@@ -124,9 +145,15 @@
     },
     {
       "type": "blockquote",
+      "attrs": {
+        "localId": "19912f42eb34"
+      },
       "content": [
         {
           "type": "paragraph",
+          "attrs": {
+            "localId": "6bbebe45670a"
+          },
           "content": [
             {
               "text": "Cesta:",
@@ -155,6 +182,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "f2ed9e082cf0"
+      },
       "content": [
         {
           "text": "Každému bankovnímu spojení lze přiřadit příznaky:",
@@ -172,16 +202,23 @@
       "content": [
         {
           "type": "tableRow",
+          "attrs": {
+            "localId": "bbc24a369a54"
+          },
           "content": [
             {
               "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "ddcbde4de2bd"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "2b2472f28034"
+                  },
                   "content": [
                     {
                       "text": "Příznak",
@@ -200,11 +237,15 @@
               "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "6b668a8252c6"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "b15e9e82e645"
+                  },
                   "content": [
                     {
                       "text": "Použití",
@@ -223,11 +264,15 @@
               "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "0dfbad7d000b"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "e78d7e3567b7"
+                  },
                   "content": [
                     {
                       "text": "Poznámka",
@@ -246,16 +291,23 @@
         },
         {
           "type": "tableRow",
+          "attrs": {
+            "localId": "c3c1f2f38c6c"
+          },
           "content": [
             {
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "430da5e71360"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "eef07c4a42cd"
+                  },
                   "content": [
                     {
                       "text": "Faktura pro pacienta",
@@ -274,11 +326,15 @@
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "abdcaf35a917"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "b33e88e2ba7b"
+                  },
                   "content": [
                     {
                       "text": "Zobrazuje se při vytváření faktury v ordinaci (okno ",
@@ -305,11 +361,15 @@
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "e6c1fdcd608f"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "e52cef893148"
+                  },
                   "content": [
                     {
                       "text": "Lze označit více spojení",
@@ -323,16 +383,23 @@
         },
         {
           "type": "tableRow",
+          "attrs": {
+            "localId": "56474798b799"
+          },
           "content": [
             {
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "e08d8ba88474"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "819320f66249"
+                  },
                   "content": [
                     {
                       "text": "Faktura PLS",
@@ -351,11 +418,15 @@
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "5b68d41c9334"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "17279af5ef36"
+                  },
                   "content": [
                     {
                       "text": "Používá se v modulu ",
@@ -391,11 +462,15 @@
               "type": "tableCell",
               "attrs": {
                 "colspan": 1,
-                "rowspan": 1
+                "rowspan": 1,
+                "localId": "f4771a89e32c"
               },
               "content": [
                 {
                   "type": "paragraph",
+                  "attrs": {
+                    "localId": "02c1634888ab"
+                  },
                   "content": [
                     {
                       "text": "Lze použít pouze ",
@@ -438,11 +513,15 @@
             "id": "d2a2d636-a21a-47a4-b264-ab596cfbec94",
             "collection": "contentId-109051919",
             "type": "file",
+            "localId": "b9d7185098ef",
             "height": 647
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "741f12f4cb2f"
+          },
           "content": [
             {
               "text": "(Obr. 1 – Nastavení příznaků bankovního spojení)",
@@ -455,7 +534,214 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "0bc8dbd0ee80"
+      },
+      "content": [
+        {
+          "type": "emoji",
+          "attrs": {
+            "id": "1f3e6",
+            "text": "🏦",
+            "shortName": ":bank:",
+            "localId": "a5e18c9d26e8"
+          }
+        },
+        {
+          "text": " ",
+          "type": "text"
+        },
+        {
+          "text": "Výběr bankovního spojení při vystavení faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "24afa57366f2"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "da7a5186edb0"
+          },
+          "content": [
+            {
+              "text": "Cesta:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Ordinace → Stav účtu → Faktura - výběr/ Faktura - vše",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "060f955c0f86"
+      },
+      "content": [
+        {
+          "text": "Při způsobu úhrady bankovním převodem se ve výběru čísla účtu zobrazuje jeho číslo a název, který si uživatel sám zadává u bankovních spojení (v políčku Banka). Pro zjednodušení výběru se pole s bankovním účtem automaticky předvyplní podle následujícího rozhodovacího pravidla (v tomto pořadí priority):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "5886ca270832",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f3cfe33b1e89"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a0b810c3d584"
+              },
+              "content": [
+                {
+                  "text": "účet naposledy použitý ",
+                  "type": "text"
+                },
+                {
+                  "text": "přihlášeným uživatelem ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": "na daném pracovišti,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "de0e48ec712c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ee5c27c46a80"
+              },
+              "content": [
+                {
+                  "text": "pokud takový není, účet naposledy použitý ",
+                  "type": "text"
+                },
+                {
+                  "text": "kýmkoli jiným",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " na daném pracovišti,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fa213fe33a93"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5859f3cd0e42"
+              },
+              "content": [
+                {
+                  "text": "pokud dosud nebyla na pracovišti provedena žádná volba, předvyplní se ",
+                  "type": "text"
+                },
+                {
+                  "text": "první aktivní bankovní účet",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " společnosti ze seznamu bankovních spojení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3963c0c2e4f4"
+      },
+      "content": [
+        {
+          "text": "Výběr účtu zůstává i nadále zcela volný – v číselníku jsou k dispozici všechny aktivní účty společnosti jako dosud, předvyplněná hodnota slouží pouze jako usnadnění a uživatel si může kdykoli vybrat jiné bankovní spojení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "attrs": {
+        "localId": "442e2c0559ab"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "630f69ae4180"
       },
       "content": [
         {
@@ -463,7 +749,8 @@
           "attrs": {
             "id": "1f58a",
             "text": "🖊️",
-            "shortName": ":pen_ballpoint:"
+            "shortName": ":pen_ballpoint:",
+            "localId": "82077db19f7e"
           }
         },
         {
@@ -483,9 +770,15 @@
     },
     {
       "type": "blockquote",
+      "attrs": {
+        "localId": "d9850f74f4c4"
+      },
       "content": [
         {
           "type": "paragraph",
+          "attrs": {
+            "localId": "1b6d09990af9"
+          },
           "content": [
             {
               "text": "Cesta:",
@@ -514,6 +807,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "b2cc8b82699c"
+      },
       "content": [
         {
           "text": "Zde lze upravovat nebo vytvářet hlavičky pro tisk dokumentů (např. PLS faktury, pacientské faktury apod.).",
@@ -522,12 +818,16 @@
       ]
     },
     {
-      "type": "rule"
+      "type": "rule",
+      "attrs": {
+        "localId": "a5d508166541"
+      }
     },
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 3,
+        "localId": "5b450d15bf4d"
       },
       "content": [
         {
@@ -535,7 +835,8 @@
           "attrs": {
             "id": "1f539",
             "text": "🔹",
-            "shortName": ":small_blue_diamond:"
+            "shortName": ":small_blue_diamond:",
+            "localId": "09a15ee5fa4f"
           }
         },
         {
@@ -547,14 +848,21 @@
     {
       "type": "orderedList",
       "attrs": {
+        "localId": "f48e0a376fec",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "21618bc45dd9"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "0e5112ce78a7"
+              },
               "content": [
                 {
                   "text": "Klikněte na ",
@@ -582,9 +890,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "04dce55929e5"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "a64443f08294"
+              },
               "content": [
                 {
                   "text": "(Volitelně) klikněte na ",
@@ -612,9 +926,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "3939306940de"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "4d03afbb4b6d"
+              },
               "content": [
                 {
                   "text": "Vyplňte ",
@@ -655,9 +975,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "bf428c578588"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "07558b6aae59"
+              },
               "content": [
                 {
                   "text": "Doplňte ",
@@ -695,9 +1021,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "6f6d7c4e7e88"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "75eb7b37af75"
+              },
               "content": [
                 {
                   "text": "Vyplňte ",
@@ -716,12 +1048,21 @@
             },
             {
               "type": "bulletList",
+              "attrs": {
+                "localId": "b7ebf04884eb"
+              },
               "content": [
                 {
                   "type": "listItem",
+                  "attrs": {
+                    "localId": "d845fb77d0ff"
+                  },
                   "content": [
                     {
                       "type": "paragraph",
+                      "attrs": {
+                        "localId": "72c8cb746861"
+                      },
                       "content": [
                         {
                           "text": "Použijte systém ",
@@ -753,9 +1094,15 @@
                 },
                 {
                   "type": "listItem",
+                  "attrs": {
+                    "localId": "e4d698c45075"
+                  },
                   "content": [
                     {
                       "type": "paragraph",
+                      "attrs": {
+                        "localId": "4e34116cc59a"
+                      },
                       "content": [
                         {
                           "text": "Před nebo za proměnnou lze doplnit vlastní text.",
@@ -769,6 +1116,9 @@
             },
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "cfc1e5158e14"
+              },
               "content": [
                 {
                   "text": "Příklad:",
@@ -801,9 +1151,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "a721df7c55be"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "c822b0fa008c"
+              },
               "content": [
                 {
                   "text": "Formátování textu:",
@@ -827,9 +1183,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "e262f7523a83"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "bfadb627581d"
+              },
               "content": [
                 {
                   "text": "Zaškrtněte příznak „Implicitní“",
@@ -853,9 +1215,15 @@
         },
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "ba2dfaf138ec"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "adf219de386e"
+              },
               "content": [
                 {
                   "text": "Uložení změn:",
@@ -895,11 +1263,15 @@
             "id": "e526b131-89a8-4c1b-a27d-7dcdd01ee5f4",
             "collection": "contentId-109051919",
             "type": "file",
+            "localId": "504c14653094",
             "height": 683
           }
         },
         {
           "type": "caption",
+          "attrs": {
+            "localId": "43bcb3d13d26"
+          },
           "content": [
             {
               "text": "(Obr. 2 – Editace šablony záhlaví tisku)",
@@ -910,7 +1282,10 @@
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0e0e35eaba87"
+      }
     }
   ],
   "version": 1

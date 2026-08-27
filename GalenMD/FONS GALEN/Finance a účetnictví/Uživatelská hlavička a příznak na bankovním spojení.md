@@ -1,7 +1,7 @@
 ---
 title: "Uživatelská hlavička a příznak na bankovním spojení"
-version: 3
-updated_at: 2025-11-07
+version: 7
+updated_at: 2026-08-26
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/109051919
 ---
 
@@ -27,7 +27,22 @@ Každému bankovnímu spojení lze přiřadit příznaky:
 
 ![image-20250901-083939.png](<../../../pages/FONS GALEN/Finance a účetnictví/Uživatelská hlavička a příznak na bankovním spojení/assets/image-20250901-083939.png>)
 
-## 🖊️ Editace záhlaví tisku
+## 🏦 **Výběr bankovního spojení při vystavení faktury**
+
+> **Cesta:**
+> **Ordinace → Stav účtu → Faktura - výběr/ Faktura - vše**
+
+Při způsobu úhrady bankovním převodem se ve výběru čísla účtu zobrazuje jeho číslo a název, který si uživatel sám zadává u bankovních spojení (v políčku Banka). Pro zjednodušení výběru se pole s bankovním účtem automaticky předvyplní podle následujícího rozhodovacího pravidla (v tomto pořadí priority):
+
+1. účet naposledy použitý **přihlášeným uživatelem**na daném pracovišti,
+2. pokud takový není, účet naposledy použitý **kýmkoli jiným** na daném pracovišti,
+3. pokud dosud nebyla na pracovišti provedena žádná volba, předvyplní se **první aktivní bankovní účet** společnosti ze seznamu bankovních spojení.
+
+Výběr účtu zůstává i nadále zcela volný – v číselníku jsou k dispozici všechny aktivní účty společnosti jako dosud, předvyplněná hodnota slouží pouze jako usnadnění a uživatel si může kdykoli vybrat jiné bankovní spojení.
+
+---
+
+## 🖊️ **Editace záhlaví tisku**
 
 > **Cesta:**
 > **Správce → Nástroje → Šablony → Záhlaví tisku**

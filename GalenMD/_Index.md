@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-26
+generated: 2026-08-27
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **26. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-26
+> **27. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-27
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **2** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **6** |
-| 📄 | Do 90 dnů | **61** |
+| 🌿 | Do 30 dnů | **4** |
+| 📄 | Do 90 dnů | **62** |
 | 🗄️ | Starší než 3 měsíce | **262** |
 | ❓ | Bez data | **0** |
 
@@ -36,7 +36,7 @@ generated: 2026-08-26
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
-    - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v3` · 7. 11. 2025
+    - 🔥 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 📄 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 📄 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
@@ -123,7 +123,7 @@ generated: 2026-08-26
       - 🗄️ [[Online objednávání pacientů]] `v1` · 19. 1. 2026
       - 🗄️ [[Online Objednávání_ Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen|Online Objednávání: Nastavení Kalendářů pro Portál Pacienta v AIS FONS Galen]] `v3` · 19. 1. 2026
       - 🗄️ [[Registrace do Portálu pacienta]] `v1` · 19. 1. 2026
-      - 📄 [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
+      - 🗄️ [[Správa účtu a osob v péči]] `v1` · 28. 5. 2026
     - 🗄️ [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 🗄️ [[Notifikace objednávek]] `v4` · 13. 4. 2026
@@ -151,7 +151,7 @@ generated: 2026-08-26
     - 🔥 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
-    - 🌿 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
+    - 📄 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
     - 📄 [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
@@ -234,7 +234,7 @@ generated: 2026-08-26
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
-    - 🌿 [[eShop]] `v1` · 27. 7. 2026
+    - 📄 [[eShop]] `v1` · 27. 7. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
   - 🗄️ **[[Vyšetření, dekurz a klinická péče]]** `v4` · 15. 5. 2026
