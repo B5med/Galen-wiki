@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-27
+generated: 2026-08-28
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **27. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-27
+> **28. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-28
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **4** |
+| 🔥 | Do 3 dnů | **1** |
+| ♨️ | Do 14 dnů | **1** |
+| 🌿 | Do 30 dnů | **6** |
 | 📄 | Do 90 dnů | **62** |
 | 🗄️ | Starší než 3 měsíce | **262** |
 | ❓ | Bez data | **0** |
@@ -148,7 +148,7 @@ generated: 2026-08-27
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 🗄️ [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
-    - 🔥 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
+    - ♨️ [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
     - 📄 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
@@ -297,13 +297,13 @@ generated: 2026-08-27
       - 🗄️ **[[Výdej foniatrické pomůcky předepsané na ePoukaz]]** `v10` · 10. 2. 2026
         - 🗄️ [[Vyúčtování foniatrické pomůcky vydané na ePoukaz]] `v5` · 10. 2. 2026
       - 🗄️ [[Akce spojené s životní cyklem ePoukazu]] `v1` · 23. 6. 2025
-      - ♨️ [[ePoukaz – změny platné od 1. 9. 2026]] `v1` · 13. 8. 2026
+      - 🌿 [[ePoukaz – změny platné od 1. 9. 2026]] `v1` · 13. 8. 2026
       - 🗄️ [[Jednotlivé části formuláře ePoukaz]] `v3` · 27. 1. 2026
       - 🗄️ [[Platnost ePoukazu]] `v3` · 26. 1. 2026
       - 🗄️ [[Počet položek ePoukazu]] `v1` · 23. 6. 2025
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
-      - ♨️ [[Laboratorní položky]] `v2` · 13. 8. 2026
+      - 🌿 [[Laboratorní položky]] `v2` · 13. 8. 2026
       - 🌿 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v1` · 11. 8. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
