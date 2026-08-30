@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-29
+generated: 2026-08-30
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **29. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-29
+> **30. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-30
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **1** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **2** |
 | 🌿 | Do 30 dnů | **4** |
 | 📄 | Do 90 dnů | **64** |
 | 🗄️ | Starší než 3 měsíce | **262** |
@@ -36,7 +36,7 @@ generated: 2026-08-29
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
-    - 🔥 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
+    - ♨️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 📄 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 📄 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
