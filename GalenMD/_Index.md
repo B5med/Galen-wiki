@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-30
+generated: 2026-08-31
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **30. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-30
+> **31. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-31
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-08-30
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **2** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **64** |
-| 🗄️ | Starší než 3 měsíce | **262** |
+| 📄 | Do 90 dnů | **62** |
+| 🗄️ | Starší než 3 měsíce | **264** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -161,7 +161,7 @@ generated: 2026-08-30
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 📄 [[Prohlídky]] `v10` · 1. 6. 2026
+      - 🗄️ [[Prohlídky]] `v10` · 1. 6. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -354,5 +354,5 @@ generated: 2026-08-30
 - 🗄️ [[API PacientDataService PUT]] `v7` · 11. 6. 2025
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
 - 🗄️ [[Modul sklad]] `v5` · 21. 5. 2026
-- 📄 [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
+- 🗄️ [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
 - 🗄️ [[Zabezpečení API]] `v1` · 2. 4. 2026
