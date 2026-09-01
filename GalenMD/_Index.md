@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-08-31
+generated: 2026-09-01
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **31. 8. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-08-31
+> **1. 9. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-09-01
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-08-31
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **2** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **62** |
-| 🗄️ | Starší než 3 měsíce | **264** |
+| 📄 | Do 90 dnů | **61** |
+| 🗄️ | Starší než 3 měsíce | **265** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -144,7 +144,7 @@ generated: 2026-08-31
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
-    - 📄 [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
+    - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 🗄️ [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
