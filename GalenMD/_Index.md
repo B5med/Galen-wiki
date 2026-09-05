@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-04
+generated: 2026-09-05
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **4. 9. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-09-04
+> **5. 9. 2026**  ·  Celkem stránek: **332**  ·  Poslední sync z Confluence: 2026-09-05
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **4** |
+| 🌿 | Do 30 dnů | **3** |
 | 📄 | Do 90 dnů | **61** |
 | 🗄️ | Starší než 3 měsíce | **265** |
 | ❓ | Bez data | **0** |
@@ -304,7 +304,7 @@ generated: 2026-09-04
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 🌿 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - 🌿 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v1` · 11. 8. 2026
+      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v5` · 4. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025

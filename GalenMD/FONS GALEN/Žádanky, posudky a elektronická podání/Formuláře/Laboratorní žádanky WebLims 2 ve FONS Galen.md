@@ -1,7 +1,7 @@
 ---
 title: "Laboratorní žádanky WebLims 2 ve FONS Galen"
-version: 1
-updated_at: 2026-08-11
+version: 5
+updated_at: 2026-09-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/537952257
 ---
 
@@ -34,24 +34,27 @@ Než se laboratoř WL2 objeví lékařům v modulu Formuláře, musí ji adminis
 3. V modálním okně vidíte seznam existujících konfigurací (aktivních i neaktivních) pro dané pracoviště. Pro přidání nové zvolte možnost přidat konfiguraci a vyplňte:
 
    - **Formulář** – vyberte laboratoř, kterou chcete napojit. V případě, že v seznamu chybí požadovaná laboratoř, zadejte požadavek na FONS Galen prostřednictvím helpdesku [https://helpdesk.stapro.cz/](https://helpdesk.stapro.cz/).
-   - **URL WebLims** – adresa instalace WL2 dané laboratoře (včetně `/fol_weblims2/`).
+   - **URL WebLims** – adresa instalace WL2 dané laboratoře (včetně `https://`).
    - **Client ID** a **Client Secret** – přístupové údaje přidělené laboratoří pro OAuth komunikaci.
    - **Aktivní** – zaškrtnutím konfiguraci zapnete.
 4. Konfiguraci lze kdykoli upravit nebo deaktivovat.
 
 > **Poznámka:** Jedno pracoviště může mít nakonfigurováno více laboratoří WL2 současně – každá se pak v modulu Formuláře zobrazí jako samostatná karta.
 
+> **Poznámka 2:**V případě, kdy by v nabídce *Formulář*chyběla požadovaná laboratoř, zadejte požadavek prostřednictvím [https://helpdesk.stapro.cz](https://helpdesk.stapro.cz/Task)
+
 ---
 
 ## 4. Vytvoření nové žádanky (role Lékař)
 
 1. Otevřete kartu pacienta a přejděte do modulu **Formuláře**.
-2. Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající šabloně formuláře (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.
+2. Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající názvu formuláře, který jste zadali v nastavení pracoviště (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.
 3. Klikněte na kartu vybrané laboratoře. FG na pozadí připraví kontext žádanky (pacient, diagnózy, pojišťovna atd.).
-4. Otevře se okno WL2 s předvyplněnými údaji pacienta. V prostředí WL2 vyberete konkrétní typ žádanky (např. biochemie, mikrobiologie) a doplníte požadované metody.
-5. Žádanku můžete **odeslat**, nebo **odeslat a vytisknout průvodku**. V případě potřeby můžete rovněž vytisknout štítek.
-6. Okno WL2 se po odeslání **nezavírá automaticky** – po dokončení je nutné jej zavřít tlačítkem **„Zpět“**.
-7. Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky (Galen.Zadanka) – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.
+4. Otevře se okno přihlášení do WL2. Zde se zadávají přihlašovací údaje uživatele (jsou tedy rozdílné od údajů, které jste zadali v konfiguraci pracoviště). Každý uživatel by měl od laboratoře získat vlastní přihlašovací údaje.
+5. Otevře se okno WL2 s předvyplněnými údaji pacienta. V prostředí WL2 vyberete konkrétní typ žádanky (např. biochemie, mikrobiologie) a doplníte požadované metody.
+6. Žádanku můžete **odeslat**, nebo **odeslat a vytisknout průvodku**. V případě potřeby můžete rovněž vytisknout štítek.
+7. Okno WL2 se po odeslání **nezavírá automaticky** – po dokončení je nutné jej zavřít tlačítkem **„Zpět“**.
+8. Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky  – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.
 
 ### Možné chybové hlášky po odeslání žádanky
 
@@ -74,7 +77,7 @@ Tato volba se **nezapamatovává** – při každém vytváření žádanky je p
 
 Kromě záznamu, který FG založí automaticky po odeslání žádanky, si lékař i správce mohou kdykoli zobrazit aktuální seznam žádanek přímo z WL2.
 
-1. Otevřete modul **Komunikace** (Log elektronické komunikace).
+1. Otevřete modul **Komunikace** (Log elektronické komunikace) na pracovišti.
 2. Pokud máte přístup k alespoň jedné aktivní konfiguraci WL2, uvidíte novou záložku **„WebLims“** vedle ostatních (Notifikace, eRecepty, ČSSZ, Elektronické žádanky, Očkování apod.).
 3. Chování po kliknutí na záložku se liší podle role a počtu nakonfigurovaných laboratoří:
 

@@ -407,7 +407,7 @@
                           "type": "text"
                         },
                         {
-                          "text": "/fol_weblims2/",
+                          "text": "https://",
                           "type": "text",
                           "marks": [
                             {
@@ -550,6 +550,66 @@
       ]
     },
     {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e25ab9452bc9"
+      }
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "db3c9374a7d5"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "27da5b8080b5"
+          },
+          "content": [
+            {
+              "text": "Poznámka 2: ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": "V případě, kdy by v nabídce ",
+              "type": "text"
+            },
+            {
+              "text": "Formulář ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": "chyběla požadovaná laboratoř, zadejte požadavek prostřednictvím ",
+              "type": "text"
+            },
+            {
+              "text": "https://helpdesk.stapro.cz",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://helpdesk.stapro.cz/Task"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "rule",
       "attrs": {
         "localId": "d07a8a54-2565-4755-9608-f5707bcc0d50"
@@ -621,7 +681,7 @@
               },
               "content": [
                 {
-                  "text": "Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající šabloně formuláře (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.",
+                  "text": "Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající názvu formuláře, který jste zadali v nastavení pracoviště (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.",
                   "type": "text"
                 }
               ]
@@ -642,6 +702,26 @@
               "content": [
                 {
                   "text": "Klikněte na kartu vybrané laboratoře. FG na pozadí připraví kontext žádanky (pacient, diagnózy, pojišťovna atd.).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c1642a8e3565"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3be9b94dc4b5"
+              },
+              "content": [
+                {
+                  "text": "Otevře se okno přihlášení do WL2. Zde se zadávají přihlašovací údaje uživatele (jsou tedy rozdílné od údajů, které jste zadali v konfiguraci pracoviště). Každý uživatel by měl od laboratoře získat vlastní přihlašovací údaje. ",
                   "type": "text"
                 }
               ]
@@ -773,7 +853,7 @@
               },
               "content": [
                 {
-                  "text": "Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky (Galen.Zadanka) – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.",
+                  "text": "Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky  – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.",
                   "type": "text"
                 }
               ]
@@ -1289,7 +1369,7 @@
                   ]
                 },
                 {
-                  "text": " (Log elektronické komunikace).",
+                  "text": " (Log elektronické komunikace) na pracovišti.",
                   "type": "text"
                 }
               ]
