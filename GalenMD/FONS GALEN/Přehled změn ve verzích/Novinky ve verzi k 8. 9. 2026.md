@@ -1,6 +1,6 @@
 ---
 title: "Novinky ve verzi k 8. 9. 2026"
-version: 1
+version: 2
 updated_at: 2026-09-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/577437697
 ---
@@ -77,3 +77,9 @@ Fráze, které uživatelé dosud využívali i jinde v Galenu, lze nově použí
 ### Export diagnózy z dekurzu do přístroje
 
 Ve výstupní šabloně konfigurace přístroje je nově možné doplnit parametr pro export diagnózy z dekurzu do externího programu ve formátu GDT/TXT. Diagnóza se exportuje ve standardním formátu (kód MKN). Pokud pacient nemá v dekurzu diagnózu vyplněnou, do šablony se žádná diagnóza nevyplní. V případě zájmu o nastavení pro konkrétní přístroj se, prosím, obraťte na podporu Galen.
+
+## Kartotéka
+
+### Vyhledávání pacientů podle výše úhrad a pohledávek v Podrobném filtru
+
+V Podrobném filtru (záložka Základní, sekce Finance pacienta) lze nově vyhledávat pacienty podle rozsahu částek Úhrada celkem a Pohledávky celkem. Díky tomu lze rychle dohledat pacienty s vysokou pohledávkou nebo vysoce uhrazenou částkou, aniž by bylo nutné procházet jednotlivé karty pacientů.

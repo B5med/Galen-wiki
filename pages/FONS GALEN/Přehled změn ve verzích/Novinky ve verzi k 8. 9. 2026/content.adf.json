@@ -447,6 +447,39 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Kartotéka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Vyhledávání pacientů podle výše úhrad a pohledávek v Podrobném filtru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V Podrobném filtru (záložka Základní, sekce Finance pacienta) lze nově vyhledávat pacienty podle rozsahu částek Úhrada celkem a Pohledávky celkem. Díky tomu lze rychle dohledat pacienty s vysokou pohledávkou nebo vysoce uhrazenou částkou, aniž by bylo nutné procházet jednotlivé karty pacientů.",
+          "type": "text"
+        }
+      ]
     }
   ],
   "version": 1

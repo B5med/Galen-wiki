@@ -1,7 +1,7 @@
 ---
 title: "Laboratorní žádanky WebLims 2 ve FONS Galen"
-version: 5
-updated_at: 2026-09-04
+version: 8
+updated_at: 2026-09-07
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/537952257
 ---
 
@@ -21,7 +21,8 @@ FONS Galen (FG) umožňuje lékaři otevřít a vyplnit elektronickou laboratorn
 > [!warning]
 > **Důležité:** FG zprostředkovává **pouze** předání kontextu pacienta a otevření okna. **Samotné přihlášení do WL2 a jeho správa je vždy záležitostí zákazníka a administrátora dané laboratoře – FG do tohoto procesu nijak nezasahuje ani ho nezajišťuje.**
 
-- Prohlížeč, ve kterém se WL2 otevírá, si drží přihlašovací relaci – lékař se nemusí přihlašovat při každém otevření žádanky, pokud relace nevypršela.
+- Pro integraci WL2 do FG se vždy používá prohlížeč **Microsoft Edge**, bez ohledu na to, jaký prohlížeč má uživatel v počítači nastavený jako výchozí.
+- Přihlašovací údaje uživatele do WL2 **není možné nechat prohlížečem zapamatovat** – funkce prohlížeče pro uložení hesla zde není k dispozici.
 
 ---
 
@@ -55,6 +56,9 @@ Než se laboratoř WL2 objeví lékařům v modulu Formuláře, musí ji adminis
 6. Žádanku můžete **odeslat**, nebo **odeslat a vytisknout průvodku**. V případě potřeby můžete rovněž vytisknout štítek.
 7. Okno WL2 se po odeslání **nezavírá automaticky** – po dokončení je nutné jej zavřít tlačítkem **„Zpět“**.
 8. Po zavření okna FG automaticky načte seznam vyžádaných metod a založí záznam žádanky  – druh formuláře odpovídá kartě/dlaždici, kterou jste použili, a text obsahuje přehled vyžádaných metod.
+
+> [!abstract]
+> **Bílá (prázdná) stránka místo přihlašovacího okna WL2:** Pokud se při otevírání žádanky místo očekávaného přihlašovacího okna do WL2 zobrazí pouze bílá/prázdná stránka, stiskněte na této stránce klávesovou zkratku **Ctrl+F5** nebo **Ctrl+Shift+R** (vynucené znovunačtení stránky bez použití mezipaměti).
 
 ### Možné chybové hlášky po odeslání žádanky
 
@@ -92,6 +96,9 @@ Kromě záznamu, který FG založí automaticky po odeslání žádanky, si lék
 4. Ve výběrovém okně potvrďte tlačítkem **„Zobrazit“** (nebo zrušte tlačítkem **„Storno“**). Otevře se okno s aktuálním seznamem žádanek přímo z prostředí WL2.
 
 Pokud se přehled nepodaří načíst, zobrazí se srozumitelná chybová hláška a okno s přehledem se neotevře.
+
+> [!abstract]
+> **Bílá (prázdná) stránka místo přehledu WL2:** Pokud se po potvrzení výběru místo přehledu žádanek zobrazí pouze bílá/prázdná stránka (typicky ve chvíli, kdy se očekává přihlášení do WL2), stiskněte na této stránce klávesovou zkratku **Ctrl+F5** nebo **Ctrl+Shift+R** (vynucené znovunačtení stránky bez použití mezipaměti).
 
 > [!warning]
 > **Důležité upozornění:** Pokud si obsah žádanky později změníte nebo ji v tomto přehledu žádanek stornujete přímo ve WL2, **záznam žádanky ve FG (formulář v kartě pacienta) se o této změně nedozví a jeho obsah se neaktualizuje.** V kartě pacienta lze pouze založit novou žádanku a zobrazit seznam vyžádaných metod ve formuláři, ke kterému se dostanete proklikem z dekurzu nebo z historie formulářů. **FG neřeší obsah samotné žádanky (jaké metody byly vyžádány, jejich případnou změnu apod.) – v těchto případech je nutné se obrátit přímo na laboratoř.**

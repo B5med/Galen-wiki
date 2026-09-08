@@ -5,7 +5,7 @@
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "a465ba03d853"
+        "localId": "51ccbe77dbd3"
       },
       "content": [
         {
@@ -17,7 +17,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "c8343cc44def"
+        "localId": "503cff78614f"
       },
       "content": [
         {
@@ -42,14 +42,14 @@
     {
       "type": "rule",
       "attrs": {
-        "localId": "25f18625-c349-47f3-ba20-005c5fe0a7cf"
+        "localId": "d7aa29f34028"
       }
     },
     {
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "f3d902500686"
+        "localId": "0a9f6b19db65"
       },
       "content": [
         {
@@ -61,19 +61,19 @@
     {
       "type": "bulletList",
       "attrs": {
-        "localId": "ddea79fc-63fe-4be5-8f15-176cf01b5ff4"
+        "localId": "2c7eaa20f2f3"
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "86067aa5-daa5-40f6-9ab0-afb9a171dca4"
+            "localId": "9402aa37665c"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "a5c2af48d170"
+                "localId": "d774185bd0e9"
               },
               "content": [
                 {
@@ -96,13 +96,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "fb8e4d34-d224-4b08-9477-b87b515e809c"
+            "localId": "f5f681a6d947"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "6dc855f482c6"
+                "localId": "672a977bf2a6"
               },
               "content": [
                 {
@@ -132,13 +132,13 @@
       "type": "panel",
       "attrs": {
         "panelType": "warning",
-        "localId": "1bba49d9b9e0"
+        "localId": "e80fe3fa4666"
       },
       "content": [
         {
           "type": "paragraph",
           "attrs": {
-            "localId": "9ad88be0c3ac"
+            "localId": "00169e58bdc1"
           },
           "content": [
             {
@@ -183,23 +183,69 @@
     {
       "type": "bulletList",
       "attrs": {
-        "localId": "4123ed1c-e454-4c3f-9269-74a07adc800a"
+        "localId": "92e9a93d866f"
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "63a94c7f-7f92-4ea4-9e06-0d7ba3ab0103"
+            "localId": "c021bb9112ca"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "ec1e2b8dfc9d"
+                "localId": "da03407173d9"
               },
               "content": [
                 {
-                  "text": "Prohlížeč, ve kterém se WL2 otevírá, si drží přihlašovací relaci – lékař se nemusí přihlašovat při každém otevření žádanky, pokud relace nevypršela.",
+                  "text": "Pro integraci WL2 do FG se vždy používá prohlížeč ",
+                  "type": "text"
+                },
+                {
+                  "text": "Microsoft Edge",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", bez ohledu na to, jaký prohlížeč má uživatel v počítači nastavený jako výchozí.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a588e1f71d3d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2e67615f69dd"
+              },
+              "content": [
+                {
+                  "text": "Přihlašovací údaje uživatele do WL2 ",
+                  "type": "text"
+                },
+                {
+                  "text": "není možné nechat prohlížečem zapamatovat",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – funkce prohlížeče pro uložení hesla zde není k dispozici.",
                   "type": "text"
                 }
               ]
@@ -211,14 +257,14 @@
     {
       "type": "rule",
       "attrs": {
-        "localId": "de61472e-41d1-4171-97b0-927a550f688c"
+        "localId": "8824b6d1eea7"
       }
     },
     {
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "a19c19bf0007"
+        "localId": "40d447633509"
       },
       "content": [
         {
@@ -230,7 +276,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "d5e05e86f60e"
+        "localId": "1df1502c768f"
       },
       "content": [
         {
@@ -242,20 +288,20 @@
     {
       "type": "orderedList",
       "attrs": {
-        "localId": "e7b14fec-c3b6-4924-b8f8-d1baa64c21fb",
+        "localId": "daa987893553",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "b6fcb89d-9ecb-4372-814b-2bf6626a33b9"
+            "localId": "8b344e2057a9"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "fb465d66fbf8"
+                "localId": "d6d7f5f56f74"
               },
               "content": [
                 {
@@ -282,13 +328,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "4c4f0995-e1eb-453e-8c71-ad34f7b23a51"
+            "localId": "1e5dd8a3decc"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "e2b020bcc470"
+                "localId": "2094c0c199a9"
               },
               "content": [
                 {
@@ -315,13 +361,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "33dab9bb-e599-45af-8140-df65ff2bea77"
+            "localId": "a7b68a1c2c38"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "c1d95a0c5f5f"
+                "localId": "de825720efb4"
               },
               "content": [
                 {
@@ -333,19 +379,19 @@
             {
               "type": "bulletList",
               "attrs": {
-                "localId": "c65ae394-8f75-4ed8-9b8b-4737a68a5928"
+                "localId": "9154f1e47d3a"
               },
               "content": [
                 {
                   "type": "listItem",
                   "attrs": {
-                    "localId": "8f594774-d334-480e-a2a6-e8b35d4b2f08"
+                    "localId": "bb8c47947819"
                   },
                   "content": [
                     {
                       "type": "paragraph",
                       "attrs": {
-                        "localId": "837a34245a2c"
+                        "localId": "d199a023f809"
                       },
                       "content": [
                         {
@@ -384,13 +430,13 @@
                 {
                   "type": "listItem",
                   "attrs": {
-                    "localId": "b9a17317-2ed9-4e1c-a8a1-b1bd0361d3d9"
+                    "localId": "cd2997922021"
                   },
                   "content": [
                     {
                       "type": "paragraph",
                       "attrs": {
-                        "localId": "24059df23377"
+                        "localId": "95b31aeb25c5"
                       },
                       "content": [
                         {
@@ -426,13 +472,13 @@
                 {
                   "type": "listItem",
                   "attrs": {
-                    "localId": "47a1322e-217d-429b-8e4d-ae650353a0eb"
+                    "localId": "77d0d220694b"
                   },
                   "content": [
                     {
                       "type": "paragraph",
                       "attrs": {
-                        "localId": "9c7c7ad2d4ec"
+                        "localId": "7241b0612800"
                       },
                       "content": [
                         {
@@ -468,13 +514,13 @@
                 {
                   "type": "listItem",
                   "attrs": {
-                    "localId": "5b10d4e3-fc0f-43ba-ad97-159c9c9ab4df"
+                    "localId": "d5cb0feddaa5"
                   },
                   "content": [
                     {
                       "type": "paragraph",
                       "attrs": {
-                        "localId": "296b31a7d856"
+                        "localId": "b7d8d35a365c"
                       },
                       "content": [
                         {
@@ -501,13 +547,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "50213b1b-020e-4ea4-895c-9fd758709216"
+            "localId": "9539863313b6"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "4a41bd02a90f"
+                "localId": "06b66c5e773a"
               },
               "content": [
                 {
@@ -523,13 +569,13 @@
     {
       "type": "blockquote",
       "attrs": {
-        "localId": "e789cb70-c8bf-427d-b529-0d0b8c826325"
+        "localId": "9baa3e65d496"
       },
       "content": [
         {
           "type": "paragraph",
           "attrs": {
-            "localId": "bcd302e480f2"
+            "localId": "9e57abfc370b"
           },
           "content": [
             {
@@ -552,19 +598,19 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "e25ab9452bc9"
+        "localId": "fbef8a6375f5"
       }
     },
     {
       "type": "blockquote",
       "attrs": {
-        "localId": "db3c9374a7d5"
+        "localId": "65c89f1b6738"
       },
       "content": [
         {
           "type": "paragraph",
           "attrs": {
-            "localId": "27da5b8080b5"
+            "localId": "c64c1072b398"
           },
           "content": [
             {
@@ -612,14 +658,14 @@
     {
       "type": "rule",
       "attrs": {
-        "localId": "d07a8a54-2565-4755-9608-f5707bcc0d50"
+        "localId": "f9c5bbac8934"
       }
     },
     {
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "1da26f74c4fd"
+        "localId": "c3e2762537c1"
       },
       "content": [
         {
@@ -631,20 +677,20 @@
     {
       "type": "orderedList",
       "attrs": {
-        "localId": "ae1fcdd0-1421-48e5-8a5c-088308fa9a51",
+        "localId": "78b90279f70f",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "3bed6084-dabb-482a-9cc1-1f2daed35fe2"
+            "localId": "97aa8b942003"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "07ff320785a3"
+                "localId": "786cb496c19a"
               },
               "content": [
                 {
@@ -671,13 +717,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "227bfc9b-5e5f-4247-9694-98f5820a4f17"
+            "localId": "813e5b2d7757"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "5201b136086f"
+                "localId": "13fe27e4f1c8"
               },
               "content": [
                 {
@@ -691,13 +737,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "3c7dfe21-53c7-4530-9fd8-48ef482d1990"
+            "localId": "fc7a5dd33ba9"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "d8fa28bde360"
+                "localId": "ca2ed2093fba"
               },
               "content": [
                 {
@@ -711,13 +757,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "c1642a8e3565"
+            "localId": "cd5e7377b339"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "3be9b94dc4b5"
+                "localId": "b710c5f89388"
               },
               "content": [
                 {
@@ -731,13 +777,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "03f085c3-88a8-4218-bdaf-5333645f161f"
+            "localId": "5a682bd213b7"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "d27f142f3d0b"
+                "localId": "6952aa655ba2"
               },
               "content": [
                 {
@@ -751,13 +797,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "b748267c-9b65-4026-83a7-77be52d62d1a"
+            "localId": "31aa081c7bb0"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "3458c2e60c55"
+                "localId": "4a7b76128cc2"
               },
               "content": [
                 {
@@ -797,13 +843,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "40d3fefa-699c-47d6-b4c1-c57800968f70"
+            "localId": "6c47cf30e126"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "01ff29c63731"
+                "localId": "80dbd41e90f0"
               },
               "content": [
                 {
@@ -843,13 +889,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "9ef59df3-6044-4a69-a4c9-5a13f1dd3720"
+            "localId": "825ee5496a6b"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "dd4065112b0b"
+                "localId": "27d1fb1b6178"
               },
               "content": [
                 {
@@ -863,10 +909,66 @@
       ]
     },
     {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "d0a16e5b3b3e"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "feb101bcf8c0"
+          },
+          "content": [
+            {
+              "text": "Bílá (prázdná) stránka místo přihlašovacího okna WL2:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Pokud se při otevírání žádanky místo očekávaného přihlašovacího okna do WL2 zobrazí pouze bílá/prázdná stránka, stiskněte na této stránce klávesovou zkratku ",
+              "type": "text"
+            },
+            {
+              "text": "Ctrl+F5",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nebo ",
+              "type": "text"
+            },
+            {
+              "text": "Ctrl+Shift+R",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " (vynucené znovunačtení stránky bez použití mezipaměti).",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "heading",
       "attrs": {
         "level": 3,
-        "localId": "8178d17166dd"
+        "localId": "78511bde6b93"
       },
       "content": [
         {
@@ -880,13 +982,13 @@
       "attrs": {
         "layout": "default",
         "width": 760.0,
-        "localId": "efd09b05-feb7-4508-a235-0b81cf25ddd6"
+        "localId": "a0c61c3d3fa7"
       },
       "content": [
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "44fd4353-b171-471d-94fe-02c2e428bbe8"
+            "localId": "245a740afda6"
           },
           "content": [
             {
@@ -894,13 +996,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "6e026dc5-caa1-4c86-9ad8-6bde7e1cea77"
+                "localId": "81be50894dae"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "a2c2c52c2084"
+                    "localId": "3ccb93463c0c"
                   },
                   "content": [
                     {
@@ -916,13 +1018,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "f02fa0d8-8ff9-402b-8fd6-7d681adb3bb5"
+                "localId": "f0785960dbec"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "66221d6f49b0"
+                    "localId": "616e0e6aeb63"
                   },
                   "content": [
                     {
@@ -938,13 +1040,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "b0c7d5c8-cb34-4757-a823-2fe3401315c1"
+                "localId": "90a333bbdb27"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "a908f7b3d722"
+                    "localId": "382bc840cfe5"
                   },
                   "content": [
                     {
@@ -960,7 +1062,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "ce070a10-1315-49c1-a93e-e5bfa25b212f"
+            "localId": "1a7d9fe5308e"
           },
           "content": [
             {
@@ -968,13 +1070,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "19bc8e29-d2bc-4ada-ad60-b6d2ef704656"
+                "localId": "7771083bcf4a"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "8ff6d9550a36"
+                    "localId": "4b1dc54275bb"
                   },
                   "content": [
                     {
@@ -990,13 +1092,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "6c511099-fca5-4e9f-83c8-92464bc89727"
+                "localId": "5c3b3da8980b"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "42c4b30e376b"
+                    "localId": "09331ff67ae0"
                   },
                   "content": [
                     {
@@ -1012,13 +1114,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "5be4a100-7006-4798-9eb7-1ae7136ff9c9"
+                "localId": "b852bacb602e"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "d028deea5964"
+                    "localId": "68a2c03cb3f6"
                   },
                   "content": [
                     {
@@ -1034,7 +1136,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "3329acc0-0821-4c21-bb68-0712d045760f"
+            "localId": "22ee45126aed"
           },
           "content": [
             {
@@ -1042,13 +1144,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "d76bbbee-74a0-4134-9a45-067136c630f1"
+                "localId": "cc0fda6b60af"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "3bec80625c10"
+                    "localId": "ed9ca0550c7a"
                   },
                   "content": [
                     {
@@ -1064,13 +1166,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "bb50e330-c509-46ff-98b4-5764ac7102a1"
+                "localId": "7e16ab43ef1c"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "101f891574b1"
+                    "localId": "f3d993d0724e"
                   },
                   "content": [
                     {
@@ -1086,13 +1188,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "3f0b2339-f66f-4c3b-82fd-18e4d85a6e61"
+                "localId": "31dfb5e4ca2c"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "23b9832f75be"
+                    "localId": "aaee8cf8e117"
                   },
                   "content": [
                     {
@@ -1108,7 +1210,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "9514b276-3d48-4899-9cf4-529ddf6d9e6d"
+            "localId": "1f4fb99bbfc4"
           },
           "content": [
             {
@@ -1116,13 +1218,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "0c46071c-0b1d-4508-b4ab-d4246b26e751"
+                "localId": "85ba29be1257"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "cc9096f2f6e9"
+                    "localId": "63fa6204faad"
                   },
                   "content": [
                     {
@@ -1138,13 +1240,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "4e41e2d4-7f6d-4e6d-ad3a-12ef18d9793f"
+                "localId": "1bf5c07ff017"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "512164ca4712"
+                    "localId": "cd61d25559bc"
                   },
                   "content": [
                     {
@@ -1160,13 +1262,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "07ba94b9-021c-43f2-bc18-d41a65bfb6d4"
+                "localId": "83cf1a40b3de"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "15a7d2e1ff61"
+                    "localId": "7abbfb89accf"
                   },
                   "content": [
                     {
@@ -1182,7 +1284,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "9ac3cd6f-e1c7-4d80-890c-38802650a333"
+            "localId": "9f4bb7f31eef"
           },
           "content": [
             {
@@ -1190,13 +1292,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "c984dba3-e8b2-47f8-ad43-43bbb9a58c71"
+                "localId": "74d3b20ab3a9"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "380a442cbe7f"
+                    "localId": "9c9c1a5066ea"
                   },
                   "content": [
                     {
@@ -1212,13 +1314,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "a6229a65-2fb9-4cb5-b32b-3f4cd68a93a3"
+                "localId": "2520adb3c552"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "dbc552a06c3a"
+                    "localId": "65ee1a4bd254"
                   },
                   "content": [
                     {
@@ -1234,13 +1336,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "bcb67d0b-0fc6-41bb-8dd2-419ea3ddd02f"
+                "localId": "83a5beb947dd"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "8f17a0c290e2"
+                    "localId": "ae3d26530235"
                   },
                   "content": [
                     {
@@ -1258,7 +1360,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "ce00a97bf189"
+        "localId": "626e11639331"
       },
       "content": [
         {
@@ -1271,7 +1373,7 @@
       "type": "heading",
       "attrs": {
         "level": 3,
-        "localId": "1fa647178755"
+        "localId": "85c3b94e9673"
       },
       "content": [
         {
@@ -1283,7 +1385,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "7216173ead48"
+        "localId": "c3e646997f1a"
       },
       "content": [
         {
@@ -1308,14 +1410,14 @@
     {
       "type": "rule",
       "attrs": {
-        "localId": "9ef8e5f4-62f3-45db-b284-1c8a60cf590f"
+        "localId": "bb8699f5e95b"
       }
     },
     {
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "347f7ed5fd03"
+        "localId": "d0624025862d"
       },
       "content": [
         {
@@ -1327,7 +1429,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "9d3e6f1557fa"
+        "localId": "340c08d5f8c9"
       },
       "content": [
         {
@@ -1339,20 +1441,20 @@
     {
       "type": "orderedList",
       "attrs": {
-        "localId": "80d20668-4b5c-4955-b4eb-ccdb1369d019",
+        "localId": "284e6c540a64",
         "order": 1
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "56714a77-9671-4c5e-b276-f4324afef8f8"
+            "localId": "48f90055527c"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "51eef36a2de2"
+                "localId": "128a36c8ea99"
               },
               "content": [
                 {
@@ -1379,13 +1481,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "b945d511-057e-4aae-9950-2719bdedc545"
+            "localId": "8ace38081ecb"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "87fe26eaf619"
+                "localId": "7b67c9e8868a"
               },
               "content": [
                 {
@@ -1412,13 +1514,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "7292dfa7-1164-4e2a-9781-201c244f5954"
+            "localId": "607f9e700792"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "825283e95982"
+                "localId": "a98387eaf480"
               },
               "content": [
                 {
@@ -1436,13 +1538,13 @@
       "attrs": {
         "layout": "default",
         "width": 760.0,
-        "localId": "0f460210-1187-4a80-922a-d154da148a68"
+        "localId": "2cd7cbbe2f32"
       },
       "content": [
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "9dd5b2bf-259e-4085-9aab-c422a50c14e7"
+            "localId": "f136c5e5024a"
           },
           "content": [
             {
@@ -1450,13 +1552,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "cd44da81-cd94-4b91-b866-9f67b1e97b71"
+                "localId": "f25b88bd0526"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "b3701781c093"
+                    "localId": "bda399877eb1"
                   },
                   "content": [
                     {
@@ -1472,13 +1574,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "ed5b88cb-01e0-465e-9d50-d2e7192620d5"
+                "localId": "1669445e612b"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "b4936b084d35"
+                    "localId": "d1df018e9ce7"
                   },
                   "content": [
                     {
@@ -1494,13 +1596,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "4becba98-128b-459a-be16-663352578086"
+                "localId": "ae14c59bcb53"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "cabd80d13e0e"
+                    "localId": "ed5f860404e2"
                   },
                   "content": [
                     {
@@ -1516,7 +1618,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "60091705-596a-498c-8aca-53a9b8df4755"
+            "localId": "1bce21f20c84"
           },
           "content": [
             {
@@ -1524,13 +1626,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "6c72baf9-01a2-45a7-a9d0-ae713027eae3"
+                "localId": "308a616b17dd"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "01b188ba3af5"
+                    "localId": "e9d5a73969b5"
                   },
                   "content": [
                     {
@@ -1546,13 +1648,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "98ecf345-c72b-405c-8b31-3696ef4b299a"
+                "localId": "3cab21fd6245"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "27ba0bcad12e"
+                    "localId": "1cd77e07600d"
                   },
                   "content": [
                     {
@@ -1568,13 +1670,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "8652f336-1040-4d89-a6e7-8b3be39cc0cc"
+                "localId": "5caac517fd31"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "3dbbc617c132"
+                    "localId": "4d937900a928"
                   },
                   "content": [
                     {
@@ -1590,7 +1692,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "b082b0d5-c656-4f93-bf22-a44ff9e1c198"
+            "localId": "46a012f8e27b"
           },
           "content": [
             {
@@ -1598,13 +1700,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "af0c7377-0366-4bb5-a50c-2c41253eb8aa"
+                "localId": "d16470430f0c"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "39d3bdaeba32"
+                    "localId": "fa4f47449776"
                   },
                   "content": [
                     {
@@ -1620,13 +1722,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "f4e130ac-9d81-4059-82d8-5bf96b6a8c75"
+                "localId": "11383d0f5f0e"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "45f8aa79407c"
+                    "localId": "9a21de8a29e5"
                   },
                   "content": [
                     {
@@ -1642,13 +1744,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "23457833-f5a1-4bc6-9199-4940bcadd00d"
+                "localId": "6be16894526f"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "a3b16e451d91"
+                    "localId": "e7362c34e266"
                   },
                   "content": [
                     {
@@ -1664,7 +1766,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "06b14a3a-490a-49e4-bffc-7ea2fcfa29fa"
+            "localId": "3dba8bf0ff23"
           },
           "content": [
             {
@@ -1672,13 +1774,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "d2fa513b-e110-4012-880e-afad9ef8412f"
+                "localId": "e3abf71972e8"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "6ae91954566d"
+                    "localId": "af8923ba1ccf"
                   },
                   "content": [
                     {
@@ -1694,13 +1796,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "ef2efeb9-20d5-4ca7-bb82-83b80cafb359"
+                "localId": "1ed1185963b2"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "9fcd9837bdd1"
+                    "localId": "e60c380a014a"
                   },
                   "content": [
                     {
@@ -1716,13 +1818,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "d46d1db5-7f86-4446-bcd7-2f453b101949"
+                "localId": "af3a45fcc922"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "6844cbc37d4e"
+                    "localId": "3b965d931a64"
                   },
                   "content": [
                     {
@@ -1751,7 +1853,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "dcc4717e-6e8f-4a3f-9399-23cc1b0fac77"
+            "localId": "1566a345bfb0"
           },
           "content": [
             {
@@ -1759,13 +1861,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "0e1c3fbf-af0d-4041-9a79-83391d264bac"
+                "localId": "dbb76d040d87"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "9cbf2efd75f7"
+                    "localId": "7678452c47a9"
                   },
                   "content": [
                     {
@@ -1781,13 +1883,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "26eaa771-33d0-4f84-a535-fc460adf9954"
+                "localId": "84d0d3279c0b"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "6276723c3f79"
+                    "localId": "2b1f89fd5d97"
                   },
                   "content": [
                     {
@@ -1803,13 +1905,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "30f780d3-0cee-47eb-8238-181c4fce01fc"
+                "localId": "6f5a40e2226b"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "a3084d99a9af"
+                    "localId": "40a73943f74a"
                   },
                   "content": [
                     {
@@ -1825,7 +1927,7 @@
         {
           "type": "tableRow",
           "attrs": {
-            "localId": "8f6e4fc5-d789-4b56-bc71-6d792b9cf88a"
+            "localId": "da4944e03d84"
           },
           "content": [
             {
@@ -1833,13 +1935,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "67f1d239-95f5-4bd1-b559-59cb6f24a398"
+                "localId": "4726a62b4e29"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "a33edfe30c84"
+                    "localId": "d5f980fbb6b4"
                   },
                   "content": [
                     {
@@ -1855,13 +1957,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "d88f576b-a831-4f70-810c-dc1dbb4386b9"
+                "localId": "b71b40f7a9e9"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "3fa9380e612d"
+                    "localId": "3bb0135045a9"
                   },
                   "content": [
                     {
@@ -1877,13 +1979,13 @@
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1,
-                "localId": "0e4446b8-b752-40ca-952b-edf1658e1cc8"
+                "localId": "078467eb143c"
               },
               "content": [
                 {
                   "type": "paragraph",
                   "attrs": {
-                    "localId": "7a342931b2d2"
+                    "localId": "f60bd12ec7be"
                   },
                   "content": [
                     {
@@ -1927,20 +2029,20 @@
     {
       "type": "orderedList",
       "attrs": {
-        "localId": "fe0af4e4-392c-44c9-bbc6-f9ef3dfe5f72",
+        "localId": "23e902046a34",
         "order": 4
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "7bbd71ea-1878-422d-bf88-07ae1bc1de8a"
+            "localId": "27ad0ead201c"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "fd959d8943b0"
+                "localId": "fe68a2286c17"
               },
               "content": [
                 {
@@ -1982,7 +2084,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "880f351adcea"
+        "localId": "a39c355796a5"
       },
       "content": [
         {
@@ -1994,14 +2096,70 @@
     {
       "type": "panel",
       "attrs": {
-        "panelType": "warning",
-        "localId": "9241bfe8815d"
+        "panelType": "note",
+        "localId": "00c55df3ebe5"
       },
       "content": [
         {
           "type": "paragraph",
           "attrs": {
-            "localId": "6b14d1c1ce78"
+            "localId": "766d11564afd"
+          },
+          "content": [
+            {
+              "text": "Bílá (prázdná) stránka místo přehledu WL2:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Pokud se po potvrzení výběru místo přehledu žádanek zobrazí pouze bílá/prázdná stránka (typicky ve chvíli, kdy se očekává přihlášení do WL2), stiskněte na této stránce klávesovou zkratku ",
+              "type": "text"
+            },
+            {
+              "text": "Ctrl+F5",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nebo ",
+              "type": "text"
+            },
+            {
+              "text": "Ctrl+Shift+R",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " (vynucené znovunačtení stránky bez použití mezipaměti).",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "62dc0ceef1b6"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "4513bed4b918"
           },
           "content": [
             {
@@ -2046,14 +2204,14 @@
     {
       "type": "rule",
       "attrs": {
-        "localId": "67776e04-73df-486c-9c9d-9cfd216122f3"
+        "localId": "f1626937f253"
       }
     },
     {
       "type": "heading",
       "attrs": {
         "level": 2,
-        "localId": "e33fc4d5707a"
+        "localId": "08ce878bae9e"
       },
       "content": [
         {
@@ -2065,7 +2223,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "bd1b7a05fe22"
+        "localId": "ba5cc701479d"
       },
       "content": [
         {
@@ -2082,19 +2240,19 @@
     {
       "type": "bulletList",
       "attrs": {
-        "localId": "37e22522-fe61-4a2f-a4b2-58c68a89bda1"
+        "localId": "1975d05fd70f"
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "13524115-5f78-4a8a-a044-33ce86a6451c"
+            "localId": "9ec0b0e24510"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "60596cf2a78d"
+                "localId": "951c607c7dc2"
               },
               "content": [
                 {
@@ -2108,13 +2266,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "8e64ebf0-6962-4197-a3b5-4e221b78f31c"
+            "localId": "bced8d8be5af"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "0c446def4321"
+                "localId": "240536a80c74"
               },
               "content": [
                 {
@@ -2128,13 +2286,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "7dc6342d-9ae6-4feb-a31e-bd957ae74243"
+            "localId": "cbc51ad8739d"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "a33a0d52c63b"
+                "localId": "81476b3ce993"
               },
               "content": [
                 {
@@ -2150,7 +2308,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "ec5fc076f219"
+        "localId": "2939f3b4f162"
       },
       "content": [
         {
@@ -2167,19 +2325,19 @@
     {
       "type": "bulletList",
       "attrs": {
-        "localId": "21683ebf-d8d6-4494-a72a-690f1b13cbe3"
+        "localId": "d0507c8e8b63"
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "504a5499-c8cc-4bb1-a9cf-0cfc50d00f12"
+            "localId": "ba5a64e3c4a9"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "7f1bf5140998"
+                "localId": "25907f88d9bd"
               },
               "content": [
                 {
@@ -2193,13 +2351,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "77c47579-5790-47e7-97d3-9c39509e237e"
+            "localId": "072dc17dd48d"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "3caf88956c54"
+                "localId": "d6b2d150bcd9"
               },
               "content": [
                 {
@@ -2215,7 +2373,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "31239233588b"
+        "localId": "c8734a54e758"
       }
     }
   ],
