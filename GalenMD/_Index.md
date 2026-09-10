@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-09
+generated: 2026-09-10
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **9. 9. 2026**  ·  Celkem stránek: **333**  ·  Poslední sync z Confluence: 2026-09-09
+> **10. 9. 2026**  ·  Celkem stránek: **333**  ·  Poslední sync z Confluence: 2026-09-10
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **1** |
+| ♨️ | Do 14 dnů | **0** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **61** |
+| 📄 | Do 90 dnů | **62** |
 | 🗄️ | Starší než 3 měsíce | **265** |
 | ❓ | Bez data | **0** |
 
@@ -36,7 +36,7 @@ generated: 2026-09-09
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
-    - ♨️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
+    - 🌿 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 📄 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 📄 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
@@ -134,7 +134,7 @@ generated: 2026-09-09
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
     - 🗄️ [[Novinky ve verzi k 11. 2. 2026]] `v2` · 9. 2. 2026
-    - 🌿 [[Novinky ve verzi k 11. 8. 2026]] `v1` · 10. 8. 2026
+    - 📄 [[Novinky ve verzi k 11. 8. 2026]] `v1` · 10. 8. 2026
     - 🗄️ [[Novinky ve verzi k 12. 8. 2025]] `v4` · 25. 8. 2025
     - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
     - 📄 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
@@ -305,7 +305,7 @@ generated: 2026-09-09
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 🌿 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v8` · 7. 9. 2026
+      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v11` · 10. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025

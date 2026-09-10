@@ -1,7 +1,7 @@
 ---
 title: "Laboratorní žádanky WebLims 2 ve FONS Galen"
-version: 8
-updated_at: 2026-09-07
+version: 11
+updated_at: 2026-09-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/537952257
 ---
 
@@ -13,7 +13,34 @@ FONS Galen (FG) umožňuje lékaři otevřít a vyplnit elektronickou laboratorn
 
 ---
 
-## 2. Podmínky použití
+## 2. Přehled potřebných přihlašovacích údajů
+
+Aby integrace fungovala, musí si zákazník od laboratoře zajistit dva odlišné typy přístupů: údaje pro konfiguraci pracoviště a individuální uživatelské přihlašovací údaje pro každého lékaře.
+
+### A) Údaje pro konfiguraci pracoviště (zadává administrátor, jednorázově)
+
+| Údaj | Popis |
+| --- | --- |
+| URL WebLims | Adresa instalace WL2 dané laboratoře (vč. `https://`) |
+| Client ID | Přístupový identifikátor pro OAuth komunikaci FG ↔ WL2 |
+| Client Secret | Přístupové heslo/tajemství pro OAuth komunikaci FG ↔ WL2 |
+
+Tyto údaje se zadávají jednorázově do konfigurace pracoviště (viz kap. 4 – Nastavení integrace) a slouží k technické komunikaci mezi FG a WL2 na pozadí – lékař se s nimi nesetkává.
+
+### B) Uživatelské přihlašovací údaje (musí mít každý lékař/sestra individuálně)
+
+| Údaj | Popis |
+| --- | --- |
+| Uživatelské jméno / přihlašovací údaje do WL2 | Individuální přístup lékaře/sestry do portálu WebLims dané laboratoře – sdílený účet za pracoviště není podporován (NIS2) |
+
+Tyto údaje zadává lékař přímo do přihlašovacího okna WL2 při otevírání žádanky (viz kap. 5 – Vytvoření nové žádanky); nejde o stejné údaje jako Client ID/Secret v konfiguraci pracoviště.
+
+> [!abstract]
+> **Odkud údaje získat:** Oba typy údajů si zákazník musí vyžádat přímo od dané laboratoře / administrátora její instalace WL2 – FG tyto údaje nepřiděluje ani je neposkytuje.
+
+---
+
+## 3. Podmínky použití
 
 - **Každý lékař musí mít vlastní individuální přístup do WL2.** Sdílený účet za pracoviště podporován není (v souladu s NIS2). K pracovišti lze ve WL2 přiřadit více lékařů, kteří se pak v žádance nabízí k výběru.
 - Zákazník musí mít u dané laboratoře zřízen přístup na portál **WebLims** – nejde o stávající zákaznický portál FG.
@@ -26,7 +53,7 @@ FONS Galen (FG) umožňuje lékaři otevřít a vyplnit elektronickou laboratorn
 
 ---
 
-## 3. Nastavení integrace (role Správce)
+## 4. Nastavení integrace (role Správce)
 
 Než se laboratoř WL2 objeví lékařům v modulu Formuláře, musí ji administrátor pracoviště nakonfigurovat.
 
@@ -46,7 +73,7 @@ Než se laboratoř WL2 objeví lékařům v modulu Formuláře, musí ji adminis
 
 ---
 
-## 4. Vytvoření nové žádanky (role Lékař)
+## 5. Vytvoření nové žádanky (role Lékař)
 
 1. Otevřete kartu pacienta a přejděte do modulu **Formuláře**.
 2. Pokud má vaše pracoviště nakonfigurovánu alespoň jednu aktivní laboratoř WL2, uvidíte kartu s názvem odpovídající názvu formuláře, který jste zadali v nastavení pracoviště (např. Synlab, MeDiLa apod.). Pokud je laboratoří více, zobrazí se karty vedle sebe. Pokud pracoviště nemá žádnou aktivní konfiguraci, karty se nezobrazí vůbec.
@@ -77,7 +104,7 @@ Tato volba se **nezapamatovává** – při každém vytváření žádanky je p
 
 ---
 
-## 5. Živý přehled odeslaných žádanek WL2
+## 6. Živý přehled odeslaných žádanek WL2
 
 Kromě záznamu, který FG založí automaticky po odeslání žádanky, si lékař i správce mohou kdykoli zobrazit aktuální seznam žádanek přímo z WL2.
 
@@ -105,7 +132,7 @@ Pokud se přehled nepodaří načíst, zobrazí se srozumitelná chybová hláš
 
 ---
 
-## 6. Shrnutí – co integrace řeší a co ne
+## 7. Shrnutí – co integrace řeší a co ne
 
 **Řeší:**
 
