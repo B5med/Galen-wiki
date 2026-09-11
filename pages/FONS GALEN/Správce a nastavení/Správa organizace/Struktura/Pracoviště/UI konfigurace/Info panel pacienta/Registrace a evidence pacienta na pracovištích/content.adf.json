@@ -1,0 +1,764 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "0c7bdcf6fc90"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6585244d8e8d"
+          },
+          "content": [
+            {
+              "text": "Funkcionalita umožňuje v modulu Objednávání (na recepci i na pracovišti) vidět v kartotéce pacienta přehled všech aktuálně platných registrací na kapitačních pracovištích a přehled dalších pracovišť, kde je pacient evidován.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "234aa4ed0f4e"
+      },
+      "content": [
+        {
+          "text": "Vysvětlení pojmů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "7e2fd9e627fb"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ba010da4d444"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "08e869092d4d"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "96a52b034dfd"
+                  },
+                  "content": [
+                    {
+                      "text": "Pojem",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8f9c3ea423d8"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b9af49033792"
+                  },
+                  "content": [
+                    {
+                      "text": "Význam",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ec0220fe58c9"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1a71b38c68d1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "daa6f0912ba9"
+                  },
+                  "content": [
+                    {
+                      "text": "Registrující pracoviště",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "058f2b406f39"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8ca39d17b0cb"
+                  },
+                  "content": [
+                    {
+                      "text": "Kapitační pracoviště s odborností ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "001",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (všeobecné praktické lékařství), ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "002",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (PLDD) nebo ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "603",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (gynekologie a porodnictví), u kterého má pacient v kartě aktuálně platnou registraci. Jde tedy o pracoviště/lékaře, ke kterému je pacient formálně zaregistrován.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2425c3e2259b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "affaf8bf9ea4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4619609172ae"
+                  },
+                  "content": [
+                    {
+                      "text": "Evidující pracoviště",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2eddf4eacd67"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f60072d8f913"
+                  },
+                  "content": [
+                    {
+                      "text": "Pracoviště ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "mimo",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " odbornosti 001, 002 a 603, na kterém má pacient vykázán alespoň jeden výkon.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a690d34a33c1"
+      },
+      "content": [
+        {
+          "text": "Chování při chybějícím pracovišti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "e345305122cd"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cef1bd7b3965"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "019dbf8b73a8"
+              },
+              "content": [
+                {
+                  "text": "Pokud pacient ",
+                  "type": "text"
+                },
+                {
+                  "text": "nemá žádné registrující (kapitační) pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", informace o tom se na kartotéce pacienta přesto ",
+                  "type": "text"
+                },
+                {
+                  "text": "vypíše",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (zobrazí se text/stav upozorňující, že pacient nemá platnou registraci).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b7f6cf240893"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "08953490ce26"
+              },
+              "content": [
+                {
+                  "text": "Pokud pacient ",
+                  "type": "text"
+                },
+                {
+                  "text": "nemá žádné evidující pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ", celá sekce s evidujícími pracovišti se u daného pacienta ",
+                  "type": "text"
+                },
+                {
+                  "text": "vůbec nezobrazí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f29b7504fc6f"
+      },
+      "content": [
+        {
+          "text": "Nastavení zobrazení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8b216e363eae"
+      },
+      "content": [
+        {
+          "text": "Zobrazení registrujících a evidujících pracovišť lze nezávisle zapnout/vypnout na dvou úrovních:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b6ef12fe6739"
+      },
+      "content": [
+        {
+          "text": "1. Na úrovni společnosti",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0a27f6e684a7"
+      },
+      "content": [
+        {
+          "text": "Přístup: ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace společnosti → záložka Info panel pacienta (Recepce)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0e6efe839579"
+      },
+      "content": [
+        {
+          "text": "Zde je možné u volby zobrazení nastavit, zda se mají registrující a evidující pracoviště zobrazovat pro celou společnost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 552,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 552,
+            "alt": "image-20260910-130726.png",
+            "id": "3d222f7c-0cc1-4ddb-ad48-7903e9091437",
+            "collection": "contentId-584220674",
+            "type": "file",
+            "localId": "8920581b4a00",
+            "height": 662
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "15084334f298"
+          },
+          "content": [
+            {
+              "text": "Konfigurace zobrazení registrací a evidencí pacienta na úrovni společnosti - nastavení recepce.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "2da5ec98ff5d"
+      },
+      "content": [
+        {
+          "text": "2. Na úrovni pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d132b7151276"
+      },
+      "content": [
+        {
+          "text": "Přístup: ",
+          "type": "text"
+        },
+        {
+          "text": "UI konfigurace pracoviště → záložka Info panel pacienta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4d6ac254e438"
+      },
+      "content": [
+        {
+          "text": "Stejná volba lze nastavit i na konkrétním pracovišti – nastavení na úrovni pracoviště tak umožňuje upravit chování odlišně od výchozí konfigurace společnosti.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 549,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 549,
+            "alt": "image-20260910-130814.png",
+            "id": "a803900b-5c81-43c0-a14c-a5afa73379b5",
+            "collection": "contentId-584220674",
+            "type": "file",
+            "localId": "c392fd0539b2",
+            "height": 657
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "f4cf86fce598"
+          },
+          "content": [
+            {
+              "text": "Konfigurace zobrazení registrací a evidencí pacienta na úrovni pracoviště.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "efc688e44ebf"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b5afbdf58d0e"
+          },
+          "content": [
+            {
+              "text": "Výchozí nastavení je zobrazení ",
+              "type": "text"
+            },
+            {
+              "text": "obou",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " – registrujících i evidujících pracovišť.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2383333aa0e3"
+      },
+      "content": [
+        {
+          "text": "Zobrazení na kartotéce pacienta (modul Objednávání / Recepce)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "89b649cebd70"
+      },
+      "content": [
+        {
+          "text": "V kartotéce pacienta se v pravém panelu zobrazí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "3243b36427a2"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4256fcdc513c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e29388ebb8c1"
+              },
+              "content": [
+                {
+                  "text": "Seznam všech aktuálně platných ",
+                  "type": "text"
+                },
+                {
+                  "text": "registrací",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " na kapitačních pracovištích (001/002/603) v rámci přihlášené provozovny, seřazený v pořadí ",
+                  "type": "text"
+                },
+                {
+                  "text": "praktik → PLDD → gynekologie",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9999abe58864"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1adcc48aae23"
+              },
+              "content": [
+                {
+                  "text": "Rozbalovací sekce ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Další pracoviště, kde je pacient evidován“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " se seznamem pracovišť mimo tyto tři odbornosti, na kterých má pacient vykázán alespoň jeden výkon.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dec43a30373e"
+      },
+      "content": [
+        {
+          "text": "Díky tomu má recepce rychlejší a přesnější přehled o tom, ke kterému konkrétnímu lékaři/pracovišti pacienta objednat, a to i na pracovištích s více lékaři stejné odbornosti (např. více gynekologů).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1917,
+            "alt": "image-20260910-130917.png",
+            "id": "b99f4520-981b-4bb8-9aa9-0269fdfcb995",
+            "collection": "contentId-584220674",
+            "type": "file",
+            "localId": "d5056b651c06",
+            "height": 1028
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "341171e542b0"
+          },
+          "content": [
+            {
+              "text": "Zobrazení modulu objednávání.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3fa6397d4960"
+      }
+    }
+  ],
+  "version": 1
+}

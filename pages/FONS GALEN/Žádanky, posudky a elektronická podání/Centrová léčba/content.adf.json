@@ -528,6 +528,26 @@
               ]
             }
           ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a272eacd4ab1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "42aee372918f"
+              },
+              "content": [
+                {
+                  "text": "Pro navigaci v kartě pacienta je možné použít spodní navigační lištu.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -542,23 +562,23 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1916,
-            "alt": "obrazek-20260224-081902.png",
-            "id": "0c565e22-f5c3-44a4-9298-a5b1d429e379",
+            "width": 1917,
+            "alt": "image-20260910-125202.png",
+            "id": "bdfd18b0-898a-453a-80b6-292d7db32434",
             "collection": "contentId-281739265",
             "type": "file",
-            "localId": "d6a500a8dc2e",
-            "height": 1014
+            "localId": "8902d9361156",
+            "height": 1030
           }
         },
         {
           "type": "caption",
           "attrs": {
-            "localId": "a28b4d06e046"
+            "localId": "589101527ed1"
           },
           "content": [
             {
-              "text": "Centrová léčba",
+              "text": "Modul centrové léčby",
               "type": "text"
             }
           ]
@@ -566,9 +586,9 @@
       ]
     },
     {
-      "type": "rule",
+      "type": "paragraph",
       "attrs": {
-        "localId": "a87da50777c0"
+        "localId": "17a9d72f123b"
       }
     },
     {

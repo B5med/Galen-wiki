@@ -3088,10 +3088,257 @@
       ]
     },
     {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a06c06187eb5"
+      },
+      "content": [
+        {
+          "text": "Zobrazení zámků uživatelům bez aktivního modulu EZD",
+          "type": "text"
+        }
+      ]
+    },
+    {
       "type": "paragraph",
       "attrs": {
-        "localId": "361a4583d117"
-      }
+        "localId": "778c4275fe9d"
+      },
+      "content": [
+        {
+          "text": "Uživatelé bez aktivního modulu EZD (typicky zdravotní sestra) také vidí jednoznačnou informaci o tom, že dokumentace byla lékařem podepsána a uzamčena – aniž by museli zjišťovat stav procházením historie změn.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0d66f823ae81"
+      },
+      "content": [
+        {
+          "text": "Do přehledů i detailů vybraných modulů byl doplněn viditelný indikátor uzamčení (ikona zámku), který se zobrazuje ",
+          "type": "text"
+        },
+        {
+          "text": "i uživatelům bez aktivně zapnutého modulu EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Díky tomu mají vždy přehled o tom, že je záznam podepsán a uzamčen (a tedy je záznam již needitovatelný).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "86dbc5a0d7f0"
+      },
+      "content": [
+        {
+          "text": "Zámek se zobrazuje v:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "96c1cd5c-07af-464d-8982-8776fad7c37b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "cb696f0d-d61e-45b1-a9a9-f4072c97e0b8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9eb2bdd6c6df"
+              },
+              "content": [
+                {
+                  "text": "Dekurzu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1917,
+                    "alt": "image-20260910-133035.png",
+                    "id": "c2abe2d2-afc2-40c4-ad4e-c116b3f0271e",
+                    "collection": "contentId-47546437",
+                    "type": "file",
+                    "localId": "6ecb6f3be5e6",
+                    "height": 446
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "023d8ba24fd6"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2986c57a-56e7-45ce-a5b4-13222f3fbd87"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c311b50a381f"
+              },
+              "content": [
+                {
+                  "text": "Medikaci",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 255,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 255,
+                    "alt": "image-20260910-133120.png",
+                    "id": "1a85006f-b059-4f99-b6c1-edd625e9e48a",
+                    "collection": "contentId-47546437",
+                    "type": "file",
+                    "localId": "1cb2916d8f23",
+                    "height": 71
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d2cb9056-0409-4d26-9c34-8b48256c31ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c44cac014739"
+              },
+              "content": [
+                {
+                  "text": "Očkování",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 658,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 658,
+                    "alt": "image-20260910-133140.png",
+                    "id": "5bf265dd-0c62-40f4-8f6c-ac286c826c17",
+                    "collection": "contentId-47546437",
+                    "type": "file",
+                    "localId": "0983ba1d6d3d",
+                    "height": 39
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "0c9408bba787"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "bcacb93305ee"
+          },
+          "content": [
+            {
+              "text": "Jde pouze o ",
+              "type": "text"
+            },
+            {
+              "text": "zobrazení informace o uzamčení",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " – uživatel bez aktivního modulu EZD tak jako dříve nemá možnost podepsaný záznam sám stornovat/odemknout. Stornovat může pouze uživatel, který záznam podepsal.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
     }
   ],
   "version": 1

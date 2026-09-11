@@ -1,7 +1,7 @@
 ---
 title: "Centrová léčba"
-version: 2
-updated_at: 2026-02-24
+version: 3
+updated_at: 2026-09-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/281739265
 ---
 
@@ -50,10 +50,9 @@ V klinickém pracovním postupu typicky přistoupíte do modulu po ambulantní n
 4. Záložka Podání zobrazuje přehled jednotlivých aplikací léčiva ke každé léčbě.
 5. Použijte filtry v horní části obrazovky pro vyhledání podle pacienta, léčiva, stavu, paragrafu nebo časového období.
 6. Dvojklikem na řádek otevřete detail léčby nebo detail podání.
+7. Pro navigaci v kartě pacienta je možné použít spodní navigační lištu.
 
-![obrazek-20260224-081902.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/obrazek-20260224-081902.png>)
-
----
+![image-20260910-125202.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Centrová léčba/assets/image-20260910-125202.png>)
 
 ## Zahájení nové léčby pacienta
 

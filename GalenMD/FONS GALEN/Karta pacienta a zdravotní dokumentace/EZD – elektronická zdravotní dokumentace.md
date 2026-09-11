@@ -1,7 +1,7 @@
 ---
 title: "EZD – elektronická zdravotní dokumentace"
-version: 5
-updated_at: 2026-02-16
+version: 6
+updated_at: 2026-09-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/47546437
 ---
 
@@ -260,3 +260,25 @@ Pokud dokument bez ohledu na jeho skartační typ ještě nemá být skartován,
 5. **Skartační řízení**
 
 Po skartaci je dokument z archivu smazán, zůstává pouze záznam o dokumentu
+
+## Zobrazení zámků uživatelům bez aktivního modulu EZD
+
+Uživatelé bez aktivního modulu EZD (typicky zdravotní sestra) také vidí jednoznačnou informaci o tom, že dokumentace byla lékařem podepsána a uzamčena – aniž by museli zjišťovat stav procházením historie změn.
+
+Do přehledů i detailů vybraných modulů byl doplněn viditelný indikátor uzamčení (ikona zámku), který se zobrazuje **i uživatelům bez aktivně zapnutého modulu EZD**. Díky tomu mají vždy přehled o tom, že je záznam podepsán a uzamčen (a tedy je záznam již needitovatelný).
+
+Zámek se zobrazuje v:
+
+- **Dekurzu**
+
+   ![image-20260910-133035.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260910-133035.png>)
+
+- **Medikaci**
+
+   ![image-20260910-133120.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260910-133120.png>)
+- **Očkování**
+
+   ![image-20260910-133140.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260910-133140.png>)
+
+> [!info]
+> Jde pouze o **zobrazení informace o uzamčení** – uživatel bez aktivního modulu EZD tak jako dříve nemá možnost podepsaný záznam sám stornovat/odemknout. Stornovat může pouze uživatel, který záznam podepsal.

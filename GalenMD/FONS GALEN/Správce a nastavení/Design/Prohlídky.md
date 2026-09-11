@@ -1,7 +1,7 @@
 ---
 title: "Prohlídky"
-version: 10
-updated_at: 2026-06-01
+version: 11
+updated_at: 2026-09-11
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315
 ---
 
@@ -184,20 +184,20 @@ U samotné položky lze definovat:
 ## Výkony
 
 V záložce Výkony je možné definovat výkony, které může uživatel vykázat přímo z dané prohlídky po stisku tlačítka ![image-20250627-083536.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083536.png>)
-.
+. Pokud uživatel daný výkon nemá nasmlouvaný, aplikace ho na možnost vykázání neupozorní.
 
 ![image-20250627-083555.png](<../../../../pages/FONS GALEN/Správce a nastavení/Design/Prohlídky/assets/image-20250627-083555.png>)
 Zadané výkony mohu mít tři různé podmínky, za kterých jsou vykazovány
 
-- Hlavní výkony
+- **Hlavní výkony**
 
    - Při vykazování výkonů lze vybrat právě jeden z hlavních výkonů
 
 Např. pro preventivní prohlídku budou definované dva hlavní výkony: KOMPLEXNÍ VYŠETŘENÍ PRAKTICKÝM LÉKAŘEM nebo OPAKOVANÉ KOMPLEXNÍ VYŠETŘENÍ PRAKTICKÝM LÉKAŘEM
 
-- Svázané výkony
+- **Svázané výkony**
 
-   - Uživatel bude mít možnost vybrat žádný až více svázaných výkonů
+   - Uživatel bude mít možnost vybrat jeden až více svázaných výkonů
 
 Např. pro preventivní prohlídku může být jako svázaný výkon definován Signální výkon 01543
 
@@ -206,6 +206,9 @@ Např. pro preventivní prohlídku může být jako svázaný výkon definován 
    - Uživatel bude mít možnost vybrat žádný až více volitelných výkonů
 
 Např. pro preventivní prohlídku může být jako volitelný výkon definován výkon ČASNÝ ZÁCHYT DEMENCE V ORDINACI PRAKTICKÉHO LÉKAŘE
+
+> [!abstract]
+> Pokud uživatel k výkonu definuje také diagnózu, tato diagnóza bude zobrazena na tlačítku výkonu při vykazování z prohlídky. Je tak možné zadat více stejných výkonů vždy s jinou diagnózou.
 
 ## XSL transformace
 

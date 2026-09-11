@@ -2511,7 +2511,7 @@
           }
         },
         {
-          "text": ".",
+          "text": ". Pokud uživatel daný výkon nemá nasmlouvaný, aplikace ho na možnost vykázání neupozorní.",
           "type": "text"
         }
       ]
@@ -2570,7 +2570,12 @@
               "content": [
                 {
                   "text": "Hlavní výkony",
-                  "type": "text"
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
                 }
               ]
             },
@@ -2646,7 +2651,12 @@
               "content": [
                 {
                   "text": "Svázané výkony",
-                  "type": "text"
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
                 }
               ]
             },
@@ -2669,7 +2679,7 @@
                       },
                       "content": [
                         {
-                          "text": "Uživatel bude mít možnost vybrat žádný až více svázaných výkonů",
+                          "text": "Uživatel bude mít možnost vybrat jeden až více svázaných výkonů",
                           "type": "text"
                         }
                       ]
@@ -2780,6 +2790,27 @@
         {
           "text": "Např. pro preventivní prohlídku může být jako volitelný výkon definován výkon ČASNÝ ZÁCHYT DEMENCE V ORDINACI PRAKTICKÉHO LÉKAŘE",
           "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "note",
+        "localId": "7e0b52d96b7e"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "34869e7823c2"
+          },
+          "content": [
+            {
+              "text": "Pokud uživatel k výkonu definuje také diagnózu, tato diagnóza bude zobrazena na tlačítku výkonu při vykazování z prohlídky. Je tak možné zadat více stejných výkonů vždy s jinou diagnózou. ",
+              "type": "text"
+            }
+          ]
         }
       ]
     },

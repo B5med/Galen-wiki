@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-10
+generated: 2026-09-11
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **10. 9. 2026**  ·  Celkem stránek: **333**  ·  Poslední sync z Confluence: 2026-09-10
+> **11. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-11
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **0** |
+| 🔥 | Do 3 dnů | **5** |
+| ♨️ | Do 14 dnů | **1** |
 | 🌿 | Do 30 dnů | **4** |
 | 📄 | Do 90 dnů | **62** |
-| 🗄️ | Starší než 3 měsíce | **265** |
+| 🗄️ | Starší než 3 měsíce | **262** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -46,7 +46,7 @@ generated: 2026-09-10
     - 📄 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
-    - 🗄️ [[EZD – elektronická zdravotní dokumentace]] `v5` · 16. 2. 2026
+    - 🔥 [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 📄 [[Modul ordinace]] `v7` · 16. 6. 2026
     - 📄 [[Odložení pacienta]] `v2` · 25. 6. 2026
@@ -157,12 +157,12 @@ generated: 2026-09-10
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
-    - 🔥 [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
+    - ♨️ [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
     - 🗄️ [[Novinky ve verzi k 9. 9. 2025]] `v4` · 23. 9. 2025
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 🗄️ [[Prohlídky]] `v10` · 1. 6. 2026
+      - 🔥 [[Prohlídky]] `v11` · 11. 9. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -213,6 +213,7 @@ generated: 2026-09-10
           - 🗄️ **[[UI konfigurace]]** `v4` · 10. 12. 2025
             - 🗄️ **[[Info panel pacienta]]** `v2` · 11. 12. 2025
               - 🗄️ [[Info panel pacienta v Nástrojích]] `v1` · 19. 3. 2026
+              - 🔥 [[Registrace a evidence pacienta na pracovištích]] `v2` · 10. 9. 2026
             - 🗄️ [[Záložka UI konfigurace]] `v3` · 29. 1. 2026
           - 🗄️ [[Předepsání eReceptu pod jiným IČP]] `v1` · 17. 9. 2025
           - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025
@@ -330,7 +331,7 @@ generated: 2026-09-10
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
       - 📄 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
-    - 🗄️ [[Centrová léčba]] `v2` · 24. 2. 2026
+    - 🔥 [[Centrová léčba]] `v3` · 10. 9. 2026
     - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
