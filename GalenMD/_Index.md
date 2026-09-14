@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-13
+generated: 2026-09-14
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **13. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-13
+> **14. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-14
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **5** |
-| ♨️ | Do 14 dnů | **1** |
+| 🔥 | Do 3 dnů | **1** |
+| ♨️ | Do 14 dnů | **5** |
 | 🌿 | Do 30 dnů | **2** |
-| 📄 | Do 90 dnů | **64** |
-| 🗄️ | Starší než 3 měsíce | **262** |
+| 📄 | Do 90 dnů | **63** |
+| 🗄️ | Starší než 3 měsíce | **263** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -46,7 +46,7 @@ generated: 2026-09-13
     - 📄 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
-    - 🔥 [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
+    - ♨️ [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 📄 [[Modul ordinace]] `v7` · 16. 6. 2026
     - 📄 [[Odložení pacienta]] `v2` · 25. 6. 2026
@@ -140,7 +140,7 @@ generated: 2026-09-13
     - 📄 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
-    - 📄 [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
+    - 🗄️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
@@ -213,7 +213,7 @@ generated: 2026-09-13
           - 🗄️ **[[UI konfigurace]]** `v4` · 10. 12. 2025
             - 🗄️ **[[Info panel pacienta]]** `v2` · 11. 12. 2025
               - 🗄️ [[Info panel pacienta v Nástrojích]] `v1` · 19. 3. 2026
-              - 🔥 [[Registrace a evidence pacienta na pracovištích]] `v2` · 10. 9. 2026
+              - ♨️ [[Registrace a evidence pacienta na pracovištích]] `v2` · 10. 9. 2026
             - 🗄️ [[Záložka UI konfigurace]] `v3` · 29. 1. 2026
           - 🗄️ [[Předepsání eReceptu pod jiným IČP]] `v1` · 17. 9. 2025
           - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025
@@ -306,7 +306,7 @@ generated: 2026-09-13
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 📄 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v11` · 10. 9. 2026
+      - ♨️ [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v11` · 10. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025
@@ -331,7 +331,7 @@ generated: 2026-09-13
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
       - 📄 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
-    - 🔥 [[Centrová léčba]] `v3` · 10. 9. 2026
+    - ♨️ [[Centrová léčba]] `v3` · 10. 9. 2026
     - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
