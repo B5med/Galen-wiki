@@ -1,7 +1,7 @@
 ---
 title: "Odesílání lékařských zpráv"
-version: 3
-updated_at: 2026-05-26
+version: 5
+updated_at: 2026-09-14
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/52985868
 ---
 
@@ -28,3 +28,12 @@ V dekurzu lze také otevřít přílohu dané LZ, kterou otevřeme stiskem hyper
 
 ![image-20250623-085414.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/Odesílání lékařských zpráv/assets/image-20250623-085414.png>)
 Pokud Všechny přílohy pacienta lze najít v okně historie pacienta (v dolní modré liště) výběrem položky Přílohy.
+
+## Odesílání uzamčených záznamů
+
+I uzamčenou (archivovanou) lékařskou zprávu lze odeslat výše popsaným způsobem přes tlačítko Odeslat – v tomto případě se ale vždy odesílá pouze text zprávy.
+
+Pokud je potřeba odeslat podepsanou verzi dokumentu, je nutné použít náhled podepsaného dokumentu a tlačítko **Odeslat e-zprávou**.
+
+![image-20260914-123145.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/Odesílání lékařských zpráv/assets/image-20260914-123145.png>)
+![image-20260914-123241.png](<../../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Lékařská zpráva/Odesílání lékařských zpráv/assets/image-20260914-123241.png>)

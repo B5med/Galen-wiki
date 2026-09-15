@@ -4,11 +4,11 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "badd006f9183"
+        "localId": "8ed1511c8684"
       },
       "content": [
         {
-          "text": "Dekurz je možné odeslat jinému lékaři přes funkcionalitu eZpráva. Zprávu lze odeslat přímo z aktuálního dekurzu pacienta pomocí ikony obálky. Nebo z vybraného staršího dekurzu otevřeném v editačním módu opět přes ikonu obálky.",
+          "text": "Dekurz je možné odeslat jinému lékaři přes funkcionalitu eZpráva. Zprávu lze odeslat přímo z aktuálního dekurzu pacienta pomocí ikony obálky. Nebo z vybraného staršího dekurzu otevřeném v editačním módu opět přes ikonu obálky.",
           "type": "text"
         }
       ]
@@ -29,7 +29,7 @@
             "id": "1d90dffd-bc0e-4871-811d-4be7d4591f3d",
             "collection": "contentId-419463171",
             "type": "file",
-            "localId": "d1b4c7adc0af",
+            "localId": "0711cd9c860b",
             "height": 281
           }
         }
@@ -38,7 +38,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "0dae3f74dfe2"
+        "localId": "bcb37237670a"
       },
       "content": [
         {
@@ -50,19 +50,19 @@
     {
       "type": "bulletList",
       "attrs": {
-        "localId": "467d617c6b6d"
+        "localId": "c551ce46-35f4-4805-9b9c-7e6b67fe9bde"
       },
       "content": [
         {
           "type": "listItem",
           "attrs": {
-            "localId": "dd4249487aed"
+            "localId": "cd19f835-8888-4b63-93f4-6c6a041d473e"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "3127761c2e72"
+                "localId": "4e41ed1274ad"
               },
               "content": [
                 {
@@ -76,13 +76,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "3939f8463843"
+            "localId": "0cfbc0b0-b0ce-45a4-aaf4-b288b8188f9a"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "12644eff3de7"
+                "localId": "7735c4abe85f"
               },
               "content": [
                 {
@@ -96,13 +96,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "260e481398f2"
+            "localId": "7a37311d-7541-4317-8053-336956623f3e"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "a8c742e1e0f0"
+                "localId": "2ff2daffc7c5"
               },
               "content": [
                 {
@@ -116,13 +116,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "aba4cc9fec41"
+            "localId": "520a0284-faef-4106-84b8-8d7ef6fbacf4"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "6c9b9722a869"
+                "localId": "35c624057313"
               },
               "content": [
                 {
@@ -136,13 +136,13 @@
         {
           "type": "listItem",
           "attrs": {
-            "localId": "1f86c645bbc9"
+            "localId": "8c42591f-a719-4d98-bf98-ac39df7556e5"
           },
           "content": [
             {
               "type": "paragraph",
               "attrs": {
-                "localId": "c2434a438929"
+                "localId": "4126d53e4ff7"
               },
               "content": [
                 {
@@ -171,8 +171,102 @@
             "id": "1e0cddca-434f-4aed-9155-7ca3333369f1",
             "collection": "contentId-419463171",
             "type": "file",
-            "localId": "db6a9f7d3817",
+            "localId": "e69e9f4bc106",
             "height": 396
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "d3fd1c9ef152"
+      },
+      "content": [
+        {
+          "text": "Odesílání uzamčených záznamů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2a024bc26d8"
+      },
+      "content": [
+        {
+          "text": "Pokud je denní záznam v dekurzu uzamčen v rámci EZD (tj. odeslán do archivu), není již možné jej odeslat prostřednictvím ikony obálky u záznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c2d62ee7e193"
+      },
+      "content": [
+        {
+          "text": "Podepsaný dokument lze i v tomto případě odeslat, a to z náhledu podepsaného dokumentu pomocí tlačítka ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslat e-zprávou",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1622,
+            "alt": "image-20260914-121631.png",
+            "id": "238585e1-24ed-4a1d-a4de-5eb495f7f896",
+            "collection": "contentId-419463171",
+            "type": "file",
+            "localId": "2a8c300cfa30",
+            "height": 174
+          }
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1017,
+            "alt": "image-20260914-121804.png",
+            "id": "77c086ea-ff3f-433a-9ba8-0cb4fdefd7d1",
+            "collection": "contentId-419463171",
+            "type": "file",
+            "localId": "a84b73cd743a",
+            "height": 971
           }
         }
       ]
@@ -180,7 +274,13 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "e069e710a97f"
+        "localId": "87dea3de8e54"
+      }
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "08ea4a949501"
       }
     }
   ],

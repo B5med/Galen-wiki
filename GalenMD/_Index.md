@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-14
+generated: 2026-09-15
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **14. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-14
+> **15. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-15
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **5** |
+| 🔥 | Do 3 dnů | **2** |
+| ♨️ | Do 14 dnů | **6** |
 | 🌿 | Do 30 dnů | **2** |
-| 📄 | Do 90 dnů | **63** |
-| 🗄️ | Starší než 3 měsíce | **263** |
+| 📄 | Do 90 dnů | **56** |
+| 🗄️ | Starší než 3 měsíce | **268** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -41,14 +41,14 @@ generated: 2026-09-14
     - 📄 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 📄 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
-    - 📄 [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
+    - 🗄️ [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 📄 [[Auditní stopa]] `v1` · 18. 6. 2026
     - 📄 [[Dashboard]] `v1` · 17. 6. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - ♨️ [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
-    - 📄 [[Modul ordinace]] `v7` · 16. 6. 2026
+    - 🗄️ [[Modul ordinace]] `v7` · 16. 6. 2026
     - 📄 [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
@@ -56,7 +56,7 @@ generated: 2026-09-14
     - 🗄️ [[Stav účtu]] `v2` · 20. 6. 2025
     - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
     - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
-    - 📄 [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
+    - 🗄️ [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
     - 📄 [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
     - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
   - 🗄️ **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
@@ -116,7 +116,7 @@ generated: 2026-09-14
         - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
       - 🗄️ [[Obecné fungování nároků]] `v1` · 10. 7. 2025
-    - 📄 **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
+    - 🗄️ **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
       - 📄 [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
       - 🗄️ [[Hlídací pes_ Automatické upozornění na volné termíny pro pacienty|Hlídací pes: Automatické upozornění na volné termíny pro pacienty]] `v1` · 19. 1. 2026
@@ -130,7 +130,7 @@ generated: 2026-09-14
     - 📄 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 📄 [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
-    - 📄 [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
+    - 🗄️ [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
     - 🗄️ [[Novinky ve verzi k 11. 2. 2026]] `v2` · 9. 2. 2026
@@ -162,7 +162,7 @@ generated: 2026-09-14
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 🔥 [[Prohlídky]] `v11` · 11. 9. 2026
+      - ♨️ [[Prohlídky]] `v11` · 11. 9. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -182,9 +182,9 @@ generated: 2026-09-14
         - 🗄️ [[Záhlaví tisků]] `v1` · 21. 7. 2025
     - 🗄️ **[[Ostatní]]** `v1` · 17. 9. 2025
       - 🗄️ [[Žádost o zástup]] `v1` · 17. 9. 2025
-    - 📄 **[[Správa kartoték]]** `v3` · 16. 6. 2026
+    - 🗄️ **[[Správa kartoték]]** `v3` · 16. 6. 2026
       - 🗄️ [[Import seznamu registrovaných pojištenců]] `v3` · 28. 1. 2026
-      - 📄 [[Registrace pacienta bez registrační dávky]] `v1` · 16. 6. 2026
+      - 🗄️ [[Registrace pacienta bez registrační dávky]] `v1` · 16. 6. 2026
       - 🗄️ [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
     - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
       - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
@@ -253,10 +253,10 @@ generated: 2026-09-14
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🗄️ [[Odesílání zpráv z dekurzu]] `v1` · 25. 5. 2026
+      - 🔥 [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
       - 📄 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
-      - 🗄️ [[Odesílání lékařských zpráv]] `v3` · 26. 5. 2026
+      - 🔥 [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
