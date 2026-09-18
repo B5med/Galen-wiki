@@ -1,7 +1,7 @@
 ---
 title: "Laboratorní žádanky WebLims 2 ve FONS Galen"
-version: 11
-updated_at: 2026-09-10
+version: 12
+updated_at: 2026-09-17
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/537952257
 ---
 
@@ -10,6 +10,9 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/537952257
 ## 1. K čemu integrace slouží
 
 FONS Galen (FG) umožňuje lékaři otevřít a vyplnit elektronickou laboratorní žádanku systému **WebLims 2 (WL2)** přímo z karty pacienta, bez přepínání do jiné aplikace. Žádanku lékař vyplní a odešle v prostředí WL2; FG si po jejím odeslání automaticky založí vlastní záznam se seznamem vyžádaných metod. Kromě zakládání nových žádanek nabízí FG i živý přehled již odeslaných žádanek přímo z WL2.
+
+> [!warning]
+> Do FONS Galen je možné integrovat pouze **WebLims 2.**WebLims není možné integrovat.
 
 ---
 

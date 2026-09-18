@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-17
+generated: 2026-09-18
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **17. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-17
+> **18. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-18
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **6** |
+| ♨️ | Do 14 dnů | **7** |
 | 🌿 | Do 30 dnů | **2** |
-| 📄 | Do 90 dnů | **29** |
-| 🗄️ | Starší než 3 měsíce | **295** |
+| 📄 | Do 90 dnů | **23** |
+| 🗄️ | Starší než 3 měsíce | **300** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -38,8 +38,8 @@ generated: 2026-09-17
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
     - 🌿 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
-    - 📄 **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
-      - 📄 [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
+    - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
+      - 🗄️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 🗄️ [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🗄️ [[Auditní stopa]] `v1` · 18. 6. 2026
@@ -115,7 +115,7 @@ generated: 2026-09-17
         - 🗄️ [[Vznik nároku]] `v1` · 10. 7. 2025
         - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
-      - 🗄️ [[Obecné fungování nároků]] `v1` · 10. 7. 2025
+      - 🔥 [[Obecné fungování nároků]] `v2` · 18. 9. 2026
     - 🗄️ **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
       - 🗄️ [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
@@ -188,9 +188,9 @@ generated: 2026-09-17
       - 🗄️ [[Sloučení karet pacienta]] `v2` · 13. 5. 2026
     - 🗄️ **[[Správa organizace]]** `v2` · 21. 7. 2025
       - 🗄️ **[[Agendy]]** `v2` · 21. 7. 2025
-        - 📄 **[[Export dat]]** `v1` · 19. 6. 2026
-          - 📄 [[Export dat pro Power BI (dávkový)]] `v2` · 19. 6. 2026
-          - 📄 [[Průběžný export dat (RabbitMQ)]] `v3` · 19. 6. 2026
+        - 🗄️ **[[Export dat]]** `v1` · 19. 6. 2026
+          - 🗄️ [[Export dat pro Power BI (dávkový)]] `v2` · 19. 6. 2026
+          - 🗄️ [[Průběžný export dat (RabbitMQ)]] `v3` · 19. 6. 2026
         - 🗄️ **[[Nastavení kalendářů]]** `v1` · 22. 7. 2025
           - 🗄️ [[Nastavení kalendáře]] `v1` · 22. 7. 2025
           - 🗄️ [[Skupiny kalendářů]] `v1` · 22. 7. 2025
@@ -225,7 +225,7 @@ generated: 2026-09-17
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
-        - 📄 [[Společnost]] `v4` · 19. 6. 2026
+        - 🗄️ [[Společnost]] `v4` · 19. 6. 2026
       - 🗄️ [[Návod na přidání pojišťovny a smluvních výkonů]] `v1` · 26. 8. 2025
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
@@ -253,10 +253,10 @@ generated: 2026-09-17
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🔥 [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
+      - ♨️ [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
       - 📄 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
-      - 🔥 [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
+      - ♨️ [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
@@ -306,7 +306,7 @@ generated: 2026-09-17
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 📄 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - ♨️ [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v11` · 10. 9. 2026
+      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v12` · 17. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025
