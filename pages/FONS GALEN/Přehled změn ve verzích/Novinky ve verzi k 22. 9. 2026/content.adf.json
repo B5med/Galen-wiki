@@ -1,0 +1,392 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Hlášení infekčních chorob",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Upozornění na odeslání hlášení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro zákazníky, kteří mají zapnutou funkcionalitu Odesílání hlášení do registru infekčních chorob, systém nově automaticky upozorní na možnost odeslat hlášení infekční choroby do systému ISIN. Upozornění se zobrazí ve chvíli, kdy se shoduje diagnóza zadaná v dekurzu nebo v editoru výkonů.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Dekurz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Odeslání uzamčeného dekurzu prostřednictvím eZprávy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Uzamčený dekurz v rámci EZD lze nově odeslat prostřednictvím eZprávy z náhledu podepsaného PDF. Platí pouze pro zákazníky s nadstandardní funkcionalitou odesílání eZprávy z Galenu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Prohlídky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Zobrazení diagnózy u výkonu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Diagnóza, kterou je možné definovat v modulu design u prohlídky (která se vykazuje společně s výkonem), se zobrazuje přímo při výběru vykazovaného výkonu v prohlídce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "EZD",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Zobrazení a oprava zámku EZD",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zámek elektronického zdravotního dokumentu (EZD) se nyní zobrazuje i uživatelům bez zapnuté příslušné funkcionality a byla opravena jeho funkce u záznamů očkování.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Karta pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Rozšíření pole zaměstnání o školu a klub",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pole „zaměstnání\" v kartě pacienta bylo rozšířeno na „zaměstnání/škola/klub\" a lze jej vyplnit i u nedospělých klientů napříč všemi odbornostmi.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Notifikace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Zavření oznámení kliknutím",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Kliknutím na oznámení, které nemá navázanou žádnou akci, dojde nově k jeho zavření.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Medikace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Předepsání ze sdíleného lékového záznamu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Nově lze předepsat medikaci přímo ze sdíleného lékového záznamu (SLZ).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Adresář",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Sloupec IČO v dialogu Výběr pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V dialogu Výběr pracoviště (na záložkách Spolupracující lékaři a Centrální registr) přibyl sloupec IČO a možnost vyhledávání podle IČO. Uživatel tak může pracoviště nebo lékaře snadněji dohledat přímo podle jeho IČO.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Správa organizace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Sjednocení vyhledávání pracovišť a pracovníků",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ve správě organizace bylo sjednoceno vyhledávání pracovišť a pracovníků do jednoho místa a rozšířeny zobrazované informace. Nově lze vyhledávat také podle názvu podřízené společnosti a podle loginu uživatele.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Dashboard",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Úpravy zobrazení nákladů a návrat na pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Viditelnost souhrnných nákladů na pacienta za aktuální rok lze nyní nastavit v Nastavení pracovníka, na přiřazení konkrétního uživatele na pracovišti. Při přechodu z Dashboardu do jiného modulu je navíc možné vrátit se zpět na konkrétní záznam pacienta.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "ePoukaz",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "ePoukaz – nová verze technické dokumentace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "SÚKL vydal novou verzi datového rozhraní ePoukaz, proto byly dříve avizované úpravy nyní nasazeny. Nové rozhraní zahrnuje: možnost zadat „Párový orgán\" (Pravý/Levý/Oba) u vybraných úhradových skupin; možnost zadat šířku a hloubku sedu invalidního vozíku u ePoukazu – léčebný pro úhradové skupiny 07.01.01.* a 07.01.02.*; nové tlačítko „Ověřit limity\" pro ověření množstevního/úhradového limitu u SÚKL.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

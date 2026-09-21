@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-20
+generated: 2026-09-21
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **20. 9. 2026**  ·  Celkem stránek: **334**  ·  Poslední sync z Confluence: 2026-09-20
+> **21. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-21
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **7** |
+| ♨️ | Do 14 dnů | **8** |
 | 🌿 | Do 30 dnů | **2** |
-| 📄 | Do 90 dnů | **23** |
-| 🗄️ | Starší než 3 měsíce | **300** |
+| 📄 | Do 90 dnů | **22** |
+| 🗄️ | Starší než 3 měsíce | **301** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -127,7 +127,7 @@ generated: 2026-09-20
     - 🗄️ [[eZpráva – příjem a odesílání zpráv v Galenu]] `v1` · 25. 5. 2026
     - 🗄️ [[Modul komunikace]] `v4` · 21. 7. 2025
     - 🗄️ [[Notifikace objednávek]] `v4` · 13. 4. 2026
-    - 📄 [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
+    - 🗄️ [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 🗄️ [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
     - 🗄️ [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
@@ -146,6 +146,7 @@ generated: 2026-09-20
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
+    - 🔥 [[Novinky ve verzi k 22. 9. 2026]] `v1` · 21. 9. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 🗄️ [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
     - 🌿 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
@@ -306,7 +307,7 @@ generated: 2026-09-20
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 📄 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - 🔥 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v12` · 17. 9. 2026
+      - ♨️ [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v12` · 17. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025
