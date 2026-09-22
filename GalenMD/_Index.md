@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-21
+generated: 2026-09-22
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **21. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-21
+> **22. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-22
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **8** |
-| 🌿 | Do 30 dnů | **2** |
+| 🌿 | Do 30 dnů | **3** |
 | 📄 | Do 90 dnů | **22** |
 | 🗄️ | Starší než 3 měsíce | **301** |
 | ❓ | Bez data | **0** |
@@ -115,7 +115,7 @@ generated: 2026-09-21
         - 🗄️ [[Vznik nároku]] `v1` · 10. 7. 2025
         - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
-      - 🔥 [[Obecné fungování nároků]] `v2` · 18. 9. 2026
+      - ♨️ [[Obecné fungování nároků]] `v2` · 18. 9. 2026
     - 🗄️ **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
       - 🗄️ [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
@@ -158,7 +158,7 @@ generated: 2026-09-21
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
-    - ♨️ [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
+    - 🌿 [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
     - 🗄️ [[Novinky ve verzi k 9. 9. 2025]] `v4` · 23. 9. 2025
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
