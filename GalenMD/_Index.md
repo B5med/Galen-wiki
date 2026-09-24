@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-23
+generated: 2026-09-24
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **23. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-23
+> **24. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-24
 
 ## Legenda stáří dokumentu
 
@@ -13,9 +13,9 @@ generated: 2026-09-23
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **8** |
-| 🌿 | Do 30 dnů | **3** |
+| 🌿 | Do 30 dnů | **2** |
 | 📄 | Do 90 dnů | **22** |
-| 🗄️ | Starší než 3 měsíce | **301** |
+| 🗄️ | Starší než 3 měsíce | **302** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -49,7 +49,7 @@ generated: 2026-09-23
     - ♨️ [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
     - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 🗄️ [[Modul ordinace]] `v7` · 16. 6. 2026
-    - 📄 [[Odložení pacienta]] `v2` · 25. 6. 2026
+    - 🗄️ [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
     - 🗄️ [[Pacienti dle provozovny]] `v3` · 3. 3. 2026
     - 🗄️ [[Sdílení dokumentace]] `v1` · 18. 6. 2025
@@ -149,7 +149,7 @@ generated: 2026-09-23
     - 🔥 [[Novinky ve verzi k 22. 9. 2026]] `v1` · 21. 9. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
     - 🗄️ [[Novinky ve verzi k 24. 3. 2026]] `v1` · 23. 3. 2026
-    - 🌿 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
+    - 📄 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
     - 📄 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
