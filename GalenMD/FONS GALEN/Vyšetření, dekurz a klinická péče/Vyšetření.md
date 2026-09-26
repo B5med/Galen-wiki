@@ -1,7 +1,7 @@
 ---
 title: "Vyšetření"
-version: 1
-updated_at: 2025-06-23
+version: 2
+updated_at: 2026-09-25
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/53149728
 ---
 
@@ -26,7 +26,7 @@ Novou prohlídku lze zadat kliknutím na tlačítko Nová prohlídka a vybrání
 ![image-20250623-102544.png](<../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vyšetření/assets/image-20250623-102544.png>)
 Dle vyhlášky by mělo být součástí preventivní prohlídky i doplnění anamnézy. Lze ji samozřejmě dopsat i na kartě Anamnéza, ale pokud již začne lékař vyplňovat prohlídku, tak aby se nemusel překlikávat zpět do Anamnézy a zase do prohlídek, je možné anamnézu doplnit přímo ve formuláři prohlídky.
 
-Pod doplněním anamnézy jsou tři tlačítka Fyziologický nález, Převzít a Vymazat. Pokud je pacient víceméně zdravý, stačí kliknout na tlačítko Fyziologický nález, všude se mu vypíší fyziologické nálezy a pak se stačí již jen zabývat nálezy, které nejsou úplně v pořádku. Na tlačítko Převzít lze kliknout ve chvíli, kdy pacient již má nějakou předchozí prohlídku. Do prohlídky se převezmou hodnoty z předcházející prohlídky a pak se jen opraví, co se změnilo. Tlačítko Vymazat slouží k vymazání již zadaných hodnot a možnosti začít s vyplňováním od začátku.  Text, který lékař napíše do Závěru, se objeví v dekurzu, takže shrnutí prohlídky lékař uvidí i při běžném prohlížení dekurzu. Texty v prohlídce jsou průběžně ukládány, i když toto okno lékař opustí. Může tak např. počkat, až se mu vrátí laboratorní výsledky pacienta a do prohlídky je dopsat.
+Pod doplněním anamnézy jsou tři tlačítka Fyziologický nález, Převzít a Vymazat. Pokud je pacient víceméně zdravý, stačí kliknout na tlačítko Fyziologický nález, všude se mu vypíší fyziologické nálezy a pak se stačí již jen zabývat nálezy, které nejsou úplně v pořádku. Na tlačítko Převzít lze kliknout ve chvíli, kdy pacient již má nějakou předchozí prohlídku. Do prohlídky se převezmou hodnoty z předcházející platné prohlídky a pak se jen opraví, co se změnilo. Tlačítko Vymazat slouží k vymazání již zadaných hodnot a možnosti začít s vyplňováním od začátku.  Text, který lékař napíše do Závěru, se objeví v dekurzu, takže shrnutí prohlídky lékař uvidí i při běžném prohlížení dekurzu. Texty v prohlídce jsou průběžně ukládány, i když toto okno lékař opustí. Může tak např. počkat, až se mu vrátí laboratorní výsledky pacienta a do prohlídky je dopsat.
 
 ![image-20250623-102616.png](<../../../pages/FONS GALEN/Vyšetření, dekurz a klinická péče/Vyšetření/assets/image-20250623-102616.png>)
 Na preventivní prohlídky je také dle metodiky navázáno vykazování výkonů z prohlídky, které lze vybrat po stisku tlačítka Vytvořit výkony. Systém také upozorní, zda je možné vybranému pacientovi výkony vykazovat vzhledem ke stavu registrace pacienta. U preventivních prohlídek jsou také hlídána frekvenční omezení vybraných výkonů.

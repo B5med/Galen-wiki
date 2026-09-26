@@ -17,6 +17,7 @@
             "id": "950829f4-4315-41f9-a451-c2172e408313",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "2bd89eaaaa57",
             "height": 237
           }
         }
@@ -24,6 +25,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a8e7d1c911f5"
+      },
       "content": [
         {
           "text": "Ikona pro zadání nové prohlídky (vyšetření) se nachází v levé části obrazovky. Pod tlačítkem + Nová prohlídka nebo + Nová PLS prohlídka. Po stisknutí na první tlačítko si vybereme typ prohlídky.",
@@ -47,16 +51,23 @@
             "id": "bab6834d-53e1-4c28-8dca-d54d244013bc",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "011d1b780ff5",
             "height": 111
           }
         }
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "attrs": {
+        "localId": "684085255c1e"
+      }
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "80c760a7659b"
+      },
       "content": [
         {
           "text": "Typ prohlídky a šablonu pro ni je možné si přednastavit, případně si vytvořit vlastní novou prohlídku. Více v modulu Nadstandardní péče- Ceníky- Prohlídky.",
@@ -80,6 +91,7 @@
             "id": "467c2583-01cc-4fee-8ec6-d84b786f2c0c",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "fdcf971b901e",
             "height": 161
           }
         }
@@ -87,6 +99,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "8e2692b122d5"
+      },
       "content": [
         {
           "text": "Po výběru typu prohlídky je nutno vyplnit potřebné údaje ve formuláři, případně můžeme základní údaje vyplnit pomocí tlačítka fyziologický nález. Tlačítko Převzít používáme také ke zrychlení vyplnění údajů, díky tomuto tlačítku formulář převezme veškeré údaje z minulé prohlídky. Tlačítko Vymazat zase slouží k vymazání všech údajů z formuláře. Všechny vyplněné údaje formuláře se nám již uloží, případně můžeme navíc stisknout tlačítko Uložit v horním menu. U každého pacienta můžeme v levé části obrazovky jednotlivé prohlídky filtrovat podle typu, zvolit si interval za posledních dní, případně pak podle počtu zadaných záznamů, případně si můžeme navolit, zda li chceme zobrazit i smazané záznamy.",
@@ -97,7 +112,8 @@
     {
       "type": "heading",
       "attrs": {
-        "level": 2
+        "level": 2,
+        "localId": "c4150a1041aa"
       },
       "content": [
         {
@@ -108,6 +124,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "7e4db9f6040d"
+      },
       "content": [
         {
           "text": "Naším cílem bylo lékaři co nejvíce zjednodušit zápis preventivní prohlídky, tj. aby tento zápis po formální stránce obsahoval vše, co dle vyhlášky má, ale přitom aby se lékař nemusel zdržovat vypisováním nálezů, které jsou v pořádku, ale mohl se soustředit na problematické nálezy. Preventivní prohlídky se nacházejí na kartě Vyšetření ve spodní modré liště, pokud v kartotéce označíme či rozklikneme vybraného pacienta.",
@@ -131,6 +150,7 @@
             "id": "201108c4-2cb8-4d0a-885b-6697a847cfbc",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "6acd974251a6",
             "height": 51
           }
         }
@@ -138,6 +158,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "a338ab98b41c"
+      },
       "content": [
         {
           "text": "Novou prohlídku lze zadat kliknutím na tlačítko Nová prohlídka a vybráním Preventivní prohlídky.",
@@ -161,6 +184,7 @@
             "id": "5d762836-f59b-4302-920d-0c646ba90ff0",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "4e6db7c3b6e9",
             "height": 24
           }
         }
@@ -168,6 +192,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "8ca8c87b6711"
+      },
       "content": [
         {
           "text": "Dle vyhlášky by mělo být součástí preventivní prohlídky i doplnění anamnézy. Lze ji samozřejmě dopsat i na kartě Anamnéza, ale pokud již začne lékař vyplňovat prohlídku, tak aby se nemusel překlikávat zpět do Anamnézy a zase do prohlídek, je možné anamnézu doplnit přímo ve formuláři prohlídky.",
@@ -177,9 +204,12 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "c36de58a92ca"
+      },
       "content": [
         {
-          "text": "Pod doplněním anamnézy jsou tři tlačítka Fyziologický nález, Převzít a Vymazat. Pokud je pacient víceméně zdravý, stačí kliknout na tlačítko Fyziologický nález, všude se mu vypíší fyziologické nálezy a pak se stačí již jen zabývat nálezy, které nejsou úplně v pořádku. Na tlačítko Převzít lze kliknout ve chvíli, kdy pacient již má nějakou předchozí prohlídku. Do prohlídky se převezmou hodnoty z předcházející prohlídky a pak se jen opraví, co se změnilo. Tlačítko Vymazat slouží k vymazání již zadaných hodnot a možnosti začít s vyplňováním od začátku.  Text, který lékař napíše do Závěru, se objeví v dekurzu, takže shrnutí prohlídky lékař uvidí i při běžném prohlížení dekurzu. Texty v prohlídce jsou průběžně ukládány, i když toto okno lékař opustí. Může tak např. počkat, až se mu vrátí laboratorní výsledky pacienta a do prohlídky je dopsat.",
+          "text": "Pod doplněním anamnézy jsou tři tlačítka Fyziologický nález, Převzít a Vymazat. Pokud je pacient víceméně zdravý, stačí kliknout na tlačítko Fyziologický nález, všude se mu vypíší fyziologické nálezy a pak se stačí již jen zabývat nálezy, které nejsou úplně v pořádku. Na tlačítko Převzít lze kliknout ve chvíli, kdy pacient již má nějakou předchozí prohlídku. Do prohlídky se převezmou hodnoty z předcházející platné prohlídky a pak se jen opraví, co se změnilo. Tlačítko Vymazat slouží k vymazání již zadaných hodnot a možnosti začít s vyplňováním od začátku.  Text, který lékař napíše do Závěru, se objeví v dekurzu, takže shrnutí prohlídky lékař uvidí i při běžném prohlížení dekurzu. Texty v prohlídce jsou průběžně ukládány, i když toto okno lékař opustí. Může tak např. počkat, až se mu vrátí laboratorní výsledky pacienta a do prohlídky je dopsat.",
           "type": "text"
         }
       ]
@@ -200,6 +230,7 @@
             "id": "9b2a4b59-d05c-44c2-977e-023df863ea1e",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "dbb88a8f7250",
             "height": 34
           }
         }
@@ -207,6 +238,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "15e21b71af23"
+      },
       "content": [
         {
           "text": "Na preventivní prohlídky je také dle metodiky navázáno vykazování výkonů z prohlídky, které lze vybrat po stisku tlačítka Vytvořit výkony. Systém také upozorní, zda je možné vybranému pacientovi výkony vykazovat vzhledem ke stavu registrace pacienta. U preventivních prohlídek jsou také hlídána frekvenční omezení vybraných výkonů.",
@@ -230,6 +264,7 @@
             "id": "04a7fa1a-97ad-4981-9cd9-fd7b94f8908f",
             "collection": "contentId-53149728",
             "type": "file",
+            "localId": "229774d41784",
             "height": 40
           }
         }
@@ -237,6 +272,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "0e8e792079a3"
+      },
       "content": [
         {
           "text": "Poznámka: Preventivní prohlídky dětí jsou zpracovány podobně, pouze je zohledněn typ vyšetření ke stáří dítěte. ",
@@ -249,6 +287,9 @@
     },
     {
       "type": "paragraph",
+      "attrs": {
+        "localId": "dff123b1decc"
+      },
       "content": [
         {
           "text": " ",
