@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-26
+generated: 2026-09-27
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **26. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-26
+> **27. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-27
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-09-26
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **5** |
 | 🌿 | Do 30 dnů | **5** |
-| 📄 | Do 90 dnů | **23** |
-| 🗄️ | Starší než 3 měsíce | **301** |
+| 📄 | Do 90 dnů | **18** |
+| 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -71,12 +71,12 @@ generated: 2026-09-26
       - 🗄️ [[Předepisování elektronických receptů pro léčivé přípravky s obsahem návykových látek]] `v1` · 2. 12. 2025
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
     - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
-      - 📄 **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
+      - 🗄️ **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
         - 📄 [[Nahlížení na záznamy eOčkování]] `v3` · 16. 7. 2026
-        - 📄 [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
-        - 📄 [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
-        - 📄 [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
-        - 📄 [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
+        - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
+        - 🗄️ [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
+        - 🗄️ [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
+        - 🗄️ [[Výchozí nastavení modulu ISIN – odesílání a nahlížení očkování]] `v7` · 28. 6. 2026
     - 🗄️ [[Hlášení do registru akutních respiračních infekcí ÚZIS]] `v2` · 13. 5. 2026
     - 🗄️ [[Hlášení do registru infekčních onemocnění ISIN]] `v2` · 18. 11. 2025
     - 🗄️ [[Preferovaná medikace VZP – nezaměňovat]] `v1` · 24. 7. 2025
