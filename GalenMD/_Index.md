@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-27
+generated: 2026-09-28
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **27. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-27
+> **28. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-28
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-09-27
 | 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **5** |
 | 🌿 | Do 30 dnů | **5** |
-| 📄 | Do 90 dnů | **18** |
-| 🗄️ | Starší než 3 měsíce | **306** |
+| 📄 | Do 90 dnů | **16** |
+| 🗄️ | Starší než 3 měsíce | **308** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -153,7 +153,7 @@ generated: 2026-09-27
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
     - 📄 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
-    - 📄 [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
+    - 🗄️ [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
@@ -231,7 +231,7 @@ generated: 2026-09-27
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
     - 🗄️ **[[Vyúčtování]]** `v1` · 21. 7. 2025
-      - 📄 [[Import KDávek]] `v3` · 29. 6. 2026
+      - 🗄️ [[Import KDávek]] `v3` · 29. 6. 2026
       - 🗄️ [[Vyúčtování – hromadné úpravy výkonů]] `v1` · 21. 7. 2025
       - 🗄️ [[Zúčtovací zprávy]] `v2` · 18. 6. 2026
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
