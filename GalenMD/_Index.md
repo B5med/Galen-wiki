@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-09-28
+generated: 2026-09-29
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **28. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-28
+> **29. 9. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-09-29
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **5** |
-| 🌿 | Do 30 dnů | **5** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **4** |
+| 🌿 | Do 30 dnů | **7** |
 | 📄 | Do 90 dnů | **16** |
 | 🗄️ | Starší než 3 měsíce | **308** |
 | ❓ | Bez data | **0** |
@@ -254,10 +254,10 @@ generated: 2026-09-28
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - ♨️ [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
+      - 🌿 [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
       - 📄 [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
-      - ♨️ [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
+      - 🌿 [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
@@ -265,7 +265,7 @@ generated: 2026-09-28
     - 🗄️ [[Editace vyšetření různými odpovědnými lékaři]] `v1` · 3. 9. 2025
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
-    - 🔥 [[Vyšetření]] `v2` · 25. 9. 2026
+    - ♨️ [[Vyšetření]] `v2` · 25. 9. 2026
     - 🗄️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
   - 🗄️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
