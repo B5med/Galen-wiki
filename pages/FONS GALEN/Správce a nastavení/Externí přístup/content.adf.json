@@ -1,0 +1,886 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "71a06078beb9"
+      },
+      "content": [
+        {
+          "text": "Konfigurace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad3b567a48e6"
+      },
+      "content": [
+        {
+          "text": "Konfigurace se provádí přes aplikaci ",
+          "type": "text"
+        },
+        {
+          "text": "Galen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "71440e52f4e6"
+      },
+      "content": [
+        {
+          "text": "Správce -> Správa organizace -> Agendy -> Externí přístup",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c9c0c5a3bb85"
+      },
+      "content": [
+        {
+          "text": "Pokud přístup není ještě vytvořen, tak se může vytvořit nový přes tlačítko, popřípadě upravit existující. Pokud by měl někdo pod jedním počítačem registrováno více portů. Tak se vždy bere ten první vytvořený v databázi.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 760,
+            "alt": "image-20260313-093618.png",
+            "id": "59d68b7a-8375-430b-920f-34028d31b6d4",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "162cde96f447",
+            "height": 305
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b5187731220a"
+      },
+      "content": [
+        {
+          "text": "Při vytváření je potřeba definovat počítač, nastavit port (je potřeba zvolit takový, který není ještě používán v rámci ",
+          "type": "text"
+        },
+        {
+          "text": "Windows",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ") a zvolit typy přístupu, které budou zpřístupněny.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 402,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 760,
+            "alt": "image-20260313-120549.png",
+            "id": "9f42a951-d52e-4fe8-b8d2-7eb0e06f0577",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "0c68ca9dbfa3",
+            "height": 376
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0b85386fce93"
+      },
+      "content": [
+        {
+          "text": "Pro přístup je potřeba i klíč, který se dá vygenerovat pomocí tlačítka.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 402,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 300,
+            "alt": "image-20260313-120326.png",
+            "id": "91d77d9e-005f-4e00-a745-aacd2e331942",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "e62901386c3b",
+            "height": 157
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "d1c7cefaab3a"
+      },
+      "content": [
+        {
+          "text": "Registrace adresy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "631a6d477b0d"
+      },
+      "content": [
+        {
+          "text": "Kvůli bezpečnostnímu omezení ",
+          "type": "text"
+        },
+        {
+          "text": "Windows",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", musí aplikace pro poslouchání dostat povolení nebo by aplikace musela být zapnutá jako administrátor. Povolení je možné udělat pomocí příkazového řádku. Je potřeba tedy na počítači zapnout příkazový řádek jako administrátor.",
+          "type": "text"
+        },
+        {
+          "type": "hardBreak"
+        },
+        {
+          "text": "Adresa běží na ",
+          "type": "text"
+        },
+        {
+          "text": "localhostu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", ke kterému je potřeba dopsat nastavený port z konfigurace (v mém případě 80). Zpřístupnění všem uživatelům je možné pomocí příkazu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "fd66317d626b"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "netsh http add urlacl url=http://localhost:80/ user=Everyone",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "75128bf47ae4"
+      },
+      "content": [
+        {
+          "text": "Popřípadě konkrétnímu uživateli:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "9b33e6d98527"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "netsh http add urlacl url=http://localhost:80/ user=DOMAIN\\Username",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1b2b303108ce"
+      },
+      "content": [
+        {
+          "text": "Pro zjištění informace kdo jsem, je možné použít příkaz:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "28ce0415b922"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "whoami",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 760,
+            "alt": "image-20260313-094459.png",
+            "id": "f07e64ea-5f3c-4ea9-bd0d-af9ca153894e",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "12c8d4dd808f",
+            "height": 253
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "75cb869dfd02"
+      },
+      "content": [
+        {
+          "text": "Kdybych chtěl zrušit registrovanou adresu, tak přes příkaz:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "5bafab939a77"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "netsh http delete urlacl url=http://localhost:80/",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1,
+        "localId": "6b58362703dd"
+      },
+      "content": [
+        {
+          "text": "Testování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "23ff8e3c1278"
+      },
+      "content": [
+        {
+          "text": "Funkci je možné otestovat několika způsoby, asi nejjednodušší je z webového prohlížeče pomocí ",
+          "type": "text"
+        },
+        {
+          "text": "WebSocket API",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1cb859ea2dad"
+      },
+      "content": [
+        {
+          "text": "Stačí zapnout prohlížeč a otevřít si ",
+          "type": "text"
+        },
+        {
+          "text": "DevTools",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " přes ",
+          "type": "text"
+        },
+        {
+          "text": "F12",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 922,
+            "alt": "image-20260313-095425.png",
+            "id": "fa42bea4-cbcb-4858-823f-5e3bb8085298",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "dfa6c434e8d4",
+            "height": 595
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f3950a4589ca"
+      },
+      "content": [
+        {
+          "text": "Pro otevření ",
+          "type": "text"
+        },
+        {
+          "text": "DevTools",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je potřeba se v tomto panelu přepnout dole do záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Console",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", kde je možné psát příkazy.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad5423fb97dc"
+      },
+      "content": [
+        {
+          "text": "Je možné, že do ",
+          "type": "text"
+        },
+        {
+          "text": "Console",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nebude možné vkládat kód přes ",
+          "type": "text"
+        },
+        {
+          "text": "CTRL+V",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", takže bych doporučil si tuto možnost zpřístupnit napsáním do ",
+          "type": "text"
+        },
+        {
+          "text": "Console",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " (pokud bylo vkládání již povoleno, tak vypisuje chybu):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "f2a9ea8d1db8"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "allow pasting",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "095991b7764f"
+      },
+      "content": [
+        {
+          "text": "WebSocket",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " připojení není možné psát nad otevřenou webovou stránkou (z bezpečnostních důvodů). Je tedy potřeba se přepnou mimo konkrétní webovou stránku, například zadat do adresního řádku prohlížeče:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "70e7e518d691"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "about:blank",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cff6d0d0205b"
+      },
+      "content": [
+        {
+          "text": "Tím dojde k otevření prázdné stránky, kde nejsou bezpečnostní omezení a je možné vytvořit spojení. Spojení s aplikací může vypadat například takto s informacemi o spojení (je potřeba zde nastavit port z konfigurace):",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "5e7138a7916e"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "const ws = new WebSocket(\"ws://localhost:80\");\nws.onopen = () => console.log(\"Připojeno!\");\nws.onmessage = (e) => console.log(\"Odpověď:\", e.data);\nws.onclose = () => console.log(\"Odpojeno\");",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 453,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 453,
+            "alt": "image-20260313-100002.png",
+            "id": "e9a577d3-ad30-4741-9325-6a63594c51ce",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "52b00c56c1a9",
+            "height": 349
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cca46319ff76"
+      },
+      "content": [
+        {
+          "text": "Odeslání požadavku pak může vypadat takto:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "attrs": {
+        "localId": "f4eac3ac25b8"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "text": "ws.send(JSON.stringify({\n    Id: \"245\",\n    Authorization: \"2Hah0FF/3gj7sfAP855oTZTqEpNzliMw\",\n    Method: \"OpenPatientClinic\",\n    PatientNumber: \"435717097\"\n}));",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cb4c1c529259"
+      },
+      "content": [
+        {
+          "text": "Authorization",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je vygenerovaný token z konfigurace, ",
+          "type": "text"
+        },
+        {
+          "text": "Method",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " je název volané funkce, v aktuální implementaci aplikace Galen podporuje pouze ",
+          "type": "text"
+        },
+        {
+          "text": "OpenPatient",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "OpenPatientClinic",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Obě tyto funkce pracují s ",
+          "type": "text"
+        },
+        {
+          "text": "PatientNumber",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", kde je rodné číslo pacienta, pro kterého se provádí objednání (pro ",
+          "type": "text"
+        },
+        {
+          "text": "OpenPatient",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ") nebo jehož karta se má zobrazit (pro ",
+          "type": "text"
+        },
+        {
+          "text": "OpenPatientClinic",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "). Identifikátor ",
+          "type": "text"
+        },
+        {
+          "text": "Id",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " slouží pouze ke svázání odpovědi s požadavkem, může zde být nastaven libovolný text, popřípadě se nemusí vyplňovat. Aplikace ",
+          "type": "text"
+        },
+        {
+          "text": "Galen",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " s tímto ",
+          "type": "text"
+        },
+        {
+          "text": "Id",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nijak nepracuje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4fb476889b3d"
+      },
+      "content": [
+        {
+          "text": "Při odeslání požadavku dojde k obdržení odpovědi:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 695,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 695,
+            "alt": "image-20260313-103019.png",
+            "id": "c655fb1b-8e5b-4696-bc89-42d6526cdf40",
+            "collection": "contentId-616202241",
+            "type": "file",
+            "localId": "64c4f35d3b68",
+            "height": 620
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8b4e4e4e00e2"
+      }
+    }
+  ],
+  "version": 1
+}

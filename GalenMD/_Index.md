@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-01
+generated: 2026-10-02
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **1. 10. 2026**  ·  Celkem stránek: **335**  ·  Poslední sync z Confluence: 2026-10-01
+> **2. 10. 2026**  ·  Celkem stránek: **336**  ·  Poslední sync z Confluence: 2026-10-02
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **4** |
-| 🌿 | Do 30 dnů | **7** |
+| 🔥 | Do 3 dnů | **1** |
+| ♨️ | Do 14 dnů | **3** |
+| 🌿 | Do 30 dnů | **8** |
 | 📄 | Do 90 dnů | **16** |
 | 🗄️ | Starší než 3 měsíce | **308** |
 | ❓ | Bez data | **0** |
@@ -238,6 +238,7 @@ generated: 2026-10-01
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
     - 📄 [[eShop]] `v1` · 27. 7. 2026
+    - 🔥 [[Externí přístup]] `v3` · 1. 10. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
   - 🗄️ **[[Vyšetření, dekurz a klinická péče]]** `v4` · 15. 5. 2026
@@ -307,7 +308,7 @@ generated: 2026-10-01
       - 🗄️ [[Stahování výdejů ePoukazů]] `v1` · 23. 6. 2025
     - 🗄️ **[[Formuláře]]** `v1` · 20. 11. 2025
       - 📄 [[Laboratorní položky]] `v2` · 13. 8. 2026
-      - ♨️ [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v12` · 17. 9. 2026
+      - 🌿 [[Laboratorní žádanky WebLims 2 ve FONS Galen]] `v12` · 17. 9. 2026
       - 🗄️ [[Vystavení žádanky, posudku apod|Vystavení žádanky, posudku apod.]] `v1` · 23. 6. 2025
       - 🗄️ [[ÚZIS žádanka testu COVID-19]] `v3` · 20. 11. 2025
     - 🗄️ **[[ČSSZ]]** `v2` · 5. 12. 2025
