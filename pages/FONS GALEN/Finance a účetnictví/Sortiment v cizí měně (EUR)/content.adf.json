@@ -1,0 +1,1450 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "3318814c7fd8"
+      },
+      "content": [
+        {
+          "text": "K čemu funkcionalita slouží",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bb79f663a7e5"
+      },
+      "content": [
+        {
+          "text": "Funkcionalita ",
+          "type": "text"
+        },
+        {
+          "text": "Sortiment v cizí měně",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " umožňuje vést vybrané položky ceníku, platby a faktury kromě Kč také v eurech (EUR). Typicky se použije pro fakturaci v účtu pacienta v EUR. U komerčních pojišťoven je možné na faktuře přednastavit fakturační údaje pojišťovny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dd65189608e7"
+      },
+      "content": [
+        {
+          "text": "Jedná se o nadstandardní placenou funkcionalitu, kterou je možné objednat prostřednictvím e-shopu. Dokud není aktivní, Galen pracuje beze změny pouze v Kč a pole Měna se nikde nezobrazuje.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "af5d67d30be3"
+      },
+      "content": [
+        {
+          "text": "Základní pravidla:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f2a8334f4b44"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d92fbc1f2cd1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e0f5efbd724e"
+              },
+              "content": [
+                {
+                  "text": "Jeden doklad = jedna měna.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Na jednom pokladním dokladu ani na jedné faktuře nelze kombinovat položky v Kč a v EUR. Na účtu pacienta se ale položky v obou měnách mohou v čase střídat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fd02d7cf8402"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b08e0e8bc069"
+              },
+              "content": [
+                {
+                  "text": "Jedna pokladna = jedna měna.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " Platby v EUR se přijímají do pokladny vedené v EUR.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a705e52aef57"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4a908a9fe244"
+              },
+              "content": [
+                {
+                  "text": "Částky v EUR se přepočítávají na Kč",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " podle kurzovního lístku. Použitý kurz se na dokladu uloží a později se už nemění.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "edfeee02a49d"
+      },
+      "content": [
+        {
+          "text": "Nastavení (správce)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "e211b8490383"
+      },
+      "content": [
+        {
+          "text": "Kurzovní lístek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "506b630b896d"
+      },
+      "content": [
+        {
+          "text": "Správa organizace → Konfigurace společnosti → záložka Kurzovní lístek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " (kurz lze zadat také na detailu podřízené společnosti)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fb745c52701a"
+      },
+      "content": [
+        {
+          "text": "V poli ",
+          "type": "text"
+        },
+        {
+          "text": "Měna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " vyberte EUR a tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "+",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " přidejte nový řádek s hodnotami ",
+          "type": "text"
+        },
+        {
+          "text": "Kurz",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "Platnost od",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a případně ",
+          "type": "text"
+        },
+        {
+          "text": "Platnost do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "aa9ac28b1d57"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b0b8a6e3301e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "742eec7f68a3"
+              },
+              "content": [
+                {
+                  "text": "Kurz EUR → Kč se zadává ručně na 3 desetinná místa. Platnost do může zůstat prázdná.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "36ce15f2d2be"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dde84608d187"
+              },
+              "content": [
+                {
+                  "text": "Platnosti kurzů se nesmí překrývat. V jednom dni může platit jen jeden kurz.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e68e59e23790"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73d398828f17"
+              },
+              "content": [
+                {
+                  "text": "Kurz zadaný na podřízené společnosti má přednost před kurzem společnosti.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "eeb8b258d68e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3c2832c67285"
+              },
+              "content": [
+                {
+                  "text": "Kurz se vždy hledá k rozhodnému datu: u položky na účtu k jejímu datu, u pokladního dokladu k datu platby a u faktury k datu vystavení.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "8833490e7f9d"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "12cc64d0c20b"
+          },
+          "content": [
+            {
+              "text": "⚠️ Pokud pro dané datum neexistuje platný kurz, nelze doklad ani fakturu v EUR vystavit. Systém zobrazí upozornění.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 547,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 547,
+            "alt": "image-20261005-081156.png",
+            "id": "e3812bf3-847c-43d8-a4ce-3227b6a5fede",
+            "collection": "contentId-621019137",
+            "type": "file",
+            "localId": "30ceab6a2ee0",
+            "height": 440
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ad4bb04bf124"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "b79c87a64450"
+      },
+      "content": [
+        {
+          "text": "Ceník (sortiment)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "eddad2da36c6"
+      },
+      "content": [
+        {
+          "text": "V detailu sortimentu přibyl v tabulce ",
+          "type": "text"
+        },
+        {
+          "text": "Ceník",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " sloupec ",
+          "type": "text"
+        },
+        {
+          "text": "Měna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ve kterém se u každé ceny zvolí Kč nebo EUR. Stejná položka sortimentu může mít současně platnou cenu v Kč i v EUR.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20261005-081209.png",
+            "id": "d735ca1e-44c6-430d-94c0-c519b73d80a8",
+            "collection": "contentId-621019137",
+            "type": "file",
+            "localId": "dc9bdb6c79cf",
+            "height": 443
+          }
+        }
+      ]
+    },
+    {
+      "type": "layoutSection",
+      "attrs": {
+        "localId": "61a7c82b74b8"
+      },
+      "marks": [
+        {
+          "type": "breakout",
+          "attrs": {
+            "mode": "wide",
+            "width": 760
+          }
+        }
+      ],
+      "content": [
+        {
+          "type": "layoutColumn",
+          "attrs": {
+            "width": 100.0,
+            "localId": "f4724e69343e"
+          },
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3,
+                "localId": "97354233a65f"
+              },
+              "content": [
+                {
+                  "text": "Bankovní spojení",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e47abba11ec5"
+              },
+              "content": [
+                {
+                  "text": "V detailu bankovního spojení se v povinném poli ",
+                  "type": "text"
+                },
+                {
+                  "text": "Měna",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtne Kč, EUR, případně obě měny. Na faktuře se pak nabízí jen účty, které měnu faktury podporují.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 570,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 570,
+            "alt": "image-20261005-081332.png",
+            "id": "056bcae6-090f-4945-a60c-216c8ccad347",
+            "collection": "contentId-621019137",
+            "type": "file",
+            "localId": "8fe42160b632",
+            "height": 353
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a5822e2ee163"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "09a4ffbdcfc0"
+      },
+      "content": [
+        {
+          "text": "Pokladna",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "981c5be5a952"
+      },
+      "content": [
+        {
+          "text": "V detailu pokladny se v povinném poli ",
+          "type": "text"
+        },
+        {
+          "text": "Měna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " zvolí, zda je pokladna vedena v Kč, nebo v EUR. Pokladnu, na které už jsou doklady, nelze převést na jinou měnu. V seznamech se pokladna v EUR zobrazuje s označením měny (např. „Pokladna recepce | EUR“).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 463,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 463,
+            "alt": "image-20261005-081342.png",
+            "id": "43ebd70e-2db4-43d3-a913-8a9d479b4338",
+            "collection": "contentId-621019137",
+            "type": "file",
+            "localId": "179f9e944934",
+            "height": 231
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "c01b2a1f2498"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "eeab8dba1bc3"
+      },
+      "content": [
+        {
+          "text": "Smlouva s komerční pojišťovnou",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "04f2e89fcc02"
+      },
+      "content": [
+        {
+          "text": "Správa organizace → Struktura → vyberte IČZ → v pravém panelu Smlouvy přidejte nebo upravte smlouvu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a95f699c79f"
+      },
+      "content": [
+        {
+          "text": "U smlouvy s komerční pojišťovnou se zobrazuje pole ",
+          "type": "text"
+        },
+        {
+          "text": "Měna",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ve kterém lze zaškrtnout Kč, EUR nebo obě měny, vždy ale alespoň jednu. U zdravotních pojišťoven se pole nezobrazuje a smlouva je vždy v Kč. Na smlouvě se také vyplňuje ",
+          "type": "text"
+        },
+        {
+          "text": "Bankovní spojení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "4061dbe9818f"
+      },
+      "content": [
+        {
+          "text": "Nastavená měna určuje, které položky ceníku se nabídnou pacientovi s touto pojišťovnou a v jaké měně lze pojišťovně fakturovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1920,
+            "alt": "image-20261005-081355.png",
+            "id": "ef605b0f-dca8-442d-a055-9095fd51aaad",
+            "collection": "contentId-621019137",
+            "type": "file",
+            "localId": "95f289fb20df",
+            "height": 1030
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "9607514fdd67"
+      }
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "0aa03f3f352c"
+      },
+      "content": [
+        {
+          "text": "Číselník pojišťoven",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "74e214119463"
+      },
+      "content": [
+        {
+          "text": "Komerční pojišťovny doplňuje do číselníku pojišťoven STAPRO, včetně IČO, DIČ a adresy sídla.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "1c57644f8de8"
+      },
+      "content": [
+        {
+          "text": "Práce v ordinaci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "eea0cd8917e3"
+      },
+      "content": [
+        {
+          "text": "1. Komerční pojišťovna v kartě pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3c2703f5ab21"
+      },
+      "content": [
+        {
+          "text": "Do karty pacienta se zadá příslušná komerční pojišťovna.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "640c0383266c"
+      },
+      "content": [
+        {
+          "text": "2. Zadání položek na účet pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6b2cf62011d2"
+      },
+      "content": [
+        {
+          "text": "Stav účtu → Sortiment",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "9eb87e18a242"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e51de06ae259"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d074ef3f5344"
+              },
+              "content": [
+                {
+                  "text": "V okně výběru položek je vidět sloupec ",
+                  "type": "text"
+                },
+                {
+                  "text": "Měna",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a filtr podle měny.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d083e282996e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0f86a9e88c50"
+              },
+              "content": [
+                {
+                  "text": "U pacienta s komerční pojišťovnou se nabízí jen sortiment v měně nastavené na smlouvě s jeho pojišťovnou. Výkony se nabízejí vždy. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1148,
+                    "alt": "image-20261005-081634.png",
+                    "id": "a507c9b3-8422-44d0-ae85-55d52fc18161",
+                    "collection": "contentId-621019137",
+                    "type": "file",
+                    "localId": "ae7ec149228a",
+                    "height": 662
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fdf699058f20"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d750e9cf3e9f"
+              },
+              "content": [
+                {
+                  "text": "Při ručním zadání závazku ve Stavu účtu zvolí uživatel měnu sám.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "739c46cf910d"
+      },
+      "content": [
+        {
+          "text": "3. Platba v pokladně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "efe45d173b42"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d709589c0f0b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "eee0cb546e85"
+              },
+              "content": [
+                {
+                  "text": "V dialogu Platba se nabízí jen pokladny ve stejné měně, jako mají vybrané položky.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "fc5b47afa6cc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "da36f75e0796"
+              },
+              "content": [
+                {
+                  "text": "Pokud vyberete položky v různých měnách, systém platbu odmítne s hlášením, že vybrané položky mají různou měnu. Položky v Kč a v EUR je potřeba zaplatit zvlášť. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 410,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 410,
+                    "alt": "image-20261005-081720.png",
+                    "id": "3ab9c714-4f71-45ac-a99c-e4ab2039296d",
+                    "collection": "contentId-621019137",
+                    "type": "file",
+                    "localId": "e9e7f1409157",
+                    "height": 341
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3f26893627fa"
+      },
+      "content": [
+        {
+          "text": "4. Vystavení faktury",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a84ca55842c3"
+      },
+      "content": [
+        {
+          "text": "Ve Stavu účtu označte položky a vystavte fakturu. V okně ",
+          "type": "text"
+        },
+        {
+          "text": "Zadání údajů faktury",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "4b9885c3591c",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6f246f100e3c"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f4a2bfe82814"
+              },
+              "content": [
+                {
+                  "text": "V části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Převzít údaje z",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zvolte tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Komerční pojišťovna",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Tlačítko se zobrazí jen tehdy, když má pacient v kartě komerční pojišťovnu. Údaje odběratele (název, IČO, DIČ, adresa sídla) se doplní z číselníku pojišťoven a lze je upravit. ",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "mediaSingle",
+              "attrs": {
+                "layout": "center",
+                "width": 736,
+                "widthType": "pixel"
+              },
+              "content": [
+                {
+                  "type": "media",
+                  "attrs": {
+                    "width": 1098,
+                    "alt": "image-20261005-081812.png",
+                    "id": "bdb42847-4815-4ae9-bbfd-37c47a30475a",
+                    "collection": "contentId-621019137",
+                    "type": "file",
+                    "localId": "fe59baff3cdd",
+                    "height": 658
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "6e265564f0ce"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "eda4852ba770"
+              },
+              "content": [
+                {
+                  "text": "Zkontrolujte bankovní spojení. Nabízí se jen účty v měně faktury.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "attrs": {
+        "localId": "6a7052b50aa4"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "6705d67d6635"
+          },
+          "content": [
+            {
+              "text": "⚠️ Pokud měna vybraných položek neodpovídá měně nastavené na smlouvě s pojišťovnou, systém výběr pojišťovny jako plátce odmítne. V takovém případě vyberte položky ve správné měně, nebo upravte nastavení měny na smlouvě.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "c94720afdda3"
+      },
+      "content": [
+        {
+          "text": "5. Úhrada faktury",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "133d3d59efae"
+      },
+      "content": [
+        {
+          "text": "Po obdržení platby převede uživatel modulu Finance fakturu do stavu ",
+          "type": "text"
+        },
+        {
+          "text": "Uhrazená",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "454f6ef12b2d"
+      },
+      "content": [
+        {
+          "text": "Zobrazení částek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "99ac8f4ac07b"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "92903bd7fcb4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d389e4ad15e"
+              },
+              "content": [
+                {
+                  "text": "Dlaždice ",
+                  "type": "text"
+                },
+                {
+                  "text": "Stav účtu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a hlavička ",
+                  "type": "text"
+                },
+                {
+                  "text": "K zaplacení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zobrazují součty pro Kč a EUR odděleně. Pokud pacient nemá žádné položky v EUR, řádek EUR se nezobrazuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "eb6e71f38a74"
+      },
+      "content": [
+        {
+          "text": "Podrobný filtr v kartotéce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fcdf62dc8f15"
+      },
+      "content": [
+        {
+          "text": "V podrobném filtru kartotéky lze pacienty filtrovat podle rozsahu částek ",
+          "type": "text"
+        },
+        {
+          "text": "Úhrada celkem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Pohledávky celkem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Částky se zadávají vždy v Kč a stejně se i vyhodnocují. Doklady a faktury v EUR se do součtu započítávají v Kč, přepočtené kurzem, který byl na dokladu použit. Pacienty s platbami v obou měnách tak lze filtrovat jedním rozsahem.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0fd2848adb88"
+      },
+      "content": [
+        {
+          "text": "Tisk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "87d2433e4440"
+      },
+      "content": [
+        {
+          "text": "Faktury a pokladní doklady zobrazují částky v měně dokladu. Používá se tak jedna tisková předloha pro obě měny.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "633ee169f1f4"
+      },
+      "content": [
+        {
+          "text": "Platební QR kód lze použít i pro platbu v EUR. Ne všechny banky však měnu EUR z QR kódu načtou, záleží na bance plátce. Plátce proto musí po načtení QR kódu zkontrolovat, že platba je zadána ve správné měně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "a0a47d6563c8"
+      },
+      "content": [
+        {
+          "text": "Omezení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "bbfacaea188d"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d6894bd115d8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d5258839047"
+              },
+              "content": [
+                {
+                  "text": "PLS zůstává pouze v Kč.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "59c8ab35b13e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8e8502891728"
+              },
+              "content": [
+                {
+                  "text": "Vyúčtování na pojišťovny nelze vést v EUR.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

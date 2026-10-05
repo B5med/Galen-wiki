@@ -1,0 +1,337 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Finance",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Sortiment v cizí měně",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Připravili jsme novou placenou funkcionalitu ",
+          "type": "text"
+        },
+        {
+          "text": "Sortiment v cizí měně",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", která umožňuje pracovat s ceníkem, platbami a doklady v cizí měně (např. EUR). Detailní popis funkcionality naleznete ",
+          "type": "text"
+        },
+        {
+          "text": "zde",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/621019137"
+              }
+            }
+          ]
+        },
+        {
+          "text": ". Funkcionalitu si můžete zakoupit v našem e-shopu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Dashboard",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Omezení položek ke zpracování na posledních 90 dní",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V přehledech ",
+          "type": "text"
+        },
+        {
+          "text": "Laboratorní výsledky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Externí zprávy ke zpracování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se nově zobrazují pouze položky z posledních 90 dní. U laboratorních výsledků se počítá s datem importu, u externích zpráv s datem doručení.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Medikace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nastavitelné rozložení okna Medikace",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V okně Medikace lze nově přetažením dělicí lišty upravit velikost jednotlivých částí okna podle vlastních potřeb.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Upozornění na vykázání výkonu po platnosti FT poukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Při vykazování výkonu z poukazu na fyzioterapii, jehož platnost již skončila, systém nově uživatele upozorní. Zároveň byla upravena kontrola platnosti FT poukazu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Povinná diagnóza při založení FT poukazu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravena chyba, kdy bylo možné uložit poukaz na fyzioterapii bez zvolené diagnózy. Diagnóza je nyní povinná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava samovolného přepínání kalendáře",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravena chyba, kdy se kalendář samovolně přepínal na jiné období. Volba ",
+          "type": "text"
+        },
+        {
+          "text": "Jen bloky CC",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se nově uplatní pouze tehdy, když mají zobrazené zdroje nějaký blok CC vytvořený.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava zamrzání podrobného filtru",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravena chyba, kdy systém zamrzl při použití podrobného filtru podle data návštěvy (",
+          "type": "text"
+        },
+        {
+          "text": "Návštěva od – do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": "). Vyhledávání pacientů podle data návštěvy opět funguje bez potíží.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Oprava otevření organizační struktury",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravena chyba, která bránila otevření organizační struktury u společnosti, jejíž zdravotnické zařízení nemělo vyplněný název.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
