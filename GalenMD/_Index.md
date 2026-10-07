@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-06
+generated: 2026-10-07
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **6. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-06
+> **7. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-07
 
 ## Legenda stáří dokumentu
 
@@ -197,6 +197,8 @@ generated: 2026-10-06
         - 🗄️ **[[Nastavení kalendářů]]** `v1` · 22. 7. 2025
           - 🗄️ [[Nastavení kalendáře]] `v1` · 22. 7. 2025
           - 🗄️ [[Skupiny kalendářů]] `v1` · 22. 7. 2025
+        - 🗄️ **[[Správa API]]** `v1` · 21. 7. 2025
+          - 🗄️ [[Zabezpečení API]] `v1` · 2. 4. 2026
         - 🗄️ [[Lázně]] `v1` · 18. 6. 2025
         - 🗄️ [[Operační sály]] `v1` · 21. 7. 2025
         - 🗄️ [[PACS]] `v1` · 21. 7. 2025
@@ -208,7 +210,6 @@ generated: 2026-10-06
         - 🗄️ [[Skladový sortiment]] `v1` · 21. 7. 2025
         - 🗄️ [[Sklady]] `v3` · 21. 11. 2025
         - 🗄️ [[Skupiny pracovišť]] `v1` · 21. 7. 2025
-        - 🗄️ [[Správa API]] `v1` · 21. 7. 2025
         - 🗄️ [[Zástupy]] `v1` · 17. 9. 2025
         - 🗄️ [[Číselné řady|Číselné řady.]] `v1` · 21. 7. 2025
       - 🗄️ **[[Struktura]]** `v3` · 21. 7. 2025
@@ -361,4 +362,3 @@ generated: 2026-10-06
 - 🗄️ [[API StrukturaOrganizaceService]] `v1` · 15. 5. 2025
 - 🗄️ [[Modul sklad]] `v5` · 21. 5. 2026
 - 🗄️ [[Rozšířené sklady – HVLP, PZT]] `v2` · 1. 6. 2026
-- 🗄️ [[Zabezpečení API]] `v1` · 2. 4. 2026
