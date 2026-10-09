@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-08
+generated: 2026-10-09
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **8. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-08
+> **9. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-09
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **2** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **4** |
 | 🌿 | Do 30 dnů | **9** |
 | 📄 | Do 90 dnů | **16** |
 | 🗄️ | Starší než 3 měsíce | **309** |
@@ -36,7 +36,7 @@ generated: 2026-10-08
       - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
-    - 🔥 [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
+    - ♨️ [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
@@ -157,7 +157,7 @@ generated: 2026-10-08
     - 🗄️ [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
-    - 🔥 [[Novinky ve verzi k 6. 10. 2026]] `v1` · 5. 10. 2026
+    - ♨️ [[Novinky ve verzi k 6. 10. 2026]] `v1` · 5. 10. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
     - 📄 [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
