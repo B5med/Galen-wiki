@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-09
+generated: 2026-10-10
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **9. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-09
+> **10. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-10
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **4** |
-| 🌿 | Do 30 dnů | **9** |
+| ♨️ | Do 14 dnů | **3** |
+| 🌿 | Do 30 dnů | **10** |
 | 📄 | Do 90 dnů | **16** |
 | 🗄️ | Starší než 3 měsíce | **309** |
 | ❓ | Bez data | **0** |
@@ -269,7 +269,7 @@ generated: 2026-10-09
     - 🗄️ [[Editace vyšetření různými odpovědnými lékaři]] `v1` · 3. 9. 2025
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
-    - ♨️ [[Vyšetření]] `v2` · 25. 9. 2026
+    - 🌿 [[Vyšetření]] `v2` · 25. 9. 2026
     - 🗄️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
   - 🗄️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
