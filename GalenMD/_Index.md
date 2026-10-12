@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-11
+generated: 2026-10-12
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **11. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-11
+> **12. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-12
 
 ## Legenda stáří dokumentu
 
@@ -13,9 +13,9 @@ generated: 2026-10-11
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **7** |
+| 🌿 | Do 30 dnů | **6** |
 | 📄 | Do 90 dnů | **19** |
-| 🗄️ | Starší než 3 měsíce | **309** |
+| 🗄️ | Starší než 3 měsíce | **310** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -138,7 +138,7 @@ generated: 2026-10-11
     - 📄 [[Novinky ve verzi k 11. 8. 2026]] `v1` · 10. 8. 2026
     - 🗄️ [[Novinky ve verzi k 12. 8. 2025]] `v4` · 25. 8. 2025
     - 🗄️ [[Novinky ve verzi k 13. 1. 2026]] `v1` · 12. 1. 2026
-    - 📄 [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
+    - 🗄️ [[Novinky ve verzi k 14. 7. 2026]] `v2` · 13. 7. 2026
     - 🗄️ [[Novinky ve verzi k 15. 7. 2025]] `v2` · 29. 7. 2025
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
@@ -165,7 +165,7 @@ generated: 2026-10-11
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 🌿 [[Prohlídky]] `v11` · 11. 9. 2026
+      - 📄 [[Prohlídky]] `v11` · 11. 9. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
