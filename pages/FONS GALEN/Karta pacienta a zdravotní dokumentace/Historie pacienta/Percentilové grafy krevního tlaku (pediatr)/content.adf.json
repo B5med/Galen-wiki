@@ -1,0 +1,801 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "92a9463911dd"
+      },
+      "content": [
+        {
+          "text": "Popis funkcionality",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bf6fa372805c"
+      },
+      "content": [
+        {
+          "text": "Záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Tlak",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v grafu výsledků měření zobrazuje pro odbornost ",
+          "type": "text"
+        },
+        {
+          "text": "Praktický lékař pro děti a dorost (002)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " percentilová pásma systolického (STK) a diastolického (DTK) krevního tlaku. Hodnocení vychází z referenčních hodnot dle pohlaví, věku a výškového percentilu dítěte (Cor Vasa 2009).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1528,
+            "alt": "image-20261014-123238.png",
+            "id": "0cfe9ba2-56b5-412c-8d8e-b3fdf0eebdc5",
+            "collection": "contentId-638517250",
+            "type": "file",
+            "localId": "1c7aa5e60bf5",
+            "height": 814
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c82b32c23f0a"
+      },
+      "content": [
+        {
+          "text": "Kde funkci najdu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "954a222f22bc"
+      },
+      "content": [
+        {
+          "text": "Modul Ordinace → vybrat pacienta → záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Historie",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → ",
+          "type": "text"
+        },
+        {
+          "text": "Měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Grafy měření",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " → tlačítko ",
+          "type": "text"
+        },
+        {
+          "text": "Tlak",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "30766f9e6960"
+      },
+      "content": [
+        {
+          "text": "Popis grafu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "2c4f89571611"
+      },
+      "content": [
+        {
+          "text": "Graf zobrazuje naměřené hodnoty STK a DTK pacienta v čase a jejich polohu vůči percentilovým pásmům. Pásma jsou zobrazena ve dvou sadách — pro systolu (fialová) a diastolu (zelená).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "880006c54c2b"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5b47c0cb1bca"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b78545da2e07"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d33e2b23b8ec"
+                  },
+                  "content": [
+                    {
+                      "text": "Pásmo",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7459e0cb203f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f65cf432f54d"
+                  },
+                  "content": [
+                    {
+                      "text": "Barva",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8e53cfd903e4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bb3922633c19"
+                  },
+                  "content": [
+                    {
+                      "text": "Klinický význam",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "c47d4d19591e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e5bf562c9762"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ec9c9fc22ce4"
+                  },
+                  "content": [
+                    {
+                      "text": "99. percentil",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2635c65bd868"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6c51dbf14730"
+                  },
+                  "content": [
+                    {
+                      "text": "nejsvětlejší",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c7b85c8a048b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3cf2d4174128"
+                  },
+                  "content": [
+                    {
+                      "text": "hranice hypertenze 2. stupně",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "053f9be7dd13"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "60bb704b88e1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "3987dd74c4c3"
+                  },
+                  "content": [
+                    {
+                      "text": "95. percentil",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0fc4ddeddb86"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b5afca82d28"
+                  },
+                  "content": [
+                    {
+                      "text": "střední",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bd486ec3734b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9c7250f6b8c9"
+                  },
+                  "content": [
+                    {
+                      "text": "hranice hypertenze 1. stupně",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e41854ded8cb"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b723c9661617"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "561c7e46a658"
+                  },
+                  "content": [
+                    {
+                      "text": "90. percentil",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "56c4bd620a1c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2ea6c6abf403"
+                  },
+                  "content": [
+                    {
+                      "text": "nejtmavší",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cb11c5d018ae"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "87f53ee0c963"
+                  },
+                  "content": [
+                    {
+                      "text": "hranice vysokého normálního TK",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3b4206ab8a19"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ada6f7046617"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d87fd11c431e"
+                  },
+                  "content": [
+                    {
+                      "text": "50. percentil",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "bd5ecb3e8ad4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7ecca2628f46"
+                  },
+                  "content": [
+                    {
+                      "text": "bílá čára",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "431f26eff618"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "946ae3b80253"
+                  },
+                  "content": [
+                    {
+                      "text": "medián referenčních hodnot",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d59303709bde"
+      },
+      "content": [
+        {
+          "text": "Systola je zobrazena modrou křivkou, diastola zelenou křivkou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "22e4307f233d"
+      },
+      "content": [
+        {
+          "text": "Tooltip",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "87000aef1173"
+      },
+      "content": [
+        {
+          "text": "Po najetí na bod měření se zobrazí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "b38574ef768a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5010a43072e9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b79a35c096de"
+              },
+              "content": [
+                {
+                  "text": "věk pacienta v době měření (např. 10r2m)",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "35b8b3001c73"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f578c852c288"
+              },
+              "content": [
+                {
+                  "text": "naměřená hodnota v mmHg",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "195ed3ac9ae8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4c44c0b3fa9d"
+              },
+              "content": [
+                {
+                  "text": "TK percentil",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c46688809426"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7602d528d191"
+              },
+              "content": [
+                {
+                  "text": "⚠ upozornění na stav výšky — pokud výška není ze stejného dne nebo není k dispozici",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0d39e3a191a7"
+      },
+      "content": [
+        {
+          "text": "Výška pacienta",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "cb9e219aec38"
+      },
+      "content": [
+        {
+          "text": "Percentilová pásma se počítají s ohledem na výšku pacienta. Systém hledá výšku prioritně ze stejného dne jako měření TK. Pokud výška ze stejného dne není k dispozici, použije nejbližší dostupnou hodnotu a upozorní na to v tooltipu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "f85ea81e9733"
+      },
+      "content": [
+        {
+          "text": "Omezení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "14b5f9ee2916"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0a002d578e2e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fa30bbadc8d4"
+              },
+              "content": [
+                {
+                  "text": "Graf se zobrazuje pouze pro věk ",
+                  "type": "text"
+                },
+                {
+                  "text": "1–17 let",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Pro pacienty mimo tento rozsah se záložka Tlak zobrazí bez percentilových křivek.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0880a53c6e75"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6e13af9bf048"
+              },
+              "content": [
+                {
+                  "text": "Pokud pohlaví pacienta není vyplněno, použijí se referenční hodnoty pro chlapce.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b6b6b9692776"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "27b1ae2ca0c2"
+              },
+              "content": [
+                {
+                  "text": "U malých dětí (věk 1–5 let) se mohou fialová a zelená pásma vizuálně prekývat — jde o běžný stav daný biologickými hodnotami.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

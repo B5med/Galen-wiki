@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-14
+generated: 2026-10-15
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **14. 10. 2026**  ·  Celkem stránek: **338**  ·  Poslední sync z Confluence: 2026-10-14
+> **15. 10. 2026**  ·  Celkem stránek: **339**  ·  Poslední sync z Confluence: 2026-10-15
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **6** |
-| 📄 | Do 90 dnů | **19** |
-| 🗄️ | Starší než 3 měsíce | **310** |
+| 🌿 | Do 30 dnů | **4** |
+| 📄 | Do 90 dnů | **20** |
+| 🗄️ | Starší než 3 měsíce | **311** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -39,6 +39,8 @@ generated: 2026-10-14
     - ♨️ [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
+    - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
+      - 🔥 [[Percentilové grafy krevního tlaku (pediatr)]] `v4` · 14. 10. 2026
     - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 🗄️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
@@ -48,7 +50,6 @@ generated: 2026-10-14
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 📄 [[EZD – elektronická zdravotní dokumentace]] `v6` · 10. 9. 2026
-    - 🗄️ [[Historie pacienta]] `v2` · 18. 6. 2025
     - 🗄️ [[Modul ordinace]] `v7` · 16. 6. 2026
     - 🗄️ [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
@@ -73,7 +74,7 @@ generated: 2026-10-14
       - 🗄️ [[Trvalé medikace a Receptář]] `v2` · 21. 7. 2025
     - 🗄️ **[[Očkování]]** `v1` · 23. 6. 2025
       - 🗄️ **[[Nadstandardní modul ISIN – odesílání a nahlížení očkování]]** `v2` · 28. 6. 2026
-        - 📄 [[Nahlížení na záznamy eOčkování]] `v3` · 16. 7. 2026
+        - 🗄️ [[Nahlížení na záznamy eOčkování]] `v3` · 16. 7. 2026
         - 🗄️ [[Odeslání očkování do ISINv2 (ostatní očkování, původně SÚKL)]] `v4` · 28. 6. 2026
         - 🗄️ [[Odesílání očkování do ISIN - očkování proti Covid-19]] `v3` · 28. 6. 2026
         - 🗄️ [[Skladová evidence očkovacích látek]] `v2` · 28. 6. 2026
@@ -258,10 +259,10 @@ generated: 2026-10-14
     - 🗄️ **[[Dekurz]]** `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování textu předchozí návštěvy]] `v1` · 23. 6. 2025
       - 🗄️ [[Kopírování trvalých medikací a trvalých diagnóz do LZ a dekurz]] `v1` · 23. 6. 2025
-      - 🌿 [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
+      - 📄 [[Odesílání zpráv z dekurzu]] `v3` · 14. 9. 2026
       - 🗄️ [[Zkratky a formátování v dekurzu]] `v5` · 7. 7. 2026
     - 🗄️ **[[Lékařská zpráva]]** `v1` · 23. 6. 2025
-      - 🌿 [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
+      - 📄 [[Odesílání lékařských zpráv]] `v5` · 14. 9. 2026
     - 🗄️ **[[Vytvoření lékařské zprávy za celou společnost]]** `v2` · 23. 6. 2025
       - 🗄️ [[Generování lékařské zprávy]] `v1` · 23. 6. 2025
       - 🗄️ [[Vložení výpisu z dokumentace]] `v1` · 23. 6. 2025
