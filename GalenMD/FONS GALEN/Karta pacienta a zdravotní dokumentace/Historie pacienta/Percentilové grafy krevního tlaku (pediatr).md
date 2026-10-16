@@ -1,7 +1,7 @@
 ---
 title: "Percentilové grafy krevního tlaku (pediatr)"
-version: 4
-updated_at: 2026-10-14
+version: 6
+updated_at: 2026-10-16
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/638517250
 ---
 
@@ -11,7 +11,7 @@ source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/638517250
 
 Záložka **Tlak** v grafu výsledků měření zobrazuje pro odbornost **Praktický lékař pro děti a dorost (002)** percentilová pásma systolického (STK) a diastolického (DTK) krevního tlaku. Hodnocení vychází z referenčních hodnot dle pohlaví, věku a výškového percentilu dítěte (Cor Vasa 2009).
 
-![image-20261014-123238.png](<../../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Historie pacienta/Percentilové grafy krevního tlaku (pediatr)/assets/image-20261014-123238.png>)
+![image-20261016-083758.png](<../../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Historie pacienta/Percentilové grafy krevního tlaku (pediatr)/assets/image-20261016-083758.png>)
 
 ## Kde funkci najdu
 
@@ -48,3 +48,7 @@ Percentilová pásma se počítají s ohledem na výšku pacienta. Systém hled�
 - Graf se zobrazuje pouze pro věk **1–17 let**. Pro pacienty mimo tento rozsah se záložka Tlak zobrazí bez percentilových křivek.
 - Pokud pohlaví pacienta není vyplněno, použijí se referenční hodnoty pro chlapce.
 - U malých dětí (věk 1–5 let) se mohou fialová a zelená pásma vizuálně prekývat — jde o běžný stav daný biologickými hodnotami.
+
+## Zdroj referenčních hodnot
+
+Referenční hodnoty krevního tlaku vycházejí z guidelines ESH 2016. Tabulky hodnot jsou dostupné na: [Hypertenze (pediatrie) – tabulka – WikiSkripta](https://www.wikiskripta.eu/w/Hypertenze_(pediatrie)_-_tabulka)

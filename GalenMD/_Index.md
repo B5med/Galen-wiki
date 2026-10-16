@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-15
+generated: 2026-10-16
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **15. 10. 2026**  ·  Celkem stránek: **339**  ·  Poslední sync z Confluence: 2026-10-15
+> **16. 10. 2026**  ·  Celkem stránek: **339**  ·  Poslední sync z Confluence: 2026-10-16
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **20** |
-| 🗄️ | Starší než 3 měsíce | **311** |
+| ♨️ | Do 14 dnů | **2** |
+| 🌿 | Do 30 dnů | **5** |
+| 📄 | Do 90 dnů | **19** |
+| 🗄️ | Starší než 3 měsíce | **312** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -40,7 +40,7 @@ generated: 2026-10-15
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
-      - 🔥 [[Percentilové grafy krevního tlaku (pediatr)]] `v4` · 14. 10. 2026
+      - 🔥 [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
     - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 🗄️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
@@ -242,7 +242,7 @@ generated: 2026-10-15
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
     - 📄 [[eShop]] `v1` · 27. 7. 2026
-    - ♨️ [[Externí přístup]] `v3` · 1. 10. 2026
+    - 🌿 [[Externí přístup]] `v3` · 1. 10. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
   - 🗄️ **[[Vyšetření, dekurz a klinická péče]]** `v4` · 15. 5. 2026
@@ -292,7 +292,7 @@ generated: 2026-10-15
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
-      - 📄 [[Certifikát PZS]] `v7` · 17. 7. 2026
+      - 🗄️ [[Certifikát PZS]] `v7` · 17. 7. 2026
       - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🗄️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025

@@ -63,13 +63,13 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1528,
-            "alt": "image-20261014-123238.png",
-            "id": "0cfe9ba2-56b5-412c-8d8e-b3fdf0eebdc5",
+            "width": 1530,
+            "alt": "image-20261016-083758.png",
+            "id": "bdd1ea94-84bc-42ef-ace1-c98d46415fc0",
             "collection": "contentId-638517250",
             "type": "file",
-            "localId": "1c7aa5e60bf5",
-            "height": 814
+            "localId": "20d17912f99b",
+            "height": 810
           }
         }
       ]
@@ -791,6 +791,43 @@
                   "type": "text"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "fedb64c44955"
+      },
+      "content": [
+        {
+          "text": "Zdroj referenčních hodnot",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "af07039809a4"
+      },
+      "content": [
+        {
+          "text": "Referenční hodnoty krevního tlaku vycházejí z guidelines ESH 2016. Tabulky hodnot jsou dostupné na: ",
+          "type": "text"
+        },
+        {
+          "text": "Hypertenze (pediatrie) – tabulka – WikiSkripta",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://www.wikiskripta.eu/w/Hypertenze_(pediatrie)_-_tabulka"
+              }
             }
           ]
         }
