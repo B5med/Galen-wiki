@@ -1,0 +1,742 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "708a9cc05f9a"
+      },
+      "content": [
+        {
+          "text": "Certifikát PZS se dá obnovit přímo ve FONS Galen, bez portálu EZCA.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "error",
+        "localId": "777431513717"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "2c823ec2db0f"
+          },
+          "content": [
+            {
+              "text": "Obnovit lze jen aktivní certifikát.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Musí být ve společnosti nastavený a nesmí mít prošlou platnost. Jinak je tlačítko Obnovit zašedlé. Prošlý certifikát je nutné vystavit znovu v EZCA (viz stránka ",
+              "type": "text"
+            },
+            {
+              "text": "Certifikát PZS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/377421825"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ").",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "589af51b463a"
+      },
+      "content": [
+        {
+          "text": "Postup",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "08ccd401ef98",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f37ee69a42df"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5ee68c24e7a1"
+              },
+              "content": [
+                {
+                  "text": "Otevřete detail společnosti a klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Konfigurace PZS",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "25615a010427"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "246daa526891"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "a1f440abb155"
+                      },
+                      "content": [
+                        {
+                          "text": "Hlavní společnost: Správce → Správa organizace → Struktura → společnost.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "08bcf60f19fe"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "50022f683a7f"
+                      },
+                      "content": [
+                        {
+                          "text": "Podřízená společnost: Správce → Správa organizace → Agendy → Podřízené společnosti → společnost.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "f9f623a9e4a6"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "b326554c6780"
+                      },
+                      "content": [
+                        {
+                          "text": "Společnost musí být uložená.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1916,
+            "alt": "image-20261019-085602.png",
+            "id": "36511843-600e-4d05-9a19-fb1b60c552fb",
+            "collection": "contentId-643497986",
+            "type": "file",
+            "localId": "239eed5af3c2",
+            "height": 1015
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "64e4c4ec82bf",
+        "order": 2
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4730b5972877"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9671fae8804b"
+              },
+              "content": [
+                {
+                  "text": "V části ",
+                  "type": "text"
+                },
+                {
+                  "text": "Obnova certifikátu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zadejte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Nové heslo",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a stejné heslo do ",
+                  "type": "text"
+                },
+                {
+                  "text": "Potvrzení hesla",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Heslo musí mít 17 až 100 znaků a obsahovat znaky alespoň ze 3 skupin: malá písmena, velká písmena, číslice, speciální znaky. Heslo si uložte.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 941,
+            "alt": "image-20261019-085711.png",
+            "id": "d9aa1b5d-dd69-430f-a727-c8d3670c8da7",
+            "collection": "contentId-643497986",
+            "type": "file",
+            "localId": "48a1f25b3b57",
+            "height": 746
+          }
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "3b061212c325",
+        "order": 3
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bdba9707cd43"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "08e90319e770"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na ",
+                  "type": "text"
+                },
+                {
+                  "text": "Obnovit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4afba6a86148"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "00eb4953b8e9"
+              },
+              "content": [
+                {
+                  "text": "Podle zprávy:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "e8d763d9b831"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "00fd25d551b2"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "504742a4be39"
+                      },
+                      "content": [
+                        {
+                          "text": "„Certifikát PZS byl obnoven. Platnost do …“: hotovo.",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "cd200ac55d61"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "39b9b2136064"
+                      },
+                      "content": [
+                        {
+                          "text": "„Žádost se zpracovává…“: dialog zavřete, později jej otevřete znovu a klikněte na ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "Zjistit stav",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": ".",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "dbc0a9816b6a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1985fbc76bfb"
+              },
+              "content": [
+                {
+                  "text": "V ",
+                  "type": "text"
+                },
+                {
+                  "text": "Historii obnovy",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zkontrolujte stav ",
+                  "type": "text"
+                },
+                {
+                  "text": "Obnoven",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Dialog zavřete tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "OK",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ac01a85f95d4"
+      },
+      "content": [
+        {
+          "text": "Každá společnost, hlavní i podřízená, má vlastní certifikát a obnovuje se zvlášť.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "5de00d1b1e8d"
+      },
+      "content": [
+        {
+          "text": "Když něco nejde",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "9d2fbd56f6cb"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "3df658d10ddd"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1b4d2c2f762b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "34fd9f04f82f"
+                  },
+                  "content": [
+                    {
+                      "text": "Situace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "aacd32c596b1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6ab88c3b4104"
+                  },
+                  "content": [
+                    {
+                      "text": "Co dělat",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e4f8ab577c2b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9c1354b9fe24"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "befe6f6466fa"
+                  },
+                  "content": [
+                    {
+                      "text": "Obnovit je zašedlé",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8c5adc2fc489"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6e6c0236d316"
+                  },
+                  "content": [
+                    {
+                      "text": "Najedťte myší na tlačítko, zobrazí se důvod: špatné heslo, neshoda hesel, neaktivní certifikát nebo probíhající žádost.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "13030b113dc0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "96ca59d1fa3a"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "221a8c2daae5"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Zpracovává se",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "7559df9df8c6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "494e3d556a0f"
+                  },
+                  "content": [
+                    {
+                      "text": "Klikněte na Zjistit stav.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e43f39af1aa2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9773305e66da"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "068c462d1774"
+                  },
+                  "content": [
+                    {
+                      "text": "Stav ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Chyba",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d89ee3e2c342"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8a514a7935ee"
+                  },
+                  "content": [
+                    {
+                      "text": "Text chyby uvidíte po najetí myší na řádek v Historii. Zkuste Obnovit znovu a zadejte nové heslo. Při opakování kontaktujte podporu.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

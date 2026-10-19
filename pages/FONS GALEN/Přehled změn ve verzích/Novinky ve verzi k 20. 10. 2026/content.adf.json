@@ -1,0 +1,559 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Pediatrie",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Percentilové grafy krevního tlaku",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V ordinaci pediatra se na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Tlak",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v grafu výsledků měření nově zobrazují percentilová pásma systolického a diastolického tlaku (50., 90., 95. a 99. percentil) podle pohlaví, věku a výškového percentilu dítěte. Po najetí myší na bod v grafu se zobrazí věk, naměřená hodnota a percentil TK. Podrobný popis naleznete ",
+          "type": "text"
+        },
+        {
+          "text": "zde",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/638517250"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Rehabilitace – FT poukazy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Lhůta pro zahájení terapie",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "V přehledu ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", v detailu poukazu a v panelu Poukazy FT na obrazovce ",
+          "type": "text"
+        },
+        {
+          "text": "Výkony",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se nově zobrazuje datum ",
+          "type": "text"
+        },
+        {
+          "text": "Zahájení do",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Je to nejzazší termín, do kdy musí být terapie na poukaz zahájena. Počítá se od data vystavení podle nastavení ",
+          "type": "text"
+        },
+        {
+          "text": "Výchozí doba do zahájení [dny]",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje → Specializované moduly → Rehabilitace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Výchozí hodnota je 40 dní.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Platnost FT poukazu v měsících",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Výchozí platnost poukazu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " se v ",
+          "type": "text"
+        },
+        {
+          "text": "Nástroje → Specializované moduly → Rehabilitace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " nově zadává v kalendářních měsících (1–12). Podle ní se počítá platnost nově vystavených FT poukazů. Dosavadní nastavení pracovišť se při nasazení verze automaticky převede ze dnů na měsíce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Přehled FT poukazů za celé pracoviště",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v Kartotéce je nově dostupná i bez výběru pacienta. Přehled má záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Pracoviště",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Pacient",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a rozšířený filtr: IČP žadatele, Platnost do, Datum zahájení, Stav, Aktuálně platný a Diagnóza.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Elektronické zdravotnictví",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Obnova certifikátu PZS přímo ve FONS Galen",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Mění se místo, kde se certifikát PZS nastavuje. Celá konfigurace komunikace PZS je nově na jednom místě, pod tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace PZS",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " v detailu společnosti:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "hlavní společnost: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa organizace → Struktura → společnost",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "podřízená společnost: ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa organizace → Agendy → Podřízené společnosti → společnost",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Tady lze platnost certifikátu nově obnovit přímo ve FONS Galen, bez práce v portálu EZCA. Stačí zadat a potvrdit nové heslo a kliknout na ",
+          "type": "text"
+        },
+        {
+          "text": "Obnovit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Průběh i historie pokusů jsou vždy vidět a při chybě lze obnovu zopakovat. Obnovit jde jen aktivní certifikát, kterému ještě neskončila platnost. Podrobný postup naleznete ",
+          "type": "text"
+        },
+        {
+          "text": "zde",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/643497986/Obnova+certifik+tu+PZS+ve+FONS+Galen"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Správa systému",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Nová role Administrátor (omezená práva)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Přibyla role ",
+          "type": "text"
+        },
+        {
+          "text": "Administrátor (omezená práva)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " pro administrátory, kteří nepotřebují upravovat uživatele a pracovníky. Uživatelé s touto rolí mají záložky ",
+          "type": "text"
+        },
+        {
+          "text": "Uživatelé",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Struktura",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " jen pro čtení, bez možnosti úprav a zakládání nových záznamů. Podrobný popis naleznete ",
+          "type": "text"
+        },
+        {
+          "text": "zde",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/646414337/Role+u+ivatele"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Opravy chyb",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#bf2600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Návrat adresy pobytu v eDPN",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Opravena chyba, kdy se po skončení dočasné změny adresy pobytu v eDPN adresa nevrátila včas na původní. Neschopenku pak po ukončení nešlo vytisknout bez ručního doplnění adresy.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

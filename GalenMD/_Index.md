@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-18
+generated: 2026-10-19
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **18. 10. 2026**  ·  Celkem stránek: **339**  ·  Poslední sync z Confluence: 2026-10-18
+> **19. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-19
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **4** |
 | ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **20** |
+| 🌿 | Do 30 dnů | **3** |
+| 📄 | Do 90 dnů | **21** |
 | 🗄️ | Starší než 3 měsíce | **312** |
 | ❓ | Bez data | **0** |
 
@@ -117,7 +117,7 @@ generated: 2026-10-18
         - 🗄️ [[Vznik nároku]] `v1` · 10. 7. 2025
         - 🗄️ [[Zobrazení nároků pacienta v záložce Historie]] `v1` · 10. 7. 2025
       - 🗄️ [[Modul Nároky]] `v2` · 10. 7. 2025
-      - 🌿 [[Obecné fungování nároků]] `v2` · 18. 9. 2026
+      - 📄 [[Obecné fungování nároků]] `v2` · 18. 9. 2026
     - 🗄️ **[[Objednávání, kalendáře, notifikace]]** `v3` · 16. 6. 2026
       - 🗄️ [[Vyhledání termínu v kalendáři]] `v1` · 18. 6. 2026
     - 🗄️ **[[Portál pacienta]]** `v1` · 21. 3. 2025
@@ -147,6 +147,7 @@ generated: 2026-10-18
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
+    - 🔥 [[Novinky ve verzi k 20. 10. 2026]] `v1` · 19. 10. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 🌿 [[Novinky ve verzi k 22. 9. 2026]] `v1` · 21. 9. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
@@ -227,6 +228,7 @@ generated: 2026-10-18
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
           - 📄 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
             - 📄 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
+          - 🔥 [[Role uživatele]] `v2` · 19. 10. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
@@ -292,7 +294,8 @@ generated: 2026-10-18
       - 🗄️ [[Podepsání v Signosoft]] `v1` · 29. 1. 2026
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
-      - 🗄️ [[Certifikát PZS]] `v7` · 17. 7. 2026
+      - 🗄️ **[[Certifikát PZS]]** `v7` · 17. 7. 2026
+        - 🔥 [[Obnova certifikátu PZS ve FONS Galen]] `v2` · 19. 10. 2026
       - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🗄️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
