@@ -1,7 +1,7 @@
 ---
 title: "Poukaz FT"
-version: 2
-updated_at: 2025-12-01
+version: 3
+updated_at: 2026-10-20
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/61440018
 ---
 
@@ -19,27 +19,37 @@ Na pracovišti s odborností 902 je možné využívat aparát pro práci s 
 
 ## **Základní evidence**
 
-Pro konkrétního pacienta je možné zobrazit seznam evidovaných poukazů pomocí tlačítka *Poukazy FT* v horní liště modulu *Ordinace.*
+Seznam evidovaných poukazů FT se zobrazí pomocí tlačítka *Poukazy FT* v horní liště modulu *Ordinace*.
 
-![image-20250701-084227.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084227.png>)
+![image-20261020-121357.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20261020-121357.png>)
 Pozn.: Pokud je pracoviště oprávněné vystavovat také Žádanky RDG – hledejte Poukazy FT pod ikonou Žádanky.
+
+Ikona *Poukazy FT* v hlavním panelu modulu *Ordinace*je dostupná i bez výběru pacienta. Přehled obsahuje dvě záložky:
+
+- **Pracoviště** – zobrazuje všechny poukazy FT evidované na pracovišti. Záložka je dostupná vždy.
+- **Pacient** – zobrazuje poukazy vybraného pacienta. Záložka je aktivní až po výběru pacienta.
 
 Okno s evidovanými poukazy obsahuje základní filtrace (v levé části) a seznam již evidovaných poukazů (v pravé části).
 
-![image-20250701-084312.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084312.png>)
+![image-20261020-121657.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20261020-121657.png>)
+
+## **Vytváření poukazu**
+
 Do vytvářeného poukazu se nakopírují základní identifikační údaje z kartotéky. Dále je nutné zadat několik povinných informací, které jsou ve formuláři označeny červenou hvězdičkou. Zejména se jedná o:
 
-- Přiřazen na prac. - pracoviště, na které je poukaz FT přiřazen
+- Přiřazen na prac.:  pracoviště (odr. 902), na které je poukaz FT přiřazen a bude terapii realizovat
 
-- Platnost poukazu do
+- Platnost poukazu do: Výchozí hodnota se vypočítá jako datum vystavení + *Výchozí platnost poukazu,*kterou si pracoviště v měsících nastaví přes*Nástroje - Specializ. moduly - Rehabilitace*
 
-- Počet návštěv, během kterých mají být předepsané výkony realizovány
+- Počet návštěv: návštěvy, během kterých mají být předepsané výkony realizovány, výchozí hodnotu si pracoviště nastaví přes*Nástroje - Specializ. moduly - Rehabilitace*
+- Zahájení terapie do: vypočítá se jako datum vystavení + *Výchozí doba do zahájení a* udává datum, do kterého musí být proveden a vykázán výkon na daný poukaz, výchozí počet dní si pracoviště v měsících nastaví přes*Nástroje - Specializ. moduly - Rehabilitace*
 
-- Požadovaná adresa poskytování péče (v případě, že se jedná o domácí péči, jinak je možné ponechat prázdné)
+- Požadovaná adresa poskytování péče: vyplňuje se v případě, že se jedná o domácí péči, jinak je možné ponechat prázdné
 
-- Informace o předepisujícím lékaři (zejména IČP a odbornost)
+- Informace o předepisujícím lékaři (zejména IČP a odbornost) - výběr z číselníku
 
-- Diagnóza.
+- Diagnóza
+- Evidováno k: datum, ke kterému pracoviště vykonávající rehabilitaci eviduje poukaz, důležité zejména pro dodržení maximálního počtu poukazů pro pacienta za rok a společnost (nastavuje správce společnosti v Správce - Správa organizace - Pracoviště - UI Konfigurace část Rehabilitace) a v případě PLS pro dodržení skartačních lhůt a správné evidence zaměstnavatele.
 
 Pole Typ dokumentace je přednastaveno na hodnotu Kurativa a lze jej změnit na PLS. Při volbě PLS se zobrazí doplňkové pole Zaměstnání, kde je potřeba vybrat z číselníku zaměstnání pacienta.
 
@@ -88,7 +98,7 @@ Tohoto stavu FT poukaz nabývá pouze po ruční změně.
 
 Evidované poukazy FT slouží jako „šablony“ pro zadávání výkonů v okně *Výkony*. Seznam těchto poukazů se zobrazuje v pravé části pod šablonami výkonů.
 
-![image-20250701-084644.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084644.png>)
+![image-20261020-122953.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20261020-122953.png>)
 Kliknutím na příslušné tlačítko se zobrazí dialogové okno pro zadání provedených výkonů.
 
 ![image-20250701-084706.png](<../../../pages/FONS GALEN/Žádanky, posudky a elektronická podání/Poukaz FT/assets/image-20250701-084706.png>)

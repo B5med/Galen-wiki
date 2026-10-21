@@ -175,7 +175,7 @@
       },
       "content": [
         {
-          "text": "Pro konkrétního pacienta je možné zobrazit seznam evidovaných poukazů pomocí tlačítka ",
+          "text": "Seznam evidovaných poukazů FT se zobrazí pomocí tlačítka ",
           "type": "text"
         },
         {
@@ -188,11 +188,11 @@
           ]
         },
         {
-          "text": " v horní liště modulu ",
+          "text": " v horní liště modulu ",
           "type": "text"
         },
         {
-          "text": "Ordinace.",
+          "text": "Ordinace",
           "type": "text",
           "marks": [
             {
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "text": " ",
+          "text": ".",
           "type": "text"
         }
       ]
@@ -217,37 +217,43 @@
         {
           "type": "media",
           "attrs": {
-            "width": 953,
-            "alt": "image-20250701-084227.png",
-            "id": "87426e4d-97fa-4be4-8e26-474e3af4d1dd",
+            "width": 1140,
+            "alt": "image-20261020-121357.png",
+            "id": "7c500aef-cfad-45a1-a41e-1533b1602d8e",
             "collection": "contentId-61440018",
             "type": "file",
-            "localId": "6168d43a-4077-4baa-bb75-c80d9f3e8b7f",
-            "height": 81
-          }
+            "localId": "5b94587263ca",
+            "height": 84
+          },
+          "marks": [
+            {
+              "type": "border",
+              "attrs": {
+                "size": 2,
+                "color": "#091e4224"
+              }
+            }
+          ]
         },
         {
           "type": "caption",
           "attrs": {
-            "localId": "446c9458-66a7-4c7b-a15a-0e5963a21d78"
+            "localId": "5f004e83887b"
           },
           "content": [
             {
-              "text": "Zobrazení seznamu poukazů FT",
-              "type": "text",
-              "marks": [
-                {
-                  "type": "em"
-                }
-              ]
-            },
-            {
-              "text": " ",
+              "text": "Přehled FT poukazů na pracoviště (bez nutnosti výběru pacienta) a na pacienta",
               "type": "text"
             }
           ]
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "b94a6618e380"
+      }
     },
     {
       "type": "paragraph",
@@ -258,6 +264,110 @@
         {
           "text": "Pozn.: Pokud je pracoviště oprávněné vystavovat také Žádanky RDG – hledejte Poukazy FT pod ikonou Žádanky.",
           "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0a513f5273a5"
+      },
+      "content": [
+        {
+          "text": "Ikona ",
+          "type": "text"
+        },
+        {
+          "text": "Poukazy FT",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v hlavním panelu modulu ",
+          "type": "text"
+        },
+        {
+          "text": "Ordinace ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "je dostupná i bez výběru pacienta. Přehled obsahuje dvě záložky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "f6bf2089-fc02-450d-86fc-7a935d1241a8"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1a9b1355-cbce-4703-80da-526d9dd25fdc"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d5d6e1430bfa"
+              },
+              "content": [
+                {
+                  "text": "Pracoviště",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – zobrazuje všechny poukazy FT evidované na pracovišti. Záložka je dostupná vždy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "c2911c4b-dc13-4964-b6cf-52b706ce2e18"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bc7e754af663"
+              },
+              "content": [
+                {
+                  "text": "Pacient",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – zobrazuje poukazy vybraného pacienta. Záložka je aktivní až po výběru pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -284,33 +394,42 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1005,
-            "alt": "image-20250701-084312.png",
-            "id": "d600cbc2-d56e-4b5c-bbcb-9e5bcf49a080",
+            "width": 1908,
+            "alt": "image-20261020-121657.png",
+            "id": "7346a366-3317-49a7-b14f-2f7b44978112",
             "collection": "contentId-61440018",
             "type": "file",
-            "localId": "3780e352-2e1b-4426-9bc6-c143781fc160",
-            "height": 115
+            "localId": "e6cc79e3f619",
+            "height": 591
           }
         },
         {
           "type": "caption",
           "attrs": {
-            "localId": "8431112e-29f5-4432-99c5-c3ab74c74e99"
+            "localId": "3dea1f062162"
           },
           "content": [
             {
-              "text": "Seznam poukazů FT",
-              "type": "text",
-              "marks": [
-                {
-                  "type": "em"
-                }
-              ]
-            },
-            {
-              "text": " ",
+              "text": "Seznam FT poukazů",
               "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "9987545036a0"
+      },
+      "content": [
+        {
+          "text": "Vytváření poukazu ",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
             }
           ]
         }
@@ -319,7 +438,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "41a5d180-7270-461e-a2f9-f9ef58c509c7"
+        "localId": "c518a6751f2b"
       },
       "content": [
         {
@@ -347,7 +466,7 @@
               },
               "content": [
                 {
-                  "text": "Přiřazen na prac. - pracoviště, na které je poukaz FT přiřazen ",
+                  "text": "Přiřazen na prac.:  pracoviště (odr. 902), na které je poukaz FT přiřazen a bude terapii realizovat",
                   "type": "text"
                 }
               ]
@@ -375,8 +494,30 @@
               },
               "content": [
                 {
-                  "text": "Platnost poukazu do ",
+                  "text": "Platnost poukazu do: Výchozí hodnota se vypočítá jako datum vystavení + ",
                   "type": "text"
+                },
+                {
+                  "text": "Výchozí platnost poukazu, ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "kterou si pracoviště v měsících nastaví přes",
+                  "type": "text"
+                },
+                {
+                  "text": " Nástroje - Specializ. moduly - Rehabilitace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
                 }
               ]
             }
@@ -403,8 +544,63 @@
               },
               "content": [
                 {
-                  "text": "Počet návštěv, během kterých mají být předepsané výkony realizovány ",
+                  "text": "Počet návštěv: návštěvy, během kterých mají být předepsané výkony realizovány, výchozí hodnotu si pracoviště nastaví přes",
                   "type": "text"
+                },
+                {
+                  "text": " Nástroje - Specializ. moduly - Rehabilitace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "957e52770503"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "424dd8cdf6d5"
+              },
+              "content": [
+                {
+                  "text": "Zahájení terapie do: vypočítá se jako datum vystavení + ",
+                  "type": "text"
+                },
+                {
+                  "text": "Výchozí doba do zahájení a",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " udává datum, do kterého musí být proveden a vykázán výkon na daný poukaz, výchozí počet dní si pracoviště v měsících nastaví přes",
+                  "type": "text"
+                },
+                {
+                  "text": " Nástroje - Specializ. moduly - Rehabilitace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
                 }
               ]
             }
@@ -431,7 +627,7 @@
               },
               "content": [
                 {
-                  "text": "Požadovaná adresa poskytování péče (v případě, že se jedná o domácí péči, jinak je možné ponechat prázdné) ",
+                  "text": "Požadovaná adresa poskytování péče: vyplňuje se v případě, že se jedná o domácí péči, jinak je možné ponechat prázdné",
                   "type": "text"
                 }
               ]
@@ -459,7 +655,7 @@
               },
               "content": [
                 {
-                  "text": "Informace o předepisujícím lékaři (zejména IČP a odbornost) ",
+                  "text": "Informace o předepisujícím lékaři (zejména IČP a odbornost) - výběr z číselníku",
                   "type": "text"
                 }
               ]
@@ -487,7 +683,27 @@
               },
               "content": [
                 {
-                  "text": "Diagnóza. ",
+                  "text": "Diagnóza",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "61611d08fa8e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "37f3301b488a"
+              },
+              "content": [
+                {
+                  "text": "Evidováno k: datum, ke kterému pracoviště vykonávající rehabilitaci eviduje poukaz, důležité zejména pro dodržení maximálního počtu poukazů pro pacienta za rok a společnost (nastavuje správce společnosti v Správce - Správa organizace - Pracoviště - UI Konfigurace část Rehabilitace) a v případě PLS pro dodržení skartačních lhůt a správné evidence zaměstnavatele.",
                   "type": "text"
                 }
               ]
@@ -570,7 +786,7 @@
       },
       "content": [
         {
-          "text": " Dále je zapotřebí vyplnit seznam požadovaných výkonů. K tomu slouží editovatelná tabulka ve spodní části dialogu. ",
+          "text": "Dále je zapotřebí vyplnit seznam požadovaných výkonů. K tomu slouží editovatelná tabulka ve spodní části dialogu. ",
           "type": "text"
         }
       ]
@@ -1033,33 +1249,33 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1265,
-            "alt": "image-20250701-084644.png",
-            "id": "560f1e7f-a0d2-4226-9f5f-18648832ca69",
+            "width": 1919,
+            "alt": "image-20261020-122953.png",
+            "id": "e580fe8c-b31b-4e59-98a3-0efd3e92c618",
             "collection": "contentId-61440018",
             "type": "file",
-            "localId": "66fd80f6-4cd6-453a-a799-798241b649d0",
-            "height": 262
+            "localId": "8199d3074d26",
+            "height": 741
           }
         },
         {
           "type": "caption",
           "attrs": {
-            "localId": "5ac4cf9a-4575-4bf2-b886-8d8fbffeee03"
+            "localId": "5c15d0acc648"
           },
           "content": [
             {
-              "text": "Seznam poukazů v okně Výkony",
+              "text": "Seznam poukazů v okně ",
+              "type": "text"
+            },
+            {
+              "text": "Výkony",
               "type": "text",
               "marks": [
                 {
                   "type": "em"
                 }
               ]
-            },
-            {
-              "text": " ",
-              "type": "text"
             }
           ]
         }

@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-20
+generated: 2026-10-21
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **20. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-20
+> **21. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-21
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **3** |
+| 🔥 | Do 3 dnů | **5** |
 | ♨️ | Do 14 dnů | **1** |
 | 🌿 | Do 30 dnů | **5** |
 | 📄 | Do 90 dnů | **21** |
-| 🗄️ | Starší než 3 měsíce | **312** |
+| 🗄️ | Starší než 3 měsíce | **310** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -279,7 +279,7 @@ generated: 2026-10-20
       - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
     - 🗄️ [[Cesta k nastavení používání hesel|Cesta k nastavení používání hesel]] `v1` · 17. 6. 2025
     - 🗄️ [[Dvoufaktorové ověření (2FA)]] `v5` · 7. 11. 2025
-    - 🗄️ [[Instalace FONS Galen]] `v3` · 9. 12. 2025
+    - 🔥 [[Instalace FONS Galen]] `v7` · 21. 10. 2026
     - 🗄️ [[Klávesové zkratky ve FONS Galen]] `v1` · 21. 7. 2025
     - 🗄️ [[Obnovení hesla e-mailem]] `v1` · 26. 8. 2025
     - 🗄️ [[Off-line režim]] `v1` · 18. 6. 2025
@@ -341,7 +341,7 @@ generated: 2026-10-20
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
       - 📄 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 📄 [[Centrová léčba]] `v3` · 10. 9. 2026
-    - 🗄️ [[Poukaz FT]] `v2` · 1. 12. 2025
+    - 🔥 [[Poukaz FT]] `v3` · 20. 10. 2026
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
 - 🗄️ **[[MDCL API]]** `v2` · 8. 7. 2025
