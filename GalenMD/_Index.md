@@ -1,18 +1,18 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-22
+generated: 2026-10-23
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **22. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-22
+> **23. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-23
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **5** |
-| ♨️ | Do 14 dnů | **1** |
+| 🔥 | Do 3 dnů | **2** |
+| ♨️ | Do 14 dnů | **4** |
 | 🌿 | Do 30 dnů | **4** |
 | 📄 | Do 90 dnů | **21** |
 | 🗄️ | Starší než 3 měsíce | **311** |
@@ -147,7 +147,7 @@ generated: 2026-10-22
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
-    - 🔥 [[Novinky ve verzi k 20. 10. 2026]] `v1` · 19. 10. 2026
+    - ♨️ [[Novinky ve verzi k 20. 10. 2026]] `v1` · 19. 10. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 📄 [[Novinky ve verzi k 22. 9. 2026]] `v1` · 21. 9. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
@@ -228,7 +228,7 @@ generated: 2026-10-22
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
           - 📄 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
             - 📄 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
-          - 🔥 [[Role uživatele]] `v2` · 19. 10. 2026
+          - ♨️ [[Role uživatele]] `v2` · 19. 10. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
@@ -295,7 +295,7 @@ generated: 2026-10-22
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
       - 🗄️ **[[Certifikát PZS]]** `v7` · 17. 7. 2026
-        - 🔥 [[Obnova certifikátu PZS ve FONS Galen]] `v2` · 19. 10. 2026
+        - ♨️ [[Obnova certifikátu PZS ve FONS Galen]] `v2` · 19. 10. 2026
       - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🗄️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
