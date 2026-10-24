@@ -5,11 +5,11 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Obrazovka Finanční přehled zajišťuje kompletní přehled o úhradách, jejich limitech a ocenění v rámci poskytnuté péče. Obrazovka je rozdělena do tří záložek. Tyto záložky slouží ",
+          "text": "Obrazovka ",
           "type": "text"
         },
         {
-          "text": "pouze k prohlížení dat",
+          "text": "Finanční přehled",
           "type": "text",
           "marks": [
             {
@@ -18,15 +18,127 @@
           ]
         },
         {
-          "text": " – uživatel zde nemůže provádět žádné úpravy ani editace.",
+          "text": " zobrazuje výsledky výpočtu úhrady po měsících. Je rozdělena do záložek ",
           "type": "text"
+        },
+        {
+          "text": "Limitovaná péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "Plně hrazená péče",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Péče cizincům",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Záložky slouží pouze k prohlížení dat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Data lze filtrovat podle roku, IČZ a měsíce.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Data lze exportovat do Excelu tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Export",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Výpočty jednotlivých hodnot jsou popsány na stránce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Jak se počítá úhrada",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 2
       },
       "content": [
         {
@@ -39,47 +151,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Tato záložka zobrazuje ",
-          "type": "text"
-        },
-        {
-          "text": "výkony, jejichž úhrada je omezena stanoveným limitem",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": ". Uživatel zde získá přehled, zda byl limit již vyčerpán, zda došlo k jeho překročení a jak se to promítá do finančního vyhodnocení.",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "text": "Poznámka:",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": " Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "text": " ",
+          "text": "Zobrazuje péči, jejíž úhrada je omezena maximální úhradou (segment P07L – fyzioterapie a ergoterapie s limitací). Uživatel zde vidí, zda byla limitace vyčerpána nebo překročena. Hodnoty jsou kumulované za období od ledna do daného měsíce.",
           "type": "text"
         }
       ]
@@ -95,20 +167,581 @@
         {
           "type": "media",
           "attrs": {
-            "width": 432,
-            "alt": "image-20250905-074343.png",
+            "width": 900,
             "id": "a2e0bf02-c92f-429c-8c83-2b9bb26a666b",
             "collection": "contentId-113639430",
             "type": "file",
-            "height": 132
+            "height": 275
           }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Sloupec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Podsegment, Měsíc",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Identifikace řádku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Limitovaná úhrada",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ano – na zařízení se vztahuje limitace. Ne – zařízení nedosáhlo minimálního počtu pacientů (Výchozí údaje – Počet UOP limitní úhrada), limitace se neuplatňuje a péče je hrazena podle vykázaných výkonů.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Modelace ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ne – výpočet je proveden nad již vykázanými daty. Ano – jde o modelaci (odhad do konce roku).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Počet unikátů – základní pacient",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Počet základních unikátních pojištěnců ošetřených v hodnoceném období, kumulovaně od ledna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Počet unikátů – mimořádně nákladný pacient",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Počet mimořádně nákladných unikátních pojištěnců ošetřených v hodnoceném období, kumulovaně od ledna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "PURO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Průběžné PURO za období od ledna do daného měsíce, rozložené podle referenčního období. Během roku roste a v prosinci dosáhne celoroční hodnoty. Pokud je ve Výchozích údajích zadané PURO (ref. obd.), vychází z něj.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ocenění",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ocenění vykázaných výkonů včetně ZUM a ZULP.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Limitace",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Maximální úhrada za limitovanou péči.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Úhrada",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Výsledná úhrada – nižší z hodnot Ocenění a Limitace.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Překročení (Kč) ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ocenění − Limitace. Kladná hodnota (červeně) = objem péče, který nebude uhrazen. Nulová nebo záporná hodnota (zeleně) = limitace nebyla vyčerpána.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Překročení (%) ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Překročení vyjádřené v procentech limitace. Barvy stejné jako u Překročení (Kč).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Modelace:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " V rozšířené verzi se pro měsíce, které ještě neproběhly, zobrazují odhadované hodnoty do konce roku (sloupec Modelace = Ano). Odhad vychází z rozložení péče v referenčním období. V základní verzi se sloupec Modelace ani modelované řádky nezobrazují.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Při porovnávání s analýzou pojišťovny si ověřte, za jaký měsíc hodnotu čtete a zda nejde o modelovaný řádek.",
+              "type": "text"
+            }
+          ]
         }
       ]
     },
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 2
       },
       "content": [
         {
@@ -121,38 +754,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Obsahuje přehled ",
-          "type": "text"
-        },
-        {
-          "text": "výkonů hrazených v plné výši bez limitů",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": ". Uživatel zde získá souhrn bodů, ocenění bodů a odpovídajících úhrad od pojišťoven. Tato záložka poskytuje rychlý přehled o plně hrazené zdravotní péči.",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "text": "Poznámka:",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": " Záložka slouží pouze k prohlížení. V rozšířené verzi jsou navíc dostupné modelace (predikce do konce roku) a detailní výpočty překročení v Kč a %.",
+          "text": "Zobrazuje péči hrazenou v plné výši bez limitace (segment P07V): výkonovou úhradu dle diagnóz, dopravu a poplatky. Hodnoty jsou kumulované za období od ledna do daného měsíce.",
           "type": "text"
         }
       ]
@@ -168,20 +770,336 @@
         {
           "type": "media",
           "attrs": {
-            "width": 432,
-            "alt": "image-20250905-074405.png",
+            "width": 900,
             "id": "d763da30-de81-4e9a-83ad-0a138201e7b1",
             "collection": "contentId-113639430",
             "type": "file",
-            "height": 84
+            "height": 175
           }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Sloupec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Podsegment, Měsíc",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Identifikace řádku. Podsegmenty viz stránka ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Pojmy a zkratky",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Modelace ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Stejný význam jako u Limitované péče. U podsegmentu Poplatky se modelace neprovádí.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Body K – výkonový segment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Počet bodů za výkony, kumulovaně od ledna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Ocenění body K – výkonový segment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Body oceněné příslušnou hodnotou bodu, kumulovaně od ledna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "ZUM ZULP K – výkonový segment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Úhrada za ZUM a ZULP, kumulovaně od ledna.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Úhrada",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Výsledná úhrada (ocenění bodů + ZUM a ZULP).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "type": "heading",
       "attrs": {
-        "level": 3
+        "level": 2
       },
       "content": [
         {
@@ -194,58 +1112,7 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Přehled výkonů poskytnutých ",
-          "type": "text"
-        },
-        {
-          "text": "pojištěncům z ciziny",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": ". Tabulka uvádí body, hodnoty ZUM a ZULP a úhrada.",
-          "type": "text"
-        },
-        {
-          "type": "hardBreak"
-        },
-        {
-          "text": "Na konci tabulky je vždy k dispozici ",
-          "type": "text"
-        },
-        {
-          "text": "součtový řádek",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": ", který shrnuje celkový objem vykázané péče cizincům.",
-          "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
-        {
-          "text": "Poznámka:",
-          "type": "text",
-          "marks": [
-            {
-              "type": "strong"
-            }
-          ]
-        },
-        {
-          "text": " Záložka slouží pouze k prohlížení.",
+          "text": "Zobrazuje péči poskytnutou pojištěncům z Členských států EU a ze států s mezinárodní smlouvou, po měsících.",
           "type": "text"
         }
       ]
@@ -261,18 +1128,54 @@
         {
           "type": "media",
           "attrs": {
-            "width": 432,
-            "alt": "image-20250905-074420.png",
+            "width": 900,
             "id": "1d712a93-8354-47cb-a654-10192dcd47c3",
             "collection": "contentId-113639430",
             "type": "file",
-            "height": 95
+            "height": 197
           }
         }
       ]
     },
     {
-      "type": "paragraph"
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Sloupce:",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " IČZ, Pojišťovna, Odbornost, Podsegment, Měsíc, HB (hodnota bodu), Body, ZUM a ZULP, Úhrada.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Součet sloupců Body, ZUM a ZULP a Úhrada je uveden v záhlaví sloupce jako ",
+          "type": "text"
+        },
+        {
+          "text": "(celkem: …)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
     }
   ],
   "version": 1

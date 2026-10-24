@@ -2,16 +2,111 @@
   "type": "doc",
   "content": [
     {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "ed7c92eea3c2"
+      },
+      "content": [
+        {
+          "text": "Obecně",
+          "type": "text"
+        }
+      ]
+    },
+    {
       "type": "bulletList",
+      "attrs": {
+        "localId": "3ba680a44cfa"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "04a7b1dfbe6f"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "afc9ab1d8e73"
+              },
               "content": [
                 {
-                  "text": "Po aktivaci modulu je nutné vyčkat do následujícího dne, než bude možné začít editovat vstupní údaje.",
+                  "text": "Po aktivaci modulu počkejte do následujícího dne, než budou data k dispozici.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "07564895bac0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9ddee42dc3fb"
+              },
+              "content": [
+                {
+                  "text": "Změny vstupních údajů se projeví až po nočním zpracování, tedy následující den.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5ec4dd38b528"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "6770a7ed1f74"
+              },
+              "content": [
+                {
+                  "text": "Věnujte pozornost vysvětlivkám u sloupců a polí (ikona ",
+                  "type": "text"
+                },
+                {
+                  "text": "i",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ").",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d14458fba987"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "0cb27dd76b38"
+              },
+              "content": [
+                {
+                  "text": "Pro další zpracování dat využijte export do Excelu.",
                   "type": "text"
                 }
               ]
@@ -21,16 +116,138 @@
       ]
     },
     {
-      "type": "bulletList",
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "071ebe6c34cd"
+      },
+      "content": [
+        {
+          "text": "První nastavení vstupních údajů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a0a6d4a21b37",
+        "order": 1
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "6c268ebea9ed"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "f8868c9c1024"
+              },
               "content": [
                 {
-                  "text": "Jakákoliv změna vstupních hodnot se projeví až po noční aktualizaci – tedy následující den.",
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "Výchozí údaje → Úhradové parametry",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "0b4606fb1ac9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d343ba52f027"
+              },
+              "content": [
+                {
+                  "text": "U každé pojišťovny vyplňte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vstupní úhradu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " z vyúčtování pojišťovny za referenční období. Bez ní není výpočet kompletní.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5b05d29cc6f2"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "80fdd9d93e8a"
+              },
+              "content": [
+                {
+                  "text": "Porovnejte hodnoty ",
+                  "type": "text"
+                },
+                {
+                  "text": "Vypočteno systémem",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " (počet bodů a počet unikátních pojištěnců v referenčním období) s vyúčtováním. Pokud se liší, zadejte hodnoty z vyúčtování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9ddde67e379b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "121ebfffa032"
+              },
+              "content": [
+                {
+                  "text": "Druhý den zkontrolujte výsledky ve Finančním přehledu.",
                   "type": "text"
                 }
               ]
@@ -40,16 +257,357 @@
       ]
     },
     {
-      "type": "bulletList",
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "db30210c256b"
+      },
+      "content": [
+        {
+          "text": "Pojišťovna mi sdělila PURO",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "6e43cdf5ff68"
+      },
+      "content": [
+        {
+          "text": "Pokud máte s pojišťovnou sjednané PURO, které se liší od vypočteného, zadejte ho do pole ",
+          "type": "text"
+        },
+        {
+          "text": "PURO (ref. obd.)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " ve sloupci ",
+          "type": "text"
+        },
+        {
+          "text": "Zadaná hodnota",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " v detailu úhradového parametru dané pojišťovny. Zadaná hodnota má přednost před vypočtenou a použije se pro výpočet limitace.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c7aec18c8984"
+      },
+      "content": [
+        {
+          "text": "Splňuji podmínky pro navýšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "66a7cd69c87a",
+        "order": 1
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "52292ea52a71"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "e54d098fa3a5"
+              },
               "content": [
                 {
-                  "text": "Věnujte pozornost vysvětlivkám a legendám dostupným u většiny položek.",
+                  "text": "V rozšířené verzi zkontrolujte na obrazovce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Analytik",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " záložky ",
+                  "type": "text"
+                },
+                {
+                  "text": "Navýšení hodnoty bodu",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a ",
+                  "type": "text"
+                },
+                {
+                  "text": "Navýšení koeficientu navýšení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "5637b7251e45"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "8902d96d2e22"
+              },
+              "content": [
+                {
+                  "text": "Barva ukazuje splnění jednotlivé podmínky, nikoli nárok na navýšení. Nárok posuzuje pojišťovna.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "bc056960360e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9e1645ba656f"
+              },
+              "content": [
+                {
+                  "text": "Pokud vám pojišťovna navyšení přizná, zadejte ho ručně – Galen ho sám nezmění:",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "bulletList",
+              "attrs": {
+                "localId": "6c83bedebcef"
+              },
+              "content": [
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "612f174a2bd4"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "23d4a542c92d"
+                      },
+                      "content": [
+                        {
+                          "text": "hodnotu bodu ve ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "Výchozí údaje → Hodnota bodu",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " (pole Navýšení hodnoty, případně Specifická navyšení pro konkrétní pojišťovnu nebo IČZ),",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "attrs": {
+                    "localId": "06e03ad4ce22"
+                  },
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": {
+                        "localId": "37a4b06c433b"
+                      },
+                      "content": [
+                        {
+                          "text": "koeficient navýšení ve ",
+                          "type": "text"
+                        },
+                        {
+                          "text": "Výchozí údaje → Úhradové parametry",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "strong"
+                            }
+                          ]
+                        },
+                        {
+                          "text": " (pole Koeficient navýšení v detailu úhradového parametru).",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "922fd14d42be"
+      },
+      "content": [
+        {
+          "text": "Porovnání s analýzou nebo vyúčtováním pojišťovny",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "029c28cbf513"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "86bc62da89b9"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "288760abec4d"
+              },
+              "content": [
+                {
+                  "text": "Ověřte, že porovnáváte stejná období. Hodnoty ve Finančním přehledu jsou kumulované od ledna do zvoleného měsíce.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4511c5bbe96d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9ab28531d43d"
+              },
+              "content": [
+                {
+                  "text": "V rozšířené verzi rozlišujte vykázaná data a modelaci (sloupec Modelace). Modelované řádky obsahují odhad do konce roku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e97ba1542c01"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "3e5b8d787e8f"
+              },
+              "content": [
+                {
+                  "text": "Pole s označením ",
+                  "type": "text"
+                },
+                {
+                  "text": "(ref. obd.)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " ve Výchozích údajích se týkají referenčního období (předminulého roku), nikoli aktuálního roku.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "d9cf02a1b22e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "144645c8b86e"
+              },
+              "content": [
+                {
+                  "text": "Galen počítá z vykázaných dat. Pojišťovna může vycházet z uznaných dokladů nebo z jiného období, proto se čísla mohou lišit.",
                   "type": "text"
                 }
               ]
@@ -59,35 +617,78 @@
       ]
     },
     {
-      "type": "bulletList",
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "53269945aa62"
+      },
       "content": [
         {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Využívejte funkci exportu, pokud potřebujete další zpracování dat (např. v Excelu).",
-                  "type": "text"
-                }
-              ]
-            }
-          ]
+          "text": "Nezobrazují se data",
+          "type": "text"
         }
       ]
     },
     {
       "type": "bulletList",
+      "attrs": {
+        "localId": "0f00a60b8929"
+      },
       "content": [
         {
           "type": "listItem",
+          "attrs": {
+            "localId": "4d164a87aa33"
+          },
           "content": [
             {
               "type": "paragraph",
+              "attrs": {
+                "localId": "cb41e41c4922"
+              },
               "content": [
                 {
-                  "text": "Při porovnávání dat si nezapomeňte přepnout na předchozí roky pomocí šipek.",
+                  "text": "Zkontrolujte vybraný rok a nastavené filtry.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f43c3575a819"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cdb1bcc83164"
+              },
+              "content": [
+                {
+                  "text": "Některé záložky mohou být oprávněně prázdné (např. pokud nebyla poskytnuta péče cizincům).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "beba6e287a54"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "7a3381ec8627"
+              },
+              "content": [
+                {
+                  "text": "Po aktivaci modulu nebo po změně vstupních údajů počkejte na noční zpracování.",
                   "type": "text"
                 }
               ]

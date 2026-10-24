@@ -1,0 +1,551 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Modul Finanční analýza modeluje výši úhrady za ambulantní péči v segmentu fyzioterapie a ergoterapie podle úhradové vyhlášky platné pro zvolený rok. Výpočet provádí systém FONS Reports, Galen předává vykázaná data a vstupní údaje a zobrazuje výsledky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Konkrétní hodnoty, jako je koeficient navýšení, hodnota bodu, minimální hodnota bodu nebo prahové hodnoty pro navýšení, stanovuje úhradová vyhláška pro příslušný rok.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Výpočet probíhá každou noc. Změny výchozích údajů se proto projeví až následující den.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Období",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Aktuální období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – sledovaný rok.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Referenční období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – předminulý rok.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Mezidobí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – rok mezi referenčním a aktuálním obdobím.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Body všech období jsou přepočtené podle číselníku výkonů platného k 1. 1. aktuálního roku a oceněné hodnotou bodu aktuálního roku, aby byla data porovnatelná.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "1. PURO (ref. obd.)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud je ve ",
+          "type": "text"
+        },
+        {
+          "text": "Výchozích údajích",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " vyplněná ",
+          "type": "text"
+        },
+        {
+          "text": "Zadaná hodnota",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", použije se ona. Jinak se použije hodnota ",
+          "type": "text"
+        },
+        {
+          "text": "Vypočteno systémem",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ":",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "PURO (ref. obd.) = MAX( A ; B )\n\nA = Vstupní úhrada ÷ Počet unik. pojištěnců (ref. obd.)\nB = (Počet bodů (ref. obd.) × minimální hodnota bodu + ZUM a ZULP (ref. obd.))\n    ÷ Počet unik. pojištěnců (ref. obd.)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U všech vstupních údajů platí, že zadaná hodnota má přednost před vypočtenou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "2. Koeficient navýšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Koeficient navýšení celkem = základní hodnota (dle vyhlášky) + navyšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud navyšení není vyplněné, počítá se jako 0. Od roku 2026 se navyšení zadává na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Úhradové parametry",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", pro rok 2025 a starší na záložce ",
+          "type": "text"
+        },
+        {
+          "text": "Koeficient navýšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "3. Hodnota bodu a ocenění",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Hodnota bodu = Základní hodnota + Navýšení hodnoty\nOcenění body = Body × Hodnota bodu\nOcenění = Ocenění body + ZUM a ZULP",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "4. Finanční přehled – Limitovaná péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Hodnoty se zobrazují po měsících a jsou kumulované za období od ledna do daného měsíce.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Úhrada za základní pacienty = Koeficient navýšení celkem × PURO × Počet unikátů – základní pacient\nÚhrada za MNP               = Koeficient navýšení celkem × PURO × Počet unikátů – mimořádně nákladný pacient\nÚhrada MNP (aktuální)       = úhrada za výkony včetně ZUM a ZULP za mimořádně nákladné pacienty v aktuálním období\nÚhrada MNP (referenční)     = totéž v referenčním období\n\nLimitace = Úhrada za základní pacienty + MAX( Úhrada za MNP ; Úhrada MNP (aktuální) − Úhrada MNP (referenční) )\n\nÚhrada = MIN( Ocenění ; Limitace )\n\nPřekročení (Kč) = Ocenění − Limitace\nPřekročení (%)  = (Ocenění ÷ Limitace − 1) × 100, zaokrouhleno na 2 desetinná místa",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Překročení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – kladná hodnota znamená objem péče, který nebude uhrazen (podbarveno červeně). Nulová nebo záporná hodnota znamená, že limitace nebyla vyčerpána (podbarveno zeleně).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "PURO",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " se ve Finančním přehledu zobrazuje jako průběžné. Počítá se za období od ledna do daného měsíce podle rozložení péče v referenčním období, proto během roku roste a v prosinci dosáhne celoroční hodnoty PURO.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Limitovaná úhrada",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – pokud zařízení v aktuálním nebo referenčním období nedosáhne minimálního počtu pacientů (pole ",
+                  "type": "text"
+                },
+                {
+                  "text": "Počet UOP limitní úhrada",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": "), limitace se neuplatňuje a péče je hrazena podle skutečně vykázaných výkonů.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Modelace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (pouze rozšířená verze) – u měsíců, které ještě neproběhly, jsou počty bodů a unikátních pojištěnců odhadnuté do konce roku podle rozložení referenčního období.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "5. Finanční přehled – Plně hrazená péče",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Úhrada = Ocenění body K + ZUM ZULP K",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Plně hrazená péče není omezená limitací. U podsegmentu Poplatky se modelace neprovádí, zobrazuje se pouze skutečnost.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "6. Analytik – Nákladní pojištěnci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Ocenění celkem  = Ocenění body + Ocenění ZUM a ZULP\nPURO5           = PURO × 5, zaokrouhleno na celé číslo\nPřekročení (Kč) = Ocenění celkem − PURO5\nMNP poměr (%)   = Ocenění celkem ÷ PURO5 × 100, zaokrouhleno na 2 desetinná místa",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Zelená barva znamená, že pojištěnec hranici mimořádně nákladného pacienta dosáhl (Překročení ≥ 0, MNP poměr ≥ 100 %). Červená barva znamená, že se k hranici teprve blíží.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "7. Analytik – Navýšení hodnoty bodu a Navýšení koeficientu navýšení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "codeBlock",
+      "content": [
+        {
+          "text": "Poměr KNa (%)     = Výkony – počet KNa ÷ Výkony – počet vše × 100\nPoměr KNb (%)     = Výkony – počet KNb ÷ Výkony – počet vše × 100\nPoměr diagnóz (%) = POP diagnózy ÷ POP vše × 100",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Seznam výkonů a diagnóz a prahové hodnoty pro nárok na navýšení stanovuje úhradová vyhláška. Jejich přesné znění je uvedeno ve vysvětlivce u sloupce. Splnění podmínky je v tabulce barevně označené; barva neznamená, že zařízení má na navýšení automaticky nárok. Hodnoty se počítají k určitému měsíci, během roku se proto mohou zvyšovat i snižovat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Galen hodnotu bodu ani koeficient navýšení sám nezmění. Pokud nárok na navýšení vznikne, je potřeba navyšení zadat ručně ve ",
+              "type": "text"
+            },
+            {
+              "text": "Výchozích údajích",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

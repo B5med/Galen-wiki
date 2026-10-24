@@ -2,42 +2,14 @@
   "type": "doc",
   "content": [
     {
-      "type": "bulletList",
-      "content": [
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Vysvětlivky: U jednotlivých názvů sloupců a polí jsou dostupné vysvětlivky označené ikonou I. Po najetí myší se zobrazí detailní popis dané položky.",
-                  "type": "text"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "mediaSingle",
+      "type": "heading",
       "attrs": {
-        "layout": "center",
-        "width": 24,
-        "widthType": "pixel"
+        "level": 2
       },
       "content": [
         {
-          "type": "media",
-          "attrs": {
-            "width": 13,
-            "alt": "image-20250905-064822.png",
-            "id": "b25e09ea-998c-4e86-950e-9c47fc1f114f",
-            "collection": "contentId-113737731",
-            "type": "file",
-            "height": 13
-          }
+          "text": "Aktualizace dat",
+          "type": "text"
         }
       ]
     },
@@ -51,7 +23,35 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Export: Na vybraných záložkách je možné data exportovat do souboru za pomocí tlačítka Export",
+                  "text": "Data v modulu se aktualizují jednou denně při nočním zpracování.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Změny vstupních údajů se projeví až následující den. Po uložení změny ve Výchozích údajích na to upozorní hláška.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Po aktivaci modulu je potřeba počkat do následujícího dne, než budou data a vstupní údaje k dispozici.",
                   "type": "text"
                 }
               ]
@@ -61,42 +61,49 @@
       ]
     },
     {
-      "type": "mediaSingle",
+      "type": "heading",
       "attrs": {
-        "layout": "center",
-        "width": 24,
-        "widthType": "pixel"
+        "level": 2
       },
       "content": [
         {
-          "type": "media",
-          "attrs": {
-            "width": 19,
-            "alt": "image-20250905-064854.png",
-            "id": "a363bd7e-67f2-4831-a10a-d7efac86e2a6",
-            "collection": "contentId-113737731",
-            "type": "file",
-            "height": 19
-          }
+          "text": "Výběr roku",
+          "type": "text"
         }
       ]
     },
     {
-      "type": "bulletList",
+      "type": "paragraph",
       "content": [
         {
-          "type": "listItem",
-          "content": [
+          "text": "Po otevření se zobrazí data za aktuální rok. Mezi roky lze přepínat výběrem ze seznamu nebo šipkami ",
+          "type": "text"
+        },
+        {
+          "text": "Předchozí rok",
+          "type": "text",
+          "marks": [
             {
-              "type": "paragraph",
-              "content": [
-                {
-                  "text": "Historická data: Pomocí šipek vlevo/vpravo lze přepínat mezi aktuálním a předchozími roky.",
-                  "type": "text"
-                }
-              ]
+              "type": "strong"
             }
           ]
+        },
+        {
+          "text": " / ",
+          "type": "text"
+        },
+        {
+          "text": "Následující rok",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Pokud starší nebo novější data neexistují, šipka je neaktivní.",
+          "type": "text"
         }
       ]
     },
@@ -111,13 +118,33 @@
         {
           "type": "media",
           "attrs": {
-            "width": 117,
-            "alt": "image-20250905-064924.png",
+            "width": 244,
             "id": "ef446ebb-62f8-4267-8a19-8c3516473c7f",
             "collection": "contentId-113737731",
             "type": "file",
-            "height": 24
+            "height": 50
           }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Změna roku platí pro všechny záložky dané obrazovky a zruší nastavené filtry IČZ a Měsíc.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Filtry",
+          "type": "text"
         }
       ]
     },
@@ -131,7 +158,16 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Aktualizace dat: Data v modulu jsou aktualizována přes noc. Změny vstupních údajů se projeví až následující den.",
+                  "text": "IČZ",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – na všech záložkách kromě Hodnota bodu a Koeficient navýšení.",
                   "type": "text"
                 }
               ]
@@ -145,12 +181,184 @@
               "type": "paragraph",
               "content": [
                 {
-                  "text": "Po aktivaci modulu je třeba vyčkat do dalšího dne, než budou vstupní údaje k dispozici a bude možné je editovat.",
+                  "text": "Měsíc",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – na obrazovce Finanční přehled.",
                   "type": "text"
                 }
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Vysvětlivky",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U názvů sloupců a polí je ikona ",
+          "type": "text"
+        },
+        {
+          "text": "i",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Po najetí myší se zobrazí popis položky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 24,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 28,
+            "id": "b25e09ea-998c-4e86-950e-9c47fc1f114f",
+            "collection": "contentId-113737731",
+            "type": "file",
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Export",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Na obrazovkách Finanční přehled a Analytik lze data exportovat do Excelu tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Export",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Soubor se pojmenuje podle záložky a roku.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 24,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 39,
+            "id": "a363bd7e-67f2-4831-a10a-d7efac86e2a6",
+            "collection": "contentId-113737731",
+            "type": "file",
+            "height": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Součty",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "U vybraných záložek (Péče cizincům, Body a unikátní pojištěnci) je součet sloupce uveden v jeho záhlaví jako ",
+          "type": "text"
+        },
+        {
+          "text": "(celkem: …)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Barevné zvýraznění",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Některé hodnoty jsou podbarveny zeleně nebo červeně. Význam barev se liší podle záložky a je popsán u jednotlivých obrazovek.",
+          "type": "text"
         }
       ]
     }

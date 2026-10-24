@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-23
+generated: 2026-10-24
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **23. 10. 2026**  ·  Celkem stránek: **342**  ·  Poslední sync z Confluence: 2026-10-23
+> **24. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-24
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
+| 🔥 | Do 3 dnů | **14** |
 | ♨️ | Do 14 dnů | **4** |
 | 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **21** |
-| 🗄️ | Starší než 3 měsíce | **311** |
+| 📄 | Do 90 dnů | **19** |
+| 🗄️ | Starší než 3 měsíce | **305** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -26,14 +26,16 @@ generated: 2026-10-23
 
 - 🗄️ **[[FONS GALEN]]** `v15` · 15. 5. 2026
   - 🗄️ **[[Finance a účetnictví]]** `v2` · 15. 5. 2026
-    - 🗄️ **[[Modul Finanční analýza]]** `v1` · 5. 9. 2025
-      - 🗄️ [[Doporučení pro práci s modulem]] `v1` · 5. 9. 2025
-      - 🗄️ [[Obecné informace]] `v1` · 5. 9. 2025
-      - 🗄️ [[Obrazovka_ Analytika|Obrazovka: Analytika]] `v1` · 5. 9. 2025
-      - 🗄️ [[Obrazovka_ Finanční přehled|Obrazovka: Finanční přehled]] `v1` · 5. 9. 2025
-      - 🗄️ [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v2` · 12. 5. 2026
-      - 🗄️ [[Rozdíly mezi verzemi]] `v1` · 5. 9. 2025
-      - 🗄️ [[Zapnutí modulu pro uživatele]] `v1` · 5. 9. 2025
+    - 🔥 **[[Modul Finanční analýza]]** `v2` · 23. 10. 2026
+      - 🔥 [[Doporučení pro práci s modulem]] `v2` · 23. 10. 2026
+      - 🔥 [[Jak se počítá úhrada]] `v1` · 23. 10. 2026
+      - 🔥 [[Obecné informace]] `v2` · 23. 10. 2026
+      - 🔥 [[Obrazovka_ Analytik|Obrazovka: Analytik]] `v3` · 23. 10. 2026
+      - 🔥 [[Obrazovka_ Finanční přehled|Obrazovka: Finanční přehled]] `v2` · 23. 10. 2026
+      - 🔥 [[Obrazovka_ Výchozí údaje|Obrazovka: Výchozí údaje]] `v3` · 23. 10. 2026
+      - 🔥 [[Pojmy a zkratky]] `v2` · 23. 10. 2026
+      - 🔥 [[Rozdíly mezi verzemi]] `v2` · 23. 10. 2026
+      - 🔥 [[Zapnutí modulu]] `v2` · 23. 10. 2026
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
     - 🌿 [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
@@ -226,9 +228,11 @@ generated: 2026-10-23
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
-          - 📄 **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
-            - 📄 [[Specialista vyúčtování]] `v1` · 25. 7. 2026
-          - ♨️ [[Role uživatele]] `v2` · 19. 10. 2026
+          - 🔥 **[[Role uživatele]]** `v4` · 23. 10. 2026
+            - 🔥 [[Administrátor (omezená práva)]] `v1` · 23. 10. 2026
+            - 🔥 [[Operátor CC]] `v2` · 23. 10. 2026
+          - 🗄️ **[[Zvláštní oprávnění]]** `v1` · 25. 7. 2026
+            - 🗄️ [[Specialista vyúčtování]] `v1` · 25. 7. 2026
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
@@ -341,7 +345,7 @@ generated: 2026-10-23
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
       - 📄 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 📄 [[Centrová léčba]] `v3` · 10. 9. 2026
-    - 🔥 [[Poukaz FT]] `v3` · 20. 10. 2026
+    - ♨️ [[Poukaz FT]] `v3` · 20. 10. 2026
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
 - 🗄️ **[[MDCL API]]** `v2` · 8. 7. 2025

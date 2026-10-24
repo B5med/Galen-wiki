@@ -4,16 +4,14 @@
     {
       "type": "table",
       "attrs": {
-        "layout": "default",
-        "width": 760.0,
-        "localId": "08f4dd7c-c850-4455-89cc-0e9306e71b82"
+        "layout": "default"
       },
       "content": [
         {
           "type": "tableRow",
           "content": [
             {
-              "type": "tableCell",
+              "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1
@@ -31,7 +29,7 @@
               ]
             },
             {
-              "type": "tableCell",
+              "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1
@@ -49,7 +47,7 @@
               ]
             },
             {
-              "type": "tableCell",
+              "type": "tableHeader",
               "attrs": {
                 "colspan": 1,
                 "rowspan": 1
@@ -82,7 +80,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Zadávání výchozích údajů",
+                      "text": "Výchozí údaje (úhradové parametry, hodnota bodu, koeficient navýšení)",
                       "type": "text"
                     }
                   ]
@@ -141,7 +139,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Finanční přehled",
+                      "text": "Finanční přehled – Limitovaná péče a Plně hrazená péče",
                       "type": "text"
                     }
                   ]
@@ -159,7 +157,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "✅ Omezený",
+                      "text": "✅ pouze vykázaná data",
                       "type": "text"
                     }
                   ]
@@ -177,7 +175,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "✅ Detailní vč. výpočtů překročení a predikce do konce roku",
+                      "text": "✅ navíc sloupec Modelace a modelované řádky (odhad do konce roku)",
                       "type": "text"
                     }
                   ]
@@ -200,7 +198,66 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Analytika – body a pojištěnci",
+                      "text": "Finanční přehled – Překročení (Kč) a Překročení (%)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "❌",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "✅ včetně barevného zvýraznění",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Finanční přehled – Péče cizincům",
                       "type": "text"
                     }
                   ]
@@ -259,7 +316,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Nákladní pojištěnci",
+                      "text": "Analytik – Body a unikátní pojištěnci",
                       "type": "text"
                     }
                   ]
@@ -277,7 +334,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "✅ Základní",
+                      "text": "✅",
                       "type": "text"
                     }
                   ]
@@ -295,7 +352,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "✅ Vč. výpočtů a barevného zvýraznění",
+                      "text": "✅",
                       "type": "text"
                     }
                   ]
@@ -318,7 +375,66 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Navýšení hodnoty bodu",
+                      "text": "Analytik – Nákladní pojištěnci",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "✅ seznam pojištěnců, ocenění body, ocenění ZUM a ZULP, PURO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "✅ navíc Ocenění celkem, PURO5, Překročení (Kč), MNP poměr (%) a barevné zvýraznění",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Analytik – Navýšení hodnoty bodu",
                       "type": "text"
                     }
                   ]
@@ -377,7 +493,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Navýšení koeficientu navýšení",
+                      "text": "Analytik – Navýšení koeficientu navýšení",
                       "type": "text"
                     }
                   ]
@@ -436,7 +552,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Export dat (vybrané záložky)",
+                      "text": "Export do Excelu",
                       "type": "text"
                     }
                   ]
@@ -495,7 +611,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Historická data (přepínání roků)",
+                      "text": "Přepínání roků",
                       "type": "text"
                     }
                   ]
@@ -554,7 +670,7 @@
                   "type": "paragraph",
                   "content": [
                     {
-                      "text": "Vysvětlivky (🛈) u sloupců",
+                      "text": "Vysvětlivky u sloupců",
                       "type": "text"
                     }
                   ]

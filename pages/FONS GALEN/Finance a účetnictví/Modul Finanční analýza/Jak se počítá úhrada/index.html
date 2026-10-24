@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Jak se počítá úhrada</title>
+<link rel="canonical" href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/657620995">
+<link rel="stylesheet" href="../../../../../_assets/confluence.css">
+</head>
+<body>
+<header><h1>Jak se počítá úhrada</h1><p><small><a href="https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/657620995">Source</a> · version 1 · updated 2026-10-23T09:56:22.634Z</small></p></header>
+<main>
+<p>Modul Finanční analýza modeluje výši úhrady za ambulantní péči v segmentu fyzioterapie a ergoterapie podle úhradové vyhlášky platné pro zvolený rok. Výpočet provádí systém FONS Reports, Galen předává vykázaná data a vstupní údaje a zobrazuje výsledky.</p><div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">ℹ️</span><div class="confluence-information-macro-body"><p>Konkrétní hodnoty, jako je koeficient navýšení, hodnota bodu, minimální hodnota bodu nebo prahové hodnoty pro navýšení, stanovuje úhradová vyhláška pro příslušný rok.</p><p>Výpočet probíhá každou noc. Změny výchozích údajů se proto projeví až následující den.</p></div></div><h2 id="Jaksepočítáúhrada-Období">Období</h2><ul><li><p><strong>Aktuální období</strong> – sledovaný rok.</p></li><li><p><strong>Referenční období</strong> – předminulý rok.</p></li><li><p><strong>Mezidobí</strong> – rok mezi referenčním a aktuálním obdobím.</p></li></ul><p>Body všech období jsou přepočtené podle číselníku výkonů platného k 1. 1. aktuálního roku a oceněné hodnotou bodu aktuálního roku, aby byla data porovnatelná.</p><h2 id="Jaksepočítáúhrada-1.PURO(ref.obd.)">1. PURO (ref. obd.)</h2><p>Pokud je ve <em>Výchozích údajích</em> vyplněná <strong>Zadaná hodnota</strong>, použije se ona. Jinak se použije hodnota <strong>Vypočteno systémem</strong>:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PURO (ref. obd.) = MAX( A ; B )
+
+A = Vstupní úhrada ÷ Počet unik. pojištěnců (ref. obd.)
+B = (Počet bodů (ref. obd.) × minimální hodnota bodu + ZUM a ZULP (ref. obd.))
+    ÷ Počet unik. pojištěnců (ref. obd.)</pre>
+</div></div><p>U všech vstupních údajů platí, že zadaná hodnota má přednost před vypočtenou.</p><h2 id="Jaksepočítáúhrada-2.Koeficientnavýšení">2. Koeficient navýšení</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Koeficient navýšení celkem = základní hodnota (dle vyhlášky) + navyšení</pre>
+</div></div><p>Pokud navyšení není vyplněné, počítá se jako 0. Od roku 2026 se navyšení zadává na záložce <em>Úhradové parametry</em>, pro rok 2025 a starší na záložce <em>Koeficient navýšení</em>.</p><h2 id="Jaksepočítáúhrada-3.Hodnotaboduaocenění">3. Hodnota bodu a ocenění</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Hodnota bodu = Základní hodnota + Navýšení hodnoty
+Ocenění body = Body × Hodnota bodu
+Ocenění = Ocenění body + ZUM a ZULP</pre>
+</div></div><h2 id="Jaksepočítáúhrada-4.Finančnípřehled–Limitovanápéče">4. Finanční přehled – Limitovaná péče</h2><p>Hodnoty se zobrazují po měsících a jsou kumulované za období od ledna do daného měsíce.</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Úhrada za základní pacienty = Koeficient navýšení celkem × PURO × Počet unikátů – základní pacient
+Úhrada za MNP               = Koeficient navýšení celkem × PURO × Počet unikátů – mimořádně nákladný pacient
+Úhrada MNP (aktuální)       = úhrada za výkony včetně ZUM a ZULP za mimořádně nákladné pacienty v aktuálním období
+Úhrada MNP (referenční)     = totéž v referenčním období
+
+Limitace = Úhrada za základní pacienty + MAX( Úhrada za MNP ; Úhrada MNP (aktuální) − Úhrada MNP (referenční) )
+
+Úhrada = MIN( Ocenění ; Limitace )
+
+Překročení (Kč) = Ocenění − Limitace
+Překročení (%)  = (Ocenění ÷ Limitace − 1) × 100, zaokrouhleno na 2 desetinná místa</pre>
+</div></div><ul><li><p><strong>Překročení</strong> – kladná hodnota znamená objem péče, který nebude uhrazen (podbarveno červeně). Nulová nebo záporná hodnota znamená, že limitace nebyla vyčerpána (podbarveno zeleně).</p></li><li><p><strong>PURO</strong> se ve Finančním přehledu zobrazuje jako průběžné. Počítá se za období od ledna do daného měsíce podle rozložení péče v referenčním období, proto během roku roste a v prosinci dosáhne celoroční hodnoty PURO.</p></li><li><p><strong>Limitovaná úhrada</strong> – pokud zařízení v aktuálním nebo referenčním období nedosáhne minimálního počtu pacientů (pole <em>Počet UOP limitní úhrada</em>), limitace se neuplatňuje a péče je hrazena podle skutečně vykázaných výkonů.</p></li><li><p><strong>Modelace</strong> (pouze rozšířená verze) – u měsíců, které ještě neproběhly, jsou počty bodů a unikátních pojištěnců odhadnuté do konce roku podle rozložení referenčního období.</p></li></ul><h2 id="Jaksepočítáúhrada-5.Finančnípřehled–Plněhrazenápéče">5. Finanční přehled – Plně hrazená péče</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Úhrada = Ocenění body K + ZUM ZULP K</pre>
+</div></div><p>Plně hrazená péče není omezená limitací. U podsegmentu Poplatky se modelace neprovádí, zobrazuje se pouze skutečnost.</p><h2 id="Jaksepočítáúhrada-6.Analytik–Nákladnípojištěnci">6. Analytik – Nákladní pojištěnci</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Ocenění celkem  = Ocenění body + Ocenění ZUM a ZULP
+PURO5           = PURO × 5, zaokrouhleno na celé číslo
+Překročení (Kč) = Ocenění celkem − PURO5
+MNP poměr (%)   = Ocenění celkem ÷ PURO5 × 100, zaokrouhleno na 2 desetinná místa</pre>
+</div></div><p>Zelená barva znamená, že pojištěnec hranici mimořádně nákladného pacienta dosáhl (Překročení ≥ 0, MNP poměr ≥ 100 %). Červená barva znamená, že se k hranici teprve blíží.</p><h2 id="Jaksepočítáúhrada-7.Analytik–NavýšeníhodnotyboduaNavýšeníkoeficientunavýšení">7. Analytik – Navýšení hodnoty bodu a Navýšení koeficientu navýšení</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">Poměr KNa (%)     = Výkony – počet KNa ÷ Výkony – počet vše × 100
+Poměr KNb (%)     = Výkony – počet KNb ÷ Výkony – počet vše × 100
+Poměr diagnóz (%) = POP diagnózy ÷ POP vše × 100</pre>
+</div></div><p>Seznam výkonů a diagnóz a prahové hodnoty pro nárok na navýšení stanovuje úhradová vyhláška. Jejich přesné znění je uvedeno ve vysvětlivce u sloupce. Splnění podmínky je v tabulce barevně označené; barva neznamená, že zařízení má na navýšení automaticky nárok. Hodnoty se počítají k určitému měsíci, během roku se proto mohou zvyšovat i snižovat.</p><div class="confluence-information-macro confluence-information-macro-note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon" style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;margin-right:6px;flex-shrink:0">⚠️</span><div class="confluence-information-macro-body"><p>Galen hodnotu bodu ani koeficient navýšení sám nezmění. Pokud nárok na navýšení vznikne, je potřeba navyšení zadat ručně ve <em>Výchozích údajích</em>.</p></div></div>
+</main>
+</body>
+</html>

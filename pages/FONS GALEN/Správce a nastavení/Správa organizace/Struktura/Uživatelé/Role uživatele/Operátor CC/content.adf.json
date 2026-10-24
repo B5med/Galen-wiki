@@ -1,0 +1,775 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d1a3f88682b3"
+      },
+      "content": [
+        {
+          "text": "Role je určená pro operátory call centra (CC), kteří objednávají pacienty do kalendářů zdravotnického zařízení. Jedná se o ",
+          "type": "text"
+        },
+        {
+          "text": "placenou funkcionalitu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", kterou je možné objednat v ",
+          "type": "text"
+        },
+        {
+          "text": "eShopu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "05229d6e5319"
+      },
+      "content": [
+        {
+          "text": "Uživatel s touto rolí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "63b80ff4-3896-49d1-98e6-5da130f81091"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "95efc029-f246-45ab-a82a-8d99a8931b2f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "ca889f31d4b2"
+              },
+              "content": [
+                {
+                  "text": "má přístup ",
+                  "type": "text"
+                },
+                {
+                  "text": "pouze do modulu Objednávání",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "ac232ad3-2742-4976-8ca0-fa602936206a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "fbc70e6cc435"
+              },
+              "content": [
+                {
+                  "text": "může objednávat jen do kalendářů a bloků ordinačních hodin, které jsou pro call centrum výslovně povolené (viz níže).",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "38007ad5d065"
+      },
+      "content": [
+        {
+          "text": "Jak nastavit kalendář pro call centrum",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e49d61db2db3"
+      },
+      "content": [
+        {
+          "text": "Nastavení lze provést pro celý kalendář, nebo jen pro vybrané bloky ordinačních hodin.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "173020d6-8a79-4915-8e30-5f53f8c1d642"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "2a1dfcd4-1433-42d1-baa4-9842d2a1a866"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "background": "#f0f1f2",
+                "rowspan": 1,
+                "localId": "19afbf19-bd48-43f7-a72e-0a9619a5f585"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4ef5d3612866"
+                  },
+                  "content": [
+                    {
+                      "text": "Kde",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "background": "#f0f1f2",
+                "rowspan": 1,
+                "localId": "f2030ed5-b0ba-48de-8944-b9cae96a0398"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9addcd5a0adb"
+                  },
+                  "content": [
+                    {
+                      "text": "Příznak",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "background": "#f0f1f2",
+                "rowspan": 1,
+                "localId": "d742fad6-f8ce-4e39-abe4-9b1084cb07be"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "74bfdacd3b5d"
+                  },
+                  "content": [
+                    {
+                      "text": "Co operátor CC uvidí",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "d6d025a0-d71a-412d-9b00-8ac7e6836546"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "b7a6881c-ba5a-42db-8879-d3f83665add2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f2ef03b314fa"
+                  },
+                  "content": [
+                    {
+                      "text": "Nastavení kalendáře",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " → záložka ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Obecné",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "c121467a-9439-4a23-9cf1-5923cb075c09"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "9251e89345ea"
+                  },
+                  "content": [
+                    {
+                      "text": "Kalendář CC",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "c0dc7c48-d5d2-4f99-b908-7d672767ce4e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e21ed5ced771"
+                  },
+                  "content": [
+                    {
+                      "text": "Celý kalendář, tedy všechny bloky ordinačních hodin a všechny typy objednávek povolené v kalendáři.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "420059fc-dcde-4f1b-932c-0559729282d5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "6226b102-0e31-4241-b30e-bd014b0d7f0b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f8239cecec4a"
+                  },
+                  "content": [
+                    {
+                      "text": "Blok ordinačních hodin",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " → záložka ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Obecné",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "a553b3f3-a719-49c2-8802-b910d7ea9ae6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "245794c5e3cf"
+                  },
+                  "content": [
+                    {
+                      "text": "Blok CC",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "background": "#ffffff",
+                "rowspan": 1,
+                "localId": "2a1a8cbb-a192-41ce-bbe2-bb4ba57f1643"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "42760d818276"
+                  },
+                  "content": [
+                    {
+                      "text": "Jen tento blok ordinačních hodin. Bloky CC jsou v kalendáři zvýrazněné šrafováním.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f2a4fe520be8"
+      },
+      "content": [
+        {
+          "text": "V bloku ordinačních hodin s příznakem ",
+          "type": "text"
+        },
+        {
+          "text": "Blok CC",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " lze v seznamu ",
+          "type": "text"
+        },
+        {
+          "text": "Povolené typy objednávek",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " u každého typu zaškrtnout ",
+          "type": "text"
+        },
+        {
+          "text": "Povolit objednávky CC",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Operátor CC pak může v tomto bloku použít jen typy objednávek s touto volbou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "dee00633-e57e-47bb-86e5-a13f4fb0651b"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "95eb3a92fc0e"
+          },
+          "content": [
+            {
+              "text": "Pokud má kalendář zaškrtnutý ",
+              "type": "text"
+            },
+            {
+              "text": "Kalendář CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", v blocích ordinačních hodin se příznak ",
+              "type": "text"
+            },
+            {
+              "text": "Blok CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " ani volba ",
+              "type": "text"
+            },
+            {
+              "text": "Povolit objednávky CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nezobrazují. Pro call centrum je v takovém případě otevřený celý kalendář.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "31bad3d27814"
+      },
+      "content": [
+        {
+          "text": "Jak roli přidělit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "b32b701d-e368-4548-bddb-109133f381d0",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "a80aaaa7-dcf9-4bfe-b7b2-231c2da3eaf6"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5397b9944193"
+              },
+              "content": [
+                {
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa organizace → záložka Uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a vyberte uživatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7f163e51-6a68-41c6-82ee-c2924630fc68"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "73f756636ee1"
+              },
+              "content": [
+                {
+                  "text": "V sekci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Role uživatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtněte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Operátor CC",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b5702f4d-0088-4e70-8cda-a1e0e5e173e0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5ffbb765dd95"
+              },
+              "content": [
+                {
+                  "text": "V sekci modulů zůstane nabídnutý a automaticky zaškrtnutý jen modul ",
+                  "type": "text"
+                },
+                {
+                  "text": "Objednávání",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f76b28b7-4e3a-4df3-a387-c37f7345cfd4"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "9067ef7c00cc"
+              },
+              "content": [
+                {
+                  "text": "Uložte.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "a47af272-851b-4c8e-a7d9-a6893bc2001f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "26c166310c0e"
+          },
+          "content": [
+            {
+              "text": "Roli ",
+              "type": "text"
+            },
+            {
+              "text": "Operátor CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nelze kombinovat s žádnou jinou rolí. Pokud má uživatel zaškrtnutou jinou roli, je checkbox Operátor CC zašedlý. Po zaškrtnutí role Operátor CC se naopak zašednou všechny ostatní role.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "de43e69b-05ff-4883-9243-067a3b717cdc"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "f6f8b67e73b8"
+          },
+          "content": [
+            {
+              "text": "Pokud není nastavený ",
+              "type": "text"
+            },
+            {
+              "text": "Kalendář CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " ani ",
+              "type": "text"
+            },
+            {
+              "text": "Blok CC",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": ", operátor CC nemá kam pacienty objednat.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

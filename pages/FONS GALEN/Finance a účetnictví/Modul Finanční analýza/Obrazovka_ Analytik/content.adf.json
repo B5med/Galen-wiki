@@ -1,0 +1,2166 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7d18e40bf6aa"
+      },
+      "content": [
+        {
+          "text": "Obrazovka ",
+          "type": "text"
+        },
+        {
+          "text": "Analytik",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " obsahuje rozšířené přehledy o bodech, pojištěncích, mimořádně nákladných pacientech a o splnění podmínek pro navýšení. Je rozdělena do záložek ",
+          "type": "text"
+        },
+        {
+          "text": "Body a unikátní pojištěnci",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "Nákladní pojištěnci",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "Navýšení hodnoty bodu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Navýšení koeficientu navýšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Záložky slouží pouze k prohlížení dat.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "b4d94c781d77"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b2961c10ac3a"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d401881f277d"
+              },
+              "content": [
+                {
+                  "text": "Data lze filtrovat podle roku a IČZ.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4ff8013e7768"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "93f5efb5f4ce"
+              },
+              "content": [
+                {
+                  "text": "Data lze exportovat do Excelu tlačítkem ",
+                  "type": "text"
+                },
+                {
+                  "text": "Export",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b5bdec22f262"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "2c3bba5044be"
+              },
+              "content": [
+                {
+                  "text": "Záložky Navýšení hodnoty bodu a Navýšení koeficientu navýšení jsou dostupné pouze v rozšířené verzi.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2790582e8484"
+      },
+      "content": [
+        {
+          "text": "Body a unikátní pojištěnci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ca2f4a253908"
+      },
+      "content": [
+        {
+          "text": "Porovnává počet bodů, jejich ocenění a počet unikátních pojištěnců ve třech obdobích:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "9d20c9ca713a"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "aeab94dbd5ff"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1d1a1ffccdc8"
+              },
+              "content": [
+                {
+                  "text": "Aktuální období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – vybraný rok,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "1b50aff97bc8"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "311805bdcde1"
+              },
+              "content": [
+                {
+                  "text": "Mezidobí",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – předchozí rok,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "935b4578e523"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "e9c8bb163d71"
+              },
+              "content": [
+                {
+                  "text": "Referenční období",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " – předminulý rok.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8e6ed2e323d3"
+      },
+      "content": [
+        {
+          "text": "Příklad: pro rok 2026 je mezidobím rok 2025 a referenčním obdobím rok 2024.",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "0719473be02a"
+      },
+      "content": [
+        {
+          "text": "Všechna období jsou přepočtená podle číselníku výkonů platného k 1. 1. aktuálního roku a oceněná hodnotou bodu aktuálního roku, aby byla data porovnatelná. Hodnoty zahrnují také péči poskytnutou cizincům a nejsou omezeny limitací.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 900,
+            "id": "b2819063-49bd-445f-aa75-c715dbc286a8",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "localId": "0df4ff019d78",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "d6c01e085067"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "34cfaad4a4a9"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8f2875b94131"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f7b99b1913b7"
+                  },
+                  "content": [
+                    {
+                      "text": "Skupina sloupců",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0db7221fd9d6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "993c15eb90f8"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f39165bcd013"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "32b16a37a35c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a5ded8ed9756"
+                  },
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Segment, Podsegment",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f44a0a2d7b44"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "6f4342863694"
+                  },
+                  "content": [
+                    {
+                      "text": "Identifikace řádku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "96f6cbb811b7"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "6b5cb4a7d9fc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aa61272ec4ba"
+                  },
+                  "content": [
+                    {
+                      "text": "Body celkem / Body / Body MNP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "22ccab96e6d1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "bc4d63b3d6d9"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet bodů za všechny pojištěnce / za základní pojištěnce / za mimořádně nákladné pojištěnce. Body celkem = Body + Body MNP.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "016fc1110551"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "885d9655d294"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "99db992ecdec"
+                  },
+                  "content": [
+                    {
+                      "text": "Kč za body celkem / Kč za body / Kč za body MNP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "604610291d59"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "45b7051d6319"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění bodů příslušnou hodnotou bodu. Kč za body celkem = Kč za body + Kč za body MNP.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b83779925d52"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "09c0e9eedb45"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "baeb2be892b8"
+                  },
+                  "content": [
+                    {
+                      "text": "POP celkem / POP / POP MNP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "fd42fe4f691e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "e9acb34807af"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet unikátních ošetřených pojištěnců. POP celkem = POP + POP MNP.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "50d4742bb8d8"
+      },
+      "content": [
+        {
+          "text": "Každá skupina je uvedena zvlášť pro aktuální období, mezidobí a referenční období (např. ",
+          "type": "text"
+        },
+        {
+          "text": "Body celkem – aktuální období",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "text": "POP – referenční období",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "). Součet každého číselného sloupce je uveden v záhlaví sloupce jako ",
+          "type": "text"
+        },
+        {
+          "text": "(celkem: …)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "c30f08f0bfcc"
+      },
+      "content": [
+        {
+          "text": "Nákladní pojištěnci",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3df39d1cccd5"
+      },
+      "content": [
+        {
+          "text": "Zobrazuje mimořádně nákladné pojištěnce v limitované péči – ty, kteří již překročili hranici mimořádné nákladnosti (PURO5), i ty, kteří se k ní blíží. Seznam pojištěnců dodává výpočet FONS Reports. Záznamy jsou seřazeny podle data posledního výkonu od nejnovějšího.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 900,
+            "id": "72c00178-d085-4b4a-91e4-6a9510e6103c",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "localId": "ef594d4388ff",
+            "height": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "33e8ccdf6e06"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "684dee7ccf32"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a1e41dacc4c2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "cfb98c59c819"
+                  },
+                  "content": [
+                    {
+                      "text": "Sloupec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "1f59f2954fb0"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7afb864c8c30"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b3a9fb11ffe1"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "cecc712b7763"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d6294a555e8b"
+                  },
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Odbornost, Číslo pojištěnce, Pacient",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0d78c849e0f2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "21077f235936"
+                  },
+                  "content": [
+                    {
+                      "text": "Identifikace pojištěnce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ed539ccd59d5"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "672b885a3e1f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f6f410f77df4"
+                  },
+                  "content": [
+                    {
+                      "text": "Datum posledního výkonu, Vykazující odp. lékař, Vykazující pracoviště",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "03298783ff09"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f5369dc6009a"
+                  },
+                  "content": [
+                    {
+                      "text": "Informace o posledním vykázaném výkonu pojištěnce. Datum se nevztahuje jen k vybranému roku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "edd08b439801"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "af4e7f1d3b12"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ef515131ff8a"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění body",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e1e839a61994"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "16ad890cd407"
+                  },
+                  "content": [
+                    {
+                      "text": "Body za výkony pojištěnce oceněné hodnotou bodu.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "65c237031ea4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "0f17205dd228"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "ee9d87a6b09a"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění ZUM a ZULP",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2704650af0e3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2accbcad1ea5"
+                  },
+                  "content": [
+                    {
+                      "text": "Úhrada za ZUM a ZULP pojištěnce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "91dcfea7898c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "886170df24a6"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4e4082710fd0"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b2e617b2bf65"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "629f2aa5f711"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO pro aktuální rok vypočtené z referenčního období.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b10f599ac36a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4565750313d5"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "49fb9db3ae4e"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO vstup",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "30a2453c24ac"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b91307191d32"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO zadané ve Výchozích údajích (pokud je vyplněno, má přednost).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "22672ae7f272"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ef390beb9961"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2ad6c6f7e426"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění celkem ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "52ab059768dc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "f8e42a3300c3"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění body + Ocenění ZUM a ZULP.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "0e6382f991d2"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f124e164b330"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "1e791978d575"
+                  },
+                  "content": [
+                    {
+                      "text": "PURO5 ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "8b12577ab5cb"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "431225ff8a7e"
+                  },
+                  "content": [
+                    {
+                      "text": "Pětinásobek PURO – hranice mimořádně nákladného pojištěnce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b9660ff42b9b"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "331cc716229b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "70d4e843d221"
+                  },
+                  "content": [
+                    {
+                      "text": "Překročení (Kč) ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "3a0dd2a97f64"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4abe1bf9a83"
+                  },
+                  "content": [
+                    {
+                      "text": "Ocenění celkem − PURO5. Zeleně, pokud je hodnota 0 nebo kladná (pojištěnec hranici dosáhl), červeně, pokud je záporná.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "662b8e0ac907"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "368f97ab8d4c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "90af0c10d233"
+                  },
+                  "content": [
+                    {
+                      "text": "MNP poměr (%) ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(pouze rozšířená verze)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "5202ae6488cc"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "aa8866bb4f9d"
+                  },
+                  "content": [
+                    {
+                      "text": "Poměr ocenění celkem vůči PURO5. Zeleně od 100 %, červeně pod 100 %.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "23f61db82012"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "a075047341dd"
+          },
+          "content": [
+            {
+              "text": "Pozor: barvy mají opačný význam než na záložce Finanční přehled – Limitovaná péče. Zde zelená znamená, že pojištěnec hranici mimořádně nákladného pacienta dosáhl a úhrada za něj se počítá samostatně.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "677e186e28fa"
+      },
+      "content": [
+        {
+          "text": "Navýšení hodnoty bodu (pouze rozšířená verze)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1a3bf0fdfafa"
+      },
+      "content": [
+        {
+          "text": "Ukazuje, zda zařízení splňuje podmínku pro navýšení hodnoty bodu podle podílu pojištěnců s vybranými diagnózami.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 900,
+            "id": "39f69566-bb7f-45fe-a1cd-195e416c5732",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "localId": "7b8d91eeaa3c",
+            "height": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "61d18b7fb0a5"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "a518a59dd564"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d2e7017b4dec"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "30e258b20d5e"
+                  },
+                  "content": [
+                    {
+                      "text": "Sloupec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "297d1252b68c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "2806c4337185"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "f61e6d05bda4"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "058b60808433"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "b8cc9c41d3c9"
+                  },
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Rok",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "9987fe2f340b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "dde2a08903ea"
+                  },
+                  "content": [
+                    {
+                      "text": "Identifikace řádku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "406d51bf11c0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "94ad021df18c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fb169add9a2d"
+                  },
+                  "content": [
+                    {
+                      "text": "POP vše",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "54351c14f89c"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a26b313b0b2c"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet všech unikátních ošetřených pojištěnců.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "b29656388ba0"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "e709438c5eb3"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "d4b2bf966db0"
+                  },
+                  "content": [
+                    {
+                      "text": "POP diagnózy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c86b4dcca8c4"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "4afccc82ac17"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet unikátních pojištěnců ošetřených s některou z diagnóz stanovených vyhláškou.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "5b521bcf816a"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "af00086365ed"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "777c1d045ff1"
+                  },
+                  "content": [
+                    {
+                      "text": "Poměr diagnóz",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "909b27a3a4f9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a4f6a71dacb3"
+                  },
+                  "content": [
+                    {
+                      "text": "POP diagnózy ÷ POP vše × 100 (bez desetinných míst). Zeleně, pokud je podmínka vyhlášky splněna, jinak červeně.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "b8c98dda25ad"
+      },
+      "content": [
+        {
+          "text": "Navýšení koeficientu navýšení (pouze rozšířená verze)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d128a52b1023"
+      },
+      "content": [
+        {
+          "text": "Ukazuje, zda zařízení splňuje podmínky pro navýšení koeficientu navýšení podle podílu vybraných výkonů a diagnóz. Podmínky musí být splněny v hodnoceném i referenčním období.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 432,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 900,
+            "id": "b527c807-9595-46a7-916a-965746cc3d0d",
+            "collection": "contentId-114032645",
+            "type": "file",
+            "localId": "3a63250e3bb5",
+            "height": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "attrs": {
+        "layout": "default",
+        "width": 760.0,
+        "localId": "737be44e0a3b"
+      },
+      "content": [
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "e310bc86a436"
+          },
+          "content": [
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "4dc26139b392"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "882b68aaa033"
+                  },
+                  "content": [
+                    {
+                      "text": "Sloupec",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableHeader",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "ff6e59238a22"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "de34fdd9e85d"
+                  },
+                  "content": [
+                    {
+                      "text": "Popis",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ffefb750572c"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "c0984d86702b"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b25148da4e1"
+                  },
+                  "content": [
+                    {
+                      "text": "IČZ, Pojišťovna, Rok",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "2ca65774d654"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "7a9a1feaec32"
+                  },
+                  "content": [
+                    {
+                      "text": "Identifikace řádku.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "312cad78b2de"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f31a2d168ed1"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5b2c14997d9b"
+                  },
+                  "content": [
+                    {
+                      "text": "POP vše",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "65db1626b427"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a99413288875"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet všech unikátních ošetřených pojištěnců.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "ae09918c6e3d"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d96cba1aff92"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "671c5788ebb9"
+                  },
+                  "content": [
+                    {
+                      "text": "Výkony – počet vše",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "b531cdfeb239"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "5283a53c4e45"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet všech vykázaných a uznaných výkonů.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "13e4bd3cf252"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "f7752722834f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a701e4962b26"
+                  },
+                  "content": [
+                    {
+                      "text": "Výkony – počet KNa, Výkony – počet KNb",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "a897709a7428"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "50cbab30618f"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet výkonů, které vyhláška uvádí pro podmínku a) a b). Seznam výkonů je ve vysvětlivce sloupce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "518c551e9579"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "62b5e623e17f"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "570e09673ae7"
+                  },
+                  "content": [
+                    {
+                      "text": "POP diagnózy",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "489f80cda59e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "afec6a552773"
+                  },
+                  "content": [
+                    {
+                      "text": "Počet unikátních pojištěnců ošetřených s některou z diagnóz stanovených vyhláškou.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "attrs": {
+            "localId": "9c11198b157e"
+          },
+          "content": [
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "56b831f2d88e"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "fe67f04a3cc2"
+                  },
+                  "content": [
+                    {
+                      "text": "Poměr KNa, Poměr KNb, Poměr diagnóz",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "attrs": {
+                "colspan": 1,
+                "rowspan": 1,
+                "localId": "d7e54afc9391"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "10c0d290aff3"
+                  },
+                  "content": [
+                    {
+                      "text": "Podíl příslušných výkonů, resp. pojištěnců s diagnózami na celku v % (bez desetinných míst). Barva označuje splnění nebo nesplnění podmínky. Přesné znění podmínky je ve vysvětlivce sloupce.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning",
+        "localId": "69e7b2614b4b"
+      },
+      "content": [
+        {
+          "type": "bulletList",
+          "attrs": {
+            "localId": "db5221646eda"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "a1a3cc7100a9"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "0916c64eec93"
+                  },
+                  "content": [
+                    {
+                      "text": "Barva odráží splnění či nesplnění jednotlivé podmínky, nikoli to, zda má zařízení na navýšení nárok.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "cdb5b44e26e2"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "8c57e2ad7d92"
+                  },
+                  "content": [
+                    {
+                      "text": "Hodnoty se počítají k určitému měsíci, během roku se proto mohou měnit.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "attrs": {
+                "localId": "9b6d5780b988"
+              },
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "localId": "a4cc699918f9"
+                  },
+                  "content": [
+                    {
+                      "text": "Galen hodnotu bodu ani koeficient navýšení automaticky nezmění. Pokud vám nárok vznikne, zadejte navyšení ve ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Výchozích údajích",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " (hodnota bodu na záložce Hodnota bodu, koeficient na záložce Úhradové parametry).",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,372 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bee11cbb6edd"
+      },
+      "content": [
+        {
+          "text": "Role je určená pro administrátory, kteří spravují systém, ale nemají zakládat ani upravovat uživatele a pracovníky.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f893fb8a02c9"
+      },
+      "content": [
+        {
+          "text": "Uživatel s touto rolí:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "889fdbda-e491-40b0-9830-4edfc775f1de"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f0cc5aa8-0358-484d-9d1d-8f16f823902b"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "813baa99dbd3"
+              },
+              "content": [
+                {
+                  "text": "má přístup do stejných modulů jako ",
+                  "type": "text"
+                },
+                {
+                  "text": "Administrátor",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " a ostatní administrátorská oprávnění mu zůstávají,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "81a31e79-b9fe-4b46-968d-78f77133bee0"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "26d4c76b9ead"
+              },
+              "content": [
+                {
+                  "text": "v záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (Správa organizace) vidí seznam i detail uživatelů ",
+                  "type": "text"
+                },
+                {
+                  "text": "pouze pro čtení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "9faf6ebd-1cc9-443e-b801-880c1152a548"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "55ad8fa47feb"
+              },
+              "content": [
+                {
+                  "text": "v záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Struktura",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " (Správa organizace) vidí seznam i detail pracovníků ",
+                  "type": "text"
+                },
+                {
+                  "text": "pouze pro čtení",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ",",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "52886326-1bf8-4ebd-85bf-3beb79bd5b8f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d4cf27bbaab0"
+              },
+              "content": [
+                {
+                  "text": "nemůže v těchto záložkách zakládat nové záznamy, protože pole i tlačítko pro přidání jsou zašedlé.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "bf2cb2c54f4a"
+      },
+      "content": [
+        {
+          "text": "Jak roli přidělit",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "a0384c60-f06f-41d5-9646-c89cbdc58eca",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "22fe2472-d4a0-49f3-b74e-abf66001ff49"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b70d44491c5d"
+              },
+              "content": [
+                {
+                  "text": "Otevřete ",
+                  "type": "text"
+                },
+                {
+                  "text": "Správce → Správa organizace → záložka Uživatelé",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " a vyberte uživatele.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "b3ae5485-90ea-4d03-8173-76cc7e0658d3"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "dabfa18cea16"
+              },
+              "content": [
+                {
+                  "text": "V sekci ",
+                  "type": "text"
+                },
+                {
+                  "text": "Role uživatele",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtněte ",
+                  "type": "text"
+                },
+                {
+                  "text": "Administrátor (omezená práva)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Checkbox je hned za rolí Administrátor.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "932a5bdd-2f83-4250-b294-4a05ef371a86"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "5d96aaeb920a"
+              },
+              "content": [
+                {
+                  "text": "Uložte.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "info",
+        "localId": "095fe116-fc4b-4aeb-a8ec-b2c95607404f"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "b9a2f95d02d0"
+          },
+          "content": [
+            {
+              "text": "Role se vzájemně vylučují, tzn. lze zaškrtnutou roli ",
+              "type": "text"
+            },
+            {
+              "text": "Administrátor",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " nebo ",
+              "type": "text"
+            },
+            {
+              "text": "Administrátor (omezená práva). ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Nelze současně zaškrtnout obě role.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "success",
+        "localId": "562fc0f9-c157-4651-9cae-45ecc9c03c38"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "localId": "8ad40b33b297"
+          },
+          "content": [
+            {
+              "text": "Po najetí myší na ikonu vedle názvu role se zobrazí krátký popis jejího rozsahu.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
