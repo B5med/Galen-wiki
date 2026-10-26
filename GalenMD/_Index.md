@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-25
+generated: 2026-10-26
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **25. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-25
+> **26. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-26
 
 ## Legenda stáří dokumentu
 
@@ -13,9 +13,9 @@ generated: 2026-10-25
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **13** |
 | ♨️ | Do 14 dnů | **5** |
-| 🌿 | Do 30 dnů | **4** |
-| 📄 | Do 90 dnů | **19** |
-| 🗄️ | Starší než 3 měsíce | **305** |
+| 🌿 | Do 30 dnů | **3** |
+| 📄 | Do 90 dnů | **18** |
+| 🗄️ | Starší než 3 měsíce | **307** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -157,7 +157,7 @@ generated: 2026-10-25
     - 📄 [[Novinky ve verzi k 25. 8. 2026]] `v1` · 24. 8. 2026
     - 🗄️ [[Novinky ve verzi k 26. 8. 2025]] `v2` · 23. 9. 2025
     - 🗄️ [[Novinky ve verzi k 28. 1. 2026]] `v2` · 27. 1. 2026
-    - 📄 [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
+    - 🗄️ [[Novinky ve verzi k 28. 7. 2026]] `v2` · 27. 7. 2026
     - 🗄️ [[Novinky ve verzi k 29. 6. 2026]] `v1` · 29. 6. 2026
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
@@ -247,7 +247,7 @@ generated: 2026-10-25
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
-    - 📄 [[eShop]] `v1` · 27. 7. 2026
+    - 🗄️ [[eShop]] `v1` · 27. 7. 2026
     - 🌿 [[Externí přístup]] `v3` · 1. 10. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
@@ -276,7 +276,7 @@ generated: 2026-10-25
     - 🗄️ [[Editace vyšetření různými odpovědnými lékaři]] `v1` · 3. 9. 2025
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
-    - 🌿 [[Vyšetření]] `v2` · 25. 9. 2026
+    - 📄 [[Vyšetření]] `v2` · 25. 9. 2026
     - 🗄️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
   - 🗄️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
