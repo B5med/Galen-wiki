@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-27
+generated: 2026-10-28
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **27. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-27
+> **28. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-28
 
 ## Legenda stáří dokumentu
 
@@ -14,8 +14,8 @@ generated: 2026-10-27
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **18** |
 | 🌿 | Do 30 dnů | **3** |
-| 📄 | Do 90 dnů | **18** |
-| 🗄️ | Starší než 3 měsíce | **307** |
+| 📄 | Do 90 dnů | **16** |
+| 🗄️ | Starší než 3 měsíce | **309** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -61,7 +61,7 @@ generated: 2026-10-27
     - 🗄️ [[Typ dokumentace]] `v1` · 23. 6. 2025
     - 🗄️ [[Vyhledání pacienta]] `v2` · 22. 7. 2025
     - 🗄️ [[Založení karty pacienta – bez pojištění (samoplátce, novorozenec)]] `v2` · 16. 6. 2026
-    - 📄 [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
+    - 🗄️ [[Založení karty pacienta – pojištěnce]] `v3` · 29. 7. 2026
     - 🗄️ [[Čekárna]] `v3` · 5. 8. 2025
   - 🗄️ **[[Medikace, očkování a registry]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Medikace]]** `v1` · 21. 7. 2025
@@ -343,7 +343,7 @@ generated: 2026-10-27
       - 🗄️ [[Postup při změně IČPE]] `v1` · 4. 2. 2026
       - 🗄️ [[Potvrzení o datu porodu]] `v1` · 9. 9. 2025
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
-      - 📄 [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
+      - 🗄️ [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 📄 [[Centrová léčba]] `v3` · 10. 9. 2026
     - ♨️ [[Poukaz FT]] `v3` · 20. 10. 2026
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
