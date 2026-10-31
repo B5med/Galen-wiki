@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-10-30
+generated: 2026-10-31
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **30. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-30
+> **31. 10. 2026**  ·  Celkem stránek: **346**  ·  Poslední sync z Confluence: 2026-10-31
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **18** |
-| 🌿 | Do 30 dnů | **3** |
+| ♨️ | Do 14 dnů | **17** |
+| 🌿 | Do 30 dnů | **4** |
 | 📄 | Do 90 dnů | **16** |
 | 🗄️ | Starší než 3 měsíce | **309** |
 | ❓ | Bez data | **0** |
@@ -42,7 +42,7 @@ generated: 2026-10-30
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
-      - ♨️ [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
+      - 🌿 [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
     - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 🗄️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
