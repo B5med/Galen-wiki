@@ -1,7 +1,7 @@
 ---
 title: "EZD – elektronická zdravotní dokumentace"
-version: 6
-updated_at: 2026-09-10
+version: 9
+updated_at: 2026-11-03
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/47546437
 ---
 
@@ -132,9 +132,15 @@ Pozn.: Stornovat dokument může pouze uživatel, který daný záznam podepsal 
 
 ## **Nepodepsané dokumenty v Dashboardu**
 
-Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Z jednotlivých záznamů je možné se prokliknou přímo do dokumentů a následně je podepsat.
+Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Dashboard slouží pouze k náhledu. Hromadné podepisování dokumentů probíhá v modulu EZD (viz kapitola Hromadné podepisování dokumentů).
 
-![image-20250618-093108.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20250618-093108.png>)
+Detail nepodepsaných dokumentů EZD má dvě záložky: „Nepodepsané dokumenty dle pacientů“ a „Nepodepsané dokumenty“. Číslo v závorce u názvu záložky udává počet dokumentů k podpisu, nikoli počet řádků v seznamu.
+
+**Nepodepsané dokumenty dle pacientů** – zobrazuje jeden řádek pro pacienta a den se sloupci Datum, Pacient, K podpisu / celkem a Cílový dokument. Dvojklikem na řádek se otevře cílový dokument v kartě pacienta, tedy poslední nepodepsaný dekurz, a pokud žádný není, poslední nepodepsaný dokument dne. Na této záložce se nepodepisuje. U názvu záložky je ikona ⓘ s textem: „Přehled slouží pouze k náhledu. Hromadné podepisování dokumentů je dostupné v modulu EZD. Dvojklikem na řádek otevřete cílový dokument.“
+
+**Nepodepsané dokumenty** – zobrazuje jednotlivé dokumenty se sloupci Typ dokumentu, Datum, Pacient, Typ dokumentace a Podřízená společnost.
+
+![image-20261102-133320.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261102-133320.png>)
 
 ## **Odeslání podepsaného dokumentu do archivu**
 
@@ -160,7 +166,7 @@ V modulu EZD může uživatel dokument podepsat a odeslat jej do archivu. Násle
 
 Záložka zobrazuje dokumenty ve všech stavech, kterých může dokument EZD nabýt. Záložka pracuje pouze nad dokumenty v rámci EZD, tzn. podepsanými pdf dokumenty. Dokumenty, které ještě nebyly podepsány, nezobrazuje.
 
-![image-20260216-121702.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-121702.png>)
+![image-20261103-092001.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-092001.png>)
 
 #### **Filtrace**
 
@@ -193,7 +199,7 @@ Záložka zobrazuje dokumenty ve všech stavech, kterých může dokument EZD na
 
 ### **Dokumenty k odeslání**
 
-![image-20260216-123406.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123406.png>)
+![image-20261103-091925.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-091925.png>)
 Tato záložka zobrazuje pouze dokumenty, které
 
 - čekají na ruční odeslání uživatelem do archivu (stav Čeká na schválení odeslání do archivu)
@@ -202,15 +208,68 @@ Tato záložka zobrazuje pouze dokumenty, které
 
 ### **Odeslané dokumenty**
 
-![image-20260216-123441.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123441.png>)
+![image-20261103-091831.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-091831.png>)
 Zobrazuje pouze dokumenty, které byly do archivu odeslány. Pokud byl dokument do archivu odeslán a následně v aplikaci stornován, v této záložce se již neobjeví.
+
+### **Nepodepsané dokumenty dle pacientů**
+
+![image-20261103-091306.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-091306.png>)
+Záložka zobrazuje nepodepsanou zdravotnickou dokumentaci seskupenou podle pacienta a dne. Každý pacient má za jeden den jeden řádek, bez ohledu na to, kolik dokumentů v ten den vzniklo. Slouží k rychlému přehledu o tom, u kterých pacientů zbývá dokumentaci podepsat, a k jejímu hromadnému podepsání.
+
+**Sloupce přehledu**
+
+- Datum – den, ve kterém dokumentace vznikla.
+- Pacient – jméno a příjmení pacienta.
+- K podpisu / celkem – první číslo je počet podpisových úkonů, které je potřeba provést, druhé je celkový počet nepodepsaných dokumentů pacienta za daný den.
+
+**Filtrace**
+
+Přehled lze zúžit filtrem nad seznamem (*položky filtru Typ dokumentu, Pacient, Datum od a do, Typ dokumentace*). Pokud je uživatel přihlášen jako Správce, seznam pouze prohlíží. Podepisovat lze jen po přihlášení na konkrétní pracoviště.
+
+**Detail řádku**
+
+Po rozbalení řádku se zobrazí jednotlivé nepodepsané dokumenty pacienta za daný den (dekurz, vyšetření, formulář) včetně času a typu dokumentace (Kurativa / PLS). U dokumentů, které se podepisují společně, je to vyznačeno ikonou ⓘ s vysvětlením.
+
+**Podepisování**
+
+Označené řádky se podepisují tlačítkem **Podepsat vybrané (n)**. Číslo v závorce udává počet podpisových úkonů. Postup je popsán v kapitole *Hromadné podepisování dokumentů*.
 
 ### **Nepodepsané dokumenty**
 
-![image-20260216-123521.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20260216-123521.png>)
-Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerovaná do podepsaného pdf dokumentu.
+![image-20261103-091733.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-091733.png>)
+Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerována do podepsaného pdf dokumentu. Každý dokument je v seznamu na samostatném řádku. Pro přehled po pacientech a dnech slouží záložka *Nepodepsané dokumenty dle pacientů*.
 
-V modulu EZD lze dokument po výběru pracoviště zobrazit a podepsat dvojklikem nebo pomocí tlačítka **Podepsat**. Hromadné podepisování dokumentů není z legislativních důvodů povoleno, je však možné označit více dokumentů najednou a tím postupně spustit proces jejich zobrazení a podepisování.
+Po výběru pracoviště lze dokument zobrazit a podepsat dvojklikem na řádek. Chcete-li podepsat více dokumentů najednou, označte je a stiskněte tlačítko **Podepsat**. Otevře se okno hromadného podpisu, ve kterém se dokumenty nejdřív zobrazí a teprve poté je možné je podepsat. Postup je popsán v kapitole *Hromadné podepisování dokumentů*.
+
+Dokumenty, které se podle konfigurace obsahu EZD podepisují společně (např. více dekurzů téhož typu dokumentace za jeden den), se podepíší jedním podpisovým úkonem. Formulář se podepisuje vždy samostatně.
+
+### **Hromadné podepisování dokumentů**
+
+Hromadné podepisování je dostupné v modulu EZD na záložkách *Nepodepsané dokumenty dle pacientů* a *Nepodepsané dokumenty*. Každý dokument musí být před podpisem zobrazen. Hromadné podepisování proto neznamená podpis „naslepo“, ale jednotný postup, ve kterém se dokumenty projdou a podepíší za sebou.
+
+**Spuštění**
+
+1. Přihlaste se na pracoviště, na kterém chcete dokumenty podepisovat. Správce dokumenty pouze prohlíží.
+2. Označte řádky, které chcete podepsat.
+3. Stiskněte tlačítko **Podepsat vybrané (n)**. Číslo v závorce udává počet podpisových úkonů, nikoli počet označených řádků.
+
+Pokud se z označených řádků vytvoří jediný dokument, otevře se standardní okno s náhledem dokumentu. Pokud jich vznikne více, otevře se okno hromadného podpisu.
+
+**Které dokumenty se podepisují společně**
+
+Počet podpisových úkonů se řídí odpovědným lékařem, typem dokumentace (Kurativa / PLS) a nastavením v okně *Konfigurace obsahu EZD*:
+
+- Dekurzy téhož pacienta, dne, odpovědného lékaře a typu dokumentace se podepisují jedním úkonem. Vznikne z nich jeden dokument.
+- Vyšetření, žádanky, apod. se podepíše společně s dekurzem jen tehdy, je-li to v konfiguraci obsahu EZD povoleno a vyšetření vzniklo na stejném pracovišti u téhož odpovědného lékaře. Jinak se podepisuje samostatně.
+
+**Okno hromadného podpisu**
+
+![image-20261103-093120.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/EZD – elektronická zdravotní dokumentace/assets/image-20261103-093120.png>)
+V okně se postupně zobrazují jednotlivé dokumenty k podpisu. Dole se zobrazuje počet prohlédnutých dokumentů („Prohlédnuto x z n“). Tlačítko pro podpis je dostupné až poté, co uživatel dokumenty prošel až do konce a je co podepisovat.
+
+**Po podpisu**
+
+Podepsané dokumenty zmizí z přehledu nepodepsaných. Jejich další zpracování (odeslání do archivu podle konfigurace uživatele) je popsáno v kapitole *Odeslání podepsaného dokumentu do archivu*.
 
 ## **Proces skartace**
 

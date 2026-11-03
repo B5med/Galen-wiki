@@ -1347,7 +1347,61 @@
       },
       "content": [
         {
-          "text": "Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Z jednotlivých záznamů je možné se prokliknou přímo do dokumentů a následně je podepsat. ",
+          "text": "Přehled nepodepsaných dokumentů je možné vyhledat i v okně Dashboard. Dokumenty jsou zde zobrazeny od data uloženého na konfiguraci uživatele. Dashboard slouží pouze k náhledu. Hromadné podepisování dokumentů probíhá v modulu EZD (viz kapitola Hromadné podepisování dokumentů).",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "948b0dee3dd1"
+      },
+      "content": [
+        {
+          "text": "Detail nepodepsaných dokumentů EZD má dvě záložky: „Nepodepsané dokumenty dle pacientů“ a „Nepodepsané dokumenty“. Číslo v závorce u názvu záložky udává počet dokumentů k podpisu, nikoli počet řádků v seznamu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "45dca2c30918"
+      },
+      "content": [
+        {
+          "text": "Nepodepsané dokumenty dle pacientů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – zobrazuje jeden řádek pro pacienta a den se sloupci Datum, Pacient, K podpisu / celkem a Cílový dokument. Dvojklikem na řádek se otevře cílový dokument v kartě pacienta, tedy poslední nepodepsaný dekurz, a pokud žádný není, poslední nepodepsaný dokument dne. Na této záložce se nepodepisuje. U názvu záložky je ikona ⓘ s textem: „Přehled slouží pouze k náhledu. Hromadné podepisování dokumentů je dostupné v modulu EZD. Dvojklikem na řádek otevřete cílový dokument.“",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "dd4c1302a738"
+      },
+      "content": [
+        {
+          "text": "Nepodepsané dokumenty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": " – zobrazuje jednotlivé dokumenty se sloupci Typ dokumentu, Datum, Pacient, Typ dokumentace a Podřízená společnost.",
           "type": "text"
         }
       ]
@@ -1363,13 +1417,13 @@
         {
           "type": "media",
           "attrs": {
-            "width": 868,
-            "alt": "image-20250618-093108.png",
-            "id": "4fea1a9b-f4fe-48ed-928b-70cfd385693f",
+            "width": 1908,
+            "alt": "image-20261102-133320.png",
+            "id": "b021862f-ddb7-4573-b903-cfffd1508499",
             "collection": "contentId-47546437",
             "type": "file",
-            "localId": "fbe52d07-24f0-4e3b-8ce9-d7471e05cf8e",
-            "height": 708
+            "localId": "faa008f74eb1",
+            "height": 1012
           }
         }
       ]
@@ -1690,13 +1744,13 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1530,
-            "alt": "image-20260216-121702.png",
-            "id": "b4a510f8-c194-4c55-af10-9d6e119357b5",
+            "width": 1651,
+            "alt": "image-20261103-092001.png",
+            "id": "022fd7db-a930-45b6-9520-044cc7edff89",
             "collection": "contentId-47546437",
             "type": "file",
-            "localId": "d938d271c519",
-            "height": 89
+            "localId": "dff79b25b5ac",
+            "height": 104
           }
         }
       ]
@@ -2349,13 +2403,13 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1522,
-            "alt": "image-20260216-123406.png",
-            "id": "4a49e43a-881d-46f6-a3f5-a910ccf2e1dd",
+            "width": 1595,
+            "alt": "image-20261103-091925.png",
+            "id": "c6409111-f7d2-45f9-8df5-4e31db5bdf3b",
             "collection": "contentId-47546437",
             "type": "file",
-            "localId": "ecc81c867f95",
-            "height": 58
+            "localId": "52cfa323585d",
+            "height": 71
           }
         }
       ]
@@ -2363,7 +2417,7 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "375253f0-c775-4507-a192-8c281e8500f0"
+        "localId": "65f793373e8a"
       },
       "content": [
         {
@@ -2469,13 +2523,13 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1530,
-            "alt": "image-20260216-123441.png",
-            "id": "34f0aba6-41d9-49db-a8dd-bcf5b27ae5db",
+            "width": 1601,
+            "alt": "image-20261103-091831.png",
+            "id": "99f2df28-455a-4dfc-bb6d-5e59d1377b9c",
             "collection": "contentId-47546437",
             "type": "file",
-            "localId": "ac18b4015910",
-            "height": 58
+            "localId": "de6ba4d1f8ef",
+            "height": 75
           }
         }
       ]
@@ -2483,11 +2537,274 @@
     {
       "type": "paragraph",
       "attrs": {
-        "localId": "317983e7fa0b"
+        "localId": "15b31aa951ed"
       },
       "content": [
         {
           "text": "Zobrazuje pouze dokumenty, které byly do archivu odeslány. Pokud byl dokument do archivu odeslán a následně v aplikaci stornován, v této záložce se již neobjeví. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "3465d98dfec9"
+      },
+      "content": [
+        {
+          "text": "Nepodepsané dokumenty dle pacientů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1911,
+            "alt": "image-20261103-091306.png",
+            "id": "0664236c-b518-486d-b9cc-33c69a6bf446",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "3cea7dab58f7",
+            "height": 916
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d9a0b72d56b6"
+      },
+      "content": [
+        {
+          "text": "Záložka zobrazuje nepodepsanou zdravotnickou dokumentaci seskupenou podle pacienta a dne. Každý pacient má za jeden den jeden řádek, bez ohledu na to, kolik dokumentů v ten den vzniklo. Slouží k rychlému přehledu o tom, u kterých pacientů zbývá dokumentaci podepsat, a k jejímu hromadnému podepsání.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "51e563221d80"
+      },
+      "content": [
+        {
+          "text": "Sloupce přehledu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "979cc0f9-9aee-4fe0-b5e0-1f82ba623157"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8ec8ff98-129a-494b-a496-ab903f92107d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b3facfe4ba6d"
+              },
+              "content": [
+                {
+                  "text": "Datum – den, ve kterém dokumentace vznikla.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "8e85b5cb-b7f0-49d6-b727-5720164ca15f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "1b3d3d4513c0"
+              },
+              "content": [
+                {
+                  "text": "Pacient – jméno a příjmení pacienta.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2b9fb063-a831-48dd-8799-6ddf9d5b4068"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "c7ab84e2c908"
+              },
+              "content": [
+                {
+                  "text": "K podpisu / celkem – první číslo je počet podpisových úkonů, které je potřeba provést, druhé je celkový počet nepodepsaných dokumentů pacienta za daný den. ",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f9d6d5169fa1"
+      },
+      "content": [
+        {
+          "text": "Filtrace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3a3bf83ed8af"
+      },
+      "content": [
+        {
+          "text": "Přehled lze zúžit filtrem nad seznamem (",
+          "type": "text"
+        },
+        {
+          "text": "položky filtru Typ dokumentu, Pacient, Datum od a do, Typ dokumentace",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": "). Pokud je uživatel přihlášen jako Správce, seznam pouze prohlíží. Podepisovat lze jen po přihlášení na konkrétní pracoviště.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7fdeb5a0e1bb"
+      },
+      "content": [
+        {
+          "text": "Detail řádku",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "84d07a33942b"
+      },
+      "content": [
+        {
+          "text": "Po rozbalení řádku se zobrazí jednotlivé nepodepsané dokumenty pacienta za daný den (dekurz, vyšetření, formulář) včetně času a typu dokumentace (Kurativa / PLS). U dokumentů, které se podepisují společně, je to vyznačeno ikonou ⓘ s vysvětlením. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5943f255a85f"
+      },
+      "content": [
+        {
+          "text": "Podepisování",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "ec0d30936bc2"
+      },
+      "content": [
+        {
+          "text": "Označené řádky se podepisují tlačítkem ",
+          "type": "text"
+        },
+        {
+          "text": "Podepsat vybrané (n)",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        },
+        {
+          "text": ". Číslo v závorce udává počet podpisových úkonů. Postup je popsán v kapitole ",
+          "type": "text"
+        },
+        {
+          "text": "Hromadné podepisování dokumentů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
           "type": "text"
         }
       ]
@@ -2521,26 +2838,14 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1530,
-            "alt": "image-20260216-123521.png",
-            "id": "b60c8f8f-a5d3-4191-9cda-285da47fc9be",
+            "width": 1913,
+            "alt": "image-20261103-091733.png",
+            "id": "ca04db25-c666-4225-b97d-3a69a4c7fa81",
             "collection": "contentId-47546437",
             "type": "file",
-            "localId": "e7121dd47b06",
-            "height": 58
+            "localId": "7d9b2f5bf7b6",
+            "height": 121
           }
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "localId": "e4fec2f4b97a"
-      },
-      "content": [
-        {
-          "text": "Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerovaná do podepsaného pdf dokumentu. ",
-          "type": "text"
         }
       ]
     },
@@ -2551,7 +2856,32 @@
       },
       "content": [
         {
-          "text": "V modulu EZD lze dokument po výběru pracoviště zobrazit a podepsat dvojklikem nebo pomocí tlačítka ",
+          "text": "Přehled zobrazuje zdravotnickou dokumentaci vytvořenou v rámci aplikace, která dosud nebyla vygenerována do podepsaného pdf dokumentu. Každý dokument je v seznamu na samostatném řádku. Pro přehled po pacientech a dnech slouží záložka ",
+          "type": "text"
+        },
+        {
+          "text": "Nepodepsané dokumenty dle pacientů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "bc21f2cb28b6"
+      },
+      "content": [
+        {
+          "text": "Po výběru pracoviště lze dokument zobrazit a podepsat dvojklikem na řádek. Chcete-li podepsat více dokumentů najednou, označte je a stiskněte tlačítko ",
           "type": "text"
         },
         {
@@ -2564,7 +2894,382 @@
           ]
         },
         {
-          "text": ". Hromadné podepisování dokumentů není z legislativních důvodů povoleno, je však možné označit více dokumentů najednou a tím postupně spustit proces jejich zobrazení a podepisování.",
+          "text": ". Otevře se okno hromadného podpisu, ve kterém se dokumenty nejdřív zobrazí a teprve poté je možné je podepsat. Postup je popsán v kapitole ",
+          "type": "text"
+        },
+        {
+          "text": "Hromadné podepisování dokumentů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "24aac4a2db1e"
+      },
+      "content": [
+        {
+          "text": "Dokumenty, které se podle konfigurace obsahu EZD podepisují společně (např. více dekurzů téhož typu dokumentace za jeden den), se podepíší jedním podpisovým úkonem. Formulář se podepisuje vždy samostatně.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3,
+        "localId": "87169df8de03"
+      },
+      "content": [
+        {
+          "text": "Hromadné podepisování dokumentů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "f1864a513765"
+      },
+      "content": [
+        {
+          "text": "Hromadné podepisování je dostupné v modulu EZD na záložkách ",
+          "type": "text"
+        },
+        {
+          "text": "Nepodepsané dokumenty dle pacientů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " a ",
+          "type": "text"
+        },
+        {
+          "text": "Nepodepsané dokumenty",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ". Každý dokument musí být před podpisem zobrazen. Hromadné podepisování proto neznamená podpis „naslepo“, ale jednotný postup, ve kterém se dokumenty projdou a podepíší za sebou.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "3e999d155020"
+      },
+      "content": [
+        {
+          "text": "Spuštění",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "761dbb94-ea4f-4365-a506-346c2b24f82d",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "72e9ac57-c219-4ee7-92a8-98eab43b5484"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "4ee6bf86c298"
+              },
+              "content": [
+                {
+                  "text": "Přihlaste se na pracoviště, na kterém chcete dokumenty podepisovat. Správce dokumenty pouze prohlíží.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e2890046-450a-4e51-bbda-da874fe1648e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "b219389b054a"
+              },
+              "content": [
+                {
+                  "text": "Označte řádky, které chcete podepsat.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "4ca2621a-cd58-4c07-844a-88d70057d680"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "da1e0750df93"
+              },
+              "content": [
+                {
+                  "text": "Stiskněte tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Podepsat vybrané (n)",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ". Číslo v závorce udává počet podpisových úkonů, nikoli počet označených řádků.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "8619a034d625"
+      },
+      "content": [
+        {
+          "text": "Pokud se z označených řádků vytvoří jediný dokument, otevře se standardní okno s náhledem dokumentu. Pokud jich vznikne více, otevře se okno hromadného podpisu.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "69aee9aaa1d0"
+      },
+      "content": [
+        {
+          "text": "Které dokumenty se podepisují společně",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5dfc8a3040a8"
+      },
+      "content": [
+        {
+          "text": "Počet podpisových úkonů se řídí odpovědným lékařem, typem dokumentace (Kurativa / PLS) a nastavením v okně ",
+          "type": "text"
+        },
+        {
+          "text": "Konfigurace obsahu EZD",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ":",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "37b1f43c-42e1-4479-9724-d32241ae6afc"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f21cf88a-3a26-4316-abed-dadfb7ad185f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "77a2f14cf907"
+              },
+              "content": [
+                {
+                  "text": "Dekurzy téhož pacienta, dne, odpovědného lékaře a typu dokumentace se podepisují jedním úkonem. Vznikne z nich jeden dokument.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "e942f7b2-4f47-4d15-a2db-016a5f0c2142"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f6b02da48f28"
+              },
+              "content": [
+                {
+                  "text": "Vyšetření, žádanky, apod. se podepíše společně s dekurzem jen tehdy, je-li to v konfiguraci obsahu EZD povoleno a vyšetření vzniklo na stejném pracovišti u téhož odpovědného lékaře. Jinak se podepisuje samostatně.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "7537c8d88972"
+      },
+      "content": [
+        {
+          "text": "Okno hromadného podpisu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1538,
+            "alt": "image-20261103-093120.png",
+            "id": "e5e3b0e0-0cfb-4b97-b107-de4260386f6b",
+            "collection": "contentId-47546437",
+            "type": "file",
+            "localId": "b15615bb14e4",
+            "height": 993
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "a4a061ea727f"
+      },
+      "content": [
+        {
+          "text": "V okně se postupně zobrazují jednotlivé dokumenty k podpisu. Dole se zobrazuje počet prohlédnutých dokumentů („Prohlédnuto x z n“). Tlačítko pro podpis je dostupné až poté, co uživatel dokumenty prošel až do konce a je co podepisovat. ",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "939dc669f2e7"
+      },
+      "content": [
+        {
+          "text": "Po podpisu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "413353c63197"
+      },
+      "content": [
+        {
+          "text": "Podepsané dokumenty zmizí z přehledu nepodepsaných. Jejich další zpracování (odeslání do archivu podle konfigurace uživatele) je popsáno v kapitole ",
+          "type": "text"
+        },
+        {
+          "text": "Odeslání podepsaného dokumentu do archivu",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ".",
           "type": "text"
         }
       ]
