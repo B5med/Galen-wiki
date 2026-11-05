@@ -2815,6 +2815,171 @@
       ]
     },
     {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "e98070564111"
+      },
+      "content": [
+        {
+          "text": "Omezení přímého zadávání výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "strong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "79ca1c685458"
+      },
+      "content": [
+        {
+          "text": "Pokud má společnost zapnuté ",
+          "type": "text"
+        },
+        {
+          "text": "Omezení přímého zadávání výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", lze výkony vybrané v dialogu ",
+          "type": "text"
+        },
+        {
+          "text": "Upřesnit",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": " vykázat jen přes modul prohlídek. V editoru výkonů je zadat přímo nepůjde.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "1bc6c79de89e"
+      },
+      "content": [
+        {
+          "text": "Omezení se uplatní, jen když jsou splněné obě podmínky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "21a496ec-e0ec-49cc-a7fd-a5d987429609"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "06e3510d-a8da-46ee-97e6-853a27f4ba85"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "f6192a5a3c5b"
+              },
+              "content": [
+                {
+                  "text": "výkon je v dialogu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Upřesnit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtnutý jako omezený,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "aa950c42-dcd9-4d4a-8c47-14b3668b659f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "aa31499c5eaa"
+              },
+              "content": [
+                {
+                  "text": "výkon je definovaný na prohlídce, která je zveřejněná pro odbornost a pracoviště, na kterém se vykazuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "19a85a50a544"
+      },
+      "content": [
+        {
+          "text": "Pokud má prohlídka nastavené ",
+          "type": "text"
+        },
+        {
+          "text": "Omezit pro odbornost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", omezení platí jen na pracovištích s touto odborností. Na ostatních pracovištích jde výkon zadat přímo.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "5d95021f7450"
+      },
+      "content": [
+        {
+          "text": "Při pokusu o přímé zadání se zobrazí hláška: „Výkon {kód} lze zadat pouze prostřednictvím modulu prohlídek.“",
+          "type": "text"
+        }
+      ]
+    },
+    {
       "type": "heading",
       "attrs": {
         "level": 2,

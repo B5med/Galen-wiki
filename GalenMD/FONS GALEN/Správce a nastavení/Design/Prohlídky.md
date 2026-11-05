@@ -1,7 +1,7 @@
 ---
 title: "Prohlídky"
-version: 11
-updated_at: 2026-09-11
+version: 12
+updated_at: 2026-11-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315
 ---
 
@@ -209,6 +209,19 @@ Např. pro preventivní prohlídku může být jako volitelný výkon definován
 
 > [!abstract]
 > Pokud uživatel k výkonu definuje také diagnózu, tato diagnóza bude zobrazena na tlačítku výkonu při vykazování z prohlídky. Je tak možné zadat více stejných výkonů vždy s jinou diagnózou.
+
+**Omezení přímého zadávání výkonů**
+
+Pokud má společnost zapnuté *Omezení přímého zadávání výkonů*, lze výkony vybrané v dialogu *Upřesnit* vykázat jen přes modul prohlídek. V editoru výkonů je zadat přímo nepůjde.
+
+Omezení se uplatní, jen když jsou splněné obě podmínky:
+
+- výkon je v dialogu *Upřesnit* zaškrtnutý jako omezený,
+- výkon je definovaný na prohlídce, která je zveřejněná pro odbornost a pracoviště, na kterém se vykazuje.
+
+Pokud má prohlídka nastavené *Omezit pro odbornost*, omezení platí jen na pracovištích s touto odborností. Na ostatních pracovištích jde výkon zadat přímo.
+
+Při pokusu o přímé zadání se zobrazí hláška: „Výkon {kód} lze zadat pouze prostřednictvím modulu prohlídek.“
 
 ## XSL transformace
 

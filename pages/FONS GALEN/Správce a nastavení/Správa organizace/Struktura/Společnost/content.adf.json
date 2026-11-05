@@ -145,6 +145,31 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Popis nastavení omezení přímého zadávání výkonů najdete na podstránce ",
+          "type": "text"
+        },
+        {
+          "text": "Omezení přímého zadávání výkonů",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/677216259"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
     }
   ],
   "version": 1

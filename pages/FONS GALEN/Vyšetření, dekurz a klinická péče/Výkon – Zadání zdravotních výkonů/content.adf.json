@@ -30,7 +30,7 @@
       },
       "content": [
         {
-          "text": "Výkony zadáváme pomocí tlačítka Výkon, které se nachází v horní liště v kartotéce nad označeným pacientem, popř. na kartě pacienta. Po zadání výkonu je nutné zadání potvrdit tlačítkem OK. ",
+          "text": "Výkony zadáváme pomocí tlačítka Výkon, které se nachází v horní liště v kartotéce nad označeným pacientem, popř. na kartě pacienta. Po zadání výkonu je nutné zadání potvrdit tlačítkem OK. ",
           "type": "text"
         }
       ]
@@ -42,7 +42,7 @@
       },
       "content": [
         {
-          "text": "V horní části okna editoru výkonů vidíme výkony nevyúčtované, v dolní části vidíme výkony vyúčtované, tzn. výkony, kterým již byla v modulu Vyúčtování přiřazena čísla dokladů.  ",
+          "text": "V horní části okna editoru výkonů vidíme výkony nevyúčtované, v dolní části vidíme výkony vyúčtované, tzn. výkony, kterým již byla v modulu Vyúčtování přiřazena čísla dokladů.  ",
           "type": "text"
         }
       ]
@@ -54,8 +54,95 @@
       },
       "content": [
         {
-          "text": "Při zadávání nového výkonu zadáváme datum výběrem z kalendáře nebo manuálně. Typ výkonu, tj. pětimístný číselný kód výkonu (např. 01021) lze zadat ručně a našeptávač (roletka) během editace nabídne všechny nastavené nasmlouvané výkony pro dané pracoviště. Také lze typ výkonu vybrat šipečkou přímo z číselníku výkonů. ",
+          "text": "Při zadávání nového výkonu zadáváme datum výběrem z kalendáře nebo manuálně. Typ výkonu, tj. pětimístný číselný kód výkonu (např. 01021) lze zadat ručně a našeptávač (roletka) během editace nabídne všechny nastavené nasmlouvané výkony pro dané pracoviště. Také lze typ výkonu vybrat šipečkou přímo z číselníku výkonů. ",
           "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "attrs": {
+        "panelType": "warning"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Poznámka:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "text": " Některé výkony může mít společnost nastavené tak, že je lze vykázat pouze prostřednictvím modulu prohlídek. Při pokusu o jejich přímé zadání v editoru výkonů se zobrazí hláška ",
+              "type": "text"
+            },
+            {
+              "text": "„Výkon {kód} lze zadat pouze prostřednictvím modulu prohlídek.“",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "em"
+                }
+              ]
+            },
+            {
+              "text": " Podrobnosti najdete na stránce ",
+              "type": "text"
+            },
+            {
+              "text": "Prohlídky",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315/Prohl+dky"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ". Omezení nastavuje správce v modulu ",
+              "type": "text"
+            },
+            {
+              "text": "Správa organizace",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75694084/Spr+va+organizace"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " v konfiguraci společnosti, viz ",
+              "type": "text"
+            },
+            {
+              "text": "Omezení přímého zadávání výkonů",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/677216259"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
         }
       ]
     },
@@ -131,7 +218,7 @@
       },
       "content": [
         {
-          "text": "Hlavní diagnózu lze vybrat z číselníku diagnóz šipkou v řádku zadávaného výkonu v poli Hlav.Dg. nebo lze diagnózu manuálně vepsat. Pro ulehčení práce lékařům Řádk.Dg. prvotně zkopíruje diagnózu hlavní, ale je možné ji následně změnit. ",
+          "text": "Hlavní diagnózu lze vybrat z číselníku diagnóz šipkou v řádku zadávaného výkonu v poli Hlav.Dg. nebo lze diagnózu manuálně vepsat. Pro ulehčení práce lékařům Řádk.Dg. prvotně zkopíruje diagnózu hlavní, ale je možné ji následně změnit. ",
           "type": "text"
         }
       ]
@@ -182,7 +269,7 @@
       },
       "content": [
         {
-          "text": "Pole Body, Cena a Výkon (název výkonu) se doplní automaticky z číselníku výkonů. Odpovědný lékař a pracoviště se také doplní automaticky, ale lze je dle potřeby změnit. K pojišťovnou určeným výkonům lze přiřadit ZUM (tlačítko Z a výběr z číselníku), ",
+          "text": "Pole Body, Cena a Výkon (název výkonu) se doplní automaticky z číselníku výkonů. Odpovědný lékař a pracoviště se také doplní automaticky, ale lze je dle potřeby změnit. K pojišťovnou určeným výkonům lze přiřadit ZUM (tlačítko Z a výběr z číselníku), ",
           "type": "text"
         },
         {
@@ -195,7 +282,7 @@
           ]
         },
         {
-          "text": " (tlačítko C). Na konci řádku s výkonem vidíme, na jaký typ dokladu se výkon v závislosti na registraci pacienta u lékaře po vyúčtování přiřadí (A – ambulantní doklad, N – doklad nepravidelné péče). Typ dokladu může změnit správce organizace manuálně v modulu Vyúčtování, kde lze provádět běžná vyúčtovat zadané zdravotní výkony, které poté přímo z AIS Galen odeslat zdravotním pojišťovnám. ",
+          "text": " (tlačítko C). Na konci řádku s výkonem vidíme, na jaký typ dokladu se výkon v závislosti na registraci pacienta u lékaře po vyúčtování přiřadí (A – ambulantní doklad, N – doklad nepravidelné péče). Typ dokladu může změnit správce organizace manuálně v modulu Vyúčtování, kde lze provádět běžná vyúčtovat zadané zdravotní výkony, které poté přímo z AIS Galen odeslat zdravotním pojišťovnám. ",
           "type": "text"
         }
       ]

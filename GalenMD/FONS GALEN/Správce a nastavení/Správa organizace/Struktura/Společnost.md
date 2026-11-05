@@ -1,7 +1,7 @@
 ---
 title: "Společnost"
-version: 4
-updated_at: 2026-06-19
+version: 6
+updated_at: 2026-11-05
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/75202656
 ---
 
@@ -19,3 +19,5 @@ V pravém sloupci jsou zobrazeny údaje týkající se celé společnosti, tzn. 
 ![image-20250618-112158.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Společnost/assets/image-20250618-112158.png>)
 ![image-20250618-112220.png](<../../../../../pages/FONS GALEN/Správce a nastavení/Správa organizace/Struktura/Společnost/assets/image-20250618-112220.png>)
 Okno Konfigurace obsahuje několik záložek, ve kterých lze definovat položky, které se týkají úrovně celé společnosti, tedy všech pracovišť. **Infopanel pacienta** si uživatel zobrazí kliknutím na klávesu F4 v ordinaci či k nahlížení či v recepci. Infopanel pacienta slouží ke kopírování informací o pacientovi. Správce společnosti zde nadefinuje, které informace o pacientovi mají zobrazovat uživatelům v recepci
+
+Popis nastavení omezení přímého zadávání výkonů najdete na podstránce [[Omezení přímého zadávání výkonů]].

@@ -1,0 +1,425 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "d078ab57b7f1"
+      },
+      "content": [
+        {
+          "text": "Správce může nastavit, že vybrané výkony očkování a preventivních prohlídek nepůjde zadat přímo v editoru výkonů. Vykážou se jen automaticky po zadání očkování, nebo ručně z modulu prohlídek.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "81bef2ec22db"
+      },
+      "content": [
+        {
+          "text": "Nastavení",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "attrs": {
+        "localId": "58927e15c9cb",
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "47ebe4c8f60e"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "bf951898755d"
+              },
+              "content": [
+                {
+                  "text": "V okně ",
+                  "type": "text"
+                },
+                {
+                  "text": "Konfigurace společnosti",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " na záložce ",
+                  "type": "text"
+                },
+                {
+                  "text": "Konfigurace",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtněte volbu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Omezení přímého zadávání výkonů",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": ".",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "236101893705"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "d28ffeb6db3d"
+              },
+              "content": [
+                {
+                  "text": "Klikněte na tlačítko ",
+                  "type": "text"
+                },
+                {
+                  "text": "Upřesnit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                },
+                {
+                  "text": " vedle volby.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "f7776f958237"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "17d7ac00f1de"
+              },
+              "content": [
+                {
+                  "text": "V dialogu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Upřesnit omezení zadávání výkonů",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " nechte zaškrtnuté výkony, které se mají omezit. Výkony, které má jít dál zadávat přímo, odškrtněte.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2176e7a02119"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "a15ca3062607"
+              },
+              "content": [
+                {
+                  "text": "Potvrďte OK a uložte konfiguraci společnosti.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "259371a9742e"
+      },
+      "content": [
+        {
+          "text": "Seznam nabízí všechny výkony očkování a všechny výkony definované na preventivních prohlídkách. Ve výchozím stavu jsou zaškrtnuté všechny. Po najetí myší na volbu se zobrazí přehled výkonů, kterých se omezení právě týká.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 692,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 692,
+            "alt": "image-20261105-082004.png",
+            "id": "8548fa2a-f3a3-4ff9-9ee9-bcfe46ae8192",
+            "collection": "contentId-677216259",
+            "type": "file",
+            "localId": "3ff8d217d312",
+            "height": 829
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "0ec911604199"
+      },
+      "content": [
+        {
+          "text": "Kdy se omezení uplatní u prohlídek",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "fc9869a17722"
+      },
+      "content": [
+        {
+          "text": "U výkonů prohlídek musí platit obě podmínky:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "d31e2a476330"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "52ba6170d38d"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "52c9aa3b4213"
+              },
+              "content": [
+                {
+                  "text": "výkon je v dialogu ",
+                  "type": "text"
+                },
+                {
+                  "text": "Upřesnit",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                },
+                {
+                  "text": " zaškrtnutý,",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "87c643a1f44f"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "cdc2f5eaaa7c"
+              },
+              "content": [
+                {
+                  "text": "výkon je definovaný na prohlídce, která je zveřejněná pro odbornost a pracoviště, na kterém se vykazuje.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "00a653a7626f"
+      },
+      "content": [
+        {
+          "text": "Pokud má prohlídka nastavené ",
+          "type": "text"
+        },
+        {
+          "text": "Omezit pro odbornost",
+          "type": "text",
+          "marks": [
+            {
+              "type": "em"
+            }
+          ]
+        },
+        {
+          "text": ", omezení platí jen na pracovištích s touto odborností. Více na stránce ",
+          "type": "text"
+        },
+        {
+          "text": "Prohlídky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/50102315"
+              }
+            }
+          ]
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2,
+        "localId": "2e247528fee4"
+      },
+      "content": [
+        {
+          "text": "Hlášky v editoru výkonů",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "attrs": {
+        "localId": "0f562ce16657"
+      },
+      "content": [
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "7da86129ad22"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "effed8d03f89"
+              },
+              "content": [
+                {
+                  "text": "výkon prohlídky: ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Výkon {kód} lze zadat pouze prostřednictvím modulu prohlídek“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "attrs": {
+            "localId": "2f6524f876bb"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "localId": "021479829459"
+              },
+              "content": [
+                {
+                  "text": "výkon očkování: ",
+                  "type": "text"
+                },
+                {
+                  "text": "„Výkon očkování není možné zadat přímo“",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "em"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

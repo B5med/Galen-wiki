@@ -1,7 +1,7 @@
 ---
 title: "Dashboard"
-version: 1
-updated_at: 2026-06-17
+version: 2
+updated_at: 2026-11-04
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/459014145
 ---
 
@@ -16,7 +16,10 @@ V levé části dashboardu se nachází sekce **Návštěvy za**, kde je možné
 - **Dnes** – denní přehled aktuálních návštěv a výkonů
 - **Vybrané období** – souhrnné statistiky za zadaný časový rozsah (včera, aktuální měsíc, minulý měsíc, posledních 7, 30, 90 dní)
 
-![Snímka obrazovky 2026-06-17 101825.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Dashboard/assets/Snímka obrazovky 2026-06-17 101825.png>)
+![image-20261104-124537.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Dashboard/assets/image-20261104-124537.png>)
+Pro lepší přehlednost při postupném procházení záznamů se na Dashboardu podbarví řádek, ze kterého uživatel naposledy otevřel kartu pacienta nebo detail záznamu. Po návratu na Dashboard je tak hned vidět, kde v seznamu skončil.
+
+![image-20261104-124839.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Dashboard/assets/image-20261104-124839.png>)
 Sekce **Celkové přehledy** zobrazuje agregované informace napříč celým pracovištěm, nezávisle na zvoleném období v sekci návštěv.
 
 ![image-20260617-083958.png](<../../../pages/FONS GALEN/Karta pacienta a zdravotní dokumentace/Dashboard/assets/image-20260617-083958.png>)

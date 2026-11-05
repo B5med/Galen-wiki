@@ -159,23 +159,23 @@
         {
           "type": "media",
           "attrs": {
-            "width": 1432,
-            "alt": "Snímka obrazovky 2026-06-17 101825.png",
-            "id": "287eb3fe-9d5f-4d94-947f-a16494ba6d4d",
+            "width": 1912,
+            "alt": "image-20261104-124537.png",
+            "id": "014516ee-75ab-47c4-a839-4d3daa1cc398",
             "collection": "contentId-459014145",
             "type": "file",
-            "localId": "4d656bf04e32",
-            "height": 357
+            "localId": "ff67ceeff9b5",
+            "height": 471
           }
         },
         {
           "type": "caption",
           "attrs": {
-            "localId": "d8398584b0ef"
+            "localId": "2f59b12e67b4"
           },
           "content": [
             {
-              "text": "Návštěvy bez výkonu zadané dnes",
+              "text": "Návštěvy bez výkonů za dnes",
               "type": "text"
             }
           ]
@@ -186,6 +186,52 @@
       "type": "paragraph",
       "attrs": {
         "localId": "ea6bd46256a1"
+      },
+      "content": [
+        {
+          "text": "Pro lepší přehlednost při postupném procházení záznamů se na Dashboardu podbarví řádek, ze kterého uživatel naposledy otevřel kartu pacienta nebo detail záznamu. Po návratu na Dashboard je tak hned vidět, kde v seznamu skončil.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "mediaSingle",
+      "attrs": {
+        "layout": "center",
+        "width": 760,
+        "widthType": "pixel"
+      },
+      "content": [
+        {
+          "type": "media",
+          "attrs": {
+            "width": 1855,
+            "alt": "image-20261104-124839.png",
+            "id": "a0bf3ed3-f036-45c8-9fea-5ac72fb16600",
+            "collection": "contentId-459014145",
+            "type": "file",
+            "localId": "aafc736e095e",
+            "height": 482
+          }
+        },
+        {
+          "type": "caption",
+          "attrs": {
+            "localId": "b77feb31b5c0"
+          },
+          "content": [
+            {
+              "text": "Podbarvení naposledy otevřeného záznamu v přehledu",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "localId": "46b2361c9fb6"
       },
       "content": [
         {

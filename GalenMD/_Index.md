@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-04
+generated: 2026-11-05
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **4. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-04
+> **5. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-05
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **2** |
-| ♨️ | Do 14 dnů | **14** |
-| 🌿 | Do 30 dnů | **6** |
-| 📄 | Do 90 dnů | **16** |
-| 🗄️ | Starší než 3 měsíce | **309** |
+| 🔥 | Do 3 dnů | **7** |
+| ♨️ | Do 14 dnů | **13** |
+| 🌿 | Do 30 dnů | **5** |
+| 📄 | Do 90 dnů | **17** |
+| 🗄️ | Starší než 3 měsíce | **305** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -38,7 +38,7 @@ generated: 2026-11-04
       - ♨️ [[Zapnutí modulu]] `v2` · 23. 10. 2026
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
-    - 🌿 [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
+    - 📄 [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
@@ -48,7 +48,7 @@ generated: 2026-11-04
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 🗄️ [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🗄️ [[Auditní stopa]] `v1` · 18. 6. 2026
-    - 🗄️ [[Dashboard]] `v1` · 17. 6. 2026
+    - 🔥 [[Dashboard]] `v2` · 4. 11. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🔥 [[EZD – elektronická zdravotní dokumentace]] `v9` · 3. 11. 2026
@@ -134,7 +134,6 @@ generated: 2026-11-04
     - 🗄️ [[SEIVA – integrace s čekárnou]] `v1` · 22. 6. 2026
     - 🗄️ [[Sjednocení upozornění pro pacienty]] `v1` · 1. 9. 2025
     - 🗄️ [[SMS zprávy ve FONS Galen]] `v3` · 18. 6. 2026
-    - 🗄️ [[Upozornění pro uživatele]] `v2` · 16. 6. 2026
   - 🗄️ **[[Přehled změn ve verzích]]** `v3` · 23. 7. 2025
     - 🗄️ [[Novinky ve verzi k 10. 3. 2026]] `v4` · 9. 3. 2026
     - 🗄️ [[Novinky ve verzi k 11. 2. 2026]] `v2` · 9. 2. 2026
@@ -162,7 +161,7 @@ generated: 2026-11-04
     - 🗄️ [[Novinky ve verzi k 29. 7. 2025]] `v2` · 13. 8. 2025
     - 🔥 [[Novinky ve verzi k 3. 11. 2026]] `v1` · 2. 11. 2026
     - 🗄️ [[Novinky ve verzi k 5. 5. 2026]] `v4` · 4. 5. 2026
-    - 🌿 [[Novinky ve verzi k 6. 10. 2026]] `v1` · 5. 10. 2026
+    - 📄 [[Novinky ve verzi k 6. 10. 2026]] `v1` · 5. 10. 2026
     - 🗄️ [[Novinky ve verzi k 7. 10. 2025]] `v2` · 3. 12. 2025
     - 🗄️ [[Novinky ve verzi k 8. 4. 2026]] `v8` · 7. 4. 2026
     - 📄 [[Novinky ve verzi k 8. 9. 2026]] `v2` · 7. 9. 2026
@@ -170,7 +169,7 @@ generated: 2026-11-04
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - 📄 [[Prohlídky]] `v11` · 11. 9. 2026
+      - 🔥 [[Prohlídky]] `v12` · 5. 11. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -228,6 +227,8 @@ generated: 2026-11-04
           - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
+        - 🔥 **[[Společnost]]** `v6` · 5. 11. 2026
+          - 🔥 [[Omezení přímého zadávání výkonů]] `v2` · 5. 11. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
           - ♨️ **[[Role uživatele]]** `v4` · 23. 10. 2026
             - ♨️ [[Administrátor (omezená práva)]] `v1` · 23. 10. 2026
@@ -237,7 +238,6 @@ generated: 2026-11-04
           - 🗄️ [[Synchronizovat s AD]] `v2` · 22. 7. 2025
         - 🗄️ **[[Zařízení]]** `v3` · 6. 1. 2026
           - 🗄️ [[Nastavení vyúčtování]] `v2` · 6. 1. 2026
-        - 🗄️ [[Společnost]] `v4` · 19. 6. 2026
       - 🗄️ [[Návod na přidání pojišťovny a smluvních výkonů]] `v1` · 26. 8. 2025
       - 🗄️ [[Oprávnění]] `v4` · 4. 2. 2026
       - 🗄️ [[Smlouvy]] `v4` · 31. 10. 2025
@@ -278,13 +278,13 @@ generated: 2026-11-04
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
     - 📄 [[Vyšetření]] `v2` · 25. 9. 2026
-    - 🗄️ [[Výkon – Zadání zdravotních výkonů]] `v2` · 13. 5. 2026
+    - 🔥 [[Výkon – Zadání zdravotních výkonů]] `v4` · 5. 11. 2026
   - 🗄️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
       - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
     - 🗄️ [[Cesta k nastavení používání hesel|Cesta k nastavení používání hesel]] `v1` · 17. 6. 2025
     - 🗄️ [[Dvoufaktorové ověření (2FA)]] `v5` · 7. 11. 2025
-    - ♨️ [[Instalace FONS Galen]] `v7` · 21. 10. 2026
+    - 🌿 [[Instalace FONS Galen]] `v7` · 21. 10. 2026
     - 🗄️ [[Klávesové zkratky ve FONS Galen]] `v1` · 21. 7. 2025
     - 🗄️ [[Obnovení hesla e-mailem]] `v1` · 26. 8. 2025
     - 🗄️ [[Off-line režim]] `v1` · 18. 6. 2025
