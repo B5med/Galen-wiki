@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-09
+generated: 2026-11-10
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **9. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-09
+> **10. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-10
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **7** |
 | 🌿 | Do 30 dnů | **18** |
 | 📄 | Do 90 dnů | **16** |
-| 🗄️ | Starší než 3 měsíce | **306** |
+| 🗄️ | Starší než 3 měsíce | **305** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -109,7 +109,7 @@ generated: 2026-11-09
   - 🗄️ **[[Objednávání, komunikace a notifikace]]** `v3` · 18. 5. 2026
     - 🗄️ **[[Notifikace pacientů ohledně zpracování laboratorních výsledků]]** `v1` · 26. 8. 2025
       - 🗄️ [[Další úpravy spojené s funkcionalitou]] `v1` · 26. 8. 2025
-    - 🗄️ **[[Nároky]]** `v2` · 10. 7. 2025
+    - 🔥 **[[Nároky]]** `v4` · 9. 11. 2026
       - 🗄️ **[[Generování nároků z očkování]]** `v1` · 10. 7. 2025
         - 🗄️ [[Konfigurace a vznik nároků]] `v1` · 10. 7. 2025
       - 🗄️ **[[Generování nároků z vyšetření]]** `v2` · 10. 7. 2025

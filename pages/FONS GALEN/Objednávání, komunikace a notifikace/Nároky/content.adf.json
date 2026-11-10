@@ -40,6 +40,91 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Videoukázka",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Ukázku práce s modulem Nároky najdete ve videu:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "attrs": {
+        "extensionType": "com.atlassian.confluence.macro.core",
+        "extensionKey": "widget",
+        "parameters": {
+          "macroParams": {
+            "overlay": {
+              "value": "youtube"
+            },
+            "_template": {
+              "value": "com/atlassian/confluence/extra/widgetconnector/templates/youtube.vm"
+            },
+            "width": {
+              "value": "740px"
+            },
+            "url": {
+              "value": "https://www.youtube.com/watch?v=u7qgMo9KpH8"
+            },
+            "height": {
+              "value": "416px"
+            }
+          },
+          "macroMetadata": {
+            "macroId": {
+              "value": "4d2589cb-3e76-491c-a8b7-bc5dfc5f1aa1"
+            },
+            "schemaVersion": {
+              "value": "1"
+            },
+            "placeholder": [
+              {
+                "type": "image",
+                "data": {
+                  "url": "/plugins/servlet/widgetconnector/placeholder?thumb=https://img.youtube.com/vi/u7qgMo9KpH8/mqdefault.jpg&overlay=youtube&width=740&height=416"
+                }
+              }
+            ],
+            "title": "Konektor widgetu"
+          }
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pokud se video nezobrazí, otevřete jej přímo na YouTube: ",
+          "type": "text"
+        },
+        {
+          "text": "FONS Galen – Modul Nároky",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "https://www.youtube.com/watch?v=u7qgMo9KpH8"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "version": 1
