@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-10
+generated: 2026-11-11
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **10. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-10
+> **11. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-11
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
+| 🔥 | Do 3 dnů | **2** |
 | ♨️ | Do 14 dnů | **7** |
 | 🌿 | Do 30 dnů | **18** |
 | 📄 | Do 90 dnů | **16** |
-| 🗄️ | Starší než 3 měsíce | **305** |
+| 🗄️ | Starší než 3 měsíce | **304** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -248,7 +248,7 @@ generated: 2026-11-10
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
-    - 🗄️ [[eShop]] `v1` · 27. 7. 2026
+    - 🔥 [[eShop]] `v3` · 10. 11. 2026
     - 📄 [[Externí přístup]] `v3` · 1. 10. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025

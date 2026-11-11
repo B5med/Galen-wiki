@@ -1,7 +1,7 @@
 ---
 title: "eShop"
-version: 1
-updated_at: 2026-07-27
+version: 3
+updated_at: 2026-11-10
 source: https://stapro-galen.atlassian.net/wiki/spaces/fg/pages/506527745
 ---
 
@@ -57,7 +57,59 @@ Přidání funkcionality do košíku indikuje počet zobrazený na ikoně koší
 ![image-20260727-175535.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20260727-175535.png>)
 4. Stav své objednávky může uživatel sledovat v záložce Objednávky
 
-   ![image-20260727-174920.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20260727-174920.png>)
+## Úpravy od 1. 1. 2027
+
+### Snížení počtu nebo zrušení funkcionality
+
+Od 1. 1. 2027 můžete přímo v eShopu požádat o snížení počtu pracovišť, uživatelů nebo zařízení u aktivní funkcionality, případně o její zrušení. Žádost může podat pouze uživatel s rolí *Objednavatel*.
+
+**Postup:**
+
+1. Na stránce *Přehled* rozbalte funkcionalitu a stiskněte tlačítko:
+
+   - **Snížit počet** – u funkcionalit na pracoviště, uživatele nebo zařízení,
+   - **Zrušit od dalšího období** – u funkcionalit za celou společnost.
+
+      ![image-20261110-123925.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20261110-123925.png>)
+      ![image-20261110-123822.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20261110-123822.png>)
+
+2. Zadejte nový počet. U funkcionalit na pracoviště vyberte pracoviště, na kterých má funkcionalita skončit.
+3. Datum účinnosti je předvyplněné na začátek dalšího fakturačního období. V dialogu je zobrazena i nová výše pravidelné platby.
+4. Vyplňte **důvod změny** a žádost odešlete.
+
+   ![image-20261110-124152.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20261110-124152.png>)
+
+> [!info]
+> Snížení počtu je žádost o změnu smluvních podmínek. Platí až po schválení obchodním zástupcem, nejdříve od začátku dalšího fakturačního období. Za již uhrazené období se platba nevrací.
+
+**Po odeslání žádosti:**
+
+- Přijde Vám e-mail s potvrzením přijetí žádosti.
+- Po schválení Vám přijde e-mail s PDF „Změna pravidelné fakturace“, při zamítnutí e-mail s důvodem zamítnutí.
+- Stav žádosti je vidět u funkcionality na stránce *Přehled*, např. „Žádost o snížení na 3× čeká na schválení“ nebo „Aktuálně 5×, od 1. 2. 2027 3×“.
+- U jedné funkcionality může být rozpracovaná vždy jen jedna žádost.
+- Funkcionalitu nelze zrušit, pokud ji vyžaduje jiná aktivní funkcionalita.
+
+   ![image-20261110-124301.png](<../../../pages/FONS GALEN/Správce a nastavení/eShop/assets/image-20261110-124301.png>)
+
+> [!warning]
+> **Licence na uživatele a zařízení:** licence, které mají zůstat zachované, určí uživatel s rolí *Správce* tím, že ostatní licence odebere nejpozději den před datem účinnosti. **Pokud počet do té doby nesnížíte, bude se dál fakturovat původní počet a snížení se přesune na další fakturační období.**
+
+### Automatické storno nevyfakturovaných objednávek
+
+Objednávky, které nebudou předány k fakturaci do vystavení pravidelné faktury za další období, se automaticky stornují. Objednavateli přijde e-mail o stornu a objednávku je potřeba zadat znovu. Od 25. dne v měsíci na to upozorní košík hláškou:
+
+> „Objednávky, které nebudou vyfakturovány do konce měsíce, budou při vystavení pravidelné faktury automaticky stornovány.“
+
+Pokud odesíláte objednávku těsně před koncem měsíce, kontaktujte svého obchodního zástupce.
+
+### Objednávky v lednu
+
+U smluv s inflační doložkou se k 1. 1. přepočítávají ceny služeb. Do dokončení přepočtu nelze v eShopu odeslat novou objednávku a košík zobrazí hlášku:
+
+> „Probíhá roční přepočet cen služeb. Objednávku bude možné odeslat po jeho dokončení.“
+
+Dosud nevyfakturované objednávky se při přepočtu stornují. Objednavateli přijde e-mail s informací, že je potřeba objednávku zadat znovu.
 
 ## Často kladené dotazy
 
@@ -85,4 +137,4 @@ V případě, že si přejete zrušit celou objednávku, případně její čás
 
 ### Mohu prostřednictvím eShopu funkcionalitu zrušit, nebo snížit počet pracovišť nebo uživatelů?
 
-V tuto chvíli je možné v eShopu pouze objednávat nové funkcionality nebo přikupovat další přístupy. V případě, že si přejete snížit počet přístupů nebo funkcionalitu zrušit, kontaktujte svého obchodního zástupce.
+Ano, od 1. 1. 2027 – viz kapitola [[eShop|Snížení počtu nebo zrušení funkcionality]]. Do té doby kontaktujte svého obchodního zástupce.
