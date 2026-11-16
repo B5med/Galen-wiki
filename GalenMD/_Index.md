@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-15
+generated: 2026-11-16
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **15. 11. 2026**  ·  Celkem stránek: **347**  ·  Poslední sync z Confluence: 2026-11-15
+> **16. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-16
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **0** |
+| 🔥 | Do 3 dnů | **1** |
 | ♨️ | Do 14 dnů | **9** |
-| 🌿 | Do 30 dnů | **18** |
-| 📄 | Do 90 dnů | **14** |
+| 🌿 | Do 30 dnů | **17** |
+| 📄 | Do 90 dnů | **15** |
 | 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
 
@@ -42,7 +42,7 @@ generated: 2026-11-15
     - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
-      - 🌿 [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
+      - 📄 [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
     - 🗄️ **[[Přílohy v kartě pacienta]]** `v4` · 19. 6. 2026
       - 🗄️ [[Ukládání příloh do cloudového úložiště]] `v1` · 19. 6. 2026
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
@@ -145,6 +145,7 @@ generated: 2026-11-15
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
+    - 🔥 [[Novinky ve verzi k 18. 11. 2026]] `v2` · 16. 11. 2026
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026

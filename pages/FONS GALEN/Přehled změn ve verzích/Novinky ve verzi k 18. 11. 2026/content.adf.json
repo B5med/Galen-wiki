@@ -1,0 +1,62 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "text": "Novinky a vylepšení",
+          "type": "text",
+          "marks": [
+            {
+              "type": "textColor",
+              "attrs": {
+                "color": "#006644"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule"
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "text": "Modul Očkování",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "text": "Úprava diagnóz u očkování proti chřipce",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "text": "Pro očkování proti chřipce ve schématu Hradí pojišťovna – indikovaná skupina budou připraveny nové centrální očkovací varianty s hlavní diagnózou Z251 a prázdnou řádkovou diagnózou, kterou uživatel při očkování povinně vyplní dle chronického onemocnění pacienta. V uživatelských očkovacích variantách již řádková diagnóza není povinná a lze ji ponechat prázdnou.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
