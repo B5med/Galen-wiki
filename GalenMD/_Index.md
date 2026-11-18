@@ -1,19 +1,19 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-17
+generated: 2026-11-18
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **17. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-17
+> **18. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-18
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **8** |
-| 🌿 | Do 30 dnů | **18** |
+| ♨️ | Do 14 dnů | **7** |
+| 🌿 | Do 30 dnů | **19** |
 | 📄 | Do 90 dnů | **15** |
 | 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
@@ -51,7 +51,7 @@ generated: 2026-11-17
     - ♨️ [[Dashboard]] `v2` · 4. 11. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
-    - ♨️ [[EZD – elektronická zdravotní dokumentace]] `v9` · 3. 11. 2026
+    - 🌿 [[EZD – elektronická zdravotní dokumentace]] `v9` · 3. 11. 2026
     - 🗄️ [[Modul ordinace]] `v7` · 16. 6. 2026
     - 🗄️ [[Odložení pacienta]] `v2` · 25. 6. 2026
     - 🗄️ [[Ověření údajů v kartě pacienta]] `v1` · 22. 7. 2025
