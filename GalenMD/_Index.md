@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-18
+generated: 2026-11-19
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **18. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-18
+> **19. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-19
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **7** |
-| 🌿 | Do 30 dnů | **19** |
-| 📄 | Do 90 dnů | **15** |
+| ♨️ | Do 14 dnů | **6** |
+| 🌿 | Do 30 dnů | **18** |
+| 📄 | Do 90 dnů | **17** |
 | 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
 
@@ -48,7 +48,7 @@ generated: 2026-11-18
     - 🗄️ [[Anamnéza]] `v3` · 4. 2. 2026
     - 🗄️ [[Archiv – Přeřazení pacienta do archivu]] `v4` · 16. 6. 2026
     - 🗄️ [[Auditní stopa]] `v1` · 18. 6. 2026
-    - ♨️ [[Dashboard]] `v2` · 4. 11. 2026
+    - 🌿 [[Dashboard]] `v2` · 4. 11. 2026
     - 🗄️ [[Evidence přesunu papírové dokumentace]] `v1` · 17. 9. 2025
     - 🗄️ [[Externí zpráva - zobrazení a upozornění]] `v1` · 17. 9. 2025
     - 🌿 [[EZD – elektronická zdravotní dokumentace]] `v9` · 3. 11. 2026
@@ -149,7 +149,7 @@ generated: 2026-11-18
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
-    - 🌿 [[Novinky ve verzi k 20. 10. 2026]] `v1` · 19. 10. 2026
+    - 📄 [[Novinky ve verzi k 20. 10. 2026]] `v1` · 19. 10. 2026
     - 🗄️ [[Novinky ve verzi k 21. 4. 2026]] `v7` · 23. 4. 2026
     - 📄 [[Novinky ve verzi k 22. 9. 2026]] `v1` · 21. 9. 2026
     - 🗄️ [[Novinky ve verzi k 24. 2. 2026]] `v2` · 23. 2. 2026
@@ -301,7 +301,7 @@ generated: 2026-11-18
       - 🗄️ [[Přihlášení do Signosoftu]] `v1` · 29. 1. 2026
     - 🗄️ **[[ePosudek – Elektronické lékařské posudky]]** `v1` · 29. 4. 2026
       - 🗄️ **[[Certifikát PZS]]** `v7` · 17. 7. 2026
-        - 🌿 [[Obnova certifikátu PZS ve FONS Galen]] `v2` · 19. 10. 2026
+        - 📄 [[Obnova certifikátu PZS ve FONS Galen]] `v2` · 19. 10. 2026
       - 🗄️ [[ePosudek – Řidičské oprávnění (ŘP)]] `v1` · 29. 4. 2026
     - 🗄️ **[[ePoukaz]]** `v2` · 13. 5. 2026
       - 🗄️ **[[ePoukaz – změny platné od 1. 1. 2026]]** `v2` · 28. 11. 2025
