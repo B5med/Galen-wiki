@@ -1,20 +1,20 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-19
+generated: 2026-11-20
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **19. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-19
+> **20. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-20
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
-| 🔥 | Do 3 dnů | **1** |
-| ♨️ | Do 14 dnů | **6** |
-| 🌿 | Do 30 dnů | **18** |
-| 📄 | Do 90 dnů | **17** |
+| 🔥 | Do 3 dnů | **0** |
+| ♨️ | Do 14 dnů | **3** |
+| 🌿 | Do 30 dnů | **21** |
+| 📄 | Do 90 dnů | **18** |
 | 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
 
@@ -145,7 +145,7 @@ generated: 2026-11-19
     - 🗄️ [[Novinky ve verzi k 16. 12. 2025]] `v2` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 16. 6. 2026]] `v1` · 15. 6. 2026
     - 🗄️ [[Novinky ve verzi k 18. 11. 2025]] `v2` · 3. 12. 2025
-    - 🔥 [[Novinky ve verzi k 18. 11. 2026]] `v2` · 16. 11. 2026
+    - ♨️ [[Novinky ve verzi k 18. 11. 2026]] `v2` · 16. 11. 2026
     - 🗄️ [[Novinky ve verzi k 19. 5. 2026]] `v2` · 18. 5. 2026
     - 🗄️ [[Novinky ve verzi k 2. 12. 2025]] `v4` · 17. 12. 2025
     - 🗄️ [[Novinky ve verzi k 2. 6. 2026]] `v2` · 2. 6. 2026
@@ -170,7 +170,7 @@ generated: 2026-11-19
   - 🗄️ **[[Správce a nastavení]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Design]]** `v1` · 18. 6. 2025
       - 🗄️ [[Možnost editace vlastních pravidel pro vykazování výkonů]] `v5` · 9. 3. 2026
-      - ♨️ [[Prohlídky]] `v12` · 5. 11. 2026
+      - 🌿 [[Prohlídky]] `v12` · 5. 11. 2026
       - 🗄️ [[Předlohy tisku]] `v4` · 19. 6. 2025
       - 🗄️ [[Číselné řady]] `v1` · 19. 6. 2025
     - 🗄️ **[[Nástroje]]** `v3` · 21. 7. 2025
@@ -228,8 +228,8 @@ generated: 2026-11-19
           - 🗄️ [[Smluvní výkony]] `v2` · 10. 12. 2025
           - 🗄️ [[URL adresa pracoviště|URL adresa pracoviště ]] `v1` · 21. 7. 2025
           - 🗄️ [[Využívaná a spolupracující pracoviště]] `v3` · 29. 1. 2026
-        - ♨️ **[[Společnost]]** `v6` · 5. 11. 2026
-          - ♨️ [[Omezení přímého zadávání výkonů]] `v2` · 5. 11. 2026
+        - 🌿 **[[Společnost]]** `v6` · 5. 11. 2026
+          - 🌿 [[Omezení přímého zadávání výkonů]] `v2` · 5. 11. 2026
         - 🗄️ **[[Uživatelé]]** `v1` · 22. 7. 2025
           - 🌿 **[[Role uživatele]]** `v4` · 23. 10. 2026
             - 🌿 [[Administrátor (omezená práva)]] `v1` · 23. 10. 2026
@@ -279,7 +279,7 @@ generated: 2026-11-19
     - 🗄️ [[Foniatrie]] `v1` · 1. 7. 2025
     - 🗄️ [[Převzetí a ukončení péče pacienta v záchytných centrech a IS Galen]] `v1` · 7. 1. 2026
     - 📄 [[Vyšetření]] `v2` · 25. 9. 2026
-    - ♨️ [[Výkon – Zadání zdravotních výkonů]] `v4` · 5. 11. 2026
+    - 🌿 [[Výkon – Zadání zdravotních výkonů]] `v4` · 5. 11. 2026
   - 🗄️ **[[Začínam se systémem]]** `v4` · 15. 5. 2026
     - 🗄️ **[[Nastavení kvalifikovaného certifikátu a vyplnění údajů od SÚKL]]** `v5` · 7. 11. 2025
       - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
@@ -347,7 +347,7 @@ generated: 2026-11-19
       - 🗄️ [[Potřebná nastavení]] `v3` · 5. 12. 2025
       - 🗄️ [[Vyřazení dávky (stav „Vyřazená“)]] `v3` · 29. 7. 2026
     - 📄 [[Centrová léčba]] `v3` · 10. 9. 2026
-    - 🌿 [[Poukaz FT]] `v3` · 20. 10. 2026
+    - 📄 [[Poukaz FT]] `v3` · 20. 10. 2026
     - 🗄️ [[Příkaz ke zdravotnímu transportu]] `v2` · 21. 7. 2025
     - 🗄️ [[RDG žádanky]] `v1` · 1. 7. 2025
 - 🗄️ **[[MDCL API]]** `v2` · 8. 7. 2025
