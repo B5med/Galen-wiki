@@ -1,11 +1,11 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-20
+generated: 2026-11-21
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **20. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-20
+> **21. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-21
 
 ## Legenda stáří dokumentu
 
@@ -13,8 +13,8 @@ generated: 2026-11-20
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
 | ♨️ | Do 14 dnů | **3** |
-| 🌿 | Do 30 dnů | **21** |
-| 📄 | Do 90 dnů | **18** |
+| 🌿 | Do 30 dnů | **20** |
+| 📄 | Do 90 dnů | **19** |
 | 🗄️ | Starší než 3 měsíce | **306** |
 | ❓ | Bez data | **0** |
 
@@ -285,7 +285,7 @@ generated: 2026-11-20
       - 🗄️ [[Přegenerování certifikátů]] `v3` · 7. 11. 2025
     - 🗄️ [[Cesta k nastavení používání hesel|Cesta k nastavení používání hesel]] `v1` · 17. 6. 2025
     - 🗄️ [[Dvoufaktorové ověření (2FA)]] `v5` · 7. 11. 2025
-    - 🌿 [[Instalace FONS Galen]] `v7` · 21. 10. 2026
+    - 📄 [[Instalace FONS Galen]] `v7` · 21. 10. 2026
     - 🗄️ [[Klávesové zkratky ve FONS Galen]] `v1` · 21. 7. 2025
     - 🗄️ [[Obnovení hesla e-mailem]] `v1` · 26. 8. 2025
     - 🗄️ [[Off-line režim]] `v1` · 18. 6. 2025
