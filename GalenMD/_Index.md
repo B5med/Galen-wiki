@@ -1,21 +1,21 @@
 ---
 title: "Rejstřík stránek FONS Galen"
-generated: 2026-11-24
+generated: 2026-11-25
 ---
 
 # 📚 Rejstřík stránek FONS Galen
 
-> **24. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-24
+> **25. 11. 2026**  ·  Celkem stránek: **348**  ·  Poslední sync z Confluence: 2026-11-25
 
 ## Legenda stáří dokumentu
 
 | Emoji | Stáří | Počet |
 |:-----:|-------|:-----:|
 | 🔥 | Do 3 dnů | **0** |
-| ♨️ | Do 14 dnů | **2** |
-| 🌿 | Do 30 dnů | **8** |
-| 📄 | Do 90 dnů | **31** |
-| 🗄️ | Starší než 3 měsíce | **307** |
+| ♨️ | Do 14 dnů | **1** |
+| 🌿 | Do 30 dnů | **9** |
+| 📄 | Do 90 dnů | **30** |
+| 🗄️ | Starší než 3 měsíce | **308** |
 | ❓ | Bez data | **0** |
 
 ---
@@ -39,7 +39,7 @@ generated: 2026-11-24
     - 🗄️ [[Export dokladů do účetního systému POHODA]] `v2` · 16. 10. 2025
     - 🗄️ [[Modul finance]] `v3` · 13. 5. 2026
     - 📄 [[Sortiment v cizí měně (EUR)]] `v5` · 5. 10. 2026
-    - 📄 [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
+    - 🗄️ [[Uživatelská hlavička a příznak na bankovním spojení]] `v7` · 26. 8. 2026
   - 🗄️ **[[Karta pacienta a zdravotní dokumentace]]** `v3` · 15. 5. 2026
     - 🗄️ **[[Historie pacienta]]** `v2` · 18. 6. 2025
       - 📄 [[Percentilové grafy krevního tlaku (pediatr)]] `v6` · 16. 10. 2026
@@ -249,7 +249,7 @@ generated: 2026-11-24
     - 🗄️ **[[Číselníky]]** `v1` · 21. 7. 2025
       - 🗄️ [[Záznamy v číselníku vytvořené uživatelem]] `v3` · 21. 7. 2025
     - 🗄️ [[Bezpečnostní logy]] `v1` · 17. 9. 2025
-    - ♨️ [[eShop]] `v3` · 10. 11. 2026
+    - 🌿 [[eShop]] `v3` · 10. 11. 2026
     - 📄 [[Externí přístup]] `v3` · 1. 10. 2026
     - 🗄️ [[Nadstandardní péče]] `v2` · 20. 6. 2025
     - 🗄️ [[Skartace pacientů]] `v1` · 1. 7. 2025
